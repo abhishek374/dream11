@@ -30,7 +30,8 @@ class ScoreCard:
         batsmen_summary = pd.concat(df_list, join='outer', axis=1).fillna(np.nan).reset_index()
         batsmen_summary = pd.merge(batsmen_summary, self.matchdata[['matchid', 'batsmanname', 'innings', 'battingteam', 'bowlingteam']].
                                    drop_duplicates(), on=['matchid', 'batsmanname'], how='left')
-        batsmen_summary.rename(columns={'innings': 'batsmen_innings'}, inplace=True)
+        batsmen_summary.rename(columns={'innings': 'batsmen_innings', 'batsmanname': 'playername', 'battingteam': 'batsmen_battingteam',
+                                        'bowlingteam': 'batsmen_bowlingteam'}, inplace=True)
         return batsmen_summary
 
     def bowler_summary_fun(self) -> pd.DataFrame:
@@ -57,7 +58,8 @@ class ScoreCard:
         bowler_summary = pd.concat(df_list, join='outer', axis=1).fillna(np.nan).reset_index()
         # adding additional columns just in case we need for modeling
         bowler_summary = pd.merge(bowler_summary, self.matchdata[['matchid', 'bowlername', 'innings', 'battingteam', 'bowlingteam']].drop_duplicates(), on=['matchid', 'bowlername'], how='left')
-        bowler_summary.rename(columns={'innings': 'bowlers_innings'}, inplace=True)
+        bowler_summary.rename(columns={'innings': 'bowlers_innings', 'bowlername': 'playername', 'battingteam': 'bowler_battingteam',
+                                       'bowlingteam': 'bowler_bowlingteam'}, inplace=True)
         bowler_summary['economy_rate'] = (bowler_summary['total_runs_given'] * 6) / bowler_summary['total_legal_balls_bowled']
         return bowler_summary
 
@@ -117,6 +119,17 @@ class ScoreCard:
                                                                            fill_value=0)
         return bowler_scorecard
 
+    @staticmethod
+    def merge_batsmen_bowler_scorecard(batting_points, bowling_points):
+        """
+        batting_points: scorecard from batsmen perspective with dream11 points
+        bowling_points: scorecard from bowling perspective with dream11 points
+        :return: ipl_points: merged dataset with the total points per player in a match
+        """
+        ipl_points = pd.merge(batting_points, bowling_points, on=['matchid', 'playername'], how='outer')
+        ipl_points['total_points'] = ipl_scorecard_points['total_bat_points'].add(ipl_points['total_bowl_points'], fill_value=0)
+        return ipl_points
+
 
 pointsconfig = {'total_runs': 1,
                 'run_6': 2,
@@ -139,10 +152,12 @@ pointsconfig = {'total_runs': 1,
 
 # getting the scorecard from a batsmen's perspective
 ipl_scorecard = ScoreCard(matchdata.copy())
-
+# getting the points from a batsmen's perspective
 batting_points = ipl_scorecard.get_batting_points(pointsconfig)
 print(batting_points)
-
+# getting the points from a bowler's perspective
 bowling_points = ipl_scorecard.get_bowling_points(pointsconfig)
 print(bowling_points)
+# merging both the batsmen and bowler's points to get a single view
+ipl_scorecard_points = ipl_scorecard.merge_batsmen_bowler_scorecard(batting_points, bowling_points)
 
