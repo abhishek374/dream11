@@ -1,8 +1,6 @@
 import pandas as pd
 import numpy as np
 
-# reading the source file from local
-matchdata = pd.read_csv(r'matchdata.csv')
 class ScoreCard:
     def __init__(self, matchdata):
 
@@ -26,12 +24,14 @@ class ScoreCard:
             rename(columns={"scorevalue": "run_6"})
         batsmen_scores4 = pd.DataFrame(self.matchdata[self.matchdata['scorevalue'] == 4].groupby(['matchid', 'batsmanname'])['scorevalue'].count()).\
             rename(columns={"scorevalue": "run_4"})
-        df_list = [batsmen_score, batsmen_ball_faced, batsmen_ball_faced_legal, batsmen_scores6, batsmen_scores4]
+        batsmen_position = pd.DataFrame(self.matchdata.groupby(['matchid', 'batsmanname'])['fallofwickets'].min())
+        df_list = [batsmen_score, batsmen_ball_faced, batsmen_ball_faced_legal, batsmen_scores6, batsmen_scores4, batsmen_position]
         batsmen_summary = pd.concat(df_list, join='outer', axis=1).fillna(np.nan).reset_index()
         batsmen_summary = pd.merge(batsmen_summary, self.matchdata[['matchid', 'batsmanname', 'innings', 'battingteam', 'bowlingteam']].
                                    drop_duplicates(), on=['matchid', 'batsmanname'], how='left')
         batsmen_summary.rename(columns={'innings': 'batsmen_innings', 'batsmanname': 'playername', 'battingteam': 'batsmen_battingteam',
                                         'bowlingteam': 'batsmen_bowlingteam'}, inplace=True)
+        print(batsmen_summary.columns)
         return batsmen_summary
 
     def bowler_summary_fun(self) -> pd.DataFrame:
@@ -127,37 +127,7 @@ class ScoreCard:
         :return: ipl_points: merged dataset with the total points per player in a match
         """
         ipl_points = pd.merge(batting_points, bowling_points, on=['matchid', 'playername'], how='outer')
-        ipl_points['total_points'] = ipl_scorecard_points['total_bat_points'].add(ipl_points['total_bowl_points'], fill_value=0)
+        ipl_points['total_points'] = ipl_points['total_bat_points'].add(ipl_points['total_bowl_points'], fill_value=0)
         return ipl_points
 
-
-pointsconfig = {'total_runs': 1,
-                'run_6': 2,
-                'run_4': 1,
-                  '>=50': 8,
-                  '>=100': 16,
-                  'duck': -2,
-                  'total_wickets': 25,
-                  '>=4W': 8,
-                  '>=5W': 16,
-                  'maiden_overs': 8,
-                  '<=4E': 6,
-                  '<5E': 4,
-                  '<6E': 2,
-                  '>9E': -2,
-                  '>10E': -4,
-                  '>11E': -6
-                }
-
-
-# getting the scorecard from a batsmen's perspective
-ipl_scorecard = ScoreCard(matchdata.copy())
-# getting the points from a batsmen's perspective
-batting_points = ipl_scorecard.get_batting_points(pointsconfig)
-print(batting_points)
-# getting the points from a bowler's perspective
-bowling_points = ipl_scorecard.get_bowling_points(pointsconfig)
-print(bowling_points)
-# merging both the batsmen and bowler's points to get a single view
-ipl_scorecard_points = ipl_scorecard.merge_batsmen_bowler_scorecard(batting_points, bowling_points)
 
