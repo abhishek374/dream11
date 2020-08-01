@@ -31,7 +31,6 @@ class ScoreCard:
                                    drop_duplicates(), on=['matchid', 'batsmanname'], how='left')
         batsmen_summary.rename(columns={'innings': 'batsmen_innings', 'batsmanname': 'playername', 'battingteam': 'batsmen_battingteam',
                                         'bowlingteam': 'batsmen_bowlingteam'}, inplace=True)
-        print(batsmen_summary.columns)
         return batsmen_summary
 
     def bowler_summary_fun(self) -> pd.DataFrame:
@@ -129,5 +128,3 @@ class ScoreCard:
         ipl_points = pd.merge(batting_points, bowling_points, on=['matchid', 'playername'], how='outer')
         ipl_points['total_points'] = ipl_points['total_bat_points'].add(ipl_points['total_bowl_points'], fill_value=0)
         return ipl_points
-
-

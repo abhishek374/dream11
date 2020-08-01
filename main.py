@@ -1,6 +1,6 @@
 from data_prep import ScoreCard
 import pandas as pd
-
+from optimized_selection import  *
 # reading the source file from local
 matchdata = pd.read_csv(r'matchdata.csv')
 
@@ -35,4 +35,11 @@ ipl_scorecard_points = ipl_scorecard.merge_batsmen_bowler_scorecard(batting_poin
 # writing
 ipl_scorecard_points.to_csv(r'ipl_scorecard_points.csv', index=False)
 
+# Defining the metric to select the players
+ipl_scorecard_points_avg = get_points_moving_avg(ipl_scorecard_points.copy(), rolling_avg_window=10)
 # selecting the 11 players from a team of 22 based on historic points average
+
+ipl_scorecard_points = select_top11_players(ipl_scorecard_points_avg, 'total_points_avg', 'total_points')
+accuracy_df = compare_pred_vs_actual_points(ipl_scorecard_points)
+rewards_array = get_estimated_rewards(accuracy_df, rewardconfig, fixed_multipler=50)
+accuracy_df.to_csv(r'accuracy_df.csv', index=False)
