@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 ipl_scorecard_points = pd.read_csv(r'ipl_scorecard_points.csv')
-def get_avg_point(ipl_points, rolling_avg_window):
+def get_points_moving_avg(ipl_points, rolling_avg_window):
     """
     function to get the average points scored by a player
 
@@ -20,7 +20,7 @@ def get_avg_point(ipl_points, rolling_avg_window):
     ipl_points = pd.merge(ipl_points, player_avg_points, on=['matchid', 'playername'], how='left')
     return ipl_points
 
-def select_top11_players(master_df, predpointscol,pointscol):
+def select_top11_players(input_df, predpointscol,pointscol):
     """
     function to select top 11 players out of the 22 players based on a given score
     master_df: dataset with the players name and match id
@@ -28,31 +28,77 @@ def select_top11_players(master_df, predpointscol,pointscol):
     :return:
 
     """
-    master_df['pred_selection_rank'] = master_df.groupby('matchid')[predpointscol].rank(ascending=False)
-    master_df['pred_selection_true'] = np.where(master_df['pred_selection_rank'] >11, 0,1)
+    output_df = input_df.copy()
+    output_df['pred_selection_rank'] = input_df.groupby('matchid')[predpointscol].rank(ascending=False)
+    output_df['pred_selection_true'] = np.where(np.isnan(output_df['pred_selection_rank']), 0,
+                                               np.where((output_df['pred_selection_rank'] < 11), 1, 0))
+    output_df['selection_rank'] = input_df.groupby('matchid')[pointscol].rank(ascending=False)
+    output_df['selection_true'] = np.where(np.isnan(output_df['selection_rank']), 0,
+                                               np.where((output_df['selection_rank'] < 11), 1, 0))
+    return output_df
 
-    master_df['selection_rank'] = master_df.groupby('matchid')[pointscol].rank(ascending=False)
-    master_df['selection_true'] = np.where(master_df['selection_rank'] >11, 0,1)
-    return master_df
-
-def compare_pred_vs_actual_points(input_df):
+def compare_pred_vs_actual_points(input_df) -> np.array:
     """
 
-    :param input_df: input dataframe with predicted points per player and actual points scored
+    input_df: input dataframe with predicted points per player and actual points scored
     :return:
     """
-    input_df['prep_points_player'] = input_df['pred_selection_true']*input_df['total_points']
-    input_df['actual_points_player'] = input_df['selection_true'] * input_df['total_points']
-    total_match_points_pred = input_df.groupby('matchid')['prep_points_player'].sum()
-    total_match_points_actual = input_df.groupby('matchid')['total_points'].sum()
-    accuracy = (total_match_points_actual - total_match_points_pred)/ total_match_points_actual
-    return accuracy
-ipl_scorecard_points_avg = get_avg_point(ipl_scorecard_points.copy(), rolling_avg_window=10)
-ipl_scorecard_points = select_top11_players(ipl_scorecard_points_avg, 'total_points_avg','total_points')
-accuracy_array = compare_pred_vs_actual_points(ipl_scorecard_points)
-accuracy_array.to_csv(r'accuracy_array.csv', index=False)
+    output_df = input_df.copy()
+    output_df['pred_points_player'] = np.where(np.isnan(input_df['pred_selection_true']), np.nan, input_df['pred_selection_true']*input_df['total_points'])
+    output_df['actual_points_player'] = np.where(np.isnan(input_df['selection_true']), np.nan, input_df['selection_true']*input_df['total_points'])
+
+    total_match_points_pred = pd.DataFrame(output_df.groupby('matchid')['pred_points_player'].sum())
+    total_match_points_actual = pd.DataFrame(output_df.groupby('matchid')['actual_points_player'].sum())
+
+    count_player_selected = pd.DataFrame(output_df.groupby('matchid')['pred_selection_true'].sum()).rename(columns = {'pred_selection_true':'pred_selection_cnt'})
+
+    total_match_points = total_match_points_pred.merge(total_match_points_actual, left_index=True, right_index=True, how='left')
+    total_match_points = total_match_points.merge(count_player_selected, left_index=True, right_index=True, how='left')
+    total_match_points = total_match_points.reset_index()
+    total_match_points['accuracy'] = np.where(total_match_points['pred_selection_cnt'] >= 10,
+                                              (total_match_points['actual_points_player'] - total_match_points['pred_points_player'])/total_match_points['actual_points_player'], np.nan)
+    return total_match_points
+
+rewardconfig = {'1per': 1000,
+                '2per': 200,
+                '3per': 100,
+                '4per': 80,
+                '5per': 40,
+                '6per': 20,
+                '8per': 5,
+                '10per': 2}
+
+def get_estimated_rewards(input_df, config, fixed_multipler) -> np.array:
+    """
+    function to calculate the expected rewards based on the estimated points
+    input_df: input_df with the accuracy columns to estimate the rewards
+    :return: rewardsarray
+    """
+    accuracy_series = input_df['accuracy']
+    conditions = [(np.isnan(accuracy_series)),
+                  (accuracy_series < .01),
+                  (accuracy_series < 0.02),
+                  (accuracy_series < 0.03),
+                  (accuracy_series < 0.04),
+                  (accuracy_series < 0.05),
+                  (accuracy_series < 0.06),
+                  (accuracy_series < 0.08),
+                  (accuracy_series < 0.10)]
+
+    choices = [0,
+               (config['1per'] - 1) * fixed_multipler,
+               (config['2per'] - 1) * fixed_multipler,
+                (config['3per'] - 1) * fixed_multipler,
+                 (config['4per'] - 1) * fixed_multipler,
+                  (config['5per'] - 1) * fixed_multipler,
+                   (config['6per'] - 1) * fixed_multipler,
+                    (config['8per'] - 1) * fixed_multipler,
+                     (config['10per'] - 1) * fixed_multipler]
+
+    rewards_array = np.select(conditions, choices, default=-1*fixed_multipler)
+    return rewards_array
+
 
 # TODO Add the module to check for constraint
 # TODO Define a player as batsmen, bowler or all rounder
-# TODO ROI Calculator
 
