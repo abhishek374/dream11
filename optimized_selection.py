@@ -4,7 +4,7 @@ import numpy as np
 
 def get_points_moving_avg(ipl_points, rolling_avg_window) -> pd.DataFrame:
     """
-
+    function to calculate predicted points per player based on moving average method
     :param ipl_points: dataframe with the historical points achieved by the player
     :param rolling_avg_window: number of matches to take the rolling average over
     :return: ipl_points: dataframe with the columns total_points_avg, metric used to select the eventual team
@@ -25,9 +25,9 @@ def get_points_moving_avg(ipl_points, rolling_avg_window) -> pd.DataFrame:
 def select_top11_players(input_df, predpointscol,pointscol,teamcount):
     """
     function to select top 11 players out of the 22 players based on a given score
-    input_df: dataset with the players name and match id
-    predpointscol: column used to prioritize and pick top 11 players
-    pointscol: actual points obtained by the players in the match
+    :param input_df: dataset with the players name and match id
+    :param predpointscol: column used to prioritize and pick top 11 players
+    :param pointscol: actual points obtained by the players in the match
     :return: output_df: input_df wuth additional column with pred_selection_true
 
     """
@@ -57,11 +57,11 @@ def adjust_points_for_captaincy(input_df, predpointscol, pointscol, playercount)
     return output_df
 
 
-def compare_pred_vs_actual_points(input_df) -> np.array:
+def compare_pred_vs_actual_points(input_df) -> pd.DataFrame:
     """
     function to calculate the selected team's points achieved as a percentage of maximum possible
     :param input_df: input dataframe with predicted points per player and actual points scored
-    :return:
+    :return: total_match_points
     """
     output_df = input_df.copy()
     output_df['pred_points_player'] = np.where(np.isnan(input_df['pred_selection_true']), np.nan, input_df['pred_selection_true']*input_df['total_points'])
@@ -117,7 +117,7 @@ def get_estimated_rewards(input_df, config, fixed_multipler) -> np.array:
 
 def check_dream11_constraint(team_df):
     """
-
+    function to measure the constraints of number of players from each type of playing role that can be selected
     :param team_df: dataframe of the team with the cost and playing role of each player
     :return: Check: a boolean data type clearing a particular team choice
     """
