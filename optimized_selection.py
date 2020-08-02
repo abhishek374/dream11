@@ -57,11 +57,11 @@ def adjust_points_for_captaincy(input_df, predpointscol, pointscol, playercount)
     return output_df
 
 
-def compare_pred_vs_actual_points(input_df) -> np.array:
+def compare_pred_vs_actual_points(input_df) -> pd.DataFrame:
     """
     function to calculate the selected team's points achieved as a percentage of maximum possible
     :param input_df: input dataframe with predicted points per player and actual points scored
-    :return:
+    :return: total_match_points
     """
     output_df = input_df.copy()
     output_df['pred_points_player'] = np.where(np.isnan(input_df['pred_selection_true']), np.nan, input_df['pred_selection_true']*input_df['total_points'])
