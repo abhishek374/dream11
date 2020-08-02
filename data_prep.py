@@ -82,11 +82,14 @@ class ScoreCard:
         input_df: input dataframe that has the combined scorecard of the players with batting and bowling
         :return player_avg: df with the player name and player's playing role
         """
-        player_avg = pd.DataFrame(input_df.groupby('playername')['total_balls_faced', 'total_balls_bowled'].mean())
-        conditions = [((player_avg['total_balls_faced'] >= 8) & (player_avg['total_balls_bowled'] >= 6)),
-                      (player_avg['total_balls_bowled'] >= 6)]
+        MINAVGBALLSFACED = 8
+        MINAVGBOWLSBOWLED = 6
+        player_avg = input_df[['playername', 'total_balls_faced', 'total_balls_bowled']].fillna(0)
+        player_avg = pd.DataFrame(player_avg.groupby('playername')['total_balls_faced', 'total_balls_bowled'].mean())
+        conditions = [((player_avg['total_balls_faced'] >= MINAVGBALLSFACED) & (player_avg['total_balls_bowled'] >= MINAVGBOWLSBOWLED)),
+                      (player_avg['total_balls_bowled'] >= MINAVGBOWLSBOWLED)]
         choices = ['All Rounder', 'Bowler']
-        player_avg['playing_role'] = np.select(conditions, choices, default=np.nan)
+        player_avg['playing_role'] = np.select(conditions, choices, default='Batsmen')
         player_avg = player_avg.reset_index()
         return player_avg
 
@@ -103,7 +106,7 @@ class Dream11Points:
         pointsconfig: dictionary with points per score type as per dream11
         :return:
         """
-        self.player_scorecard['total_runs_points'] = self.player_scorecard['total_runs'] * self.player_scorecard['total_runs']
+        self.player_scorecard['total_runs_points'] = self.player_scorecard['total_runs'] * self.pointsconfig['total_runs']
         self.player_scorecard['run_6_points'] = self.pointsconfig['run_6'] * self.player_scorecard['run_6']
         self.player_scorecard['run_4_points'] = self.pointsconfig['run_4'] * self.player_scorecard['run_4']
         self.player_scorecard['run_bonus_points'] = np.where(self.player_scorecard['total_runs'] == 0, self.pointsconfig['duck'], 0)
