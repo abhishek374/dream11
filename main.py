@@ -53,14 +53,17 @@ ipl_scorecard_points_avg = get_points_moving_avg(ipl_scorecard_points.copy(), ro
 ipl_scorecard_points_avg.to_csv(r'ipl_scorecard_points_avg.csv', index=False)
 
 # selecting the 11 players from a team of 22 based on historic points average
-TEAMCOUNT = 11
-ipl_scorecard_points = select_top11_players(ipl_scorecard_points_avg, 'total_points_avg', 'total_points', teamcount=TEAMCOUNT)
+SQUADCOUNT = 11
+TOTALPLAYERCOUNT = 22
+ipl_optimized_team = select_top11_players(ipl_scorecard_points_avg, 'total_points_avg', 'total_points', teamcount=SQUADCOUNT)
 # calculating the accuracy of the prediction against the maximum possible in the match
-accuracy_df = compare_pred_vs_actual_points(ipl_scorecard_points)
+ipl_optimized_team = adjust_points_for_captaincy(ipl_optimized_team, 'total_points_avg', 'total_points', playercount=TOTALPLAYERCOUNT)
+
+accuracy_df = compare_pred_vs_actual_points(ipl_optimized_team)
 # estimating the monetary impact of the project
 rewards_df = get_estimated_rewards(accuracy_df, rewardconfig, fixed_multipler=50)
-rewards_df.to_csv(r'rewards_df.csv', index=False)
 print(rewards_df['rewards_earned'].sum())
+rewards_df.to_csv(r'rewards_df.csv', index=False)
 
 # TODO Add dream11 playing role constraint to the select11 function
 # TODO Enable captain and vice captain role in point calculation
