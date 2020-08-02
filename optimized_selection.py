@@ -20,26 +20,28 @@ def get_points_moving_avg(ipl_points, rolling_avg_window):
     ipl_points = pd.merge(ipl_points, player_avg_points, on=['matchid', 'playername'], how='left')
     return ipl_points
 
-def select_top11_players(input_df, predpointscol,pointscol):
+def select_top11_players(input_df, predpointscol,pointscol,teamcount):
     """
     function to select top 11 players out of the 22 players based on a given score
-    master_df: dataset with the players name and match id
+    input_df: dataset with the players name and match id
     pointscol: column used to prioritize and pick top 11 players
-    :return:
+    :return: output_df: input_df wuth additional column with pred_selection_true
 
     """
+    # TODO Add the module to check for constraint within select11
+
     output_df = input_df.copy()
     output_df['pred_selection_rank'] = input_df.groupby('matchid')[predpointscol].rank(ascending=False)
     output_df['pred_selection_true'] = np.where(np.isnan(output_df['pred_selection_rank']), 0,
-                                               np.where((output_df['pred_selection_rank'] < 11), 1, 0))
+                                               np.where((output_df['pred_selection_rank'] <= 11), 1, 0))
     output_df['selection_rank'] = input_df.groupby('matchid')[pointscol].rank(ascending=False)
     output_df['selection_true'] = np.where(np.isnan(output_df['selection_rank']), 0,
-                                               np.where((output_df['selection_rank'] < 11), 1, 0))
+                                               np.where((output_df['selection_rank'] <= 11), 1, 0))
     return output_df
 
 def compare_pred_vs_actual_points(input_df) -> np.array:
     """
-
+    function to calculate the selected team's points achieved as a percentage of maximum possible
     input_df: input dataframe with predicted points per player and actual points scored
     :return:
     """
@@ -59,21 +61,13 @@ def compare_pred_vs_actual_points(input_df) -> np.array:
                                               (total_match_points['actual_points_player'] - total_match_points['pred_points_player'])/total_match_points['actual_points_player'], np.nan)
     return total_match_points
 
-rewardconfig = {'1per': 1000,
-                '2per': 200,
-                '3per': 100,
-                '4per': 80,
-                '5per': 40,
-                '6per': 20,
-                '8per': 5,
-                '10per': 2}
-
 def get_estimated_rewards(input_df, config, fixed_multipler) -> np.array:
     """
     function to calculate the expected rewards based on the estimated points
     input_df: input_df with the accuracy columns to estimate the rewards
-    :return: rewardsarray
+    :return: output_df: input_df with the rewards earned column added
     """
+    output_df = input_df.copy()
     accuracy_series = input_df['accuracy']
     conditions = [(np.isnan(accuracy_series)),
                   (accuracy_series < .01),
@@ -83,22 +77,46 @@ def get_estimated_rewards(input_df, config, fixed_multipler) -> np.array:
                   (accuracy_series < 0.05),
                   (accuracy_series < 0.06),
                   (accuracy_series < 0.08),
-                  (accuracy_series < 0.10)]
+                  (accuracy_series < 0.10),
+                  (accuracy_series < 0.15),
+                  (accuracy_series < 0.20),
+                  (accuracy_series < 0.25)]
 
     choices = [0,
                (config['1per'] - 1) * fixed_multipler,
                (config['2per'] - 1) * fixed_multipler,
-                (config['3per'] - 1) * fixed_multipler,
-                 (config['4per'] - 1) * fixed_multipler,
-                  (config['5per'] - 1) * fixed_multipler,
-                   (config['6per'] - 1) * fixed_multipler,
-                    (config['8per'] - 1) * fixed_multipler,
-                     (config['10per'] - 1) * fixed_multipler]
+               (config['3per'] - 1) * fixed_multipler,
+               (config['4per'] - 1) * fixed_multipler,
+               (config['5per'] - 1) * fixed_multipler,
+               (config['6per'] - 1) * fixed_multipler,
+               (config['8per'] - 1) * fixed_multipler,
+               (config['10per'] - 1) * fixed_multipler,
+               (config['15per'] - 1) * fixed_multipler,
+               (config['20per'] - 1) * fixed_multipler,
+               (config['25per'] - 1) * fixed_multipler]
 
-    rewards_array = np.select(conditions, choices, default=-1*fixed_multipler)
-    return rewards_array
+    output_df['rewards_earned'] = np.select(conditions, choices, default=-1*fixed_multipler)
+    return output_df
 
 
-# TODO Add the module to check for constraint
-# TODO Define a player as batsmen, bowler or all rounder
+def check_dream11_constraint(team_df):
+    """
+
+    :param team_df: dataframe of the team with the cost and playing role of each player
+    :return: Check: a boolean data type clearing a particular team choice
+    """
+    summary_df = pd.DataFrame(team_df.groupby(['playing_role'])['playername'].count()).reset_index()
+    print(summary_df)
+    if ((summary_df[summary_df['playing_role'] == 'All Rounder']['playername'] > 1) &
+            (summary_df[summary_df['playing_role'] == 'All Rounder']['playername'] < 4)):
+        if summary_df[summary_df['playing_role'] == 'Batsmen']['playername'] > 1:
+            if summary_df[summary_df['playing_role'] == 'Bowler']['playername'] > 1:
+                Check = True
+            else:
+                Check = False
+        else:
+            Check = False
+    else:
+        Check = False
+
 
