@@ -5,6 +5,8 @@ class ScoreCard:
 
     def __init__(self, matchdata):
         self.matchdata = matchdata
+        self.matchdata['batsmanname'] = self.matchdata['batsmanname'].str.replace('-', ' ')
+        self.matchdata['bowlername'] = self.matchdata['bowlername'].str.replace('-', ' ')
         self.matchdata['over_num'] = self.matchdata['over'].apply(lambda x: int(x))
         return
 
@@ -63,7 +65,7 @@ class ScoreCard:
         self.bowler_summary = bowler_summary
         return
 
-    def merge_player_scorecard(self) -> pd.DataFrame:
+    def merge_player_scorecard(self):
         """
         batting_points: scorecard from batsmen perspective with dream11 points
         bowling_points: scorecard from bowling perspective with dream11 points
@@ -74,7 +76,8 @@ class ScoreCard:
         ipl_points = pd.merge(self.batsmen_summary, self.bowler_summary, on=['matchid', 'playername'], how='outer')
         player_avg = self.get_player_role(ipl_points)
         ipl_points = pd.merge(ipl_points, player_avg[['playername', 'playing_role']], on='playername', how='left')
-        return ipl_points
+        self.ipl_points = ipl_points
+        return
 
     def get_player_role(self, input_df) -> pd.DataFrame:
         """"
@@ -88,7 +91,7 @@ class ScoreCard:
         player_avg = pd.DataFrame(player_avg.groupby('playername')['total_balls_faced', 'total_balls_bowled'].mean())
         conditions = [((player_avg['total_balls_faced'] >= MINAVGBALLSFACED) & (player_avg['total_balls_bowled'] >= MINAVGBOWLSBOWLED)),
                       (player_avg['total_balls_bowled'] >= MINAVGBOWLSBOWLED)]
-        choices = ['All Rounder', 'Bowler']
+        choices = ['AllRounder', 'Bowler']
         player_avg['playing_role'] = np.select(conditions, choices, default='Batsmen')
         player_avg = player_avg.reset_index()
         return player_avg
@@ -96,9 +99,10 @@ class ScoreCard:
 
 class Dream11Points:
 
-    def __init__(self, player_scorecard,pointsconfig):
+    def __init__(self, player_scorecard, pointsconfig):
         self.player_scorecard = player_scorecard
         self.pointsconfig = pointsconfig
+
         return
 
     def get_batting_points(self) -> None:
@@ -141,8 +145,8 @@ class Dream11Points:
                                                 add(self.player_scorecard['economy_rate_points'], fill_value=0)
         return
 
-    def get_batsmen_bowler_points(self) -> pd.DataFrame:
+    def get_batsmen_bowler_points(self):
         self.get_batting_points()
         self.get_bowling_points()
         self.player_scorecard['total_points'] = self.player_scorecard['total_bat_points'].add(self.player_scorecard['total_bowl_points'], fill_value=0)
-        return self.player_scorecard
+        return
