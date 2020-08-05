@@ -38,16 +38,47 @@ rewardconfig = {
                 '25per': 1
                 }
 
+constconfig = {'MAXCOSTPOINT': 110,
+               'MINBATSMEN': 3,
+               'MAXBATSMEN': 6,
+               'MINBOWLER': 3,
+               'MAXBOWLER': 6,
+               'MINALLROUNDER': 1,
+               'MAXALLROUNDER': 4}
+
+colconfig = {'MATCHID': 'matchid',
+             'BATSMANNAME': 'batsmanname',
+             'BOWLERNAME': 'bowlername',
+             'SCOREVALUE': 'scorevalue',
+             'OVER': 'over',
+             'INNINGS': 'innings',
+             'BATTINGORDER': 'fallofwickets',
+             'BATTINGTEAM': 'battingteam',
+             'BOWLINGTEAM': 'bowlingteam',
+             'PLAYERNAME': 'playername',
+             'ACTUALPOINTS': 'total_points',
+             'PREDPOINTS': 'total_points_avg',
+             'PLAYERCOST': 'playercost',
+             'PLAYINGROLE': 'playing_role',
+             'PREDSELECTION': 'pred_selection_true',
+             'ACTUALSELECTION': 'actual_selection_true',
+             'PREDSELECTIONRANK': 'pred_selection_rank',
+             'ACTUALSELECTIONRANK': 'actual_selection_rank'}
+
 # getting the scorecard from a batsmen's perspective
 ipl_scorecard = ScoreCard(matchdata.copy())
-ipl_scorecard_summary = ipl_scorecard.merge_player_scorecard()
+ipl_scorecard.merge_player_scorecard()
 
 # merging both the batsmen and bowler's points to get a single view
-ipl_scorecard_points = Dream11Points(ipl_scorecard_summary, pointsconfig).get_batsmen_bowler_points()
+ipl_scorecard_points = Dream11Points(ipl_scorecard.ipl_points, pointsconfig)
+ipl_scorecard_points.get_batsmen_bowler_points()
 
 # Defining the metric to select the players
 ROLLINGWINDOW = 10
-ipl_scorecard_points_avg = get_points_moving_avg(ipl_scorecard_points.copy(), rolling_avg_window=ROLLINGWINDOW)
+ipl_scorecard_points_avg = get_points_moving_avg(ipl_scorecard_points.player_scorecard, rolling_avg_window=ROLLINGWINDOW)
+
+# Temp till we get better alternate to cost of each player
+ipl_scorecard_points_avg['playercost'] = 10
 
 # writing the scorecard to save it
 ipl_scorecard_points_avg.to_csv(r'ipl_scorecard_points_avg.csv', index=False)
@@ -55,16 +86,23 @@ ipl_scorecard_points_avg.to_csv(r'ipl_scorecard_points_avg.csv', index=False)
 # selecting the 11 players from a team of 22 based on historic points average
 SQUADCOUNT = 11
 TOTALPLAYERCOUNT = 22
-ipl_optimized_team = select_top11_players(ipl_scorecard_points_avg, 'total_points_avg', 'total_points', teamcount=SQUADCOUNT)
+
+
+# get the team by running binary LP solver
+optimum_team = SelectPlayingTeam(ipl_scorecard_points_avg, constconfig, colconfig)
+optimum_team.select_top11_players()
+
 # calculating the accuracy of the prediction against the maximum possible in the match
-ipl_optimized_team = adjust_points_for_captaincy(ipl_optimized_team, 'total_points_avg', 'total_points', playercount=TOTALPLAYERCOUNT)
+ipl_optimized_team = adjust_points_for_captaincy(optimum_team.team_points, colconfig)
 
-accuracy_df = compare_pred_vs_actual_points(ipl_optimized_team)
+# get the rewards estimate
+ipl_team_rewards = RewardEstimate(ipl_optimized_team)
+ipl_team_rewards.compare_pred_vs_actual_points(minplayercount=SQUADCOUNT)
+
 # estimating the monetary impact of the project
-rewards_df = get_estimated_rewards(accuracy_df, rewardconfig, fixed_multipler=50)
-print(rewards_df['rewards_earned'].sum())
-rewards_df.to_csv(r'rewards_df.csv', index=False)
+ipl_team_rewards.get_estimated_rewards(rewardconfig, fixed_multipler=50)
 
-# TODO Add dream11 playing role constraint to the select11 function
-# TODO Enable captain and vice captain role in point calculation
+print(ipl_team_rewards.total_match_points['rewards_earned'].sum())
+ipl_team_rewards.total_match_points.to_csv(r'rewards_df.csv', index=False)
+
 
