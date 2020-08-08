@@ -1,4 +1,4 @@
-from Data_prep import ScoreCard, Dream11Points
+from data_prep import ScoreCard, Dream11Points
 from optimized_selection import *
 from point_prediction import PointPred
 import pandas as pd
