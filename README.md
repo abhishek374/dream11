@@ -19,9 +19,23 @@ Current Results:
 
 ## Moving Average Method-
 
-1. Overall Accuracy Avg: 
-2. Total Rewards from IPL: 
-3. Tournament Wise Results:
+1. Overall Accuracy Avg: 76%
+2. Total Rewards from IPL: INR 16000/-
+3. Tournament Wise Results: 
+     accuracy  rewards_earned
+year                          
+2008  0.305532           -75.0
+2009  0.369222          -925.0
+2010  0.322313           675.0
+2011  0.312871          2300.0
+2012  0.350719          -675.0
+2013  0.331013          3875.0
+2014  0.396590         -1775.0
+2015  0.316104          6300.0
+2016  0.312403          -275.0
+2017  0.371433         -1600.0
+2018  0.333714          -850.0
+2019  0.347684          9125.0
 
 
 
