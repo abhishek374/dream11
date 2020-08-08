@@ -1,9 +1,9 @@
-from data_prep import ScoreCard, Dream11Points
+from Data_prep import ScoreCard, Dream11Points
 from optimized_selection import *
 from point_prediction import PointPred
 import pandas as pd
 # reading the source file from local
-matchdata = pd.read_csv(r'data/matchdata.csv')
+matchData = pd.read_csv(r'Data/matchData.csv')
 
 # points as per dream11 website
 pointsconfig = {
@@ -67,7 +67,7 @@ colconfig = {'MATCHID': 'matchid',
              'ACTUALSELECTIONRANK': 'actual_selection_rank'}
 
 # getting the scorecard from a batsmen's perspective
-ipl_scorecard = ScoreCard(matchdata.copy())
+ipl_scorecard = ScoreCard(matchData.copy())
 # merging both the batsmen and bowler's points to get a single view
 ipl_scorecard.merge_player_scorecard()
 
@@ -75,7 +75,7 @@ ipl_scorecard.merge_player_scorecard()
 ipl_scorecard_points = Dream11Points(ipl_scorecard.ipl_points, pointsconfig)
 ipl_scorecard_points.get_batsmen_bowler_points()
 # writing the scorecard to ipl_scorecard_points.csv
-ipl_scorecard_points.player_scorecard.to_csv(r'data/ipl_scorecard_points.csv', index=False)
+ipl_scorecard_points.player_scorecard.to_csv(r'Data/ipl_scorecard_points.csv', index=False)
 
 # Defining the metric to select the players
 ROLLINGWINDOW = 10
@@ -83,7 +83,7 @@ ROLLINGWINDOW = 10
 ipl_scorecard_points_avg = PointPred().get_points_moving_avg(ipl_scorecard_points.player_scorecard, rolling_avg_window=ROLLINGWINDOW)
 
 # writing the scorecard to save it
-ipl_scorecard_points_avg.to_csv(r'data/ipl_scorecard_points_avg.csv', index=False)
+ipl_scorecard_points_avg.to_csv(r'Data/ipl_scorecard_points_avg.csv', index=False)
 
 # Temp till we get better alternate to cost of each player
 ipl_scorecard_points_avg['playercost'] = 10
@@ -98,28 +98,28 @@ optimum_team = SelectPlayingTeam(ipl_scorecard_points_avg, constconfig, colconfi
 # select Top11 based on the predicted points
 optimum_team.select_top11_players(pointscol=colconfig['PREDPOINTS'], selectioncol=colconfig['PREDSELECTION'],
                                   rankcol=colconfig['PREDSELECTIONRANK'], adjustcappoints=True)
-# variable to control if we want to compare with the actual data
-ACTUALDATA = True
+# variable to control if we want to compare with the actual Data
+ACTUALData = True
 
-if ACTUALDATA:
+if ACTUALData:
     # select Top11 based on the actual points
     optimum_team.select_top11_players(pointscol=colconfig['ACTUALPOINTS'], selectioncol=colconfig['ACTUALSELECTION'],
                                       rankcol=colconfig['ACTUALSELECTIONRANK'], adjustcappoints=True)
 
-    optimum_team.team_points.to_csv(r'data/team_points.csv')
+    optimum_team.team_points.to_csv(r'Data/team_points.csv')
     # get the rewards estimate
-    ipl_team_rewards = RewardEstimate(optimum_team.team_points, matchdata.copy())
+    ipl_team_rewards = RewardEstimate(optimum_team.team_points, matchData.copy())
 
     # get the percentile of the predicted team vs actual tam
     ipl_team_rewards.compare_pred_vs_actual_points(minplayercount=SQUADCOUNT)
 
     # estimating the monetary impact of the project
     ipl_team_rewards.get_estimated_rewards(rewardconfig, fixed_multipler=50)
-    ipl_team_rewards.total_match_points.to_csv(r'data/rewards_df.csv', index=False)
+    ipl_team_rewards.total_match_points.to_csv(r'Data/rewards_df.csv', index=False)
 
     # calculating a yearly summary of the model
     yearly_summary = ipl_team_rewards.get_rewards_summary()
-    yearly_summary.to_csv(r'data/rewards_yearly_summary.csv', index=False)
+    yearly_summary.to_csv(r'Data/rewards_yearly_summary.csv', index=False)
     print(ipl_team_rewards.total_match_points['rewards_earned'].sum())
 
 #TODO make the constraint for allrounder, batsmen, bowler
