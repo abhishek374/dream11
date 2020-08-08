@@ -55,7 +55,7 @@ class ScoreCard:
         matchdata_runs_per_over['maiden_overs'] = np.where(matchdata_runs_per_over['batsmanscorevalue'] == 0, 1, 0)
         matchdata_runs_per_over = matchdata_runs_per_over.groupby(['matchid', 'bowlername'])['maiden_overs'].sum()
         # combining all the features created so far
-        df_list = [bowler_wickets, bowler_overs_bow, bowler_ball_faced_legal, bowler_runs_given,matchdata_runs_per_over]
+        df_list = [bowler_wickets, bowler_overs_bow, bowler_ball_faced_legal, bowler_runs_given, matchdata_runs_per_over]
         bowler_summary = pd.concat(df_list, join='outer', axis=1).fillna(np.nan).reset_index()
         # adding additional columns just in case we need for modeling
         bowler_summary = pd.merge(bowler_summary, self.matchdata[['matchid', 'bowlername', 'innings', 'battingteam', 'bowlingteam']].drop_duplicates(), on=['matchid', 'bowlername'], how='left')
@@ -88,7 +88,7 @@ class ScoreCard:
         MINAVGBALLSFACED = 8
         MINAVGBOWLSBOWLED = 6
         player_avg = input_df[['playername', 'total_balls_faced', 'total_balls_bowled']].fillna(0)
-        player_avg = pd.DataFrame(player_avg.groupby('playername')['total_balls_faced', 'total_balls_bowled'].mean())
+        player_avg = pd.DataFrame(player_avg.groupby('playername')[['total_balls_faced', 'total_balls_bowled']].mean())
         conditions = [((player_avg['total_balls_faced'] >= MINAVGBALLSFACED) & (player_avg['total_balls_bowled'] >= MINAVGBOWLSBOWLED)),
                       (player_avg['total_balls_bowled'] >= MINAVGBOWLSBOWLED)]
         choices = ['AllRounder', 'Bowler']
