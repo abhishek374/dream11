@@ -20,7 +20,7 @@ class SelectPlayingTeam:
 
         return
 
-    def select_top11_players(self):
+    def select_top11_players(self, pointscol,selectioncol,rankcol,adjustcappoints):
         """
         function to select top 11 players out of the 22 players based on a given score
         :param input_df: dataset with the players name and match id
@@ -29,19 +29,13 @@ class SelectPlayingTeam:
         :return: output_df: input_df wuth additional column with pred_selection_true
         """
 
-        selected_team_pred = self.team_points.fillna(0).groupby('matchid').apply(self.get_optimized_team,
-                                                                                 predpointscol=self.predpointscol,
-                                                                                 selectioncol=self.predselection,
-                                                                                 rankcol=self.predselectionrank)
-        selected_team_actual = self.team_points.fillna(0).groupby('matchid').apply(self.get_optimized_team,
-                                                                            predpointscol=self.pointscol,
-                                                                            selectioncol=self.actualselection,
-                                                                            rankcol=self.actualselectionrank)
-        self.team_points = pd.merge(self.team_points, selected_team_pred, on=['matchid', 'playername'], how='left')
-        self.team_points = pd.merge(self.team_points, selected_team_actual, on=['matchid', 'playername'], how='left')
+        selected_team = self.team_points.fillna(0).groupby('matchid').apply(self.get_optimized_team, pointscol, selectioncol, rankcol)
+        self.team_points = pd.merge(self.team_points, selected_team, on=['matchid', 'playername'], how='left')
+        if adjustcappoints:
+            self.adjust_points_for_captaincy(pointscol, rankcol)
         return
 
-    def get_optimized_team(self, team_df, predpointscol, selectioncol, rankcol):
+    def get_optimized_team(self, team_df, pointscol, selectioncol, rankcol):
         """
         function to select the 11 people from the squad of the two teams playing a particular match
         :param team_df: dataframe with the actual and predicted points per player in a particular match
@@ -51,7 +45,7 @@ class SelectPlayingTeam:
         :return
         """
         player_list = list(team_df[self.playernamecol])
-        points = dict(zip(player_list, team_df[predpointscol]))
+        points = dict(zip(player_list, team_df[pointscol]))
         costs = dict(zip(player_list, team_df[self.playercost]))
         batsmen = dict(zip(player_list, np.where(team_df[self.playingrole] == 'Batsmen', 1, 0)))
         bowler = dict(zip(player_list, np.where(team_df[self.playingrole] == 'Bowler', 1, 0)))
@@ -90,9 +84,6 @@ class SelectPlayingTeam:
                     playernamelist.append(a)
                     playerscorelist.append(points[a])
             playerranklist = len(playerscorelist) - rankdata(playerscorelist, method='ordinal').astype(int)
-            print(playernamelist)
-            print(playerscorelist)
-            print(playerranklist)
             playername = pd.Series(playernamelist, name='playername')
             playerrank = pd.Series(playerranklist, name=rankcol)
             selection_series = pd.Series(np.repeat(1, len(playername)), name=selectioncol)
@@ -100,11 +91,24 @@ class SelectPlayingTeam:
             return playerselec_df
         return
 
+    def adjust_points_for_captaincy(self, pointscol, rankcol):
+        """
+        function to adjust player's points if it is highest and 2nd highest
+        :param input_df:
+        :return:
+        """
+        CAP_BUMP = 2.0
+        VICE_CAP_BUMP = 1.5
+        self.team_points[pointscol] = np.where(self.team_points[rankcol] == 0, self.team_points[pointscol] * CAP_BUMP,
+                                            np.where(self.team_points[rankcol] == 1, self.team_points[pointscol] * VICE_CAP_BUMP, self.team_points[pointscol]))
+
+        return
 
 class RewardEstimate:
 
-    def __init__(self, input_df):
+    def __init__(self, input_df, matchdata):
         self.input_df = input_df
+        self.matchdata =matchdata
         return
 
     def compare_pred_vs_actual_points(self, minplayercount):
@@ -166,41 +170,11 @@ class RewardEstimate:
 
         return
 
+    def get_rewards_summary(self):
+        match_date = self.matchdata[['matchid', 'date']].drop_duplicates()
+        yearly_summary = pd.merge(self.total_match_points, match_date, on='matchid', how='left')
 
-def get_points_moving_avg(ipl_points, rolling_avg_window) -> pd.DataFrame:
-    """
-    function to calculate predicted points per player based on moving average method
-    :param ipl_points: dataframe with the historical points achieved by the player
-    :param rolling_avg_window: number of matches to take the rolling average over
-    :return: ipl_points: dataframe with the columns total_points_avg, metric used to select the eventual team
-    """
-    ipl_points = ipl_points.sort_values(by=['matchid', 'playername'], ascending=True)
-    ipl_points.set_index('matchid', inplace=True)
-    player_avg_points = pd.DataFrame(ipl_points.groupby(['playername'])['total_points'].rolling(rolling_avg_window).mean()).reset_index(). \
-        rename(columns={'total_points': 'total_points_avg'})
-    player_avg_points = player_avg_points.sort_values(by=['matchid', 'playername'], ascending=True)
-    player_avg_points.set_index('matchid', inplace=True)
-    player_avg_points['total_points_avg'] = pd.DataFrame(player_avg_points.groupby(['playername'])['total_points_avg'].shift(1))
-    ipl_points.reset_index(inplace=True)
-    player_avg_points.reset_index(inplace=True)
-    ipl_points = pd.merge(ipl_points, player_avg_points, on=['matchid', 'playername'], how='left')
-    return ipl_points
-
-def adjust_points_for_captaincy(input_df, colconfig):
-    """
-    function to adjust player's points if it is highest and 2nd highest
-    :param input_df:
-    :return:
-    """
-    output_df = input_df.copy()
-    CAP_BUMP = 2.0
-    VICE_CAP_BUMP = 1.5
-    predpointscol = colconfig['PREDPOINTS']
-    pointscol = colconfig['ACTUALPOINTS']
-    predselectionrank = colconfig['PREDSELECTIONRANK']
-    actualselectionrank = colconfig['ACTUALSELECTIONRANK']
-    output_df[predpointscol] = np.where(output_df[predselectionrank] == 0, output_df[predpointscol] * CAP_BUMP,
-                                        np.where(output_df[predselectionrank] == 1, output_df[predpointscol] * VICE_CAP_BUMP, output_df[predpointscol]))
-    output_df[pointscol] = np.where(output_df[actualselectionrank] == 0, output_df[pointscol] * CAP_BUMP,
-                                        np.where(output_df[actualselectionrank] == 1, output_df[pointscol] * VICE_CAP_BUMP, output_df[pointscol]))
-    return output_df
+        yearly_summary['year'] = yearly_summary['date'].str.split('-').str[0]
+        print(yearly_summary['rewards_earned'])
+        yearly_summary = yearly_summary.groupby(['year'])[['accuracy', 'rewards_earned']].agg({'accuracy':'mean', 'rewards_earned':'sum'})
+        return yearly_summary
