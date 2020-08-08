@@ -3,7 +3,7 @@ from optimized_selection import *
 from point_prediction import PointPred
 import pandas as pd
 # reading the source file from local
-matchData = pd.read_csv(r'Data/matchData.csv')
+matchdata = pd.read_csv(r'Data/matchdata.csv')
 
 # points as per dream11 website
 pointsconfig = {
@@ -67,7 +67,7 @@ colconfig = {'MATCHID': 'matchid',
              'ACTUALSELECTIONRANK': 'actual_selection_rank'}
 
 # getting the scorecard from a batsmen's perspective
-ipl_scorecard = ScoreCard(matchData.copy())
+ipl_scorecard = ScoreCard(matchdata.copy())
 # merging both the batsmen and bowler's points to get a single view
 ipl_scorecard.merge_player_scorecard()
 
@@ -99,16 +99,16 @@ optimum_team = SelectPlayingTeam(ipl_scorecard_points_avg, constconfig, colconfi
 optimum_team.select_top11_players(pointscol=colconfig['PREDPOINTS'], selectioncol=colconfig['PREDSELECTION'],
                                   rankcol=colconfig['PREDSELECTIONRANK'], adjustcappoints=True)
 # variable to control if we want to compare with the actual Data
-ACTUALData = True
+ACTUALDATA = True
 
-if ACTUALData:
+if ACTUALDATA:
     # select Top11 based on the actual points
     optimum_team.select_top11_players(pointscol=colconfig['ACTUALPOINTS'], selectioncol=colconfig['ACTUALSELECTION'],
                                       rankcol=colconfig['ACTUALSELECTIONRANK'], adjustcappoints=True)
 
     optimum_team.team_points.to_csv(r'Data/team_points.csv')
     # get the rewards estimate
-    ipl_team_rewards = RewardEstimate(optimum_team.team_points, matchData.copy())
+    ipl_team_rewards = RewardEstimate(optimum_team.team_points, matchdata.copy())
 
     # get the percentile of the predicted team vs actual tam
     ipl_team_rewards.compare_pred_vs_actual_points(minplayercount=SQUADCOUNT)
