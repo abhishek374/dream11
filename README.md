@@ -15,15 +15,17 @@ optimized_selection.py - SelectPlayingTeam: Module to select 11 players out of t
 			 RewardEstimate: compare_pred_vs_actual_points(): Module to estimate percentile of the predicted from the actual maximum points scored in an match
 			 		 get_estimated_rewards(): Convert the percentile into monetary rewards to get an estimate : outut: rewards_df.csv
 			 		
-Current Results: 
+## Current Results: 
 
-## Moving Average Method-
+### Overall Results 
 
-1. Overall Accuracy Avg: 76%
-2. Total Rewards from IPL: INR 16000/-
-3. Tournament Wise Results: 
+| method | Error | Rewards |
+|:-----|:-------:|------:|
+| Moving Average | 34% | 16,100 |
 
-| year | accuracy_moving_avg | rewards_moving_avg |
+### Tournament Wise Results: 
+
+| year | error_moving_avg | rewards_moving_avg |
 |:------|:----------:|----------------:|
 | 2008 | 0.305532 | -75            |
 | 2009 | 0.369222 | -925           |
