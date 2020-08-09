@@ -73,10 +73,10 @@ class ScoreCard:
         """
         self.batsmen_summary_fun()
         self.bowler_summary_fun()
-        ipl_points = pd.merge(self.batsmen_summary, self.bowler_summary, on=['matchid', 'playername'], how='outer')
-        player_avg = self.get_player_role(ipl_points)
-        ipl_points = pd.merge(ipl_points, player_avg[['playername', 'playing_role']], on='playername', how='left')
-        self.ipl_points = ipl_points
+        ipl_merged_scorecard = pd.merge(self.batsmen_summary, self.bowler_summary, on=['matchid', 'playername'], how='outer')
+        player_avg = self.get_player_role(ipl_merged_scorecard)
+        ipl_merged_scorecard = pd.merge(ipl_merged_scorecard, player_avg[['playername', 'playing_role']], on='playername', how='left')
+        self.ipl_merged_scorecard = ipl_merged_scorecard
         return
 
     def get_player_role(self, input_df) -> pd.DataFrame:
@@ -96,6 +96,82 @@ class ScoreCard:
         player_avg = player_avg.reset_index()
         return player_avg
 
+
+class FeatEngineering:
+
+    def __init__(self, ipl_features, matchsummary):
+        self.ipl_features = ipl_features
+        matchsummary['venue'] = np.where(matchsummary['venue'].isin(['Bangalore', 'Bengaluru']), 'Bengaluru', matchsummary['venue'])
+        self.matchsummary = matchsummary
+        self.ipl_features['playing_team'] = np.where(pd.isnull(self.ipl_features['batsmen_innings']), self.ipl_features['bowler_bowlingteam'], self.ipl_features['batsmen_battingteam'])
+        return
+
+    def add_venue_info(self):
+        """
+
+        :param matchsummary:
+        :return:
+        """
+
+        self.ipl_features = pd.merge(self.ipl_features, self.matchsummary[['matchid', 'year', 'city', 'venue','team1','team2', 'toss_winner',
+                                                                    'toss_decision', 'winner']], on='matchid', how='left')
+        self.ipl_features.rename(columns={'team1': "home_team", 'team2': 'away_team'}, inplace=True)
+        # # add a feature to check if its the home game for the player
+        # self.add_homegame_flag()
+        # # add a feature to check if the player's team won the toss
+        # self.add_toss_info()
+        return
+    def add_homegame_flag(self):
+        self.ipl_features['home_game'] = np.where((self.ipl_features['playing_team'] == self.ipl_features['home_team']),1, 0)
+        return
+
+    def add_toss_info(self):
+        self.ipl_features['toss_flag'] = np.where((self.ipl_features['playing_team'] == self.ipl_features['toss_winner']), 1, 0)
+        return
+
+    def add_player_match_count(self):
+        self.ipl_features = self.ipl_features.sort_values(by=['matchid', 'playername'], ascending=True)
+        self.ipl_features['player_match_count'] = 1
+        self.ipl_features['player_match_count'] = self.ipl_features.groupby(['playername'])['player_match_count'].cumsum()
+        return
+
+
+    # def add_venue_feat(self, rolling_avg_window):
+    #     """
+    #     add rolling average feature to add the average batting and bowling points score in the venue
+    #     :return:
+    #     """
+    #     ipl_features = self.ipl_features.sort_values(by=['matchid', 'venue'], ascending=True)
+    #     ipl_features.set_index('matchid', inplace=True)
+    #
+    #     venue_avg_points = pd.DataFrame(ipl_features.groupby(['venue'])['total_bat_points', 'total_bowl_points'].rolling(rolling_avg_window).mean()).reset_index(). \
+    #         rename(columns={'total_bat_points': 'total_bat_points_avg', 'total_bowl_points': 'total_bowl_points_avg'})
+    #     venue_avg_points = venue_avg_points.sort_values(by=['matchid', 'venue'], ascending=True)
+    #     venue_avg_points.set_index('matchid', inplace=True)
+    #     venue_avg_points['total_bat_points_avg'] = pd.DataFrame(venue_avg_points.groupby(['venue'])['total_bat_points_avg'].shift(1))
+    #     venue_avg_points['total_bowl_points_avg'] = pd.DataFrame(venue_avg_points.groupby(['venue'])['total_bowl_points_avg'].shift(1))
+    #     ipl_features.reset_index(inplace=True)
+    #     venue_avg_points.reset_index(inplace=True)
+    #     self.ipl_features = pd.merge(ipl_features, venue_avg_points, on=['matchid', 'venue'], how='left')
+    #     return
+
+    def add_lagging_feat(self, match_id, groupby_id, rolling_window, *args):
+        """
+        add rolling average feature to add the average batting and bowling points scored by the player, strike rate, economy rate, average batting position
+        :return:
+        """
+        ipl_features = self.ipl_features.sort_values(by=[match_id, groupby_id], ascending=True)
+        # ipl_features.set_index(match_id, inplace=True)
+        for col in args:
+            print('col:', col)
+            outcolname = col +'_avg'+ str(rolling_window)
+            rolling_avg_points = ipl_features[[match_id, groupby_id, col]].drop_duplicates()
+            rolling_avg_points = pd.DataFrame(rolling_avg_points.groupby([match_id, groupby_id])[col].sum()).reset_index()
+            rolling_avg_points.set_index(match_id, inplace=True)
+            rolling_avg_points = pd.DataFrame(rolling_avg_points.groupby([groupby_id])[col].rolling(rolling_window).mean()).reset_index().rename(columns={col: outcolname})
+            rolling_avg_points[outcolname] = pd.DataFrame(rolling_avg_points.groupby([groupby_id])[outcolname].shift(1))
+            self.ipl_features = pd.merge(self.ipl_features, rolling_avg_points, on=[match_id, groupby_id], how='left')
+        return
 
 class Dream11Points:
 
