@@ -2,6 +2,7 @@ import pandas as pd
 
 class PointPred:
 
+
     def get_points_moving_avg(self, ipl_points, rolling_avg_window) -> pd.DataFrame:
         """
         function to calculate predicted points per player based on moving average method

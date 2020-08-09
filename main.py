@@ -1,10 +1,10 @@
-from data_prep import ScoreCard, Dream11Points
+from data_prep import ScoreCard, Dream11Points, FeatEngineering
 from optimized_selection import *
 from point_prediction import PointPred
 import pandas as pd
 # reading the source file from local
 matchdata = pd.read_csv(r'Data/matchdata.csv')
-
+matchsummary = pd.read_csv(r'Data/matchsummary.csv')
 # points as per dream11 website
 pointsconfig = {
                 'total_runs': 1,
@@ -53,12 +53,15 @@ colconfig = {'MATCHID': 'matchid',
              'SCOREVALUE': 'scorevalue',
              'OVER': 'over',
              'INNINGS': 'innings',
+             'VENUE':'venue',
              'BATTINGORDER': 'fallofwickets',
              'BATTINGTEAM': 'battingteam',
              'BOWLINGTEAM': 'bowlingteam',
              'PLAYERNAME': 'playername',
+             'TOTALBATPOINTS':'total_bat_points',
+             'TOTALBALLPOINTS':'total_bowl_points',
              'ACTUALPOINTS': 'total_points',
-             'PREDPOINTS': 'total_points_avg',
+             'PREDPOINTS': 'total_points_avg10',
              'PLAYERCOST': 'playercost',
              'PLAYINGROLE': 'playing_role',
              'PREDSELECTION': 'pred_selection_true',
@@ -70,34 +73,40 @@ colconfig = {'MATCHID': 'matchid',
 ipl_scorecard = ScoreCard(matchdata.copy())
 # merging both the batsmen and bowler's points to get a single view
 ipl_scorecard.merge_player_scorecard()
-
 # calculating the points scored by the players based on dream11 scoring method
-ipl_scorecard_points = Dream11Points(ipl_scorecard.ipl_points, pointsconfig)
+ipl_scorecard_points = Dream11Points(ipl_scorecard.ipl_merged_scorecard, pointsconfig)
 ipl_scorecard_points.get_batsmen_bowler_points()
 # writing the scorecard to ipl_scorecard_points.csv
-ipl_scorecard_points.player_scorecard.to_csv(r'Data/ipl_scorecard_points.csv', index=False)
-
-# Defining the metric to select the players
+# ipl_scorecard_points.player_scorecard.to_csv(r'Data/ipl_scorecard_points.csv', index=False)
+##################Part to create additional features for modeling#######################################################
 ROLLINGWINDOW = 10
 
-ipl_scorecard_points_avg = PointPred().get_points_moving_avg(ipl_scorecard_points.player_scorecard, rolling_avg_window=ROLLINGWINDOW)
+FeatEng = FeatEngineering(ipl_scorecard_points.player_scorecard, matchsummary)
+FeatEng.add_venue_info()
+FeatEng.add_homegame_flag()
+FeatEng.add_toss_info()
+FeatEng.add_player_match_count()
+FeatEng.add_lagging_feat(colconfig['MATCHID'], colconfig['VENUE'], 10, colconfig['TOTALBATPOINTS'], colconfig['TOTALBALLPOINTS'])
+FeatEng.add_lagging_feat(colconfig['MATCHID'], colconfig['PLAYERNAME'], 10, colconfig['ACTUALPOINTS'], colconfig['TOTALBATPOINTS'], colconfig['TOTALBALLPOINTS'], colconfig['BATTINGORDER'], 'total_balls_bowled')
+
+#ipl_scorecard_points_avg = PointPred().get_points_moving_avg(ipl_scorecard_points.player_scorecard, rolling_avg_window=ROLLINGWINDOW)
 
 # writing the scorecard to save it
-ipl_scorecard_points_avg.to_csv(r'Data/ipl_scorecard_points_avg.csv', index=False)
+FeatEng.ipl_features.to_csv(r'Data/ipl_scorecard_points_featengg.csv', index=False)
 
-# Temp till we get better alternate to cost of each player
-ipl_scorecard_points_avg['playercost'] = 10
-
+##################Part to run the optimization to select the playing 11#################################################
 # selecting the 11 players from a team of 22 based on historic points average
+# Temp till we get better alternate to cost of each player
+FeatEng.ipl_features['playercost'] = 10
 SQUADCOUNT = 11
 TOTALPLAYERCOUNT = 22
 
-
 # get the team by running binary LP solver
-optimum_team = SelectPlayingTeam(ipl_scorecard_points_avg, constconfig, colconfig)
+optimum_team = SelectPlayingTeam(FeatEng.ipl_features, constconfig, colconfig)
 # select Top11 based on the predicted points
 optimum_team.select_top11_players(pointscol=colconfig['PREDPOINTS'], selectioncol=colconfig['PREDSELECTION'],
                                   rankcol=colconfig['PREDSELECTIONRANK'], adjustcappoints=True)
+##################Part to calculate the accuracy of the selected 11 if the actual 11 is available#######################
 # variable to control if we want to compare with the actual Data
 ACTUALDATA = True
 
