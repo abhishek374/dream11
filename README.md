@@ -22,6 +22,7 @@ Current Results:
 1. Overall Accuracy Avg: 76%
 2. Total Rewards from IPL: INR 16000/-
 3. Tournament Wise Results: 
+
 | year | accuracy_moving_avg | rewards_moving_avg |
 |:------|:----------:|----------------:|
 | 2008 | 0.305532 | -75            |
