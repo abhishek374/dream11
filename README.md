@@ -1,4 +1,4 @@
-# dream11
+# Dream11
 ## Repo OverView
 Project to predict the dream11 points in an IPL match
 matchdata.csv - Raw dataset with ball by ball summary of all matches in the IPL so far
