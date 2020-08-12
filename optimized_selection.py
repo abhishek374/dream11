@@ -126,7 +126,7 @@ class RewardEstimate:
         total_match_points = total_match_points_pred.merge(total_match_points_actual, left_index=True, right_index=True, how='left')
         total_match_points = total_match_points.merge(count_player_selected, left_index=True, right_index=True, how='left')
         total_match_points = total_match_points.reset_index()
-        total_match_points['accuracy'] = np.where(total_match_points['pred_selection_cnt'] >= minplayercount,
+        total_match_points['error'] = np.where(total_match_points['pred_selection_cnt'] >= minplayercount,
                                                   (total_match_points['actual_points_player'] - total_match_points['pred_points_player'])/total_match_points['actual_points_player'], np.nan)
         self.total_match_points = total_match_points
 
@@ -176,5 +176,5 @@ class RewardEstimate:
 
         yearly_summary['year'] = yearly_summary['date'].str.split('-').str[0]
         print(yearly_summary['rewards_earned'])
-        yearly_summary = yearly_summary.groupby(['year'])[['accuracy', 'rewards_earned']].agg({'accuracy':'mean', 'rewards_earned':'sum'})
+        yearly_summary = yearly_summary.groupby(['year'])[['error', 'rewards_earned']].agg({'error':'mean', 'rewards_earned':'sum'})
         return yearly_summary

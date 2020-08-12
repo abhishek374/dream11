@@ -136,25 +136,6 @@ class FeatEngineering:
         return
 
 
-    # def add_venue_feat(self, rolling_avg_window):
-    #     """
-    #     add rolling average feature to add the average batting and bowling points score in the venue
-    #     :return:
-    #     """
-    #     ipl_features = self.ipl_features.sort_values(by=['matchid', 'venue'], ascending=True)
-    #     ipl_features.set_index('matchid', inplace=True)
-    #
-    #     venue_avg_points = pd.DataFrame(ipl_features.groupby(['venue'])['total_bat_points', 'total_bowl_points'].rolling(rolling_avg_window).mean()).reset_index(). \
-    #         rename(columns={'total_bat_points': 'total_bat_points_avg', 'total_bowl_points': 'total_bowl_points_avg'})
-    #     venue_avg_points = venue_avg_points.sort_values(by=['matchid', 'venue'], ascending=True)
-    #     venue_avg_points.set_index('matchid', inplace=True)
-    #     venue_avg_points['total_bat_points_avg'] = pd.DataFrame(venue_avg_points.groupby(['venue'])['total_bat_points_avg'].shift(1))
-    #     venue_avg_points['total_bowl_points_avg'] = pd.DataFrame(venue_avg_points.groupby(['venue'])['total_bowl_points_avg'].shift(1))
-    #     ipl_features.reset_index(inplace=True)
-    #     venue_avg_points.reset_index(inplace=True)
-    #     self.ipl_features = pd.merge(ipl_features, venue_avg_points, on=['matchid', 'venue'], how='left')
-    #     return
-
     def add_lagging_feat(self, match_id, groupby_id, rolling_window, *args):
         """
         add rolling average feature to add the average batting and bowling points scored by the player, strike rate, economy rate, average batting position
@@ -164,7 +145,7 @@ class FeatEngineering:
         # ipl_features.set_index(match_id, inplace=True)
         for col in args:
             print('col:', col)
-            outcolname = col +'_avg'+ str(rolling_window)
+            outcolname = col +"_"+groupby_id+'_avg'+str(rolling_window)
             rolling_avg_points = ipl_features[[match_id, groupby_id, col]].drop_duplicates()
             rolling_avg_points = pd.DataFrame(rolling_avg_points.groupby([match_id, groupby_id])[col].sum()).reset_index()
             rolling_avg_points.set_index(match_id, inplace=True)
