@@ -20,11 +20,12 @@ optimized_selection.py - SelectPlayingTeam: Module to select 11 players out of t
 ## Current Results: 
 
 ### Overall Results 
+2019 (Test Data)
 
 | method | Error | Rewards |
 |:-----|:-------:|------:|
-| Moving Average | 34% | 16,100 |
-| XGBoost | 32% | 2.5L |
+| Moving Average | 34% | 9,125 |
+| XGBoost | 32% | 550 |
 
 ### Tournament Wise Results (Expected Rewards in INR): 
 
