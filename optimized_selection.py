@@ -139,7 +139,7 @@ class RewardEstimate:
         :param input_df: input_df with the accuracy columns to estimate the rewards
         :return: output_df: input_df with the rewards earned column added
         """
-        accuracy_series = self.total_match_points['accuracy']
+        accuracy_series = self.total_match_points['error']
         conditions = [(np.isnan(accuracy_series)),
                       (accuracy_series < .01),
                       (accuracy_series < 0.02),
@@ -173,8 +173,7 @@ class RewardEstimate:
     def get_rewards_summary(self):
         match_date = self.matchdata[['matchid', 'date']].drop_duplicates()
         yearly_summary = pd.merge(self.total_match_points, match_date, on='matchid', how='left')
-
         yearly_summary['year'] = yearly_summary['date'].str.split('-').str[0]
         print(yearly_summary['rewards_earned'])
-        yearly_summary = yearly_summary.groupby(['year'])[['error', 'rewards_earned']].agg({'error':'mean', 'rewards_earned':'sum'})
+        yearly_summary = pd.DataFrame(yearly_summary.groupby(['year'])[['error', 'rewards_earned']].agg({'error':'mean', 'rewards_earned':'sum'})).reset_index()
         return yearly_summary
