@@ -1,6 +1,8 @@
 # Dream11
 ## Repo OverView
-Project to predict the dream11 points in an IPL match
+Aim is to select the team that would get the maximum total points in an IPL match under dream 11 constraints. To do so we have followed a 2 stage approach, where we first try to predict points achieved by individual players and then selecting the top 11 out of the total squad as per the cost of each player and other relevant constraints. We are using a mix integer linear optimization method to get the team out of the squad. To get the points of each player we are exploring various methods to leverage the past performance of players to predict their points in the following matches. Below is the description of how the modules are structured and the results thus obtained.
+
+### Code Descriptions
 matchdata.csv - Raw dataset with ball by ball summary of all matches in the IPL so far
 
 main.py - controller code used to define configs and call the other modules
@@ -24,7 +26,7 @@ optimized_selection.py - SelectPlayingTeam: Module to select 11 players out of t
 | Moving Average | 34% | 16,100 |
 | XGBoost | 40% | 42,200 |
 
-### Tournament Wise Results: 
+### Tournament Wise Results (Expected Rewards in INR): 
 
 | year | rewards_xgboost | rewards_moving_avg |
 |:------|:----------:|----------------:|
