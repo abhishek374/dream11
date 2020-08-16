@@ -97,13 +97,78 @@ class ScoreCard:
         return player_avg
 
 
+class Dream11Points:
+
+    def __init__(self, player_scorecard, pointsconfig):
+        self.player_scorecard = player_scorecard
+        self.pointsconfig = pointsconfig
+
+        return
+
+    def get_batting_points(self) -> None:
+        """
+        pointsconfig: dictionary with points per score type as per dream11
+        :return:
+        """
+        self.player_scorecard['total_runs_points'] = self.player_scorecard['total_runs'] * self.pointsconfig['total_runs']
+        self.player_scorecard['run_6_points'] = self.pointsconfig['run_6'] * self.player_scorecard['run_6']
+        self.player_scorecard['run_4_points'] = self.pointsconfig['run_4'] * self.player_scorecard['run_4']
+        self.player_scorecard['run_bonus_points'] = np.where(self.player_scorecard['total_runs'] == 0, self.pointsconfig['duck'], 0)
+        self.player_scorecard['run_bonus_points'] = np.where(self.player_scorecard['total_runs'] >= 50, self.pointsconfig['>=50'] +
+                                                         self.player_scorecard['run_bonus_points'], self.player_scorecard['run_bonus_points'])
+        self.player_scorecard['run_bonus_points'] = np.where(self.player_scorecard['total_runs'] >= 100, self.pointsconfig['>=100'] +
+                                                         self.player_scorecard['run_bonus_points'], self.player_scorecard['run_bonus_points'])
+        self.player_scorecard['total_bat_points'] = np.nan
+        self.player_scorecard['total_bat_points'] = self.player_scorecard['total_runs_points'].add(self.player_scorecard['run_6_points'], fill_value=0). \
+            add(self.player_scorecard['run_4_points'], fill_value=0).add(self.player_scorecard['run_bonus_points'], fill_value=0)
+        self.player_scorecard['total_bat_points'] = np.where(self.player_scorecard['total_balls_faced'] >= 1, self.player_scorecard['total_bat_points'], np.nan)
+
+        return
+
+    def get_bowling_points(self) -> None:
+        """
+        pointsconfig: dictionary with points per score type as per dream11
+        :return:
+        """
+        self.player_scorecard['total_wickets_points'] = self.pointsconfig['total_wickets'] * self.player_scorecard['total_wickets']
+        self.player_scorecard['economy_rate_points'] = np.where(self.player_scorecard['economy_rate'] >= 11, self.pointsconfig['>11E'],
+                                                           np.where(self.player_scorecard['economy_rate'] >= 10, self.pointsconfig['>10E'],
+                                                                    np.where(self.player_scorecard['economy_rate'] >= 9,self.pointsconfig['>9E'],
+                                                                             np.where(self.player_scorecard['economy_rate'] <= 4,self.pointsconfig['<=4E'],
+                                                                                 np.where(self.player_scorecard['economy_rate'] <= 5,self.pointsconfig['<5E'],
+                                                                                          np.where(self.player_scorecard['economy_rate'] <= 6, self.pointsconfig['<6E'],0))))))
+        self.player_scorecard['maiden_overs_points'] = self.pointsconfig['maiden_overs'] * self.player_scorecard['maiden_overs']
+        self.player_scorecard['wicket_bonus_points'] = np.where(self.player_scorecard['total_wickets'] >= 5, self.pointsconfig['>=5W'],
+                                                           np.where(self.player_scorecard['total_wickets'] >= 4, self.pointsconfig['>=4W'], 0))
+        self.player_scorecard['total_bowl_points'] = np.nan
+        self.player_scorecard['total_bowl_points'] = self.player_scorecard['total_wickets_points'].\
+                                                add(self.player_scorecard['maiden_overs_points'], fill_value=0). \
+                                                add(self.player_scorecard['wicket_bonus_points'], fill_value=0).\
+                                                add(self.player_scorecard['economy_rate_points'], fill_value=0)
+        self.player_scorecard['total_bowl_points'] = np.where(self.player_scorecard['total_balls_bowled'] >= 1, self.player_scorecard['total_bowl_points'], np.nan)
+        return
+
+    def get_batsmen_bowler_points(self):
+        self.get_batting_points()
+        self.get_bowling_points()
+        self.player_scorecard['total_points'] = self.player_scorecard['total_bat_points'].add(self.player_scorecard['total_bowl_points'], fill_value=0)
+        return
+
+
 class FeatEngineering:
 
     def __init__(self, ipl_features, matchsummary):
         self.ipl_features = ipl_features
-        matchsummary['venue'] = np.where(matchsummary['venue'].isin(['Bangalore', 'Bengaluru']), 'Bengaluru', matchsummary['venue'])
+        matchsummary['city'] = np.where(matchsummary['city'].isin(['Bangalore', 'Bengaluru']), 'Bengaluru', matchsummary['city'])
+        matchsummary['venue'] = np.where(matchsummary['venue'].isin(['M Chinnaswamy Stadium', 'M.Chinnaswamy Stadium']),'M Chinnaswamy Stadium',matchsummary['venue'])
+        matchsummary['venue'] = np.where(matchsummary['venue'].isin(['Punjab Cricket Association IS Bindra Stadium, Mohali', 'Punjab Cricket Association Stadium, Mohali']),'Punjab Cricket Association Stadium', matchsummary['venue'])
+
         self.matchsummary = matchsummary
         self.ipl_features['playing_team'] = np.where(pd.isnull(self.ipl_features['batsmen_innings']), self.ipl_features['bowler_bowlingteam'], self.ipl_features['batsmen_battingteam'])
+        self.ipl_features['opposition_team'] = np.where(pd.isnull(self.ipl_features['batsmen_innings']), self.ipl_features['bowler_battingteam'], self.ipl_features['batsmen_bowlingteam'])
+        self.ipl_features[['playing_team', 'opposition_team']].replace({'Delhi Daredevils': 'Delhi Capitals', 'Rising Pune Supergiants': 'Pune Warriors',
+                                                                        'Rising Pune Supergiant': 'Pune Warriors', 'Deccan Chargers': 'Sunrisers Hyderabad'})
+
         return
 
     def add_venue_info(self):
@@ -152,58 +217,4 @@ class FeatEngineering:
             rolling_avg_points = pd.DataFrame(rolling_avg_points.groupby([groupby_id])[col].rolling(rolling_window).mean()).reset_index().rename(columns={col: outcolname})
             rolling_avg_points[outcolname] = pd.DataFrame(rolling_avg_points.groupby([groupby_id])[outcolname].shift(1))
             self.ipl_features = pd.merge(self.ipl_features, rolling_avg_points, on=[match_id, groupby_id], how='left')
-        return
-
-class Dream11Points:
-
-    def __init__(self, player_scorecard, pointsconfig):
-        self.player_scorecard = player_scorecard
-        self.pointsconfig = pointsconfig
-
-        return
-
-    def get_batting_points(self) -> None:
-        """
-        pointsconfig: dictionary with points per score type as per dream11
-        :return:
-        """
-        self.player_scorecard['total_runs_points'] = self.player_scorecard['total_runs'] * self.pointsconfig['total_runs']
-        self.player_scorecard['run_6_points'] = self.pointsconfig['run_6'] * self.player_scorecard['run_6']
-        self.player_scorecard['run_4_points'] = self.pointsconfig['run_4'] * self.player_scorecard['run_4']
-        self.player_scorecard['run_bonus_points'] = np.where(self.player_scorecard['total_runs'] == 0, self.pointsconfig['duck'], 0)
-        self.player_scorecard['run_bonus_points'] = np.where(self.player_scorecard['total_runs'] >= 50, self.pointsconfig['>=50'] +
-                                                         self.player_scorecard['run_bonus_points'], self.player_scorecard['run_bonus_points'])
-        self.player_scorecard['run_bonus_points'] = np.where(self.player_scorecard['total_runs'] >= 100, self.pointsconfig['>=100'] +
-                                                         self.player_scorecard['run_bonus_points'], self.player_scorecard['run_bonus_points'])
-        self.player_scorecard['total_bat_points'] = 0
-        self.player_scorecard['total_bat_points'] = self.player_scorecard['total_runs_points'].add(self.player_scorecard['run_6_points'], fill_value=0). \
-            add(self.player_scorecard['run_4_points'], fill_value=0).add(self.player_scorecard['run_bonus_points'], fill_value=0)
-        return
-
-    def get_bowling_points(self) -> None:
-        """
-        pointsconfig: dictionary with points per score type as per dream11
-        :return:
-        """
-        self.player_scorecard['total_wickets_points'] = self.pointsconfig['total_wickets'] * self.player_scorecard['total_wickets']
-        self.player_scorecard['economy_rate_points'] = np.where(self.player_scorecard['economy_rate'] >= 11, self.pointsconfig['>11E'],
-                                                           np.where(self.player_scorecard['economy_rate'] >= 10,self.pointsconfig['>10E'],
-                                                                    np.where(self.player_scorecard['economy_rate'] >= 9,self.pointsconfig['>9E'],
-                                                                             np.where(self.player_scorecard['economy_rate'] <= 4,self.pointsconfig['<=4E'],
-                                                                                 np.where(self.player_scorecard['economy_rate'] <= 5,self.pointsconfig['<5E'],
-                                                                                          np.where(self.player_scorecard['economy_rate'] <= 6, self.pointsconfig['<6E'],0))))))
-        self.player_scorecard['maiden_overs_points'] = self.pointsconfig['maiden_overs'] * self.player_scorecard['maiden_overs']
-        self.player_scorecard['wicket_bonus_points'] = np.where(self.player_scorecard['total_wickets'] >= 5, self.pointsconfig['>=5W'],
-                                                           np.where(self.player_scorecard['total_wickets'] >= 4, self.pointsconfig['>=4W'], 0))
-        self.player_scorecard['total_bowl_points'] = 0
-        self.player_scorecard['total_bowl_points'] = self.player_scorecard['total_wickets_points'].\
-                                                add(self.player_scorecard['maiden_overs_points'], fill_value=0). \
-                                                add(self.player_scorecard['wicket_bonus_points'], fill_value=0).\
-                                                add(self.player_scorecard['economy_rate_points'], fill_value=0)
-        return
-
-    def get_batsmen_bowler_points(self):
-        self.get_batting_points()
-        self.get_bowling_points()
-        self.player_scorecard['total_points'] = self.player_scorecard['total_bat_points'].add(self.player_scorecard['total_bowl_points'], fill_value=0)
         return

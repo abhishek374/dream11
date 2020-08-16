@@ -18,8 +18,6 @@ def execute_get_scorecard():
     # calculating the points scored by the players based on dream11 scoring method
     ipl_scorecard_points = Dream11Points(ipl_scorecard.ipl_merged_scorecard, pointsconfig)
     ipl_scorecard_points.get_batsmen_bowler_points()
-    # writing the scorecard to ipl_scorecard_points.csv
-    # ipl_scorecard_points.player_scorecard.to_csv(r'Data/ipl_scorecard_points.csv', index=False)
 
     ##################Part to create additional features for modeling#######################################################
 
@@ -29,10 +27,10 @@ def execute_get_scorecard():
     FeatEng.add_toss_info()
     FeatEng.add_player_match_count()
 
-    rolling_window = [2, 5, 10]
+    rolling_window = [1, 3]
     for i in rolling_window:
         FeatEng.add_lagging_feat(colconfig['MATCHID'], colconfig['VENUE'], i, colconfig['TOTALBATPOINTS'], colconfig['TOTALBALLPOINTS'])
-        FeatEng.add_lagging_feat(colconfig['MATCHID'], colconfig['PLAYERNAME'], i, colconfig['ACTUALPOINTS'], colconfig['TOTALBATPOINTS'], colconfig['TOTALBALLPOINTS'], colconfig['BATTINGORDER'], 'total_balls_bowled')
+        FeatEng.add_lagging_feat(colconfig['MATCHID'], colconfig['PLAYERNAME'], i, colconfig['ACTUALPOINTS'],  colconfig['BATTINGORDER'], colconfig['TOTALBALLSBOWLED'])
     # writing the scorecard to save it
     # Temp till we get better alternate to cost of each player
     FeatEng.ipl_features['playercost'] = 10
@@ -40,7 +38,7 @@ def execute_get_scorecard():
     return
 
 ##################Part to train the model #################################################
-def execute_model_train():
+def execute_model_train(modelpath):
     """
 
     :return:
@@ -49,31 +47,28 @@ def execute_model_train():
     modeltrain = ModelTrain(masterdf, target_col, predictors, cat_cols)
     modeltrain.get_normalized_data()
     modeltrain.get_test_train(split_col='year', split_value=[2019])
-    # modeltrain.train_model(model='xgb')
-    modeltrain.train_model(model='catboost')
-    modelobjects = modeltrain.get_model_objects(model='catboost')
-
+    modelobjects = modeltrain.train_model(model='catboost')
     pickle.dump(modelobjects[1], open(modelpath, 'wb'))
     pickle.dump(modelobjects[0], open(encoderpath, 'wb'))
     print(modeltrain.feat_imp_df)
 
     return
 
-##################Part to train the model #################################################
-def execute_model_prediction():
+##################Part to predict from the trained model #################################################
+def execute_model_prediction(modelpath, model):
     """
 
     :return:
     """
     masterdf = pd.read_csv(r'Data/ipl_scorecard_points_featengg.csv')
+    if model == 'rf':
+        masterdf.fillna(-100,inplace=True)
     modelpkl = pickle.load(open(modelpath, 'rb'))
     enc = pickle.load(open(encoderpath, 'rb'))
     mod_predict = ModelPredict(masterdf, enc, modelpkl, predictors, cat_cols, pred_col)
     mod_predict.get_normalized_data()
     masterdf[pred_col] = mod_predict.get_model_predictions()
-
     modelresults = mod_predict.get_model_error(masterdf, pred_col, target_col, groupbycol='year')
-
     masterdf.to_csv(r'Data\model_prediction.csv', index=False)
     print('mean_squared_error: {}'.format(modelresults[0]))
     print('yearly summary mean_squared_error: {}'.format(modelresults[1]))
@@ -81,12 +76,12 @@ def execute_model_prediction():
 
 
 ##################Part to run the optimization to select the playing 11#################################################
-def execute_team_selection():
+def execute_team_selection(modelresultspath):
     """
 
     :return:
     """
-    ipl_features = pd.read_csv(r'Data\model_prediction.csv')
+    ipl_features = pd.read_csv(modelresultspath)
     # selecting the 11 players from a team of 22 based on historic points average
 
     # get the team by running binary LP solver
@@ -97,12 +92,12 @@ def execute_team_selection():
     return optimum_team
 
 ##################Part to calculate the accuracy of the selected 11 if the actual 11 is available#######################
-def execute_rewards_calcualtion():
+def execute_rewards_calcualtion(modelresultspath):
     """
 
     :return:
     """
-    optimum_team = execute_team_selection()
+    optimum_team = execute_team_selection(modelresultspath)
     SQUADCOUNT = 11
 
     # select Top11 based on the actual points
@@ -180,6 +175,7 @@ if __name__ == "__main__":
                  'OVER': 'over',
                  'INNINGS': 'innings',
                  'VENUE': 'venue',
+                 'TOTALBALLSBOWLED':'total_balls_bowled',
                  'BATTINGORDER': 'fallofwickets',
                  'BATTINGTEAM': 'battingteam',
                  'BOWLINGTEAM': 'bowlingteam',
@@ -210,15 +206,19 @@ if __name__ == "__main__":
 
     pred_col = 'pred_points'
     target_col = 'total_points'
+    modelname = 'xgb'
     # modelpath = r"Data\xgb_model.pkl"
     # encoderpath = r"Data\OnHotEncoder_xgb.pkl"
     modelpath = r"Data\catb_model.pkl"
     encoderpath = r"Data\OnHotEncoder_catb.pkl"
 
-    execute_get_scorecard()  # Run the function to to feature engineering
-    execute_model_train()  # Run the function to build the model
-    execute_model_prediction()  #Rung ht function to predict the points based on the model
-    execute_team_selection()  # Run the select the playing 11
-    execute_rewards_calcualtion()  # Run the function to estimate rewards
+    modelresultspath = r"Data\model_prediction.csv"
+
+    execute_get_scorecard()  # Run the function to to do feature engineering
+    execute_model_train(modelpath)  # Run the function to build the model
+    execute_model_prediction(modelpath, modelname)   # Run the function to predict the points based on the model
+    execute_team_selection()  # Run the fucntion to only select  the predicted playing 11
+    execute_rewards_calcualtion(modelresultspath)  # Run the function to estimate rewards if actual playing 11 is available
 
     #TODO make the constraint for allrounder, batsmen, bowler dynamic
+
