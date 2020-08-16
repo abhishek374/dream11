@@ -127,12 +127,13 @@ class ModelTrain:
             return
         X = self.train_data[self.predictors]
         y = self.train_data[self.target_col]
-        self.model_grid.fit(X, y)
-        self.model.set_params(**self.xgb_grid.best_params_)
-        self.model.fit(X.values, y.values, verbose=False)
-        print(self.model_grid.best_score_)
-        print(self.model_grid.best_params_)
-        self.feat_imp_df = pd.DataFrame(zip(self.predictors, self.model_grid.best_estimator_.feature_importances_), columns=['feature_name', 'feature_importance'])
+        model_grid.fit(X, y)
+        model.set_params(**self.xgb_grid.best_params_)
+        model.fit(X.values, y.values, verbose=False)
+        print(model_grid.best_score_)
+        print(model_grid.best_params_)
+        self.feat_imp_df = pd.DataFrame(zip(self.predictors, model_grid.best_estimator_.feature_importances_), columns=['feature_name', 'feature_importance'])
+
         end = time.time()
         # total time taken
         print(f"Runtime of the program is {(end - start)/60} mins")
