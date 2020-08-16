@@ -87,7 +87,7 @@ class ModelTrain:
 
         parameters = {'loss_function': ['RMSE'],
                       'depth': [6, 8, 10],
-                      'cat_features': self.cat_features_catboost,
+                      'cat_features': [self.cat_features_catboost],
                       'learning_rate': [0.01, 0.05, 0.1],
                       'iterations': [30, 100, 1000],
                       'l2_leaf_reg': [.1, 1, 10, 100],
@@ -96,14 +96,6 @@ class ModelTrain:
                       'border_count': [32],
                       'random_seed': [1]}
 
-        # parameters = {'loss_function': ['RMSE'],
-        #               'depth': [6, 8, 10],
-        #               'cat_features': self.cat_features_catboost,
-        #               'learning_rate': [0.01, 0.05, 0.1],
-        #               'iterations': [30, 100, 1000],
-        #               'l2_leaf_reg': [.1, 1, 10, 100],
-        #               'early_stopping_rounds': [100],
-        #               'random_seed': [1]}
 
         self.cat_grid = GridSearchCV(estimator=self.cat1,
                                 param_grid=parameters,
@@ -154,7 +146,7 @@ class ModelTrain:
             return
         model_grid.fit(X, y)
         model.set_params(**model_grid.best_params_)
-        model.fit(X, y, verbose=False)
+        model.fit(X.values, y.values, verbose=False)
         print(model_grid.best_score_)
         print(model_grid.best_params_)
         self.feat_imp_df = pd.DataFrame(zip(self.predictors, model_grid.best_estimator_.feature_importances_), columns=['feature_name', 'feature_importance'])
