@@ -38,12 +38,17 @@ def execute_get_scorecard():
     return
 
 ##################Part to train the model #################################################
-def execute_model_train(modelpath):
+def execute_model_train(modelpath, usetimeseries=False):
     """
 
     :return:
     """
     masterdf = pd.read_csv(r'Data/ipl_scorecard_points_featengg.csv')
+    if usetimeseries:
+        timeseries_col = 'ts_pred_points'
+        ts_prediction = ModelTrain.get_timeseries_forecast(masterdf, target_col, timeseries_col, pred_col)
+        masterdf = pd.merge(masterdf, ts_prediction, left_index=True, right_index=True, how='left')
+        predictors = predictors + ['ts_pred_points']
     modeltrain = ModelTrain(masterdf, target_col, predictors, cat_cols)
     modeltrain.get_normalized_data()
     modeltrain.get_test_train(split_col='year', split_value=[2019])
@@ -55,7 +60,7 @@ def execute_model_train(modelpath):
     return
 
 ##################Part to predict from the trained model #################################################
-def execute_model_prediction(modelpath, model):
+def execute_model_prediction(modelpath, model,usetimeseries):
     """
 
     :return:
@@ -63,6 +68,8 @@ def execute_model_prediction(modelpath, model):
     masterdf = pd.read_csv(r'Data/ipl_scorecard_points_featengg.csv')
     if model == 'rf':
         masterdf.fillna(-100,inplace=True)
+    if usetimeseries:
+        predictors = predictors + ['ts_pred_points']
     modelpkl = pickle.load(open(modelpath, 'rb'))
     enc = pickle.load(open(encoderpath, 'rb'))
     mod_predict = ModelPredict(masterdf, enc, modelpkl, predictors, cat_cols, pred_col)
@@ -191,22 +198,19 @@ if __name__ == "__main__":
                  'PREDSELECTIONRANK': 'pred_selection_rank',
                  'ACTUALSELECTIONRANK': 'actual_selection_rank'}
 
-    predictors = ['playing_team', 'playing_role', 'home_game', 'toss_flag', 'player_match_count',
-                  'total_bat_points_playername_avg10',
-                  'total_bowl_points_playername_avg10', 'fallofwickets_playername_avg10',
-                  'total_balls_bowled_playername_avg10',
-                  'total_bat_points_venue_avg10', 'total_bowl_points_venue_avg10', 'total_bat_points_playername_avg5',
-                  'total_bowl_points_playername_avg5', 'fallofwickets_playername_avg5',
-                  'total_balls_bowled_playername_avg5',
-                  'total_bat_points_venue_avg5', 'total_bowl_points_venue_avg5', 'total_bat_points_playername_avg2',
-                  'total_bowl_points_playername_avg2', 'fallofwickets_playername_avg2',
-                  'total_balls_bowled_playername_avg2',
-                  'total_bat_points_venue_avg2', 'total_bowl_points_venue_avg2']
+    predictors = ['playing_team', 'opposition_team', 'playing_role', 'city', 'ts_pred_points', 'home_game', 'toss_flag',
+                  'player_match_count',
+                  'fallofwickets_playername_avg1', 'total_balls_bowled_playername_avg1',
+                  'total_balls_bowled_playername_avg1',
+                  'total_bat_points_venue_avg1', 'total_bowl_points_venue_avg1', 'total_points_playername_avg1',
+                  'total_points_playername_avg3', 'fallofwickets_playername_avg3', 'total_balls_bowled_playername_avg3',
+                  'total_bat_points_venue_avg3', 'total_bowl_points_venue_avg3']
+
     cat_cols = ['playing_team', 'playing_role']
 
     pred_col = 'pred_points'
     target_col = 'total_points'
-    modelname = 'xgb'
+    modelname = 'catboost'
     # modelpath = r"Data\xgb_model.pkl"
     # encoderpath = r"Data\OnHotEncoder_xgb.pkl"
     modelpath = r"Data\catb_model.pkl"
@@ -215,8 +219,8 @@ if __name__ == "__main__":
     modelresultspath = r"Data\model_prediction.csv"
 
     execute_get_scorecard()  # Run the function to to do feature engineering
-    execute_model_train(modelpath)  # Run the function to build the model
-    execute_model_prediction(modelpath, modelname)   # Run the function to predict the points based on the model
+    execute_model_train(modelpath, usetimeseries=False)  # Run the function to build the model
+    execute_model_prediction(modelpath, modelname, usetimeseries=False)   # Run the function to predict the points based on the model
     execute_team_selection()  # Run the fucntion to only select  the predicted playing 11
     execute_rewards_calcualtion(modelresultspath)  # Run the function to estimate rewards if actual playing 11 is available
 

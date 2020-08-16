@@ -41,6 +41,26 @@ class ModelTrain:
                                 verbose=True,
                                 n_iter=100)
         return
+
+    def define_random_forest_model(self):
+        """
+
+        :return:
+        """
+        parameters = {'criterion': ['mse'],
+                      'max_depth': [5, 6, 7],
+                      'min_samples_leaf': [5, 10],
+                      'min_impurity_decrease': [.001, .005, 0.01],
+                      'max_features': ["sqrt","log2"],
+                      'n_estimators': [100, 500],
+                      'ccp_alpha': [0.01, 0.05, .1],
+                      'random_state': [1]}
+        self.rf = RandomForestRegressor()
+        self.rf_grid = RandomizedSearchCV(self.rf,
+                                     parameters,
+                                     cv=4,
+                                     n_jobs=4,
+                                     verbose=True)
     
     def define_catboost_model_params(self):
         self.cat1 = CatBoostRegressor()
@@ -71,25 +91,6 @@ class ModelTrain:
         self.predictors.extend(master_catcols.columns.tolist())
         return
 
-    def get_random_forest_model(self):
-        """
-
-        :return:
-        """
-        parameters = {'criterion': ['mse'],
-                      'max_depth': [5, 6, 7],
-                      'min_samples_leaf': [5, 10],
-                      'min_impurity_decrease': [.001, .005, 0.01],
-                      'max_features': ["sqrt","log2"],
-                      'n_estimators': [100, 500],
-                      'ccp_alpha': [0.01, 0.05, .1],
-                      'random_state': [1]}
-        self.rf = RandomForestRegressor()
-        self.rf_grid = RandomizedSearchCV(self.rf,
-                                     parameters,
-                                     cv=4,
-                                     n_jobs=4,
-                                     verbose=True)
 
     def get_test_train(self, split_col=None, split_value=None):
         """
@@ -116,7 +117,7 @@ class ModelTrain:
             model = self.xgb1
             model_grid = self.xgb_grid
         elif model == 'rf':
-            self.get_random_forest_model()
+            self.define_random_forest_model()
             model = self.rf
             model_grid = self.rf_grid
         elif model == 'catboost':
@@ -128,7 +129,7 @@ class ModelTrain:
         X = self.train_data[self.predictors]
         y = self.train_data[self.target_col]
         model_grid.fit(X, y)
-        model.set_params(**self.xgb_grid.best_params_)
+        model.set_params(**self.model_grid.best_params_)
         model.fit(X.values, y.values, verbose=False)
         print(model_grid.best_score_)
         print(model_grid.best_params_)
