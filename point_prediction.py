@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from xgboost.sklearn import XGBRegressor
+from catboost import CatBoostRegressor
 from sklearn.model_selection import GridSearchCV
 from sklearn import metrics
 import category_encoders as ce
@@ -31,6 +32,19 @@ class ModelTrain:
         self.xgb_grid = GridSearchCV(self.xgb1,
                                 parameters,
                                 cv=5,
+                                n_jobs=5,
+                                verbose=True)
+        return
+    
+    def define_catboost_model_params(self):
+        self.cat1 = CatBoostRegressor()
+        parameters = {'depth': [6, 8, 10],
+                      'learning_rate': [0.01, 0.05, 0.1],
+                      'iterations': [30, 50, 100],
+                      'random_seed': [1]}
+        self.cat_grid = GridSearchCV(self.cat1,
+                                parameters,
+                                cv=3,
                                 n_jobs=5,
                                 verbose=True)
         return
@@ -81,10 +95,24 @@ class ModelTrain:
             print(self.xgb_grid.best_params_)
             self.feat_imp_df = pd.DataFrame(zip(self.predictors, self.xgb_grid.best_estimator_.feature_importances_),
                                             columns=['feature_name', 'feature_importance'])
+
+
+        elif model == 'catboost':
+            self.define_catboost_model_params()
+            self.cat_grid.fit(X, y)
+            self.cat1.set_params(**self.cat_grid.best_params_)
+            self.cat1.fit(X.values, y.values, verbose=False)
+            print(self.cat_grid.best_score_)
+            print(self.cat_grid.best_params_)
+            self.feat_imp_df = pd.DataFrame(zip(self.predictors, self.cat_grid.best_estimator_.feature_importances_),
+                                            columns=['feature_name', 'feature_importance'])
         return
 
-    def get_model_objects(self):
-        return self.enc, self.xgb1
+    def get_model_objects(self, model = 'xgb'):
+        if model == 'xgb':
+            return self.enc, self.xgb1
+        else: 
+            return self.enc, self.cat1
 
 
 class ModelPredict:

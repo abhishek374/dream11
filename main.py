@@ -49,8 +49,9 @@ def execute_model_train():
     modeltrain = ModelTrain(masterdf, target_col, predictors, cat_cols)
     modeltrain.get_normalized_data()
     modeltrain.get_test_train(split_col='year', split_value=[2019])
-    modeltrain.train_model(model='xgb')
-    modelobjects = modeltrain.get_model_objects()
+    # modeltrain.train_model(model='xgb')
+    modeltrain.train_model(model='catboost')
+    modelobjects = modeltrain.get_model_objects(model='catboost')
 
     pickle.dump(modelobjects[1], open(modelpath, 'wb'))
     pickle.dump(modelobjects[0], open(encoderpath, 'wb'))
@@ -209,8 +210,10 @@ if __name__ == "__main__":
 
     pred_col = 'pred_points'
     target_col = 'total_points'
-    modelpath = r"Data\xgb_model.pkl"
-    encoderpath = r"Data\OnHotEncoder_xgb.pkl"
+    # modelpath = r"Data\xgb_model.pkl"
+    # encoderpath = r"Data\OnHotEncoder_xgb.pkl"
+    modelpath = r"Data\catb_model.pkl"
+    encoderpath = r"Data\OnHotEncoder_catb.pkl"
 
     execute_get_scorecard()  # Run the function to to feature engineering
     execute_model_train()  # Run the function to build the model
