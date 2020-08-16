@@ -12,13 +12,33 @@ import time
 # TODO Add hyperopt method to optimize
 class ModelTrain:
 
-    def __init__(self, masterdf, target_col, predictors, cat_cols):
+    def __init__(self, masterdf, target_col, predictors, cat_cols, modelname):
         self.target_col = target_col
         self.masterdf = masterdf
         self.num_round = 300
         self.cv_folds = 5
         self.cat_cols = cat_cols
         self.predictors = predictors
+        self.modelname = modelname
+        return
+
+    def get_normalized_data(self):
+        """
+
+        :return:
+        """
+        if self.modelname == 'catboost':
+            self.enc = ""
+            return
+        # Convert categorical columns using OneHotEncoding
+        master_catcols = self.masterdf[self.cat_cols]
+        self.enc = ce.OneHotEncoder(cols=self.cat_cols, return_df=True).fit(master_catcols)
+        master_catcols = self.enc.transform(master_catcols)
+        num_cols = list(set(self.masterdf.columns)-set(self.cat_cols))
+        master_numcols = self.masterdf[num_cols]
+        self.masterdf = pd.concat([master_numcols, master_catcols], axis=1)
+        self.predictors = list(set(self.predictors) - set(self.cat_cols))
+        self.predictors.extend(master_catcols.columns.tolist())
         return
 
     def define_xgb_model_params(self):
@@ -51,7 +71,7 @@ class ModelTrain:
                       'max_depth': [5, 6, 7],
                       'min_samples_leaf': [5, 10],
                       'min_impurity_decrease': [.001, .005, 0.01],
-                      'max_features': ["sqrt","log2"],
+                      'max_features': ["sqrt", "log2"],
                       'n_estimators': [100, 500],
                       'ccp_alpha': [0.01, 0.05, .1],
                       'random_state': [1]}
@@ -64,31 +84,33 @@ class ModelTrain:
     
     def define_catboost_model_params(self):
         self.cat1 = CatBoostRegressor()
-        parameters = {'depth': [6, 8, 10],
+
+        parameters = {'loss_function': ['RMSE'],
+                      'depth': [6, 8, 10],
+                      'cat_features': self.cat_features_catboost,
                       'learning_rate': [0.01, 0.05, 0.1],
-                      'iterations': [30, 50, 100],
+                      'iterations': [30, 100, 1000],
+                      'l2_leaf_reg': [.1, 1, 10, 100],
+                      'early_stopping_rounds': [100],
+                      'task_type': ['GPU'],
+                      'border_count': [32],
                       'random_seed': [1]}
-        self.cat_grid = GridSearchCV(self.cat1,
-                                parameters,
+
+        # parameters = {'loss_function': ['RMSE'],
+        #               'depth': [6, 8, 10],
+        #               'cat_features': self.cat_features_catboost,
+        #               'learning_rate': [0.01, 0.05, 0.1],
+        #               'iterations': [30, 100, 1000],
+        #               'l2_leaf_reg': [.1, 1, 10, 100],
+        #               'early_stopping_rounds': [100],
+        #               'random_seed': [1]}
+
+        self.cat_grid = GridSearchCV(estimator=self.cat1,
+                                param_grid=parameters,
                                 cv=3,
                                 n_jobs=5,
                                 verbose=True)
-        return
 
-    def get_normalized_data(self):
-        """
-
-        :return:
-        """
-        # Convert categorical columns using OneHotEncoding
-        master_catcols = self.masterdf[self.cat_cols]
-        self.enc = ce.OneHotEncoder(cols=self.cat_cols, return_df=True).fit(master_catcols)
-        master_catcols = self.enc.transform(master_catcols)
-        num_cols = list(set(self.masterdf.columns)-set(self.cat_cols))
-        master_numcols = self.masterdf[num_cols]
-        self.masterdf = pd.concat([master_numcols, master_catcols], axis=1)
-        self.predictors = list(set(self.predictors) - set(self.cat_cols))
-        self.predictors.extend(master_catcols.columns.tolist())
         return
 
 
@@ -111,26 +133,28 @@ class ModelTrain:
         :return:
         """
         start = time.time()
+        X = self.train_data[self.predictors]
+        y = self.train_data[self.target_col]
 
-        if model == 'xgb':
+        if self.modelname == 'xgb':
             self.define_xgb_model_params()
             model = self.xgb1
             model_grid = self.xgb_grid
-        elif model == 'rf':
+        elif self.modelname == 'rf':
             self.define_random_forest_model()
             model = self.rf
             model_grid = self.rf_grid
-        elif model == 'catboost':
+        elif self.modelname == 'catboost':
+            self.cat_features_catboost = [X.columns.get_loc(col) for col in self.cat_cols]
+            self.define_catboost_model_params()
             model = self.cat1
             model_grid = self.cat_grid
         else:
             print('Model selected is not available')
             return
-        X = self.train_data[self.predictors]
-        y = self.train_data[self.target_col]
         model_grid.fit(X, y)
-        model.set_params(**self.model_grid.best_params_)
-        model.fit(X.values, y.values, verbose=False)
+        model.set_params(**model_grid.best_params_)
+        model.fit(X, y, verbose=False)
         print(model_grid.best_score_)
         print(model_grid.best_params_)
         self.feat_imp_df = pd.DataFrame(zip(self.predictors, model_grid.best_estimator_.feature_importances_), columns=['feature_name', 'feature_importance'])
@@ -187,26 +211,28 @@ class ModelTrain:
 
 class ModelPredict:
 
-    def __init__(self, masterdf, enc, model, predictors, cat_cols, points_pred_col):
+    def __init__(self, masterdf, enc, model, modelname, predictors, cat_cols, points_pred_col):
         self.masterdf = masterdf
         self.enc = enc
         self.model = model
         self.points_pred_col = points_pred_col
         self.cat_cols = cat_cols
         self.predictors = predictors
+        self.modelname = modelname
 
     def get_normalized_data(self):
         """
 
         :return:
         """
-        master_catcols = self.masterdf[self.cat_cols]
-        master_catcols = self.enc.transform(master_catcols)
-        num_cols = list(set(self.masterdf.columns)-set(self.cat_cols))
-        master_numcols = self.masterdf[num_cols]
-        self.masterdf = pd.concat([master_numcols, master_catcols], axis=1)
-        self.predictors = list(set(self.predictors) - set(self.cat_cols))
-        self.predictors.extend(master_catcols.columns.tolist())
+        if (self.modelname == 'xgboost') or (self.modelname == 'rf'):
+            master_catcols = self.masterdf[self.cat_cols]
+            master_catcols = self.enc.transform(master_catcols)
+            num_cols = list(set(self.masterdf.columns)-set(self.cat_cols))
+            master_numcols = self.masterdf[num_cols]
+            self.masterdf = pd.concat([master_numcols, master_catcols], axis=1)
+            self.predictors = list(set(self.predictors) - set(self.cat_cols))
+            self.predictors.extend(master_catcols.columns.tolist())
         return
 
     def get_model_predictions(self):
