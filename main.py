@@ -19,7 +19,7 @@ def execute_get_scorecard():
     ipl_scorecard_points = Dream11Points(ipl_scorecard.ipl_merged_scorecard, pointsconfig)
     ipl_scorecard_points.get_batsmen_bowler_points()
 
-    ##################Part to create additional features for modeling#######################################################
+    ##################Part to create additional features for modeling###################################################
 
     FeatEng = FeatEngineering(ipl_scorecard_points.player_scorecard, matchsummary)
     FeatEng.add_venue_info()
@@ -27,7 +27,7 @@ def execute_get_scorecard():
     FeatEng.add_toss_info()
     FeatEng.add_player_match_count()
 
-    rolling_window = [1, 3]
+    rolling_window = [2, 5]
     for i in rolling_window:
         FeatEng.add_lagging_feat(colconfig['MATCHID'], colconfig['VENUE'], i, colconfig['TOTALBATPOINTS'], colconfig['TOTALBALLPOINTS'])
         FeatEng.add_lagging_feat(colconfig['MATCHID'], colconfig['PLAYERNAME'], i, colconfig['ACTUALPOINTS'],  colconfig['BATTINGORDER'], colconfig['TOTALBALLSBOWLED'])
@@ -46,17 +46,18 @@ def execute_model_train(modelname, modelpath, predictors, usetimeseries=False):
     :return:
     """
     masterdf = pd.read_csv(r'Data/ipl_scorecard_points_featengg.csv')
+    masterdf = pd.read_csv(r'Data/time_series_output.csv')
     if usetimeseries:
-        timeseries_col = 'ts_pred_points'
-        ts_prediction = ModelTrain.get_timeseries_forecast(masterdf, target_col, timeseries_col, pred_col)
-        masterdf = pd.merge(masterdf, ts_prediction, left_index=True, right_index=True, how='left')
+        # ts_prediction = ModelTrain.get_timeseries_forecast(masterdf, target_col, 'playername', 'ts_pred_points')
+        # masterdf = pd.merge(masterdf, ts_prediction, left_index=True, right_index=True, how='left')
+        # masterdf.to_csv(r'Data\time_series_output.csv')
         predictors = predictors + ['ts_pred_points']
     modeltrain = ModelTrain(masterdf, target_col, predictors, cat_cols, modelname)
-    modeltrain.get_normalized_data()
     modeltrain.get_test_train(split_col='year', split_value=[2019])
+    modeltrain.get_normalized_data()
     modelobjects = modeltrain.train_model(model='catboost')
-    pickle.dump(modelobjects[1], open(modelpath, 'wb'))
-    pickle.dump(modelobjects[0], open(encoderpath, 'wb'))
+    pickle.dump(modelobjects[2], open(modelpath, 'wb'))
+    pickle.dump(modelobjects[:2], open(encoderpath, 'wb'))
     print(modeltrain.feat_imp_df)
 
     return
@@ -68,6 +69,8 @@ def execute_model_prediction(modelname,modelpath,predictors,usetimeseries=False)
     :return:
     """
     masterdf = pd.read_csv(r'Data/ipl_scorecard_points_featengg.csv')
+    masterdf = pd.read_csv(r'Data/time_series_output.csv')
+
     if modelname == 'rf':
         masterdf.fillna(-100, inplace=True)
     if usetimeseries:
@@ -201,10 +204,10 @@ if __name__ == "__main__":
                  'ACTUALSELECTIONRANK': 'actual_selection_rank'}
 
     predictors = ['playing_team', 'opposition_team', 'playing_role', 'city', 'home_game', 'toss_flag','player_match_count',
-                  'fallofwickets_playername_avg1', 'total_balls_bowled_playername_avg1',
-                  'total_bat_points_venue_avg1', 'total_bowl_points_venue_avg1', 'total_points_playername_avg1',
-                  'total_points_playername_avg3', 'fallofwickets_playername_avg3', 'total_balls_bowled_playername_avg3',
-                  'total_bat_points_venue_avg3', 'total_bowl_points_venue_avg3']
+                  'fallofwickets_playername_avg2', 'total_balls_bowled_playername_avg2',
+                  'total_bat_points_venue_avg2', 'total_bowl_points_venue_avg2', 'total_points_playername_avg2',
+                  'total_points_playername_avg5', 'fallofwickets_playername_avg5', 'total_balls_bowled_playername_avg5',
+                  'total_bat_points_venue_avg5', 'total_bowl_points_venue_avg5']
 
     cat_cols = ['playing_team', 'playing_role', 'opposition_team', 'city']
 
@@ -216,10 +219,10 @@ if __name__ == "__main__":
 
     modelresultspath = r"Data\model_prediction.csv"
 
-    # execute_get_scorecard()  # Run the function to to do feature engineering
-    execute_model_train(modelname, modelpath, predictors, usetimeseries=False) # Run the function to build the model
-    execute_model_prediction(modelname, modelpath, predictors) # Run the function to predict the points based on the model
-    execute_team_selection()  # Run the function to only select the predicted playing 11
+    execute_get_scorecard()  # Run the function to to do feature engineering
+    execute_model_train(modelname, modelpath, predictors, usetimeseries=True)  # Run the function to build the model
+    execute_model_prediction(modelname, modelpath, predictors, usetimeseries=True)  # Run the function to predict the points based on the model
+    # execute_team_selection(modelresultspath)  # Run the function to only select the predicted playing 11
     execute_rewards_calcualtion(modelresultspath)  # Run the function to estimate rewards if actual playing 11 is available
 
     #TODO make the constraint for allrounder, batsmen, bowler dynamic

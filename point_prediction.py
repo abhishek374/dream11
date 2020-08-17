@@ -3,9 +3,9 @@ import numpy as np
 from scipy import stats
 from xgboost.sklearn import XGBRegressor
 from catboost import CatBoostRegressor
-from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.model_selection import RandomizedSearchCV
+from sklearn.preprocessing import StandardScaler
 from pmdarima.arima import auto_arima, ADFTest
 import category_encoders as ce
 import time
@@ -27,18 +27,28 @@ class ModelTrain:
 
         :return:
         """
+        train_target_df = self.train_data[self.target_col]
+        num_cols = list(set(self.predictors) - set(self.cat_cols))
+        train_numcols_df = self.train_data[num_cols]
+        # Standardize numerical values
+        # Create scale object
+        self.scaler = StandardScaler()
+        train_numcols = self.scaler.fit_transform(train_numcols_df.values)
+        train_numcols = pd.DataFrame(train_numcols, index=train_numcols_df.index, columns=train_numcols_df.columns)
+        # Convert categorical columns using OneHotEncoding
+        train_catcols = self.train_data[self.cat_cols]
         if self.modelname == 'catboost':
             self.enc = ""
-            return
-        # Convert categorical columns using OneHotEncoding
-        master_catcols = self.masterdf[self.cat_cols]
-        self.enc = ce.OneHotEncoder(cols=self.cat_cols, return_df=True).fit(master_catcols)
-        master_catcols = self.enc.transform(master_catcols)
-        num_cols = list(set(self.masterdf.columns)-set(self.cat_cols))
-        master_numcols = self.masterdf[num_cols]
-        self.masterdf = pd.concat([master_numcols, master_catcols], axis=1)
+            self.train_data = train_catcols.join(train_numcols)
+
+        else:
+            self.enc = ce.OneHotEncoder(cols=self.cat_cols, return_df=True).fit(train_catcols)
+            train_catcols = self.enc.transform(train_catcols)
+            self.train_data = train_catcols.join(train_numcols)
+
+        self.train_data = self.train_data.join(train_target_df)
         self.predictors = list(set(self.predictors) - set(self.cat_cols))
-        self.predictors.extend(master_catcols.columns.tolist())
+        self.predictors.extend(train_catcols.columns.tolist())
         return
 
     def define_xgb_model_params(self):
@@ -92,16 +102,14 @@ class ModelTrain:
                       'iterations': [30, 100, 1000],
                       'l2_leaf_reg': [.1, 1, 10, 100],
                       'early_stopping_rounds': [100],
-                      'task_type': ['GPU'],
-                      'border_count': [32],
                       'random_seed': [1]}
 
 
         self.cat_grid = GridSearchCV(estimator=self.cat1,
                                 param_grid=parameters,
-                                cv=3,
-                                n_jobs=5,
-                                verbose=True)
+                                cv=4,
+                                n_jobs=4,
+                                verbose=False)
 
         return
 
@@ -155,7 +163,7 @@ class ModelTrain:
         # total time taken
         print(f"Runtime of the program is {(end - start)/60} mins")
 
-        return self.enc, model
+        return self.enc, self.scaler, model
 
     @staticmethod
     def get_timeseries_forecast(masterdf, target_col, timeseries_col, pred_points):
@@ -217,14 +225,17 @@ class ModelPredict:
 
         :return:
         """
+        master_catcols = self.masterdf[self.cat_cols]
         if (self.modelname == 'xgboost') or (self.modelname == 'rf'):
-            master_catcols = self.masterdf[self.cat_cols]
-            master_catcols = self.enc.transform(master_catcols)
-            num_cols = list(set(self.masterdf.columns)-set(self.cat_cols))
-            master_numcols = self.masterdf[num_cols]
-            self.masterdf = pd.concat([master_numcols, master_catcols], axis=1)
-            self.predictors = list(set(self.predictors) - set(self.cat_cols))
-            self.predictors.extend(master_catcols.columns.tolist())
+            master_catcols = self.enc[0].transform(master_catcols)
+        num_cols = list(set(self.predictors) - set(self.cat_cols))
+        master_numcols_df = self.masterdf[num_cols]
+        master_numcols = self.enc[1].transform(master_numcols_df.values)
+        master_numcols = pd.DataFrame(master_numcols, index=master_numcols_df.index, columns=master_numcols_df.columns)
+        self.masterdf = pd.concat([master_numcols, master_catcols], axis=1)
+        self.predictors = list(set(self.predictors) - set(self.cat_cols))
+        self.predictors.extend(master_catcols.columns.tolist())
+
         return
 
     def get_model_predictions(self):
