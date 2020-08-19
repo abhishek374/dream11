@@ -9,9 +9,11 @@ main.py - controller code used to define configs and call the other modules
 
 data_prep.py - ScoreCard- Used to summarize tha ball by ball data into match level scorecard and also define the playing role for each player
 	       Dream11Points - Points calculated as per dream 11 rules: ipl_scorecard_points.csv
+	       FeatEngg - Feature enginnering module used to add additional features like, opposition team, venue, city, rolling average of batting order, bowls bowled, player's batting points earned, player's bowling points earned, venue's batting point earned and venue's baowling point earned
 
-point_prediction.py - Module with methods to predict players point in a match:
+point_prediction.py - Module with methods to predict players point in a match based on model specified -"xgb","catboost","rf","svm","arima"
 		get_points_moving_avg() - Gives a moing average points per player as a predicted column added to the df: output: ipl_scorecard_points_avg.csv
+		train_model() - builds the model based on the input modelname and dataset
 
 optimized_selection.py - SelectPlayingTeam: Module to select 11 players out of the full squad based on the dream11 contraints and to get maximum total points from the game 				 based on actual match results and the one we predicted
 			 RewardEstimate: compare_pred_vs_actual_points(): Module to estimate percentile of the predicted from the actual maximum points scored in an match
