@@ -31,7 +31,7 @@ optimized_selection.py - SelectPlayingTeam: Module to select 11 players out of t
 ### Tournament Wise Results (Expected Rewards in INR): 
 
 | year | rewards_xgboost | rewards_moving_avg | rewards_catboost |
-|:------|:----------:|----------------:|
+|:------|:----------:|----------------:|------------------------:|
 | 2008 | 35575 | -75            | 33675
 | 2009 | 1550 | -925           | 156225 |
 | 2010 | 6700 | 675            | 3800 |
