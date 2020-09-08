@@ -3,9 +3,9 @@ import numpy as np
 from scipy import stats
 from xgboost.sklearn import XGBRegressor
 from catboost import CatBoostRegressor
-from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.model_selection import RandomizedSearchCV
+from sklearn.preprocessing import StandardScaler
 from pmdarima.arima import auto_arima, ADFTest
 import category_encoders as ce
 import time
@@ -21,24 +21,47 @@ class ModelTrain:
         self.predictors = predictors
         self.modelname = modelname
         return
+    def get_test_train(self, split_col=None, split_value=None):
+        """
+
+        :return:
+        """
+
+        if (split_col is None) or (split_value is None):
+            self.train_data = self.masterdf
+            return
+        self.train_data = self.masterdf[~self.masterdf[split_col].isin(split_value)]
+        self.test_data = self.masterdf[self.masterdf[split_col].isin(split_value)]
+        return
 
     def get_normalized_data(self):
         """
 
         :return:
         """
+        train_target_df = self.train_data[self.target_col]
+        num_cols = [x for x in self.predictors if x not in self.cat_cols]
+        train_numcols_df = self.train_data[num_cols]
+        # Standardize numerical values
+        # Create scale object
+        self.scaler = StandardScaler()
+        train_numcols = self.scaler.fit_transform(train_numcols_df.values)
+        train_numcols = pd.DataFrame(train_numcols, index=train_numcols_df.index, columns=train_numcols_df.columns)
+        # Convert categorical columns using OneHotEncoding
+        train_catcols = self.train_data[self.cat_cols]
         if self.modelname == 'catboost':
             self.enc = ""
-            return
-        # Convert categorical columns using OneHotEncoding
-        master_catcols = self.masterdf[self.cat_cols]
-        self.enc = ce.OneHotEncoder(cols=self.cat_cols, return_df=True).fit(master_catcols)
-        master_catcols = self.enc.transform(master_catcols)
-        num_cols = list(set(self.masterdf.columns)-set(self.cat_cols))
-        master_numcols = self.masterdf[num_cols]
-        self.masterdf = pd.concat([master_numcols, master_catcols], axis=1)
-        self.predictors = list(set(self.predictors) - set(self.cat_cols))
-        self.predictors.extend(master_catcols.columns.tolist())
+            self.train_data = train_catcols.join(train_numcols)
+
+        else:
+            self.enc = ce.OneHotEncoder(cols=self.cat_cols, return_df=True).fit(train_catcols)
+            train_catcols = self.enc.transform(train_catcols)
+            self.train_data = train_catcols.join(train_numcols)
+
+        self.train_data = self.train_data.join(train_target_df)
+        self.predictors = [x for x in self.predictors if x not in self.cat_cols]
+        self.predictors.extend(train_catcols.columns.tolist())
+        print(self.predictors)
         return
 
     def define_xgb_model_params(self):
@@ -92,32 +115,18 @@ class ModelTrain:
                       'iterations': [30, 100, 1000],
                       'l2_leaf_reg': [.1, 1, 10, 100],
                       'early_stopping_rounds': [100],
-                      'task_type': ['GPU'],
-                      'border_count': [32],
                       'random_seed': [1]}
 
 
         self.cat_grid = GridSearchCV(estimator=self.cat1,
                                 param_grid=parameters,
-                                cv=3,
-                                n_jobs=5,
-                                verbose=True)
+                                cv=4,
+                                n_jobs=4,
+                                verbose=False)
 
         return
 
 
-    def get_test_train(self, split_col=None, split_value=None):
-        """
-
-        :return:
-        """
-
-        if (split_col is None) or (split_value is None):
-            self.train_data = self.masterdf
-            return
-        self.train_data = self.masterdf[~self.masterdf[split_col].isin(split_value)]
-        self.test_data = self.masterdf[self.masterdf[split_col].isin(split_value)]
-        return
 
     def train_model(self, model):
         """
@@ -136,6 +145,7 @@ class ModelTrain:
             self.define_random_forest_model()
             model = self.rf
             model_grid = self.rf_grid
+            X = X.fillna(-100)
         elif self.modelname == 'catboost':
             self.cat_features_catboost = [X.columns.get_loc(col) for col in self.cat_cols]
             self.define_catboost_model_params()
@@ -146,7 +156,7 @@ class ModelTrain:
             return
         model_grid.fit(X, y)
         model.set_params(**model_grid.best_params_)
-        model.fit(X.values, y.values, verbose=False)
+        model.fit(X, y, verbose=False)
         print(model_grid.best_score_)
         print(model_grid.best_params_)
         self.feat_imp_df = pd.DataFrame(zip(self.predictors, model_grid.best_estimator_.feature_importances_), columns=['feature_name', 'feature_importance'])
@@ -155,7 +165,7 @@ class ModelTrain:
         # total time taken
         print(f"Runtime of the program is {(end - start)/60} mins")
 
-        return self.enc, model
+        return self.enc, self.scaler, model
 
     @staticmethod
     def get_timeseries_forecast(masterdf, target_col, timeseries_col, pred_points):
@@ -217,14 +227,19 @@ class ModelPredict:
 
         :return:
         """
-        if (self.modelname == 'xgboost') or (self.modelname == 'rf'):
-            master_catcols = self.masterdf[self.cat_cols]
-            master_catcols = self.enc.transform(master_catcols)
-            num_cols = list(set(self.masterdf.columns)-set(self.cat_cols))
-            master_numcols = self.masterdf[num_cols]
-            self.masterdf = pd.concat([master_numcols, master_catcols], axis=1)
-            self.predictors = list(set(self.predictors) - set(self.cat_cols))
-            self.predictors.extend(master_catcols.columns.tolist())
+
+        master_catcols = self.masterdf[self.cat_cols]
+        print(self.masterdf.shape)
+        if (self.modelname == 'xgb') or (self.modelname == 'rf'):
+            master_catcols = self.enc[0].transform(master_catcols)
+        num_cols = [x for x in self.predictors if x not in self.cat_cols]
+        master_numcols_df = self.masterdf[num_cols]
+        master_numcols = self.enc[1].transform(master_numcols_df.values)
+        master_numcols = pd.DataFrame(master_numcols, index=master_numcols_df.index, columns=master_numcols_df.columns)
+        self.masterdf = pd.concat([master_numcols, master_catcols], axis=1)
+        self.predictors = [x for x in self.predictors if x not in self.cat_cols]
+        self.predictors.extend(master_catcols.columns.tolist())
+        print(self.predictors)
         return
 
     def get_model_predictions(self):
@@ -234,7 +249,8 @@ class ModelPredict:
         """
 
         masterdf = self.masterdf[self.predictors]
-        prediction_value = self.model.predict(masterdf.values)
+        print(masterdf.columns)
+        prediction_value = self.model.predict(masterdf)
         return prediction_value
 
     @staticmethod

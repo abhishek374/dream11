@@ -207,10 +207,9 @@ class FeatEngineering:
         :return:
         """
         ipl_features = self.ipl_features.sort_values(by=[match_id, groupby_id], ascending=True)
-        # ipl_features.set_index(match_id, inplace=True)
         for col in args:
             print('col:', col)
-            outcolname = col +"_"+groupby_id+'_avg'+str(rolling_window)
+            outcolname = col + "_" + groupby_id + '_avg' + str(rolling_window)
             rolling_avg_points = ipl_features[[match_id, groupby_id, col]].drop_duplicates()
             rolling_avg_points = pd.DataFrame(rolling_avg_points.groupby([match_id, groupby_id])[col].sum()).reset_index()
             rolling_avg_points.set_index(match_id, inplace=True)
