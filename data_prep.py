@@ -217,3 +217,11 @@ class FeatEngineering:
             rolling_avg_points[outcolname] = pd.DataFrame(rolling_avg_points.groupby([groupby_id])[outcolname].shift(1))
             self.ipl_features = pd.merge(self.ipl_features, rolling_avg_points, on=[match_id, groupby_id], how='left')
         return
+
+    def add_player_leanpatch(self):
+        self.ipl_features['lean_patch_3'] = np.where( np.isnan(self.ipl_features['totalpoints_playername_avg_10']),0,
+                                                      np.where(self.ipl_features['totalpoints_playername_avg_3'] < self.ipl_features['totalpoints_playername_avg_10']*.6, 1, 0))
+        self.ipl_features['lean_patch_2'] = np.where( np.isnan(self.ipl_features['totalpoints_playername_avg_5']),0,
+                                                      np.where(self.ipl_features['totalpoints_playername_avg_2'] < self.ipl_features['totalpoints_playername_avg_5']*.6, 1, 0))
+        self.ipl_features['lean_patch_5'] = np.where( np.isnan(self.ipl_features['totalpoints_playername_avg_10']),0,
+                                                      np.where(self.ipl_features['totalpoints_playername_avg_5'] < self.ipl_features['totalpoints_playername_avg_10']*.6, 1, 0))

@@ -40,7 +40,7 @@ def execute_featureengg(matchdatascorecardpath,matchsummarypath, featenggpath,co
     FeatEng.add_toss_info()
     FeatEng.add_player_match_count()
 
-    rolling_window = [2, 5, 10]
+    rolling_window = [2, 3, 5, 10]
     for i in rolling_window:
         FeatEng.add_lagging_feat(colconfig['MATCHID'], colconfig['VENUE'], i, colconfig['TOTALBATPOINTS'], colconfig['TOTALBALLPOINTS'])
         FeatEng.add_lagging_feat(colconfig['MATCHID'], colconfig['PLAYERNAME'], i, colconfig['ACTUALPOINTS'],  colconfig['BATTINGORDER'], colconfig['TOTALBALLSBOWLED'])
@@ -64,10 +64,12 @@ def execute_model_train(datapath,modelname, predictors, cat_cols, target_col, us
         masterdf = pd.merge(masterdf, ts_prediction, left_index=True, right_index=True, how='left')
         masterdf.to_csv(r'Data\time_series_output.csv', index=False)
         predictors = predictors + ['ts_pred_points']
+    if modelname == 'movingaverate':
+        return
     modeltrain = ModelTrain(masterdf, target_col, predictors, cat_cols, modelname)
     modeltrain.get_test_train(split_col='year', split_value=[2019])
     modeltrain.get_normalized_data()
-    modelobjects = modeltrain.train_model(model='catboost')
+    modelobjects = modeltrain.train_model(model=modelname)
     pickle.dump(modelobjects[2], open(datapath['modelpath'], 'wb'))
     pickle.dump(modelobjects[:2], open(datapath['encoderpath'], 'wb'))
     print(modeltrain.feat_imp_df)
@@ -79,6 +81,7 @@ def execute_model_prediction(datapath,  predictors, modelname, cat_cols, pred_co
 
     :return:
     """
+
     if predpath:
         masterdf = pd.read_csv(datapath['predfeaturepath'])
     else:
@@ -86,8 +89,15 @@ def execute_model_prediction(datapath,  predictors, modelname, cat_cols, pred_co
 
     if modelname == 'rf':
         masterdf.fillna(-100, inplace=True)
+
     if usetimeseries:
         predictors = predictors + ['ts_pred_points']
+
+    if modelname == 'movingaverage':
+        masterdf[pred_col] = masterdf['total_points_playername_avg3']
+        masterdf.to_csv(datapath['modelresultspath'], index=False)
+        return
+
     modelpkl = pickle.load(open(datapath['modelpath'], 'rb'))
     enc = pickle.load(open(datapath['encoderpath'], 'rb'))
     mod_predict = ModelPredict(masterdf, enc, modelpkl, modelname, predictors, cat_cols, pred_col)

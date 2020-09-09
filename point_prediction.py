@@ -229,7 +229,6 @@ class ModelPredict:
         """
 
         master_catcols = self.masterdf[self.cat_cols]
-        print(self.masterdf.shape)
         if (self.modelname == 'xgb') or (self.modelname == 'rf'):
             master_catcols = self.enc[0].transform(master_catcols)
         num_cols = [x for x in self.predictors if x not in self.cat_cols]
@@ -239,7 +238,6 @@ class ModelPredict:
         self.masterdf = pd.concat([master_numcols, master_catcols], axis=1)
         self.predictors = [x for x in self.predictors if x not in self.cat_cols]
         self.predictors.extend(master_catcols.columns.tolist())
-        print(self.predictors)
         return
 
     def get_model_predictions(self):
@@ -249,7 +247,6 @@ class ModelPredict:
         """
 
         masterdf = self.masterdf[self.predictors]
-        print(masterdf.columns)
         prediction_value = self.model.predict(masterdf)
         return prediction_value
 
