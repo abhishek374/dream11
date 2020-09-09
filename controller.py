@@ -1,6 +1,6 @@
 import pandas as pd
 from main import *
-
+from send_email import send_email_team
 if __name__ == "__main__":
     # reading the source file from local
     matchdatapath = r'Data/matchdata.csv'
@@ -110,7 +110,7 @@ if __name__ == "__main__":
 
     model_train = False
     full_model_predict = False
-    next_match_team = False
+    next_match_team = True
 
     # Run the below function to train the model
     if model_train:
@@ -128,11 +128,11 @@ if __name__ == "__main__":
     if next_match_team:
         finalteam = pd.DataFrame()
         # Change the values of team1, team2, city and venue depending on the match
-        TEAM1 = "Kolkata Knight Riders"
-        TEAM2 = "Royal Challengers Bangalore"
+        TEAM1 = "Mumbai Indians"
+        TEAM2 = "Chennai Super Kings"
         CITY = 'Abu Dhabi'
         VENUE = 'Sheikh Zayed Stadium'
-        create_pred_dataframe(datapath, colconfig, TEAM1, TEAM2,CITY, VENUE, toss_winner=TEAM1)
+        create_pred_dataframe(datapath, colconfig, TEAM1, TEAM2, CITY, VENUE, toss_winner=TEAM1)
         for modelname in ['catboost', 'xgb', 'movingaverage']:
             modelpath = r"Data/" + modelname + "_model.pkl"
             encoderpath = r"Data/OnHotEncoder_" + modelname + ".pkl"
@@ -146,8 +146,12 @@ if __name__ == "__main__":
             if finalteam.shape[0] == 0:
                 finalteam = teamtemp
             else:
-                finalteam = pd.merge(finalteam, teamtemp, on=['playername', 'playing_role', 'playing_team'],how='left')
+                finalteam = pd.merge(finalteam, teamtemp, on=['playername', 'playing_role', 'playing_team'], how='left')
+        collist = [col for col in finalteam.columns if 'pred_selection' in col]
+        finalteam['pred_selection_all'] = finalteam[collist].apply(np.sum, axis=1)
+        finalteam['pred_selection_all'] = np.where(finalteam['pred_selection_all'] == len(collist), 1, "")
         finalteam.to_csv(nextmatchteampath, index=False)
+        send_email_team(TEAM1, TEAM2, nextmatchteampath)
 
         #TODO make the constraint for allrounder, batsmen, bowler dynamic
         #TODO option to add weights manually
