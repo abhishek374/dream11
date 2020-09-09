@@ -28,7 +28,7 @@ optimized_selection.py - SelectPlayingTeam: Module to select 11 players out of t
 |:-----|:-------:|------:|
 | Moving Average | 34% | 9,125 |
 | XGBoost | 32% | 550 |
-| Catboost | 32% | 2675 |
+| Catboost | 33% | 14400 |
 
 ### Tournament Wise Results (Expected Rewards in INR): 
 
