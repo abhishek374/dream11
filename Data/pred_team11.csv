@@ -1,0 +1,27 @@
+playername,playing_role,playing_team,pred_points_catboost,pred_selection_true_catboost,pred_points_xgb,pred_selection_true_xgb,pred_points_movingaverage,pred_selection_true_movingaverage
+CA Lynn,Batsmen,Kolkata Knight Riders,85.61102814238545,1.0,57.81219300000001,1.0,61.33333333333334,1.0
+AD Russell,AllRounder,Kolkata Knight Riders,64.18412404803306,1.0,88.55927199999999,1.0,145.33333333333334,1.0
+V Kohli,Batsmen,Royal Challengers Bangalore,36.456009644295335,1.0,35.883648,1.0,26.66666666666667,
+AB de Villiers,Batsmen,Royal Challengers Bangalore,36.17606174957473,1.0,33.574909999999996,1.0,10.666666666666666,
+Shubman Gill,Batsmen,Kolkata Knight Riders,35.40095267589524,1.0,33.914215000000006,1.0,96.0,1.0
+RV Uthappa,Batsmen,Kolkata Knight Riders,33.47097738941524,1.0,33.354690000000005,1.0,32.0,1.0
+PA Patel,Batsmen,Royal Challengers Bangalore,32.73859583208554,1.0,32.529545,1.0,19.666666666666668,
+N Rana,Batsmen,Kolkata Knight Riders,31.677152407289327,1.0,31.894009999999998,1.0,27.0,1.0
+SP Narine,Bowler,Kolkata Knight Riders,30.16584852013325,1.0,30.1326,1.0,14.666666666666664,
+YS Chahal,Bowler,Royal Challengers Bangalore,27.61528452303458,1.0,27.636408000000003,1.0,37.333333333333336,1.0
+S Sandeep Warrier,Bowler,Kolkata Knight Riders,27.25657738882992,1.0,26.492409999999996,,17.333333333333332,
+MP Stoinis,AllRounder,Royal Challengers Bangalore,31.669197656854717,,29.417409999999997,,39.0,1.0
+KD Karthik,Batsmen,Kolkata Knight Riders,30.552831356768976,,31.781159999999996,,16.333333333333332,
+Gurkeerat Singh,Batsmen,Royal Challengers Bangalore,28.31661165714076,,27.862131,,42.333333333333336,1.0
+SO Hetmyer,Batsmen,Royal Challengers Bangalore,27.53202803932352,,27.459213000000002,,38.0,1.0
+PP Chawla,Bowler,Kolkata Knight Riders,25.794481974636163,,29.094995,1.0,31.33333333333333,1.0
+NA Saini,Bowler,Royal Challengers Bangalore,25.50624461919488,,25.778433,,20.666666666666668,
+HF Gurney,Bowler,Kolkata Knight Riders,25.31396739829982,,25.809706,,23.66666666666667,
+Washington Sundar,Bowler,Royal Challengers Bangalore,25.251488437545706,,24.743761,,32.666666666666664,1.0
+C de Grandhomme,AllRounder,Royal Challengers Bangalore,24.86429545746627,,22.441912,,12.666666666666664,
+UT Yadav,Bowler,Royal Challengers Bangalore,24.56405554312209,,23.56275,,8.666666666666666,
+K Khejroliya,Bowler,Royal Challengers Bangalore,24.41354640171392,,24.754297,,4.333333333333333,
+M Prasidh Krishna,Bowler,Kolkata Knight Riders,24.2458646869062,,22.257298000000002,,12.666666666666664,
+P Negi,Bowler,Royal Challengers Bangalore,23.049690795088264,,22.42473,,1.6666666666666667,
+H Klaasen,Batsmen,Royal Challengers Bangalore,20.379296474913566,,21.308802,,9.666666666666666,
+RK Singh,Batsmen,Kolkata Knight Riders,20.33814613388264,,21.658573,,14.0,

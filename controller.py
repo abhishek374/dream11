@@ -1,5 +1,5 @@
-from main import *
 import pandas as pd
+from main import *
 
 if __name__ == "__main__":
     # reading the source file from local
@@ -83,7 +83,7 @@ if __name__ == "__main__":
     target_col = 'total_points'
     pred_col = 'pred_points'
 
-    modelname = 'catboost'
+    modelname = 'xgb'
     matchdatascorecardpath = r'Data/ipl_scorecard_points.csv'
     featenggpath = r'Data/ipl_scorecard_points_featengg.csv'
 
@@ -94,7 +94,7 @@ if __name__ == "__main__":
     predfeaturepath = r"Data/pred_data_features.csv"
     predscorecardpath = r"Data/pred_data_scorecard.csv"
     predsummarypath = r"Data/pred_data_summary.csv"
-    nextmatchteampath = r"Data/pred_team11_" + modelname + ".csv"
+    nextmatchteampath = r"Data/pred_team11.csv"
 
     datapath = {'matchdatapath': matchdatapath,
                 'matchsummarypath': matchsummarypath,
@@ -108,32 +108,46 @@ if __name__ == "__main__":
                 'predfeaturepath': predfeaturepath,
                 'nextmatchteampath': nextmatchteampath}
 
-
     model_train = False
     full_model_predict = False
-    next_match_team = True
+    next_match_team = False
 
     # Run the below function to train the model
     if model_train:
         execute_get_scorecard(datapath, pointsconfig)  # Run the function to to get points in the scorecard format
         execute_featureengg(datapath['matchdatascorecardpath'], datapath['matchsummarypath'], datapath['featenggpath'], colconfig)  # Run the function to create features
         execute_model_train(datapath, modelname, predictors, cat_cols, target_col, usetimeseries=False)  # Run the function to build the model
+
     # Run the below function to predict using the saved model on the complete dataset
     if full_model_predict:
         execute_model_prediction(datapath, predictors, modelname, cat_cols, pred_col, usetimeseries=False)  # Run the function to predict the points based on the model
         execute_team_selection(datapath, constconfig, colconfig)  # Run the function to only select the predicted playing 11
         execute_rewards_calcualtion(datapath, constconfig, colconfig, rewardconfig)  # Run the function to estimate rewards if actual playing 11 is available
+
     # Run the below function to predict the best 11 for the upcoming match
     if next_match_team:
+        finalteam = pd.DataFrame()
         # Change the values of team1, team2, city and venue depending on the match
-        team1 = "Kolkata Knight Riders"
-        team2 = "Royal Challengers Bangalore"
-        create_pred_dataframe(datapath, colconfig, team1, team2,
-                              city="Abu Dhabi", venue="Sheikh Zayed Stadium", toss_winner=team1)
-        execute_model_prediction(datapath, predictors, modelname, cat_cols, pred_col, usetimeseries=False, predpath=True)
-        finalteam = execute_team_selection(datapath, constconfig, colconfig).team_points
-        finalteam.sort_values(by=['pred_selection_true', 'pred_points', 'playername'], inplace=True, ascending=False)
-        finalteam['modelname'] = modelname
-        finalteam[['playername', 'playing_role', 'playing_team', 'pred_points', 'pred_selection_true', 'modelname']].to_csv(nextmatchteampath, index=False)
+        TEAM1 = "Kolkata Knight Riders"
+        TEAM2 = "Royal Challengers Bangalore"
+        CITY = 'Abu Dhabi'
+        VENUE = 'Sheikh Zayed Stadium'
+        create_pred_dataframe(datapath, colconfig, TEAM1, TEAM2,CITY, VENUE, toss_winner=TEAM1)
+        for modelname in ['catboost', 'xgb', 'movingaverage']:
+            modelpath = r"Data/" + modelname + "_model.pkl"
+            encoderpath = r"Data/OnHotEncoder_" + modelname + ".pkl"
+            datapath['modelpath'] = modelpath
+            datapath['encoderpath'] = encoderpath
+            execute_model_prediction(datapath, predictors, modelname, cat_cols, pred_col, usetimeseries=False, predpath=True)
+            teamtemp = execute_team_selection(datapath, constconfig, colconfig).team_points
+            teamtemp.sort_values(by=['pred_selection_true', 'pred_points', 'playername'], inplace=True, ascending=False)
+            teamtemp.rename(columns={'pred_points': 'pred_points' + '_' + modelname, 'pred_selection_true': 'pred_selection_true' + '_' + modelname}, inplace=True)
+            teamtemp = teamtemp[['playername', 'playing_role', 'playing_team', 'pred_points' + '_' + modelname,'pred_selection_true' + '_' + modelname]]
+            if finalteam.shape[0] == 0:
+                finalteam = teamtemp
+            else:
+                finalteam = pd.merge(finalteam, teamtemp, on=['playername', 'playing_role', 'playing_team'],how='left')
+        finalteam.to_csv(nextmatchteampath, index=False)
+
         #TODO make the constraint for allrounder, batsmen, bowler dynamic
         #TODO option to add weights manually
