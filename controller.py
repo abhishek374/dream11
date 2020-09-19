@@ -1,6 +1,8 @@
 import pandas as pd
 from main import *
 from send_email import send_email_team
+from point_prediction import EnsembleModel
+
 if __name__ == "__main__":
     # reading the source file from local
     matchdatapath = r'Data/matchdata.csv'
@@ -39,7 +41,7 @@ if __name__ == "__main__":
         '25per': 1
     }
 
-    constconfig = {'MAXCOSTPOINT': 110,
+    constconfig = {'MAXCOSTPOINT': 100,
                    'MINBATSMEN': 3,
                    'MAXBATSMEN': 7,
                    'MINBOWLER': 3,
@@ -54,7 +56,7 @@ if __name__ == "__main__":
                  'OVER': 'over',
                  'INNINGS': 'innings',
                  'VENUE': 'venue',
-                 'TOTALBALLSBOWLED':'total_balls_bowled',
+                 'TOTALBALLSBOWLED': 'total_balls_bowled',
                  'BATTINGORDER': 'fallofwickets',
                  'BATTINGTEAM': 'battingteam',
                  'BOWLINGTEAM': 'bowlingteam',
@@ -83,7 +85,7 @@ if __name__ == "__main__":
     target_col = 'total_points'
     pred_col = 'pred_points'
 
-    modelname = 'xgb'
+    modelname = 'catboost'  # Options include 'rf','xgb','catboost','movingaverage', 'ensemble'
     matchdatascorecardpath = r'Data/ipl_scorecard_points.csv'
     featenggpath = r'Data/ipl_scorecard_points_featengg.csv'
 
@@ -108,50 +110,87 @@ if __name__ == "__main__":
                 'predfeaturepath': predfeaturepath,
                 'nextmatchteampath': nextmatchteampath}
 
-    model_train = False
-    full_model_predict = False
-    next_match_team = True
-
+    # Change the below to true to run the training of the models part of the permissible list
+    TRAIN_MODEL = False
+    # Change the below to true to run the prediction on the entire training dataset we have
+    PREDICT_MODEL = False
+    # Change the below to true to run the training for an ensemble model using predicitons from other model
+    PREDICT_ENSEMBLE = False
+    # Change the below to true to create the dataframe of the upcoming match and adjust anything if required
+    SELECT_PLAYING_SQUAD = False
+    # Change the below to true if the squad file is ready at predfeaturepath to run prediction for the team
+    SELECT_CURRENT_TEAM = False
+    # Change this to true to send email if the file fo next match is present at nextmatchteampath
+    SEND_EMAIL = True
+    modelnamelist = ['xgb', 'catboost', 'rf', 'movingaverage']
+    #modelnamelist = ['catboost']
     # Run the below function to train the model
-    if model_train:
+    if TRAIN_MODEL:
         execute_get_scorecard(datapath, pointsconfig)  # Run the function to to get points in the scorecard format
         execute_featureengg(datapath['matchdatascorecardpath'], datapath['matchsummarypath'], datapath['featenggpath'], colconfig)  # Run the function to create features
         execute_model_train(datapath, modelname, predictors, cat_cols, target_col, usetimeseries=False)  # Run the function to build the model
 
     # Run the below function to predict using the saved model on the complete dataset
-    if full_model_predict:
-        execute_model_prediction(datapath, predictors, modelname, cat_cols, pred_col, usetimeseries=False)  # Run the function to predict the points based on the model
-        execute_team_selection(datapath, constconfig, colconfig)  # Run the function to only select the predicted playing 11
-        execute_rewards_calcualtion(datapath, constconfig, colconfig, rewardconfig)  # Run the function to estimate rewards if actual playing 11 is available
-
-    # Run the below function to predict the best 11 for the upcoming match
-    if next_match_team:
-        finalteam = pd.DataFrame()
-        # Change the values of team1, team2, city and venue depending on the match
-        TEAM1 = "Mumbai Indians"
-        TEAM2 = "Chennai Super Kings"
-        CITY = 'Abu Dhabi'
-        VENUE = 'Sheikh Zayed Stadium'
-        create_pred_dataframe(datapath, colconfig, TEAM1, TEAM2, CITY, VENUE, toss_winner=TEAM1)
-        for modelname in ['catboost', 'xgb', 'movingaverage']:
+    if PREDICT_MODEL:
+        finalmodelpred = pd.read_csv(datapath['featenggpath'])
+        finalmodelpred = finalmodelpred[['matchid', 'playername', 'playing_role', 'playing_team', 'playercost', 'total_points']]
+        predcol_list = []
+        for modelname in modelnamelist:
             modelpath = r"Data/" + modelname + "_model.pkl"
             encoderpath = r"Data/OnHotEncoder_" + modelname + ".pkl"
             datapath['modelpath'] = modelpath
             datapath['encoderpath'] = encoderpath
-            execute_model_prediction(datapath, predictors, modelname, cat_cols, pred_col, usetimeseries=False, predpath=True)
+            modelpred_df = execute_model_prediction(datapath, predictors, modelname, cat_cols, pred_col + '_' + modelname, usetimeseries=False)  # Run the function to predict the points based on the model
+            modelpred_df = modelpred_df[['matchid','playername', 'playing_role', 'playing_team', 'playercost', 'total_points',pred_col + '_' + modelname]]
+            predcol_list.append(pred_col + '_' + modelname)
+            print(f"prediction for model {modelname} is complete")
+            finalmodelpred = pd.merge(finalmodelpred, modelpred_df, on=['matchid','playername', 'playing_role', 'playing_team', 'playercost', 'total_points'], how='left')
+
+        if PREDICT_ENSEMBLE:
+            EM = EnsembleModel()
+            temp = EM.get_ensemble_model_train(finalmodelpred, predcol_list, target_col='total_points',predcol= pred_col, modelpath=r"Data/" + 'ensemble' + "_model.pkl")
+            finalmodelpred = pd.merge(finalmodelpred, temp, left_index=True, right_index=True, how='left')
+        else:
+            finalmodelpred[pred_col] = finalmodelpred[pred_col + '_' + modelname]
+        finalmodelpred.to_csv(datapath['modelresultspath'], index=False)
+        execute_team_selection(datapath, constconfig, colconfig)  # Run the function to only select the predicted playing 11
+        execute_rewards_calcualtion(datapath, constconfig, colconfig, rewardconfig)  # Run the function to estimate rewards if actual playing 11 is available
+
+    # Enter the details of the current match/
+    TEAM1 = "Delhi Capitals"
+    TEAM2 = "Kings XI Punjab"
+    CITY = 'neutral venue'
+    VENUE = 'Dubai International Cricket Stadium'
+    # Run the below function to predict the best 11 for the upcoming match
+
+    if SELECT_PLAYING_SQUAD:
+        # Change the values of team1, team2, city and venue depending on the match
+        create_pred_dataframe(datapath, colconfig, TEAM1, TEAM2, CITY, VENUE, toss_winner=TEAM1)
+    if SELECT_CURRENT_TEAM:
+        finalteam = pd.DataFrame()
+        predcol_list = []
+        for modelname in ['catboost', 'xgb', 'rf', 'movingaverage', 'ensemble']: # Keep ensemble in the end
+            modelpath = r"Data/" + modelname + "_model.pkl"
+            encoderpath = r"Data/OnHotEncoder_" + modelname + ".pkl"
+            datapath['modelpath'] = modelpath
+            datapath['encoderpath'] = encoderpath
+            if modelname == 'ensemble':
+                EnsembleModel().get_ensemble_model_pred(datapath, finalteam, predcol_list, pred_col)
+            else:
+                execute_model_prediction(datapath, predictors, modelname, cat_cols, pred_col, usetimeseries=False, predpath=True)
             teamtemp = execute_team_selection(datapath, constconfig, colconfig).team_points
-            teamtemp.sort_values(by=['pred_selection_true', 'pred_points', 'playername'], inplace=True, ascending=False)
+            teamtemp.sort_values(by=['matchid','pred_selection_true', 'pred_points', 'playername'], inplace=True, ascending=False)
             teamtemp.rename(columns={'pred_points': 'pred_points' + '_' + modelname, 'pred_selection_true': 'pred_selection_true' + '_' + modelname}, inplace=True)
-            teamtemp = teamtemp[['playername', 'playing_role', 'playing_team', 'pred_points' + '_' + modelname,'pred_selection_true' + '_' + modelname]]
+            teamtemp = teamtemp[['matchid','playername', 'playing_role', 'playing_team', 'playercost','pred_points' + '_' + modelname, 'pred_selection_true' + '_' + modelname]]
+            predcol_list.append('pred_points' + '_' + modelname)
             if finalteam.shape[0] == 0:
                 finalteam = teamtemp
             else:
-                finalteam = pd.merge(finalteam, teamtemp, on=['playername', 'playing_role', 'playing_team'], how='left')
-        collist = [col for col in finalteam.columns if 'pred_selection' in col]
-        finalteam['pred_selection_all'] = finalteam[collist].apply(np.sum, axis=1)
-        finalteam['pred_selection_all'] = np.where(finalteam['pred_selection_all'] == len(collist), 1, "")
+                finalteam = pd.merge(finalteam, teamtemp, on=['matchid','playername', 'playing_role', 'playing_team','playercost'], how='left')
+        # collist = [col for col in finalteam.columns if 'pred_selection' in col]
+        # finalteam['pred_selection_all'] = finalteam[collist].apply(np.sum, axis=1)
+        # finalteam['pred_selection_all'] = np.where(finalteam['pred_selection_all'] == len(collist), 1, "")
+        finalteam = formatdata(finalteam)
         finalteam.to_csv(nextmatchteampath, index=False)
+    if SEND_EMAIL:
         send_email_team(TEAM1, TEAM2, nextmatchteampath)
-
-        #TODO make the constraint for allrounder, batsmen, bowler dynamic
-        #TODO option to add weights manually

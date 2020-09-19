@@ -4,7 +4,6 @@ import pandas as pd
 import numpy as np
 import pickle
 from point_prediction import ModelTrain, ModelPredict
-
 ##################Part to create additional features for modeling#######################################################
 
 def execute_get_scorecard(datapath,pointsconfig):
@@ -67,8 +66,8 @@ def execute_model_train(datapath,modelname, predictors, cat_cols, target_col, us
     if modelname == 'movingaverate':
         return
     modeltrain = ModelTrain(masterdf, target_col, predictors, cat_cols, modelname)
-    modeltrain.get_test_train(split_col='year', split_value=[2019])
     modeltrain.get_normalized_data()
+    modeltrain.get_test_train(split_col='year', split_value=[2019])
     modelobjects = modeltrain.train_model(model=modelname)
     pickle.dump(modelobjects[2], open(datapath['modelpath'], 'wb'))
     pickle.dump(modelobjects[:2], open(datapath['encoderpath'], 'wb'))
@@ -96,7 +95,7 @@ def execute_model_prediction(datapath,  predictors, modelname, cat_cols, pred_co
     if modelname == 'movingaverage':
         masterdf[pred_col] = masterdf['total_points_playername_avg3']
         masterdf.to_csv(datapath['modelresultspath'], index=False)
-        return
+        return masterdf
 
     modelpkl = pickle.load(open(datapath['modelpath'], 'rb'))
     enc = pickle.load(open(datapath['encoderpath'], 'rb'))
@@ -104,7 +103,7 @@ def execute_model_prediction(datapath,  predictors, modelname, cat_cols, pred_co
     mod_predict.get_normalized_data()
     masterdf[pred_col] = mod_predict.get_model_predictions()
     masterdf.to_csv(datapath['modelresultspath'], index=False)
-    return
+    return masterdf
 
 
 ##################Part to run the optimization to select the playing 11#################################################
@@ -187,3 +186,15 @@ def create_pred_dataframe(datapath, colconfig, team1, team2, city, venue, toss_w
     return
 
 
+def formatdata(finaloutdf):
+    """
+
+    :param finaloutdf:
+    :return:
+    """
+
+    finaloutdf = finaloutdf[['playername','playing_team','playing_role','playercost','pred_points_catboost','pred_selection_true_catboost','pred_points_ensemble','pred_selection_true_ensemble']]
+    finaloutdf.columns = ['playername','teamname','playingrole','playercost','model1_points','model1_team','model2_points','model2_team']
+    finaloutdf['model1_points'] = finaloutdf['model1_points'].apply(lambda x: round(x, 0))
+    finaloutdf['model2_points'] = finaloutdf['model2_points'].apply(lambda x: round(x, 0))
+    return finaloutdf

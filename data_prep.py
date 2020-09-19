@@ -225,3 +225,4 @@ class FeatEngineering:
                                                       np.where(self.ipl_features['totalpoints_playername_avg_2'] < self.ipl_features['totalpoints_playername_avg_5']*.6, 1, 0))
         self.ipl_features['lean_patch_5'] = np.where( np.isnan(self.ipl_features['totalpoints_playername_avg_10']),0,
                                                       np.where(self.ipl_features['totalpoints_playername_avg_5'] < self.ipl_features['totalpoints_playername_avg_10']*.6, 1, 0))
+

@@ -44,6 +44,7 @@ class SelectPlayingTeam:
         :param rankcol: column name which has the cost of each player
         :return
         """
+        print(team_df)
         player_list = list(team_df[self.playernamecol])
         points = dict(zip(player_list, team_df[pointscol]))
         costs = dict(zip(player_list, team_df[self.playercost]))
