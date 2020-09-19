@@ -3,27 +3,56 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email import encoders
-def send_email_team(team1,team2,filepath):
+import pandas as pd
+import csv
+from datetime import date
+def send_email_team(team1, team2, filepath):
     smtp_server = "smtp.gmail.com"
     port = 587  # For starttls
     sender_email = "abhishek.anand374@gmail.com"
     receiver_email = "madhavgoswami93@gmail.com"
     password = input("Type your password and press enter: ")
-    message = MIMEMultipart("alternative")
-    message["Subject"] = "Dream11 Team of the Day"
-    message["From"] = sender_email
-    message["To"] = receiver_email
-
+    #read the attachment as pandas
+    tabledf = pd.read_csv(filepath)
+    tablehtml = tabledf.to_html()
     # Create the plain-text and HTML version of your message
-    text = f"""\
+    text =f"""\
     Hi,
     
     Please find attached the expected best team for Dream11 IPL match between {team1} and {team2}
     
+    {tabledf}        
+    
     Cheers!!!
     """
 
-    message.attach(MIMEText(text, "plain"))
+    html = """
+    <html><body><p>Hi!</p>
+    <p> Please find below the expected best team for Dream11 IPL match between {team1} and {team2}:</p>
+    
+    {table}
+    
+    <p>Cheers!,</p>
+    <p>Abhishek</p>
+    </body></html>
+    """
+
+    with open(filepath) as input_file:
+        reader = csv.reader(input_file)
+        data = list(reader)
+
+    #text = text.format(table=tabulate(data, headers="firstrow", tablefmt="grid"), team1=team1, team2=team2)
+    #html = html.format(table=tabulate(data, headers="firstrow", tablefmt="html"), team1=team1, team2=team2)
+    html = html.format(table=tablehtml, team1=team1, team2=team2)
+    message = MIMEMultipart(
+        "alternative", None, [ MIMEText(html, 'html')])
+    #MIMEText(text),
+    todays_date = date.today().strftime("%b-%d-%Y")
+    message["Subject"] = f"Dream11 Team of the Day: {todays_date}"
+    message["From"] = sender_email
+    message["To"] = receiver_email
+
+    #message.attach(MIMEText(text, "plain"))
 
     filename = filepath  # In same directory as script
 

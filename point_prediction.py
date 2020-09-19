@@ -9,6 +9,11 @@ from sklearn.preprocessing import StandardScaler
 from pmdarima.arima import auto_arima, ADFTest
 import category_encoders as ce
 import time
+from sklearn.linear_model import LinearRegression
+import pickle
+import statsmodels.api as sm
+
+
 # TODO Add hyperopt method to optimize
 class ModelTrain:
 
@@ -39,29 +44,27 @@ class ModelTrain:
 
         :return:
         """
-        train_target_df = self.train_data[self.target_col]
+        master_target_df = self.masterdf[[self.target_col, 'year']]
         num_cols = [x for x in self.predictors if x not in self.cat_cols]
-        train_numcols_df = self.train_data[num_cols]
+        master_numcols_df = self.masterdf[num_cols]
         # Standardize numerical values
         # Create scale object
         self.scaler = StandardScaler()
-        train_numcols = self.scaler.fit_transform(train_numcols_df.values)
-        train_numcols = pd.DataFrame(train_numcols, index=train_numcols_df.index, columns=train_numcols_df.columns)
+        master_numcols = self.scaler.fit_transform(master_numcols_df.values)
+        master_numcols = pd.DataFrame(master_numcols, index=master_numcols_df.index, columns=master_numcols_df.columns)
         # Convert categorical columns using OneHotEncoding
-        train_catcols = self.train_data[self.cat_cols]
+        master_catcols = self.masterdf[self.cat_cols]
         if self.modelname == 'catboost':
             self.enc = ""
-            self.train_data = train_catcols.join(train_numcols)
-
+            self.masterdf = master_catcols.join(master_numcols)
         else:
-            self.enc = ce.OneHotEncoder(cols=self.cat_cols, return_df=True).fit(train_catcols)
-            train_catcols = self.enc.transform(train_catcols)
-            self.train_data = train_catcols.join(train_numcols)
+            self.enc = ce.OneHotEncoder(cols=self.cat_cols, return_df=True).fit(master_catcols)
+            train_catcols = self.enc.transform(master_catcols)
+            self.masterdf = train_catcols.join(master_numcols)
 
-        self.train_data = self.train_data.join(train_target_df)
+        self.masterdf = self.masterdf.join(master_target_df)
         self.predictors = [x for x in self.predictors if x not in self.cat_cols]
-        self.predictors.extend(train_catcols.columns.tolist())
-        print(self.predictors)
+        self.predictors.extend(master_catcols.columns.tolist())
         return
 
     def define_xgb_model_params(self):
@@ -103,19 +106,23 @@ class ModelTrain:
                                      parameters,
                                      cv=4,
                                      n_jobs=4,
-                                     verbose=True)
+                                     verbose=True,
+                                     n_iter=100)
     
     def define_catboost_model_params(self):
         self.cat1 = CatBoostRegressor()
 
         parameters = {'loss_function': ['RMSE'],
-                      'depth': [6, 8, 10],
+                      'depth': [4, 6, 8],
                       'cat_features': [self.cat_features_catboost],
                       'learning_rate': [0.01, 0.05, 0.1],
-                      'iterations': [30, 100, 1000],
+                      'iterations': [30, 100, 300, 1000],
                       'l2_leaf_reg': [.1, 1, 10, 100],
                       'early_stopping_rounds': [100],
-                      'random_seed': [1]}
+                      'random_strength': [1],
+                      'od_type': ['IncToDec'],
+                      'random_seed': [1],
+                      'use_best_model': [True]}
 
 
         self.cat_grid = GridSearchCV(estimator=self.cat1,
@@ -127,8 +134,7 @@ class ModelTrain:
         return
 
 
-
-    def train_model(self, model):
+    def train_model(self,model):
         """
 
         :return:
@@ -137,16 +143,20 @@ class ModelTrain:
         X = self.train_data[self.predictors]
         y = self.train_data[self.target_col]
 
-        if self.modelname == 'xgb':
+        X_test = self.test_data[self.predictors]
+        y_test = self.test_data[self.target_col]
+
+
+        if model == 'xgb':
             self.define_xgb_model_params()
             model = self.xgb1
             model_grid = self.xgb_grid
-        elif self.modelname == 'rf':
+        elif model == 'rf':
             self.define_random_forest_model()
             model = self.rf
             model_grid = self.rf_grid
             X = X.fillna(-100)
-        elif self.modelname == 'catboost':
+        elif model == 'catboost':
             self.cat_features_catboost = [X.columns.get_loc(col) for col in self.cat_cols]
             self.define_catboost_model_params()
             model = self.cat1
@@ -154,18 +164,20 @@ class ModelTrain:
         else:
             print('Model selected is not available')
             return
-        model_grid.fit(X, y)
+        print("test Shape", X_test.shape)
+        model_grid.fit(X, y, eval_set=(X_test, y_test))
         model.set_params(**model_grid.best_params_)
-        model.fit(X, y, verbose=False)
+        model.fit(X, y, eval_set=(X_test, y_test))
         print(model_grid.best_score_)
         print(model_grid.best_params_)
         self.feat_imp_df = pd.DataFrame(zip(self.predictors, model_grid.best_estimator_.feature_importances_), columns=['feature_name', 'feature_importance'])
-
+        print(self.feat_imp_df)
         end = time.time()
         # total time taken
         print(f"Runtime of the program is {(end - start)/60} mins")
 
         return self.enc, self.scaler, model
+
 
     @staticmethod
     def get_timeseries_forecast(masterdf, target_col, timeseries_col, pred_points):
@@ -267,3 +279,30 @@ class ModelPredict:
             yearly_summary = None
         return predictions_error, yearly_summary
 
+class EnsembleModel():
+
+    def get_ensemble_model_train(self, masterdf, featurelist, target_col, predcol, modelpath):
+        """ function to get ensemble model results
+
+        :return:
+        """
+        masterdf = masterdf.dropna()
+        X = masterdf[featurelist]
+        y = masterdf[target_col]
+        reg = sm.OLS(y, X).fit()
+        print(reg.summary())
+        print(f"R^2: {reg.rsquared}, coefficient {reg.params}")
+        masterdf[predcol] = reg.fittedvalues
+        pickle.dump(reg, open(modelpath, 'wb'))
+        return masterdf[predcol]
+
+    def get_ensemble_model_pred(self, datapath, masterdf, featurelist, pred_col):
+        """ function to get ensemble model results
+
+        :return:
+        """
+        modelpkl = pickle.load(open(datapath['modelpath'], 'rb'))
+        X = masterdf[featurelist]
+        masterdf[pred_col] = modelpkl.predict(X)
+        masterdf.to_csv(datapath['modelresultspath'], index=False)
+        return
