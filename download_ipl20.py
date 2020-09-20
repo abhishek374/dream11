@@ -172,6 +172,6 @@ if __name__ == '__main__':
         os.chdir(directory)
 
     match_summary_ipl20.to_csv(directory+'/match_summary_ipl20.csv', index=False)
-    for eventid in match_summary_ipl20.matchid :
+    for eventid in match_summary_ipl20[~match_summary_ipl20['result'].str.contains('Starts')].matchid:
 	    print(eventid)
 	    get_data_for_event(tournamentid, eventid, 'ipl20')
