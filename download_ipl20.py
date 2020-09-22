@@ -176,7 +176,7 @@ if __name__ == '__main__':
 	    print(eventid)
 	    get_data_for_event(tournamentid, eventid, 'ipl20')
         
-    create_team_for_event_id = 1216496############################# 
+    eventid = 1216496############################# 
     
     
     today_squad = pd.DataFrame(columns = ['playername','iscaptain', 'position', 'profilelink', 'teamname'])
