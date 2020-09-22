@@ -175,3 +175,31 @@ if __name__ == '__main__':
     for eventid in match_summary_ipl20[~match_summary_ipl20['result'].str.contains('Starts')].matchid:
 	    print(eventid)
 	    get_data_for_event(tournamentid, eventid, 'ipl20')
+        
+    create_team_for_event_id = 1216496############################# 
+    
+    
+    today_squad = pd.DataFrame(columns = ['playername','iscaptain', 'position', 'profilelink', 'teamname'])
+    squad_title = 'Squads'
+
+
+    while squad_title != 'Playing XI':
+        URL= "https://hsapi.espncricinfo.com/v1/pages/match/home?lang=en&leagueId=8048&eventId="+str(eventid)+"&liveTest=false&qaTest=false"
+        response = requests.get(URL, headers=headers)
+        data = json.loads(response.text)
+        squad_title = data['content']['squads'][0]['title']
+        for team in data['content']['squads']:
+            for playerlist in team['players']:
+                dict ={}
+                playername = playerlist['name']
+                iscaptain = playerlist['isCaptain']
+                position = playerlist['position']
+                profilelink = playerlist['link']['href']
+                teamname = team['teamName']
+                dict =  {'playername':playername, 'iscaptain': iscaptain, 'position': position, 'profilelink': profilelink,'teamname':teamname}
+                today_squad = today_squad.append(dict, ignore_index=True)
+
+        today_squad.drop_duplicates(subset=None, keep='first', inplace=True)
+        today_squad.to_csv(directory+'/teams/'+str(eventid)+'_squad.csv',index = False)
+        print('could not find the playing XI on page, trying again in 60 secs')
+        sleep(60)
