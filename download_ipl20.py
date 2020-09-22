@@ -188,18 +188,21 @@ if __name__ == '__main__':
         response = requests.get(URL, headers=headers)
         data = json.loads(response.text)
         squad_title = data['content']['squads'][0]['title']
-        for team in data['content']['squads']:
-            for playerlist in team['players']:
-                dict ={}
-                playername = playerlist['name']
-                iscaptain = playerlist['isCaptain']
-                position = playerlist['position']
-                profilelink = playerlist['link']['href']
-                teamname = team['teamName']
-                dict =  {'playername':playername, 'iscaptain': iscaptain, 'position': position, 'profilelink': profilelink,'teamname':teamname}
-                today_squad = today_squad.append(dict, ignore_index=True)
+        
+        if squad_title == 'Playing XI':
+            for team in data['content']['squads']:
+                for playerlist in team['players']:
+                    dict ={}
+                    playername = playerlist['name']
+                    iscaptain = playerlist['isCaptain']
+                    position = playerlist['position']
+                    profilelink = playerlist['link']['href']
+                    teamname = team['teamName']
+                    dict =  {'playername':playername, 'iscaptain': iscaptain, 'position': position, 'profilelink': profilelink,'teamname':teamname}
+                    today_squad = today_squad.append(dict, ignore_index=True)
 
-        today_squad.drop_duplicates(subset=None, keep='first', inplace=True)
-        today_squad.to_csv(directory+'/teams/'+str(eventid)+'_squad.csv',index = False)
-        print('could not find the playing XI on page, trying again in 60 secs')
-        sleep(60)
+            today_squad.drop_duplicates(subset=None, keep='first', inplace=True)
+            today_squad.to_csv(directory+'/teams/'+str(eventid)+'_squad.csv',index = False)
+        else:
+            print('could not find the playing XI on page, trying again in 60 secs')
+            sleep(60)
