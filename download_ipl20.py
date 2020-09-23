@@ -112,6 +112,7 @@ def get_data_for_event(tournamentid, eventid, ipl):
 
     matchdata = hit_api(tournamentid, eventid, ipl)
     matchdata.to_csv(fullpath, index=False, header=True)
+    return matchdata
 
 
 if __name__ == '__main__':
@@ -172,9 +173,15 @@ if __name__ == '__main__':
         os.chdir(directory)
 
     match_summary_ipl20.to_csv(directory+'/match_summary_ipl20.csv', index=False)
+
+    matchdata_full = pd.DataFrame(columns=['ipl_season', 'sequence', 'eventid', 'innings', 'target', 'remainingballs', 'homescore', 'awayscore', 'fallofwickets', 'ball', 'over', 'scorevalue', 'validball', 'extras',
+                                                                'dismissal', 'dismissaltype', 'batsmanid', 'batsman', 'batsmanteam', 'bowlerid', 'bowler', 'bowlerteam', 'otherathleteinvolvedid', 'otherathleteinvolved', 'nonstrikerid', 'nonstriker', 'runs', 'runrate'])
     for eventid in match_summary_ipl20[~match_summary_ipl20['result'].str.contains('Starts')].matchid:
 	    print(eventid)
-	    get_data_for_event(tournamentid, eventid, 'ipl20')
+        _match_data_ = get_data_for_event(tournamentid, eventid, 'ipl20')
+        matchdata_full = matchdata_full.append(_match_data_, ignore_index=True,  sort=True)
+
+    matchdata_full.to_csv(directory+'/matchdata_ipl20.csv',index = False)
         
     eventid = 1216496############################# 
     
