@@ -1,5 +1,4 @@
 import requests
-from lxml import html
 import json
 import pandas as pd
 import os
@@ -176,14 +175,66 @@ if __name__ == '__main__':
 
     matchdata_full = pd.DataFrame(columns=['ipl_season', 'sequence', 'eventid', 'innings', 'target', 'remainingballs', 'homescore', 'awayscore', 'fallofwickets', 'ball', 'over', 'scorevalue', 'validball', 'extras',
                                                                 'dismissal', 'dismissaltype', 'batsmanid', 'batsman', 'batsmanteam', 'bowlerid', 'bowler', 'bowlerteam', 'otherathleteinvolvedid', 'otherathleteinvolved', 'nonstrikerid', 'nonstriker', 'runs', 'runrate'])
+
     for eventid in match_summary_ipl20[~match_summary_ipl20['result'].str.contains('Starts')].matchid:
-	    print(eventid)
+        print(eventid)
         _match_data_ = get_data_for_event(tournamentid, eventid, 'ipl20')
         matchdata_full = matchdata_full.append(_match_data_, ignore_index=True,  sort=True)
 
     matchdata_full.to_csv(directory+'/matchdata_ipl20.csv',index = False)
+
+    ipl20_matchdata = pd.read_csv(
+        directory+'/matchdata_ipl20.csv')
+    names_mapping = pd.read_csv(
+        directory+'/name_mapping_clean.csv')
+    matchdata_v2 = pd.DataFrame(columns=['date', 'matchid', 'innings', 'target', 'fallofwickets', 'ball', 'over', 'scorevalue',
+                                        'validball', 'extras', 'extratype', 'batsmanname', 'batsmanscorevalue', 'bowlername', 'nonstrikername',
+                                        'totalruns', 'dismissal', 'dismissedtype', 'dismissedplayer', 'battingteam', 'bowlingteam'])
+    for iter, row in ipl20_matchdata.iterrows():
+        date = pd.to_datetime(
+            match_summary_ipl20[match_summary_ipl20.matchid == row['eventid']].date).dt.date.iloc[0]
+        matchid = row['eventid']
+        innings = row['innings']
+        target = row['target']
+        fallofwickets = row['fallofwickets']
+        ball = row['ball']
+        over = row['over']
+        scorevalue = row['scorevalue']
+        validball = row['validball']
+        extras = row['extras']
+        extratype = 'Nan'
+        batsmanname = names_mapping[names_mapping.ipl20_name ==
+                                    row['batsman']]['old_name'].iloc[0]
+        batsmanscorevalue = row['scorevalue']
+        bowlername = names_mapping[names_mapping.ipl20_name ==
+                                row['bowler']]['old_name'].iloc[0]
+        nonstrikername = names_mapping[names_mapping.ipl20_name ==
+                                    row['nonstriker']]['old_name'].iloc[0]
+        if row['homescore'] == 0:
+            totalruns = row['awayscore'].split('/')[0]
+        else:
+            totalruns = row['homescore'].split('/')[0]
+        dismissal = row['dismissal']
+        dismissedtype = row['dismissaltype']
+        if row['dismissal'] == True:
+            dismissedplayer = batsmanname
+        else:
+            dismissedplayer = ''
+
+        battingteam = row['batsmanteam']
+        bowlingteam = row['bowlerteam']
+
+        dict = {"date": date, "matchid": matchid, "innings": innings, "target": target, "fallofwickets": fallofwickets,
+                "ball": ball, "over": over, "scorevalue": scorevalue, "validball": validball, "extras": extras,
+                "extratype": extratype, "batsmanname": batsmanname, "batsmanscorevalue": batsmanscorevalue,
+                "bowlername": bowlername, "nonstrikername": nonstrikername, "totalruns": totalruns, "dismissal": dismissal,
+                "dismissedtype": dismissedtype, "dismissedplayer": dismissedplayer, "battingteam": battingteam,
+                "bowlingteam": bowlingteam}
+        matchdata_v2 = matchdata_v2.append(dict, ignore_index=True)
+
+    matchdata_v2.to_csv(directory+'/matchdata_v2.csv', index = False)
         
-    eventid = 1216496############################# 
+    eventid = 1216510 
     
     
     today_squad = pd.DataFrame(columns = ['playername','iscaptain', 'position', 'profilelink', 'teamname'])
