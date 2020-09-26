@@ -4,23 +4,24 @@ import pandas as pd
 import numpy as np
 import pickle
 from point_prediction import ModelTrain, ModelPredict
+from download_ipl20 import update_ipl20_master
 ##################Part to create additional features for modeling#######################################################
 
-def execute_get_scorecard(datapath,pointsconfig):
+def execute_get_scorecard(matchdatapath, scorecardpath,pointsconfig):
     """
 
     :return:
     """
     # getting the scorecard from a batsmen's perspective
-    matchdata = pd.read_csv(datapath['matchdatapath'])
+    matchdata = pd.read_csv(matchdatapath)
     ipl_scorecard = ScoreCard(matchdata)
     # merging both the batsmen and bowler's points to get a single view
     ipl_scorecard.merge_player_scorecard()
     # calculating the points scored by the players based on dream11 scoring method
     ipl_scorecard_points = Dream11Points(ipl_scorecard.ipl_merged_scorecard, pointsconfig)
     ipl_scorecard_points.get_batsmen_bowler_points()
-    ipl_scorecard_points.player_scorecard.to_csv(datapath['matchdatascorecardpath'])
-    return
+    ipl_scorecard_points.player_scorecard.to_csv(scorecardpath)
+    return ipl_scorecard_points.player_scorecard
 
 ##################Part to create additional features for modeling###################################################
 def execute_featureengg(matchdatascorecardpath,matchsummarypath, featenggpath,colconfig):
@@ -45,7 +46,7 @@ def execute_featureengg(matchdatascorecardpath,matchsummarypath, featenggpath,co
         FeatEng.add_lagging_feat(colconfig['MATCHID'], colconfig['PLAYERNAME'], i, colconfig['ACTUALPOINTS'],  colconfig['BATTINGORDER'], colconfig['TOTALBALLSBOWLED'])
     # writing the scorecard to save it
     # Temp till we get better alternate to cost of each player
-    FeatEng.ipl_features['playercost'] = 10
+    # FeatEng.ipl_features['playercost'] = 10
     FeatEng.ipl_features.to_csv(featenggpath, index=False)
     return FeatEng.ipl_features
 
@@ -164,16 +165,14 @@ def create_pred_dataframe(datapath, colconfig, team1, team2, city, venue, toss_w
     """
     matchdatatemp = pd.read_csv(datapath['matchdatascorecardpath'])
     matchsummary = pd.read_csv(datapath['matchsummarypath'])
-    matchdatatemp['playing_team'] = np.where(pd.isnull(matchdatatemp['batsmen_innings']), matchdatatemp['bowler_bowlingteam'], matchdatatemp['batsmen_battingteam'])
-    matchdatatemp2 = matchdatatemp[(matchdatatemp['playing_team'].isin([team1, team2]))]
-    matchid_rank = pd.DataFrame(matchdatatemp2[['matchid', 'playing_team']].groupby('playing_team')['matchid'].rank(ascending=False, method='dense').
-                                reset_index().rename(columns={'matchid': 'rank'}))
-    matchid_rank_list = matchid_rank[matchid_rank['rank'] <= 2]['index'].unique()
-    matchdatatemp2 = matchdatatemp2[matchdatatemp2.index.isin(matchid_rank_list)][['playername', 'playing_team','playing_role','batsmen_innings','bowler_bowlingteam','batsmen_battingteam','batsmen_bowlingteam']]
-    matchdatatemp2 = matchdatatemp2.drop_duplicates(subset=['playername', 'playing_team'])
+
+    ipl_curr_squad = pd.read_csv(datapath['iplcurrentsquad'])
+    ipl_curr_squad = ipl_curr_squad['playing_team'].isin[team1, team2]
+    ipl_curr_squad['opposition_team'] = np.where(ipl_curr_squad['playing_team'] == team1, team2, team1)
+    ipl_curr_squad = ipl_curr_squad[['playername', 'playing_team','playing_role','opposition_team','playercost']]
     MATCHID = matchdatatemp['matchid'].max() + 1
-    matchdatatemp2['matchid'] = MATCHID
-    matchdatatemp = matchdatatemp.append(matchdatatemp2)
+    ipl_curr_squad['matchid'] = MATCHID
+    matchdatatemp = matchdatatemp.append(ipl_curr_squad)
     matchdatatemp.to_csv(datapath['predscorecardpath'], index=False)
     summarydf = pd.DataFrame({"matchid": [MATCHID], "venue": [venue], "city": [city], "team1": [team1], "team2": [team2],
                               "year": [2020], "toss_winner": [toss_winner]})
@@ -183,6 +182,7 @@ def create_pred_dataframe(datapath, colconfig, team1, team2, city, venue, toss_w
     matchdatafeatures = matchdatafeatures[matchdatafeatures['matchid'] == MATCHID]
     matchdatafeatures['opposition_team'] = np.where(matchdatafeatures['playing_team'] == team1, team2, team1)
     matchdatafeatures.to_csv(datapath['predfeaturepath'], index=False)
+    print("Added pred features for the current match")
     return
 
 
@@ -198,3 +198,46 @@ def formatdata(finaloutdf):
     finaloutdf['model1_points'] = finaloutdf['model1_points'].apply(lambda x: round(x, 0))
     finaloutdf['model2_points'] = finaloutdf['model2_points'].apply(lambda x: round(x, 0))
     return finaloutdf
+
+def update_master_data(datapath,pointsconfig):
+    matchdata_ipl20 = update_ipl20_master()
+    matchdata = pd.read_csv(datapath['matchdatapath'])
+
+    matchlistipl20 = matchdata_ipl20['matchid'].unique()
+    matchlistoverall = matchdata['matchid'].unique()
+    matchid_list = [i for i in matchlistipl20 if i not in matchlistoverall]
+    matchdata_ipl20_sub = matchdata_ipl20['matchid'].isin(matchid_list)
+    matchdata = pd.concat([matchdata, matchdata_ipl20_sub], axis=0)
+    matchdata.to_csv(datapath['matchdatapath'], index=False)
+    print(matchdata.shape)
+    print("matchdata updated complete")
+
+    # update scorecard
+    master_scorecard = pd.read_csv(datapath['matchdatascorecardpath'])
+    matchlistipl20 = matchdata_ipl20['matchid'].unique()
+    matchlistoverall = master_scorecard['matchid'].unique()
+    matchid_list = [i for i in matchlistipl20 if i not in matchlistoverall]
+    matchdata_ipl20_sub = matchdata_ipl20['matchid'].isin(matchid_list)
+    matchdata_ipl20_sub.to_csv(datapath['matchdatapathipl20'], index=False)
+
+    sorecard_sub = execute_get_scorecard(datapath['matchdatapathipl20'], datapath['matchdatascorecardpathipl20'], pointsconfig)
+
+    master_scorecard = pd.concat([master_scorecard, sorecard_sub], axis=0)
+    master_scorecard.to_csv(datapath['matchdatascorecardpath'], index=False)
+    print("matchscorecard updated complete")
+
+    matchsummary_ipl20 = pd.read_csv(datapath['matchsummarypathipl20'])
+    matchsummary_ipl20 = matchsummary_ipl20[matchsummary_ipl20['winner'] != 'Match Tied/Cancelled/Not yet ended']
+    matchsummary = pd.read_csv(datapath['matchsummarypath'])
+    matchlistipl20 = matchsummary_ipl20['matchid'].unique()
+    matchlistoverall = matchsummary['matchid'].unique()
+    matchid_list = [i for i in matchlistipl20 if i not in matchlistoverall]
+    matchdata_ipl20_sub = matchdata_ipl20['matchid'].isin(matchid_list)
+    matchsummary = pd.concat([matchsummary, matchdata_ipl20_sub],axis=0)
+    matchsummary.to_csv(datapath['matchsummarypath'], index=False)
+    print("matchsummary updated complete")
+
+    return matchdata
+
+
+

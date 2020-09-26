@@ -2,8 +2,6 @@ import requests
 import json
 import pandas as pd
 import os
-from bs4 import BeautifulSoup
-import re
 from datetime import datetime
 import pytz
 import time
@@ -78,7 +76,7 @@ def parse_commentary_to_data(data, page, eventid, inning, ipl):
     return five_ball_summary
 
 
-def hit_api(tournamentid, eventid, ipl):
+def hit_api(tournamentid, eventid, headers, ipl):
     print('Downloading data for eventid : ' + str(eventid))
     matchdata = pd.DataFrame()
 
@@ -109,18 +107,18 @@ def hit_api(tournamentid, eventid, ipl):
     return matchdata
 
 
-def get_data_for_event(tournamentid, eventid, ipl):
+def get_data_for_event(tournamentid, eventid, directory, headers, ipl):
     fullpath = os.path.join(directory, str(eventid) + '.csv')
 
-    matchdata = hit_api(tournamentid, eventid, ipl)
+    matchdata = hit_api(tournamentid, eventid,headers,ipl )
     matchdata.to_csv(fullpath, index=False, header=True)
     return matchdata
 
 
-if __name__ == '__main__':
-
+def update_ipl20_master():
+    directory = os.getcwd()
     tournamentid = 8048
-    directory = '~/Documents/GitHub/dream11/ipl20'
+    #directory = '~/Documents/GitHub/dream11/ipl20'
 
     ipl20_schedule_url = "https://hsapi.espncricinfo.com/v1/pages/series/schedule?lang=en&leagueId=8048&year=2020"
     headers = {
@@ -131,8 +129,7 @@ if __name__ == '__main__':
         }
     response = requests.get(ipl20_schedule_url, headers=headers)
     data = json.loads(response.text)
-    match_summary_ipl20 = pd.DataFrame(columns=['matchid', 'date', 'year', 'city', 'venue',
-    'team1', 'team2', 'result', 'tossdecision', 'winner', 'by_what', 'by_how_many', 'mom'])
+    match_summary_ipl20 = pd.DataFrame(columns=['matchid', 'date', 'year', 'city', 'venue','team1', 'team2', 'result', 'tossdecision', 'winner', 'by_what', 'by_how_many', 'mom'])
 
     for match_details in data['content']['matchEvents']:
 	    dict = {}
@@ -168,43 +165,41 @@ if __name__ == '__main__':
 	    by_how_many = [int(i) for i in match_details['statusText'].split() if i.isdigit()]
 	    dict = {'matchid': matchid, 'date': date, 'year': year, 'city': city, 'venue': venue, 'team1': team1, 'team2': team2, 'result': result,'tossdecision': tossdecision, 'winner': winner, 'by_what': by_what, 'by_how_many': by_how_many, 'mom': mom}
 	    match_summary_ipl20 = match_summary_ipl20.append(dict, ignore_index=True)
-    
-    if not os.path.exists(directory):
-        os.makedirs(directory)
-    else:
-        os.chdir(directory)
 
-    match_summary_ipl20.to_csv(directory+'/match_summary_ipl20.csv', index=False)
+    # if not os.path.exists(directory):
+    #     os.makedirs(directory)
+    # else:
+    #     os.chdir(directory)
 
-    match_summary_ipl20 = pd.read_csv(
-        directory+'/match_summary_ipl20.csv')
+    match_summary_ipl20.to_csv(directory+'/ipl20/match_summary_ipl20.csv', index=False)
+
+    match_summary_ipl20 = pd.read_csv(directory+'/ipl20/match_summary_ipl20.csv')
 
     # matchdata_full = pd.DataFrame(columns=['ipl_season', 'sequence', 'eventid', 'innings', 'target', 'remainingballs', 'homescore', 'awayscore', 'fallofwickets', 'ball', 'over', 'scorevalue', 'validball', 'extras',
     #                                                             'dismissal', 'dismissaltype', 'batsmanid', 'batsman', 'batsmanteam', 'bowlerid', 'bowler', 'bowlerteam', 'otherathleteinvolvedid', 'otherathleteinvolved', 'nonstrikerid', 'nonstriker', 'runs', 'runrate'])
 
-    matchdata_full = pd.read_csv(directory+'/matchdata_ipl20.csv')
+    matchdata_full = pd.read_csv(directory+'/ipl20/matchdata_ipl20.csv')
+    print(match_summary_ipl20)
 
     for eventid in match_summary_ipl20[~match_summary_ipl20['result'].str.contains('Starts')].matchid:
         print(eventid)
         if eventid not in matchdata_full.eventid.unique().tolist():
-            _match_data_ = get_data_for_event(tournamentid, eventid, 'ipl20')
+            _match_data_ = get_data_for_event(tournamentid, eventid,directory,headers,'ipl20')
             matchdata_full = matchdata_full.append(_match_data_, ignore_index=True,  sort=True)
         else:
             print('data already downloaded')
 
-    matchdata_full.to_csv(directory+'/matchdata_ipl20.csv',index = False)
+    matchdata_full.to_csv(directory+'/ipl20/matchdata_ipl20.csv', index = False)
+    ipl20_matchdata = pd.read_csv(directory+'/ipl20/matchdata_ipl20.csv')
 
-    ipl20_matchdata = pd.read_csv(
-        directory+'/matchdata_ipl20.csv')
-    names_mapping = pd.read_csv(
-        directory+'/name_mapping_clean.csv')
+    names_mapping = pd.read_csv(directory+'/ipl20/name_mapping_clean.csv')
 
     matchdata_v2 = pd.DataFrame(columns=['date', 'matchid', 'innings', 'target', 'fallofwickets', 'ball', 'over', 'scorevalue',
                                         'validball', 'extras', 'extratype', 'batsmanname', 'batsmanscorevalue', 'bowlername', 'nonstrikername',
                                         'totalruns', 'dismissal', 'dismissedtype', 'dismissedplayer', 'battingteam', 'bowlingteam'])
+
     for iter, row in ipl20_matchdata.iterrows():
-        date = pd.to_datetime(
-            match_summary_ipl20[match_summary_ipl20.matchid == row['eventid']].date).dt.date.tolist()[0]
+        date = pd.to_datetime(match_summary_ipl20[match_summary_ipl20.matchid == row['eventid']].date).dt.date.tolist()[0]
         matchid = row['eventid']
         innings = row['innings']
         target = row['target']
@@ -244,17 +239,33 @@ if __name__ == '__main__':
                 "bowlingteam": bowlingteam}
         matchdata_v2 = matchdata_v2.append(dict, ignore_index=True)
 
-    matchdata_v2.to_csv(directory+'/matchdata_v2.csv', index = False)
-    
+    matchdata_v2.to_csv(directory+'/ipl20/matchdata_v2.csv', index=False)
+    return matchdata_v2
+
+
+def get_current_squad():
+
+    directory = os.getcwd()
+
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36',
+        "Upgrade-Insecure-Requests": "1", "DNT": "1",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Accept-Encoding": "gzip, deflate"
+    }
+
+    match_summary_ipl20 = pd.read_csv(directory + '/ipl20/matchdata_ipl20.csv')
+
     tz_dubai = pytz.timezone('Asia/Dubai')
     datetime_dubai = datetime.now(tz_dubai)
 
     eventid = match_summary_ipl20.iloc[next(x[0] for x in enumerate(pd.to_datetime(
         match_summary_ipl20['date']).tolist()) if x[1] > datetime_dubai), 0]
-    
+
     print('Playing XI need to be downloaded for : ')
     print(eventid)
-    
+
     today_squad = pd.DataFrame(columns = ['playername','iscaptain', 'position', 'profilelink', 'teamname'])
     squad_title = 'Squads'
 
@@ -265,7 +276,7 @@ if __name__ == '__main__':
         response = requests.get(URL, headers=headers)
         data = json.loads(response.text)
         squad_title = data['content']['squads'][0]['title']
-        
+
         if squad_title == 'Playing XI':
             for team in data['content']['squads']:
                 for playerlist in team['players']:

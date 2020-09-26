@@ -1,0 +1,28 @@
+ipl_season,sequence,eventid,innings,target,remainingballs,homescore,awayscore,fallofwickets,ball,over,scorevalue,validball,extras,dismissal,dismissaltype,batsmanid,batsman,batsmanteam,bowlerid,bowler,bowlerteam,otherathleteinvolvedid,otherathleteinvolved,nonstrikerid,nonstriker,runs,runrate
+ipl20,100001,1216545,1st innings,0,119,2/0,0,0,1,0.1,2,0,0,False,,219889,David Warner,Sunrisers Hyderabad,230558,Sunil Narine,Kolkata Knight Riders,,,297433,Jonny Bairstow,2,12.0
+ipl20,100002,1216545,1st innings,0,118,2/0,0,0,2,0.2,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,230558,Sunil Narine,Kolkata Knight Riders,,,297433,Jonny Bairstow,0,6.0
+ipl20,100003,1216545,1st innings,0,117,2/0,0,0,3,0.3,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,230558,Sunil Narine,Kolkata Knight Riders,,,297433,Jonny Bairstow,0,4.0
+ipl20,100004,1216545,1st innings,0,116,4/0,0,0,4,0.4,2,0,0,False,,219889,David Warner,Sunrisers Hyderabad,230558,Sunil Narine,Kolkata Knight Riders,,,297433,Jonny Bairstow,2,6.0
+ipl20,100005,1216545,1st innings,0,115,5/0,0,0,5,0.5,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,230558,Sunil Narine,Kolkata Knight Riders,,,297433,Jonny Bairstow,1,6.0
+ipl20,100006,1216545,1st innings,0,114,6/0,0,0,6,0.6,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,230558,Sunil Narine,Kolkata Knight Riders,,,219889,David Warner,1,6.0
+ipl20,100101,1216545,1st innings,0,113,6/0,0,0,7,1.1,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,219889,David Warner,0,5.14
+ipl20,100102,1216545,1st innings,0,112,7/0,0,0,8,1.2,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,219889,David Warner,1,5.25
+ipl20,100103,1216545,1st innings,0,111,7/0,0,0,9,1.3,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,297433,Jonny Bairstow,0,4.66
+ipl20,100104,1216545,1st innings,0,110,7/0,0,0,10,1.4,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,297433,Jonny Bairstow,0,4.2
+ipl20,100105,1216545,1st innings,0,109,8/0,0,0,11,1.5,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,297433,Jonny Bairstow,1,4.36
+ipl20,100106,1216545,1st innings,0,108,8/0,0,0,12,1.6,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,219889,David Warner,0,4.0
+ipl20,100201,1216545,1st innings,0,107,9/0,0,0,13,2.1,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,230558,Sunil Narine,Kolkata Knight Riders,,,297433,Jonny Bairstow,1,4.15
+ipl20,100202,1216545,1st innings,0,106,10/0,0,0,14,2.2,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,230558,Sunil Narine,Kolkata Knight Riders,,,219889,David Warner,1,4.28
+ipl20,100203,1216545,1st innings,0,105,16/0,0,0,15,2.3,6,0,0,False,,219889,David Warner,Sunrisers Hyderabad,230558,Sunil Narine,Kolkata Knight Riders,,,297433,Jonny Bairstow,6,6.4
+ipl20,100204,1216545,1st innings,0,104,17/0,0,0,16,2.4,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,230558,Sunil Narine,Kolkata Knight Riders,,,297433,Jonny Bairstow,1,6.37
+ipl20,100205,1216545,1st innings,0,103,18/0,0,0,17,2.5,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,230558,Sunil Narine,Kolkata Knight Riders,,,219889,David Warner,1,6.35
+ipl20,100206,1216545,1st innings,0,102,22/0,0,0,18,2.6,4,0,0,False,,219889,David Warner,Sunrisers Hyderabad,230558,Sunil Narine,Kolkata Knight Riders,,,297433,Jonny Bairstow,4,7.33
+ipl20,100301,1216545,1st innings,0,101,23/0,0,0,19,3.1,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,219889,David Warner,1,7.26
+ipl20,100302,1216545,1st innings,0,100,23/0,0,0,20,3.2,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,297433,Jonny Bairstow,0,6.9
+ipl20,100303,1216545,1st innings,0,99,24/0,0,0,21,3.3,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,297433,Jonny Bairstow,1,6.85
+ipl20,100304,1216545,1st innings,0,98,24/0,0,0,22,3.4,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,219889,David Warner,0,6.54
+ipl20,100305,1216545,1st innings,0,97,24/0,0,0,23,3.5,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,219889,David Warner,0,6.26
+ipl20,100306,1216545,1st innings,0,96,24/1,0,1,24,3.6,0,0,0,True,bowled,297433,Jonny Bairstow,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,489889,Pat Cummins,219889,David Warner,0,6.0
+ipl20,100401,1216545,1st innings,0,95,25/1,0,0,25,4.1,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,1079848,Shivam Mavi,Kolkata Knight Riders,,,290630,Manish Pandey,1,6.0
+ipl20,100402,1216545,1st innings,0,94,25/1,0,0,26,4.2,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,1079848,Shivam Mavi,Kolkata Knight Riders,,,219889,David Warner,0,5.76
+ipl20,100403,1216545,1st innings,0,93,25/1,0,0,27,4.3,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,1079848,Shivam Mavi,Kolkata Knight Riders,,,219889,David Warner,0,5.55

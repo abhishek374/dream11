@@ -1,0 +1,247 @@
+ipl_season,sequence,eventid,innings,target,remainingballs,homescore,awayscore,fallofwickets,ball,over,scorevalue,validball,extras,dismissal,dismissaltype,batsmanid,batsman,batsmanteam,bowlerid,bowler,bowlerteam,otherathleteinvolvedid,otherathleteinvolved,nonstrikerid,nonstriker,runs,runrate
+ipl20,100001,1216534,1st innings,0,119,0/0,0,0,1,0.1,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,5334,Aaron Finch,0,0.0
+ipl20,100002,1216534,1st innings,0,118,0/0,0,0,2,0.2,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,5334,Aaron Finch,0,0.0
+ipl20,100003,1216534,1st innings,0,118,1/0,0,0,2,0.2,1,1,1,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,5334,Aaron Finch,1,3.0
+ipl20,100004,1216534,1st innings,0,117,1/0,0,0,3,0.3,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,5334,Aaron Finch,0,2.0
+ipl20,100005,1216534,1st innings,0,116,2/0,0,0,4,0.4,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,5334,Aaron Finch,1,3.0
+ipl20,100006,1216534,1st innings,0,115,2/0,0,0,5,0.5,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,0,2.4
+ipl20,100007,1216534,1st innings,0,114,2/0,0,0,6,0.6,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,0,2.0
+ipl20,100101,1216534,1st innings,0,113,6/0,0,0,7,1.1,4,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,5334,Aaron Finch,4,5.14
+ipl20,100102,1216534,1st innings,0,112,6/0,0,0,8,1.2,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,5334,Aaron Finch,0,4.5
+ipl20,100103,1216534,1st innings,0,111,10/0,0,0,9,1.3,4,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,5334,Aaron Finch,4,6.66
+ipl20,100104,1216534,1st innings,0,110,12/0,0,0,10,1.4,2,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,5334,Aaron Finch,2,7.2
+ipl20,100105,1216534,1st innings,0,109,13/0,0,0,11,1.5,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,5334,Aaron Finch,1,7.09
+ipl20,100106,1216534,1st innings,0,108,13/0,0,0,12,1.6,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,0,6.5
+ipl20,100201,1216534,1st innings,0,107,13/0,0,0,13,2.1,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,5334,Aaron Finch,0,6.0
+ipl20,100202,1216534,1st innings,0,106,13/0,0,0,14,2.2,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,5334,Aaron Finch,0,5.57
+ipl20,100203,1216534,1st innings,0,105,17/0,0,0,15,2.3,4,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,5334,Aaron Finch,4,6.8
+ipl20,100204,1216534,1st innings,0,104,18/0,0,0,16,2.4,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,5334,Aaron Finch,1,6.75
+ipl20,100205,1216534,1st innings,0,103,20/0,0,0,17,2.5,2,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,2,7.05
+ipl20,100206,1216534,1st innings,0,102,20/0,0,0,18,2.6,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,0,6.66
+ipl20,100301,1216534,1st innings,0,101,20/0,0,0,19,3.1,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,5334,Aaron Finch,0,6.31
+ipl20,100302,1216534,1st innings,0,100,24/0,0,0,20,3.2,4,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,5334,Aaron Finch,4,7.2
+ipl20,100303,1216534,1st innings,0,99,28/0,0,0,21,3.3,4,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,5334,Aaron Finch,4,8.0
+ipl20,100304,1216534,1st innings,0,98,28/0,0,0,22,3.4,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,5334,Aaron Finch,0,7.63
+ipl20,100305,1216534,1st innings,0,97,32/0,0,0,23,3.5,4,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,5334,Aaron Finch,4,8.34
+ipl20,100306,1216534,1st innings,0,96,32/0,0,0,24,3.6,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,5334,Aaron Finch,0,8.0
+ipl20,100401,1216534,1st innings,0,95,32/0,0,0,25,4.1,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,272450,Mitchell Marsh,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,0,7.68
+ipl20,100402,1216534,1st innings,0,94,33/0,0,0,26,4.2,1,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,272450,Mitchell Marsh,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,1,7.61
+ipl20,100403,1216534,1st innings,0,93,37/0,0,0,27,4.3,4,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,272450,Mitchell Marsh,Sunrisers Hyderabad,,,5334,Aaron Finch,4,8.22
+ipl20,100404,1216534,1st innings,0,92,38/0,0,0,28,4.4,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,272450,Mitchell Marsh,Sunrisers Hyderabad,,,5334,Aaron Finch,1,8.14
+ipl20,100405,1216534,1st innings,0,92,39/0,0,0,28,4.4,1,1,1,False,,5334,Aaron Finch,Royal Challengers Bangalore,477021,Vijay Shankar,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,1,8.35
+ipl20,100406,1216534,1st innings,0,92,46/0,0,0,28,4.4,7,1,1,False,,5334,Aaron Finch,Royal Challengers Bangalore,477021,Vijay Shankar,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,7,9.85
+ipl20,100407,1216534,1st innings,0,91,47/0,0,0,29,4.5,1,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,477021,Vijay Shankar,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,1,9.72
+ipl20,100408,1216534,1st innings,0,91,48/0,0,0,29,4.5,1,1,1,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,477021,Vijay Shankar,Sunrisers Hyderabad,,,5334,Aaron Finch,1,9.93
+ipl20,100409,1216534,1st innings,0,90,48/0,0,0,30,4.6,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,477021,Vijay Shankar,Sunrisers Hyderabad,,,5334,Aaron Finch,0,9.6
+ipl20,100501,1216534,1st innings,0,89,49/0,0,0,31,5.1,1,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,1,9.48
+ipl20,100502,1216534,1st innings,0,88,51/0,0,0,32,5.2,2,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,5334,Aaron Finch,2,9.56
+ipl20,100503,1216534,1st innings,0,87,51/0,0,0,33,5.3,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,5334,Aaron Finch,0,9.27
+ipl20,100504,1216534,1st innings,0,86,51/0,0,0,34,5.4,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,5334,Aaron Finch,0,9.0
+ipl20,100505,1216534,1st innings,0,85,52/0,0,0,35,5.5,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,5334,Aaron Finch,1,8.91
+ipl20,100506,1216534,1st innings,0,84,53/0,0,0,36,5.6,1,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,1,8.83
+ipl20,100601,1216534,1st innings,0,83,54/0,0,0,37,6.1,1,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,1,8.75
+ipl20,100602,1216534,1st innings,0,82,55/0,0,0,38,6.2,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,5334,Aaron Finch,1,8.68
+ipl20,100603,1216534,1st innings,0,81,56/0,0,0,39,6.3,1,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,1,8.61
+ipl20,100604,1216534,1st innings,0,80,57/0,0,0,40,6.4,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,5334,Aaron Finch,1,8.55
+ipl20,100605,1216534,1st innings,0,79,58/0,0,0,41,6.5,1,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,1,8.48
+ipl20,100606,1216534,1st innings,0,78,59/0,0,0,42,6.6,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,5334,Aaron Finch,1,8.42
+ipl20,100701,1216534,1st innings,0,77,60/0,0,0,43,7.1,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,5334,Aaron Finch,1,8.37
+ipl20,100702,1216534,1st innings,0,76,60/0,0,0,44,7.2,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,0,8.18
+ipl20,100703,1216534,1st innings,0,75,61/0,0,0,45,7.3,1,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,1,8.13
+ipl20,100704,1216534,1st innings,0,74,62/0,0,0,46,7.4,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,5334,Aaron Finch,1,8.08
+ipl20,100705,1216534,1st innings,0,73,63/0,0,0,47,7.5,1,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,1,8.04
+ipl20,100706,1216534,1st innings,0,72,64/0,0,0,48,7.6,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,5334,Aaron Finch,1,8.0
+ipl20,100801,1216534,1st innings,0,71,65/0,0,0,49,8.1,1,0,1,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,5334,Aaron Finch,1,7.95
+ipl20,100802,1216534,1st innings,0,70,65/0,0,0,50,8.2,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,0,7.8
+ipl20,100803,1216534,1st innings,0,69,65/0,0,0,51,8.3,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,0,7.64
+ipl20,100804,1216534,1st innings,0,68,69/0,0,0,52,8.4,4,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,4,7.96
+ipl20,100805,1216534,1st innings,0,67,75/0,0,0,53,8.5,6,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,6,8.49
+ipl20,100806,1216534,1st innings,0,66,75/0,0,0,54,8.6,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,0,8.33
+ipl20,100901,1216534,1st innings,0,65,77/0,0,0,55,9.1,2,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,1070183,Abhishek Sharma,Sunrisers Hyderabad,,,5334,Aaron Finch,2,8.4
+ipl20,100902,1216534,1st innings,0,64,79/0,0,0,56,9.2,2,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,1070183,Abhishek Sharma,Sunrisers Hyderabad,,,5334,Aaron Finch,2,8.46
+ipl20,100903,1216534,1st innings,0,63,83/0,0,0,57,9.3,4,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,1070183,Abhishek Sharma,Sunrisers Hyderabad,,,5334,Aaron Finch,4,8.73
+ipl20,100904,1216534,1st innings,0,62,84/0,0,0,58,9.4,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,1070183,Abhishek Sharma,Sunrisers Hyderabad,,,5334,Aaron Finch,1,8.68
+ipl20,100905,1216534,1st innings,0,61,85/0,0,0,59,9.5,1,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,1070183,Abhishek Sharma,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,1,8.64
+ipl20,100906,1216534,1st innings,0,60,86/0,0,0,60,9.6,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,1070183,Abhishek Sharma,Sunrisers Hyderabad,,,5334,Aaron Finch,1,8.6
+ipl20,101001,1216534,1st innings,0,59,88/0,0,0,61,10.1,2,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,477021,Vijay Shankar,Sunrisers Hyderabad,,,5334,Aaron Finch,2,8.65
+ipl20,101002,1216534,1st innings,0,58,88/0,0,0,62,10.2,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,477021,Vijay Shankar,Sunrisers Hyderabad,,,5334,Aaron Finch,0,8.51
+ipl20,101003,1216534,1st innings,0,57,89/0,0,0,63,10.3,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,477021,Vijay Shankar,Sunrisers Hyderabad,,,5334,Aaron Finch,1,8.47
+ipl20,101004,1216534,1st innings,0,56,89/0,0,0,64,10.4,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,477021,Vijay Shankar,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,0,8.34
+ipl20,101005,1216534,1st innings,0,55,90/0,0,0,65,10.5,1,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,477021,Vijay Shankar,Sunrisers Hyderabad,,,1119026,Devdutt Padikkal,1,8.3
+ipl20,101006,1216534,1st innings,0,54,90/1,0,1,66,10.6,0,0,0,True,bowled,1119026,Devdutt Padikkal,Royal Challengers Bangalore,477021,Vijay Shankar,Sunrisers Hyderabad,1119026,Devdutt Padikkal,5334,Aaron Finch,0,8.18
+ipl20,101101,1216534,1st innings,0,53,90/2,0,2,67,11.1,0,0,0,True,leg before wicket,5334,Aaron Finch,Royal Challengers Bangalore,1070183,Abhishek Sharma,Sunrisers Hyderabad,5334,Aaron Finch,253802,Virat Kohli,0,8.05
+ipl20,101102,1216534,1st innings,0,52,90/2,0,0,68,11.2,0,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,1070183,Abhishek Sharma,Sunrisers Hyderabad,,,253802,Virat Kohli,0,7.94
+ipl20,101103,1216534,1st innings,0,51,91/2,0,0,69,11.3,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,1070183,Abhishek Sharma,Sunrisers Hyderabad,,,253802,Virat Kohli,1,7.91
+ipl20,101104,1216534,1st innings,0,50,93/2,0,0,70,11.4,2,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,1070183,Abhishek Sharma,Sunrisers Hyderabad,,,44936,AB de Villiers,2,7.97
+ipl20,101105,1216534,1st innings,0,49,94/2,0,0,71,11.5,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,1070183,Abhishek Sharma,Sunrisers Hyderabad,,,44936,AB de Villiers,1,7.94
+ipl20,101106,1216534,1st innings,0,48,95/2,0,0,72,11.6,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,1070183,Abhishek Sharma,Sunrisers Hyderabad,,,253802,Virat Kohli,1,7.91
+ipl20,101201,1216534,1st innings,0,47,96/2,0,0,73,12.1,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,253802,Virat Kohli,1,7.89
+ipl20,101202,1216534,1st innings,0,46,97/2,0,0,74,12.2,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,44936,AB de Villiers,1,7.86
+ipl20,101203,1216534,1st innings,0,45,98/2,0,0,75,12.3,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,253802,Virat Kohli,1,7.84
+ipl20,101204,1216534,1st innings,0,44,99/2,0,0,76,12.4,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,44936,AB de Villiers,1,7.81
+ipl20,101205,1216534,1st innings,0,43,100/2,0,0,77,12.5,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,253802,Virat Kohli,1,7.79
+ipl20,101206,1216534,1st innings,0,42,102/2,0,0,78,12.6,2,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,44936,AB de Villiers,2,7.84
+ipl20,101301,1216534,1st innings,0,41,103/2,0,0,79,13.1,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,253802,Virat Kohli,1,7.82
+ipl20,101302,1216534,1st innings,0,40,104/2,0,0,80,13.2,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,44936,AB de Villiers,1,7.8
+ipl20,101303,1216534,1st innings,0,39,105/2,0,0,81,13.3,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,253802,Virat Kohli,1,7.77
+ipl20,101304,1216534,1st innings,0,38,107/2,0,0,82,13.4,2,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,44936,AB de Villiers,2,7.82
+ipl20,101305,1216534,1st innings,0,37,107/2,0,0,83,13.5,0,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,44936,AB de Villiers,0,7.73
+ipl20,101306,1216534,1st innings,0,36,108/2,0,0,84,13.6,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,44936,AB de Villiers,1,7.71
+ipl20,101401,1216534,1st innings,0,35,109/2,0,0,85,14.1,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,44936,AB de Villiers,1,7.69
+ipl20,101402,1216534,1st innings,0,34,111/2,0,0,86,14.2,2,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,253802,Virat Kohli,2,7.74
+ipl20,101403,1216534,1st innings,0,33,112/2,0,0,87,14.3,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,253802,Virat Kohli,1,7.72
+ipl20,101404,1216534,1st innings,0,32,113/2,0,0,88,14.4,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,44936,AB de Villiers,1,7.7
+ipl20,101405,1216534,1st innings,0,31,115/2,0,0,89,14.5,2,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,253802,Virat Kohli,2,7.75
+ipl20,101406,1216534,1st innings,0,30,116/2,0,0,90,14.6,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,793463,Rashid Khan,Sunrisers Hyderabad,,,253802,Virat Kohli,1,7.73
+ipl20,101501,1216534,1st innings,0,29,117/2,0,0,91,15.1,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,253802,Virat Kohli,1,7.71
+ipl20,101502,1216534,1st innings,0,28,118/2,0,0,92,15.2,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,44936,AB de Villiers,1,7.69
+ipl20,101503,1216534,1st innings,0,27,122/2,0,0,93,15.3,4,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,253802,Virat Kohli,4,7.87
+ipl20,101504,1216534,1st innings,0,26,123/2,0,0,94,15.4,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,253802,Virat Kohli,1,7.85
+ipl20,101505,1216534,1st innings,0,25,123/3,0,3,95,15.5,0,0,0,True,caught,253802,Virat Kohli,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,802575,T Natarajan,44936,AB de Villiers,0,7.76
+ipl20,101506,1216534,1st innings,0,24,124/3,0,0,96,15.6,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,714451,Shivam Dube,1,7.75
+ipl20,101601,1216534,1st innings,0,23,125/3,0,0,97,16.1,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,714451,Shivam Dube,1,7.73
+ipl20,101602,1216534,1st innings,0,22,126/3,0,0,98,16.2,1,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,44936,AB de Villiers,1,7.71
+ipl20,101603,1216534,1st innings,0,21,126/3,0,0,99,16.3,0,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,714451,Shivam Dube,0,7.63
+ipl20,101604,1216534,1st innings,0,20,130/3,0,0,100,16.4,4,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,714451,Shivam Dube,4,7.8
+ipl20,101605,1216534,1st innings,0,19,131/3,0,0,101,16.5,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,714451,Shivam Dube,1,7.78
+ipl20,101606,1216534,1st innings,0,18,132/3,0,0,102,16.6,1,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,44936,AB de Villiers,1,7.76
+ipl20,101701,1216534,1st innings,0,17,133/3,0,0,103,17.1,1,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,44936,AB de Villiers,1,7.74
+ipl20,101702,1216534,1st innings,0,16,137/3,0,0,104,17.2,4,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,714451,Shivam Dube,4,7.9
+ipl20,101703,1216534,1st innings,0,15,138/3,0,0,105,17.3,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,714451,Shivam Dube,1,7.88
+ipl20,101704,1216534,1st innings,0,14,138/3,0,0,106,17.4,0,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,44936,AB de Villiers,0,7.81
+ipl20,101705,1216534,1st innings,0,13,140/3,0,0,107,17.5,2,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,44936,AB de Villiers,2,7.85
+ipl20,101706,1216534,1st innings,0,12,141/3,0,0,108,17.6,1,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,802575,T Natarajan,Sunrisers Hyderabad,,,44936,AB de Villiers,1,7.83
+ipl20,101801,1216534,1st innings,0,11,142/3,0,0,109,18.1,1,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,44936,AB de Villiers,1,7.81
+ipl20,101802,1216534,1st innings,0,10,142/3,0,0,110,18.2,0,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,714451,Shivam Dube,0,7.74
+ipl20,101803,1216534,1st innings,0,9,148/3,0,0,111,18.3,6,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,714451,Shivam Dube,6,8.0
+ipl20,101804,1216534,1st innings,0,8,154/3,0,0,112,18.4,6,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,714451,Shivam Dube,6,8.25
+ipl20,101805,1216534,1st innings,0,7,154/3,0,0,113,18.5,0,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,714451,Shivam Dube,0,8.17
+ipl20,101806,1216534,1st innings,0,6,155/3,0,0,114,18.6,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,438362,Sandeep Sharma,Sunrisers Hyderabad,,,714451,Shivam Dube,1,8.15
+ipl20,101901,1216534,1st innings,0,5,159/3,0,0,115,19.1,4,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,714451,Shivam Dube,4,8.29
+ipl20,101902,1216534,1st innings,0,4,161/3,0,0,116,19.2,2,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,714451,Shivam Dube,2,8.32
+ipl20,101903,1216534,1st innings,0,3,162/4,0,4,117,19.3,1,0,0,True,run out,44936,AB de Villiers,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,326016,Bhuvneshwar Kumar,714451,Shivam Dube,1,8.3
+ipl20,101904,1216534,1st innings,0,2,162/4,0,0,118,19.4,0,0,0,False,,1124282,Josh Philippe,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,714451,Shivam Dube,0,8.23
+ipl20,101905,1216534,1st innings,0,1,163/4,0,0,119,19.5,1,0,0,False,,1124282,Josh Philippe,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,714451,Shivam Dube,1,8.21
+ipl20,101906,1216534,1st innings,0,0,163/5,0,5,120,19.6,0,0,0,True,run out,714451,Shivam Dube,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,326016,Bhuvneshwar Kumar,1124282,Josh Philippe,0,8.15
+ipl20,200001,1216534,2nd innings,164,119,0,0/0,0,1,0.1,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,0.0
+ipl20,200002,1216534,2nd innings,164,118,0,4/0,0,2,0.2,4,0,0,False,,219889,David Warner,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,297433,Jonny Bairstow,4,12.0
+ipl20,200003,1216534,2nd innings,164,117,0,6/0,0,3,0.3,2,0,0,False,,219889,David Warner,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,297433,Jonny Bairstow,2,12.0
+ipl20,200004,1216534,2nd innings,164,116,0,6/0,0,4,0.4,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,9.0
+ipl20,200005,1216534,2nd innings,164,115,0,6/0,0,5,0.5,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,7.2
+ipl20,200006,1216534,2nd innings,164,114,0,6/0,0,6,0.6,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,6.0
+ipl20,200101,1216534,2nd innings,164,113,0,6/0,0,7,1.1,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,219889,David Warner,0,5.14
+ipl20,200102,1216534,2nd innings,164,113,0,7/0,0,7,1.1,1,1,1,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,219889,David Warner,1,6.0
+ipl20,200103,1216534,2nd innings,164,113,0,8/0,0,7,1.1,1,1,1,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,219889,David Warner,1,6.85
+ipl20,200104,1216534,2nd innings,164,112,0,12/0,0,8,1.2,4,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,219889,David Warner,4,9.0
+ipl20,200105,1216534,2nd innings,164,111,0,18/0,0,9,1.3,6,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,219889,David Warner,6,12.0
+ipl20,200106,1216534,2nd innings,164,110,0,18/1,1,10,1.4,0,0,0,True,run out,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,376116,Umesh Yadav,219889,David Warner,0,10.8
+ipl20,200107,1216534,2nd innings,164,109,0,18/1,0,11,1.5,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,290630,Manish Pandey,0,9.81
+ipl20,200108,1216534,2nd innings,164,108,0,18/1,0,12,1.6,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,290630,Manish Pandey,0,9.0
+ipl20,200201,1216534,2nd innings,164,107,0,18/1,0,13,2.1,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,8.3
+ipl20,200202,1216534,2nd innings,164,106,0,18/1,0,14,2.2,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,7.71
+ipl20,200203,1216534,2nd innings,164,105,0,20/1,0,15,2.3,2,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,297433,Jonny Bairstow,2,8.0
+ipl20,200204,1216534,2nd innings,164,104,0,20/1,0,16,2.4,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,7.5
+ipl20,200205,1216534,2nd innings,164,103,0,24/1,0,17,2.5,4,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,297433,Jonny Bairstow,4,8.47
+ipl20,200206,1216534,2nd innings,164,102,0,25/1,0,18,2.6,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,297433,Jonny Bairstow,1,8.33
+ipl20,200301,1216534,2nd innings,164,101,0,26/1,0,19,3.1,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,297433,Jonny Bairstow,1,8.21
+ipl20,200302,1216534,2nd innings,164,100,0,26/1,0,20,3.2,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,290630,Manish Pandey,0,7.8
+ipl20,200303,1216534,2nd innings,164,99,0,27/1,0,21,3.3,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,290630,Manish Pandey,1,7.71
+ipl20,200304,1216534,2nd innings,164,98,0,28/1,0,22,3.4,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,297433,Jonny Bairstow,1,7.63
+ipl20,200305,1216534,2nd innings,164,97,0,28/1,0,23,3.5,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,290630,Manish Pandey,0,7.3
+ipl20,200306,1216534,2nd innings,164,96,0,30/1,0,24,3.6,2,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,290630,Manish Pandey,2,7.5
+ipl20,200401,1216534,2nd innings,164,95,0,34/1,0,25,4.1,4,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,297433,Jonny Bairstow,4,8.16
+ipl20,200402,1216534,2nd innings,164,94,0,38/1,0,26,4.2,4,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,297433,Jonny Bairstow,4,8.76
+ipl20,200403,1216534,2nd innings,164,93,0,38/1,0,27,4.3,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,8.44
+ipl20,200404,1216534,2nd innings,164,92,0,39/1,0,28,4.4,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,297433,Jonny Bairstow,1,8.35
+ipl20,200405,1216534,2nd innings,164,91,0,40/1,0,29,4.5,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,290630,Manish Pandey,1,8.27
+ipl20,200406,1216534,2nd innings,164,90,0,40/1,0,30,4.6,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,8.0
+ipl20,200501,1216534,2nd innings,164,89,0,41/1,0,31,5.1,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,290630,Manish Pandey,1,7.93
+ipl20,200502,1216534,2nd innings,164,88,0,41/1,0,32,5.2,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,7.68
+ipl20,200503,1216534,2nd innings,164,87,0,42/1,0,33,5.3,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,297433,Jonny Bairstow,1,7.63
+ipl20,200504,1216534,2nd innings,164,86,0,46/1,0,34,5.4,4,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,290630,Manish Pandey,4,8.11
+ipl20,200505,1216534,2nd innings,164,85,0,47/1,0,35,5.5,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,290630,Manish Pandey,1,8.05
+ipl20,200506,1216534,2nd innings,164,84,0,48/1,0,36,5.6,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,297433,Jonny Bairstow,1,8.0
+ipl20,200601,1216534,2nd innings,164,83,0,48/1,0,37,6.1,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,719715,Washington Sundar,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,7.78
+ipl20,200602,1216534,2nd innings,164,82,0,54/1,0,38,6.2,6,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,719715,Washington Sundar,Royal Challengers Bangalore,,,297433,Jonny Bairstow,6,8.52
+ipl20,200603,1216534,2nd innings,164,81,0,54/1,0,39,6.3,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,719715,Washington Sundar,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,8.3
+ipl20,200604,1216534,2nd innings,164,80,0,54/1,0,40,6.4,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,719715,Washington Sundar,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,8.1
+ipl20,200605,1216534,2nd innings,164,79,0,54/1,0,41,6.5,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,719715,Washington Sundar,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,7.9
+ipl20,200606,1216534,2nd innings,164,78,0,55/1,0,42,6.6,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,719715,Washington Sundar,Royal Challengers Bangalore,,,297433,Jonny Bairstow,1,7.85
+ipl20,200701,1216534,2nd innings,164,77,0,55/1,0,43,7.1,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,7.67
+ipl20,200702,1216534,2nd innings,164,76,0,55/1,0,44,7.2,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,7.5
+ipl20,200703,1216534,2nd innings,164,75,0,56/1,0,45,7.3,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,297433,Jonny Bairstow,1,7.46
+ipl20,200704,1216534,2nd innings,164,74,0,56/1,0,46,7.4,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,290630,Manish Pandey,0,7.3
+ipl20,200705,1216534,2nd innings,164,73,0,58/1,0,47,7.5,2,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,290630,Manish Pandey,2,7.4
+ipl20,200706,1216534,2nd innings,164,72,0,59/1,0,48,7.6,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,290630,Manish Pandey,1,7.37
+ipl20,200801,1216534,2nd innings,164,71,0,60/1,0,49,8.1,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,290630,Manish Pandey,1,7.34
+ipl20,200802,1216534,2nd innings,164,70,0,61/1,0,50,8.2,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,297433,Jonny Bairstow,1,7.32
+ipl20,200803,1216534,2nd innings,164,69,0,61/1,0,51,8.3,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,290630,Manish Pandey,0,7.17
+ipl20,200804,1216534,2nd innings,164,68,0,67/1,0,52,8.4,6,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,290630,Manish Pandey,6,7.73
+ipl20,200805,1216534,2nd innings,164,67,0,71/1,0,53,8.5,4,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,290630,Manish Pandey,4,8.03
+ipl20,200806,1216534,2nd innings,164,66,0,72/1,0,54,8.6,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,290630,Manish Pandey,1,8.0
+ipl20,200901,1216534,2nd innings,164,65,0,73/1,0,55,9.1,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,290630,Manish Pandey,1,7.96
+ipl20,200902,1216534,2nd innings,164,64,0,74/1,0,56,9.2,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,297433,Jonny Bairstow,1,7.92
+ipl20,200903,1216534,2nd innings,164,63,0,76/1,0,57,9.3,2,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,290630,Manish Pandey,2,8.0
+ipl20,200904,1216534,2nd innings,164,62,0,76/1,0,58,9.4,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,290630,Manish Pandey,0,7.86
+ipl20,200905,1216534,2nd innings,164,61,0,77/1,0,59,9.5,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,290630,Manish Pandey,1,7.83
+ipl20,200906,1216534,2nd innings,164,60,0,78/1,0,60,9.6,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,297433,Jonny Bairstow,1,7.8
+ipl20,201001,1216534,2nd innings,164,59,0,79/1,0,61,10.1,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,297433,Jonny Bairstow,1,7.77
+ipl20,201002,1216534,2nd innings,164,58,0,80/1,0,62,10.2,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,290630,Manish Pandey,1,7.74
+ipl20,201003,1216534,2nd innings,164,57,0,81/1,0,63,10.3,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,297433,Jonny Bairstow,1,7.71
+ipl20,201004,1216534,2nd innings,164,56,0,83/1,0,64,10.4,2,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,290630,Manish Pandey,2,7.78
+ipl20,201005,1216534,2nd innings,164,55,0,83/1,0,65,10.5,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,290630,Manish Pandey,0,7.66
+ipl20,201006,1216534,2nd innings,164,54,0,83/1,0,66,10.6,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,290630,Manish Pandey,0,7.54
+ipl20,201101,1216534,2nd innings,164,53,0,84/1,0,67,11.1,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,297433,Jonny Bairstow,1,7.52
+ipl20,201102,1216534,2nd innings,164,52,0,88/1,0,68,11.2,4,0,4,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,290630,Manish Pandey,4,7.76
+ipl20,201103,1216534,2nd innings,164,51,0,88/1,0,69,11.3,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,290630,Manish Pandey,0,7.65
+ipl20,201104,1216534,2nd innings,164,50,0,89/1,0,70,11.4,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,290630,Manish Pandey,1,7.62
+ipl20,201105,1216534,2nd innings,164,49,0,89/1,0,71,11.5,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,7.52
+ipl20,201106,1216534,2nd innings,164,48,0,89/2,2,72,11.6,0,0,0,True,caught,290630,Manish Pandey,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,430246,Yuzvendra Chahal,297433,Jonny Bairstow,0,7.41
+ipl20,201201,1216534,2nd innings,164,47,0,90/2,0,73,12.1,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,,,1070180,Priyam Garg,1,7.39
+ipl20,201202,1216534,2nd innings,164,46,0,92/2,0,74,12.2,2,0,0,False,,1070180,Priyam Garg,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,,,297433,Jonny Bairstow,2,7.45
+ipl20,201203,1216534,2nd innings,164,45,0,92/2,0,75,12.3,0,0,0,False,,1070180,Priyam Garg,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,7.36
+ipl20,201204,1216534,2nd innings,164,44,0,94/2,0,76,12.4,2,0,2,False,,1070180,Priyam Garg,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,,,297433,Jonny Bairstow,2,7.42
+ipl20,201205,1216534,2nd innings,164,43,0,94/2,0,77,12.5,0,0,0,False,,1070180,Priyam Garg,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,7.32
+ipl20,201206,1216534,2nd innings,164,42,0,94/2,0,78,12.6,0,0,0,False,,1070180,Priyam Garg,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,7.23
+ipl20,201301,1216534,2nd innings,164,41,0,96/2,0,79,13.1,2,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,1070180,Priyam Garg,2,7.29
+ipl20,201302,1216534,2nd innings,164,40,0,98/2,0,80,13.2,2,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,1070180,Priyam Garg,2,7.35
+ipl20,201303,1216534,2nd innings,164,39,0,102/2,0,81,13.3,4,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,1070180,Priyam Garg,4,7.55
+ipl20,201304,1216534,2nd innings,164,38,0,103/2,0,82,13.4,1,0,1,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,1070180,Priyam Garg,1,7.53
+ipl20,201305,1216534,2nd innings,164,37,0,104/2,0,83,13.5,1,0,0,False,,1070180,Priyam Garg,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,297433,Jonny Bairstow,1,7.51
+ipl20,201306,1216534,2nd innings,164,36,0,108/2,0,84,13.6,4,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,376116,Umesh Yadav,Royal Challengers Bangalore,,,1070180,Priyam Garg,4,7.71
+ipl20,201401,1216534,2nd innings,164,35,0,109/2,0,85,14.1,1,0,0,False,,1070180,Priyam Garg,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,297433,Jonny Bairstow,1,7.69
+ipl20,201402,1216534,2nd innings,164,34,0,113/2,0,86,14.2,4,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,1070180,Priyam Garg,4,7.88
+ipl20,201403,1216534,2nd innings,164,34,0,114/2,0,86,14.2,1,1,1,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,1070180,Priyam Garg,1,7.95
+ipl20,201404,1216534,2nd innings,164,33,0,115/2,0,87,14.3,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,1070180,Priyam Garg,1,7.93
+ipl20,201405,1216534,2nd innings,164,32,0,119/2,0,88,14.4,4,0,0,False,,1070180,Priyam Garg,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,297433,Jonny Bairstow,4,8.11
+ipl20,201406,1216534,2nd innings,164,31,0,121/2,0,89,14.5,2,0,0,False,,1070180,Priyam Garg,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,297433,Jonny Bairstow,2,8.15
+ipl20,201407,1216534,2nd innings,164,30,0,121/2,0,90,14.6,0,0,0,False,,1070180,Priyam Garg,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,297433,Jonny Bairstow,0,8.06
+ipl20,201501,1216534,2nd innings,164,29,0,121/2,0,91,15.1,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,1070180,Priyam Garg,0,7.97
+ipl20,201502,1216534,2nd innings,164,28,0,121/3,3,92,15.2,0,0,0,True,bowled,297433,Jonny Bairstow,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,430246,Yuzvendra Chahal,1070180,Priyam Garg,0,7.89
+ipl20,201503,1216534,2nd innings,164,27,0,121/4,4,93,15.3,0,0,0,True,bowled,477021,Vijay Shankar,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,430246,Yuzvendra Chahal,1070180,Priyam Garg,0,7.8
+ipl20,201504,1216534,2nd innings,164,26,0,122/4,0,94,15.4,1,0,0,False,,1070183,Abhishek Sharma,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,1070180,Priyam Garg,1,7.78
+ipl20,201505,1216534,2nd innings,164,25,0,123/4,0,95,15.5,1,0,0,False,,1070180,Priyam Garg,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,1070183,Abhishek Sharma,1,7.76
+ipl20,201506,1216534,2nd innings,164,24,0,127/4,0,96,15.6,4,0,0,False,,1070183,Abhishek Sharma,Sunrisers Hyderabad,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,1070180,Priyam Garg,4,7.93
+ipl20,201601,1216534,2nd innings,164,23,0,128/4,0,97,16.1,1,0,0,False,,1070180,Priyam Garg,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,,,1070183,Abhishek Sharma,1,7.91
+ipl20,201602,1216534,2nd innings,164,22,0,129/4,0,98,16.2,1,0,0,False,,1070183,Abhishek Sharma,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,,,1070180,Priyam Garg,1,7.89
+ipl20,201603,1216534,2nd innings,164,21,0,129/5,5,99,16.3,0,0,0,True,bowled,1070180,Priyam Garg,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,1070180,Priyam Garg,1070183,Abhishek Sharma,0,7.81
+ipl20,201604,1216534,2nd innings,164,20,0,133/5,0,100,16.4,4,0,0,False,,793463,Rashid Khan,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,,,1070183,Abhishek Sharma,4,7.98
+ipl20,201605,1216534,2nd innings,164,19,0,134/5,0,101,16.5,1,0,0,False,,793463,Rashid Khan,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,,,1070183,Abhishek Sharma,1,7.96
+ipl20,201606,1216534,2nd innings,164,18,0,135/6,6,102,16.6,1,0,0,True,run out,1070183,Abhishek Sharma,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,1070183,Abhishek Sharma,793463,Rashid Khan,1,7.94
+ipl20,201701,1216534,2nd innings,164,17,0,135/6,0,103,17.1,0,0,0,False,,793463,Rashid Khan,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,326016,Bhuvneshwar Kumar,0,7.86
+ipl20,201702,1216534,2nd innings,164,17,0,140/6,0,103,17.1,5,5,5,False,,793463,Rashid Khan,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,326016,Bhuvneshwar Kumar,5,8.15
+ipl20,201703,1216534,2nd innings,164,16,0,141/6,0,104,17.2,1,0,0,False,,793463,Rashid Khan,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,326016,Bhuvneshwar Kumar,1,8.13
+ipl20,201704,1216534,2nd innings,164,15,0,141/6,0,105,17.3,0,0,0,False,,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,793463,Rashid Khan,0,8.05
+ipl20,201705,1216534,2nd innings,164,14,0,141/7,7,106,17.4,0,0,0,True,bowled,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,326016,Bhuvneshwar Kumar,793463,Rashid Khan,0,7.98
+ipl20,201706,1216534,2nd innings,164,13,0,142/7,0,107,17.5,1,0,0,False,,438362,Sandeep Sharma,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,,,793463,Rashid Khan,1,7.96
+ipl20,201707,1216534,2nd innings,164,12,0,142/8,8,108,17.6,0,0,0,True,bowled,793463,Rashid Khan,Sunrisers Hyderabad,700167,Navdeep Saini,Royal Challengers Bangalore,793463,Rashid Khan,438362,Sandeep Sharma,0,7.88
+ipl20,201801,1216534,2nd innings,164,11,0,143/8,0,109,18.1,1,0,0,False,,438362,Sandeep Sharma,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,,,272450,Mitchell Marsh,1,7.87
+ipl20,201802,1216534,2nd innings,164,10,0,143/9,9,110,18.2,0,0,0,True,caught,272450,Mitchell Marsh,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,272450,Mitchell Marsh,438362,Sandeep Sharma,0,7.8
+ipl20,201803,1216534,2nd innings,164,9,0,143/9,0,111,18.3,0,0,0,False,,802575,T Natarajan,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,,,438362,Sandeep Sharma,0,7.72
+ipl20,201804,1216534,2nd innings,164,8,0,144/9,0,112,18.4,1,0,0,False,,802575,T Natarajan,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,,,438362,Sandeep Sharma,1,7.71
+ipl20,201805,1216534,2nd innings,164,7,0,145/9,0,113,18.5,1,0,0,False,,438362,Sandeep Sharma,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,,,802575,T Natarajan,1,7.69
+ipl20,201806,1216534,2nd innings,164,6,0,146/9,0,114,18.6,1,0,0,False,,802575,T Natarajan,Sunrisers Hyderabad,714451,Shivam Dube,Royal Challengers Bangalore,,,438362,Sandeep Sharma,1,7.68
+ipl20,201901,1216534,2nd innings,164,5,0,147/9,0,115,19.1,1,0,0,False,,802575,T Natarajan,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,438362,Sandeep Sharma,1,7.66
+ipl20,201902,1216534,2nd innings,164,4,0,149/9,0,116,19.2,2,0,0,False,,438362,Sandeep Sharma,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,802575,T Natarajan,2,7.7
+ipl20,201903,1216534,2nd innings,164,3,0,153/9,0,117,19.3,4,0,0,False,,438362,Sandeep Sharma,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,,,802575,T Natarajan,4,7.84
+ipl20,201904,1216534,2nd innings,164,2,0,153/10,10,118,19.4,0,0,0,True,caught,438362,Sandeep Sharma,Sunrisers Hyderabad,47492,Dale Steyn,Royal Challengers Bangalore,47492,Dale Steyn,802575,T Natarajan,0,7.77

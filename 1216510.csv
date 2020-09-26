@@ -1,0 +1,234 @@
+ipl_season,sequence,eventid,innings,target,remainingballs,homescore,awayscore,fallofwickets,ball,over,scorevalue,validball,extras,dismissal,dismissaltype,batsmanid,batsman,batsmanteam,bowlerid,bowler,bowlerteam,otherathleteinvolvedid,otherathleteinvolved,nonstrikerid,nonstriker,runs,runrate
+ipl20,100001,1216510,1st innings,0,119,0/0,0,0,1,0.1,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,398438,Mayank Agarwal,0,0.0
+ipl20,100002,1216510,1st innings,0,118,1/0,0,0,2,0.2,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,398438,Mayank Agarwal,1,3.0
+ipl20,100003,1216510,1st innings,0,117,3/0,0,0,3,0.3,2,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,422108,KL Rahul,2,6.0
+ipl20,100004,1216510,1st innings,0,116,4/0,0,0,4,0.4,1,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,422108,KL Rahul,1,6.0
+ipl20,100005,1216510,1st innings,0,115,4/0,0,0,5,0.5,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,398438,Mayank Agarwal,0,4.8
+ipl20,100006,1216510,1st innings,0,114,8/0,0,0,6,0.6,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,398438,Mayank Agarwal,4,8.0
+ipl20,100101,1216510,1st innings,0,113,9/0,0,0,7,1.1,1,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,422108,KL Rahul,1,7.71
+ipl20,100102,1216510,1st innings,0,112,9/0,0,0,8,1.2,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398438,Mayank Agarwal,0,6.75
+ipl20,100103,1216510,1st innings,0,111,13/0,0,0,9,1.3,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398438,Mayank Agarwal,4,8.66
+ipl20,100104,1216510,1st innings,0,110,17/0,0,0,10,1.4,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398438,Mayank Agarwal,4,10.2
+ipl20,100105,1216510,1st innings,0,109,17/0,0,0,11,1.5,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398438,Mayank Agarwal,0,9.27
+ipl20,100106,1216510,1st innings,0,108,17/0,0,0,12,1.6,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398438,Mayank Agarwal,0,8.5
+ipl20,100201,1216510,1st innings,0,107,21/0,0,0,13,2.1,4,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,422108,KL Rahul,4,9.69
+ipl20,100202,1216510,1st innings,0,106,21/0,0,0,14,2.2,0,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,422108,KL Rahul,0,9.0
+ipl20,100203,1216510,1st innings,0,105,25/0,0,0,15,2.3,4,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,422108,KL Rahul,4,10.0
+ipl20,100204,1216510,1st innings,0,104,26/0,0,0,16,2.4,1,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,422108,KL Rahul,1,9.75
+ipl20,100205,1216510,1st innings,0,103,26/0,0,0,17,2.5,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,398438,Mayank Agarwal,0,9.17
+ipl20,100206,1216510,1st innings,0,102,26/0,0,0,18,2.6,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,398438,Mayank Agarwal,0,8.66
+ipl20,100301,1216510,1st innings,0,101,26/0,0,0,19,3.1,0,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,422108,KL Rahul,0,8.21
+ipl20,100302,1216510,1st innings,0,100,26/0,0,0,20,3.2,0,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,422108,KL Rahul,0,7.8
+ipl20,100303,1216510,1st innings,0,99,27/0,0,0,21,3.3,1,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,422108,KL Rahul,1,7.71
+ipl20,100304,1216510,1st innings,0,98,29/0,0,0,22,3.4,2,0,0,False,,422108,KL Rahul,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,398438,Mayank Agarwal,2,7.9
+ipl20,100305,1216510,1st innings,0,97,33/0,0,0,23,3.5,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,398438,Mayank Agarwal,4,8.6
+ipl20,100306,1216510,1st innings,0,96,33/0,0,0,24,3.6,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,398438,Mayank Agarwal,0,8.25
+ipl20,100401,1216510,1st innings,0,95,34/0,0,0,25,4.1,1,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.16
+ipl20,100402,1216510,1st innings,0,94,35/0,0,0,26,4.2,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398438,Mayank Agarwal,1,8.07
+ipl20,100403,1216510,1st innings,0,93,39/0,0,0,27,4.3,4,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,422108,KL Rahul,4,8.66
+ipl20,100404,1216510,1st innings,0,92,39/0,0,0,28,4.4,0,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,422108,KL Rahul,0,8.35
+ipl20,100405,1216510,1st innings,0,91,40/0,0,0,29,4.5,1,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.27
+ipl20,100406,1216510,1st innings,0,90,41/0,0,0,30,4.6,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398438,Mayank Agarwal,1,8.2
+ipl20,100501,1216510,1st innings,0,89,42/0,0,0,31,5.1,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,398438,Mayank Agarwal,1,8.12
+ipl20,100502,1216510,1st innings,0,88,42/0,0,0,32,5.2,0,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,422108,KL Rahul,0,7.87
+ipl20,100503,1216510,1st innings,0,88,43/0,0,0,32,5.2,1,1,1,False,,398438,Mayank Agarwal,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.06
+ipl20,100504,1216510,1st innings,0,87,43/0,0,0,33,5.3,0,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,422108,KL Rahul,0,7.81
+ipl20,100505,1216510,1st innings,0,87,44/0,0,0,33,5.3,1,1,1,False,,398438,Mayank Agarwal,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.0
+ipl20,100506,1216510,1st innings,0,86,48/0,0,0,34,5.4,4,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,422108,KL Rahul,4,8.47
+ipl20,100507,1216510,1st innings,0,85,49/0,0,0,35,5.5,1,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.4
+ipl20,100508,1216510,1st innings,0,84,50/0,0,0,36,5.6,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,398438,Mayank Agarwal,1,8.33
+ipl20,100601,1216510,1st innings,0,83,51/0,0,0,37,6.1,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,398438,Mayank Agarwal,1,8.27
+ipl20,100602,1216510,1st innings,0,82,52/0,0,0,38,6.2,1,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.21
+ipl20,100603,1216510,1st innings,0,81,56/0,0,0,39,6.3,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,398438,Mayank Agarwal,4,8.61
+ipl20,100604,1216510,1st innings,0,80,56/0,0,0,40,6.4,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,398438,Mayank Agarwal,0,8.4
+ipl20,100605,1216510,1st innings,0,79,57/0,0,0,41,6.5,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,398438,Mayank Agarwal,1,8.34
+ipl20,100606,1216510,1st innings,0,78,57/1,0,1,42,6.6,0,0,0,True,bowled,398438,Mayank Agarwal,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,398438,Mayank Agarwal,422108,KL Rahul,0,8.14
+ipl20,100701,1216510,1st innings,0,77,61/1,0,0,43,7.1,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,719715,Washington Sundar,Royal Challengers Bangalore,,,604302,Nicholas Pooran,4,8.51
+ipl20,100702,1216510,1st innings,0,76,62/1,0,0,44,7.2,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,719715,Washington Sundar,Royal Challengers Bangalore,,,604302,Nicholas Pooran,1,8.45
+ipl20,100703,1216510,1st innings,0,75,63/1,0,0,45,7.3,1,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,719715,Washington Sundar,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.4
+ipl20,100704,1216510,1st innings,0,74,64/1,0,0,46,7.4,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,719715,Washington Sundar,Royal Challengers Bangalore,,,604302,Nicholas Pooran,1,8.34
+ipl20,100705,1216510,1st innings,0,73,65/1,0,0,47,7.5,1,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,719715,Washington Sundar,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.29
+ipl20,100706,1216510,1st innings,0,72,65/1,0,0,48,7.6,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,719715,Washington Sundar,Royal Challengers Bangalore,,,604302,Nicholas Pooran,0,8.12
+ipl20,100801,1216510,1st innings,0,71,65/1,0,0,49,8.1,0,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,422108,KL Rahul,0,7.95
+ipl20,100802,1216510,1st innings,0,70,65/1,0,0,50,8.2,0,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,422108,KL Rahul,0,7.8
+ipl20,100803,1216510,1st innings,0,69,67/1,0,0,51,8.3,2,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,422108,KL Rahul,2,7.88
+ipl20,100804,1216510,1st innings,0,68,68/1,0,0,52,8.4,1,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,422108,KL Rahul,1,7.84
+ipl20,100805,1216510,1st innings,0,67,69/1,0,0,53,8.5,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,604302,Nicholas Pooran,1,7.81
+ipl20,100806,1216510,1st innings,0,66,70/1,0,0,54,8.6,1,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,422108,KL Rahul,1,7.77
+ipl20,100901,1216510,1st innings,0,66,71/1,0,0,54,9.0,1,1,1,False,,604302,Nicholas Pooran,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,422108,KL Rahul,1,7.88
+ipl20,100902,1216510,1st innings,0,65,75/1,0,0,55,9.1,4,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,422108,KL Rahul,4,8.18
+ipl20,100903,1216510,1st innings,0,64,76/1,0,0,56,9.2,1,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.14
+ipl20,100904,1216510,1st innings,0,64,79/1,0,0,56,9.2,1,1,3,False,,422108,KL Rahul,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,604302,Nicholas Pooran,3,8.46
+ipl20,100905,1216510,1st innings,0,63,85/1,0,0,57,9.3,6,0,0,False,,422108,KL Rahul,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,604302,Nicholas Pooran,6,8.94
+ipl20,100906,1216510,1st innings,0,62,85/1,0,0,58,9.4,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,604302,Nicholas Pooran,0,8.79
+ipl20,100907,1216510,1st innings,0,61,89/1,0,0,59,9.5,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,604302,Nicholas Pooran,4,9.05
+ipl20,100908,1216510,1st innings,0,60,90/1,0,0,60,9.6,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,376116,Umesh Yadav,Royal Challengers Bangalore,,,604302,Nicholas Pooran,1,9.0
+ipl20,101001,1216510,1st innings,0,59,90/1,0,0,61,10.1,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,604302,Nicholas Pooran,0,8.85
+ipl20,101002,1216510,1st innings,0,58,91/1,0,0,62,10.2,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,604302,Nicholas Pooran,1,8.8
+ipl20,101003,1216510,1st innings,0,57,93/1,0,0,63,10.3,2,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,422108,KL Rahul,2,8.85
+ipl20,101004,1216510,1st innings,0,56,94/1,0,0,64,10.4,1,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.81
+ipl20,101005,1216510,1st innings,0,55,95/1,0,0,65,10.5,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,604302,Nicholas Pooran,1,8.76
+ipl20,101006,1216510,1st innings,0,54,95/1,0,0,66,10.6,0,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,422108,KL Rahul,0,8.63
+ipl20,101101,1216510,1st innings,0,53,96/1,0,0,67,11.1,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,719715,Washington Sundar,Royal Challengers Bangalore,,,604302,Nicholas Pooran,1,8.59
+ipl20,101102,1216510,1st innings,0,52,96/1,0,0,68,11.2,0,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,719715,Washington Sundar,Royal Challengers Bangalore,,,422108,KL Rahul,0,8.47
+ipl20,101103,1216510,1st innings,0,51,97/1,0,0,69,11.3,1,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,719715,Washington Sundar,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.43
+ipl20,101104,1216510,1st innings,0,50,98/1,0,0,70,11.4,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,719715,Washington Sundar,Royal Challengers Bangalore,,,604302,Nicholas Pooran,1,8.4
+ipl20,101105,1216510,1st innings,0,49,99/1,0,0,71,11.5,1,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,719715,Washington Sundar,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.36
+ipl20,101106,1216510,1st innings,0,48,100/1,0,0,72,11.6,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,719715,Washington Sundar,Royal Challengers Bangalore,,,604302,Nicholas Pooran,1,8.33
+ipl20,101201,1216510,1st innings,0,47,104/1,0,0,73,12.1,4,0,4,False,,422108,KL Rahul,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,604302,Nicholas Pooran,4,8.54
+ipl20,101202,1216510,1st innings,0,46,105/1,0,0,74,12.2,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,604302,Nicholas Pooran,1,8.51
+ipl20,101203,1216510,1st innings,0,45,105/1,0,0,75,12.3,0,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,422108,KL Rahul,0,8.4
+ipl20,101204,1216510,1st innings,0,44,106/1,0,0,76,12.4,1,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.36
+ipl20,101205,1216510,1st innings,0,43,110/1,0,0,77,12.5,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,604302,Nicholas Pooran,4,8.57
+ipl20,101206,1216510,1st innings,0,42,114/1,0,0,78,12.6,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,604302,Nicholas Pooran,4,8.76
+ipl20,101301,1216510,1st innings,0,41,114/2,0,2,79,13.1,0,0,0,True,caught,604302,Nicholas Pooran,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,604302,Nicholas Pooran,422108,KL Rahul,0,8.65
+ipl20,101302,1216510,1st innings,0,40,114/2,0,0,80,13.2,0,0,0,False,,325026,Glenn Maxwell,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,,,422108,KL Rahul,0,8.55
+ipl20,101303,1216510,1st innings,0,39,115/2,0,0,81,13.3,1,0,0,False,,325026,Glenn Maxwell,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.51
+ipl20,101304,1216510,1st innings,0,38,116/2,0,0,82,13.4,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,,,325026,Glenn Maxwell,1,8.48
+ipl20,101305,1216510,1st innings,0,37,117/2,0,0,83,13.5,1,0,0,False,,325026,Glenn Maxwell,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.45
+ipl20,101306,1216510,1st innings,0,36,118/2,0,0,84,13.6,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,,,325026,Glenn Maxwell,1,8.42
+ipl20,101401,1216510,1st innings,0,35,120/2,0,0,85,14.1,2,0,0,False,,422108,KL Rahul,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,325026,Glenn Maxwell,2,8.47
+ipl20,101402,1216510,1st innings,0,34,120/2,0,0,86,14.2,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,325026,Glenn Maxwell,0,8.37
+ipl20,101403,1216510,1st innings,0,33,124/2,0,0,87,14.3,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,325026,Glenn Maxwell,4,8.55
+ipl20,101404,1216510,1st innings,0,32,125/2,0,0,88,14.4,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,325026,Glenn Maxwell,1,8.52
+ipl20,101405,1216510,1st innings,0,31,126/2,0,0,89,14.5,1,0,0,False,,325026,Glenn Maxwell,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.49
+ipl20,101406,1216510,1st innings,0,30,126/2,0,0,90,14.6,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,325026,Glenn Maxwell,0,8.4
+ipl20,101501,1216510,1st innings,0,29,128/2,0,0,91,15.1,2,0,0,False,,325026,Glenn Maxwell,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,,,422108,KL Rahul,2,8.43
+ipl20,101502,1216510,1st innings,0,28,128/3,0,3,92,15.2,0,0,0,True,caught,325026,Glenn Maxwell,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,21473,Brian Taylor,422108,KL Rahul,0,8.34
+ipl20,101503,1216510,1st innings,0,27,129/3,0,0,93,15.3,1,0,0,False,,398439,Karun Nair,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.32
+ipl20,101504,1216510,1st innings,0,26,130/3,0,0,94,15.4,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,,,398439,Karun Nair,1,8.29
+ipl20,101505,1216510,1st innings,0,25,131/3,0,0,95,15.5,1,0,0,False,,398439,Karun Nair,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.27
+ipl20,101506,1216510,1st innings,0,24,132/3,0,0,96,15.6,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,,,398439,Karun Nair,1,8.25
+ipl20,101601,1216510,1st innings,0,23,133/3,0,0,97,16.1,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398439,Karun Nair,1,8.22
+ipl20,101602,1216510,1st innings,0,22,134/3,0,0,98,16.2,1,0,0,False,,398439,Karun Nair,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.2
+ipl20,101603,1216510,1st innings,0,21,136/3,0,0,99,16.3,2,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398439,Karun Nair,2,8.24
+ipl20,101604,1216510,1st innings,0,20,138/3,0,0,100,16.4,2,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398439,Karun Nair,2,8.28
+ipl20,101605,1216510,1st innings,0,20,139/3,0,0,100,16.4,1,1,1,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398439,Karun Nair,1,8.34
+ipl20,101606,1216510,1st innings,0,19,145/3,0,0,101,16.5,6,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398439,Karun Nair,6,8.61
+ipl20,101607,1216510,1st innings,0,18,146/3,0,0,102,16.6,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398439,Karun Nair,1,8.58
+ipl20,101701,1216510,1st innings,0,17,146/3,0,0,103,17.1,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,398439,Karun Nair,0,8.5
+ipl20,101702,1216510,1st innings,0,16,147/3,0,0,104,17.2,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,398439,Karun Nair,1,8.48
+ipl20,101703,1216510,1st innings,0,15,151/3,0,0,105,17.3,4,0,0,False,,398439,Karun Nair,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,422108,KL Rahul,4,8.62
+ipl20,101704,1216510,1st innings,0,14,152/3,0,0,106,17.4,1,0,0,False,,398439,Karun Nair,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,422108,KL Rahul,1,8.6
+ipl20,101705,1216510,1st innings,0,13,156/3,0,0,107,17.5,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,398439,Karun Nair,4,8.74
+ipl20,101706,1216510,1st innings,0,12,157/3,0,0,108,17.6,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,700167,Navdeep Saini,Royal Challengers Bangalore,,,398439,Karun Nair,1,8.72
+ipl20,101801,1216510,1st innings,0,11,163/3,0,0,109,18.1,6,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398439,Karun Nair,6,8.97
+ipl20,101802,1216510,1st innings,0,10,167/3,0,0,110,18.2,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398439,Karun Nair,4,9.1
+ipl20,101803,1216510,1st innings,0,9,167/3,0,0,111,18.3,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398439,Karun Nair,0,9.02
+ipl20,101804,1216510,1st innings,0,8,173/3,0,0,112,18.4,6,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398439,Karun Nair,6,9.26
+ipl20,101805,1216510,1st innings,0,7,179/3,0,0,113,18.5,6,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398439,Karun Nair,6,9.5
+ipl20,101806,1216510,1st innings,0,6,183/3,0,0,114,18.6,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,47492,Dale Steyn,Royal Challengers Bangalore,,,398439,Karun Nair,4,9.63
+ipl20,101901,1216510,1st innings,0,5,185/3,0,0,115,19.1,2,0,0,False,,398439,Karun Nair,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,,,422108,KL Rahul,2,9.65
+ipl20,101902,1216510,1st innings,0,4,189/3,0,0,116,19.2,4,0,0,False,,398439,Karun Nair,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,,,422108,KL Rahul,4,9.77
+ipl20,101903,1216510,1st innings,0,3,190/3,0,0,117,19.3,1,0,0,False,,398439,Karun Nair,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,,,422108,KL Rahul,1,9.74
+ipl20,101904,1216510,1st innings,0,2,194/3,0,0,118,19.4,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,,,398439,Karun Nair,4,9.86
+ipl20,101905,1216510,1st innings,0,1,200/3,0,0,119,19.5,6,0,0,False,,422108,KL Rahul,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,,,398439,Karun Nair,6,10.08
+ipl20,101906,1216510,1st innings,0,0,206/3,0,0,120,19.6,6,0,0,False,,422108,KL Rahul,Kings XI Punjab,714451,Shivam Dube,Royal Challengers Bangalore,,,398439,Karun Nair,6,10.3
+ipl20,200001,1216510,2nd innings,207,119,0,1/0,0,1,0.1,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,5334,Aaron Finch,1,6.0
+ipl20,200002,1216510,2nd innings,207,118,0,1/0,0,2,0.2,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,1119026,Devdutt Padikkal,0,3.0
+ipl20,200003,1216510,2nd innings,207,117,0,2/0,0,3,0.3,1,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,1119026,Devdutt Padikkal,1,4.0
+ipl20,200004,1216510,2nd innings,207,116,0,2/1,1,4,0.4,0,0,0,True,caught,1119026,Devdutt Padikkal,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,1119026,Devdutt Padikkal,5334,Aaron Finch,0,3.0
+ipl20,200005,1216510,2nd innings,207,115,0,2/1,0,5,0.5,0,0,0,False,,1124282,Josh Philippe,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,5334,Aaron Finch,0,2.4
+ipl20,200006,1216510,2nd innings,207,114,0,2/1,0,6,0.6,0,0,0,False,,1124282,Josh Philippe,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,5334,Aaron Finch,0,2.0
+ipl20,200101,1216510,2nd innings,207,113,0,2/1,0,7,1.1,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,,,1124282,Josh Philippe,0,1.71
+ipl20,200102,1216510,2nd innings,207,112,0,3/1,0,8,1.2,1,0,1,False,,5334,Aaron Finch,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,,,1124282,Josh Philippe,1,2.25
+ipl20,200103,1216510,2nd innings,207,111,0,3/2,2,9,1.3,0,0,0,True,leg before wicket,1124282,Josh Philippe,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,1124282,Josh Philippe,5334,Aaron Finch,0,2.0
+ipl20,200104,1216510,2nd innings,207,110,0,4/2,0,10,1.4,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,,,5334,Aaron Finch,1,2.4
+ipl20,200105,1216510,2nd innings,207,109,0,4/2,0,11,1.5,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,,,253802,Virat Kohli,0,2.18
+ipl20,200106,1216510,2nd innings,207,108,0,4/2,0,12,1.6,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,,,253802,Virat Kohli,0,2.0
+ipl20,200201,1216510,2nd innings,207,107,0,4/2,0,13,2.1,0,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,5334,Aaron Finch,0,1.84
+ipl20,200202,1216510,2nd innings,207,106,0,4/2,0,14,2.2,0,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,5334,Aaron Finch,0,1.71
+ipl20,200203,1216510,2nd innings,207,105,0,4/2,0,15,2.3,0,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,5334,Aaron Finch,0,1.6
+ipl20,200204,1216510,2nd innings,207,104,0,4/3,3,16,2.4,0,0,0,True,caught,253802,Virat Kohli,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,495551,Sheldon Cottrell,5334,Aaron Finch,0,1.5
+ipl20,200205,1216510,2nd innings,207,103,0,5/3,0,17,2.5,1,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,44936,AB de Villiers,1,1.76
+ipl20,200206,1216510,2nd innings,207,102,0,5/3,0,18,2.6,0,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,5334,Aaron Finch,0,1.66
+ipl20,200301,1216510,2nd innings,207,101,0,6/3,0,19,3.1,1,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,,,44936,AB de Villiers,1,1.89
+ipl20,200302,1216510,2nd innings,207,100,0,7/3,0,20,3.2,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,,,5334,Aaron Finch,1,2.1
+ipl20,200303,1216510,2nd innings,207,99,0,7/3,0,21,3.3,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,,,44936,AB de Villiers,0,2.0
+ipl20,200304,1216510,2nd innings,207,98,0,11/3,0,22,3.4,4,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,,,44936,AB de Villiers,4,3.0
+ipl20,200305,1216510,2nd innings,207,97,0,11/3,0,23,3.5,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,,,44936,AB de Villiers,0,2.86
+ipl20,200306,1216510,2nd innings,207,96,0,11/3,0,24,3.6,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,,,44936,AB de Villiers,0,2.75
+ipl20,200401,1216510,2nd innings,207,95,0,11/3,0,25,4.1,0,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,5334,Aaron Finch,0,2.64
+ipl20,200402,1216510,2nd innings,207,94,0,17/3,0,26,4.2,6,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,5334,Aaron Finch,6,3.92
+ipl20,200403,1216510,2nd innings,207,94,0,18/3,0,26,4.2,1,1,1,False,,44936,AB de Villiers,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,5334,Aaron Finch,1,4.15
+ipl20,200404,1216510,2nd innings,207,93,0,22/3,0,27,4.3,4,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,5334,Aaron Finch,4,4.88
+ipl20,200405,1216510,2nd innings,207,92,0,22/3,0,28,4.4,0,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,5334,Aaron Finch,0,4.71
+ipl20,200406,1216510,2nd innings,207,91,0,22/3,0,29,4.5,0,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,5334,Aaron Finch,0,4.55
+ipl20,200407,1216510,2nd innings,207,91,0,23/3,0,29,4.5,1,1,1,False,,44936,AB de Villiers,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,5334,Aaron Finch,1,4.75
+ipl20,200408,1216510,2nd innings,207,90,0,25/3,0,30,4.6,2,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,495551,Sheldon Cottrell,Kings XI Punjab,,,5334,Aaron Finch,2,5.0
+ipl20,200501,1216510,2nd innings,207,90,0,26/3,0,30,5.0,1,1,1,False,,5334,Aaron Finch,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,44936,AB de Villiers,1,5.2
+ipl20,200502,1216510,2nd innings,207,89,0,30/3,0,31,5.1,4,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,44936,AB de Villiers,4,5.8
+ipl20,200503,1216510,2nd innings,207,89,0,32/3,0,31,5.1,2,2,2,False,,5334,Aaron Finch,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,44936,AB de Villiers,2,6.19
+ipl20,200504,1216510,2nd innings,207,88,0,36/3,0,32,5.2,4,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,5334,Aaron Finch,4,6.75
+ipl20,200505,1216510,2nd innings,207,87,0,36/3,0,33,5.3,0,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,5334,Aaron Finch,0,6.54
+ipl20,200506,1216510,2nd innings,207,86,0,36/3,0,34,5.4,0,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,5334,Aaron Finch,0,6.35
+ipl20,200507,1216510,2nd innings,207,85,0,40/3,0,35,5.5,4,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,5334,Aaron Finch,4,6.85
+ipl20,200508,1216510,2nd innings,207,84,0,40/3,0,36,5.6,0,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,5334,Aaron Finch,0,6.66
+ipl20,200601,1216510,2nd innings,207,83,0,44/3,0,37,6.1,4,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,,,44936,AB de Villiers,4,7.13
+ipl20,200602,1216510,2nd innings,207,82,0,44/3,0,38,6.2,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,,,44936,AB de Villiers,0,6.94
+ipl20,200603,1216510,2nd innings,207,81,0,44/3,0,39,6.3,0,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,,,44936,AB de Villiers,0,6.76
+ipl20,200604,1216510,2nd innings,207,80,0,45/3,0,40,6.4,1,0,1,False,,5334,Aaron Finch,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,,,44936,AB de Villiers,1,6.75
+ipl20,200605,1216510,2nd innings,207,79,0,46/3,0,41,6.5,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,,,5334,Aaron Finch,1,6.73
+ipl20,200606,1216510,2nd innings,207,78,0,48/3,0,42,6.6,2,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,,,44936,AB de Villiers,2,6.85
+ipl20,200701,1216510,2nd innings,207,77,0,49/3,0,43,7.1,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,5334,Aaron Finch,1,6.83
+ipl20,200702,1216510,2nd innings,207,76,0,50/3,0,44,7.2,1,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,44936,AB de Villiers,1,6.81
+ipl20,200703,1216510,2nd innings,207,75,0,51/3,0,45,7.3,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,5334,Aaron Finch,1,6.8
+ipl20,200704,1216510,2nd innings,207,74,0,53/3,0,46,7.4,2,0,0,False,,5334,Aaron Finch,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,44936,AB de Villiers,2,6.91
+ipl20,200705,1216510,2nd innings,207,73,0,53/4,4,47,7.5,0,0,0,True,bowled,5334,Aaron Finch,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,1175441,Ravi Bishnoi,44936,AB de Villiers,0,6.76
+ipl20,200706,1216510,2nd innings,207,72,0,53/4,0,48,7.6,0,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,44936,AB de Villiers,0,6.62
+ipl20,200801,1216510,2nd innings,207,71,0,57/4,0,49,8.1,4,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,,,719715,Washington Sundar,4,6.97
+ipl20,200802,1216510,2nd innings,207,70,0,57/5,5,50,8.2,0,0,0,True,caught,44936,AB de Villiers,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,44936,AB de Villiers,719715,Washington Sundar,0,6.84
+ipl20,200803,1216510,2nd innings,207,69,0,57/5,0,51,8.3,0,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,,,714451,Shivam Dube,0,6.7
+ipl20,200804,1216510,2nd innings,207,68,0,58/5,0,52,8.4,1,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,,,714451,Shivam Dube,1,6.69
+ipl20,200805,1216510,2nd innings,207,67,0,58/5,0,53,8.5,0,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,,,719715,Washington Sundar,0,6.56
+ipl20,200806,1216510,2nd innings,207,66,0,60/5,0,54,8.6,2,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,,,719715,Washington Sundar,2,6.66
+ipl20,200901,1216510,2nd innings,207,65,0,60/5,0,55,9.1,0,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,355269,James Neesham,Kings XI Punjab,,,714451,Shivam Dube,0,6.54
+ipl20,200902,1216510,2nd innings,207,64,0,60/5,0,56,9.2,0,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,355269,James Neesham,Kings XI Punjab,,,714451,Shivam Dube,0,6.42
+ipl20,200903,1216510,2nd innings,207,63,0,61/5,0,57,9.3,1,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,355269,James Neesham,Kings XI Punjab,,,714451,Shivam Dube,1,6.42
+ipl20,200904,1216510,2nd innings,207,62,0,61/5,0,58,9.4,0,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,355269,James Neesham,Kings XI Punjab,,,719715,Washington Sundar,0,6.31
+ipl20,200905,1216510,2nd innings,207,61,0,62/5,0,59,9.5,1,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,355269,James Neesham,Kings XI Punjab,,,719715,Washington Sundar,1,6.3
+ipl20,200906,1216510,2nd innings,207,60,0,63/5,0,60,9.6,1,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,355269,James Neesham,Kings XI Punjab,,,714451,Shivam Dube,1,6.3
+ipl20,201001,1216510,2nd innings,207,59,0,67/5,0,61,10.1,4,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,,,714451,Shivam Dube,4,6.59
+ipl20,201002,1216510,2nd innings,207,58,0,68/5,0,62,10.2,1,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,,,714451,Shivam Dube,1,6.58
+ipl20,201003,1216510,2nd innings,207,57,0,69/5,0,63,10.3,1,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,,,719715,Washington Sundar,1,6.57
+ipl20,201004,1216510,2nd innings,207,56,0,69/5,0,64,10.4,0,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,,,714451,Shivam Dube,0,6.46
+ipl20,201005,1216510,2nd innings,207,55,0,70/5,0,65,10.5,1,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,,,714451,Shivam Dube,1,6.46
+ipl20,201006,1216510,2nd innings,207,54,0,70/5,0,66,10.6,0,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,481896,Mohammed Shami,Kings XI Punjab,,,719715,Washington Sundar,0,6.36
+ipl20,201101,1216510,2nd innings,207,53,0,70/5,0,67,11.1,0,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,355269,James Neesham,Kings XI Punjab,,,714451,Shivam Dube,0,6.26
+ipl20,201102,1216510,2nd innings,207,53,0,71/5,0,67,11.1,1,1,1,False,,719715,Washington Sundar,Royal Challengers Bangalore,355269,James Neesham,Kings XI Punjab,,,714451,Shivam Dube,1,6.35
+ipl20,201103,1216510,2nd innings,207,52,0,72/5,0,68,11.2,1,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,355269,James Neesham,Kings XI Punjab,,,714451,Shivam Dube,1,6.35
+ipl20,201104,1216510,2nd innings,207,51,0,78/5,0,69,11.3,6,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,355269,James Neesham,Kings XI Punjab,,,719715,Washington Sundar,6,6.78
+ipl20,201105,1216510,2nd innings,207,50,0,78/5,0,70,11.4,0,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,355269,James Neesham,Kings XI Punjab,,,719715,Washington Sundar,0,6.68
+ipl20,201106,1216510,2nd innings,207,49,0,79/5,0,71,11.5,1,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,355269,James Neesham,Kings XI Punjab,,,719715,Washington Sundar,1,6.67
+ipl20,201107,1216510,2nd innings,207,48,0,80/5,0,72,11.6,1,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,355269,James Neesham,Kings XI Punjab,,,714451,Shivam Dube,1,6.66
+ipl20,201201,1216510,2nd innings,207,47,0,80/5,0,73,12.1,0,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,325026,Glenn Maxwell,Kings XI Punjab,,,714451,Shivam Dube,0,6.57
+ipl20,201202,1216510,2nd innings,207,46,0,81/5,0,74,12.2,1,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,325026,Glenn Maxwell,Kings XI Punjab,,,714451,Shivam Dube,1,6.56
+ipl20,201203,1216510,2nd innings,207,45,0,82/5,0,75,12.3,1,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,325026,Glenn Maxwell,Kings XI Punjab,,,719715,Washington Sundar,1,6.56
+ipl20,201204,1216510,2nd innings,207,44,0,83/5,0,76,12.4,1,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,325026,Glenn Maxwell,Kings XI Punjab,,,714451,Shivam Dube,1,6.55
+ipl20,201205,1216510,2nd innings,207,43,0,83/5,0,77,12.5,0,0,0,False,,714451,Shivam Dube,Royal Challengers Bangalore,325026,Glenn Maxwell,Kings XI Punjab,,,719715,Washington Sundar,0,6.46
+ipl20,201206,1216510,2nd innings,207,42,0,83/6,6,78,12.6,0,0,0,True,bowled,714451,Shivam Dube,Royal Challengers Bangalore,325026,Glenn Maxwell,Kings XI Punjab,325026,Glenn Maxwell,719715,Washington Sundar,0,6.38
+ipl20,201301,1216510,2nd innings,207,41,0,85/6,0,79,13.1,2,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,376116,Umesh Yadav,2,6.45
+ipl20,201302,1216510,2nd innings,207,40,0,87/6,0,80,13.2,2,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,376116,Umesh Yadav,2,6.52
+ipl20,201303,1216510,2nd innings,207,39,0,87/6,0,81,13.3,0,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,376116,Umesh Yadav,0,6.44
+ipl20,201304,1216510,2nd innings,207,38,0,88/6,0,82,13.4,1,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,376116,Umesh Yadav,1,6.43
+ipl20,201305,1216510,2nd innings,207,37,0,88/6,0,83,13.5,0,0,0,False,,376116,Umesh Yadav,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,719715,Washington Sundar,0,6.36
+ipl20,201306,1216510,2nd innings,207,36,0,88/7,7,84,13.6,0,0,0,True,bowled,376116,Umesh Yadav,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,1175441,Ravi Bishnoi,719715,Washington Sundar,0,6.28
+ipl20,201401,1216510,2nd innings,207,35,0,89/7,0,85,14.1,1,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,325026,Glenn Maxwell,Kings XI Punjab,,,700167,Navdeep Saini,1,6.28
+ipl20,201402,1216510,2nd innings,207,34,0,90/7,0,86,14.2,1,0,0,False,,700167,Navdeep Saini,Royal Challengers Bangalore,325026,Glenn Maxwell,Kings XI Punjab,,,719715,Washington Sundar,1,6.27
+ipl20,201403,1216510,2nd innings,207,33,0,94/7,0,87,14.3,4,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,325026,Glenn Maxwell,Kings XI Punjab,,,700167,Navdeep Saini,4,6.48
+ipl20,201404,1216510,2nd innings,207,32,0,94/7,0,88,14.4,0,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,325026,Glenn Maxwell,Kings XI Punjab,,,700167,Navdeep Saini,0,6.4
+ipl20,201405,1216510,2nd innings,207,31,0,95/7,0,89,14.5,1,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,325026,Glenn Maxwell,Kings XI Punjab,,,700167,Navdeep Saini,1,6.4
+ipl20,201406,1216510,2nd innings,207,30,0,95/7,0,90,14.6,0,0,0,False,,700167,Navdeep Saini,Royal Challengers Bangalore,325026,Glenn Maxwell,Kings XI Punjab,,,719715,Washington Sundar,0,6.33
+ipl20,201501,1216510,2nd innings,207,29,0,101/7,0,91,15.1,6,0,0,False,,719715,Washington Sundar,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,700167,Navdeep Saini,6,6.65
+ipl20,201502,1216510,2nd innings,207,28,0,101/8,8,92,15.2,0,0,0,True,caught,719715,Washington Sundar,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,1175441,Ravi Bishnoi,700167,Navdeep Saini,0,6.58
+ipl20,201503,1216510,2nd innings,207,27,0,101/8,0,93,15.3,0,0,0,False,,700167,Navdeep Saini,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,47492,Dale Steyn,0,6.51
+ipl20,201504,1216510,2nd innings,207,26,0,101/8,0,94,15.4,0,0,0,False,,700167,Navdeep Saini,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,47492,Dale Steyn,0,6.44
+ipl20,201505,1216510,2nd innings,207,25,0,102/8,0,95,15.5,1,0,0,False,,700167,Navdeep Saini,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,47492,Dale Steyn,1,6.44
+ipl20,201506,1216510,2nd innings,207,24,0,102/8,0,96,15.6,0,0,0,False,,47492,Dale Steyn,Royal Challengers Bangalore,1175441,Ravi Bishnoi,Kings XI Punjab,,,700167,Navdeep Saini,0,6.37
+ipl20,201601,1216510,2nd innings,207,23,0,106/8,0,97,16.1,4,0,0,False,,700167,Navdeep Saini,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,,,47492,Dale Steyn,4,6.55
+ipl20,201602,1216510,2nd innings,207,22,0,106/9,9,98,16.2,0,0,0,True,bowled,700167,Navdeep Saini,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,528067,Murugan Ashwin,47492,Dale Steyn,0,6.48
+ipl20,201603,1216510,2nd innings,207,22,0,107/9,0,98,16.2,1,1,1,False,,430246,Yuzvendra Chahal,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,,,47492,Dale Steyn,1,6.55
+ipl20,201604,1216510,2nd innings,207,21,0,107/9,0,99,16.3,0,0,0,False,,430246,Yuzvendra Chahal,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,,,47492,Dale Steyn,0,6.48
+ipl20,201605,1216510,2nd innings,207,20,0,108/9,0,100,16.4,1,0,0,False,,430246,Yuzvendra Chahal,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,,,47492,Dale Steyn,1,6.48
+ipl20,201606,1216510,2nd innings,207,19,0,109/9,0,101,16.5,1,0,0,False,,47492,Dale Steyn,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,,,430246,Yuzvendra Chahal,1,6.47
+ipl20,201607,1216510,2nd innings,207,18,0,109/10,10,102,16.6,0,0,0,True,leg before wicket,430246,Yuzvendra Chahal,Royal Challengers Bangalore,528067,Murugan Ashwin,Kings XI Punjab,430246,Yuzvendra Chahal,47492,Dale Steyn,0,6.41
