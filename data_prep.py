@@ -162,11 +162,13 @@ class FeatEngineering:
         matchsummary['city'] = np.where(matchsummary['city'].isin(['Bangalore', 'Bengaluru']), 'Bengaluru', matchsummary['city'])
         matchsummary['venue'] = np.where(matchsummary['venue'].isin(['M Chinnaswamy Stadium', 'M.Chinnaswamy Stadium']),'M Chinnaswamy Stadium',matchsummary['venue'])
         matchsummary['venue'] = np.where(matchsummary['venue'].isin(['Punjab Cricket Association IS Bindra Stadium, Mohali', 'Punjab Cricket Association Stadium, Mohali']),'Punjab Cricket Association Stadium', matchsummary['venue'])
-
+        print(self.ipl_features.columns)
         self.matchsummary = matchsummary
-        self.ipl_features['playing_team'] = np.where(pd.isnull(self.ipl_features['batsmen_innings']), self.ipl_features['bowler_bowlingteam'], self.ipl_features['batsmen_battingteam'])
-        self.ipl_features['opposition_team'] = np.where(pd.isnull(self.ipl_features['batsmen_innings']), self.ipl_features['bowler_battingteam'], self.ipl_features['batsmen_bowlingteam'])
-        self.ipl_features[['playing_team', 'opposition_team']].replace({'Delhi Daredevils': 'Delhi Capitals', 'Rising Pune Supergiants': 'Pune Warriors',
+        if "playing_team" not in self.ipl_features.columns:
+            self.ipl_features['playing_team'] = np.where(pd.isnull(self.ipl_features['batsmen_innings']), self.ipl_features['bowler_bowlingteam'], self.ipl_features['batsmen_battingteam'])
+        if "opposition_team" not in ipl_features.columns:
+            self.ipl_features['opposition_team'] = np.where(pd.isnull(self.ipl_features['batsmen_innings']), self.ipl_features['bowler_battingteam'], self.ipl_features['batsmen_bowlingteam'])
+            self.ipl_features[['playing_team', 'opposition_team']].replace({'Delhi Daredevils': 'Delhi Capitals', 'Rising Pune Supergiants': 'Pune Warriors',
                                                                         'Rising Pune Supergiant': 'Pune Warriors', 'Deccan Chargers': 'Sunrisers Hyderabad'}, inplace=True)
 
         return
@@ -177,10 +179,15 @@ class FeatEngineering:
         :param matchsummary:
         :return:
         """
+        print("inside feat engg class 1")
+        print(self.matchsummary[self.matchsummary['matchid'] == 1216546])
 
-        self.ipl_features = pd.merge(self.ipl_features, self.matchsummary[['matchid', 'year', 'city', 'venue','team1','team2', 'toss_winner',
-                                                                    'toss_decision', 'winner']], on='matchid', how='left')
+        self.ipl_features = pd.merge(self.ipl_features, self.matchsummary[['matchid', 'year', 'city', 'venue','team1','team2','toss_winner']], on='matchid', how='left')
+
         self.ipl_features.rename(columns={'team1': "home_team", 'team2': 'away_team'}, inplace=True)
+        print("inside feat engg class 2")
+        print(self.ipl_features[self.ipl_features['matchid'] == 1216546][['playername', 'playing_team', 'opposition_team']])
+
         # # add a feature to check if its the home game for the player
         # self.add_homegame_flag()
         # # add a feature to check if the player's team won the toss

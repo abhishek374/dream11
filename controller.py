@@ -87,6 +87,7 @@ if __name__ == "__main__":
 
     modelname = 'catboost'  # Options include 'rf','xgb','catboost','movingaverage', 'ensemble'
     matchdatascorecardpath = r'Data/ipl_scorecard_points.csv'
+    matchdatascorecardpathipl20 = r'Data/ipl_scorecard_points_ipl20.csv'
     featenggpath = r'Data/ipl_scorecard_points_featengg.csv'
 
     modelpath = r"Data/" + modelname + "_model.pkl"
@@ -97,10 +98,20 @@ if __name__ == "__main__":
     predscorecardpath = r"Data/pred_data_scorecard.csv"
     predsummarypath = r"Data/pred_data_summary.csv"
     nextmatchteampath = r"Data/pred_team11.csv"
+    matchdatapathipl20 = r"ipl20/matchdata_v2.csv"
+    matchdatascorecardpathipl20 = r"ipl20/matchdatascorecardpathipl20.csv"
+    predscorecardpath =r'ipl20/matchscorecard.csv'
+
+    matchsummarypathipl20 = r"ipl20/match_summary_ipl20.csv"
+    iplcurrentsquad = r"Data/ipl_squad_points.csv"
+
 
     datapath = {'matchdatapath': matchdatapath,
                 'matchsummarypath': matchsummarypath,
                 'matchdatascorecardpath': matchdatascorecardpath,
+                'matchdatascorecardpathipl20': matchdatascorecardpathipl20,
+                "matchdatapathipl20": matchdatapathipl20,
+                "matchsummarypathipl20": matchsummarypathipl20,
                 'featenggpath': featenggpath,
                 'modelpath': modelpath,
                 'encoderpath': encoderpath,
@@ -108,7 +119,9 @@ if __name__ == "__main__":
                 'predscorecardpath': predscorecardpath,
                 'predsummarypath': predsummarypath,
                 'predfeaturepath': predfeaturepath,
-                'nextmatchteampath': nextmatchteampath}
+                'nextmatchteampath': nextmatchteampath,
+                'predscorecardpath': predscorecardpath,
+                "iplcurrentsquad": iplcurrentsquad}
 
     # Change the below to true to run the training of the models part of the permissible list
     TRAIN_MODEL = False
@@ -119,9 +132,11 @@ if __name__ == "__main__":
     # Change the below to true to create the dataframe of the upcoming match and adjust anything if required
     SELECT_PLAYING_SQUAD = False
     # Change the below to true if the squad file is ready at predfeaturepath to run prediction for the team
-    SELECT_CURRENT_TEAM = False
+    SELECT_CURRENT_TEAM = True
+    # Change this to True if the current playing XI is available
+    SELECT_FROM_PLAYING_XI = True
     # Change this to true to send email if the file fo next match is present at nextmatchteampath
-    SEND_EMAIL = True
+    SEND_EMAIL = False
     modelnamelist = ['xgb', 'catboost', 'rf', 'movingaverage']
     #modelnamelist = ['catboost']
     # Run the below function to train the model
@@ -157,18 +172,25 @@ if __name__ == "__main__":
         execute_rewards_calcualtion(datapath, constconfig, colconfig, rewardconfig)  # Run the function to estimate rewards if actual playing 11 is available
 
     # Enter the details of the current match/
-    TEAM1 = "Delhi Capitals"
-    TEAM2 = "Kings XI Punjab"
+    TEAM2 = "Rajasthan Royals"
+    TEAM1 = "Kings XI Punjab"
     CITY = 'neutral venue'
-    VENUE = 'Dubai International Cricket Stadium'
+    VENUE = 'Sharjah Cricket Stadium'
     # Run the below function to predict the best 11 for the upcoming match
 
     if SELECT_PLAYING_SQUAD:
+        # run this to update the master
+        print("updating the masterdata")
+        update_master_data(datapath, pointsconfig)
         # Change the values of team1, team2, city and venue depending on the match
-        create_pred_dataframe(datapath, colconfig, TEAM1, TEAM2, CITY, VENUE, toss_winner=TEAM1)
+        print("createing pred features dataframe")
+        create_pred_dataframe_before_playing_XI(datapath, colconfig, TEAM1, TEAM2, CITY, VENUE, toss_winner=TEAM1)
     if SELECT_CURRENT_TEAM:
+        if SELECT_FROM_PLAYING_XI:
+            create_pred_dataframe_after_playing_XI(datapath)
         finalteam = pd.DataFrame()
         predcol_list = []
+        print("Calculation for best XI started")
         for modelname in ['catboost', 'xgb', 'rf', 'movingaverage', 'ensemble']: # Keep ensemble in the end
             modelpath = r"Data/" + modelname + "_model.pkl"
             encoderpath = r"Data/OnHotEncoder_" + modelname + ".pkl"
