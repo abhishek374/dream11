@@ -257,7 +257,7 @@ def get_current_squad():
         "Accept-Encoding": "gzip, deflate"
     }
 
-    match_summary_ipl20 = pd.read_csv(directory + '/matchdata_ipl20.csv')
+    match_summary_ipl20 = pd.read_csv(directory + '/match_summary_ipl20.csv')
 
     tz_dubai = pytz.timezone('Asia/Dubai')
     datetime_dubai = datetime.now(tz_dubai)
