@@ -102,8 +102,8 @@ if __name__ == "__main__":
     matchdatascorecardpathipl20 = r"ipl20/matchdatascorecardpathipl20.csv"
     predscorecardpath =r'ipl20/matchscorecard.csv'
 
-    matchsummarypathipl20 = r"ipl20/matchdata_ipl20.csv"
-    iplcurrentsquad = r"Data/ipl_squad_points"
+    matchsummarypathipl20 = r"ipl20/match_summary_ipl20.csv"
+    iplcurrentsquad = r"Data/ipl_squad_points.csv"
 
 
     datapath = {'matchdatapath': matchdatapath,
@@ -130,9 +130,11 @@ if __name__ == "__main__":
     # Change the below to true to run the training for an ensemble model using predicitons from other model
     PREDICT_ENSEMBLE = False
     # Change the below to true to create the dataframe of the upcoming match and adjust anything if required
-    SELECT_PLAYING_SQUAD = True
+    SELECT_PLAYING_SQUAD = False
     # Change the below to true if the squad file is ready at predfeaturepath to run prediction for the team
     SELECT_CURRENT_TEAM = True
+    # Change this to True if the current playing XI is available
+    SELECT_FROM_PLAYING_XI = True
     # Change this to true to send email if the file fo next match is present at nextmatchteampath
     SEND_EMAIL = False
     modelnamelist = ['xgb', 'catboost', 'rf', 'movingaverage']
@@ -170,20 +172,25 @@ if __name__ == "__main__":
         execute_rewards_calcualtion(datapath, constconfig, colconfig, rewardconfig)  # Run the function to estimate rewards if actual playing 11 is available
 
     # Enter the details of the current match/
-    TEAM2 = "Kolkata Knight Riders"
-    TEAM1 = "Sunrisers Hyderabad"
+    TEAM2 = "Rajasthan Royals"
+    TEAM1 = "Kings XI Punjab"
     CITY = 'neutral venue'
-    VENUE = 'Sheikh Zayed Stadium'
+    VENUE = 'Sharjah Cricket Stadium'
     # Run the below function to predict the best 11 for the upcoming match
 
     if SELECT_PLAYING_SQUAD:
         # run this to update the master
+        print("updating the masterdata")
         update_master_data(datapath, pointsconfig)
         # Change the values of team1, team2, city and venue depending on the match
-        create_pred_dataframe(datapath, colconfig, TEAM1, TEAM2, CITY, VENUE, toss_winner=TEAM1)
+        print("createing pred features dataframe")
+        create_pred_dataframe_before_playing_XI(datapath, colconfig, TEAM1, TEAM2, CITY, VENUE, toss_winner=TEAM1)
     if SELECT_CURRENT_TEAM:
+        if SELECT_FROM_PLAYING_XI:
+            create_pred_dataframe_after_playing_XI(datapath)
         finalteam = pd.DataFrame()
         predcol_list = []
+        print("Calculation for best XI started")
         for modelname in ['catboost', 'xgb', 'rf', 'movingaverage', 'ensemble']: # Keep ensemble in the end
             modelpath = r"Data/" + modelname + "_model.pkl"
             encoderpath = r"Data/OnHotEncoder_" + modelname + ".pkl"

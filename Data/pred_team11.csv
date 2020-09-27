@@ -1,26 +1,34 @@
 playername,teamname,playingrole,playercost,model1_points,model1_team,model2_points,model2_team
-KL Rahul,Kings XI Punjab,Batsmen,10.5,93,1,163,1
-CH Gayle,Kings XI Punjab,Batsmen,9.5,58,1,77,1
-KMA Paul,Delhi Capitals,AllRounder,8,36,1,34,1
-S Dhawan,Delhi Capitals,Batsmen,10,35,1,38,1
-K Rabada,Delhi Capitals,Bowler,9,34,1,33,1
-MP Stoinis,Delhi Capitals,AllRounder,8.5,33,1,33,1
-JDS Neesham,Kings XI Punjab,AllRounder,8.5,32,1,30,
-N Pooran,Kings XI Punjab,Batsmen,9,32,1,26,
-SS Iyer,Delhi Capitals,Batsmen,9,32,1,29,
-I Sharma,Delhi Capitals,Bowler,8.5,29,1,34,1
-Mohammed Shami,Kings XI Punjab,Bowler,8.5,29,1,29,1
-RR Pant,Delhi Capitals,Batsmen,9.5,31,,31,1
-MA Agarwal,Kings XI Punjab,Batsmen,8.5,31,,27,
-PP Shaw,Delhi Capitals,Batsmen,8.5,31,,31,1
-AR Patel,Delhi Capitals,AllRounder,8.5,31,,32,1
-GJ Maxwell,Kings XI Punjab,AllRounder,9,29,,29,
-K Gowtham,Kings XI Punjab,AllRounder,8.5,28,,25,
-Mujeeb-ur-Rahman,Delhi Capitals,Bowler,9,28,,26,
-R Ashwin,Delhi Capitals,Bowler,10,28,,30,
-A Mishra,Delhi Capitals,Bowler,8.5,27,,27,
-Arshdeep Singh,Kings XI Punjab,Bowler,7.5,26,,25,
-MM Sharma,Delhi Capitals,Bowler,8,26,,18,
-Harpreet Brar,Kings XI Punjab,Bowler,8,25,,,
-M Ashwin,Kings XI Punjab,Bowler,8,24,,21,
-Mandeep Singh,Kings XI Punjab,Batsmen,8,23,,19,
+KL Rahul,Kings XI Punjab,Batsmen,10.5,90.0,1.0,223.0,1.0
+SV Samson,Rajasthan Royals,Batsmen,9.5,62.0,1.0,101.0,1.0
+MA Agarwal,Kings XI Punjab,Batsmen,8.5,41.0,1.0,32.0,
+CH Gayle,Kings XI Punjab,Batsmen,9.5,40.0,1.0,42.0,1.0
+SPD Smith,Rajasthan Royals,Batsmen,9.5,40.0,1.0,42.0,1.0
+R Parag,Rajasthan Royals,AllRounder,10.0,34.0,1.0,30.0,
+JDS Neesham,Kings XI Punjab,AllRounder,8.5,33.0,1.0,17.0,
+JC Archer,Rajasthan Royals,Bowler,9.0,33.0,1.0,36.0,1.0
+S Gopal,Rajasthan Royals,Bowler,8.5,32.0,1.0,36.0,1.0
+M Vohra,Rajasthan Royals,Batsmen,8.0,32.0,1.0,35.0,1.0
+Mohammed Shami,Kings XI Punjab,Bowler,8.5,31.0,1.0,36.0,1.0
+K Gowtham,Kings XI Punjab,AllRounder,8.5,35.0,,25.0,
+RV Uthappa,Rajasthan Royals,Batsmen,9.0,33.0,,35.0,
+GJ Maxwell,Kings XI Punjab,AllRounder,9.0,31.0,,22.0,
+AS Rajpoot,Rajasthan Royals,Bowler,8.0,30.0,,33.0,
+DA Miller,Rajasthan Royals,Batsmen,8.5,30.0,,29.0,
+MK Lomror,Rajasthan Royals,AllRounder,10.0,30.0,,31.0,1.0
+IS Sodhi,Rajasthan Royals,Bowler,10.0,30.0,,34.0,
+N Pooran,Kings XI Punjab,Batsmen,9.0,29.0,,27.0,
+K Gowtham,Rajasthan Royals,Bowler,10.0,28.0,,32.0,
+JD Unadkat,Rajasthan Royals,Bowler,8.5,28.0,,46.0,1.0
+TK Curran,Rajasthan Royals,Bowler,8.5,28.0,,35.0,1.0
+AJ Tye,Rajasthan Royals,Bowler,8.5,28.0,,34.0,
+R Tewatia,Rajasthan Royals,AllRounder,8.0,27.0,,30.0,
+M Ashwin,Kings XI Punjab,Bowler,8.0,27.0,,22.0,
+Arshdeep Singh,Kings XI Punjab,Bowler,7.5,26.0,,26.0,
+O Thomas,Rajasthan Royals,Bowler,8.0,26.0,,30.0,
+STR Binny,Rajasthan Royals,AllRounder,10.0,25.0,,26.0,
+Harpreet Brar,Kings XI Punjab,Bowler,8.0,25.0,,,
+VR Aaron,Rajasthan Royals,Bowler,8.0,25.0,,32.0,
+LS Livingstone,Rajasthan Royals,Batsmen,10.0,25.0,,32.0,
+Mandeep Singh,Kings XI Punjab,Batsmen,8.0,24.0,,19.0,
+M Markande,Rajasthan Royals,Bowler,8.0,24.0,,26.0,
