@@ -257,7 +257,7 @@ def get_current_squad():
         "Accept-Encoding": "gzip, deflate"
     }
 
-    match_summary_ipl20 = pd.read_csv(directory + '/matchdata_ipl20.csv')
+    match_summary_ipl20 = pd.read_csv(directory + '/match_summary_ipl20.csv')
 
     tz_dubai = pytz.timezone('Asia/Dubai')
     datetime_dubai = datetime.now(tz_dubai)
@@ -270,8 +270,8 @@ def get_current_squad():
     today_squad = pd.DataFrame(columns = ['playername','iscaptain', 'position', 'profilelink', 'teamname'])
     squad_title = 'Squads'
 
-
-    while squad_title != 'Playing XI':
+    counter = 0
+    while squad_title != 'Playing XI' and counter<=3:
         URL= "https://hsapi.espncricinfo.com/v1/pages/match/home?lang=en&leagueId=8048&eventId="+str(eventid)+"&liveTest=false&qaTest=false"
         print(URL)
         response = requests.get(URL, headers=headers)
@@ -305,5 +305,5 @@ def get_current_squad():
         else:
             print('could not find the playing XI on page, trying again in 60 secs')
             time.sleep(60)
-
+        counter = counter + 1
     return today_squad

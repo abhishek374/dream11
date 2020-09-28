@@ -5,6 +5,9 @@ import numpy as np
 import pickle
 from point_prediction import ModelTrain, ModelPredict
 from download_ipl20 import update_ipl20_master,get_current_squad
+from datetime import datetime
+import pytz
+
 ##################Part to create additional features for modeling#######################################################
 
 def execute_get_scorecard(matchdatapath, scorecardpath,pointsconfig):
@@ -271,3 +274,16 @@ def update_master_data(datapath,pointsconfig):
 
 
 
+def get_team_details(datapath,index =0):
+    tz_dubai = pytz.timezone('Asia/Dubai')
+    datetime_dubai = datetime.now(tz_dubai).date()
+    matchsummary = pd.read_csv(datapath['matchsummarypathipl20'])
+    matchsummary['date'] = matchsummary['date'].apply(lambda x: pd.to_datetime(x).date())
+    print(datetime_dubai)
+    print(matchsummary['date'])
+    today_match = matchsummary[matchsummary['date'] == datetime_dubai]
+    print(today_match)
+    team1 = today_match['team1'].iloc[index]
+    team2 = today_match['team2'].iloc[index]
+    venue = today_match['venue'].iloc[index].split(",")[index]
+    return team1, team2, venue
