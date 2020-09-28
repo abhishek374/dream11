@@ -179,14 +179,10 @@ class FeatEngineering:
         :param matchsummary:
         :return:
         """
-        print("inside feat engg class 1")
-        print(self.matchsummary[self.matchsummary['matchid'] == 1216546])
 
         self.ipl_features = pd.merge(self.ipl_features, self.matchsummary[['matchid', 'year', 'city', 'venue','team1','team2','toss_winner']], on='matchid', how='left')
 
         self.ipl_features.rename(columns={'team1': "home_team", 'team2': 'away_team'}, inplace=True)
-        print("inside feat engg class 2")
-        print(self.ipl_features[self.ipl_features['matchid'] == 1216546][['playername', 'playing_team', 'opposition_team']])
 
         # # add a feature to check if its the home game for the player
         # self.add_homegame_flag()

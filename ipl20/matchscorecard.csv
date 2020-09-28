@@ -3953,7 +3953,7 @@ matchid,playername,total_runs,total_balls_faced,total_legal_balls_faced,run_6,ru
 548319,JD Ryder,8.0,12.0,12.0,,1.0,0.0,1st innings,Pune Warriors,Kings XI Punjab,,12.0,12.0,12.0,0.0,2nd innings,Kings XI Punjab,Pune Warriors,6.0,AllRounder,8.0,,1.0,0.0,9.0,,2.0,0.0,0.0,2.0,11.0,,,
 548319,M Manhas,36.0,29.0,29.0,1.0,4.0,4.0,1st innings,Pune Warriors,Kings XI Punjab,,,,,,,,,,Batsmen,36.0,2.0,4.0,0.0,42.0,,0.0,,0.0,,42.0,,,
 548319,MK Pandey,0.0,3.0,3.0,,,6.0,1st innings,Pune Warriors,Kings XI Punjab,,,,,,,,,,Batsmen,0.0,,,-2.0,-2.0,,0.0,,0.0,,-2.0,,,
-548319,MN Samuels,4.0,13.0,13.0,,,1.0,1st innings,Pune Warriors,Kings XI Punjab,,22.0,22.0,27.0,0.0,2nd innings,Kings XI Punjab,Pune Warriors,7.3636363639999995,AllRounder,4.0,,,0.0,4.0,,0.0,0.0,0.0,0.0,4.0,,,
+548319,MN Samuels,4.0,13.0,13.0,,,1.0,1st innings,Pune Warriors,Kings XI Punjab,,22.0,22.0,27.0,0.0,2nd innings,Kings XI Punjab,Pune Warriors,7.363636363999999,AllRounder,4.0,,,0.0,4.0,,0.0,0.0,0.0,0.0,4.0,,,
 548319,Mandeep Singh,10.0,10.0,10.0,,1.0,2.0,2nd innings,Kings XI Punjab,Pune Warriors,,,,,,,,,,Batsmen,10.0,,1.0,0.0,11.0,,0.0,,0.0,,11.0,,,
 548319,PC Valthaty,0.0,1.0,1.0,,,1.0,2nd innings,Kings XI Punjab,Pune Warriors,,,,,,,,,,AllRounder,0.0,,,-2.0,-2.0,,0.0,,0.0,,-2.0,,,
 548319,PP Chawla,21.0,24.0,24.0,,3.0,3.0,2nd innings,Kings XI Punjab,Pune Warriors,1.0,24.0,24.0,23.0,0.0,1st innings,Pune Warriors,Kings XI Punjab,5.75,Bowler,21.0,,3.0,0.0,24.0,25.0,2.0,0.0,0.0,27.0,51.0,,,
@@ -11682,7 +11682,7 @@ matchid,playername,total_runs,total_balls_faced,total_legal_balls_faced,run_6,ru
 392196,M Muralitharan,,,,,,,,,,1.0,25.0,25.0,16.0,0.0,2nd innings,Deccan Chargers,Chennai Super Kings,3.84,Bowler,,,,0.0,,25.0,6.0,0.0,0.0,31.0,31.0,,,
 392196,MS Gony,,,,,,,,,,,7.0,7.0,19.0,0.0,2nd innings,Deccan Chargers,Chennai Super Kings,16.28571429,Bowler,,,,0.0,,,-6.0,0.0,0.0,-6.0,-6.0,,,
 392196,PP Ojha,,,,,,,,,,2.0,12.0,12.0,11.0,0.0,1st innings,Chennai Super Kings,Deccan Chargers,5.5,Bowler,,,,0.0,,50.0,2.0,0.0,0.0,52.0,52.0,,,
-392196,RP Singh,,,,,,,,,,1.0,23.0,23.0,27.0,0.0,1st innings,Chennai Super Kings,Deccan Chargers,7.043478261000001,Bowler,,,,0.0,,25.0,0.0,0.0,0.0,25.0,25.0,,,
+392196,RP Singh,,,,,,,,,,1.0,23.0,23.0,27.0,0.0,1st innings,Chennai Super Kings,Deccan Chargers,7.0434782610000015,Bowler,,,,0.0,,25.0,0.0,0.0,0.0,25.0,25.0,,,
 392196,Shoaib Ahmed,,,,,,,,,,,19.0,19.0,30.0,0.0,1st innings,Chennai Super Kings,Deccan Chargers,9.473684211,Bowler,,,,0.0,,,-2.0,0.0,0.0,-2.0,-2.0,,,
 392196,Y Venugopal Rao,,,,,,,,,,1.0,25.0,25.0,34.0,0.0,1st innings,Chennai Super Kings,Deccan Chargers,8.16,Batsmen,,,,0.0,,25.0,0.0,0.0,0.0,25.0,25.0,,,
 392197,SL Malinga,,,,,,,,,,3.0,16.0,16.0,8.0,1.0,2nd innings,Kolkata Knight Riders,Mumbai Indians,3.0,Bowler,,,,0.0,,75.0,6.0,8.0,0.0,89.0,89.0,,,
@@ -13429,7 +13429,7 @@ matchid,playername,total_runs,total_balls_faced,total_legal_balls_faced,run_6,ru
 598047,KK Cooper,,,,,,,,,,1.0,26.0,26.0,33.0,0.0,1st innings,Pune Warriors,Rajasthan Royals,7.615384615,Bowler,,,,0.0,,25.0,0.0,0.0,0.0,25.0,25.0,,,
 598047,R Sharma,,,,,,,,,,,25.0,25.0,37.0,0.0,2nd innings,Rajasthan Royals,Pune Warriors,8.88,Bowler,,,,0.0,,,0.0,0.0,0.0,0.0,0.0,,,
 598047,SK Trivedi,,,,,,,,,,1.0,25.0,25.0,32.0,0.0,1st innings,Pune Warriors,Rajasthan Royals,7.68,Bowler,,,,0.0,,25.0,0.0,0.0,0.0,25.0,25.0,,,
-598047,WD Parnell,,,,,,,,,,3.0,23.0,23.0,27.0,0.0,2nd innings,Rajasthan Royals,Pune Warriors,7.043478261000001,Bowler,,,,0.0,,75.0,0.0,0.0,0.0,75.0,75.0,,,
+598047,WD Parnell,,,,,,,,,,3.0,23.0,23.0,27.0,0.0,2nd innings,Rajasthan Royals,Pune Warriors,7.0434782610000015,Bowler,,,,0.0,,75.0,0.0,0.0,0.0,75.0,75.0,,,
 598048,A Mishra,,,,,,,,,,,26.0,26.0,40.0,0.0,2nd innings,Royal Challengers Bangalore,Sunrisers Hyderabad,9.230769231,Bowler,,,,0.0,,,-2.0,0.0,0.0,-2.0,-2.0,,,
 598048,DW Steyn,,,,,,,,,,,24.0,24.0,16.0,0.0,2nd innings,Royal Challengers Bangalore,Sunrisers Hyderabad,4.0,Bowler,,,,0.0,,,6.0,0.0,0.0,6.0,6.0,,,
 598048,I Sharma,,,,,,,,,,1.0,22.0,22.0,30.0,0.0,2nd innings,Royal Challengers Bangalore,Sunrisers Hyderabad,8.181818182,Bowler,,,,0.0,,25.0,0.0,0.0,0.0,25.0,25.0,,,
@@ -14693,7 +14693,7 @@ matchid,playername,total_runs,total_balls_faced,total_legal_balls_faced,run_6,ru
 980999,Sachin Baby,,,,,,,,,,,6.0,6.0,4.0,0.0,2nd innings,Kings XI Punjab,Royal Challengers Bangalore,4.0,Batsmen,,,,0.0,,,6.0,0.0,0.0,6.0,6.0,,,
 980999,VR Aaron,,,,,,,,,,,7.0,7.0,16.0,0.0,2nd innings,Kings XI Punjab,Royal Challengers Bangalore,13.71428571,Bowler,,,,0.0,,,-6.0,0.0,0.0,-6.0,-6.0,,,
 980999,YS Chahal,,,,,,,,,,4.0,18.0,18.0,25.0,0.0,2nd innings,Kings XI Punjab,Royal Challengers Bangalore,8.333333332999999,Bowler,,,,0.0,,100.0,0.0,0.0,8.0,108.0,108.0,,,
-981001,AS Rajpoot,,,,,,,,,,1.0,22.0,22.0,27.0,0.0,2nd innings,Gujarat Lions,Kolkata Knight Riders,7.3636363639999995,Bowler,,,,0.0,,25.0,0.0,0.0,0.0,25.0,25.0,,,
+981001,AS Rajpoot,,,,,,,,,,1.0,22.0,22.0,27.0,0.0,2nd innings,Gujarat Lions,Kolkata Knight Riders,7.363636363999999,Bowler,,,,0.0,,25.0,0.0,0.0,0.0,25.0,25.0,,,
 981001,DJ Bravo,,,,,,,,,,1.0,25.0,25.0,28.0,0.0,1st innings,Kolkata Knight Riders,Gujarat Lions,6.72,AllRounder,,,,0.0,,25.0,0.0,0.0,0.0,25.0,25.0,,,
 981001,DS Kulkarni,,,,,,,,,,1.0,25.0,25.0,33.0,0.0,1st innings,Kolkata Knight Riders,Gujarat Lions,7.92,Bowler,,,,0.0,,25.0,0.0,0.0,0.0,25.0,25.0,,,
 981001,P Kumar,,,,,,,,,,,14.0,14.0,10.0,0.0,1st innings,Kolkata Knight Riders,Gujarat Lions,4.285714286,Bowler,,,,0.0,,,4.0,0.0,0.0,4.0,4.0,,,
@@ -16035,36 +16035,55 @@ matchid,playername,total_runs,total_balls_faced,total_legal_balls_faced,run_6,ru
 1216545,Shivam Mavi,,,,,,,,,,,13.0,12.0,15.0,0.0,1st innings,Sunrisers Hyderabad,Kolkata Knight Riders,7.5,Bowler,,,,0.0,,,0.0,0.0,0.0,0.0,0.0,,,
 1216545,T Natarajan,,,,,,,,,,,19.0,18.0,27.0,0.0,2nd innings,Kolkata Knight Riders,Sunrisers Hyderabad,9.0,Bowler,,,,0.0,,,-2.0,0.0,0.0,-2.0,-2.0,,,
 1216545,Varun Chakravarthy,,,,,,,,,,,24.0,24.0,25.0,0.0,1st innings,Sunrisers Hyderabad,Kolkata Knight Riders,6.25,Bowler,,,,0.0,,,0.0,0.0,0.0,0.0,0.0,,,
-1216546,Arshdeep Singh,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Kings XI Punjab,Rajasthan Royals,7.5
-1216546,CH Gayle,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Kings XI Punjab,Rajasthan Royals,9.5
-1216546,Harpreet Brar,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Kings XI Punjab,Rajasthan Royals,8.0
-1216546,KL Rahul,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Kings XI Punjab,Rajasthan Royals,10.5
-1216546,M Ashwin,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Kings XI Punjab,Rajasthan Royals,8.0
-1216546,MA Agarwal,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Kings XI Punjab,Rajasthan Royals,8.5
-1216546,Mandeep Singh,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Kings XI Punjab,Rajasthan Royals,8.0
-1216546,Mohammed Shami,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Kings XI Punjab,Rajasthan Royals,8.5
-1216546,N Pooran,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Kings XI Punjab,Rajasthan Royals,9.0
-1216546,GJ Maxwell,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Kings XI Punjab,Rajasthan Royals,9.0
-1216546,JDS Neesham,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Kings XI Punjab,Rajasthan Royals,8.5
-1216546,K Gowtham,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Kings XI Punjab,Rajasthan Royals,8.5
-1216546,IS Sodhi,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,10.0
-1216546,JD Unadkat,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,8.5
-1216546,K Gowtham,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,10.0
-1216546,LS Livingstone,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,10.0
-1216546,MK Lomror,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,10.0
-1216546,O Thomas,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,8.0
-1216546,R Parag,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,10.0
-1216546,S Gopal,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,8.5
-1216546,STR Binny,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,10.0
-1216546,SV Samson,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,9.5
-1216546,VR Aaron,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,8.0
-1216546,SPD Smith,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,9.5
-1216546,RV Uthappa,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,9.0
-1216546,DA Miller,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,8.5
-1216546,M Vohra,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,8.0
-1216546,R Tewatia,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,8.0
-1216546,JC Archer,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,9.0
-1216546,AJ Tye,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,8.5
-1216546,TK Curran,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,8.5
-1216546,AS Rajpoot,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,8.0
-1216546,M Markande,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Kings XI Punjab,8.0
+1216527,GJ Maxwell,14.0,10.0,10.0,,2.0,0.0,1st innings,Kings XI Punjab,Rajasthan Royals,,18.0,18.0,31.0,0.0,2nd innings,Rajasthan Royals,Kings XI Punjab,10.333333333333334,AllRounder,14.0,,2.0,0.0,16.0,,-4.0,0.0,0.0,-4.0,12.0,,,
+1216527,JC Archer,13.0,3.0,3.0,2.0,,0.0,2nd innings,Rajasthan Royals,Kings XI Punjab,,25.0,25.0,46.0,0.0,1st innings,Kings XI Punjab,Rajasthan Royals,11.04,Bowler,13.0,4.0,,0.0,17.0,,-6.0,0.0,0.0,-6.0,11.0,,,
+1216527,JC Buttler,5.0,8.0,7.0,,,0.0,2nd innings,Rajasthan Royals,Kings XI Punjab,,,,,,,,,,Batsmen,5.0,,,0.0,5.0,,0.0,,0.0,,5.0,,,
+1216527,KL Rahul,126.0,88.0,75.0,8.0,7.0,0.0,1st innings,Kings XI Punjab,Rajasthan Royals,,6.0,6.0,19.0,0.0,1st innings,Kings XI Punjab,Rajasthan Royals,19.0,AllRounder,126.0,16.0,7.0,24.0,173.0,,-6.0,0.0,0.0,-6.0,167.0,,,
+1216527,KL Rahul,126.0,88.0,75.0,8.0,7.0,0.0,2nd innings,Rajasthan Royals,Kings XI Punjab,,6.0,6.0,19.0,0.0,1st innings,Kings XI Punjab,Rajasthan Royals,19.0,AllRounder,126.0,16.0,7.0,24.0,173.0,,-6.0,0.0,0.0,-6.0,167.0,,,
+1216527,MA Agarwal,112.0,53.0,53.0,7.0,10.0,0.0,1st innings,Kings XI Punjab,Rajasthan Royals,,,,,,,,,,Batsmen,112.0,14.0,10.0,24.0,160.0,,0.0,,0.0,,160.0,,,
+1216527,N Pooran,25.0,8.0,8.0,3.0,1.0,0.0,1st innings,Kings XI Punjab,Rajasthan Royals,,,,,,,,,,Batsmen,25.0,6.0,1.0,0.0,32.0,,0.0,,0.0,,32.0,,,
+1216527,R Parag,0.0,2.0,2.0,,,0.0,2nd innings,Rajasthan Royals,Kings XI Punjab,,,,,,,,,,Batsmen,0.0,,,-2.0,-2.0,,0.0,,0.0,,-2.0,,,
+1216527,RV Uthappa,9.0,4.0,4.0,,2.0,0.0,2nd innings,Rajasthan Royals,Kings XI Punjab,,,,,,,,,,Batsmen,9.0,,2.0,0.0,11.0,,0.0,,0.0,,11.0,,,
+1216527,SPD Smith,52.0,29.0,27.0,2.0,7.0,0.0,2nd innings,Rajasthan Royals,Kings XI Punjab,,,,,,,,,,Batsmen,52.0,4.0,7.0,8.0,71.0,,0.0,,0.0,,71.0,,,
+1216527,SV Samson,88.0,44.0,43.0,7.0,4.0,0.0,2nd innings,Rajasthan Royals,Kings XI Punjab,,,,,,,,,,Batsmen,88.0,14.0,4.0,8.0,114.0,,0.0,,0.0,,114.0,,,
+1216527,TK Curran,4.0,1.0,1.0,,1.0,0.0,2nd innings,Rajasthan Royals,Kings XI Punjab,,25.0,24.0,44.0,0.0,1st innings,Kings XI Punjab,Rajasthan Royals,11.0,Bowler,4.0,,1.0,0.0,5.0,,-6.0,0.0,0.0,-6.0,-1.0,,,
+1216527,AS Rajpoot,,,,,,,,,,,26.0,25.0,39.0,0.0,1st innings,Kings XI Punjab,Rajasthan Royals,9.36,Bowler,,,,0.0,,,-2.0,0.0,0.0,-2.0,-2.0,,,
+1216527,JD Unadkat,,,,,,,,,,,20.0,18.0,30.0,0.0,1st innings,Kings XI Punjab,Rajasthan Royals,10.0,Bowler,,,,0.0,,,-4.0,0.0,0.0,-4.0,-4.0,,,
+1216527,JDS Neesham,,,,,,,,,,,24.0,24.0,40.0,0.0,2nd innings,Rajasthan Royals,Kings XI Punjab,10.0,Bowler,,,,0.0,,,-4.0,0.0,0.0,-4.0,-4.0,,,
+1216527,M Ashwin,,,,,,,,,,,9.0,9.0,16.0,0.0,2nd innings,Rajasthan Royals,Kings XI Punjab,10.666666666666666,Bowler,,,,0.0,,,-4.0,0.0,0.0,-4.0,-4.0,,,
+1216527,Mohammed Shami,,,,,,,,,,,25.0,24.0,53.0,0.0,2nd innings,Rajasthan Royals,Kings XI Punjab,13.25,Bowler,,,,0.0,,,-6.0,0.0,0.0,-6.0,-6.0,,,
+1216527,R Bishnoi,,,,,,,,,,,26.0,24.0,34.0,0.0,2nd innings,Rajasthan Royals,Kings XI Punjab,8.5,Bowler,,,,0.0,,,0.0,0.0,0.0,0.0,0.0,,,
+1216527,S Gopal,,,,,,,,,,,25.0,24.0,44.0,0.0,1st innings,Kings XI Punjab,Rajasthan Royals,11.0,Bowler,,,,0.0,,,-6.0,0.0,0.0,-6.0,-6.0,,,
+1216527,Sheldon Cottrell,,,,,,,,,,,21.0,18.0,52.0,0.0,2nd innings,Rajasthan Royals,Kings XI Punjab,17.333333333333332,Bowler,,,,0.0,,,-6.0,0.0,0.0,-6.0,-6.0,,,
+1216547,AJ Finch,27.0,18.0,18.0,1.0,2.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,,,,,,,,,,Batsmen,27.0,2.0,2.0,0.0,31.0,,0.0,,0.0,,31.0,,,
+1216547,Devdutt Padikkal,8.0,5.0,5.0,,1.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,,,,,,,,,,Batsmen,8.0,,1.0,0.0,9.0,,0.0,,0.0,,9.0,,,
+1216547,James Pattinson,,,,,,,,,,,11.0,11.0,17.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,9.272727272727273,Bowler,,,,0.0,,,-2.0,0.0,0.0,-2.0,-2.0,,,
+1216547,TA Boult,,,,,,,,,,,12.0,12.0,18.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,9.0,Bowler,,,,0.0,,,-2.0,0.0,0.0,-2.0,-2.0,,,
+1216548,AB de Villiers,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Royal Challengers Bangalore,Mumbai Indians,10.0
+1216548,NA Saini,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Royal Challengers Bangalore,Mumbai Indians,8.5
+1216548,P Negi,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Royal Challengers Bangalore,Mumbai Indians,8.0
+1216548,PA Patel,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Royal Challengers Bangalore,Mumbai Indians,8.5
+1216548,UT Yadav,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Royal Challengers Bangalore,Mumbai Indians,8.5
+1216548,V Kohli,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Royal Challengers Bangalore,Mumbai Indians,10.5
+1216548,Washington Sundar,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Royal Challengers Bangalore,Mumbai Indians,8.0
+1216548,YS Chahal,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Royal Challengers Bangalore,Mumbai Indians,9.0
+1216548,JM Bairstow,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Royal Challengers Bangalore,Mumbai Indians,9.5
+1216548,AJ Finch,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Royal Challengers Bangalore,Mumbai Indians,9.0
+1216548,CH Morris,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Royal Challengers Bangalore,Mumbai Indians,9.0
+1216548,MM Ali,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Royal Challengers Bangalore,Mumbai Indians,8.5
+1216548,S Dube,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Royal Challengers Bangalore,Mumbai Indians,8.0
+1216548,A Zampa,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Royal Challengers Bangalore,Mumbai Indians,8.5
+1216548,DW Steyn,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Royal Challengers Bangalore,Mumbai Indians,8.5
+1216548,Mohammed Siraj,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Royal Challengers Bangalore,Mumbai Indians,8.0
+1216548,RG Sharma,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Royal Challengers Bangalore,10.5
+1216548,Q de Kock,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Royal Challengers Bangalore,9.5
+1216548,SA Yadav,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Royal Challengers Bangalore,9.0
+1216548,SS Tiwary,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Royal Challengers Bangalore,8.0
+1216548,HH Pandya,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Mumbai Indians,Royal Challengers Bangalore,9.5
+1216548,KA Pollard,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Mumbai Indians,Royal Challengers Bangalore,9.0
+1216548,KH Pandya,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Mumbai Indians,Royal Challengers Bangalore,8.5
+1216548,James Pattinson,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Royal Challengers Bangalore,8.0
+1216548,RD Chahar,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Royal Challengers Bangalore,8.0
+1216548,TA Boult,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Royal Challengers Bangalore,8.5
+1216548,JJ Bumrah,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Royal Challengers Bangalore,9.0
+1216548,I Kishan,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Royal Challengers Bangalore,8.5
