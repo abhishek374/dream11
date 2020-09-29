@@ -1,5 +1,22 @@
 ,matchid,playername,total_runs,total_balls_faced,total_legal_balls_faced,run_6,run_4,fallofwickets,batsmen_innings,batsmen_battingteam,batsmen_bowlingteam,total_wickets,total_balls_bowled,total_legal_balls_bowled,total_runs_given,maiden_overs,bowlers_innings,bowler_battingteam,bowler_bowlingteam,economy_rate,playing_role,total_runs_points,run_6_points,run_4_points,run_bonus_points,total_bat_points,total_wickets_points,economy_rate_points,maiden_overs_points,wicket_bonus_points,total_bowl_points,total_points
-0,1216547,AJ Finch,27.0,18.0,18.0,1.0,2.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,,,,,,,,,,Batsmen,27.0,2.0,2.0,0,31.0,,0,,0,,31.0
-1,1216547,Devdutt Padikkal,8.0,5.0,5.0,,1.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,,,,,,,,,,Batsmen,8.0,,1.0,0,9.0,,0,,0,,9.0
-2,1216547,James Pattinson,,,,,,,,,,,11.0,11.0,17.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,9.272727272727273,Bowler,,,,0,,,-2,0.0,0,-2.0,-2.0
-3,1216547,TA Boult,,,,,,,,,,,12.0,12.0,18.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,9.0,Bowler,,,,0,,,-2,0.0,0,-2.0,-2.0
+0,1216547,AB de Villiers,57.0,24.0,24.0,4.0,4.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,,,,,,,,,,Batsmen,57.0,8.0,4.0,8,77.0,,0,,0,,77.0
+1,1216547,AJ Finch,53.0,36.0,35.0,1.0,7.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,,,,,,,,,,Batsmen,53.0,2.0,7.0,8,70.0,,0,,0,,70.0
+2,1216547,Devdutt Padikkal,61.0,42.0,41.0,2.0,6.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,,,,,,,,,,Batsmen,61.0,4.0,6.0,8,79.0,,0,,0,,79.0
+3,1216547,HH Pandya,15.0,13.0,13.0,1.0,,0.0,2nd innings,Mumbai Indians,Royal Challengers Bangalore,,,,,,,,,,Batsmen,15.0,2.0,,0,17.0,,0,,0,,17.0
+4,1216547,Ishan Kishan,101.0,60.0,59.0,9.0,2.0,0.0,2nd innings,Mumbai Indians,Royal Challengers Bangalore,,,,,,,,,,Batsmen,101.0,18.0,2.0,24,145.0,,0,,0,,145.0
+5,1216547,KA Pollard,62.0,26.0,25.0,5.0,3.0,0.0,2nd innings,Mumbai Indians,Royal Challengers Bangalore,,6.0,6.0,13.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,13.0,AllRounder,62.0,10.0,3.0,8,83.0,,-6,0.0,0,-6.0,77.0
+6,1216547,Q de Kock,15.0,16.0,16.0,,1.0,0.0,2nd innings,Mumbai Indians,Royal Challengers Bangalore,,,,,,,,,,Batsmen,15.0,,1.0,0,16.0,,0,,0,,16.0
+7,1216547,RG Sharma,8.0,8.0,8.0,1.0,,0.0,2nd innings,Mumbai Indians,Royal Challengers Bangalore,,,,,,,,,,Batsmen,8.0,2.0,,0,10.0,,0,,0,,10.0
+8,1216547,S Dube,27.0,10.0,10.0,3.0,1.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,,,,,,,,,,Batsmen,27.0,6.0,1.0,0,34.0,,0,,0,,34.0
+9,1216547,SA Yadav,0.0,2.0,2.0,,,0.0,2nd innings,Mumbai Indians,Royal Challengers Bangalore,,,,,,,,,,Batsmen,0.0,,,-2,-2.0,,0,,0,,-2.0
+10,1216547,V Kohli,3.0,11.0,11.0,,,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,,,,,,,,,,Batsmen,3.0,,,0,3.0,,0,,0,,3.0
+11,1216547,A Zampa,,,,,,,,,,,24.0,24.0,53.0,0.0,2nd innings,Mumbai Indians,Royal Challengers Bangalore,13.25,Bowler,,,,0,,,-6,0.0,0,-6.0,-6.0
+12,1216547,Isuru Udana,,,,,,,,,,,27.0,24.0,45.0,0.0,2nd innings,Mumbai Indians,Royal Challengers Bangalore,11.25,Bowler,,,,0,,,-6,0.0,0,-6.0,-6.0
+13,1216547,JJ Bumrah,,,,,,,,,,,25.0,24.0,48.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,12.0,Bowler,,,,0,,,-6,0.0,0,-6.0,-6.0
+14,1216547,James Pattinson,,,,,,,,,,,24.0,24.0,51.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,12.75,Bowler,,,,0,,,-6,0.0,0,-6.0,-6.0
+15,1216547,KH Pandya,,,,,,,,,,,19.0,18.0,23.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,7.666666666666667,Bowler,,,,0,,,0,0.0,0,0.0,0.0
+16,1216547,NA Saini,,,,,,,,,,,26.0,25.0,43.0,0.0,2nd innings,Mumbai Indians,Royal Challengers Bangalore,10.32,Bowler,,,,0,,,-4,0.0,0,-4.0,-4.0
+17,1216547,RD Chahar,,,,,,,,,,,25.0,24.0,31.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,7.75,Bowler,,,,0,,,0,0.0,0,0.0,0.0
+18,1216547,TA Boult,,,,,,,,,,,24.0,24.0,35.0,0.0,1st innings,Royal Challengers Bangalore,Mumbai Indians,8.75,Bowler,,,,0,,,0,0.0,0,0.0,0.0
+19,1216547,Washington Sundar,,,,,,,,,,,24.0,24.0,12.0,0.0,2nd innings,Mumbai Indians,Royal Challengers Bangalore,3.0,Bowler,,,,0,,,6,0.0,0,6.0,6.0
+20,1216547,YS Chahal,,,,,,,,,,,24.0,24.0,48.0,0.0,2nd innings,Mumbai Indians,Royal Challengers Bangalore,12.0,Bowler,,,,0,,,-6,0.0,0,-6.0,-6.0

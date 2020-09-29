@@ -8,7 +8,7 @@ matchid,date,year,city,venue,team1,team2,result,tossdecision,winner,by_what,by_h
 1216539,2020-09-25T14:00Z,2020,Dubai International Cricket Stadium,Dubai International Cricket Stadium,Delhi Capitals,Chennai Super Kings,Capitals won by 44 runs,,Delhi Capitals,runs,[44],
 1216545,2020-09-26T14:00Z,2020,"Sheikh Zayed Stadium, Abu Dhabi","Sheikh Zayed Stadium, Abu Dhabi",Sunrisers Hyderabad,Kolkata Knight Riders,KKR won by 7 wickets,,Kolkata Knight Riders,wickets,[7],
 1216527,2020-09-27T14:00Z,2020,Sharjah Cricket Stadium,Sharjah Cricket Stadium,Kings XI Punjab,Rajasthan Royals,Royals won by 4 wickets,,Rajasthan Royals,wickets,[4],
-1216547,2020-09-28T14:00Z,2020,Dubai International Cricket Stadium,Dubai International Cricket Stadium,Royal Challengers Bangalore,Mumbai Indians,Mum Indians chose to field. CRR: 8.06,,Match Tied/Cancelled/Not yet ended,,[],
+1216547,2020-09-28T14:00Z,2020,Dubai International Cricket Stadium,Dubai International Cricket Stadium,Royal Challengers Bangalore,Mumbai Indians,Match tied (Royal Challengers Bangalore won the one-over eliminator),,Match Tied/Cancelled/Not yet ended,,[],
 1216532,2020-09-29T14:00Z,2020,"Sheikh Zayed Stadium, Abu Dhabi","Sheikh Zayed Stadium, Abu Dhabi",Delhi Capitals,Sunrisers Hyderabad,Starts at 6:00 PM local time,,Match Tied/Cancelled/Not yet ended,,[],
 1216504,2020-09-30T14:00Z,2020,Dubai International Cricket Stadium,Dubai International Cricket Stadium,Rajasthan Royals,Kolkata Knight Riders,Starts at 6:00 PM local time,,Match Tied/Cancelled/Not yet ended,,[],
 1216503,2020-10-01T14:00Z,2020,"Sheikh Zayed Stadium, Abu Dhabi","Sheikh Zayed Stadium, Abu Dhabi",Kings XI Punjab,Mumbai Indians,Starts at 6:00 PM local time,,Match Tied/Cancelled/Not yet ended,,[],

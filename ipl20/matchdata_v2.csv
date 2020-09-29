@@ -22,3 +22,228 @@ date,matchid,innings,target,fallofwickets,ball,over,scorevalue,validball,extras,
 2020-09-28,1216547,1st innings,0,0,21,3.3,0,0,0,Nan,AJ Finch,0,James Pattinson,Devdutt Padikkal,32,False,,,Royal Challengers Bangalore,Mumbai Indians
 2020-09-28,1216547,1st innings,0,0,22,3.4,0,0,0,Nan,AJ Finch,0,James Pattinson,Devdutt Padikkal,32,False,,,Royal Challengers Bangalore,Mumbai Indians
 2020-09-28,1216547,1st innings,0,0,23,3.5,3,0,0,Nan,AJ Finch,3,James Pattinson,Devdutt Padikkal,35,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,24,3.6,0,0,0,Nan,Devdutt Padikkal,0,James Pattinson,AJ Finch,35,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,25,4.1,1,0,0,Nan,AJ Finch,1,RD Chahar,Devdutt Padikkal,36,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,26,4.2,1,0,0,Nan,Devdutt Padikkal,1,RD Chahar,AJ Finch,37,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,27,4.3,4,0,0,Nan,AJ Finch,4,RD Chahar,Devdutt Padikkal,41,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,28,4.4,4,0,0,Nan,AJ Finch,4,RD Chahar,Devdutt Padikkal,45,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,29,4.5,4,0,0,Nan,AJ Finch,4,RD Chahar,Devdutt Padikkal,49,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,30,4.6,0,0,0,Nan,AJ Finch,0,RD Chahar,Devdutt Padikkal,49,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,31,5.1,0,0,0,Nan,Devdutt Padikkal,0,JJ Bumrah,AJ Finch,49,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,32,5.2,4,0,4,Nan,Devdutt Padikkal,4,JJ Bumrah,AJ Finch,53,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,33,5.3,4,0,0,Nan,Devdutt Padikkal,4,JJ Bumrah,AJ Finch,57,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,34,5.4,1,0,0,Nan,Devdutt Padikkal,1,JJ Bumrah,AJ Finch,58,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,35,5.5,0,0,0,Nan,AJ Finch,0,JJ Bumrah,Devdutt Padikkal,58,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,35,5.5,1,1,1,Nan,AJ Finch,1,JJ Bumrah,Devdutt Padikkal,59,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,36,5.6,0,0,0,Nan,AJ Finch,0,JJ Bumrah,Devdutt Padikkal,59,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,37,6.1,1,0,0,Nan,Devdutt Padikkal,1,KH Pandya,AJ Finch,60,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,38,6.2,0,0,0,Nan,AJ Finch,0,KH Pandya,Devdutt Padikkal,60,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,39,6.3,0,0,0,Nan,AJ Finch,0,KH Pandya,Devdutt Padikkal,60,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,40,6.4,4,0,0,Nan,AJ Finch,4,KH Pandya,Devdutt Padikkal,64,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,41,6.5,1,0,0,Nan,AJ Finch,1,KH Pandya,Devdutt Padikkal,65,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,42,6.6,0,0,0,Nan,Devdutt Padikkal,0,KH Pandya,AJ Finch,65,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,43,7.1,1,0,0,Nan,AJ Finch,1,RD Chahar,Devdutt Padikkal,66,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,44,7.2,1,0,0,Nan,Devdutt Padikkal,1,RD Chahar,AJ Finch,67,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,45,7.3,4,0,0,Nan,AJ Finch,4,RD Chahar,Devdutt Padikkal,71,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,46,7.4,0,0,0,Nan,AJ Finch,0,RD Chahar,Devdutt Padikkal,71,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,47,7.5,1,0,0,Nan,AJ Finch,1,RD Chahar,Devdutt Padikkal,72,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,47,7.5,1,1,1,Nan,Devdutt Padikkal,1,RD Chahar,AJ Finch,73,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,48,7.6,1,0,0,Nan,Devdutt Padikkal,1,RD Chahar,AJ Finch,74,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,49,8.1,1,0,0,Nan,Devdutt Padikkal,1,TA Boult,AJ Finch,75,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,50,8.2,1,0,0,Nan,AJ Finch,1,TA Boult,Devdutt Padikkal,76,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,51,8.3,0,0,0,Nan,Devdutt Padikkal,0,TA Boult,AJ Finch,76,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,52,8.4,4,0,0,Nan,Devdutt Padikkal,4,TA Boult,AJ Finch,80,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,53,8.5,1,0,0,Nan,Devdutt Padikkal,1,TA Boult,AJ Finch,81,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,1,54,8.6,0,0,0,Nan,AJ Finch,0,TA Boult,Devdutt Padikkal,81,True,caught,AJ Finch,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,55,9.1,0,0,0,Nan,Devdutt Padikkal,0,KH Pandya,V Kohli,81,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,56,9.2,1,0,0,Nan,Devdutt Padikkal,1,KH Pandya,V Kohli,82,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,57,9.3,1,0,0,Nan,V Kohli,1,KH Pandya,Devdutt Padikkal,83,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,58,9.4,0,0,0,Nan,Devdutt Padikkal,0,KH Pandya,V Kohli,83,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,58,9.4,1,1,1,Nan,Devdutt Padikkal,1,KH Pandya,V Kohli,84,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,59,9.5,1,0,0,Nan,Devdutt Padikkal,1,KH Pandya,V Kohli,85,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,60,9.6,0,0,0,Nan,V Kohli,0,KH Pandya,Devdutt Padikkal,85,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,61,10.1,1,0,0,Nan,Devdutt Padikkal,1,RD Chahar,V Kohli,86,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,62,10.2,1,0,0,Nan,V Kohli,1,RD Chahar,Devdutt Padikkal,87,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,63,10.3,1,0,0,Nan,Devdutt Padikkal,1,RD Chahar,V Kohli,88,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,64,10.4,0,0,0,Nan,V Kohli,0,RD Chahar,Devdutt Padikkal,88,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,65,10.5,0,0,0,Nan,V Kohli,0,RD Chahar,Devdutt Padikkal,88,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,66,10.6,0,0,0,Nan,V Kohli,0,RD Chahar,Devdutt Padikkal,88,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,67,11.1,1,0,0,Nan,Devdutt Padikkal,1,JJ Bumrah,V Kohli,89,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,68,11.2,0,0,0,Nan,V Kohli,0,JJ Bumrah,Devdutt Padikkal,89,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,69,11.3,1,0,0,Nan,V Kohli,1,JJ Bumrah,Devdutt Padikkal,90,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,70,11.4,1,0,0,Nan,Devdutt Padikkal,1,JJ Bumrah,V Kohli,91,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,71,11.5,0,0,0,Nan,V Kohli,0,JJ Bumrah,Devdutt Padikkal,91,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,72,11.6,0,0,0,Nan,V Kohli,0,JJ Bumrah,Devdutt Padikkal,91,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,73,12.1,1,0,0,Nan,Devdutt Padikkal,1,RD Chahar,V Kohli,92,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,2,74,12.2,0,0,0,Nan,V Kohli,0,RD Chahar,Devdutt Padikkal,92,True,caught,V Kohli,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,75,12.3,0,0,0,Nan,AB de Villiers,0,RD Chahar,Devdutt Padikkal,92,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,76,12.4,2,0,0,Nan,AB de Villiers,2,RD Chahar,Devdutt Padikkal,94,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,77,12.5,1,0,0,Nan,AB de Villiers,1,RD Chahar,Devdutt Padikkal,95,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,78,12.6,1,0,0,Nan,Devdutt Padikkal,1,RD Chahar,AB de Villiers,96,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,79,13.1,1,0,0,Nan,Devdutt Padikkal,1,James Pattinson,AB de Villiers,97,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,80,13.2,1,0,0,Nan,AB de Villiers,1,James Pattinson,Devdutt Padikkal,98,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,81,13.3,0,0,0,Nan,Devdutt Padikkal,0,James Pattinson,AB de Villiers,98,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,82,13.4,6,0,0,Nan,Devdutt Padikkal,6,James Pattinson,AB de Villiers,104,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,83,13.5,6,0,0,Nan,Devdutt Padikkal,6,James Pattinson,AB de Villiers,110,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,84,13.6,0,0,0,Nan,Devdutt Padikkal,0,James Pattinson,AB de Villiers,110,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,85,14.1,2,0,0,Nan,AB de Villiers,2,KH Pandya,Devdutt Padikkal,112,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,86,14.2,4,0,0,Nan,AB de Villiers,4,KH Pandya,Devdutt Padikkal,116,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,87,14.3,1,0,0,Nan,AB de Villiers,1,KH Pandya,Devdutt Padikkal,117,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,88,14.4,4,0,0,Nan,Devdutt Padikkal,4,KH Pandya,AB de Villiers,121,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,89,14.5,1,0,0,Nan,Devdutt Padikkal,1,KH Pandya,AB de Villiers,122,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,90,14.6,1,0,0,Nan,AB de Villiers,1,KH Pandya,Devdutt Padikkal,123,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,91,15.1,1,0,0,Nan,AB de Villiers,1,KA Pollard,Devdutt Padikkal,124,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,92,15.2,4,0,0,Nan,Devdutt Padikkal,4,KA Pollard,AB de Villiers,128,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,93,15.3,1,0,0,Nan,Devdutt Padikkal,1,KA Pollard,AB de Villiers,129,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,94,15.4,4,0,0,Nan,AB de Villiers,4,KA Pollard,Devdutt Padikkal,133,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,95,15.5,2,0,0,Nan,AB de Villiers,2,KA Pollard,Devdutt Padikkal,135,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,96,15.6,1,0,0,Nan,AB de Villiers,1,KA Pollard,Devdutt Padikkal,136,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,97,16.1,4,0,0,Nan,AB de Villiers,4,JJ Bumrah,Devdutt Padikkal,140,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,98,16.2,0,0,0,Nan,AB de Villiers,0,JJ Bumrah,Devdutt Padikkal,140,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,99,16.3,6,0,0,Nan,AB de Villiers,6,JJ Bumrah,Devdutt Padikkal,146,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,100,16.4,1,0,1,Nan,AB de Villiers,1,JJ Bumrah,Devdutt Padikkal,147,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,101,16.5,1,0,1,Nan,Devdutt Padikkal,1,JJ Bumrah,AB de Villiers,148,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,102,16.6,6,0,0,Nan,AB de Villiers,6,JJ Bumrah,Devdutt Padikkal,154,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,3,103,17.1,0,0,0,Nan,Devdutt Padikkal,0,TA Boult,AB de Villiers,154,True,caught,Devdutt Padikkal,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,104,17.2,1,0,0,Nan,AB de Villiers,1,TA Boult,S Dube,155,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,105,17.3,1,0,0,Nan,S Dube,1,TA Boult,AB de Villiers,156,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,106,17.4,1,0,1,Nan,AB de Villiers,1,TA Boult,S Dube,157,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,107,17.5,1,0,0,Nan,S Dube,1,TA Boult,AB de Villiers,158,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,108,17.6,6,0,0,Nan,AB de Villiers,6,TA Boult,S Dube,164,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,109,18.1,1,0,0,Nan,S Dube,1,JJ Bumrah,AB de Villiers,165,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,110,18.2,4,0,0,Nan,AB de Villiers,4,JJ Bumrah,S Dube,169,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,111,18.3,1,0,0,Nan,AB de Villiers,1,JJ Bumrah,S Dube,170,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,112,18.4,4,0,0,Nan,S Dube,4,JJ Bumrah,AB de Villiers,174,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,113,18.5,1,0,0,Nan,S Dube,1,JJ Bumrah,AB de Villiers,175,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,114,18.6,6,0,0,Nan,AB de Villiers,6,JJ Bumrah,S Dube,181,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,115,19.1,0,0,0,Nan,S Dube,0,James Pattinson,AB de Villiers,181,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,116,19.2,6,0,0,Nan,S Dube,6,James Pattinson,AB de Villiers,187,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,117,19.3,6,0,0,Nan,S Dube,6,James Pattinson,AB de Villiers,193,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,118,19.4,1,0,0,Nan,S Dube,1,James Pattinson,AB de Villiers,194,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,119,19.5,1,0,0,Nan,AB de Villiers,1,James Pattinson,S Dube,195,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,1st innings,0,0,120,19.6,6,0,0,Nan,S Dube,6,James Pattinson,AB de Villiers,201,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-09-28,1216547,2nd innings,202,0,1,0.1,1,0,0,Nan,RG Sharma,1,Isuru Udana,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,1,0.1,1,1,1,Nan,Q de Kock,1,Isuru Udana,RG Sharma,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,2,0.2,1,0,0,Nan,Q de Kock,1,Isuru Udana,RG Sharma,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,3,0.3,6,0,0,Nan,RG Sharma,6,Isuru Udana,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,4,0.4,0,0,0,Nan,RG Sharma,0,Isuru Udana,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,5,0.5,1,0,0,Nan,RG Sharma,1,Isuru Udana,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,6,0.6,4,0,0,Nan,Q de Kock,4,Isuru Udana,RG Sharma,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,7,1.1,0,0,0,Nan,RG Sharma,0,Washington Sundar,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,8,1.2,0,0,0,Nan,RG Sharma,0,Washington Sundar,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,9,1.3,0,0,0,Nan,RG Sharma,0,Washington Sundar,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,1,10,1.4,0,0,0,Nan,RG Sharma,0,Washington Sundar,Q de Kock,0,True,caught,RG Sharma,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,11,1.5,0,0,0,Nan,Q de Kock,0,Washington Sundar,SA Yadav,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,12,1.6,2,0,0,Nan,Q de Kock,2,Washington Sundar,SA Yadav,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,13,2.1,0,0,0,Nan,SA Yadav,0,Isuru Udana,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,2,14,2.2,0,0,0,Nan,SA Yadav,0,Isuru Udana,Q de Kock,0,True,caught,SA Yadav,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,15,2.3,4,0,0,Nan,Ishan Kishan,4,Isuru Udana,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,16,2.4,1,0,0,Nan,Ishan Kishan,1,Isuru Udana,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,17,2.5,0,0,0,Nan,Q de Kock,0,Isuru Udana,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,18,2.6,2,0,0,Nan,Q de Kock,2,Isuru Udana,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,19,3.1,0,0,0,Nan,Ishan Kishan,0,Washington Sundar,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,20,3.2,0,0,0,Nan,Ishan Kishan,0,Washington Sundar,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,21,3.3,0,0,0,Nan,Ishan Kishan,0,Washington Sundar,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,22,3.4,1,0,0,Nan,Ishan Kishan,1,Washington Sundar,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,23,3.5,0,0,0,Nan,Q de Kock,0,Washington Sundar,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,24,3.6,0,0,0,Nan,Q de Kock,0,Washington Sundar,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,25,4.1,0,0,0,Nan,Ishan Kishan,0,NA Saini,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,26,4.2,6,0,0,Nan,Ishan Kishan,6,NA Saini,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,27,4.3,0,0,0,Nan,Ishan Kishan,0,NA Saini,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,28,4.4,0,0,0,Nan,Ishan Kishan,0,NA Saini,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,29,4.5,0,0,0,Nan,Ishan Kishan,0,NA Saini,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,30,4.6,1,0,0,Nan,Ishan Kishan,1,NA Saini,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,31,5.1,1,0,0,Nan,Ishan Kishan,1,Washington Sundar,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,32,5.2,0,0,0,Nan,Q de Kock,0,Washington Sundar,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,33,5.3,1,0,0,Nan,Q de Kock,1,Washington Sundar,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,34,5.4,1,0,0,Nan,Ishan Kishan,1,Washington Sundar,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,35,5.5,0,0,0,Nan,Q de Kock,0,Washington Sundar,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,36,5.6,1,0,0,Nan,Q de Kock,1,Washington Sundar,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,37,6.1,1,0,0,Nan,Q de Kock,1,YS Chahal,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,38,6.2,1,0,0,Nan,Ishan Kishan,1,YS Chahal,Q de Kock,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,39,6.3,2,0,0,Nan,Q de Kock,2,YS Chahal,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,3,40,6.4,0,0,0,Nan,Q de Kock,0,YS Chahal,Ishan Kishan,0,True,caught,Q de Kock,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,41,6.5,1,0,0,Nan,Ishan Kishan,1,YS Chahal,HH Pandya,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,42,6.6,1,0,0,Nan,HH Pandya,1,YS Chahal,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,43,7.1,1,0,0,Nan,HH Pandya,1,A Zampa,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,44,7.2,1,0,0,Nan,Ishan Kishan,1,A Zampa,HH Pandya,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,45,7.3,1,0,0,Nan,HH Pandya,1,A Zampa,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,46,7.4,1,0,0,Nan,Ishan Kishan,1,A Zampa,HH Pandya,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,47,7.5,6,0,0,Nan,HH Pandya,6,A Zampa,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,48,7.6,1,0,0,Nan,HH Pandya,1,A Zampa,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,49,8.1,1,0,0,Nan,HH Pandya,1,YS Chahal,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,50,8.2,1,0,0,Nan,Ishan Kishan,1,YS Chahal,HH Pandya,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,51,8.3,1,0,0,Nan,HH Pandya,1,YS Chahal,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,52,8.4,1,0,0,Nan,Ishan Kishan,1,YS Chahal,HH Pandya,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,53,8.5,1,0,0,Nan,HH Pandya,1,YS Chahal,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,54,8.6,1,0,0,Nan,Ishan Kishan,1,YS Chahal,HH Pandya,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,55,9.1,1,0,0,Nan,Ishan Kishan,1,Washington Sundar,HH Pandya,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,56,9.2,0,0,0,Nan,HH Pandya,0,Washington Sundar,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,57,9.3,1,0,0,Nan,HH Pandya,1,Washington Sundar,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,58,9.4,1,0,0,Nan,Ishan Kishan,1,Washington Sundar,HH Pandya,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,59,9.5,1,0,0,Nan,HH Pandya,1,Washington Sundar,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,60,9.6,1,0,0,Nan,Ishan Kishan,1,Washington Sundar,HH Pandya,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,61,10.1,6,0,0,Nan,Ishan Kishan,6,NA Saini,HH Pandya,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,62,10.2,0,0,0,Nan,Ishan Kishan,0,NA Saini,HH Pandya,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,63,10.3,6,0,0,Nan,Ishan Kishan,6,NA Saini,HH Pandya,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,63,10.3,1,1,1,Nan,Ishan Kishan,1,NA Saini,HH Pandya,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,64,10.4,0,0,0,Nan,Ishan Kishan,0,NA Saini,HH Pandya,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,65,10.5,1,0,0,Nan,Ishan Kishan,1,NA Saini,HH Pandya,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,66,10.6,0,0,0,Nan,HH Pandya,0,NA Saini,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,67,11.1,1,0,0,Nan,Ishan Kishan,1,A Zampa,HH Pandya,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,4,68,11.2,0,0,0,Nan,HH Pandya,0,A Zampa,Ishan Kishan,0,True,caught,HH Pandya,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,69,11.3,1,0,0,Nan,Ishan Kishan,1,A Zampa,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,70,11.4,1,0,0,Nan,KA Pollard,1,A Zampa,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,71,11.5,2,0,0,Nan,Ishan Kishan,2,A Zampa,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,72,11.6,1,0,0,Nan,Ishan Kishan,1,A Zampa,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,73,12.1,1,0,0,Nan,Ishan Kishan,1,Isuru Udana,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,73,12.1,1,1,1,Nan,KA Pollard,1,Isuru Udana,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,73,12.1,1,1,1,Nan,KA Pollard,1,Isuru Udana,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,74,12.2,0,0,0,Nan,KA Pollard,0,Isuru Udana,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,75,12.3,1,0,0,Nan,KA Pollard,1,Isuru Udana,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,76,12.4,0,0,0,Nan,Ishan Kishan,0,Isuru Udana,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,77,12.5,1,0,0,Nan,Ishan Kishan,1,Isuru Udana,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,78,12.6,1,0,0,Nan,KA Pollard,1,Isuru Udana,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,79,13.1,1,0,0,Nan,KA Pollard,1,A Zampa,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,80,13.2,0,0,0,Nan,Ishan Kishan,0,A Zampa,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,81,13.3,1,0,0,Nan,Ishan Kishan,1,A Zampa,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,82,13.4,0,0,0,Nan,KA Pollard,0,A Zampa,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,83,13.5,1,0,0,Nan,KA Pollard,1,A Zampa,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,84,13.6,6,0,0,Nan,Ishan Kishan,6,A Zampa,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,85,14.1,1,0,0,Nan,KA Pollard,1,YS Chahal,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,86,14.2,0,0,0,Nan,Ishan Kishan,0,YS Chahal,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,87,14.3,2,0,0,Nan,Ishan Kishan,2,YS Chahal,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,88,14.4,6,0,0,Nan,Ishan Kishan,6,YS Chahal,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,89,14.5,1,0,0,Nan,Ishan Kishan,1,YS Chahal,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,90,14.6,4,0,0,Nan,KA Pollard,4,YS Chahal,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,91,15.1,4,0,0,Nan,Ishan Kishan,4,NA Saini,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,92,15.2,2,0,0,Nan,Ishan Kishan,2,NA Saini,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,93,15.3,0,0,0,Nan,Ishan Kishan,0,NA Saini,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,94,15.4,2,0,0,Nan,Ishan Kishan,2,NA Saini,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,95,15.5,1,0,0,Nan,Ishan Kishan,1,NA Saini,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,96,15.6,1,0,0,Nan,KA Pollard,1,NA Saini,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,97,16.1,4,0,0,Nan,KA Pollard,4,A Zampa,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,98,16.2,6,0,0,Nan,KA Pollard,6,A Zampa,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,99,16.3,6,0,0,Nan,KA Pollard,6,A Zampa,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,100,16.4,2,0,0,Nan,KA Pollard,2,A Zampa,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,101,16.5,6,0,0,Nan,KA Pollard,6,A Zampa,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,102,16.6,3,0,0,Nan,KA Pollard,3,A Zampa,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,103,17.1,6,0,0,Nan,KA Pollard,6,YS Chahal,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,104,17.2,2,0,0,Nan,KA Pollard,2,YS Chahal,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,105,17.3,1,0,0,Nan,KA Pollard,1,YS Chahal,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,106,17.4,6,0,0,Nan,Ishan Kishan,6,YS Chahal,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,107,17.5,1,0,0,Nan,Ishan Kishan,1,YS Chahal,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,108,17.6,6,0,0,Nan,KA Pollard,6,YS Chahal,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,108,18.0,1,1,1,Nan,Ishan Kishan,1,NA Saini,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,109,18.1,1,0,0,Nan,Ishan Kishan,1,NA Saini,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,110,18.2,1,0,0,Nan,KA Pollard,1,NA Saini,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,111,18.3,1,0,0,Nan,Ishan Kishan,1,NA Saini,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,112,18.4,1,0,0,Nan,KA Pollard,1,NA Saini,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,113,18.5,6,0,0,Nan,Ishan Kishan,6,NA Saini,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,114,18.6,1,0,0,Nan,Ishan Kishan,1,NA Saini,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,115,19.1,1,0,0,Nan,Ishan Kishan,1,Isuru Udana,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,116,19.2,1,0,0,Nan,KA Pollard,1,Isuru Udana,Ishan Kishan,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,117,19.3,6,0,0,Nan,Ishan Kishan,6,Isuru Udana,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,118,19.4,6,0,0,Nan,Ishan Kishan,6,Isuru Udana,KA Pollard,0,False,,,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,5,119,19.5,0,0,0,Nan,Ishan Kishan,0,Isuru Udana,KA Pollard,0,True,caught,Ishan Kishan,Mumbai Indians,Royal Challengers Bangalore
+2020-09-28,1216547,2nd innings,202,0,120,19.6,4,0,0,Nan,KA Pollard,4,Isuru Udana,KH Pandya,0,False,,,Mumbai Indians,Royal Challengers Bangalore

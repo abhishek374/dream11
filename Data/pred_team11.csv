@@ -1,29 +1,17 @@
 playername,teamname,playingrole,playercost,model1_points,model1_team,model2_points,model2_team
-JM Bairstow,Royal Challengers Bangalore,Batsmen,9.5,92.0,1.0,374.0,1.0
-AB de Villiers,Royal Challengers Bangalore,Batsmen,10.0,65.0,1.0,176.0,1.0
-RG Sharma,Mumbai Indians,Batsmen,10.5,42.0,1.0,72.0,1.0
-SA Yadav,Mumbai Indians,Batsmen,9.0,41.0,1.0,67.0,1.0
-SS Tiwary,Mumbai Indians,Batsmen,8.0,38.0,1.0,38.0,
-HH Pandya,Mumbai Indians,AllRounder,9.5,37.0,1.0,66.0,1.0
-AJ Finch,Royal Challengers Bangalore,Batsmen,9.0,37.0,1.0,41.0,
-MM Ali,Royal Challengers Bangalore,AllRounder,8.5,36.0,1.0,51.0,1.0
-A Zampa,Royal Challengers Bangalore,Bowler,8.5,31.0,1.0,34.0,1.0
-YS Chahal,Royal Challengers Bangalore,Bowler,9.0,30.0,1.0,44.0,1.0
-DW Steyn,Royal Challengers Bangalore,Bowler,8.5,29.0,1.0,28.0,
-CH Morris,Royal Challengers Bangalore,AllRounder,9.0,36.0,,53.0,1.0
-Washington Sundar,Royal Challengers Bangalore,AllRounder,8.0,36.0,,34.0,
-V Kohli,Royal Challengers Bangalore,Batsmen,10.5,35.0,,42.0,
-PA Patel,Royal Challengers Bangalore,Batsmen,8.5,34.0,,48.0,1.0
-S Dube,Royal Challengers Bangalore,AllRounder,8.0,34.0,,28.0,
-KH Pandya,Mumbai Indians,AllRounder,8.5,34.0,,35.0,
-Q de Kock,Mumbai Indians,Batsmen,9.5,34.0,,43.0,
-KA Pollard,Mumbai Indians,AllRounder,9.0,34.0,,28.0,
-JJ Bumrah,Mumbai Indians,Batsmen,9.0,32.0,,40.0,
-RD Chahar,Mumbai Indians,Batsmen,8.0,30.0,,32.0,
-TA Boult,Mumbai Indians,Batsmen,8.5,29.0,,32.0,
-UT Yadav,Royal Challengers Bangalore,Bowler,8.5,29.0,,33.0,
-NA Saini,Royal Challengers Bangalore,Bowler,8.5,29.0,,31.0,
-Mohammed Siraj,Royal Challengers Bangalore,Bowler,8.0,28.0,,31.0,
-James Pattinson,Mumbai Indians,Batsmen,8.0,27.0,,35.0,
-P Negi,Royal Challengers Bangalore,Bowler,8.0,27.0,,32.0,1.0
-I Kishan,Mumbai Indians,Batsmen,8.5,25.0,,,
+DA Warner,Sunrisers Hyderabad,Batsmen,10.5,89.0,1.0,82.0,1.0
+JM Bairstow,Sunrisers Hyderabad,Batsmen,9.5,66.0,1.0,167.0,1.0
+MK Pandey,Sunrisers Hyderabad,Batsmen,9.0,41.0,1.0,49.0,1.0
+MP Stoinis,Delhi Capitals,AllRounder,8.5,39.0,1.0,34.0,1.0
+RR Pant,Delhi Capitals,Batsmen,9.5,37.0,1.0,27.0,
+PP Shaw,Delhi Capitals,Batsmen,8.5,37.0,1.0,30.0,1.0
+SS Iyer,Delhi Capitals,Batsmen,9.0,35.0,1.0,30.0,1.0
+KK Ahmed,Sunrisers Hyderabad,Bowler,8.0,35.0,1.0,29.0,1.0
+AR Patel,Delhi Capitals,AllRounder,8.5,33.0,1.0,29.0,
+K Rabada,Delhi Capitals,Bowler,9.0,32.0,1.0,24.0,
+Rashid Khan,Sunrisers Hyderabad,Bowler,9.5,30.0,1.0,21.0,
+S Dhawan,Delhi Capitals,Batsmen,10.0,34.0,,31.0,1.0
+KS Williamson,Sunrisers Hyderabad,Batsmen,9.5,30.0,,31.0,1.0
+I Sharma,Delhi Capitals,Bowler,8.5,29.0,,31.0,1.0
+A Mishra,Delhi Capitals,Bowler,8.5,28.0,,28.0,1.0
+T Natarajan,Sunrisers Hyderabad,Bowler,8.0,27.0,,26.0,

@@ -173,6 +173,7 @@ if __name__ == "__main__":
 
     # Enter the details of the current match/
     TEAM1, TEAM2, VENUE = get_team_details(datapath, index=0)
+    print(TEAM1, TEAM2, VENUE)
     # TEAM1 = "Mumbai Indians"
     # TEAM2 = "Royal Challengers Bangalore"
     CITY = 'neutral venue'
@@ -184,7 +185,7 @@ if __name__ == "__main__":
         print("updating the masterdata")
         update_master_data(datapath, pointsconfig)
         # Change the values of team1, team2, city and venue depending on the match
-        print("createing pred features dataframe")
+        print("creating pred features dataframe")
         create_pred_dataframe_before_playing_XI(datapath, colconfig, TEAM1, TEAM2, CITY, VENUE, toss_winner=TEAM1)
     if SELECT_CURRENT_TEAM:
         if SELECT_FROM_PLAYING_XI:

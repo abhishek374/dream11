@@ -53,8 +53,6 @@ def execute_featureengg(matchdatascorecardpath,matchsummarypath, featenggpath,co
     # Temp till we get better alternate to cost of each player
     # FeatEng.ipl_features['playercost'] = 10
     FeatEng.ipl_features.to_csv(featenggpath, index=False)
-    print("inside execute_featureeng")
-    print(FeatEng.ipl_features[FeatEng.ipl_features['matchid'] == 1216546][['playername','playing_team',"opposition_team"]] )
 
     return FeatEng.ipl_features
 
@@ -205,10 +203,12 @@ def create_pred_dataframe_after_playing_XI(datapath):
     :return:
     """
     playing_squad = get_current_squad()
-    print("shap of playing squad",playing_squad.shape)
+    print("shap of playing squad", playing_squad.shape)
     if playing_squad.shape[0] != 0:
         prefeaturedata = pd.read_csv(datapath['predfeaturepath'])
-        prefeaturedata = prefeaturedata[prefeaturedata['playername'].isin(playing_squad['playername'])]
+        print("prefeaturedata",prefeaturedata.columns)
+        print("playing_squad", playing_squad.columns)
+        prefeaturedata = prefeaturedata[prefeaturedata['playername'].isin(playing_squad['new_playername'])]
         prefeaturedata.to_csv(datapath['predfeaturepath'], index=False)
         print("preddatafeature updated with currently playing members")
 

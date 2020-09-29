@@ -295,7 +295,7 @@ def get_current_squad():
             names_mapping.columns = ['playername', 'new_playername']
             today_squad = pd.merge(today_squad, names_mapping, on='playername', how='inner')
             today_squad.drop(columns=['playername'], inplace=True)
-            today_squad.nrename(columns={'new_playername': "playername"})
+            today_squad.rename(columns={'new_playername': "playername"})
             today_squad.to_csv(directory+'/teams/'+str(eventid)+'_squad.csv', index=False)
 
         ###########################################################################
