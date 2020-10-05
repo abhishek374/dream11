@@ -23,7 +23,7 @@ def execute_get_scorecard(matchdatapath, scorecardpath,pointsconfig):
     # calculating the points scored by the players based on dream11 scoring method
     ipl_scorecard_points = Dream11Points(ipl_scorecard.ipl_merged_scorecard, pointsconfig)
     ipl_scorecard_points.get_batsmen_bowler_points()
-    ipl_scorecard_points.player_scorecard.to_csv(scorecardpath)
+    ipl_scorecard_points.player_scorecard.to_csv(scorecardpath,index = False)
     return ipl_scorecard_points.player_scorecard
 
 ##################Part to create additional features for modeling###################################################
@@ -126,7 +126,7 @@ def execute_team_selection(datapath, constconfig, colconfig):
     optimum_team = SelectPlayingTeam(ipl_features, constconfig, colconfig)
     # select Top11 based on the predicted points
     optimum_team.select_top11_players(pointscol=colconfig['PREDPOINTS'], selectioncol=colconfig['PREDSELECTION'],
-                                      rankcol=colconfig['PREDSELECTIONRANK'], adjustcappoints=True)
+                                      rankcol=colconfig['PREDSELECTIONRANK'], adjustcappoints=False)
     return optimum_team
 
 ##################Part to calculate the accuracy of the selected 11 if the actual 11 is available#######################
@@ -143,7 +143,7 @@ def execute_rewards_calcualtion(datapath, constconfig, colconfig, rewardconfig):
     optimum_team.select_top11_players(pointscol=colconfig['ACTUALPOINTS'], selectioncol=colconfig['ACTUALSELECTION'],
                                       rankcol=colconfig['ACTUALSELECTIONRANK'], adjustcappoints=True)
 
-    optimum_team.team_points.to_csv(r'Data/team_points.csv', index=False)
+    optimum_team.team_points.to_csv(datapath['teampoints'], index=False)
     # get the rewards estimate
     ipl_team_rewards = RewardEstimate(optimum_team.team_points, matchdata.copy())
 
@@ -152,11 +152,11 @@ def execute_rewards_calcualtion(datapath, constconfig, colconfig, rewardconfig):
 
     # estimating the monetary impact of the project
     ipl_team_rewards.get_estimated_rewards(rewardconfig, fixed_multipler=50)
-    ipl_team_rewards.total_match_points.to_csv(r'Data/rewards_df.csv', index=False)
+    ipl_team_rewards.total_match_points.to_csv(datapath['rewardspath'], index=False)
 
     # calculating a yearly summary of the model
     yearly_summary = ipl_team_rewards.get_rewards_summary()
-    yearly_summary.to_csv(r'Data/rewards_yearly_summary.csv', index=False)
+    yearly_summary.to_csv(datapath['yearlrewardspath'], index=False)
     print(ipl_team_rewards.total_match_points['rewards_earned'].sum())
 
 
@@ -203,14 +203,24 @@ def create_pred_dataframe_after_playing_XI(datapath):
     :return:
     """
     playing_squad = get_current_squad()
-    print("shap of playing squad", playing_squad.shape)
+    print("shape of playing squad", playing_squad.shape)
+    prefeaturedata = pd.read_csv(datapath['predfeaturepath'])
+    team_list = prefeaturedata['playing_team'].unique()
     if playing_squad.shape[0] != 0:
-        prefeaturedata = pd.read_csv(datapath['predfeaturepath'])
-        print("prefeaturedata",prefeaturedata.columns)
-        print("playing_squad", playing_squad.columns)
-        prefeaturedata = prefeaturedata[prefeaturedata['playername'].isin(playing_squad['new_playername'])]
-        prefeaturedata.to_csv(datapath['predfeaturepath'], index=False)
-        print("preddatafeature updated with currently playing members")
+        prefeaturedata = prefeaturedata[prefeaturedata['playername'].isin(playing_squad['playername'])]
+    else:
+        matchdatatemp = pd.read_csv(datapath['matchdatascorecardpath'])
+        matchdatatemp['playing_team'] = np.where(pd.isnull(matchdatatemp['batsmen_innings']),matchdatatemp['bowler_bowlingteam'],matchdatatemp['batsmen_battingteam'])
+        matchdatatemp2 = matchdatatemp[(matchdatatemp['playing_team'].isin(team_list))]
+        matchid_rank = pd.DataFrame(matchdatatemp2[['matchid', 'playing_team']].groupby('playing_team')['matchid'].rank(ascending=False,method='dense').
+            reset_index().rename(columns={'matchid': 'rank'}))
+        matchid_rank_list = matchid_rank[matchid_rank['rank'] <= 2]['index'].unique()
+        matchdatatemp2 = matchdatatemp2[matchdatatemp2.index.isin(matchid_rank_list)][
+            ['playername', 'playing_team', 'playing_role', 'batsmen_innings', 'bowler_bowlingteam','batsmen_battingteam', 'batsmen_bowlingteam']]
+        matchdatatemp2 = matchdatatemp2.drop_duplicates(subset=['playername', 'playing_team'])
+        prefeaturedata = prefeaturedata[prefeaturedata['playername'].isin(matchdatatemp2['playername'])]
+    prefeaturedata.to_csv(datapath['predfeaturepath'], index=False)
+    print("preddatafeature updated with currently playing members")
 
     return
 

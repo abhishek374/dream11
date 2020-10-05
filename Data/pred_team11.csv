@@ -1,17 +1,21 @@
 playername,teamname,playingrole,playercost,model1_points,model1_team,model2_points,model2_team
-DA Warner,Sunrisers Hyderabad,Batsmen,10.5,89.0,1.0,82.0,1.0
-JM Bairstow,Sunrisers Hyderabad,Batsmen,9.5,66.0,1.0,167.0,1.0
-MK Pandey,Sunrisers Hyderabad,Batsmen,9.0,41.0,1.0,49.0,1.0
-MP Stoinis,Delhi Capitals,AllRounder,8.5,39.0,1.0,34.0,1.0
-RR Pant,Delhi Capitals,Batsmen,9.5,37.0,1.0,27.0,
-PP Shaw,Delhi Capitals,Batsmen,8.5,37.0,1.0,30.0,1.0
-SS Iyer,Delhi Capitals,Batsmen,9.0,35.0,1.0,30.0,1.0
-KK Ahmed,Sunrisers Hyderabad,Bowler,8.0,35.0,1.0,29.0,1.0
-AR Patel,Delhi Capitals,AllRounder,8.5,33.0,1.0,29.0,
-K Rabada,Delhi Capitals,Bowler,9.0,32.0,1.0,24.0,
-Rashid Khan,Sunrisers Hyderabad,Bowler,9.5,30.0,1.0,21.0,
-S Dhawan,Delhi Capitals,Batsmen,10.0,34.0,,31.0,1.0
-KS Williamson,Sunrisers Hyderabad,Batsmen,9.5,30.0,,31.0,1.0
-I Sharma,Delhi Capitals,Bowler,8.5,29.0,,31.0,1.0
-A Mishra,Delhi Capitals,Bowler,8.5,28.0,,28.0,1.0
-T Natarajan,Sunrisers Hyderabad,Bowler,8.0,27.0,,26.0,
+AB de Villiers,Royal Challengers Bangalore,Batsmen,10.0,45.0,1.0,87.0,1.0
+RR Pant,Delhi Capitals,Batsmen,9.5,38.0,1.0,73.0,1.0
+AJ Finch,Royal Challengers Bangalore,Batsmen,9.0,37.0,1.0,51.0,1.0
+SS Iyer,Delhi Capitals,Batsmen,9.0,37.0,1.0,70.0,1.0
+PP Shaw,Delhi Capitals,Batsmen,8.5,36.0,1.0,53.0,1.0
+V Kohli,Royal Challengers Bangalore,Batsmen,10.5,35.0,1.0,31.0,
+S Dhawan,Delhi Capitals,Batsmen,10.0,35.0,1.0,46.0,1.0
+Washington Sundar,Royal Challengers Bangalore,AllRounder,8.0,33.0,1.0,28.0,
+DW Steyn,Royal Challengers Bangalore,Bowler,8.5,30.0,1.0,28.0,
+A Zampa,Royal Challengers Bangalore,Bowler,8.5,30.0,1.0,35.0,1.0
+NA Saini,Royal Challengers Bangalore,Bowler,8.5,29.0,1.0,32.0,
+MP Stoinis,Delhi Capitals,AllRounder,8.5,34.0,,40.0,1.0
+S Dube,Royal Challengers Bangalore,AllRounder,8.0,33.0,,25.0,
+AR Patel,Delhi Capitals,AllRounder,8.5,32.0,,35.0,1.0
+K Rabada,Delhi Capitals,Bowler,9.0,29.0,,34.0,
+UT Yadav,Royal Challengers Bangalore,Bowler,8.5,29.0,,33.0,
+I Sharma,Delhi Capitals,Bowler,8.5,29.0,,46.0,1.0
+YS Chahal,Royal Challengers Bangalore,Bowler,9.0,28.0,,33.0,
+A Mishra,Delhi Capitals,Bowler,8.5,27.0,,34.0,1.0
+A Nortje,Delhi Capitals,Bowler,8.0,25.0,,,

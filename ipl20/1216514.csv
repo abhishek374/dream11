@@ -1,0 +1,26 @@
+ipl_season,sequence,eventid,innings,target,remainingballs,homescore,awayscore,fallofwickets,ball,over,scorevalue,validball,extras,dismissal,dismissaltype,batsmanid,batsman,batsmanteam,bowlerid,bowler,bowlerteam,otherathleteinvolvedid,otherathleteinvolved,nonstrikerid,nonstriker,runs,runrate
+ipl20,100001,1216514,1st innings,0,119,0/0,0,0,1,0.1,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,328026,Isuru Udana,Royal Challengers Bangalore,,,267192,Steven Smith,0,0.0
+ipl20,100002,1216514,1st innings,0,118,4/0,0,0,2,0.2,4,0,0,False,,308967,Jos Buttler,Rajasthan Royals,328026,Isuru Udana,Royal Challengers Bangalore,,,267192,Steven Smith,4,12.0
+ipl20,100003,1216514,1st innings,0,117,5/0,0,0,3,0.3,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,328026,Isuru Udana,Royal Challengers Bangalore,,,267192,Steven Smith,1,10.0
+ipl20,100004,1216514,1st innings,0,116,5/0,0,0,4,0.4,0,0,0,False,,267192,Steven Smith,Rajasthan Royals,328026,Isuru Udana,Royal Challengers Bangalore,,,308967,Jos Buttler,0,7.5
+ipl20,100005,1216514,1st innings,0,115,5/0,0,0,5,0.5,0,0,0,False,,267192,Steven Smith,Rajasthan Royals,328026,Isuru Udana,Royal Challengers Bangalore,,,308967,Jos Buttler,0,6.0
+ipl20,100006,1216514,1st innings,0,114,9/0,0,0,6,0.6,4,0,0,False,,267192,Steven Smith,Rajasthan Royals,328026,Isuru Udana,Royal Challengers Bangalore,,,308967,Jos Buttler,4,9.0
+ipl20,100101,1216514,1st innings,0,113,9/0,0,0,7,1.1,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,719715,Washington Sundar,Royal Challengers Bangalore,,,267192,Steven Smith,0,7.71
+ipl20,100102,1216514,1st innings,0,112,13/0,0,0,8,1.2,4,0,0,False,,308967,Jos Buttler,Rajasthan Royals,719715,Washington Sundar,Royal Challengers Bangalore,,,267192,Steven Smith,4,9.75
+ipl20,100103,1216514,1st innings,0,111,14/0,0,0,9,1.3,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,719715,Washington Sundar,Royal Challengers Bangalore,,,267192,Steven Smith,1,9.33
+ipl20,100104,1216514,1st innings,0,110,15/0,0,0,10,1.4,1,0,0,False,,267192,Steven Smith,Rajasthan Royals,719715,Washington Sundar,Royal Challengers Bangalore,,,308967,Jos Buttler,1,9.0
+ipl20,100105,1216514,1st innings,0,109,15/0,0,0,11,1.5,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,719715,Washington Sundar,Royal Challengers Bangalore,,,267192,Steven Smith,0,8.18
+ipl20,100106,1216514,1st innings,0,108,16/0,0,0,12,1.6,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,719715,Washington Sundar,Royal Challengers Bangalore,,,267192,Steven Smith,1,8.0
+ipl20,100201,1216514,1st innings,0,107,22/0,0,0,13,2.1,6,0,0,False,,308967,Jos Buttler,Rajasthan Royals,328026,Isuru Udana,Royal Challengers Bangalore,,,267192,Steven Smith,6,10.15
+ipl20,100202,1216514,1st innings,0,106,26/0,0,0,14,2.2,4,0,0,False,,308967,Jos Buttler,Rajasthan Royals,328026,Isuru Udana,Royal Challengers Bangalore,,,267192,Steven Smith,4,11.14
+ipl20,100203,1216514,1st innings,0,105,27/0,0,0,15,2.3,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,328026,Isuru Udana,Royal Challengers Bangalore,,,267192,Steven Smith,1,10.8
+ipl20,100204,1216514,1st innings,0,104,27/1,0,1,16,2.4,0,0,0,True,bowled,267192,Steven Smith,Rajasthan Royals,328026,Isuru Udana,Royal Challengers Bangalore,267192,Steven Smith,308967,Jos Buttler,0,10.12
+ipl20,100205,1216514,1st innings,0,103,31/1,0,0,17,2.5,4,0,0,False,,425943,Sanju Samson,Rajasthan Royals,328026,Isuru Udana,Royal Challengers Bangalore,,,308967,Jos Buttler,4,10.94
+ipl20,100206,1216514,1st innings,0,102,31/1,0,0,18,2.6,0,0,0,False,,425943,Sanju Samson,Rajasthan Royals,328026,Isuru Udana,Royal Challengers Bangalore,,,308967,Jos Buttler,0,10.33
+ipl20,100301,1216514,1st innings,0,101,31/2,0,2,19,3.1,0,0,0,True,caught,308967,Jos Buttler,Rajasthan Royals,700167,Navdeep Saini,Royal Challengers Bangalore,308967,Jos Buttler,425943,Sanju Samson,0,9.78
+ipl20,100302,1216514,1st innings,0,100,31/2,0,0,20,3.2,0,0,0,False,,35582,Robin Uthappa,Rajasthan Royals,700167,Navdeep Saini,Royal Challengers Bangalore,,,425943,Sanju Samson,0,9.3
+ipl20,100303,1216514,1st innings,0,99,31/2,0,0,21,3.3,0,0,0,False,,35582,Robin Uthappa,Rajasthan Royals,700167,Navdeep Saini,Royal Challengers Bangalore,,,425943,Sanju Samson,0,8.85
+ipl20,100304,1216514,1st innings,0,98,31/2,0,0,22,3.4,0,0,0,False,,35582,Robin Uthappa,Rajasthan Royals,700167,Navdeep Saini,Royal Challengers Bangalore,,,425943,Sanju Samson,0,8.45
+ipl20,100305,1216514,1st innings,0,97,31/2,0,0,23,3.5,0,0,0,False,,35582,Robin Uthappa,Rajasthan Royals,700167,Navdeep Saini,Royal Challengers Bangalore,,,425943,Sanju Samson,0,8.08
+ipl20,100306,1216514,1st innings,0,96,31/2,0,0,24,3.6,0,0,0,False,,35582,Robin Uthappa,Rajasthan Royals,700167,Navdeep Saini,Royal Challengers Bangalore,,,425943,Sanju Samson,0,7.75
+ipl20,100401,1216514,1st innings,0,95,31/3,0,3,25,4.1,0,0,0,True,caught,425943,Sanju Samson,Rajasthan Royals,430246,Yuzvendra Chahal,Royal Challengers Bangalore,430246,Yuzvendra Chahal,35582,Robin Uthappa,0,7.44

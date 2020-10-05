@@ -6,11 +6,9 @@ from email import encoders
 import pandas as pd
 import csv
 from datetime import date
-def send_email_team(team1, team2, filepath):
+def send_email_team(team1, team2, filepath,sender_email,receiver_email):
     smtp_server = "smtp.gmail.com"
     port = 587  # For starttls
-    sender_email = "abhishek.anand374@gmail.com"
-    receiver_email = "madhavgoswami93@gmail.com"
     password = input("Type your password and press enter: ")
     #read the attachment as pandas
     tabledf = pd.read_csv(filepath)

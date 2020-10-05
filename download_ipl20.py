@@ -271,7 +271,7 @@ def get_current_squad():
     squad_title = 'Squads'
 
     counter = 0
-    while squad_title != 'Playing XI' and counter<=3:
+    while squad_title != 'Playing XI' and counter < 1:
         URL= "https://hsapi.espncricinfo.com/v1/pages/match/home?lang=en&leagueId=8048&eventId="+str(eventid)+"&liveTest=false&qaTest=false"
         print(URL)
         response = requests.get(URL, headers=headers)
@@ -295,13 +295,9 @@ def get_current_squad():
             names_mapping.columns = ['playername', 'new_playername']
             today_squad = pd.merge(today_squad, names_mapping, on='playername', how='inner')
             today_squad.drop(columns=['playername'], inplace=True)
-            today_squad.rename(columns={'new_playername': "playername"})
+            today_squad.rename(columns={'new_playername': "playername"}, inplace=True)
             today_squad.to_csv(directory+'/teams/'+str(eventid)+'_squad.csv', index=False)
 
-        ###########################################################################
-
-
-        ###########################################################################
         else:
             print('could not find the playing XI on page, trying again in 60 secs')
             time.sleep(60)

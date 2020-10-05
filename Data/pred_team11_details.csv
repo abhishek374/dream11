@@ -1,0 +1,21 @@
+matchid,playername,playing_role,playing_team,playercost,pred_points_catboost,pred_selection_true_catboost,pred_points_xgb,pred_selection_true_xgb,pred_points_rf,pred_selection_true_rf,pred_points_movingaverage,pred_selection_true_movingaverage,pred_points_ensemble,pred_selection_true_ensemble
+1216548,AB de Villiers,Batsmen,Royal Challengers Bangalore,10,45.32956717,1,66.72007,1,45.40540597,1,99.66666667,1,86.88511145,1
+1216548,RR Pant,Batsmen,Delhi Capitals,9.5,38.47936552,1,55.085533,1,40.31194836,1,60.66666667,1,72.93422297,1
+1216548,AJ Finch,Batsmen,Royal Challengers Bangalore,9,37.40621809,1,45.087746,1,36.93276464,1,70,1,50.98809048,1
+1216548,SS Iyer,Batsmen,Delhi Capitals,9,36.88606619,1,53.108475,1,38.67209826,1,66.66666667,1,70.28078516,1
+1216548,PP Shaw,Batsmen,Delhi Capitals,8.5,35.85211941,1,45.211426,1,35.78739853,1,88.66666667,1,52.62046156,1
+1216548,V Kohli,Batsmen,Royal Challengers Bangalore,10.5,35.30605438,1,33.57217,,34.06618654,,11,1,30.6809565,
+1216548,S Dhawan,Batsmen,Delhi Capitals,10,34.53291431,1,40.494328,1,34.98147947,1,52.66666667,1,45.92862517,1
+1216548,Washington Sundar,AllRounder,Royal Challengers Bangalore,8,33.40519857,1,31.502556,,31.3785681,,0,,28.07679979,
+1216548,DW Steyn,Bowler,Royal Challengers Bangalore,8.5,29.56846027,1,27.066889,,33.25272494,1,13.33333333,1,27.60242538,
+1216548,A Zampa,Bowler,Royal Challengers Bangalore,8.5,29.51389726,1,31.070042,1,32.08631603,,14,1,34.93386856,1
+1216548,NA Saini,Bowler,Royal Challengers Bangalore,8.5,29.35764058,1,29.415985,1,31.61669271,,1.333333333,,31.82377448,
+1216548,MP Stoinis,AllRounder,Delhi Capitals,8.5,34.42109623,,37.53013,1,33.78931726,1,10.33333333,,40.37989214,1
+1216548,S Dube,AllRounder,Royal Challengers Bangalore,8,33.26210618,,30.0889,,31.28664142,,21.33333333,1,24.62235706,
+1216548,AR Patel,AllRounder,Delhi Capitals,8.5,31.61363483,,32.69137,1,33.11924511,1,6,,35.38760394,1
+1216548,K Rabada,Bowler,Delhi Capitals,9,29.11118168,,29.109777,,33.9043397,1,2.666666667,,33.66992508,
+1216548,UT Yadav,Bowler,Royal Challengers Bangalore,8.5,29.01323049,,29.073517,,32.7690493,,-2.333333333,,32.9411341,
+1216548,I Sharma,Bowler,Delhi Capitals,8.5,28.57575888,,34.400566,1,34.9647891,1,30,1,45.69148223,1
+1216548,YS Chahal,Bowler,Royal Challengers Bangalore,9,28.24493798,,28.285479,,32.54722864,,0.666666667,,32.50877741,
+1216548,A Mishra,Bowler,Delhi Capitals,8.5,27.46154977,,28.165796,,32.51566927,,-2,,33.85233307,1
+1216548,A Nortje,Bowler,Delhi Capitals,8,25.1068339,,27.213196,,30.67959299,,,,,

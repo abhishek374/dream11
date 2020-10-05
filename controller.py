@@ -104,6 +104,9 @@ if __name__ == "__main__":
 
     matchsummarypathipl20 = r"ipl20/match_summary_ipl20.csv"
     iplcurrentsquad = r"Data/ipl_squad_points.csv"
+    teampoints = r'Data/team_points.csv'
+    rewardspath =r'Data/rewards_df.csv'
+    yearlyrewardspath = r'Data/rewards_yearly_summary.csv'
 
 
     datapath = {'matchdatapath': matchdatapath,
@@ -121,7 +124,10 @@ if __name__ == "__main__":
                 'predfeaturepath': predfeaturepath,
                 'nextmatchteampath': nextmatchteampath,
                 'predscorecardpath': predscorecardpath,
-                "iplcurrentsquad": iplcurrentsquad}
+                "iplcurrentsquad": iplcurrentsquad,
+                "teampoints": teampoints,
+                "rewardspath": rewardspath,
+                'yearlrewardspath': yearlyrewardspath}
 
     # Change the below to true to run the training of the models part of the permissible list
     TRAIN_MODEL = False
@@ -136,7 +142,10 @@ if __name__ == "__main__":
     # Change this to True if the current playing XI is available
     SELECT_FROM_PLAYING_XI = True
     # Change this to true to send email if the file fo next match is present at nextmatchteampath
-    SEND_EMAIL = True
+    SEND_EMAIL = False
+    sender_email = "abhishek.anand374@gmail.com"
+    receiver_email = "madhavgoswami93@gmail.com" # add more emails to this by using "," seperator
+    # config dor send_email
     modelnamelist = ['xgb', 'catboost', 'rf', 'movingaverage']
     #modelnamelist = ['catboost']
     # Run the below function to train the model
@@ -199,22 +208,24 @@ if __name__ == "__main__":
             datapath['modelpath'] = modelpath
             datapath['encoderpath'] = encoderpath
             if modelname == 'ensemble':
-                EnsembleModel().get_ensemble_model_pred(datapath, finalteam, predcol_list, pred_col)
+                EnsembleModel().get_ensemble_model_pred(datapath, finalteam.copy(), predcol_list, pred_col)
             else:
                 execute_model_prediction(datapath, predictors, modelname, cat_cols, pred_col, usetimeseries=False, predpath=True)
             teamtemp = execute_team_selection(datapath, constconfig, colconfig).team_points
-            teamtemp.sort_values(by=['matchid','pred_selection_true', 'pred_points', 'playername'], inplace=True, ascending=False)
+            print("teamtemp1", teamtemp.iloc[:, 13:15])
+            teamtemp.sort_values(by=['matchid', 'pred_selection_true', 'pred_points', 'playername'], inplace=True, ascending=False)
             teamtemp.rename(columns={'pred_points': 'pred_points' + '_' + modelname, 'pred_selection_true': 'pred_selection_true' + '_' + modelname}, inplace=True)
-            teamtemp = teamtemp[['matchid','playername', 'playing_role', 'playing_team', 'playercost','pred_points' + '_' + modelname, 'pred_selection_true' + '_' + modelname]]
+            teamtemp = teamtemp[['matchid', 'playername', 'playing_role', 'playing_team', 'playercost', 'pred_points' + '_' + modelname, 'pred_selection_true' + '_' + modelname]]
+            print("teamtemp2", teamtemp.iloc[:, 4:6])
             predcol_list.append('pred_points' + '_' + modelname)
             if finalteam.shape[0] == 0:
                 finalteam = teamtemp
             else:
                 finalteam = pd.merge(finalteam, teamtemp, on=['matchid','playername', 'playing_role', 'playing_team','playercost'], how='left')
-        # collist = [col for col in finalteam.columns if 'pred_selection' in col]
-        # finalteam['pred_selection_all'] = finalteam[collist].apply(np.sum, axis=1)
-        # finalteam['pred_selection_all'] = np.where(finalteam['pred_selection_all'] == len(collist), 1, "")
+
+        finalteam.to_csv(r'C:\Users\40100147\PycharmProjects\dream11\Data\pred_team11_details.csv',index =False)
         finalteam = formatdata(finalteam)
         finalteam.to_csv(nextmatchteampath, index=False)
     if SEND_EMAIL:
-        send_email_team(TEAM1, TEAM2, nextmatchteampath)
+        send_email_team(TEAM1, TEAM2, nextmatchteampath,senders_email ,receievers_email )
+

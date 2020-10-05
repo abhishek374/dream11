@@ -1,0 +1,237 @@
+ipl_season,sequence,eventid,innings,target,remainingballs,homescore,awayscore,fallofwickets,ball,over,scorevalue,validball,extras,dismissal,dismissaltype,batsmanid,batsman,batsmanteam,bowlerid,bowler,bowlerteam,otherathleteinvolvedid,otherathleteinvolved,nonstrikerid,nonstriker,runs,runrate
+ipl20,100001,1216513,1st innings,0,119,2/0,0,0,1,0.1,2,0,0,False,,422108,KL Rahul,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,398438,Mayank Agarwal,2,12.0
+ipl20,100002,1216513,1st innings,0,118,2/0,0,0,2,0.2,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,398438,Mayank Agarwal,0,6.0
+ipl20,100003,1216513,1st innings,0,117,2/0,0,0,3,0.3,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,398438,Mayank Agarwal,0,4.0
+ipl20,100004,1216513,1st innings,0,116,2/0,0,0,4,0.4,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,398438,Mayank Agarwal,0,3.0
+ipl20,100005,1216513,1st innings,0,115,3/0,0,0,5,0.5,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,398438,Mayank Agarwal,1,3.6
+ipl20,100006,1216513,1st innings,0,114,4/0,0,0,6,0.6,1,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,422108,KL Rahul,1,4.0
+ipl20,100101,1216513,1st innings,0,113,6/0,0,0,7,1.1,2,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,422108,KL Rahul,2,5.14
+ipl20,100102,1216513,1st innings,0,112,7/0,0,0,8,1.2,1,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,422108,KL Rahul,1,5.25
+ipl20,100103,1216513,1st innings,0,111,11/0,0,0,9,1.3,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,398438,Mayank Agarwal,4,7.33
+ipl20,100104,1216513,1st innings,0,110,11/0,0,0,10,1.4,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,398438,Mayank Agarwal,0,6.6
+ipl20,100105,1216513,1st innings,0,109,12/0,0,0,11,1.5,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,398438,Mayank Agarwal,1,6.54
+ipl20,100106,1216513,1st innings,0,108,12/0,0,0,12,1.6,0,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,422108,KL Rahul,0,6.0
+ipl20,100201,1216513,1st innings,0,107,12/0,0,0,13,2.1,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,398438,Mayank Agarwal,0,5.53
+ipl20,100202,1216513,1st innings,0,106,14/0,0,0,14,2.2,2,0,0,False,,422108,KL Rahul,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,398438,Mayank Agarwal,2,6.0
+ipl20,100203,1216513,1st innings,0,105,18/0,0,0,15,2.3,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,398438,Mayank Agarwal,4,7.2
+ipl20,100204,1216513,1st innings,0,104,18/0,0,0,16,2.4,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,398438,Mayank Agarwal,0,6.75
+ipl20,100205,1216513,1st innings,0,103,19/0,0,0,17,2.5,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,398438,Mayank Agarwal,1,6.7
+ipl20,100206,1216513,1st innings,0,102,19/0,0,0,18,2.6,0,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,422108,KL Rahul,0,6.33
+ipl20,100301,1216513,1st innings,0,101,20/0,0,0,19,3.1,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,398438,Mayank Agarwal,1,6.31
+ipl20,100302,1216513,1st innings,0,100,21/0,0,0,20,3.2,1,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,422108,KL Rahul,1,6.3
+ipl20,100303,1216513,1st innings,0,99,22/0,0,0,21,3.3,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,398438,Mayank Agarwal,1,6.28
+ipl20,100304,1216513,1st innings,0,98,26/0,0,0,22,3.4,4,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,422108,KL Rahul,4,7.09
+ipl20,100305,1216513,1st innings,0,97,27/0,0,0,23,3.5,1,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,422108,KL Rahul,1,7.04
+ipl20,100306,1216513,1st innings,0,96,31/0,0,0,24,3.6,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,398438,Mayank Agarwal,4,7.75
+ipl20,100401,1216513,1st innings,0,95,31/0,0,0,25,4.1,0,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,422108,KL Rahul,0,7.44
+ipl20,100402,1216513,1st innings,0,94,35/0,0,0,26,4.2,4,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,422108,KL Rahul,4,8.07
+ipl20,100403,1216513,1st innings,0,93,36/0,0,0,27,4.3,1,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,422108,KL Rahul,1,8.0
+ipl20,100404,1216513,1st innings,0,92,37/0,0,0,28,4.4,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,398438,Mayank Agarwal,1,7.92
+ipl20,100405,1216513,1st innings,0,91,38/0,0,0,29,4.5,1,0,1,False,,398438,Mayank Agarwal,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,422108,KL Rahul,1,7.86
+ipl20,100406,1216513,1st innings,0,90,38/0,0,0,30,4.6,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,447261,Deepak Chahar,Chennai Super Kings,,,398438,Mayank Agarwal,0,7.6
+ipl20,100501,1216513,1st innings,0,89,42/0,0,0,31,5.1,4,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,422108,KL Rahul,4,8.12
+ipl20,100502,1216513,1st innings,0,88,43/0,0,0,32,5.2,1,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,422108,KL Rahul,1,8.06
+ipl20,100503,1216513,1st innings,0,87,44/0,0,0,33,5.3,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,398438,Mayank Agarwal,1,8.0
+ipl20,100504,1216513,1st innings,0,86,45/0,0,0,34,5.4,1,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,422108,KL Rahul,1,7.94
+ipl20,100505,1216513,1st innings,0,85,45/0,0,0,35,5.5,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,398438,Mayank Agarwal,0,7.71
+ipl20,100506,1216513,1st innings,0,84,46/0,0,0,36,5.6,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,398438,Mayank Agarwal,1,7.66
+ipl20,100601,1216513,1st innings,0,83,47/0,0,0,37,6.1,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,398438,Mayank Agarwal,1,7.62
+ipl20,100602,1216513,1st innings,0,83,48/0,0,0,37,6.1,1,1,1,False,,398438,Mayank Agarwal,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,422108,KL Rahul,1,7.78
+ipl20,100603,1216513,1st innings,0,83,49/0,0,0,37,6.1,1,1,1,False,,398438,Mayank Agarwal,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,422108,KL Rahul,1,7.94
+ipl20,100604,1216513,1st innings,0,82,50/0,0,0,38,6.2,1,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,422108,KL Rahul,1,7.89
+ipl20,100605,1216513,1st innings,0,81,50/0,0,0,39,6.3,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,398438,Mayank Agarwal,0,7.69
+ipl20,100606,1216513,1st innings,0,80,50/0,0,0,40,6.4,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,398438,Mayank Agarwal,0,7.5
+ipl20,100607,1216513,1st innings,0,79,54/0,0,0,41,6.5,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,398438,Mayank Agarwal,4,7.9
+ipl20,100608,1216513,1st innings,0,78,55/0,0,0,42,6.6,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,398438,Mayank Agarwal,1,7.85
+ipl20,100701,1216513,1st innings,0,77,56/0,0,0,43,7.1,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,398438,Mayank Agarwal,1,7.81
+ipl20,100702,1216513,1st innings,0,76,59/0,0,0,44,7.2,3,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,422108,KL Rahul,3,8.04
+ipl20,100703,1216513,1st innings,0,75,59/0,0,0,45,7.3,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,398438,Mayank Agarwal,0,7.86
+ipl20,100704,1216513,1st innings,0,74,59/0,0,0,46,7.4,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,398438,Mayank Agarwal,0,7.69
+ipl20,100705,1216513,1st innings,0,73,60/0,0,0,47,7.5,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,398438,Mayank Agarwal,1,7.65
+ipl20,100706,1216513,1st innings,0,72,61/0,0,0,48,7.6,1,0,0,False,,398438,Mayank Agarwal,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,422108,KL Rahul,1,7.62
+ipl20,100801,1216513,1st innings,0,71,61/1,0,1,49,8.1,0,0,0,True,caught,398438,Mayank Agarwal,Kings XI Punjab,32966,Piyush Chawla,Chennai Super Kings,398438,Mayank Agarwal,422108,KL Rahul,0,7.46
+ipl20,100802,1216513,1st innings,0,70,62/1,0,0,50,8.2,1,0,0,False,,398506,Mandeep Singh,Kings XI Punjab,32966,Piyush Chawla,Chennai Super Kings,,,422108,KL Rahul,1,7.44
+ipl20,100803,1216513,1st innings,0,69,63/1,0,0,51,8.3,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,32966,Piyush Chawla,Chennai Super Kings,,,398506,Mandeep Singh,1,7.41
+ipl20,100804,1216513,1st innings,0,68,65/1,0,0,52,8.4,2,0,0,False,,398506,Mandeep Singh,Kings XI Punjab,32966,Piyush Chawla,Chennai Super Kings,,,422108,KL Rahul,2,7.5
+ipl20,100805,1216513,1st innings,0,67,65/1,0,0,53,8.5,0,0,0,False,,398506,Mandeep Singh,Kings XI Punjab,32966,Piyush Chawla,Chennai Super Kings,,,422108,KL Rahul,0,7.35
+ipl20,100806,1216513,1st innings,0,66,66/1,0,0,54,8.6,1,0,0,False,,398506,Mandeep Singh,Kings XI Punjab,32966,Piyush Chawla,Chennai Super Kings,,,422108,KL Rahul,1,7.33
+ipl20,100901,1216513,1st innings,0,65,68/1,0,0,55,9.1,2,0,0,False,,398506,Mandeep Singh,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,422108,KL Rahul,2,7.41
+ipl20,100902,1216513,1st innings,0,64,68/1,0,0,56,9.2,0,0,0,False,,398506,Mandeep Singh,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,422108,KL Rahul,0,7.28
+ipl20,100903,1216513,1st innings,0,63,69/1,0,0,57,9.3,1,0,0,False,,398506,Mandeep Singh,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,422108,KL Rahul,1,7.26
+ipl20,100904,1216513,1st innings,0,62,70/1,0,0,58,9.4,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,398506,Mandeep Singh,1,7.24
+ipl20,100905,1216513,1st innings,0,61,71/1,0,0,59,9.5,1,0,0,False,,398506,Mandeep Singh,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,422108,KL Rahul,1,7.22
+ipl20,100906,1216513,1st innings,0,60,71/1,0,0,60,9.6,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,398506,Mandeep Singh,0,7.1
+ipl20,101001,1216513,1st innings,0,59,73/1,0,0,61,10.1,2,0,0,False,,398506,Mandeep Singh,Kings XI Punjab,32966,Piyush Chawla,Chennai Super Kings,,,422108,KL Rahul,2,7.18
+ipl20,101002,1216513,1st innings,0,58,79/1,0,0,62,10.2,6,0,0,False,,398506,Mandeep Singh,Kings XI Punjab,32966,Piyush Chawla,Chennai Super Kings,,,422108,KL Rahul,6,7.64
+ipl20,101003,1216513,1st innings,0,57,80/1,0,0,63,10.3,1,0,0,False,,398506,Mandeep Singh,Kings XI Punjab,32966,Piyush Chawla,Chennai Super Kings,,,422108,KL Rahul,1,7.61
+ipl20,101004,1216513,1st innings,0,56,81/1,0,0,64,10.4,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,32966,Piyush Chawla,Chennai Super Kings,,,398506,Mandeep Singh,1,7.59
+ipl20,101005,1216513,1st innings,0,55,87/1,0,0,65,10.5,6,0,0,False,,398506,Mandeep Singh,Kings XI Punjab,32966,Piyush Chawla,Chennai Super Kings,,,422108,KL Rahul,6,8.03
+ipl20,101006,1216513,1st innings,0,54,88/1,0,0,66,10.6,1,0,0,False,,398506,Mandeep Singh,Kings XI Punjab,32966,Piyush Chawla,Chennai Super Kings,,,422108,KL Rahul,1,8.0
+ipl20,101101,1216513,1st innings,0,53,90/1,0,0,67,11.1,2,0,0,False,,398506,Mandeep Singh,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,422108,KL Rahul,2,8.05
+ipl20,101102,1216513,1st innings,0,52,91/1,0,0,68,11.2,1,0,0,False,,398506,Mandeep Singh,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,422108,KL Rahul,1,8.02
+ipl20,101103,1216513,1st innings,0,51,91/1,0,0,69,11.3,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,398506,Mandeep Singh,0,7.91
+ipl20,101104,1216513,1st innings,0,50,93/1,0,0,70,11.4,2,0,0,False,,422108,KL Rahul,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,398506,Mandeep Singh,2,7.97
+ipl20,101105,1216513,1st innings,0,49,94/1,0,0,71,11.5,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,398506,Mandeep Singh,1,7.94
+ipl20,101106,1216513,1st innings,0,48,94/2,0,2,72,11.6,0,0,0,True,caught,398506,Mandeep Singh,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,234675,Ravindra Jadeja,422108,KL Rahul,0,7.83
+ipl20,101201,1216513,1st innings,0,47,94/2,0,0,73,12.1,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,604302,Nicholas Pooran,0,7.72
+ipl20,101202,1216513,1st innings,0,46,98/2,0,0,74,12.2,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,604302,Nicholas Pooran,4,7.94
+ipl20,101203,1216513,1st innings,0,45,98/2,0,0,75,12.3,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,604302,Nicholas Pooran,0,7.84
+ipl20,101204,1216513,1st innings,0,44,99/2,0,0,76,12.4,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,604302,Nicholas Pooran,1,7.81
+ipl20,101205,1216513,1st innings,0,43,100/2,0,0,77,12.5,1,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,422108,KL Rahul,1,7.79
+ipl20,101206,1216513,1st innings,0,42,101/2,0,0,78,12.6,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,604302,Nicholas Pooran,1,7.76
+ipl20,101301,1216513,1st innings,0,41,102/2,0,0,79,13.1,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,604302,Nicholas Pooran,1,7.74
+ipl20,101302,1216513,1st innings,0,40,102/2,0,0,80,13.2,0,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,422108,KL Rahul,0,7.65
+ipl20,101303,1216513,1st innings,0,39,103/2,0,0,81,13.3,1,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,422108,KL Rahul,1,7.62
+ipl20,101304,1216513,1st innings,0,38,104/2,0,0,82,13.4,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,604302,Nicholas Pooran,1,7.6
+ipl20,101305,1216513,1st innings,0,37,108/2,0,0,83,13.5,4,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,422108,KL Rahul,4,7.8
+ipl20,101306,1216513,1st innings,0,36,114/2,0,0,84,13.6,6,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,234675,Ravindra Jadeja,Chennai Super Kings,,,422108,KL Rahul,6,8.14
+ipl20,101401,1216513,1st innings,0,35,114/2,0,0,85,14.1,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,604302,Nicholas Pooran,0,8.04
+ipl20,101402,1216513,1st innings,0,34,120/2,0,0,86,14.2,6,0,0,False,,422108,KL Rahul,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,604302,Nicholas Pooran,6,8.37
+ipl20,101403,1216513,1st innings,0,33,124/2,0,0,87,14.3,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,604302,Nicholas Pooran,4,8.55
+ipl20,101404,1216513,1st innings,0,32,128/2,0,0,88,14.4,4,0,0,False,,422108,KL Rahul,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,604302,Nicholas Pooran,4,8.72
+ipl20,101405,1216513,1st innings,0,31,128/2,0,0,89,14.5,0,0,0,False,,422108,KL Rahul,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,604302,Nicholas Pooran,0,8.62
+ipl20,101406,1216513,1st innings,0,30,130/2,0,0,90,14.6,2,0,0,False,,422108,KL Rahul,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,604302,Nicholas Pooran,2,8.66
+ipl20,101501,1216513,1st innings,0,29,131/2,0,0,91,15.1,1,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,422108,KL Rahul,1,8.63
+ipl20,101502,1216513,1st innings,0,28,132/2,0,0,92,15.2,1,0,0,False,,422108,KL Rahul,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,604302,Nicholas Pooran,1,8.6
+ipl20,101503,1216513,1st innings,0,27,138/2,0,0,93,15.3,6,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,422108,KL Rahul,6,8.9
+ipl20,101504,1216513,1st innings,0,26,138/2,0,0,94,15.4,0,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,422108,KL Rahul,0,8.8
+ipl20,101505,1216513,1st innings,0,25,140/2,0,0,95,15.5,2,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,422108,KL Rahul,2,8.84
+ipl20,101506,1216513,1st innings,0,24,141/2,0,0,96,15.6,1,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,662973,Sam Curran,Chennai Super Kings,,,422108,KL Rahul,1,8.81
+ipl20,101601,1216513,1st innings,0,23,143/2,0,0,97,16.1,2,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,422108,KL Rahul,2,8.84
+ipl20,101602,1216513,1st innings,0,22,143/2,0,0,98,16.2,0,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,422108,KL Rahul,0,8.75
+ipl20,101603,1216513,1st innings,0,21,143/2,0,0,99,16.3,0,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,422108,KL Rahul,0,8.66
+ipl20,101604,1216513,1st innings,0,20,149/2,0,0,100,16.4,6,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,422108,KL Rahul,6,8.94
+ipl20,101605,1216513,1st innings,0,19,151/2,0,0,101,16.5,2,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,422108,KL Rahul,2,8.97
+ipl20,101606,1216513,1st innings,0,18,152/2,0,0,102,16.6,1,0,0,False,,604302,Nicholas Pooran,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,422108,KL Rahul,1,8.94
+ipl20,101701,1216513,1st innings,0,17,152/3,0,3,103,17.1,0,0,0,True,caught,604302,Nicholas Pooran,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,475281,Shardul Thakur,422108,KL Rahul,0,8.85
+ipl20,101702,1216513,1st innings,0,16,152/4,0,4,104,17.2,0,0,0,True,caught,422108,KL Rahul,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,475281,Shardul Thakur,325026,Glenn Maxwell,0,8.76
+ipl20,101703,1216513,1st innings,0,15,152/4,0,0,105,17.3,0,0,0,False,,642525,Sarfaraz Khan,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,325026,Glenn Maxwell,0,8.68
+ipl20,101704,1216513,1st innings,0,14,153/4,0,0,106,17.4,1,0,0,False,,642525,Sarfaraz Khan,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,325026,Glenn Maxwell,1,8.66
+ipl20,101705,1216513,1st innings,0,13,153/4,0,0,107,17.5,0,0,0,False,,325026,Glenn Maxwell,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,642525,Sarfaraz Khan,0,8.57
+ipl20,101706,1216513,1st innings,0,12,155/4,0,0,108,17.6,2,0,0,False,,325026,Glenn Maxwell,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,642525,Sarfaraz Khan,2,8.61
+ipl20,101801,1216513,1st innings,0,11,157/4,0,0,109,18.1,2,0,0,False,,642525,Sarfaraz Khan,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,325026,Glenn Maxwell,2,8.64
+ipl20,101802,1216513,1st innings,0,10,157/4,0,0,110,18.2,0,0,0,False,,642525,Sarfaraz Khan,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,325026,Glenn Maxwell,0,8.56
+ipl20,101803,1216513,1st innings,0,9,158/4,0,0,111,18.3,1,0,0,False,,642525,Sarfaraz Khan,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,325026,Glenn Maxwell,1,8.54
+ipl20,101804,1216513,1st innings,0,8,160/4,0,0,112,18.4,2,0,0,False,,325026,Glenn Maxwell,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,642525,Sarfaraz Khan,2,8.57
+ipl20,101805,1216513,1st innings,0,7,164/4,0,0,113,18.5,4,0,0,False,,325026,Glenn Maxwell,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,642525,Sarfaraz Khan,4,8.7
+ipl20,101806,1216513,1st innings,0,6,166/4,0,0,114,18.6,2,0,0,False,,325026,Glenn Maxwell,Kings XI Punjab,51439,Dwayne Bravo,Chennai Super Kings,,,642525,Sarfaraz Khan,2,8.73
+ipl20,101901,1216513,1st innings,0,5,170/4,0,0,115,19.1,4,0,0,False,,642525,Sarfaraz Khan,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,325026,Glenn Maxwell,4,8.86
+ipl20,101902,1216513,1st innings,0,4,174/4,0,0,116,19.2,4,0,0,False,,642525,Sarfaraz Khan,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,325026,Glenn Maxwell,4,9.0
+ipl20,101903,1216513,1st innings,0,4,175/4,0,0,116,19.2,1,1,1,False,,642525,Sarfaraz Khan,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,325026,Glenn Maxwell,1,9.05
+ipl20,101904,1216513,1st innings,0,3,176/4,0,0,117,19.3,1,0,0,False,,642525,Sarfaraz Khan,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,325026,Glenn Maxwell,1,9.02
+ipl20,101905,1216513,1st innings,0,2,176/4,0,0,118,19.4,0,0,0,False,,325026,Glenn Maxwell,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,642525,Sarfaraz Khan,0,8.94
+ipl20,101906,1216513,1st innings,0,1,177/4,0,0,119,19.5,1,0,0,False,,325026,Glenn Maxwell,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,642525,Sarfaraz Khan,1,8.92
+ipl20,101907,1216513,1st innings,0,0,178/4,0,0,120,19.6,1,0,0,False,,642525,Sarfaraz Khan,Kings XI Punjab,475281,Shardul Thakur,Chennai Super Kings,,,325026,Glenn Maxwell,1,8.9
+ipl20,200001,1216513,2nd innings,179,119,0,0/0,0,1,0.1,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,44828,Faf du Plessis,0,0.0
+ipl20,200002,1216513,2nd innings,179,118,0,0/0,0,2,0.2,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,44828,Faf du Plessis,0,0.0
+ipl20,200003,1216513,2nd innings,179,117,0,4/0,0,3,0.3,4,0,0,False,,8180,Shane Watson,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,44828,Faf du Plessis,4,8.0
+ipl20,200004,1216513,2nd innings,179,116,0,8/0,0,4,0.4,4,0,0,False,,8180,Shane Watson,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,44828,Faf du Plessis,4,12.0
+ipl20,200005,1216513,2nd innings,179,115,0,9/0,0,5,0.5,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,44828,Faf du Plessis,1,10.8
+ipl20,200006,1216513,2nd innings,179,114,0,9/0,0,6,0.6,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,8180,Shane Watson,0,9.0
+ipl20,200101,1216513,2nd innings,179,113,0,9/0,0,7,1.1,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,44828,Faf du Plessis,0,7.71
+ipl20,200102,1216513,2nd innings,179,112,0,9/0,0,8,1.2,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,44828,Faf du Plessis,0,6.75
+ipl20,200103,1216513,2nd innings,179,112,0,14/0,0,8,1.2,5,5,5,False,,8180,Shane Watson,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,44828,Faf du Plessis,5,10.5
+ipl20,200104,1216513,2nd innings,179,111,0,15/0,0,9,1.3,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,44828,Faf du Plessis,1,10.0
+ipl20,200105,1216513,2nd innings,179,110,0,16/0,0,10,1.4,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,8180,Shane Watson,1,9.6
+ipl20,200106,1216513,2nd innings,179,109,0,16/0,0,11,1.5,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,44828,Faf du Plessis,0,8.72
+ipl20,200107,1216513,2nd innings,179,108,0,16/0,0,12,1.6,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,44828,Faf du Plessis,0,8.0
+ipl20,200201,1216513,2nd innings,179,107,0,17/0,0,13,2.1,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,8180,Shane Watson,1,7.84
+ipl20,200202,1216513,2nd innings,179,106,0,18/0,0,14,2.2,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,44828,Faf du Plessis,1,7.71
+ipl20,200203,1216513,2nd innings,179,105,0,20/0,0,15,2.3,2,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,8180,Shane Watson,2,8.0
+ipl20,200204,1216513,2nd innings,179,104,0,21/0,0,16,2.4,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,8180,Shane Watson,1,7.87
+ipl20,200205,1216513,2nd innings,179,103,0,25/0,0,17,2.5,4,0,0,False,,8180,Shane Watson,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,44828,Faf du Plessis,4,8.82
+ipl20,200206,1216513,2nd innings,179,102,0,25/0,0,18,2.6,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,44828,Faf du Plessis,0,8.33
+ipl20,200301,1216513,2nd innings,179,101,0,26/0,0,19,3.1,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,8180,Shane Watson,1,8.21
+ipl20,200302,1216513,2nd innings,179,100,0,26/0,0,20,3.2,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,44828,Faf du Plessis,0,7.8
+ipl20,200303,1216513,2nd innings,179,99,0,30/0,0,21,3.3,4,0,0,False,,8180,Shane Watson,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,44828,Faf du Plessis,4,8.57
+ipl20,200304,1216513,2nd innings,179,98,0,31/0,0,22,3.4,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,44828,Faf du Plessis,1,8.45
+ipl20,200305,1216513,2nd innings,179,97,0,31/0,0,23,3.5,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,8180,Shane Watson,0,8.08
+ipl20,200306,1216513,2nd innings,179,96,0,32/0,0,24,3.6,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,8180,Shane Watson,1,8.0
+ipl20,200401,1216513,2nd innings,179,96,0,33/0,0,24,4.0,1,1,1,False,,44828,Faf du Plessis,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,8180,Shane Watson,1,8.25
+ipl20,200402,1216513,2nd innings,179,95,0,37/0,0,25,4.1,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,8180,Shane Watson,4,8.88
+ipl20,200403,1216513,2nd innings,179,94,0,39/0,0,26,4.2,2,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,8180,Shane Watson,2,9.0
+ipl20,200404,1216513,2nd innings,179,93,0,39/0,0,27,4.3,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,8180,Shane Watson,0,8.66
+ipl20,200405,1216513,2nd innings,179,92,0,40/0,0,28,4.4,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,8180,Shane Watson,1,8.57
+ipl20,200406,1216513,2nd innings,179,91,0,40/0,0,29,4.5,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,44828,Faf du Plessis,0,8.27
+ipl20,200407,1216513,2nd innings,179,90,0,41/0,0,30,4.6,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,44828,Faf du Plessis,1,8.2
+ipl20,200501,1216513,2nd innings,179,89,0,42/0,0,31,5.1,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,44828,Faf du Plessis,1,8.12
+ipl20,200502,1216513,2nd innings,179,88,0,46/0,0,32,5.2,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,8180,Shane Watson,4,8.62
+ipl20,200503,1216513,2nd innings,179,87,0,48/0,0,33,5.3,2,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,8180,Shane Watson,2,8.72
+ipl20,200504,1216513,2nd innings,179,86,0,52/0,0,34,5.4,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,8180,Shane Watson,4,9.17
+ipl20,200505,1216513,2nd innings,179,85,0,56/0,0,35,5.5,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,8180,Shane Watson,4,9.6
+ipl20,200506,1216513,2nd innings,179,84,0,60/0,0,36,5.6,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,8180,Shane Watson,4,10.0
+ipl20,200601,1216513,2nd innings,179,83,0,61/0,0,37,6.1,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,44828,Faf du Plessis,1,9.89
+ipl20,200602,1216513,2nd innings,179,82,0,61/0,0,38,6.2,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,8180,Shane Watson,0,9.63
+ipl20,200603,1216513,2nd innings,179,81,0,61/0,0,39,6.3,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,8180,Shane Watson,0,9.38
+ipl20,200604,1216513,2nd innings,179,80,0,61/0,0,40,6.4,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,8180,Shane Watson,0,9.15
+ipl20,200605,1216513,2nd innings,179,79,0,65/0,0,41,6.5,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,8180,Shane Watson,4,9.51
+ipl20,200606,1216513,2nd innings,179,78,0,66/0,0,42,6.6,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,8180,Shane Watson,1,9.42
+ipl20,200701,1216513,2nd innings,179,77,0,67/0,0,43,7.1,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,8180,Shane Watson,1,9.34
+ipl20,200702,1216513,2nd innings,179,76,0,71/0,0,44,7.2,4,0,0,False,,8180,Shane Watson,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,44828,Faf du Plessis,4,9.68
+ipl20,200703,1216513,2nd innings,179,75,0,75/0,0,45,7.3,4,0,0,False,,8180,Shane Watson,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,44828,Faf du Plessis,4,10.0
+ipl20,200704,1216513,2nd innings,179,74,0,76/0,0,46,7.4,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,44828,Faf du Plessis,1,9.91
+ipl20,200705,1216513,2nd innings,179,73,0,80/0,0,47,7.5,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,8180,Shane Watson,4,10.21
+ipl20,200706,1216513,2nd innings,179,72,0,81/0,0,48,7.6,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,8180,Shane Watson,1,10.12
+ipl20,200801,1216513,2nd innings,179,71,0,82/0,0,49,8.1,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,8180,Shane Watson,1,10.04
+ipl20,200802,1216513,2nd innings,179,70,0,86/0,0,50,8.2,4,0,0,False,,8180,Shane Watson,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,44828,Faf du Plessis,4,10.32
+ipl20,200803,1216513,2nd innings,179,70,0,87/0,0,50,8.2,1,1,1,False,,8180,Shane Watson,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,44828,Faf du Plessis,1,10.44
+ipl20,200804,1216513,2nd innings,179,69,0,88/0,0,51,8.3,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,44828,Faf du Plessis,1,10.35
+ipl20,200805,1216513,2nd innings,179,68,0,89/0,0,52,8.4,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,8180,Shane Watson,1,10.26
+ipl20,200806,1216513,2nd innings,179,67,0,95/0,0,53,8.5,6,0,0,False,,8180,Shane Watson,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,44828,Faf du Plessis,6,10.75
+ipl20,200807,1216513,2nd innings,179,66,0,95/0,0,54,8.6,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,44828,Faf du Plessis,0,10.55
+ipl20,200901,1216513,2nd innings,179,65,0,97/0,0,55,9.1,2,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,8180,Shane Watson,2,10.58
+ipl20,200902,1216513,2nd innings,179,64,0,97/0,0,56,9.2,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,8180,Shane Watson,0,10.39
+ipl20,200903,1216513,2nd innings,179,63,0,98/0,0,57,9.3,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,8180,Shane Watson,1,10.31
+ipl20,200904,1216513,2nd innings,179,62,0,99/0,0,58,9.4,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,44828,Faf du Plessis,1,10.24
+ipl20,200905,1216513,2nd innings,179,61,0,100/0,0,59,9.5,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,8180,Shane Watson,1,10.16
+ipl20,200906,1216513,2nd innings,179,60,0,101/0,0,60,9.6,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,44828,Faf du Plessis,1,10.1
+ipl20,201001,1216513,2nd innings,179,59,0,105/0,0,61,10.1,4,0,0,False,,8180,Shane Watson,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,44828,Faf du Plessis,4,10.32
+ipl20,201002,1216513,2nd innings,179,58,0,109/0,0,62,10.2,4,0,0,False,,8180,Shane Watson,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,44828,Faf du Plessis,4,10.54
+ipl20,201003,1216513,2nd innings,179,57,0,110/0,0,63,10.3,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,44828,Faf du Plessis,1,10.47
+ipl20,201004,1216513,2nd innings,179,56,0,110/0,0,64,10.4,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,8180,Shane Watson,0,10.31
+ipl20,201005,1216513,2nd innings,179,55,0,111/0,0,65,10.5,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,8180,Shane Watson,1,10.24
+ipl20,201006,1216513,2nd innings,179,54,0,112/0,0,66,10.6,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,44828,Faf du Plessis,1,10.18
+ipl20,201101,1216513,2nd innings,179,53,0,112/0,0,67,11.1,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,44828,Faf du Plessis,0,10.02
+ipl20,201102,1216513,2nd innings,179,52,0,116/0,0,68,11.2,4,0,0,False,,8180,Shane Watson,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,44828,Faf du Plessis,4,10.23
+ipl20,201103,1216513,2nd innings,179,52,0,117/0,0,68,11.2,1,1,1,False,,8180,Shane Watson,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,44828,Faf du Plessis,1,10.32
+ipl20,201104,1216513,2nd innings,179,51,0,118/0,0,69,11.3,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,44828,Faf du Plessis,1,10.26
+ipl20,201105,1216513,2nd innings,179,50,0,119/0,0,70,11.4,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,8180,Shane Watson,1,10.2
+ipl20,201106,1216513,2nd innings,179,49,0,119/0,0,71,11.5,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,44828,Faf du Plessis,0,10.05
+ipl20,201107,1216513,2nd innings,179,48,0,119/0,0,72,11.6,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,44828,Faf du Plessis,0,9.91
+ipl20,201201,1216513,2nd innings,179,47,0,119/0,0,73,12.1,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,8180,Shane Watson,0,9.78
+ipl20,201202,1216513,2nd innings,179,46,0,121/0,0,74,12.2,2,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,8180,Shane Watson,2,9.81
+ipl20,201203,1216513,2nd innings,179,45,0,122/0,0,75,12.3,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,8180,Shane Watson,1,9.76
+ipl20,201204,1216513,2nd innings,179,44,0,122/0,0,76,12.4,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,44828,Faf du Plessis,0,9.63
+ipl20,201205,1216513,2nd innings,179,43,0,123/0,0,77,12.5,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,44828,Faf du Plessis,1,9.58
+ipl20,201206,1216513,2nd innings,179,42,0,123/0,0,78,12.6,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,8180,Shane Watson,0,9.46
+ipl20,201301,1216513,2nd innings,179,41,0,124/0,0,79,13.1,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,44828,Faf du Plessis,1,9.41
+ipl20,201302,1216513,2nd innings,179,40,0,125/0,0,80,13.2,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,8180,Shane Watson,1,9.37
+ipl20,201303,1216513,2nd innings,179,39,0,125/0,0,81,13.3,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,44828,Faf du Plessis,0,9.25
+ipl20,201304,1216513,2nd innings,179,38,0,131/0,0,82,13.4,6,0,0,False,,8180,Shane Watson,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,44828,Faf du Plessis,6,9.58
+ipl20,201305,1216513,2nd innings,179,38,0,132/0,0,82,13.4,1,1,1,False,,8180,Shane Watson,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,44828,Faf du Plessis,1,9.65
+ipl20,201306,1216513,2nd innings,179,37,0,133/0,0,83,13.5,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,44828,Faf du Plessis,1,9.61
+ipl20,201307,1216513,2nd innings,179,37,0,134/0,0,83,13.5,1,1,1,False,,44828,Faf du Plessis,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,8180,Shane Watson,1,9.68
+ipl20,201308,1216513,2nd innings,179,36,0,135/0,0,84,13.6,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,495551,Sheldon Cottrell,Kings XI Punjab,,,8180,Shane Watson,1,9.64
+ipl20,201401,1216513,2nd innings,179,35,0,137/0,0,85,14.1,2,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,8180,Shane Watson,2,9.67
+ipl20,201402,1216513,2nd innings,179,34,0,141/0,0,86,14.2,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,8180,Shane Watson,4,9.83
+ipl20,201403,1216513,2nd innings,179,33,0,142/0,0,87,14.3,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,8180,Shane Watson,1,9.79
+ipl20,201404,1216513,2nd innings,179,32,0,142/0,0,88,14.4,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,44828,Faf du Plessis,0,9.68
+ipl20,201405,1216513,2nd innings,179,32,0,143/0,0,88,14.4,1,1,1,False,,8180,Shane Watson,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,44828,Faf du Plessis,1,9.75
+ipl20,201406,1216513,2nd innings,179,31,0,149/0,0,89,14.5,6,0,0,False,,8180,Shane Watson,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,44828,Faf du Plessis,6,10.04
+ipl20,201407,1216513,2nd innings,179,30,0,150/0,0,90,14.6,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1168641,Harpreet Brar,Kings XI Punjab,,,44828,Faf du Plessis,1,10.0
+ipl20,201501,1216513,2nd innings,179,29,0,150/0,0,91,15.1,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,44828,Faf du Plessis,0,9.89
+ipl20,201502,1216513,2nd innings,179,28,0,150/0,0,92,15.2,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,44828,Faf du Plessis,0,9.78
+ipl20,201503,1216513,2nd innings,179,27,0,151/0,0,93,15.3,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,44828,Faf du Plessis,1,9.74
+ipl20,201504,1216513,2nd innings,179,26,0,151/0,0,94,15.4,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,8180,Shane Watson,0,9.63
+ipl20,201505,1216513,2nd innings,179,25,0,152/0,0,95,15.5,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,8180,Shane Watson,1,9.6
+ipl20,201506,1216513,2nd innings,179,24,0,156/0,0,96,15.6,4,0,0,False,,8180,Shane Watson,Chennai Super Kings,1175441,Ravi Bishnoi,Kings XI Punjab,,,44828,Faf du Plessis,4,9.75
+ipl20,201601,1216513,2nd innings,179,23,0,156/0,0,97,16.1,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,8180,Shane Watson,0,9.64
+ipl20,201602,1216513,2nd innings,179,22,0,157/0,0,98,16.2,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,8180,Shane Watson,1,9.61
+ipl20,201603,1216513,2nd innings,179,21,0,158/0,0,99,16.3,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,44828,Faf du Plessis,1,9.57
+ipl20,201604,1216513,2nd innings,179,20,0,162/0,0,100,16.4,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,8180,Shane Watson,4,9.72
+ipl20,201605,1216513,2nd innings,179,19,0,166/0,0,101,16.5,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,8180,Shane Watson,4,9.86
+ipl20,201606,1216513,2nd innings,179,18,0,168/0,0,102,16.6,2,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,288992,Chris Jordan,Kings XI Punjab,,,8180,Shane Watson,2,9.88
+ipl20,201701,1216513,2nd innings,179,17,0,169/0,0,103,17.1,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,44828,Faf du Plessis,1,9.84
+ipl20,201702,1216513,2nd innings,179,16,0,171/0,0,104,17.2,2,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,8180,Shane Watson,2,9.86
+ipl20,201703,1216513,2nd innings,179,15,0,177/0,0,105,17.3,6,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,8180,Shane Watson,6,10.11
+ipl20,201704,1216513,2nd innings,179,14,0,181/0,0,106,17.4,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,481896,Mohammed Shami,Kings XI Punjab,,,8180,Shane Watson,4,10.24
