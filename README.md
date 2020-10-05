@@ -6,11 +6,11 @@ Aim is to select the team that would get the maximum total points in an IPL matc
 Clone the repo to your local and run the controller.py file. It will automatically generate the best 11 based on multiple models into a file pred_team11.csv within Data/ folder. If run after the squad is announced for the match and before the match starts, it will slect the best XI from the current playing squad otherwise will refer to older matches to get the playing XI. 
 If not, you can send a mail to abhishek.anand374@gmail.com and we will add you to the mailing list where we share the predicted points and team 15 mins before the match starts.
 
-### Dataset Descriptions
+## Dataset Descriptions
 Data/pred_team11.csv - result file with the best XI from the playing for the match to be played next
 ###TODO - Rest descriptions to be added
 
-### Code Descriptions
+## Code Descriptions
 controller.py -  controller code used to define configs and execute the whole code
 
 main.py - Temp filw with helpfer functions to call other modules, will be merged with other classes within an execute function
