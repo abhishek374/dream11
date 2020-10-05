@@ -1,0 +1,253 @@
+ipl_season,sequence,eventid,innings,target,remainingballs,homescore,awayscore,fallofwickets,ball,over,scorevalue,validball,extras,dismissal,dismissaltype,batsmanid,batsman,batsmanteam,bowlerid,bowler,bowlerteam,otherathleteinvolvedid,otherathleteinvolved,nonstrikerid,nonstriker,runs,runrate
+ipl20,100001,1216538,1st innings,0,119,0/0,0,0,1,0.1,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,379143,Quinton de Kock,0,0.0
+ipl20,100002,1216538,1st innings,0,118,0/0,0,0,2,0.2,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,379143,Quinton de Kock,0,0.0
+ipl20,100003,1216538,1st innings,0,117,0/0,0,0,3,0.3,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,379143,Quinton de Kock,0,0.0
+ipl20,100004,1216538,1st innings,0,116,6/0,0,0,4,0.4,6,0,0,False,,34102,Rohit Sharma,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,379143,Quinton de Kock,6,9.0
+ipl20,100005,1216538,1st innings,0,115,6/1,0,1,5,0.5,0,0,0,True,caught,34102,Rohit Sharma,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,34102,Rohit Sharma,379143,Quinton de Kock,0,7.2
+ipl20,100006,1216538,1st innings,0,114,6/1,0,0,6,0.6,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,379143,Quinton de Kock,0,6.0
+ipl20,100101,1216538,1st innings,0,113,6/1,0,0,7,1.1,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,446507,Suryakumar Yadav,0,5.14
+ipl20,100102,1216538,1st innings,0,112,6/1,0,0,8,1.2,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,446507,Suryakumar Yadav,0,4.5
+ipl20,100103,1216538,1st innings,0,111,7/1,0,0,9,1.3,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,446507,Suryakumar Yadav,1,4.66
+ipl20,100104,1216538,1st innings,0,110,7/1,0,0,10,1.4,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,379143,Quinton de Kock,0,4.2
+ipl20,100105,1216538,1st innings,0,109,7/1,0,0,11,1.5,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,379143,Quinton de Kock,0,3.81
+ipl20,100106,1216538,1st innings,0,108,7/1,0,0,12,1.6,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,379143,Quinton de Kock,0,3.5
+ipl20,100201,1216538,1st innings,0,107,11/1,0,0,13,2.1,4,0,0,False,,379143,Quinton de Kock,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,446507,Suryakumar Yadav,4,5.07
+ipl20,100202,1216538,1st innings,0,107,12/1,0,0,13,2.1,1,1,1,False,,379143,Quinton de Kock,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,446507,Suryakumar Yadav,1,5.53
+ipl20,100203,1216538,1st innings,0,106,13/1,0,0,14,2.2,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,446507,Suryakumar Yadav,1,5.57
+ipl20,100204,1216538,1st innings,0,105,17/1,0,0,15,2.3,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,379143,Quinton de Kock,4,6.8
+ipl20,100205,1216538,1st innings,0,104,21/1,0,0,16,2.4,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,379143,Quinton de Kock,4,7.87
+ipl20,100206,1216538,1st innings,0,103,25/1,0,0,17,2.5,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,379143,Quinton de Kock,4,8.82
+ipl20,100207,1216538,1st innings,0,102,25/1,0,0,18,2.6,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,379143,Quinton de Kock,0,8.33
+ipl20,100301,1216538,1st innings,0,101,26/1,0,0,19,3.1,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,446507,Suryakumar Yadav,1,8.21
+ipl20,100302,1216538,1st innings,0,100,26/1,0,0,20,3.2,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,379143,Quinton de Kock,0,7.8
+ipl20,100303,1216538,1st innings,0,99,30/1,0,0,21,3.3,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,379143,Quinton de Kock,4,8.57
+ipl20,100304,1216538,1st innings,0,98,31/1,0,0,22,3.4,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,379143,Quinton de Kock,1,8.45
+ipl20,100305,1216538,1st innings,0,97,32/1,0,0,23,3.5,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,446507,Suryakumar Yadav,1,8.34
+ipl20,100306,1216538,1st innings,0,96,32/1,0,0,24,3.6,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,379143,Quinton de Kock,0,8.0
+ipl20,100401,1216538,1st innings,0,95,36/1,0,0,25,4.1,4,0,0,False,,379143,Quinton de Kock,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,446507,Suryakumar Yadav,4,8.64
+ipl20,100402,1216538,1st innings,0,94,36/1,0,0,26,4.2,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,446507,Suryakumar Yadav,0,8.3
+ipl20,100403,1216538,1st innings,0,93,36/1,0,0,27,4.3,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,446507,Suryakumar Yadav,0,8.0
+ipl20,100404,1216538,1st innings,0,92,37/1,0,0,28,4.4,1,0,1,False,,379143,Quinton de Kock,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,446507,Suryakumar Yadav,1,7.92
+ipl20,100405,1216538,1st innings,0,91,37/1,0,0,29,4.5,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,379143,Quinton de Kock,0,7.65
+ipl20,100406,1216538,1st innings,0,90,38/1,0,0,30,4.6,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,379143,Quinton de Kock,1,7.6
+ipl20,100501,1216538,1st innings,0,89,42/1,0,0,31,5.1,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,379143,Quinton de Kock,4,8.12
+ipl20,100502,1216538,1st innings,0,88,43/1,0,0,32,5.2,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,379143,Quinton de Kock,1,8.06
+ipl20,100503,1216538,1st innings,0,87,44/1,0,0,33,5.3,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,446507,Suryakumar Yadav,1,8.0
+ipl20,100504,1216538,1st innings,0,86,48/1,0,0,34,5.4,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,379143,Quinton de Kock,4,8.47
+ipl20,100505,1216538,1st innings,0,85,48/2,0,2,35,5.5,0,0,0,True,caught,446507,Suryakumar Yadav,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,326017,Siddarth Kaul,379143,Quinton de Kock,0,8.22
+ipl20,100506,1216538,1st innings,0,84,48/2,0,0,36,5.6,0,0,0,False,,720471,Ishan Kishan,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,379143,Quinton de Kock,0,8.0
+ipl20,100601,1216538,1st innings,0,83,48/2,0,0,37,6.1,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175485,Abdul Samad,Sunrisers Hyderabad,,,720471,Ishan Kishan,0,7.78
+ipl20,100602,1216538,1st innings,0,82,50/2,0,0,38,6.2,2,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175485,Abdul Samad,Sunrisers Hyderabad,,,720471,Ishan Kishan,2,7.89
+ipl20,100603,1216538,1st innings,0,81,51/2,0,0,39,6.3,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175485,Abdul Samad,Sunrisers Hyderabad,,,720471,Ishan Kishan,1,7.84
+ipl20,100604,1216538,1st innings,0,80,52/2,0,0,40,6.4,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,1175485,Abdul Samad,Sunrisers Hyderabad,,,379143,Quinton de Kock,1,7.8
+ipl20,100605,1216538,1st innings,0,79,58/2,0,0,41,6.5,6,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175485,Abdul Samad,Sunrisers Hyderabad,,,720471,Ishan Kishan,6,8.48
+ipl20,100606,1216538,1st innings,0,78,59/2,0,0,42,6.6,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175485,Abdul Samad,Sunrisers Hyderabad,,,720471,Ishan Kishan,1,8.42
+ipl20,100701,1216538,1st innings,0,77,60/2,0,0,43,7.1,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,720471,Ishan Kishan,1,8.37
+ipl20,100702,1216538,1st innings,0,76,61/2,0,0,44,7.2,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,379143,Quinton de Kock,1,8.31
+ipl20,100703,1216538,1st innings,0,75,62/2,0,0,45,7.3,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,720471,Ishan Kishan,1,8.26
+ipl20,100704,1216538,1st innings,0,74,66/2,0,0,46,7.4,4,0,0,False,,720471,Ishan Kishan,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,379143,Quinton de Kock,4,8.6
+ipl20,100705,1216538,1st innings,0,73,67/2,0,0,47,7.5,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,379143,Quinton de Kock,1,8.55
+ipl20,100706,1216538,1st innings,0,72,67/2,0,0,48,7.6,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,720471,Ishan Kishan,0,8.37
+ipl20,100801,1216538,1st innings,0,71,68/2,0,0,49,8.1,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,1175485,Abdul Samad,Sunrisers Hyderabad,,,379143,Quinton de Kock,1,8.32
+ipl20,100802,1216538,1st innings,0,70,74/2,0,0,50,8.2,6,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175485,Abdul Samad,Sunrisers Hyderabad,,,720471,Ishan Kishan,6,8.88
+ipl20,100803,1216538,1st innings,0,69,76/2,0,0,51,8.3,2,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175485,Abdul Samad,Sunrisers Hyderabad,,,720471,Ishan Kishan,2,8.94
+ipl20,100804,1216538,1st innings,0,68,78/2,0,0,52,8.4,2,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175485,Abdul Samad,Sunrisers Hyderabad,,,720471,Ishan Kishan,2,9.0
+ipl20,100805,1216538,1st innings,0,67,82/2,0,0,53,8.5,4,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175485,Abdul Samad,Sunrisers Hyderabad,,,720471,Ishan Kishan,4,9.28
+ipl20,100806,1216538,1st innings,0,66,83/2,0,0,54,8.6,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175485,Abdul Samad,Sunrisers Hyderabad,,,720471,Ishan Kishan,1,9.22
+ipl20,100901,1216538,1st innings,0,65,85/2,0,0,55,9.1,2,0,0,False,,379143,Quinton de Kock,Mumbai Indians,277906,Kane Williamson,Sunrisers Hyderabad,,,720471,Ishan Kishan,2,9.27
+ipl20,100902,1216538,1st innings,0,64,86/2,0,0,56,9.2,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,277906,Kane Williamson,Sunrisers Hyderabad,,,720471,Ishan Kishan,1,9.21
+ipl20,100903,1216538,1st innings,0,63,87/2,0,0,57,9.3,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,277906,Kane Williamson,Sunrisers Hyderabad,,,379143,Quinton de Kock,1,9.15
+ipl20,100904,1216538,1st innings,0,62,88/2,0,0,58,9.4,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,277906,Kane Williamson,Sunrisers Hyderabad,,,720471,Ishan Kishan,1,9.1
+ipl20,100905,1216538,1st innings,0,61,89/2,0,0,59,9.5,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,277906,Kane Williamson,Sunrisers Hyderabad,,,379143,Quinton de Kock,1,9.05
+ipl20,100906,1216538,1st innings,0,60,90/2,0,0,60,9.6,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,277906,Kane Williamson,Sunrisers Hyderabad,,,720471,Ishan Kishan,1,9.0
+ipl20,101001,1216538,1st innings,0,59,91/2,0,0,61,10.1,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,720471,Ishan Kishan,1,8.95
+ipl20,101002,1216538,1st innings,0,58,91/2,0,0,62,10.2,0,0,0,False,,720471,Ishan Kishan,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,379143,Quinton de Kock,0,8.8
+ipl20,101003,1216538,1st innings,0,57,91/2,0,0,63,10.3,0,0,0,False,,720471,Ishan Kishan,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,379143,Quinton de Kock,0,8.66
+ipl20,101004,1216538,1st innings,0,56,92/2,0,0,64,10.4,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,379143,Quinton de Kock,1,8.62
+ipl20,101005,1216538,1st innings,0,55,93/2,0,0,65,10.5,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,720471,Ishan Kishan,1,8.58
+ipl20,101006,1216538,1st innings,0,54,94/2,0,0,66,10.6,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,379143,Quinton de Kock,1,8.54
+ipl20,101101,1216538,1st innings,0,53,96/2,0,0,67,11.1,2,0,0,False,,720471,Ishan Kishan,Mumbai Indians,277906,Kane Williamson,Sunrisers Hyderabad,,,379143,Quinton de Kock,2,8.59
+ipl20,101102,1216538,1st innings,0,52,97/2,0,0,68,11.2,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,277906,Kane Williamson,Sunrisers Hyderabad,,,379143,Quinton de Kock,1,8.55
+ipl20,101103,1216538,1st innings,0,51,103/2,0,0,69,11.3,6,0,0,False,,379143,Quinton de Kock,Mumbai Indians,277906,Kane Williamson,Sunrisers Hyderabad,,,720471,Ishan Kishan,6,8.95
+ipl20,101104,1216538,1st innings,0,50,104/2,0,0,70,11.4,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,277906,Kane Williamson,Sunrisers Hyderabad,,,720471,Ishan Kishan,1,8.91
+ipl20,101105,1216538,1st innings,0,49,110/2,0,0,71,11.5,6,0,0,False,,720471,Ishan Kishan,Mumbai Indians,277906,Kane Williamson,Sunrisers Hyderabad,,,379143,Quinton de Kock,6,9.29
+ipl20,101106,1216538,1st innings,0,48,111/2,0,0,72,11.6,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,277906,Kane Williamson,Sunrisers Hyderabad,,,379143,Quinton de Kock,1,9.25
+ipl20,101201,1216538,1st innings,0,48,113/2,0,0,72,12.0,2,1,1,False,,720471,Ishan Kishan,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,379143,Quinton de Kock,2,9.41
+ipl20,101202,1216538,1st innings,0,47,115/2,0,0,73,12.1,2,0,0,False,,379143,Quinton de Kock,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,720471,Ishan Kishan,2,9.45
+ipl20,101203,1216538,1st innings,0,46,119/2,0,0,74,12.2,4,0,0,False,,379143,Quinton de Kock,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,720471,Ishan Kishan,4,9.64
+ipl20,101204,1216538,1st innings,0,45,119/2,0,0,75,12.3,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,720471,Ishan Kishan,0,9.52
+ipl20,101205,1216538,1st innings,0,44,125/2,0,0,76,12.4,6,0,0,False,,379143,Quinton de Kock,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,720471,Ishan Kishan,6,9.86
+ipl20,101206,1216538,1st innings,0,43,126/2,0,0,77,12.5,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,720471,Ishan Kishan,1,9.81
+ipl20,101207,1216538,1st innings,0,42,126/2,0,0,78,12.6,0,0,0,False,,720471,Ishan Kishan,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,379143,Quinton de Kock,0,9.69
+ipl20,101301,1216538,1st innings,0,41,126/3,0,3,79,13.1,0,0,0,True,caught,379143,Quinton de Kock,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,379143,Quinton de Kock,720471,Ishan Kishan,0,9.56
+ipl20,101302,1216538,1st innings,0,40,132/3,0,0,80,13.2,6,0,0,False,,720471,Ishan Kishan,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,625371,Hardik Pandya,6,9.9
+ipl20,101303,1216538,1st innings,0,39,132/3,0,0,81,13.3,0,0,0,False,,720471,Ishan Kishan,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,625371,Hardik Pandya,0,9.77
+ipl20,101304,1216538,1st innings,0,38,133/3,0,0,82,13.4,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,625371,Hardik Pandya,1,9.73
+ipl20,101305,1216538,1st innings,0,37,133/3,0,0,83,13.5,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,720471,Ishan Kishan,0,9.61
+ipl20,101306,1216538,1st innings,0,36,134/3,0,0,84,13.6,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,720471,Ishan Kishan,1,9.57
+ipl20,101401,1216538,1st innings,0,35,135/3,0,0,85,14.1,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,720471,Ishan Kishan,1,9.52
+ipl20,101402,1216538,1st innings,0,34,136/3,0,0,86,14.2,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,625371,Hardik Pandya,1,9.48
+ipl20,101403,1216538,1st innings,0,33,142/3,0,0,87,14.3,6,0,0,False,,625371,Hardik Pandya,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,720471,Ishan Kishan,6,9.79
+ipl20,101404,1216538,1st innings,0,32,146/3,0,0,88,14.4,4,0,0,False,,625371,Hardik Pandya,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,720471,Ishan Kishan,4,9.95
+ipl20,101405,1216538,1st innings,0,31,147/3,0,0,89,14.5,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,720471,Ishan Kishan,1,9.91
+ipl20,101406,1216538,1st innings,0,30,147/4,0,4,90,14.6,0,0,0,True,caught,720471,Ishan Kishan,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,438362,Sandeep Sharma,625371,Hardik Pandya,0,9.8
+ipl20,101501,1216538,1st innings,0,29,147/4,0,0,91,15.1,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,230559,Kieron Pollard,0,9.69
+ipl20,101502,1216538,1st innings,0,28,147/4,0,0,92,15.2,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,230559,Kieron Pollard,0,9.58
+ipl20,101503,1216538,1st innings,0,27,148/4,0,0,93,15.3,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,230559,Kieron Pollard,1,9.54
+ipl20,101504,1216538,1st innings,0,26,148/4,0,0,94,15.4,0,0,0,False,,230559,Kieron Pollard,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,625371,Hardik Pandya,0,9.44
+ipl20,101505,1216538,1st innings,0,26,149/4,0,0,94,15.4,1,1,1,False,,230559,Kieron Pollard,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,625371,Hardik Pandya,1,9.51
+ipl20,101506,1216538,1st innings,0,25,149/4,0,0,95,15.5,0,0,0,False,,230559,Kieron Pollard,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,625371,Hardik Pandya,0,9.41
+ipl20,101507,1216538,1st innings,0,24,149/4,0,0,96,15.6,0,0,0,False,,230559,Kieron Pollard,Mumbai Indians,793463,Rashid Khan,Sunrisers Hyderabad,,,625371,Hardik Pandya,0,9.31
+ipl20,101601,1216538,1st innings,0,23,155/4,0,0,97,16.1,6,0,0,False,,625371,Hardik Pandya,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,230559,Kieron Pollard,6,9.58
+ipl20,101602,1216538,1st innings,0,22,156/4,0,0,98,16.2,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,230559,Kieron Pollard,1,9.55
+ipl20,101603,1216538,1st innings,0,21,157/4,0,0,99,16.3,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,625371,Hardik Pandya,1,9.51
+ipl20,101604,1216538,1st innings,0,20,158/4,0,0,100,16.4,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,230559,Kieron Pollard,1,9.48
+ipl20,101605,1216538,1st innings,0,19,159/4,0,0,101,16.5,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,625371,Hardik Pandya,1,9.44
+ipl20,101606,1216538,1st innings,0,18,159/4,0,0,102,16.6,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,230559,Kieron Pollard,0,9.35
+ipl20,101701,1216538,1st innings,0,17,165/4,0,0,103,17.1,6,0,0,False,,230559,Kieron Pollard,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,625371,Hardik Pandya,6,9.61
+ipl20,101702,1216538,1st innings,0,16,166/4,0,0,104,17.2,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,625371,Hardik Pandya,1,9.57
+ipl20,101703,1216538,1st innings,0,15,167/4,0,0,105,17.3,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,230559,Kieron Pollard,1,9.54
+ipl20,101704,1216538,1st innings,0,14,173/4,0,0,106,17.4,6,0,0,False,,230559,Kieron Pollard,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,625371,Hardik Pandya,6,9.79
+ipl20,101705,1216538,1st innings,0,13,174/4,0,0,107,17.5,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,625371,Hardik Pandya,1,9.75
+ipl20,101706,1216538,1st innings,0,12,174/4,0,0,108,17.6,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,438362,Sandeep Sharma,Sunrisers Hyderabad,,,230559,Kieron Pollard,0,9.66
+ipl20,101801,1216538,1st innings,0,11,180/4,0,0,109,18.1,6,0,0,False,,230559,Kieron Pollard,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,625371,Hardik Pandya,6,9.9
+ipl20,101802,1216538,1st innings,0,10,181/4,0,0,110,18.2,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,625371,Hardik Pandya,1,9.87
+ipl20,101803,1216538,1st innings,0,9,185/4,0,0,111,18.3,4,0,0,False,,625371,Hardik Pandya,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,230559,Kieron Pollard,4,10.0
+ipl20,101804,1216538,1st innings,0,8,186/4,0,0,112,18.4,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,230559,Kieron Pollard,1,9.96
+ipl20,101805,1216538,1st innings,0,7,187/4,0,0,113,18.5,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,625371,Hardik Pandya,1,9.92
+ipl20,101806,1216538,1st innings,0,6,187/4,0,0,114,18.6,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,802575,T Natarajan,Sunrisers Hyderabad,,,230559,Kieron Pollard,0,9.84
+ipl20,101901,1216538,1st innings,0,5,188/4,0,0,115,19.1,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,625371,Hardik Pandya,1,9.8
+ipl20,101902,1216538,1st innings,0,4,188/5,0,5,116,19.2,0,0,0,True,bowled,625371,Hardik Pandya,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,625371,Hardik Pandya,230559,Kieron Pollard,0,9.72
+ipl20,101903,1216538,1st innings,0,3,194/5,0,0,117,19.3,6,0,0,False,,471342,Krunal Pandya,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,230559,Kieron Pollard,6,9.94
+ipl20,101904,1216538,1st innings,0,2,198/5,0,0,118,19.4,4,0,0,False,,471342,Krunal Pandya,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,230559,Kieron Pollard,4,10.06
+ipl20,101905,1216538,1st innings,0,1,202/5,0,0,119,19.5,4,0,0,False,,471342,Krunal Pandya,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,230559,Kieron Pollard,4,10.18
+ipl20,101906,1216538,1st innings,0,0,208/5,0,0,120,19.6,6,0,0,False,,471342,Krunal Pandya,Mumbai Indians,326017,Siddarth Kaul,Sunrisers Hyderabad,,,230559,Kieron Pollard,6,10.4
+ipl20,200001,1216538,2nd innings,209,119,0,1/0,0,1,0.1,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,297433,Jonny Bairstow,1,6.0
+ipl20,200002,1216538,2nd innings,209,118,0,1/0,0,2,0.2,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,219889,David Warner,0,3.0
+ipl20,200003,1216538,2nd innings,209,117,0,7/0,0,3,0.3,6,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,219889,David Warner,6,14.0
+ipl20,200004,1216538,2nd innings,209,116,0,7/0,0,4,0.4,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,219889,David Warner,0,10.5
+ipl20,200005,1216538,2nd innings,209,115,0,8/0,0,5,0.5,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,219889,David Warner,1,9.6
+ipl20,200006,1216538,2nd innings,209,114,0,8/0,0,6,0.6,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,297433,Jonny Bairstow,0,8.0
+ipl20,200101,1216538,2nd innings,209,113,0,8/0,0,7,1.1,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,219889,David Warner,0,6.85
+ipl20,200102,1216538,2nd innings,209,112,0,10/0,0,8,1.2,2,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,219889,David Warner,2,7.5
+ipl20,200103,1216538,2nd innings,209,111,0,14/0,0,9,1.3,4,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,219889,David Warner,4,9.33
+ipl20,200104,1216538,2nd innings,209,110,0,18/0,0,10,1.4,4,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,219889,David Warner,4,10.8
+ipl20,200105,1216538,2nd innings,209,109,0,19/0,0,11,1.5,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,219889,David Warner,1,10.36
+ipl20,200106,1216538,2nd innings,209,108,0,20/0,0,12,1.6,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,297433,Jonny Bairstow,1,10.0
+ipl20,200201,1216538,2nd innings,209,107,0,20/0,0,13,2.1,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,297433,Jonny Bairstow,0,9.23
+ipl20,200202,1216538,2nd innings,209,107,0,21/0,0,13,2.1,1,1,1,False,,219889,David Warner,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,297433,Jonny Bairstow,1,9.69
+ipl20,200203,1216538,2nd innings,209,106,0,22/0,0,14,2.2,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,297433,Jonny Bairstow,1,9.42
+ipl20,200204,1216538,2nd innings,209,105,0,22/0,0,15,2.3,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,219889,David Warner,0,8.8
+ipl20,200205,1216538,2nd innings,209,104,0,24/0,0,16,2.4,2,0,2,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,219889,David Warner,2,9.0
+ipl20,200206,1216538,2nd innings,209,103,0,30/0,0,17,2.5,6,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,219889,David Warner,6,10.58
+ipl20,200207,1216538,2nd innings,209,102,0,30/0,0,18,2.6,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,219889,David Warner,0,10.0
+ipl20,200301,1216538,2nd innings,209,101,0,30/0,0,19,3.1,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,297433,Jonny Bairstow,0,9.47
+ipl20,200302,1216538,2nd innings,209,100,0,30/0,0,20,3.2,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,297433,Jonny Bairstow,0,9.0
+ipl20,200303,1216538,2nd innings,209,99,0,30/0,0,21,3.3,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,297433,Jonny Bairstow,0,8.57
+ipl20,200304,1216538,2nd innings,209,98,0,31/0,0,22,3.4,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,297433,Jonny Bairstow,1,8.45
+ipl20,200305,1216538,2nd innings,209,97,0,32/0,0,23,3.5,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,219889,David Warner,1,8.34
+ipl20,200306,1216538,2nd innings,209,96,0,34/0,0,24,3.6,2,0,0,False,,219889,David Warner,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,297433,Jonny Bairstow,2,8.5
+ipl20,200401,1216538,2nd innings,209,95,0,34/1,1,25,4.1,0,0,0,True,caught,297433,Jonny Bairstow,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,277912,Trent Boult,219889,David Warner,0,8.16
+ipl20,200402,1216538,2nd innings,209,94,0,34/1,0,26,4.2,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,219889,David Warner,0,7.84
+ipl20,200403,1216538,2nd innings,209,93,0,38/1,0,27,4.3,4,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,219889,David Warner,4,8.44
+ipl20,200404,1216538,2nd innings,209,92,0,38/1,0,28,4.4,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,219889,David Warner,0,8.14
+ipl20,200405,1216538,2nd innings,209,91,0,42/1,0,29,4.5,4,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,219889,David Warner,4,8.68
+ipl20,200406,1216538,2nd innings,209,90,0,42/1,0,30,4.6,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,219889,David Warner,0,8.4
+ipl20,200501,1216538,2nd innings,209,89,0,46/1,0,31,5.1,4,0,0,False,,219889,David Warner,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,290630,Manish Pandey,4,8.9
+ipl20,200502,1216538,2nd innings,209,88,0,50/1,0,32,5.2,4,0,0,False,,219889,David Warner,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,290630,Manish Pandey,4,9.37
+ipl20,200503,1216538,2nd innings,209,87,0,50/1,0,33,5.3,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,290630,Manish Pandey,0,9.09
+ipl20,200504,1216538,2nd innings,209,86,0,51/1,0,34,5.4,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,290630,Manish Pandey,1,9.0
+ipl20,200505,1216538,2nd innings,209,85,0,55/1,0,35,5.5,4,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,219889,David Warner,4,9.42
+ipl20,200506,1216538,2nd innings,209,84,0,56/1,0,36,5.6,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,219889,David Warner,1,9.33
+ipl20,200601,1216538,2nd innings,209,83,0,57/1,0,37,6.1,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,219889,David Warner,1,9.24
+ipl20,200602,1216538,2nd innings,209,82,0,58/1,0,38,6.2,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,290630,Manish Pandey,1,9.15
+ipl20,200603,1216538,2nd innings,209,81,0,58/1,0,39,6.3,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,219889,David Warner,0,8.92
+ipl20,200604,1216538,2nd innings,209,80,0,58/1,0,40,6.4,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,219889,David Warner,0,8.7
+ipl20,200605,1216538,2nd innings,209,79,0,59/1,0,41,6.5,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,219889,David Warner,1,8.63
+ipl20,200606,1216538,2nd innings,209,78,0,59/1,0,42,6.6,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,290630,Manish Pandey,0,8.42
+ipl20,200701,1216538,2nd innings,209,77,0,60/1,0,43,7.1,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,219889,David Warner,1,8.37
+ipl20,200702,1216538,2nd innings,209,76,0,61/1,0,44,7.2,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,290630,Manish Pandey,1,8.31
+ipl20,200703,1216538,2nd innings,209,75,0,65/1,0,45,7.3,4,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,219889,David Warner,4,8.66
+ipl20,200704,1216538,2nd innings,209,75,0,66/1,0,45,7.3,1,1,1,False,,290630,Manish Pandey,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,219889,David Warner,1,8.8
+ipl20,200705,1216538,2nd innings,209,75,0,67/1,0,45,7.3,1,1,1,False,,290630,Manish Pandey,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,219889,David Warner,1,8.93
+ipl20,200706,1216538,2nd innings,209,74,0,68/1,0,46,7.4,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,219889,David Warner,1,8.86
+ipl20,200707,1216538,2nd innings,209,73,0,69/1,0,47,7.5,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,290630,Manish Pandey,1,8.8
+ipl20,200708,1216538,2nd innings,209,72,0,70/1,0,48,7.6,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,219889,David Warner,1,8.75
+ipl20,200801,1216538,2nd innings,209,71,0,76/1,0,49,8.1,6,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,1064812,Rahul Chahar,Mumbai Indians,,,219889,David Warner,6,9.3
+ipl20,200802,1216538,2nd innings,209,70,0,77/1,0,50,8.2,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,1064812,Rahul Chahar,Mumbai Indians,,,219889,David Warner,1,9.24
+ipl20,200803,1216538,2nd innings,209,69,0,83/1,0,51,8.3,6,0,0,False,,219889,David Warner,Sunrisers Hyderabad,1064812,Rahul Chahar,Mumbai Indians,,,290630,Manish Pandey,6,9.76
+ipl20,200804,1216538,2nd innings,209,68,0,85/1,0,52,8.4,2,0,0,False,,219889,David Warner,Sunrisers Hyderabad,1064812,Rahul Chahar,Mumbai Indians,,,290630,Manish Pandey,2,9.8
+ipl20,200805,1216538,2nd innings,209,67,0,85/1,0,53,8.5,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,1064812,Rahul Chahar,Mumbai Indians,,,290630,Manish Pandey,0,9.62
+ipl20,200806,1216538,2nd innings,209,66,0,86/1,0,54,8.6,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,1064812,Rahul Chahar,Mumbai Indians,,,290630,Manish Pandey,1,9.55
+ipl20,200901,1216538,2nd innings,209,65,0,90/1,0,55,9.1,4,0,0,False,,219889,David Warner,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,290630,Manish Pandey,4,9.81
+ipl20,200902,1216538,2nd innings,209,64,0,91/1,0,56,9.2,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,290630,Manish Pandey,1,9.75
+ipl20,200903,1216538,2nd innings,209,64,0,92/1,0,56,9.2,1,1,1,False,,290630,Manish Pandey,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,219889,David Warner,1,9.85
+ipl20,200904,1216538,2nd innings,209,63,0,93/1,0,57,9.3,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,219889,David Warner,1,9.78
+ipl20,200905,1216538,2nd innings,209,62,0,94/1,0,58,9.4,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,290630,Manish Pandey,1,9.72
+ipl20,200906,1216538,2nd innings,209,61,0,94/2,2,59,9.5,0,0,0,True,caught,290630,Manish Pandey,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,290630,Manish Pandey,219889,David Warner,0,9.55
+ipl20,200907,1216538,2nd innings,209,60,0,94/2,0,60,9.6,0,0,0,False,,277906,Kane Williamson,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,219889,David Warner,0,9.4
+ipl20,201001,1216538,2nd innings,209,59,0,96/2,0,61,10.1,2,0,0,False,,219889,David Warner,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,277906,Kane Williamson,2,9.44
+ipl20,201002,1216538,2nd innings,209,58,0,102/2,0,62,10.2,6,0,0,False,,219889,David Warner,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,277906,Kane Williamson,6,9.87
+ipl20,201003,1216538,2nd innings,209,57,0,106/2,0,63,10.3,4,0,0,False,,219889,David Warner,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,277906,Kane Williamson,4,10.09
+ipl20,201004,1216538,2nd innings,209,56,0,107/2,0,64,10.4,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,277906,Kane Williamson,1,10.03
+ipl20,201005,1216538,2nd innings,209,55,0,108/2,0,65,10.5,1,0,0,False,,277906,Kane Williamson,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,219889,David Warner,1,9.96
+ipl20,201006,1216538,2nd innings,209,54,0,109/2,0,66,10.6,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,277906,Kane Williamson,1,9.9
+ipl20,201101,1216538,2nd innings,209,53,0,109/2,0,67,11.1,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,277906,Kane Williamson,0,9.76
+ipl20,201102,1216538,2nd innings,209,52,0,110/2,0,68,11.2,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,277906,Kane Williamson,1,9.7
+ipl20,201103,1216538,2nd innings,209,51,0,111/2,0,69,11.3,1,0,0,False,,277906,Kane Williamson,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,219889,David Warner,1,9.65
+ipl20,201104,1216538,2nd innings,209,51,0,112/2,0,69,11.3,1,1,1,False,,219889,David Warner,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,277906,Kane Williamson,1,9.73
+ipl20,201105,1216538,2nd innings,209,50,0,113/2,0,70,11.4,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,277906,Kane Williamson,1,9.68
+ipl20,201106,1216538,2nd innings,209,49,0,114/2,0,71,11.5,1,0,0,False,,277906,Kane Williamson,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,219889,David Warner,1,9.63
+ipl20,201107,1216538,2nd innings,209,48,0,115/2,0,72,11.6,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,277906,Kane Williamson,1,9.58
+ipl20,201201,1216538,2nd innings,209,47,0,116/2,0,73,12.1,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,277906,Kane Williamson,1,9.53
+ipl20,201202,1216538,2nd innings,209,46,0,116/3,3,74,12.2,0,0,0,True,caught,277906,Kane Williamson,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,277906,Kane Williamson,219889,David Warner,0,9.4
+ipl20,201203,1216538,2nd innings,209,45,0,117/3,0,75,12.3,1,0,0,False,,1070180,Priyam Garg,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,219889,David Warner,1,9.36
+ipl20,201204,1216538,2nd innings,209,44,0,118/3,0,76,12.4,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,1070180,Priyam Garg,1,9.31
+ipl20,201205,1216538,2nd innings,209,43,0,119/3,0,77,12.5,1,0,0,False,,1070180,Priyam Garg,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,219889,David Warner,1,9.27
+ipl20,201206,1216538,2nd innings,209,42,0,123/3,0,78,12.6,4,0,0,False,,219889,David Warner,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,1070180,Priyam Garg,4,9.46
+ipl20,201301,1216538,2nd innings,209,41,0,125/3,0,79,13.1,2,0,0,False,,1070180,Priyam Garg,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,219889,David Warner,2,9.49
+ipl20,201302,1216538,2nd innings,209,40,0,127/3,0,80,13.2,2,0,0,False,,1070180,Priyam Garg,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,219889,David Warner,2,9.52
+ipl20,201303,1216538,2nd innings,209,39,0,128/3,0,81,13.3,1,0,0,False,,1070180,Priyam Garg,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,219889,David Warner,1,9.48
+ipl20,201304,1216538,2nd innings,209,38,0,128/3,0,82,13.4,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,1070180,Priyam Garg,0,9.36
+ipl20,201305,1216538,2nd innings,209,37,0,129/3,0,83,13.5,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,1070180,Priyam Garg,1,9.32
+ipl20,201306,1216538,2nd innings,209,36,0,130/3,0,84,13.6,1,0,0,False,,1070180,Priyam Garg,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,219889,David Warner,1,9.28
+ipl20,201401,1216538,2nd innings,209,35,0,130/4,4,85,14.1,0,0,0,True,caught,1070180,Priyam Garg,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,1070180,Priyam Garg,219889,David Warner,0,9.17
+ipl20,201402,1216538,2nd innings,209,35,0,131/4,0,85,14.1,1,1,1,False,,219889,David Warner,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,1070183,Abhishek Sharma,1,9.24
+ipl20,201403,1216538,2nd innings,209,34,0,132/4,0,86,14.2,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,1070183,Abhishek Sharma,1,9.2
+ipl20,201404,1216538,2nd innings,209,33,0,133/4,0,87,14.3,1,0,0,False,,1070183,Abhishek Sharma,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,219889,David Warner,1,9.17
+ipl20,201405,1216538,2nd innings,209,33,0,135/4,0,87,14.3,2,2,2,False,,219889,David Warner,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,1070183,Abhishek Sharma,2,9.31
+ipl20,201406,1216538,2nd innings,209,33,0,136/4,0,87,14.3,1,1,1,False,,1070183,Abhishek Sharma,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,219889,David Warner,1,9.37
+ipl20,201407,1216538,2nd innings,209,32,0,138/4,0,88,14.4,2,0,0,False,,1070183,Abhishek Sharma,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,219889,David Warner,2,9.4
+ipl20,201408,1216538,2nd innings,209,31,0,139/4,0,89,14.5,1,0,0,False,,1070183,Abhishek Sharma,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,219889,David Warner,1,9.37
+ipl20,201409,1216538,2nd innings,209,30,0,139/4,0,90,14.6,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,471342,Krunal Pandya,Mumbai Indians,,,1070183,Abhishek Sharma,0,9.26
+ipl20,201501,1216538,2nd innings,209,29,0,140/4,0,91,15.1,1,0,0,False,,1070183,Abhishek Sharma,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,219889,David Warner,1,9.23
+ipl20,201502,1216538,2nd innings,209,28,0,140/4,0,92,15.2,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,1070183,Abhishek Sharma,0,9.13
+ipl20,201503,1216538,2nd innings,209,27,0,142/4,0,93,15.3,2,0,0,False,,219889,David Warner,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,1070183,Abhishek Sharma,2,9.16
+ipl20,201504,1216538,2nd innings,209,26,0,142/5,5,94,15.4,0,0,0,True,caught,219889,David Warner,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,219889,David Warner,1070183,Abhishek Sharma,0,9.06
+ipl20,201505,1216538,2nd innings,209,25,0,143/5,0,95,15.5,1,0,0,False,,1175485,Abdul Samad,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,1070183,Abhishek Sharma,1,9.03
+ipl20,201506,1216538,2nd innings,209,24,0,144/5,0,96,15.6,1,0,0,False,,1070183,Abhishek Sharma,Sunrisers Hyderabad,272465,James Pattinson,Mumbai Indians,,,1175485,Abdul Samad,1,9.0
+ipl20,201601,1216538,2nd innings,209,23,0,144/5,0,97,16.1,0,0,0,False,,1070183,Abhishek Sharma,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,1175485,Abdul Samad,0,8.9
+ipl20,201602,1216538,2nd innings,209,22,0,145/5,0,98,16.2,1,0,0,False,,1070183,Abhishek Sharma,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,1175485,Abdul Samad,1,8.87
+ipl20,201603,1216538,2nd innings,209,21,0,147/5,0,99,16.3,2,0,0,False,,1175485,Abdul Samad,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,1070183,Abhishek Sharma,2,8.9
+ipl20,201604,1216538,2nd innings,209,20,0,147/5,0,100,16.4,0,0,0,False,,1175485,Abdul Samad,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,1070183,Abhishek Sharma,0,8.82
+ipl20,201605,1216538,2nd innings,209,20,0,148/5,0,100,16.4,1,1,1,False,,1175485,Abdul Samad,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,1070183,Abhishek Sharma,1,8.88
+ipl20,201606,1216538,2nd innings,209,19,0,154/5,0,101,16.5,6,0,0,False,,1175485,Abdul Samad,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,1070183,Abhishek Sharma,6,9.14
+ipl20,201607,1216538,2nd innings,209,18,0,158/5,0,102,16.6,4,0,0,False,,1175485,Abdul Samad,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,1070183,Abhishek Sharma,4,9.29
+ipl20,201701,1216538,2nd innings,209,17,0,160/5,0,103,17.1,2,0,0,False,,1070183,Abhishek Sharma,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,1175485,Abdul Samad,2,9.32
+ipl20,201702,1216538,2nd innings,209,16,0,160/5,0,104,17.2,0,0,0,False,,1070183,Abhishek Sharma,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,1175485,Abdul Samad,0,9.23
+ipl20,201703,1216538,2nd innings,209,15,0,161/5,0,105,17.3,1,0,0,False,,1070183,Abhishek Sharma,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,1175485,Abdul Samad,1,9.2
+ipl20,201704,1216538,2nd innings,209,14,0,161/5,0,106,17.4,0,0,0,False,,1175485,Abdul Samad,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,1070183,Abhishek Sharma,0,9.11
+ipl20,201705,1216538,2nd innings,209,13,0,162/5,0,107,17.5,1,0,0,False,,1175485,Abdul Samad,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,1070183,Abhishek Sharma,1,9.08
+ipl20,201706,1216538,2nd innings,209,12,0,162/5,0,108,17.6,0,0,0,False,,1070183,Abhishek Sharma,Sunrisers Hyderabad,277912,Trent Boult,Mumbai Indians,,,1175485,Abdul Samad,0,9.0
+ipl20,201801,1216538,2nd innings,209,11,0,168/5,0,109,18.1,6,0,0,False,,1175485,Abdul Samad,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,1070183,Abhishek Sharma,6,9.24
+ipl20,201802,1216538,2nd innings,209,10,0,168/6,6,110,18.2,0,0,0,True,caught,1175485,Abdul Samad,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,22856,Thomas Wells,1070183,Abhishek Sharma,0,9.16
+ipl20,201803,1216538,2nd innings,209,9,0,171/6,0,111,18.3,3,0,3,False,,1070183,Abhishek Sharma,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,793463,Rashid Khan,3,9.24
+ipl20,201804,1216538,2nd innings,209,8,0,172/6,0,112,18.4,1,0,0,False,,793463,Rashid Khan,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,1070183,Abhishek Sharma,1,9.21
+ipl20,201805,1216538,2nd innings,209,7,0,172/7,7,113,18.5,0,0,0,True,bowled,1070183,Abhishek Sharma,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,1070183,Abhishek Sharma,793463,Rashid Khan,0,9.13
+ipl20,201806,1216538,2nd innings,209,6,0,172/7,0,114,18.6,0,0,0,False,,438362,Sandeep Sharma,Sunrisers Hyderabad,625383,Jasprit Bumrah,Mumbai Indians,,,793463,Rashid Khan,0,9.05
+ipl20,201901,1216538,2nd innings,209,5,0,174/7,0,115,19.1,2,0,0,False,,793463,Rashid Khan,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,438362,Sandeep Sharma,2,9.07
+ipl20,201902,1216538,2nd innings,209,4,0,174/7,0,116,19.2,0,0,0,False,,793463,Rashid Khan,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,438362,Sandeep Sharma,0,9.0
+ipl20,201903,1216538,2nd innings,209,3,0,174/7,0,117,19.3,0,0,0,False,,793463,Rashid Khan,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,438362,Sandeep Sharma,0,8.92
+ipl20,201904,1216538,2nd innings,209,2,0,174/7,0,118,19.4,0,0,0,False,,793463,Rashid Khan,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,438362,Sandeep Sharma,0,8.84
+ipl20,201905,1216538,2nd innings,209,1,0,174/7,0,119,19.5,0,0,0,False,,793463,Rashid Khan,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,438362,Sandeep Sharma,0,8.77
+ipl20,201906,1216538,2nd innings,209,0,0,174/7,0,120,19.6,0,0,0,False,,793463,Rashid Khan,Sunrisers Hyderabad,230559,Kieron Pollard,Mumbai Indians,,,438362,Sandeep Sharma,0,8.7

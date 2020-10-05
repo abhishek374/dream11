@@ -28,7 +28,6 @@ class SelectPlayingTeam:
         :param pointscol: actual points obtained by the players in the match
         :return: output_df: input_df wuth additional column with pred_selection_true
         """
-
         selected_team = self.team_points.fillna(0).groupby('matchid').apply(self.get_optimized_team, pointscol, selectioncol, rankcol)
         self.team_points = pd.merge(self.team_points, selected_team, on=['matchid', 'playername'], how='left')
         if adjustcappoints:
@@ -44,7 +43,6 @@ class SelectPlayingTeam:
         :param rankcol: column name which has the cost of each player
         :return
         """
-        print(team_df)
         player_list = list(team_df[self.playernamecol])
         points = dict(zip(player_list, team_df[pointscol]))
         costs = dict(zip(player_list, team_df[self.playercost]))

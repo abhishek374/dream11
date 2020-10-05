@@ -1,24 +1,489 @@
 date,matchid,innings,target,fallofwickets,ball,over,scorevalue,validball,extras,extratype,batsmanname,batsmanscorevalue,bowlername,nonstrikername,totalruns,dismissal,dismissedtype,dismissedplayer,battingteam,bowlingteam
-2020-09-28,1216547,1st innings,0,0,1,0.1,2,0,0,Nan,Devdutt Padikkal,2,TA Boult,AJ Finch,2,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,2,0.2,4,0,0,Nan,Devdutt Padikkal,4,TA Boult,AJ Finch,6,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,3,0.3,0,0,0,Nan,Devdutt Padikkal,0,TA Boult,AJ Finch,6,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,4,0.4,1,0,0,Nan,Devdutt Padikkal,1,TA Boult,AJ Finch,7,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,5,0.5,0,0,0,Nan,AJ Finch,0,TA Boult,Devdutt Padikkal,7,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,6,0.6,1,0,0,Nan,AJ Finch,1,TA Boult,Devdutt Padikkal,8,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,7,1.1,2,0,0,Nan,AJ Finch,2,James Pattinson,Devdutt Padikkal,10,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,8,1.2,0,0,0,Nan,AJ Finch,0,James Pattinson,Devdutt Padikkal,10,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,9,1.3,0,0,0,Nan,AJ Finch,0,James Pattinson,Devdutt Padikkal,10,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,10,1.4,0,0,0,Nan,AJ Finch,0,James Pattinson,Devdutt Padikkal,10,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,11,1.5,4,0,0,Nan,AJ Finch,4,James Pattinson,Devdutt Padikkal,14,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,12,1.6,2,0,0,Nan,AJ Finch,2,James Pattinson,Devdutt Padikkal,16,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,13,2.1,1,0,0,Nan,Devdutt Padikkal,1,TA Boult,AJ Finch,17,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,14,2.2,0,0,0,Nan,AJ Finch,0,TA Boult,Devdutt Padikkal,17,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,15,2.3,0,0,0,Nan,AJ Finch,0,TA Boult,Devdutt Padikkal,17,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,16,2.4,6,0,0,Nan,AJ Finch,6,TA Boult,Devdutt Padikkal,23,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,17,2.5,2,0,0,Nan,AJ Finch,2,TA Boult,Devdutt Padikkal,25,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,18,2.6,1,0,0,Nan,AJ Finch,1,TA Boult,Devdutt Padikkal,26,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,19,3.1,2,0,0,Nan,AJ Finch,2,James Pattinson,Devdutt Padikkal,28,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,20,3.2,4,0,0,Nan,AJ Finch,4,James Pattinson,Devdutt Padikkal,32,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,21,3.3,0,0,0,Nan,AJ Finch,0,James Pattinson,Devdutt Padikkal,32,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,22,3.4,0,0,0,Nan,AJ Finch,0,James Pattinson,Devdutt Padikkal,32,False,,,Royal Challengers Bangalore,Mumbai Indians
-2020-09-28,1216547,1st innings,0,0,23,3.5,3,0,0,Nan,AJ Finch,3,James Pattinson,Devdutt Padikkal,35,False,,,Royal Challengers Bangalore,Mumbai Indians
+2020-10-04,1216538,1st innings,0,0,1,0.1,0,0,0,Nan,RG Sharma,0,Sandeep Sharma,Q de Kock,0,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,2,0.2,0,0,0,Nan,RG Sharma,0,Sandeep Sharma,Q de Kock,0,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,3,0.3,0,0,0,Nan,RG Sharma,0,Sandeep Sharma,Q de Kock,0,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,4,0.4,6,0,0,Nan,RG Sharma,6,Sandeep Sharma,Q de Kock,6,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,1,5,0.5,0,0,0,Nan,RG Sharma,0,Sandeep Sharma,Q de Kock,6,True,caught,RG Sharma,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,6,0.6,0,0,0,Nan,SA Yadav,0,Sandeep Sharma,Q de Kock,6,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,7,1.1,0,0,0,Nan,Q de Kock,0,T Natarajan,SA Yadav,6,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,8,1.2,0,0,0,Nan,Q de Kock,0,T Natarajan,SA Yadav,6,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,9,1.3,1,0,0,Nan,Q de Kock,1,T Natarajan,SA Yadav,7,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,10,1.4,0,0,0,Nan,SA Yadav,0,T Natarajan,Q de Kock,7,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,11,1.5,0,0,0,Nan,SA Yadav,0,T Natarajan,Q de Kock,7,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,12,1.6,0,0,0,Nan,SA Yadav,0,T Natarajan,Q de Kock,7,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,13,2.1,4,0,0,Nan,Q de Kock,4,S Kaul,SA Yadav,11,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,13,2.1,1,1,1,Nan,Q de Kock,1,S Kaul,SA Yadav,12,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,14,2.2,1,0,0,Nan,Q de Kock,1,S Kaul,SA Yadav,13,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,15,2.3,4,0,0,Nan,SA Yadav,4,S Kaul,Q de Kock,17,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,16,2.4,4,0,0,Nan,SA Yadav,4,S Kaul,Q de Kock,21,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,17,2.5,4,0,0,Nan,SA Yadav,4,S Kaul,Q de Kock,25,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,18,2.6,0,0,0,Nan,SA Yadav,0,S Kaul,Q de Kock,25,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,19,3.1,1,0,0,Nan,Q de Kock,1,Sandeep Sharma,SA Yadav,26,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,20,3.2,0,0,0,Nan,SA Yadav,0,Sandeep Sharma,Q de Kock,26,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,21,3.3,4,0,0,Nan,SA Yadav,4,Sandeep Sharma,Q de Kock,30,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,22,3.4,1,0,0,Nan,SA Yadav,1,Sandeep Sharma,Q de Kock,31,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,23,3.5,1,0,0,Nan,Q de Kock,1,Sandeep Sharma,SA Yadav,32,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,24,3.6,0,0,0,Nan,SA Yadav,0,Sandeep Sharma,Q de Kock,32,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,25,4.1,4,0,0,Nan,Q de Kock,4,T Natarajan,SA Yadav,36,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,26,4.2,0,0,0,Nan,Q de Kock,0,T Natarajan,SA Yadav,36,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,27,4.3,0,0,0,Nan,Q de Kock,0,T Natarajan,SA Yadav,36,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,28,4.4,1,0,1,Nan,Q de Kock,1,T Natarajan,SA Yadav,37,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,29,4.5,0,0,0,Nan,SA Yadav,0,T Natarajan,Q de Kock,37,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,30,4.6,1,0,0,Nan,SA Yadav,1,T Natarajan,Q de Kock,38,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,31,5.1,4,0,0,Nan,SA Yadav,4,S Kaul,Q de Kock,42,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,32,5.2,1,0,0,Nan,SA Yadav,1,S Kaul,Q de Kock,43,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,33,5.3,1,0,0,Nan,Q de Kock,1,S Kaul,SA Yadav,44,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,34,5.4,4,0,0,Nan,SA Yadav,4,S Kaul,Q de Kock,48,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,2,35,5.5,0,0,0,Nan,SA Yadav,0,S Kaul,Q de Kock,48,True,caught,SA Yadav,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,36,5.6,0,0,0,Nan,Ishan Kishan,0,S Kaul,Q de Kock,48,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,37,6.1,0,0,0,Nan,Q de Kock,0,A Samad,Ishan Kishan,48,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,38,6.2,2,0,0,Nan,Q de Kock,2,A Samad,Ishan Kishan,50,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,39,6.3,1,0,0,Nan,Q de Kock,1,A Samad,Ishan Kishan,51,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,40,6.4,1,0,0,Nan,Ishan Kishan,1,A Samad,Q de Kock,52,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,41,6.5,6,0,0,Nan,Q de Kock,6,A Samad,Ishan Kishan,58,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,42,6.6,1,0,0,Nan,Q de Kock,1,A Samad,Ishan Kishan,59,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,43,7.1,1,0,0,Nan,Q de Kock,1,Rashid Khan,Ishan Kishan,60,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,44,7.2,1,0,0,Nan,Ishan Kishan,1,Rashid Khan,Q de Kock,61,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,45,7.3,1,0,0,Nan,Q de Kock,1,Rashid Khan,Ishan Kishan,62,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,46,7.4,4,0,0,Nan,Ishan Kishan,4,Rashid Khan,Q de Kock,66,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,47,7.5,1,0,0,Nan,Ishan Kishan,1,Rashid Khan,Q de Kock,67,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,48,7.6,0,0,0,Nan,Q de Kock,0,Rashid Khan,Ishan Kishan,67,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,49,8.1,1,0,0,Nan,Ishan Kishan,1,A Samad,Q de Kock,68,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,50,8.2,6,0,0,Nan,Q de Kock,6,A Samad,Ishan Kishan,74,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,51,8.3,2,0,0,Nan,Q de Kock,2,A Samad,Ishan Kishan,76,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,52,8.4,2,0,0,Nan,Q de Kock,2,A Samad,Ishan Kishan,78,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,53,8.5,4,0,0,Nan,Q de Kock,4,A Samad,Ishan Kishan,82,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,54,8.6,1,0,0,Nan,Q de Kock,1,A Samad,Ishan Kishan,83,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,55,9.1,2,0,0,Nan,Q de Kock,2,KS Williamson,Ishan Kishan,85,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,56,9.2,1,0,0,Nan,Q de Kock,1,KS Williamson,Ishan Kishan,86,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,57,9.3,1,0,0,Nan,Ishan Kishan,1,KS Williamson,Q de Kock,87,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,58,9.4,1,0,0,Nan,Q de Kock,1,KS Williamson,Ishan Kishan,88,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,59,9.5,1,0,0,Nan,Ishan Kishan,1,KS Williamson,Q de Kock,89,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,60,9.6,1,0,0,Nan,Q de Kock,1,KS Williamson,Ishan Kishan,90,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,61,10.1,1,0,0,Nan,Q de Kock,1,Rashid Khan,Ishan Kishan,91,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,62,10.2,0,0,0,Nan,Ishan Kishan,0,Rashid Khan,Q de Kock,91,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,63,10.3,0,0,0,Nan,Ishan Kishan,0,Rashid Khan,Q de Kock,91,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,64,10.4,1,0,0,Nan,Ishan Kishan,1,Rashid Khan,Q de Kock,92,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,65,10.5,1,0,0,Nan,Q de Kock,1,Rashid Khan,Ishan Kishan,93,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,66,10.6,1,0,0,Nan,Ishan Kishan,1,Rashid Khan,Q de Kock,94,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,67,11.1,2,0,0,Nan,Ishan Kishan,2,KS Williamson,Q de Kock,96,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,68,11.2,1,0,0,Nan,Ishan Kishan,1,KS Williamson,Q de Kock,97,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,69,11.3,6,0,0,Nan,Q de Kock,6,KS Williamson,Ishan Kishan,103,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,70,11.4,1,0,0,Nan,Q de Kock,1,KS Williamson,Ishan Kishan,104,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,71,11.5,6,0,0,Nan,Ishan Kishan,6,KS Williamson,Q de Kock,110,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,72,11.6,1,0,0,Nan,Ishan Kishan,1,KS Williamson,Q de Kock,111,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,72,12.0,2,1,1,Nan,Ishan Kishan,2,S Kaul,Q de Kock,113,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,73,12.1,2,0,0,Nan,Q de Kock,2,S Kaul,Ishan Kishan,115,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,74,12.2,4,0,0,Nan,Q de Kock,4,S Kaul,Ishan Kishan,119,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,75,12.3,0,0,0,Nan,Q de Kock,0,S Kaul,Ishan Kishan,119,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,76,12.4,6,0,0,Nan,Q de Kock,6,S Kaul,Ishan Kishan,125,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,77,12.5,1,0,0,Nan,Q de Kock,1,S Kaul,Ishan Kishan,126,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,78,12.6,0,0,0,Nan,Ishan Kishan,0,S Kaul,Q de Kock,126,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,3,79,13.1,0,0,0,Nan,Q de Kock,0,Rashid Khan,Ishan Kishan,126,True,caught,Q de Kock,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,80,13.2,6,0,0,Nan,Ishan Kishan,6,Rashid Khan,HH Pandya,132,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,81,13.3,0,0,0,Nan,Ishan Kishan,0,Rashid Khan,HH Pandya,132,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,82,13.4,1,0,0,Nan,Ishan Kishan,1,Rashid Khan,HH Pandya,133,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,83,13.5,0,0,0,Nan,HH Pandya,0,Rashid Khan,Ishan Kishan,133,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,84,13.6,1,0,0,Nan,HH Pandya,1,Rashid Khan,Ishan Kishan,134,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,85,14.1,1,0,0,Nan,HH Pandya,1,Sandeep Sharma,Ishan Kishan,135,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,86,14.2,1,0,0,Nan,Ishan Kishan,1,Sandeep Sharma,HH Pandya,136,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,87,14.3,6,0,0,Nan,HH Pandya,6,Sandeep Sharma,Ishan Kishan,142,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,88,14.4,4,0,0,Nan,HH Pandya,4,Sandeep Sharma,Ishan Kishan,146,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,89,14.5,1,0,0,Nan,HH Pandya,1,Sandeep Sharma,Ishan Kishan,147,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,4,90,14.6,0,0,0,Nan,Ishan Kishan,0,Sandeep Sharma,HH Pandya,147,True,caught,Ishan Kishan,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,91,15.1,0,0,0,Nan,HH Pandya,0,Rashid Khan,KA Pollard,147,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,92,15.2,0,0,0,Nan,HH Pandya,0,Rashid Khan,KA Pollard,147,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,93,15.3,1,0,0,Nan,HH Pandya,1,Rashid Khan,KA Pollard,148,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,94,15.4,0,0,0,Nan,KA Pollard,0,Rashid Khan,HH Pandya,148,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,94,15.4,1,1,1,Nan,KA Pollard,1,Rashid Khan,HH Pandya,149,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,95,15.5,0,0,0,Nan,KA Pollard,0,Rashid Khan,HH Pandya,149,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,96,15.6,0,0,0,Nan,KA Pollard,0,Rashid Khan,HH Pandya,149,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,97,16.1,6,0,0,Nan,HH Pandya,6,T Natarajan,KA Pollard,155,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,98,16.2,1,0,0,Nan,HH Pandya,1,T Natarajan,KA Pollard,156,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,99,16.3,1,0,0,Nan,KA Pollard,1,T Natarajan,HH Pandya,157,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,100,16.4,1,0,0,Nan,HH Pandya,1,T Natarajan,KA Pollard,158,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,101,16.5,1,0,0,Nan,KA Pollard,1,T Natarajan,HH Pandya,159,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,102,16.6,0,0,0,Nan,HH Pandya,0,T Natarajan,KA Pollard,159,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,103,17.1,6,0,0,Nan,KA Pollard,6,Sandeep Sharma,HH Pandya,165,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,104,17.2,1,0,0,Nan,KA Pollard,1,Sandeep Sharma,HH Pandya,166,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,105,17.3,1,0,0,Nan,HH Pandya,1,Sandeep Sharma,KA Pollard,167,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,106,17.4,6,0,0,Nan,KA Pollard,6,Sandeep Sharma,HH Pandya,173,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,107,17.5,1,0,0,Nan,KA Pollard,1,Sandeep Sharma,HH Pandya,174,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,108,17.6,0,0,0,Nan,HH Pandya,0,Sandeep Sharma,KA Pollard,174,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,109,18.1,6,0,0,Nan,KA Pollard,6,T Natarajan,HH Pandya,180,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,110,18.2,1,0,0,Nan,KA Pollard,1,T Natarajan,HH Pandya,181,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,111,18.3,4,0,0,Nan,HH Pandya,4,T Natarajan,KA Pollard,185,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,112,18.4,1,0,0,Nan,HH Pandya,1,T Natarajan,KA Pollard,186,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,113,18.5,1,0,0,Nan,KA Pollard,1,T Natarajan,HH Pandya,187,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,114,18.6,0,0,0,Nan,HH Pandya,0,T Natarajan,KA Pollard,187,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,115,19.1,1,0,0,Nan,KA Pollard,1,S Kaul,HH Pandya,188,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,5,116,19.2,0,0,0,Nan,HH Pandya,0,S Kaul,KA Pollard,188,True,bowled,HH Pandya,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,117,19.3,6,0,0,Nan,KH Pandya,6,S Kaul,KA Pollard,194,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,118,19.4,4,0,0,Nan,KH Pandya,4,S Kaul,KA Pollard,198,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,119,19.5,4,0,0,Nan,KH Pandya,4,S Kaul,KA Pollard,202,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,1st innings,0,0,120,19.6,6,0,0,Nan,KH Pandya,6,S Kaul,KA Pollard,208,False,,,Mumbai Indians,Sunrisers Hyderabad
+2020-10-04,1216538,2nd innings,209,0,1,0.1,1,0,0,Nan,DA Warner,1,TA Boult,JM Bairstow,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,2,0.2,0,0,0,Nan,JM Bairstow,0,TA Boult,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,3,0.3,6,0,0,Nan,JM Bairstow,6,TA Boult,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,4,0.4,0,0,0,Nan,JM Bairstow,0,TA Boult,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,5,0.5,1,0,0,Nan,JM Bairstow,1,TA Boult,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,6,0.6,0,0,0,Nan,DA Warner,0,TA Boult,JM Bairstow,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,7,1.1,0,0,0,Nan,JM Bairstow,0,James Pattinson,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,8,1.2,2,0,0,Nan,JM Bairstow,2,James Pattinson,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,9,1.3,4,0,0,Nan,JM Bairstow,4,James Pattinson,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,10,1.4,4,0,0,Nan,JM Bairstow,4,James Pattinson,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,11,1.5,1,0,0,Nan,JM Bairstow,1,James Pattinson,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,12,1.6,1,0,0,Nan,DA Warner,1,James Pattinson,JM Bairstow,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,13,2.1,0,0,0,Nan,DA Warner,0,KH Pandya,JM Bairstow,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,13,2.1,1,1,1,Nan,DA Warner,1,KH Pandya,JM Bairstow,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,14,2.2,1,0,0,Nan,DA Warner,1,KH Pandya,JM Bairstow,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,15,2.3,0,0,0,Nan,JM Bairstow,0,KH Pandya,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,16,2.4,2,0,2,Nan,JM Bairstow,2,KH Pandya,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,17,2.5,6,0,0,Nan,JM Bairstow,6,KH Pandya,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,18,2.6,0,0,0,Nan,JM Bairstow,0,KH Pandya,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,19,3.1,0,0,0,Nan,DA Warner,0,James Pattinson,JM Bairstow,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,20,3.2,0,0,0,Nan,DA Warner,0,James Pattinson,JM Bairstow,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,21,3.3,0,0,0,Nan,DA Warner,0,James Pattinson,JM Bairstow,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,22,3.4,1,0,0,Nan,DA Warner,1,James Pattinson,JM Bairstow,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,23,3.5,1,0,0,Nan,JM Bairstow,1,James Pattinson,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,24,3.6,2,0,0,Nan,DA Warner,2,James Pattinson,JM Bairstow,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,1,25,4.1,0,0,0,Nan,JM Bairstow,0,TA Boult,DA Warner,0,True,caught,JM Bairstow,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,26,4.2,0,0,0,Nan,MK Pandey,0,TA Boult,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,27,4.3,4,0,0,Nan,MK Pandey,4,TA Boult,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,28,4.4,0,0,0,Nan,MK Pandey,0,TA Boult,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,29,4.5,4,0,0,Nan,MK Pandey,4,TA Boult,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,30,4.6,0,0,0,Nan,MK Pandey,0,TA Boult,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,31,5.1,4,0,0,Nan,DA Warner,4,JJ Bumrah,MK Pandey,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,32,5.2,4,0,0,Nan,DA Warner,4,JJ Bumrah,MK Pandey,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,33,5.3,0,0,0,Nan,DA Warner,0,JJ Bumrah,MK Pandey,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,34,5.4,1,0,0,Nan,DA Warner,1,JJ Bumrah,MK Pandey,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,35,5.5,4,0,0,Nan,MK Pandey,4,JJ Bumrah,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,36,5.6,1,0,0,Nan,MK Pandey,1,JJ Bumrah,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,37,6.1,1,0,0,Nan,MK Pandey,1,KH Pandya,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,38,6.2,1,0,0,Nan,DA Warner,1,KH Pandya,MK Pandey,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,39,6.3,0,0,0,Nan,MK Pandey,0,KH Pandya,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,40,6.4,0,0,0,Nan,MK Pandey,0,KH Pandya,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,41,6.5,1,0,0,Nan,MK Pandey,1,KH Pandya,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,42,6.6,0,0,0,Nan,DA Warner,0,KH Pandya,MK Pandey,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,43,7.1,1,0,0,Nan,MK Pandey,1,KA Pollard,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,44,7.2,1,0,0,Nan,DA Warner,1,KA Pollard,MK Pandey,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,45,7.3,4,0,0,Nan,MK Pandey,4,KA Pollard,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,45,7.3,1,1,1,Nan,MK Pandey,1,KA Pollard,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,45,7.3,1,1,1,Nan,MK Pandey,1,KA Pollard,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,46,7.4,1,0,0,Nan,MK Pandey,1,KA Pollard,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,47,7.5,1,0,0,Nan,DA Warner,1,KA Pollard,MK Pandey,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,48,7.6,1,0,0,Nan,MK Pandey,1,KA Pollard,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,49,8.1,6,0,0,Nan,MK Pandey,6,RD Chahar,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,50,8.2,1,0,0,Nan,MK Pandey,1,RD Chahar,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,51,8.3,6,0,0,Nan,DA Warner,6,RD Chahar,MK Pandey,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,52,8.4,2,0,0,Nan,DA Warner,2,RD Chahar,MK Pandey,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,53,8.5,0,0,0,Nan,DA Warner,0,RD Chahar,MK Pandey,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,54,8.6,1,0,0,Nan,DA Warner,1,RD Chahar,MK Pandey,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,55,9.1,4,0,0,Nan,DA Warner,4,James Pattinson,MK Pandey,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,56,9.2,1,0,0,Nan,DA Warner,1,James Pattinson,MK Pandey,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,56,9.2,1,1,1,Nan,MK Pandey,1,James Pattinson,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,57,9.3,1,0,0,Nan,MK Pandey,1,James Pattinson,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,58,9.4,1,0,0,Nan,DA Warner,1,James Pattinson,MK Pandey,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,2,59,9.5,0,0,0,Nan,MK Pandey,0,James Pattinson,DA Warner,0,True,caught,MK Pandey,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,60,9.6,0,0,0,Nan,KS Williamson,0,James Pattinson,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,61,10.1,2,0,0,Nan,DA Warner,2,KH Pandya,KS Williamson,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,62,10.2,6,0,0,Nan,DA Warner,6,KH Pandya,KS Williamson,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,63,10.3,4,0,0,Nan,DA Warner,4,KH Pandya,KS Williamson,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,64,10.4,1,0,0,Nan,DA Warner,1,KH Pandya,KS Williamson,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,65,10.5,1,0,0,Nan,KS Williamson,1,KH Pandya,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,66,10.6,1,0,0,Nan,DA Warner,1,KH Pandya,KS Williamson,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,67,11.1,0,0,0,Nan,DA Warner,0,JJ Bumrah,KS Williamson,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,68,11.2,1,0,0,Nan,DA Warner,1,JJ Bumrah,KS Williamson,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,69,11.3,1,0,0,Nan,KS Williamson,1,JJ Bumrah,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,69,11.3,1,1,1,Nan,DA Warner,1,JJ Bumrah,KS Williamson,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,70,11.4,1,0,0,Nan,DA Warner,1,JJ Bumrah,KS Williamson,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,71,11.5,1,0,0,Nan,KS Williamson,1,JJ Bumrah,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,72,11.6,1,0,0,Nan,DA Warner,1,JJ Bumrah,KS Williamson,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,73,12.1,1,0,0,Nan,DA Warner,1,TA Boult,KS Williamson,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,3,74,12.2,0,0,0,Nan,KS Williamson,0,TA Boult,DA Warner,0,True,caught,KS Williamson,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,75,12.3,1,0,0,Nan,P Garg,1,TA Boult,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,76,12.4,1,0,0,Nan,DA Warner,1,TA Boult,P Garg,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,77,12.5,1,0,0,Nan,P Garg,1,TA Boult,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,78,12.6,4,0,0,Nan,DA Warner,4,TA Boult,P Garg,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,79,13.1,2,0,0,Nan,P Garg,2,KA Pollard,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,80,13.2,2,0,0,Nan,P Garg,2,KA Pollard,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,81,13.3,1,0,0,Nan,P Garg,1,KA Pollard,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,82,13.4,0,0,0,Nan,DA Warner,0,KA Pollard,P Garg,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,83,13.5,1,0,0,Nan,DA Warner,1,KA Pollard,P Garg,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,84,13.6,1,0,0,Nan,P Garg,1,KA Pollard,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,4,85,14.1,0,0,0,Nan,P Garg,0,KH Pandya,DA Warner,0,True,caught,P Garg,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,85,14.1,1,1,1,Nan,DA Warner,1,KH Pandya,Abhishek Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,86,14.2,1,0,0,Nan,DA Warner,1,KH Pandya,Abhishek Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,87,14.3,1,0,0,Nan,Abhishek Sharma,1,KH Pandya,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,87,14.3,2,2,2,Nan,DA Warner,2,KH Pandya,Abhishek Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,87,14.3,1,1,1,Nan,Abhishek Sharma,1,KH Pandya,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,88,14.4,2,0,0,Nan,Abhishek Sharma,2,KH Pandya,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,89,14.5,1,0,0,Nan,Abhishek Sharma,1,KH Pandya,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,90,14.6,0,0,0,Nan,DA Warner,0,KH Pandya,Abhishek Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,91,15.1,1,0,0,Nan,Abhishek Sharma,1,James Pattinson,DA Warner,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,92,15.2,0,0,0,Nan,DA Warner,0,James Pattinson,Abhishek Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,93,15.3,2,0,0,Nan,DA Warner,2,James Pattinson,Abhishek Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,5,94,15.4,0,0,0,Nan,DA Warner,0,James Pattinson,Abhishek Sharma,0,True,caught,DA Warner,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,95,15.5,1,0,0,Nan,A Samad,1,James Pattinson,Abhishek Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,96,15.6,1,0,0,Nan,Abhishek Sharma,1,James Pattinson,A Samad,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,97,16.1,0,0,0,Nan,Abhishek Sharma,0,JJ Bumrah,A Samad,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,98,16.2,1,0,0,Nan,Abhishek Sharma,1,JJ Bumrah,A Samad,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,99,16.3,2,0,0,Nan,A Samad,2,JJ Bumrah,Abhishek Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,100,16.4,0,0,0,Nan,A Samad,0,JJ Bumrah,Abhishek Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,100,16.4,1,1,1,Nan,A Samad,1,JJ Bumrah,Abhishek Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,101,16.5,6,0,0,Nan,A Samad,6,JJ Bumrah,Abhishek Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,102,16.6,4,0,0,Nan,A Samad,4,JJ Bumrah,Abhishek Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,103,17.1,2,0,0,Nan,Abhishek Sharma,2,TA Boult,A Samad,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,104,17.2,0,0,0,Nan,Abhishek Sharma,0,TA Boult,A Samad,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,105,17.3,1,0,0,Nan,Abhishek Sharma,1,TA Boult,A Samad,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,106,17.4,0,0,0,Nan,A Samad,0,TA Boult,Abhishek Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,107,17.5,1,0,0,Nan,A Samad,1,TA Boult,Abhishek Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,108,17.6,0,0,0,Nan,Abhishek Sharma,0,TA Boult,A Samad,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,109,18.1,6,0,0,Nan,A Samad,6,JJ Bumrah,Abhishek Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,6,110,18.2,0,0,0,Nan,A Samad,0,JJ Bumrah,Abhishek Sharma,0,True,caught,A Samad,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,111,18.3,3,0,3,Nan,Abhishek Sharma,3,JJ Bumrah,Rashid Khan,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,112,18.4,1,0,0,Nan,Rashid Khan,1,JJ Bumrah,Abhishek Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,7,113,18.5,0,0,0,Nan,Abhishek Sharma,0,JJ Bumrah,Rashid Khan,0,True,bowled,Abhishek Sharma,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,114,18.6,0,0,0,Nan,Sandeep Sharma,0,JJ Bumrah,Rashid Khan,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,115,19.1,2,0,0,Nan,Rashid Khan,2,KA Pollard,Sandeep Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,116,19.2,0,0,0,Nan,Rashid Khan,0,KA Pollard,Sandeep Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,117,19.3,0,0,0,Nan,Rashid Khan,0,KA Pollard,Sandeep Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,118,19.4,0,0,0,Nan,Rashid Khan,0,KA Pollard,Sandeep Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,119,19.5,0,0,0,Nan,Rashid Khan,0,KA Pollard,Sandeep Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216538,2nd innings,209,0,120,19.6,0,0,0,Nan,Rashid Khan,0,KA Pollard,Sandeep Sharma,0,False,,,Sunrisers Hyderabad,Mumbai Indians
+2020-10-04,1216513,1st innings,0,0,1,0.1,2,0,0,Nan,KL Rahul,2,DL Chahar,MA Agarwal,2,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,2,0.2,0,0,0,Nan,KL Rahul,0,DL Chahar,MA Agarwal,2,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,3,0.3,0,0,0,Nan,KL Rahul,0,DL Chahar,MA Agarwal,2,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,4,0.4,0,0,0,Nan,KL Rahul,0,DL Chahar,MA Agarwal,2,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,5,0.5,1,0,0,Nan,KL Rahul,1,DL Chahar,MA Agarwal,3,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,6,0.6,1,0,0,Nan,MA Agarwal,1,DL Chahar,KL Rahul,4,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,7,1.1,2,0,0,Nan,MA Agarwal,2,SM Curran,KL Rahul,6,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,8,1.2,1,0,0,Nan,MA Agarwal,1,SM Curran,KL Rahul,7,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,9,1.3,4,0,0,Nan,KL Rahul,4,SM Curran,MA Agarwal,11,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,10,1.4,0,0,0,Nan,KL Rahul,0,SM Curran,MA Agarwal,11,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,11,1.5,1,0,0,Nan,KL Rahul,1,SM Curran,MA Agarwal,12,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,12,1.6,0,0,0,Nan,MA Agarwal,0,SM Curran,KL Rahul,12,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,13,2.1,0,0,0,Nan,KL Rahul,0,DL Chahar,MA Agarwal,12,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,14,2.2,2,0,0,Nan,KL Rahul,2,DL Chahar,MA Agarwal,14,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,15,2.3,4,0,0,Nan,KL Rahul,4,DL Chahar,MA Agarwal,18,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,16,2.4,0,0,0,Nan,KL Rahul,0,DL Chahar,MA Agarwal,18,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,17,2.5,1,0,0,Nan,KL Rahul,1,DL Chahar,MA Agarwal,19,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,18,2.6,0,0,0,Nan,MA Agarwal,0,DL Chahar,KL Rahul,19,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,19,3.1,1,0,0,Nan,KL Rahul,1,SM Curran,MA Agarwal,20,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,20,3.2,1,0,0,Nan,MA Agarwal,1,SM Curran,KL Rahul,21,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,21,3.3,1,0,0,Nan,KL Rahul,1,SM Curran,MA Agarwal,22,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,22,3.4,4,0,0,Nan,MA Agarwal,4,SM Curran,KL Rahul,26,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,23,3.5,1,0,0,Nan,MA Agarwal,1,SM Curran,KL Rahul,27,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,24,3.6,4,0,0,Nan,KL Rahul,4,SM Curran,MA Agarwal,31,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,25,4.1,0,0,0,Nan,MA Agarwal,0,DL Chahar,KL Rahul,31,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,26,4.2,4,0,0,Nan,MA Agarwal,4,DL Chahar,KL Rahul,35,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,27,4.3,1,0,0,Nan,MA Agarwal,1,DL Chahar,KL Rahul,36,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,28,4.4,1,0,0,Nan,KL Rahul,1,DL Chahar,MA Agarwal,37,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,29,4.5,1,0,1,Nan,MA Agarwal,1,DL Chahar,KL Rahul,38,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,30,4.6,0,0,0,Nan,KL Rahul,0,DL Chahar,MA Agarwal,38,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,31,5.1,4,0,0,Nan,MA Agarwal,4,SN Thakur,KL Rahul,42,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,32,5.2,1,0,0,Nan,MA Agarwal,1,SN Thakur,KL Rahul,43,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,33,5.3,1,0,0,Nan,KL Rahul,1,SN Thakur,MA Agarwal,44,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,34,5.4,1,0,0,Nan,MA Agarwal,1,SN Thakur,KL Rahul,45,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,35,5.5,0,0,0,Nan,KL Rahul,0,SN Thakur,MA Agarwal,45,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,36,5.6,1,0,0,Nan,KL Rahul,1,SN Thakur,MA Agarwal,46,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,37,6.1,1,0,0,Nan,KL Rahul,1,DJ Bravo,MA Agarwal,47,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,37,6.1,1,1,1,Nan,MA Agarwal,1,DJ Bravo,KL Rahul,48,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,37,6.1,1,1,1,Nan,MA Agarwal,1,DJ Bravo,KL Rahul,49,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,38,6.2,1,0,0,Nan,MA Agarwal,1,DJ Bravo,KL Rahul,50,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,39,6.3,0,0,0,Nan,KL Rahul,0,DJ Bravo,MA Agarwal,50,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,40,6.4,0,0,0,Nan,KL Rahul,0,DJ Bravo,MA Agarwal,50,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,41,6.5,4,0,0,Nan,KL Rahul,4,DJ Bravo,MA Agarwal,54,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,42,6.6,1,0,0,Nan,KL Rahul,1,DJ Bravo,MA Agarwal,55,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,43,7.1,1,0,0,Nan,KL Rahul,1,RA Jadeja,MA Agarwal,56,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,44,7.2,3,0,0,Nan,MA Agarwal,3,RA Jadeja,KL Rahul,59,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,45,7.3,0,0,0,Nan,KL Rahul,0,RA Jadeja,MA Agarwal,59,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,46,7.4,0,0,0,Nan,KL Rahul,0,RA Jadeja,MA Agarwal,59,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,47,7.5,1,0,0,Nan,KL Rahul,1,RA Jadeja,MA Agarwal,60,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,48,7.6,1,0,0,Nan,MA Agarwal,1,RA Jadeja,KL Rahul,61,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,1,49,8.1,0,0,0,Nan,MA Agarwal,0,PP Chawla,KL Rahul,61,True,caught,MA Agarwal,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,50,8.2,1,0,0,Nan,Mandeep Singh,1,PP Chawla,KL Rahul,62,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,51,8.3,1,0,0,Nan,KL Rahul,1,PP Chawla,Mandeep Singh,63,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,52,8.4,2,0,0,Nan,Mandeep Singh,2,PP Chawla,KL Rahul,65,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,53,8.5,0,0,0,Nan,Mandeep Singh,0,PP Chawla,KL Rahul,65,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,54,8.6,1,0,0,Nan,Mandeep Singh,1,PP Chawla,KL Rahul,66,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,55,9.1,2,0,0,Nan,Mandeep Singh,2,RA Jadeja,KL Rahul,68,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,56,9.2,0,0,0,Nan,Mandeep Singh,0,RA Jadeja,KL Rahul,68,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,57,9.3,1,0,0,Nan,Mandeep Singh,1,RA Jadeja,KL Rahul,69,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,58,9.4,1,0,0,Nan,KL Rahul,1,RA Jadeja,Mandeep Singh,70,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,59,9.5,1,0,0,Nan,Mandeep Singh,1,RA Jadeja,KL Rahul,71,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,60,9.6,0,0,0,Nan,KL Rahul,0,RA Jadeja,Mandeep Singh,71,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,61,10.1,2,0,0,Nan,Mandeep Singh,2,PP Chawla,KL Rahul,73,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,62,10.2,6,0,0,Nan,Mandeep Singh,6,PP Chawla,KL Rahul,79,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,63,10.3,1,0,0,Nan,Mandeep Singh,1,PP Chawla,KL Rahul,80,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,64,10.4,1,0,0,Nan,KL Rahul,1,PP Chawla,Mandeep Singh,81,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,65,10.5,6,0,0,Nan,Mandeep Singh,6,PP Chawla,KL Rahul,87,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,66,10.6,1,0,0,Nan,Mandeep Singh,1,PP Chawla,KL Rahul,88,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,67,11.1,2,0,0,Nan,Mandeep Singh,2,RA Jadeja,KL Rahul,90,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,68,11.2,1,0,0,Nan,Mandeep Singh,1,RA Jadeja,KL Rahul,91,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,69,11.3,0,0,0,Nan,KL Rahul,0,RA Jadeja,Mandeep Singh,91,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,70,11.4,2,0,0,Nan,KL Rahul,2,RA Jadeja,Mandeep Singh,93,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,71,11.5,1,0,0,Nan,KL Rahul,1,RA Jadeja,Mandeep Singh,94,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,2,72,11.6,0,0,0,Nan,Mandeep Singh,0,RA Jadeja,KL Rahul,94,True,caught,Mandeep Singh,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,73,12.1,0,0,0,Nan,KL Rahul,0,DJ Bravo,N Pooran,94,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,74,12.2,4,0,0,Nan,KL Rahul,4,DJ Bravo,N Pooran,98,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,75,12.3,0,0,0,Nan,KL Rahul,0,DJ Bravo,N Pooran,98,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,76,12.4,1,0,0,Nan,KL Rahul,1,DJ Bravo,N Pooran,99,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,77,12.5,1,0,0,Nan,N Pooran,1,DJ Bravo,KL Rahul,100,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,78,12.6,1,0,0,Nan,KL Rahul,1,DJ Bravo,N Pooran,101,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,79,13.1,1,0,0,Nan,KL Rahul,1,RA Jadeja,N Pooran,102,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,80,13.2,0,0,0,Nan,N Pooran,0,RA Jadeja,KL Rahul,102,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,81,13.3,1,0,0,Nan,N Pooran,1,RA Jadeja,KL Rahul,103,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,82,13.4,1,0,0,Nan,KL Rahul,1,RA Jadeja,N Pooran,104,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,83,13.5,4,0,0,Nan,N Pooran,4,RA Jadeja,KL Rahul,108,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,84,13.6,6,0,0,Nan,N Pooran,6,RA Jadeja,KL Rahul,114,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,85,14.1,0,0,0,Nan,KL Rahul,0,SN Thakur,N Pooran,114,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,86,14.2,6,0,0,Nan,KL Rahul,6,SN Thakur,N Pooran,120,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,87,14.3,4,0,0,Nan,KL Rahul,4,SN Thakur,N Pooran,124,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,88,14.4,4,0,0,Nan,KL Rahul,4,SN Thakur,N Pooran,128,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,89,14.5,0,0,0,Nan,KL Rahul,0,SN Thakur,N Pooran,128,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,90,14.6,2,0,0,Nan,KL Rahul,2,SN Thakur,N Pooran,130,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,91,15.1,1,0,0,Nan,N Pooran,1,SM Curran,KL Rahul,131,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,92,15.2,1,0,0,Nan,KL Rahul,1,SM Curran,N Pooran,132,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,93,15.3,6,0,0,Nan,N Pooran,6,SM Curran,KL Rahul,138,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,94,15.4,0,0,0,Nan,N Pooran,0,SM Curran,KL Rahul,138,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,95,15.5,2,0,0,Nan,N Pooran,2,SM Curran,KL Rahul,140,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,96,15.6,1,0,0,Nan,N Pooran,1,SM Curran,KL Rahul,141,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,97,16.1,2,0,0,Nan,N Pooran,2,DJ Bravo,KL Rahul,143,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,98,16.2,0,0,0,Nan,N Pooran,0,DJ Bravo,KL Rahul,143,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,99,16.3,0,0,0,Nan,N Pooran,0,DJ Bravo,KL Rahul,143,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,100,16.4,6,0,0,Nan,N Pooran,6,DJ Bravo,KL Rahul,149,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,101,16.5,2,0,0,Nan,N Pooran,2,DJ Bravo,KL Rahul,151,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,102,16.6,1,0,0,Nan,N Pooran,1,DJ Bravo,KL Rahul,152,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,3,103,17.1,0,0,0,Nan,N Pooran,0,SN Thakur,KL Rahul,152,True,caught,N Pooran,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,4,104,17.2,0,0,0,Nan,KL Rahul,0,SN Thakur,GJ Maxwell,152,True,caught,KL Rahul,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,105,17.3,0,0,0,Nan,SN Khan,0,SN Thakur,GJ Maxwell,152,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,106,17.4,1,0,0,Nan,SN Khan,1,SN Thakur,GJ Maxwell,153,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,107,17.5,0,0,0,Nan,GJ Maxwell,0,SN Thakur,SN Khan,153,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,108,17.6,2,0,0,Nan,GJ Maxwell,2,SN Thakur,SN Khan,155,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,109,18.1,2,0,0,Nan,SN Khan,2,DJ Bravo,GJ Maxwell,157,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,110,18.2,0,0,0,Nan,SN Khan,0,DJ Bravo,GJ Maxwell,157,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,111,18.3,1,0,0,Nan,SN Khan,1,DJ Bravo,GJ Maxwell,158,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,112,18.4,2,0,0,Nan,GJ Maxwell,2,DJ Bravo,SN Khan,160,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,113,18.5,4,0,0,Nan,GJ Maxwell,4,DJ Bravo,SN Khan,164,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,114,18.6,2,0,0,Nan,GJ Maxwell,2,DJ Bravo,SN Khan,166,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,115,19.1,4,0,0,Nan,SN Khan,4,SN Thakur,GJ Maxwell,170,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,116,19.2,4,0,0,Nan,SN Khan,4,SN Thakur,GJ Maxwell,174,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,116,19.2,1,1,1,Nan,SN Khan,1,SN Thakur,GJ Maxwell,175,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,117,19.3,1,0,0,Nan,SN Khan,1,SN Thakur,GJ Maxwell,176,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,118,19.4,0,0,0,Nan,GJ Maxwell,0,SN Thakur,SN Khan,176,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,119,19.5,1,0,0,Nan,GJ Maxwell,1,SN Thakur,SN Khan,177,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,1st innings,0,0,120,19.6,1,0,0,Nan,SN Khan,1,SN Thakur,GJ Maxwell,178,False,,,Kings XI Punjab,Chennai Super Kings
+2020-10-04,1216513,2nd innings,179,0,1,0.1,0,0,0,Nan,SR Watson,0,Sheldon Cottrell,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,2,0.2,0,0,0,Nan,SR Watson,0,Sheldon Cottrell,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,3,0.3,4,0,0,Nan,SR Watson,4,Sheldon Cottrell,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,4,0.4,4,0,0,Nan,SR Watson,4,Sheldon Cottrell,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,5,0.5,1,0,0,Nan,SR Watson,1,Sheldon Cottrell,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,6,0.6,0,0,0,Nan,F du Plessis,0,Sheldon Cottrell,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,7,1.1,0,0,0,Nan,SR Watson,0,Mohammed Shami,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,8,1.2,0,0,0,Nan,SR Watson,0,Mohammed Shami,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,8,1.2,5,5,5,Nan,SR Watson,5,Mohammed Shami,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,9,1.3,1,0,0,Nan,SR Watson,1,Mohammed Shami,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,10,1.4,1,0,0,Nan,F du Plessis,1,Mohammed Shami,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,11,1.5,0,0,0,Nan,SR Watson,0,Mohammed Shami,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,12,1.6,0,0,0,Nan,SR Watson,0,Mohammed Shami,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,13,2.1,1,0,0,Nan,F du Plessis,1,Sheldon Cottrell,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,14,2.2,1,0,0,Nan,SR Watson,1,Sheldon Cottrell,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,15,2.3,2,0,0,Nan,F du Plessis,2,Sheldon Cottrell,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,16,2.4,1,0,0,Nan,F du Plessis,1,Sheldon Cottrell,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,17,2.5,4,0,0,Nan,SR Watson,4,Sheldon Cottrell,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,18,2.6,0,0,0,Nan,SR Watson,0,Sheldon Cottrell,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,19,3.1,1,0,0,Nan,F du Plessis,1,H Brar,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,20,3.2,0,0,0,Nan,SR Watson,0,H Brar,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,21,3.3,4,0,0,Nan,SR Watson,4,H Brar,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,22,3.4,1,0,0,Nan,SR Watson,1,H Brar,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,23,3.5,0,0,0,Nan,F du Plessis,0,H Brar,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,24,3.6,1,0,0,Nan,F du Plessis,1,H Brar,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,24,4.0,1,1,1,Nan,F du Plessis,1,Mohammed Shami,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,25,4.1,4,0,0,Nan,F du Plessis,4,Mohammed Shami,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,26,4.2,2,0,0,Nan,F du Plessis,2,Mohammed Shami,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,27,4.3,0,0,0,Nan,F du Plessis,0,Mohammed Shami,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,28,4.4,1,0,0,Nan,F du Plessis,1,Mohammed Shami,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,29,4.5,0,0,0,Nan,SR Watson,0,Mohammed Shami,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,30,4.6,1,0,0,Nan,SR Watson,1,Mohammed Shami,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,31,5.1,1,0,0,Nan,SR Watson,1,CJ Jordan,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,32,5.2,4,0,0,Nan,F du Plessis,4,CJ Jordan,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,33,5.3,2,0,0,Nan,F du Plessis,2,CJ Jordan,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,34,5.4,4,0,0,Nan,F du Plessis,4,CJ Jordan,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,35,5.5,4,0,0,Nan,F du Plessis,4,CJ Jordan,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,36,5.6,4,0,0,Nan,F du Plessis,4,CJ Jordan,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,37,6.1,1,0,0,Nan,SR Watson,1,R Bishnoi,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,38,6.2,0,0,0,Nan,F du Plessis,0,R Bishnoi,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,39,6.3,0,0,0,Nan,F du Plessis,0,R Bishnoi,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,40,6.4,0,0,0,Nan,F du Plessis,0,R Bishnoi,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,41,6.5,4,0,0,Nan,F du Plessis,4,R Bishnoi,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,42,6.6,1,0,0,Nan,F du Plessis,1,R Bishnoi,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,43,7.1,1,0,0,Nan,F du Plessis,1,H Brar,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,44,7.2,4,0,0,Nan,SR Watson,4,H Brar,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,45,7.3,4,0,0,Nan,SR Watson,4,H Brar,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,46,7.4,1,0,0,Nan,SR Watson,1,H Brar,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,47,7.5,4,0,0,Nan,F du Plessis,4,H Brar,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,48,7.6,1,0,0,Nan,F du Plessis,1,H Brar,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,49,8.1,1,0,0,Nan,F du Plessis,1,R Bishnoi,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,50,8.2,4,0,0,Nan,SR Watson,4,R Bishnoi,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,50,8.2,1,1,1,Nan,SR Watson,1,R Bishnoi,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,51,8.3,1,0,0,Nan,SR Watson,1,R Bishnoi,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,52,8.4,1,0,0,Nan,F du Plessis,1,R Bishnoi,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,53,8.5,6,0,0,Nan,SR Watson,6,R Bishnoi,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,54,8.6,0,0,0,Nan,SR Watson,0,R Bishnoi,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,55,9.1,2,0,0,Nan,F du Plessis,2,Mohammed Shami,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,56,9.2,0,0,0,Nan,F du Plessis,0,Mohammed Shami,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,57,9.3,1,0,0,Nan,F du Plessis,1,Mohammed Shami,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,58,9.4,1,0,0,Nan,SR Watson,1,Mohammed Shami,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,59,9.5,1,0,0,Nan,F du Plessis,1,Mohammed Shami,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,60,9.6,1,0,0,Nan,SR Watson,1,Mohammed Shami,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,61,10.1,4,0,0,Nan,SR Watson,4,CJ Jordan,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,62,10.2,4,0,0,Nan,SR Watson,4,CJ Jordan,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,63,10.3,1,0,0,Nan,SR Watson,1,CJ Jordan,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,64,10.4,0,0,0,Nan,F du Plessis,0,CJ Jordan,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,65,10.5,1,0,0,Nan,F du Plessis,1,CJ Jordan,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,66,10.6,1,0,0,Nan,SR Watson,1,CJ Jordan,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,67,11.1,0,0,0,Nan,SR Watson,0,R Bishnoi,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,68,11.2,4,0,0,Nan,SR Watson,4,R Bishnoi,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,68,11.2,1,1,1,Nan,SR Watson,1,R Bishnoi,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,69,11.3,1,0,0,Nan,SR Watson,1,R Bishnoi,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,70,11.4,1,0,0,Nan,F du Plessis,1,R Bishnoi,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,71,11.5,0,0,0,Nan,SR Watson,0,R Bishnoi,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,72,11.6,0,0,0,Nan,SR Watson,0,R Bishnoi,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,73,12.1,0,0,0,Nan,F du Plessis,0,H Brar,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,74,12.2,2,0,0,Nan,F du Plessis,2,H Brar,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,75,12.3,1,0,0,Nan,F du Plessis,1,H Brar,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,76,12.4,0,0,0,Nan,SR Watson,0,H Brar,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,77,12.5,1,0,0,Nan,SR Watson,1,H Brar,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,78,12.6,0,0,0,Nan,F du Plessis,0,H Brar,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,79,13.1,1,0,0,Nan,SR Watson,1,Sheldon Cottrell,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,80,13.2,1,0,0,Nan,F du Plessis,1,Sheldon Cottrell,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,81,13.3,0,0,0,Nan,SR Watson,0,Sheldon Cottrell,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,82,13.4,6,0,0,Nan,SR Watson,6,Sheldon Cottrell,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,82,13.4,1,1,1,Nan,SR Watson,1,Sheldon Cottrell,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,83,13.5,1,0,0,Nan,SR Watson,1,Sheldon Cottrell,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,83,13.5,1,1,1,Nan,F du Plessis,1,Sheldon Cottrell,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,84,13.6,1,0,0,Nan,F du Plessis,1,Sheldon Cottrell,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,85,14.1,2,0,0,Nan,F du Plessis,2,H Brar,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,86,14.2,4,0,0,Nan,F du Plessis,4,H Brar,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,87,14.3,1,0,0,Nan,F du Plessis,1,H Brar,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,88,14.4,0,0,0,Nan,SR Watson,0,H Brar,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,88,14.4,1,1,1,Nan,SR Watson,1,H Brar,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,89,14.5,6,0,0,Nan,SR Watson,6,H Brar,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,90,14.6,1,0,0,Nan,SR Watson,1,H Brar,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,91,15.1,0,0,0,Nan,SR Watson,0,R Bishnoi,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,92,15.2,0,0,0,Nan,SR Watson,0,R Bishnoi,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,93,15.3,1,0,0,Nan,SR Watson,1,R Bishnoi,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,94,15.4,0,0,0,Nan,F du Plessis,0,R Bishnoi,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,95,15.5,1,0,0,Nan,F du Plessis,1,R Bishnoi,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,96,15.6,4,0,0,Nan,SR Watson,4,R Bishnoi,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,97,16.1,0,0,0,Nan,F du Plessis,0,CJ Jordan,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,98,16.2,1,0,0,Nan,F du Plessis,1,CJ Jordan,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,99,16.3,1,0,0,Nan,SR Watson,1,CJ Jordan,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,100,16.4,4,0,0,Nan,F du Plessis,4,CJ Jordan,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,101,16.5,4,0,0,Nan,F du Plessis,4,CJ Jordan,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,102,16.6,2,0,0,Nan,F du Plessis,2,CJ Jordan,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,103,17.1,1,0,0,Nan,SR Watson,1,Mohammed Shami,F du Plessis,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,104,17.2,2,0,0,Nan,F du Plessis,2,Mohammed Shami,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,105,17.3,6,0,0,Nan,F du Plessis,6,Mohammed Shami,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab
+2020-10-04,1216513,2nd innings,179,0,106,17.4,4,0,0,Nan,F du Plessis,4,Mohammed Shami,SR Watson,0,False,,,Chennai Super Kings,Kings XI Punjab

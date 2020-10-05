@@ -302,7 +302,10 @@ class EnsembleModel():
         :return:
         """
         modelpkl = pickle.load(open(datapath['modelpath'], 'rb'))
+        print('modelpkl', modelpkl)
+        print("ensemble featurelist", featurelist)
         X = masterdf[featurelist]
         masterdf[pred_col] = modelpkl.predict(X)
+        print(masterdf)
         masterdf.to_csv(datapath['modelresultspath'], index=False)
         return
