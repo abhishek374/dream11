@@ -3,7 +3,7 @@
 Aim is to select the team that would get the maximum total points in an IPL match under dream 11 constraints. To do so we have followed a 2 stage approach, where we first try to predict points achieved by individual players and then selecting the top 11 out of the total squad as per the cost of each player and other relevant constraints. We are using a mix integer linear optimization method to get the team out of the squad. To get the points of each player we are exploring various methods to leverage the past performance of players to predict their points in the following matches. Below is the description of how the modules are structured and the results thus obtained.
 
 ## How to Run ?
-Clone the repo to your local and run the controller.py file. It will automatically generate the best 11 based on multiple models into a file pred_team11.csv within Data/ folder. If run after the squad is announced for the match and before the match starts, it will slect the best XI from the current playing squad otherwise will refer to older matches to get the playing XI. 
+Clone the repo to your local and run the controller.py file. It will automatically generate the best 11 based on multiple models into a file pred_team11.csv within Data/ folder. If run after the squad is announced for the match and before the match starts, it will slect the best XI from the current playing squad otherwise will refer to older matches to get the playing XI. The dataset Data/ipl_squad_points.csv has the details for ipl 2020 regarding players role and cost as per dream11. 
 If not, you can send a mail to abhishek.anand374@gmail.com and we will add you to the mailing list where we share the predicted points and team 15 mins before the match starts.
 
 ## Dataset Descriptions
