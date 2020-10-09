@@ -145,7 +145,7 @@ if __name__ == "__main__":
     SEND_EMAIL = True
     sender_email = "abhishek.anand374@gmail.com"
     # add more emails to this by using "," seperator
-    receiver_email = "madhavgoswami93@gmail.com," + "Abhi Saini <sainiabhi7734@gmail.com>," +"rapidnehal@gmail.com,"
+    receiver_email = "madhavgoswami93@gmail.com," + "Abhi Saini <sainiabhi7734@gmail.com>," + "rapidnehal@gmail.com," + "sandeepch@zeta.tech"
     # config dor send_email
     modelnamelist = ['xgb', 'catboost', 'rf', 'movingaverage']
     #modelnamelist = ['catboost']

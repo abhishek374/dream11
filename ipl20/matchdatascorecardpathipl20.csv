@@ -1,23 +1,36 @@
 matchid,playername,total_runs,total_balls_faced,total_legal_balls_faced,run_6,run_4,fallofwickets,batsmen_innings,batsmen_battingteam,batsmen_bowlingteam,total_wickets,total_balls_bowled,total_legal_balls_bowled,total_runs_given,maiden_overs,bowlers_innings,bowler_battingteam,bowler_bowlingteam,economy_rate,playing_role,total_runs_points,run_6_points,run_4_points,run_bonus_points,total_bat_points,total_wickets_points,economy_rate_points,maiden_overs_points,wicket_bonus_points,total_bowl_points,total_points
-1216519,AB de Villiers,9.0,6.0,6.0,,2.0,0.0,2nd innings,Royal Challengers Bangalore,Delhi Capitals,,,,,,,,,,Batsmen,9.0,,2.0,0,11.0,,0,,0,,11.0
-1216519,AJ Finch,17.0,16.0,15.0,,1.0,0.0,2nd innings,Royal Challengers Bangalore,Delhi Capitals,,,,,,,,,,Batsmen,17.0,,1.0,0,18.0,,0,,0,,18.0
-1216519,Devdutt Padikkal,4.0,6.0,6.0,,,0.0,2nd innings,Royal Challengers Bangalore,Delhi Capitals,,,,,,,,,,Batsmen,4.0,,,0,4.0,,0,,0,,4.0
-1216519,I Udana,1.0,3.0,3.0,,,0.0,2nd innings,Royal Challengers Bangalore,Delhi Capitals,,25.0,24.0,43.0,0.0,1st innings,Delhi Capitals,Royal Challengers Bangalore,10.75,Bowler,1.0,,,0,1.0,,-4,0.0,0,-4.0,-3.0
-1216519,M Siraj,5.0,4.0,4.0,,1.0,0.0,2nd innings,Royal Challengers Bangalore,Delhi Capitals,,26.0,25.0,34.0,0.0,1st innings,Delhi Capitals,Royal Challengers Bangalore,8.16,Bowler,5.0,,1.0,0,6.0,,0,0.0,0,0.0,6.0
-1216519,MM Ali,12.0,13.0,13.0,,1.0,0.0,2nd innings,Royal Challengers Bangalore,Delhi Capitals,,14.0,12.0,21.0,0.0,1st innings,Delhi Capitals,Royal Challengers Bangalore,10.5,AllRounder,12.0,,1.0,0,13.0,,-4,0.0,0,-4.0,9.0
-1216519,MP Stoinis,58.0,29.0,27.0,2.0,6.0,0.0,1st innings,Delhi Capitals,Royal Challengers Bangalore,,,,,,,,,,Batsmen,58.0,4.0,6.0,8,76.0,,0,,0,,76.0
-1216519,NA Saini,12.0,12.0,12.0,,1.0,0.0,2nd innings,Royal Challengers Bangalore,Delhi Capitals,,19.0,18.0,49.0,0.0,1st innings,Delhi Capitals,Royal Challengers Bangalore,16.333333333333332,AllRounder,12.0,,1.0,0,13.0,,-6,0.0,0,-6.0,7.0
-1216519,PP Shaw,43.0,23.0,23.0,2.0,5.0,0.0,1st innings,Delhi Capitals,Royal Challengers Bangalore,,,,,,,,,,Batsmen,43.0,4.0,5.0,0,52.0,,0,,0,,52.0
-1216519,RR Pant,41.0,26.0,25.0,1.0,3.0,0.0,1st innings,Delhi Capitals,Royal Challengers Bangalore,,,,,,,,,,Batsmen,41.0,2.0,3.0,0,46.0,,0,,0,,46.0
-1216519,S Dhawan,32.0,28.0,28.0,,3.0,0.0,1st innings,Delhi Capitals,Royal Challengers Bangalore,,,,,,,,,,Batsmen,32.0,,3.0,0,35.0,,0,,0,,35.0
-1216519,S Dube,12.0,12.0,12.0,1.0,,0.0,2nd innings,Royal Challengers Bangalore,Delhi Capitals,,,,,,,,,,Batsmen,12.0,2.0,,0,14.0,,0,,0,,14.0
-1216519,SO Hetmyer,11.0,7.0,7.0,1.0,,0.0,1st innings,Delhi Capitals,Royal Challengers Bangalore,,,,,,,,,,Batsmen,11.0,2.0,,0,13.0,,0,,0,,13.0
-1216519,SS Iyer,11.0,13.0,13.0,,1.0,0.0,1st innings,Delhi Capitals,Royal Challengers Bangalore,,,,,,,,,,Batsmen,11.0,,1.0,0,12.0,,0,,0,,12.0
-1216519,V Kohli,46.0,42.0,42.0,1.0,2.0,0.0,2nd innings,Royal Challengers Bangalore,Delhi Capitals,,,,,,,,,,Batsmen,46.0,2.0,2.0,0,50.0,,0,,0,,50.0
-1216519,Washington Sundar,17.0,11.0,11.0,,3.0,0.0,2nd innings,Royal Challengers Bangalore,Delhi Capitals,,24.0,24.0,20.0,0.0,1st innings,Delhi Capitals,Royal Challengers Bangalore,5.0,AllRounder,17.0,,3.0,0,20.0,,4,0.0,0,4.0,24.0
-1216519,YS Chahal,2.0,1.0,1.0,,,0.0,2nd innings,Royal Challengers Bangalore,Delhi Capitals,,18.0,18.0,29.0,0.0,1st innings,Delhi Capitals,Royal Challengers Bangalore,9.666666666666666,Bowler,2.0,,,0,2.0,,-2,0.0,0,-2.0,0.0
-1216519,A Nortje,,,,,,,,,,,25.0,24.0,24.0,0.0,2nd innings,Royal Challengers Bangalore,Delhi Capitals,6.0,Bowler,,,,0,,,2,0.0,0,2.0,2.0
-1216519,AR Patel,,,,,,,,,,,24.0,24.0,19.0,0.0,2nd innings,Royal Challengers Bangalore,Delhi Capitals,4.75,Bowler,,,,0,,,4,0.0,0,4.0,4.0
-1216519,HV Patel,,,,,,,,,,,26.0,25.0,44.0,0.0,2nd innings,Royal Challengers Bangalore,Delhi Capitals,10.56,Bowler,,,,0,,,-4,0.0,0,-4.0,-4.0
-1216519,K Rabada,,,,,,,,,,,26.0,25.0,24.0,0.0,2nd innings,Royal Challengers Bangalore,Delhi Capitals,5.76,Bowler,,,,0,,,2,0.0,0,2.0,2.0
-1216519,R Ashwin,,,,,,,,,,,25.0,24.0,26.0,0.0,2nd innings,Royal Challengers Bangalore,Delhi Capitals,6.5,Bowler,,,,0,,,0,0.0,0,0.0,0.0
+1216501,AT Rayudu,31.0,28.0,28.0,,3.0,0.0,2nd innings,Chennai Super Kings,Kolkata Knight Riders,,,,,,,,,,Batsmen,31.0,,3.0,0,34.0,,0,,0,,34.0
+1216501,F du Plessis,17.0,10.0,10.0,,3.0,0.0,2nd innings,Chennai Super Kings,Kolkata Knight Riders,,,,,,,,,,Batsmen,17.0,,3.0,0,20.0,,0,,0,,20.0
+1216501,KM Jadhav,7.0,12.0,12.0,,1.0,0.0,2nd innings,Chennai Super Kings,Kolkata Knight Riders,,,,,,,,,,Batsmen,7.0,,1.0,0,8.0,,0,,0,,8.0
+1216501,MS Dhoni,12.0,12.0,12.0,,1.0,0.0,2nd innings,Chennai Super Kings,Kolkata Knight Riders,,,,,,,,,,Batsmen,12.0,,1.0,0,13.0,,0,,0,,13.0
+1216501,RA Jadeja,21.0,8.0,8.0,1.0,3.0,0.0,2nd innings,Chennai Super Kings,Kolkata Knight Riders,,,,,,,,,,Batsmen,21.0,2.0,3.0,0,26.0,,0,,0,,26.0
+1216501,SM Curran,17.0,11.0,11.0,1.0,1.0,0.0,2nd innings,Chennai Super Kings,Kolkata Knight Riders,,,,,,,,,,Batsmen,17.0,2.0,1.0,0,20.0,,0,,0,,20.0
+1216501,SR Watson,52.0,41.0,41.0,1.0,6.0,0.0,2nd innings,Chennai Super Kings,Kolkata Knight Riders,,,,,,,,,,Batsmen,52.0,2.0,6.0,8,68.0,,0,,0,,68.0
+1216511,AS Rajpoot,2.0,5.0,5.0,,,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,,20.0,18.0,42.0,0.0,1st innings,Mumbai Indians,Rajasthan Royals,14.0,Bowler,2.0,,,0,2.0,,-6,0.0,0,-6.0,-4.0
+1216511,HH Pandya,33.0,20.0,20.0,1.0,2.0,0.0,1st innings,Mumbai Indians,Rajasthan Royals,,,,,,,,,,Batsmen,33.0,2.0,2.0,0,37.0,,0,,0,,37.0
+1216511,Ishan Kishan,0.0,1.0,1.0,,,3.0,1st innings,Mumbai Indians,Rajasthan Royals,,,,,,,,,,Batsmen,0.0,,,-2,-2.0,,0,,0,,-2.0
+1216511,JC Archer,24.0,11.0,11.0,1.0,3.0,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,,25.0,25.0,34.0,0.0,1st innings,Mumbai Indians,Rajasthan Royals,8.16,AllRounder,24.0,2.0,3.0,0,29.0,,0,0.0,0,0.0,29.0
+1216511,JC Buttler,70.0,44.0,44.0,5.0,4.0,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,,,,,,,,,,Batsmen,70.0,10.0,4.0,8,92.0,,0,,0,,92.0
+1216511,KH Pandya,13.0,17.0,17.0,1.0,,0.0,1st innings,Mumbai Indians,Rajasthan Royals,,12.0,12.0,22.0,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,11.0,AllRounder,13.0,2.0,,0,15.0,,-6,0.0,0,-6.0,9.0
+1216511,KL Rahul,5.0,6.0,6.0,,1.0,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,,12.0,12.0,13.0,0.0,1st innings,Mumbai Indians,Rajasthan Royals,6.5,Bowler,5.0,,1.0,0,6.0,,0,0.0,0,0.0,6.0
+1216511,MK Lomror,12.0,13.0,13.0,,1.0,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,,,,,,,,,,Batsmen,12.0,,1.0,0,13.0,,0,,0,,13.0
+1216511,Q de Kock,24.0,16.0,15.0,1.0,3.0,0.0,1st innings,Mumbai Indians,Rajasthan Royals,,,,,,,,,,Batsmen,24.0,2.0,3.0,0,29.0,,0,,0,,29.0
+1216511,RG Sharma,37.0,24.0,24.0,3.0,2.0,0.0,1st innings,Mumbai Indians,Rajasthan Royals,,,,,,,,,,Batsmen,37.0,6.0,2.0,0,45.0,,0,,0,,45.0
+1216511,S Gopal,1.0,2.0,2.0,,,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,,24.0,24.0,29.0,0.0,1st innings,Mumbai Indians,Rajasthan Royals,7.25,Bowler,1.0,,,0,1.0,,0,0.0,0,0.0,1.0
+1216511,SA Yadav,82.0,49.0,48.0,2.0,11.0,0.0,1st innings,Mumbai Indians,Rajasthan Royals,,,,,,,,,,Batsmen,82.0,4.0,11.0,8,105.0,,0,,0,,105.0
+1216511,SPD Smith,6.0,7.0,7.0,,1.0,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,,,,,,,,,,Batsmen,6.0,,1.0,0,7.0,,0,,0,,7.0
+1216511,SV Samson,0.0,3.0,3.0,,,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,,,,,,,,,,Batsmen,0.0,,,-2,-2.0,,0,,0,,-2.0
+1216511,TK Curran,16.0,17.0,16.0,,1.0,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,,19.0,18.0,34.0,0.0,1st innings,Mumbai Indians,Rajasthan Royals,11.333333333333334,AllRounder,16.0,,1.0,0,17.0,,-6,0.0,0,-6.0,11.0
+1216511,Yashasvi Jaiswal,0.0,2.0,2.0,,,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,,,,,,,,,,Batsmen,0.0,,,-2,-2.0,,0,,0,,-2.0
+1216501,AD Russell,,,,,,,,,,,12.0,12.0,18.0,0.0,2nd innings,Chennai Super Kings,Kolkata Knight Riders,9.0,Bowler,,,,0,,,-2,0.0,0,-2.0,-2.0
+1216501,Kamlesh Nagarkoti,,,,,,,,,,,18.0,18.0,21.0,0.0,2nd innings,Chennai Super Kings,Kolkata Knight Riders,7.0,Bowler,,,,0,,,0,0.0,0,0.0,0.0
+1216501,PJ Cummins,,,,,,,,,,,26.0,24.0,26.0,0.0,2nd innings,Chennai Super Kings,Kolkata Knight Riders,6.5,Bowler,,,,0,,,0,0.0,0,0.0,0.0
+1216501,SP Narine,,,,,,,,,,,24.0,24.0,32.0,0.0,2nd innings,Chennai Super Kings,Kolkata Knight Riders,8.0,Bowler,,,,0,,,0,0.0,0,0.0,0.0
+1216501,Shivam Mavi,,,,,,,,,,,18.0,18.0,32.0,0.0,2nd innings,Chennai Super Kings,Kolkata Knight Riders,10.666666666666666,Bowler,,,,0,,,-4,0.0,0,-4.0,-4.0
+1216501,Varun Chakravarthy,,,,,,,,,,,24.0,24.0,28.0,0.0,2nd innings,Chennai Super Kings,Kolkata Knight Riders,7.0,Bowler,,,,0,,,0,0.0,0,0.0,0.0
+1216511,JJ Bumrah,,,,,,,,,,,24.0,24.0,20.0,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,5.0,Bowler,,,,0,,,4,0.0,0,4.0,4.0
+1216511,James Pattinson,,,,,,,,,,,19.0,19.0,20.0,1.0,2nd innings,Rajasthan Royals,Mumbai Indians,6.315789473684211,Bowler,,,,0,,,0,8.0,0,8.0,8.0
+1216511,K Tyagi,,,,,,,,,,,27.0,24.0,37.0,0.0,1st innings,Mumbai Indians,Rajasthan Royals,9.25,Bowler,,,,0,,,-2,0.0,0,-2.0,-2.0
+1216511,KA Pollard,,,,,,,,,,,12.0,12.0,24.0,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,12.0,Bowler,,,,0,,,-6,0.0,0,-6.0,-6.0
+1216511,RD Chahar,,,,,,,,,,,19.0,18.0,24.0,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,8.0,Bowler,,,,0,,,0,0.0,0,0.0,0.0
+1216511,TA Boult,,,,,,,,,,,24.0,24.0,26.0,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,6.5,Bowler,,,,0,,,0,0.0,0,0.0,0.0
