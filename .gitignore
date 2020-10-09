@@ -1,5 +1,5 @@
 /test_solver.py
-/catboost_info/
 /.idea/
-/.ipynb_checkpoints/
-/catboost_info/
+**/.ipynb_checkpoints/
+**/catboost_info/
+**/__pycache__
