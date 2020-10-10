@@ -184,64 +184,80 @@ def update_ipl20_master():
     #              'totalruns', 'dismissal', 'dismissedtype', 'dismissedplayer', 'battingteam', 'bowlingteam'])
     matchdata_v2 = pd.read_csv(directory+'/matchdata_v2.csv')
 
-    i = 0
     for eventid in match_summary_ipl20[~match_summary_ipl20['result'].str.contains('Starts') & match_summary_ipl20['result'].str.contains('won')].matchid:
         print(eventid)
         if eventid not in matchdata_full.eventid.unique().tolist():
             _match_data_ = get_data_for_event(tournamentid, eventid,directory,headers,'ipl20')
             matchdata_full = matchdata_full.append(_match_data_, ignore_index=True,  sort=True)
-            i = i + 1
         else:
             print('data already downloaded')
-    if i:
-        matchdata_full.to_csv(directory+'/matchdata_ipl20.csv', index = False)
-        ipl20_matchdata = pd.read_csv(directory+'/matchdata_ipl20.csv')
 
-        names_mapping = pd.read_csv(directory+'/name_mapping_clean.csv')
-        eventids_to_be_backfilled = [x for x in ipl20_matchdata.eventid.unique().tolist() if x not in matchdata_v2.matchid.unique().tolist()]
 
-        for iter, row in ipl20_matchdata[ipl20_matchdata['eventid'].isin(eventids_to_be_backfilled)].iterrows():
-            date = pd.to_datetime(match_summary_ipl20[match_summary_ipl20.matchid == row['eventid']].date).dt.date.tolist()[0]
-            matchid = row['eventid']
-            innings = row['innings']
-            target = row['target']
-            fallofwickets = row['fallofwickets']
-            ball = row['ball']
-            over = row['over']
-            scorevalue = row['scorevalue']
-            validball = row['validball']
-            extras = row['extras']
-            extratype = 'Nan'
+    matchdata_full.to_csv(directory+'/matchdata_ipl20.csv', index = False)
+    ipl20_matchdata = pd.read_csv(directory+'/matchdata_ipl20.csv')
+
+    names_mapping = pd.read_csv(directory+'/name_mapping_clean.csv')
+    eventids_to_be_backfilled = [x for x in ipl20_matchdata.eventid.unique().tolist() if x not in matchdata_v2.matchid.unique().tolist()]
+    print("matchdata_v2 needs to be updated for ")
+    print(eventids_to_be_backfilled)
+
+    for iter, row in ipl20_matchdata[ipl20_matchdata['eventid'].isin(eventids_to_be_backfilled)].iterrows():
+        date = pd.to_datetime(match_summary_ipl20[match_summary_ipl20.matchid == row['eventid']].date).dt.date.tolist()[0]
+        matchid = row['eventid']
+        innings = row['innings']
+        target = row['target']
+        fallofwickets = row['fallofwickets']
+        ball = row['ball']
+        over = row['over']
+        scorevalue = row['scorevalue']
+        validball = row['validball']
+        extras = row['extras']
+        extratype = 'Nan'
+        batsmanscorevalue = row['scorevalue']
+
+        if row['batsman'] in names_mapping.values:
             batsmanname = names_mapping[names_mapping.ipl20_name ==
                                         row['batsman']]['old_name'].tolist()[0]
-            batsmanscorevalue = row['scorevalue']
+        else:
+            batsmanname = row['batsman']
+
+        if row['bowler'] in names_mapping.values:
             bowlername = names_mapping[names_mapping.ipl20_name ==
-                                    row['bowler']]['old_name'].tolist()[0]
+                                row['bowler']]['old_name'].tolist()[0]
+        else:
+            bowlername = row['bowler']
+
+        if row['nonstriker'] in names_mapping.values:
             nonstrikername = names_mapping[names_mapping.ipl20_name ==
-                                        row['nonstriker']]['old_name'].tolist()[0]
-            if row['homescore'] == 0:
-                totalruns = row['awayscore'].split('/')[0]
-            else:
-                totalruns = row['homescore'].split('/')[0]
-            dismissal = row['dismissal']
-            dismissedtype = row['dismissaltype']
-            if row['dismissal'] == True:
-                dismissedplayer = batsmanname
-            else:
-                dismissedplayer = ''
+                                    row['nonstriker']]['old_name'].tolist()[0]
+        else:
+            nonstrikername = row['nonstriker']
 
-            battingteam = row['batsmanteam']
-            bowlingteam = row['bowlerteam']
+        if row['homescore'] == 0:
+            totalruns = row['awayscore'].split('/')[0]
+        else:
+            totalruns = row['homescore'].split('/')[0]
 
-            dict = {"date": date, "matchid": matchid, "innings": innings, "target": target, "fallofwickets": fallofwickets,
-                    "ball": ball, "over": over, "scorevalue": scorevalue, "validball": validball, "extras": extras,
-                    "extratype": extratype, "batsmanname": batsmanname, "batsmanscorevalue": batsmanscorevalue,
-                    "bowlername": bowlername, "nonstrikername": nonstrikername, "totalruns": totalruns, "dismissal": dismissal,
-                    "dismissedtype": dismissedtype, "dismissedplayer": dismissedplayer, "battingteam": battingteam,
-                    "bowlingteam": bowlingteam}
-            matchdata_v2 = matchdata_v2.append(dict, ignore_index=True)
+        dismissal = row['dismissal']
+        dismissedtype = row['dismissaltype']
 
-        matchdata_v2.to_csv(directory+'/matchdata_v2.csv', index=False)
+        if row['dismissal'] == True:
+            dismissedplayer = batsmanname
+        else:
+            dismissedplayer = ''
+
+        battingteam = row['batsmanteam']
+        bowlingteam = row['bowlerteam']
+
+        dict = {"date": date, "matchid": matchid, "innings": innings, "target": target, "fallofwickets": fallofwickets,
+                "ball": ball, "over": over, "scorevalue": scorevalue, "validball": validball, "extras": extras,
+                "extratype": extratype, "batsmanname": batsmanname, "batsmanscorevalue": batsmanscorevalue,
+                "bowlername": bowlername, "nonstrikername": nonstrikername, "totalruns": totalruns, "dismissal": dismissal,
+                "dismissedtype": dismissedtype, "dismissedplayer": dismissedplayer, "battingteam": battingteam,
+                "bowlingteam": bowlingteam}
+        matchdata_v2 = matchdata_v2.append(dict, ignore_index=True)
+
+    matchdata_v2.to_csv(directory+'/matchdata_v2.csv', index=False)
     matchdata_v2 = pd.read_csv(directory+'/matchdata_v2.csv')
     return matchdata_v2
 
