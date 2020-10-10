@@ -39,8 +39,6 @@ def send_email_team(team1, team2, filepath,sender_email,receiver_email):
         reader = csv.reader(input_file)
         data = list(reader)
 
-    #text = text.format(table=tabulate(data, headers="firstrow", tablefmt="grid"), team1=team1, team2=team2)
-    #html = html.format(table=tabulate(data, headers="firstrow", tablefmt="html"), team1=team1, team2=team2)
     html = html.format(table=tablehtml, team1=team1, team2=team2)
     message = MIMEMultipart(
         "alternative", None, [ MIMEText(html, 'html')])
@@ -48,9 +46,8 @@ def send_email_team(team1, team2, filepath,sender_email,receiver_email):
     todays_date = date.today().strftime("%b-%d-%Y")
     message["Subject"] = f"Dream11 Team of the Day: {todays_date}"
     message["From"] = sender_email
-    message["To"] = receiver_email
-
-    #message.attach(MIMEText(text, "plain"))
+    message["To"] = sender_email
+    message["BCC"] = receiver_email
 
     filename = filepath  # In same directory as script
 

@@ -5040,6 +5040,8 @@ date,matchid,innings,target,fallofwickets,ball,over,scorevalue,validball,extras,
 2020-10-06,1216511,1st innings,0,0,120,19.6,1,0,0,Nan,HH Pandya,1,AS Rajpoot,SA Yadav,193,False,,,Mumbai Indians,Rajasthan Royals
 2020-10-06,1216511,2nd innings,194,0,1,0.1,0,0,0,Nan,S Kaul,0,TA Boult,JC Buttler,0,False,,,Rajasthan Royals,Mumbai Indians
 2020-10-06,1216511,2nd innings,194,1,2,0.2,0,0,0,Nan,S Kaul,0,TA Boult,JC Buttler,0,True,caught,S Kaul,Rajasthan Royals,Mumbai Indians
+2020-10-06,1216511,2nd innings,194,0,1,0.1,0,0,0,Nan,Yashasvi Jaiswal,0,TA Boult,JC Buttler,0,False,,,Rajasthan Royals,Mumbai Indians
+2020-10-06,1216511,2nd innings,194,1,2,0.2,0,0,0,Nan,Yashasvi Jaiswal,0,TA Boult,JC Buttler,0,True,caught,Yashasvi Jaiswal,Rajasthan Royals,Mumbai Indians
 2020-10-06,1216511,2nd innings,194,0,3,0.3,0,0,0,Nan,SPD Smith,0,TA Boult,JC Buttler,0,False,,,Rajasthan Royals,Mumbai Indians
 2020-10-06,1216511,2nd innings,194,0,4,0.4,4,0,0,Nan,SPD Smith,4,TA Boult,JC Buttler,0,False,,,Rajasthan Royals,Mumbai Indians
 2020-10-06,1216511,2nd innings,194,0,5,0.5,0,0,0,Nan,SPD Smith,0,TA Boult,JC Buttler,0,False,,,Rajasthan Royals,Mumbai Indians
