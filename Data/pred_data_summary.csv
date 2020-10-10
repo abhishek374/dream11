@@ -773,10 +773,3 @@ matchid,date,year,city,venue,team1,team2,toss_winner,toss_decision,winner,by_wha
 1216519,2020-10-05T14:00Z,2020,Dubai International Cricket Stadium,Dubai International Cricket Stadium,Delhi Capitals,Royal Challengers Bangalore,,,Delhi Capitals,runs,[59],,Capitals won by 59 runs,
 1216511,2020-10-06T14:00Z,2020,"Sheikh Zayed Stadium, Abu Dhabi","Sheikh Zayed Stadium, Abu Dhabi",Mumbai Indians,Rajasthan Royals,,,Mumbai Indians,runs,[57],,Mum Indians won by 57 runs,
 1216501,2020-10-07T14:00Z,2020,"Sheikh Zayed Stadium, Abu Dhabi","Sheikh Zayed Stadium, Abu Dhabi",Kolkata Knight Riders,Chennai Super Kings,,,Kolkata Knight Riders,runs,[10],,KKR won by 10 runs,
-<<<<<<< HEAD
-1216542,2020-10-08T14:00Z,2020,Dubai International Cricket Stadium,Dubai International Cricket Stadium,Sunrisers Hyderabad,Kings XI Punjab,,,Sunrisers Hyderabad,runs,[69],,Sunrisers won by 69 runs,
-1216500,2020-10-09T14:00Z,2020,Sharjah Cricket Stadium,Sharjah Cricket Stadium,Delhi Capitals,Rajasthan Royals,,,Delhi Capitals,runs,[46],,Capitals won by 46 runs,
-1216548,,2020,neutral venue,Sheikh Zayed Stadium,Kolkata Knight Riders,Kings XI Punjab,Kolkata Knight Riders,,,,,,,
-=======
-1216548,,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Kings XI Punjab,Sunrisers Hyderabad,,,,,,,
->>>>>>> 5c064934eec54e475d0b03a072678da90c9c8143
