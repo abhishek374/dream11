@@ -1,5 +1,4 @@
 matchid,playername,total_runs,total_balls_faced,total_legal_balls_faced,run_6,run_4,fallofwickets,batsmen_innings,batsmen_battingteam,batsmen_bowlingteam,total_wickets,total_balls_bowled,total_legal_balls_bowled,total_runs_given,maiden_overs,bowlers_innings,bowler_battingteam,bowler_bowlingteam,economy_rate,playing_role,total_runs_points,run_6_points,run_4_points,run_bonus_points,total_bat_points,total_wickets_points,economy_rate_points,maiden_overs_points,wicket_bonus_points,total_bowl_points,total_points
-<<<<<<< HEAD
 1216500,AJ Tye,7.0,7.0,6.0,1.0,,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,,27.0,24.0,50.0,0.0,1st innings,Delhi Capitals,Rajasthan Royals,12.5,Bowler,7.0,2.0,,0,9.0,,-6,0.0,0,-6.0,3.0
 1216500,AR Patel,20.0,10.0,9.0,1.0,2.0,0.0,1st innings,Delhi Capitals,Rajasthan Royals,,12.0,12.0,8.0,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,4.0,AllRounder,20.0,2.0,2.0,0,24.0,,6,0.0,0,6.0,30.0
 1216500,HV Patel,16.0,15.0,15.0,,1.0,0.0,1st innings,Delhi Capitals,Rajasthan Royals,,25.0,24.0,29.0,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,7.25,AllRounder,16.0,,1.0,0,17.0,,0,0.0,0,0.0,17.0
@@ -44,7 +43,6 @@ matchid,playername,total_runs,total_balls_faced,total_legal_balls_faced,run_6,ru
 1216542,Rashid Khan,,,,,,,,,,,24.0,24.0,12.0,1.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,3.0,Bowler,,,,0,,,6,8.0,0,14.0,14.0
 1216542,Sandeep Sharma,,,,,,,,,,,25.0,24.0,27.0,0.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,6.75,Bowler,,,,0,,,0,0.0,0,0.0,0.0
 1216542,T Natarajan,,,,,,,,,,,24.0,23.0,25.0,0.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,6.521739130434782,Bowler,,,,0,,,0,0.0,0,0.0,0.0
-=======
 1216501,AT Rayudu,31.0,28.0,28.0,,3.0,0.0,2nd innings,Chennai Super Kings,Kolkata Knight Riders,,,,,,,,,,Batsmen,31.0,,3.0,0,34.0,,0,,0,,34.0
 1216501,F du Plessis,17.0,10.0,10.0,,3.0,0.0,2nd innings,Chennai Super Kings,Kolkata Knight Riders,,,,,,,,,,Batsmen,17.0,,3.0,0,20.0,,0,,0,,20.0
 1216501,KM Jadhav,7.0,12.0,12.0,,1.0,0.0,2nd innings,Chennai Super Kings,Kolkata Knight Riders,,,,,,,,,,Batsmen,7.0,,1.0,0,8.0,,0,,0,,8.0
@@ -80,4 +78,3 @@ matchid,playername,total_runs,total_balls_faced,total_legal_balls_faced,run_6,ru
 1216511,KA Pollard,,,,,,,,,,,12.0,12.0,24.0,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,12.0,Bowler,,,,0,,,-6,0.0,0,-6.0,-6.0
 1216511,RD Chahar,,,,,,,,,,,19.0,18.0,24.0,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,8.0,Bowler,,,,0,,,0,0.0,0,0.0,0.0
 1216511,TA Boult,,,,,,,,,,,24.0,24.0,26.0,0.0,2nd innings,Rajasthan Royals,Mumbai Indians,6.5,Bowler,,,,0,,,0,0.0,0,0.0,0.0
->>>>>>> 5c064934eec54e475d0b03a072678da90c9c8143
