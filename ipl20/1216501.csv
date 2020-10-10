@@ -1,0 +1,123 @@
+ipl_season,sequence,eventid,innings,target,remainingballs,homescore,awayscore,fallofwickets,ball,over,scorevalue,validball,extras,dismissal,dismissaltype,batsmanid,batsman,batsmanteam,bowlerid,bowler,bowlerteam,otherathleteinvolvedid,otherathleteinvolved,nonstrikerid,nonstriker,runs,runrate
+ipl20,200001,1216501,2nd innings,168,119,0,0/0,0,1,0.1,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,44828,Faf du Plessis,0,0.0
+ipl20,200002,1216501,2nd innings,168,118,0,0/0,0,2,0.2,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,44828,Faf du Plessis,0,0.0
+ipl20,200003,1216501,2nd innings,168,117,0,1/0,0,3,0.3,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,44828,Faf du Plessis,1,2.0
+ipl20,200004,1216501,2nd innings,168,116,0,1/0,0,4,0.4,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,8180,Shane Watson,0,1.5
+ipl20,200005,1216501,2nd innings,168,115,0,2/0,0,5,0.5,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,8180,Shane Watson,1,2.4
+ipl20,200006,1216501,2nd innings,168,114,0,6/0,0,6,0.6,4,0,0,False,,8180,Shane Watson,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,44828,Faf du Plessis,4,6.0
+ipl20,200101,1216501,2nd innings,168,113,0,7/0,0,7,1.1,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,,,8180,Shane Watson,1,6.0
+ipl20,200102,1216501,2nd innings,168,112,0,8/0,0,8,1.2,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,,,44828,Faf du Plessis,1,6.0
+ipl20,200103,1216501,2nd innings,168,111,0,9/0,0,9,1.3,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,,,8180,Shane Watson,1,6.0
+ipl20,200104,1216501,2nd innings,168,110,0,10/0,0,10,1.4,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,,,44828,Faf du Plessis,1,6.0
+ipl20,200105,1216501,2nd innings,168,109,0,14/0,0,11,1.5,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,,,8180,Shane Watson,4,7.63
+ipl20,200106,1216501,2nd innings,168,108,0,18/0,0,12,1.6,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,,,8180,Shane Watson,4,9.0
+ipl20,200201,1216501,2nd innings,168,107,0,18/0,0,13,2.1,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,44828,Faf du Plessis,0,8.3
+ipl20,200202,1216501,2nd innings,168,106,0,18/0,0,14,2.2,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,44828,Faf du Plessis,0,7.71
+ipl20,200203,1216501,2nd innings,168,105,0,19/0,0,15,2.3,1,0,1,False,,8180,Shane Watson,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,44828,Faf du Plessis,1,7.6
+ipl20,200204,1216501,2nd innings,168,104,0,21/0,0,16,2.4,2,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,8180,Shane Watson,2,7.87
+ipl20,200205,1216501,2nd innings,168,103,0,25/0,0,17,2.5,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,8180,Shane Watson,4,8.82
+ipl20,200206,1216501,2nd innings,168,102,0,25/0,0,18,2.6,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,8180,Shane Watson,0,8.33
+ipl20,200301,1216501,2nd innings,168,101,0,25/0,0,19,3.1,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,,,44828,Faf du Plessis,0,7.89
+ipl20,200302,1216501,2nd innings,168,100,0,29/0,0,20,3.2,4,0,0,False,,8180,Shane Watson,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,,,44828,Faf du Plessis,4,8.7
+ipl20,200303,1216501,2nd innings,168,99,0,30/0,0,21,3.3,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,,,44828,Faf du Plessis,1,8.57
+ipl20,200304,1216501,2nd innings,168,98,0,30/1,1,22,3.4,0,0,0,True,caught,44828,Faf du Plessis,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,13653,George Goldsmith,8180,Shane Watson,0,8.18
+ipl20,200305,1216501,2nd innings,168,97,0,31/1,0,23,3.5,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,,,8180,Shane Watson,1,8.08
+ipl20,200306,1216501,2nd innings,168,96,0,32/1,0,24,3.6,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,,,33141,Ambati Rayudu,1,8.0
+ipl20,200401,1216501,2nd innings,168,95,0,32/1,0,25,4.1,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,33141,Ambati Rayudu,0,7.68
+ipl20,200402,1216501,2nd innings,168,94,0,33/1,0,26,4.2,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,33141,Ambati Rayudu,1,7.61
+ipl20,200403,1216501,2nd innings,168,94,0,34/1,0,26,4.2,1,1,1,False,,33141,Ambati Rayudu,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,8180,Shane Watson,1,7.84
+ipl20,200404,1216501,2nd innings,168,93,0,38/1,0,27,4.3,4,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,8180,Shane Watson,4,8.44
+ipl20,200405,1216501,2nd innings,168,92,0,39/1,0,28,4.4,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,8180,Shane Watson,1,8.35
+ipl20,200406,1216501,2nd innings,168,91,0,40/1,0,29,4.5,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,33141,Ambati Rayudu,1,8.27
+ipl20,200407,1216501,2nd innings,168,90,0,41/1,0,30,4.6,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,8180,Shane Watson,1,8.2
+ipl20,200501,1216501,2nd innings,168,89,0,42/1,0,31,5.1,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,,,8180,Shane Watson,1,8.12
+ipl20,200502,1216501,2nd innings,168,88,0,46/1,0,32,5.2,4,0,0,False,,8180,Shane Watson,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,,,33141,Ambati Rayudu,4,8.62
+ipl20,200503,1216501,2nd innings,168,87,0,52/1,0,33,5.3,6,0,0,False,,8180,Shane Watson,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,,,33141,Ambati Rayudu,6,9.45
+ipl20,200504,1216501,2nd innings,168,86,0,52/1,0,34,5.4,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,,,33141,Ambati Rayudu,0,9.17
+ipl20,200505,1216501,2nd innings,168,85,0,53/1,0,35,5.5,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,,,33141,Ambati Rayudu,1,9.08
+ipl20,200506,1216501,2nd innings,168,84,0,54/1,0,36,5.6,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,1079848,Shivam Mavi,Kolkata Knight Riders,,,8180,Shane Watson,1,9.0
+ipl20,200601,1216501,2nd innings,168,83,0,55/1,0,37,6.1,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,8180,Shane Watson,1,8.91
+ipl20,200602,1216501,2nd innings,168,82,0,55/1,0,38,6.2,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,33141,Ambati Rayudu,0,8.68
+ipl20,200603,1216501,2nd innings,168,81,0,56/1,0,39,6.3,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,33141,Ambati Rayudu,1,8.61
+ipl20,200604,1216501,2nd innings,168,80,0,57/1,0,40,6.4,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,8180,Shane Watson,1,8.55
+ipl20,200605,1216501,2nd innings,168,79,0,58/1,0,41,6.5,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,33141,Ambati Rayudu,1,8.48
+ipl20,200606,1216501,2nd innings,168,78,0,62/1,0,42,6.6,4,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,8180,Shane Watson,4,8.85
+ipl20,200701,1216501,2nd innings,168,77,0,63/1,0,43,7.1,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,,,33141,Ambati Rayudu,1,8.79
+ipl20,200702,1216501,2nd innings,168,76,0,63/1,0,44,7.2,0,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,,,8180,Shane Watson,0,8.59
+ipl20,200703,1216501,2nd innings,168,75,0,67/1,0,45,7.3,4,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,,,8180,Shane Watson,4,8.93
+ipl20,200704,1216501,2nd innings,168,74,0,67/1,0,46,7.4,0,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,,,8180,Shane Watson,0,8.73
+ipl20,200705,1216501,2nd innings,168,73,0,68/1,0,47,7.5,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,,,8180,Shane Watson,1,8.68
+ipl20,200706,1216501,2nd innings,168,72,0,69/1,0,48,7.6,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,,,33141,Ambati Rayudu,1,8.62
+ipl20,200801,1216501,2nd innings,168,71,0,73/1,0,49,8.1,4,0,0,False,,8180,Shane Watson,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,33141,Ambati Rayudu,4,8.93
+ipl20,200802,1216501,2nd innings,168,70,0,74/1,0,50,8.2,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,33141,Ambati Rayudu,1,8.88
+ipl20,200803,1216501,2nd innings,168,69,0,75/1,0,51,8.3,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,8180,Shane Watson,1,8.82
+ipl20,200804,1216501,2nd innings,168,68,0,76/1,0,52,8.4,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,33141,Ambati Rayudu,1,8.76
+ipl20,200805,1216501,2nd innings,168,67,0,77/1,0,53,8.5,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,8180,Shane Watson,1,8.71
+ipl20,200806,1216501,2nd innings,168,66,0,78/1,0,54,8.6,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,33141,Ambati Rayudu,1,8.66
+ipl20,200901,1216501,2nd innings,168,65,0,79/1,0,55,9.1,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,,,33141,Ambati Rayudu,1,8.61
+ipl20,200902,1216501,2nd innings,168,64,0,80/1,0,56,9.2,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,,,8180,Shane Watson,1,8.57
+ipl20,200903,1216501,2nd innings,168,63,0,84/1,0,57,9.3,4,0,0,False,,8180,Shane Watson,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,,,33141,Ambati Rayudu,4,8.84
+ipl20,200904,1216501,2nd innings,168,62,0,85/1,0,58,9.4,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,,,33141,Ambati Rayudu,1,8.79
+ipl20,200905,1216501,2nd innings,168,61,0,86/1,0,59,9.5,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,,,8180,Shane Watson,1,8.74
+ipl20,200906,1216501,2nd innings,168,60,0,90/1,0,60,9.6,4,0,0,False,,8180,Shane Watson,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,,,33141,Ambati Rayudu,4,9.0
+ipl20,201001,1216501,2nd innings,168,59,0,90/1,0,61,10.1,0,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,8180,Shane Watson,0,8.85
+ipl20,201002,1216501,2nd innings,168,58,0,90/1,0,62,10.2,0,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,8180,Shane Watson,0,8.7
+ipl20,201003,1216501,2nd innings,168,57,0,91/1,0,63,10.3,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,8180,Shane Watson,1,8.66
+ipl20,201004,1216501,2nd innings,168,56,0,92/1,0,64,10.4,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,33141,Ambati Rayudu,1,8.62
+ipl20,201005,1216501,2nd innings,168,55,0,93/1,0,65,10.5,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,8180,Shane Watson,1,8.58
+ipl20,201006,1216501,2nd innings,168,55,0,94/1,0,65,10.5,1,1,1,False,,8180,Shane Watson,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,33141,Ambati Rayudu,1,8.67
+ipl20,201007,1216501,2nd innings,168,54,0,94/1,0,66,10.6,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,489889,Pat Cummins,Kolkata Knight Riders,,,33141,Ambati Rayudu,0,8.54
+ipl20,201101,1216501,2nd innings,168,53,0,94/1,0,67,11.1,0,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,8180,Shane Watson,0,8.41
+ipl20,201102,1216501,2nd innings,168,52,0,96/1,0,68,11.2,2,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,8180,Shane Watson,2,8.47
+ipl20,201103,1216501,2nd innings,168,51,0,96/1,0,69,11.3,0,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,8180,Shane Watson,0,8.34
+ipl20,201104,1216501,2nd innings,168,50,0,97/1,0,70,11.4,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,8180,Shane Watson,1,8.31
+ipl20,201105,1216501,2nd innings,168,49,0,98/1,0,71,11.5,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,33141,Ambati Rayudu,1,8.28
+ipl20,201106,1216501,2nd innings,168,48,0,99/1,0,72,11.6,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,8180,Shane Watson,1,8.25
+ipl20,201201,1216501,2nd innings,168,47,0,99/2,2,73,12.1,0,0,0,True,caught,33141,Ambati Rayudu,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,33141,Ambati Rayudu,8180,Shane Watson,0,8.13
+ipl20,201202,1216501,2nd innings,168,46,0,99/2,0,74,12.2,0,0,0,False,,28081,MS Dhoni,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,,,8180,Shane Watson,0,8.02
+ipl20,201203,1216501,2nd innings,168,45,0,100/2,0,75,12.3,1,0,0,False,,28081,MS Dhoni,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,,,8180,Shane Watson,1,8.0
+ipl20,201204,1216501,2nd innings,168,44,0,100/2,0,76,12.4,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,,,28081,MS Dhoni,0,7.89
+ipl20,201205,1216501,2nd innings,168,43,0,100/2,0,77,12.5,0,0,0,False,,8180,Shane Watson,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,,,28081,MS Dhoni,0,7.79
+ipl20,201206,1216501,2nd innings,168,42,0,101/2,0,78,12.6,1,0,0,False,,8180,Shane Watson,Chennai Super Kings,1070188,Kamlesh Nagarkoti,Kolkata Knight Riders,,,28081,MS Dhoni,1,7.76
+ipl20,201301,1216501,2nd innings,168,41,0,101/3,3,79,13.1,0,0,0,True,leg before wicket,8180,Shane Watson,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,8180,Shane Watson,28081,MS Dhoni,0,7.67
+ipl20,201302,1216501,2nd innings,168,40,0,101/3,0,80,13.2,0,0,0,False,,662973,Sam Curran,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,28081,MS Dhoni,0,7.57
+ipl20,201303,1216501,2nd innings,168,39,0,103/3,0,81,13.3,2,0,0,False,,662973,Sam Curran,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,28081,MS Dhoni,2,7.62
+ipl20,201304,1216501,2nd innings,168,38,0,104/3,0,82,13.4,1,0,0,False,,662973,Sam Curran,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,28081,MS Dhoni,1,7.6
+ipl20,201305,1216501,2nd innings,168,37,0,104/3,0,83,13.5,0,0,0,False,,28081,MS Dhoni,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,662973,Sam Curran,0,7.51
+ipl20,201306,1216501,2nd innings,168,36,0,104/3,0,84,13.6,0,0,0,False,,28081,MS Dhoni,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,662973,Sam Curran,0,7.42
+ipl20,201401,1216501,2nd innings,168,35,0,104/3,0,85,14.1,0,0,0,False,,662973,Sam Curran,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,28081,MS Dhoni,0,7.34
+ipl20,201402,1216501,2nd innings,168,34,0,105/3,0,86,14.2,1,0,0,False,,662973,Sam Curran,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,28081,MS Dhoni,1,7.32
+ipl20,201403,1216501,2nd innings,168,33,0,105/3,0,87,14.3,0,0,0,False,,28081,MS Dhoni,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,662973,Sam Curran,0,7.24
+ipl20,201404,1216501,2nd innings,168,32,0,107/3,0,88,14.4,2,0,0,False,,28081,MS Dhoni,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,662973,Sam Curran,2,7.29
+ipl20,201405,1216501,2nd innings,168,31,0,109/3,0,89,14.5,2,0,0,False,,28081,MS Dhoni,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,662973,Sam Curran,2,7.34
+ipl20,201406,1216501,2nd innings,168,30,0,110/3,0,90,14.6,1,0,0,False,,28081,MS Dhoni,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,662973,Sam Curran,1,7.33
+ipl20,201501,1216501,2nd innings,168,29,0,111/3,0,91,15.1,1,0,1,False,,28081,MS Dhoni,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,662973,Sam Curran,1,7.31
+ipl20,201502,1216501,2nd innings,168,28,0,112/3,0,92,15.2,1,0,0,False,,662973,Sam Curran,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,28081,MS Dhoni,1,7.3
+ipl20,201503,1216501,2nd innings,168,27,0,113/3,0,93,15.3,1,0,0,False,,28081,MS Dhoni,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,662973,Sam Curran,1,7.29
+ipl20,201504,1216501,2nd innings,168,26,0,119/3,0,94,15.4,6,0,0,False,,662973,Sam Curran,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,28081,MS Dhoni,6,7.59
+ipl20,201505,1216501,2nd innings,168,25,0,123/3,0,95,15.5,4,0,0,False,,662973,Sam Curran,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,28081,MS Dhoni,4,7.76
+ipl20,201506,1216501,2nd innings,168,24,0,124/3,0,96,15.6,1,0,0,False,,662973,Sam Curran,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,28081,MS Dhoni,1,7.75
+ipl20,201601,1216501,2nd innings,168,23,0,125/3,0,97,16.1,1,0,0,False,,662973,Sam Curran,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,28081,MS Dhoni,1,7.73
+ipl20,201602,1216501,2nd innings,168,22,0,129/3,0,98,16.2,4,0,0,False,,28081,MS Dhoni,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,662973,Sam Curran,4,7.89
+ipl20,201603,1216501,2nd innings,168,21,0,129/4,4,99,16.3,0,0,0,True,bowled,28081,MS Dhoni,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,28081,MS Dhoni,662973,Sam Curran,0,7.81
+ipl20,201604,1216501,2nd innings,168,20,0,129/4,0,100,16.4,0,0,0,False,,290716,Kedar Jadhav,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,662973,Sam Curran,0,7.74
+ipl20,201605,1216501,2nd innings,168,19,0,129/4,0,101,16.5,0,0,0,False,,290716,Kedar Jadhav,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,662973,Sam Curran,0,7.66
+ipl20,201606,1216501,2nd innings,168,18,0,129/4,0,102,16.6,0,0,0,False,,290716,Kedar Jadhav,Chennai Super Kings,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,662973,Sam Curran,0,7.58
+ipl20,201701,1216501,2nd innings,168,17,0,129/5,5,103,17.1,0,0,0,True,caught,662973,Sam Curran,Chennai Super Kings,276298,Andre Russell,Kolkata Knight Riders,53284,T Walker,290716,Kedar Jadhav,0,7.51
+ipl20,201702,1216501,2nd innings,168,16,0,130/5,0,104,17.2,1,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,276298,Andre Russell,Kolkata Knight Riders,,,290716,Kedar Jadhav,1,7.5
+ipl20,201703,1216501,2nd innings,168,15,0,130/5,0,105,17.3,0,0,0,False,,290716,Kedar Jadhav,Chennai Super Kings,276298,Andre Russell,Kolkata Knight Riders,,,234675,Ravindra Jadeja,0,7.42
+ipl20,201704,1216501,2nd innings,168,14,0,130/5,0,106,17.4,0,0,0,False,,290716,Kedar Jadhav,Chennai Super Kings,276298,Andre Russell,Kolkata Knight Riders,,,234675,Ravindra Jadeja,0,7.35
+ipl20,201705,1216501,2nd innings,168,13,0,131/5,0,107,17.5,1,0,0,False,,290716,Kedar Jadhav,Chennai Super Kings,276298,Andre Russell,Kolkata Knight Riders,,,234675,Ravindra Jadeja,1,7.34
+ipl20,201706,1216501,2nd innings,168,12,0,132/5,0,108,17.6,1,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,276298,Andre Russell,Kolkata Knight Riders,,,290716,Kedar Jadhav,1,7.33
+ipl20,201801,1216501,2nd innings,168,11,0,133/5,0,109,18.1,1,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,290716,Kedar Jadhav,1,7.32
+ipl20,201802,1216501,2nd innings,168,10,0,137/5,0,110,18.2,4,0,0,False,,290716,Kedar Jadhav,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,234675,Ravindra Jadeja,4,7.47
+ipl20,201803,1216501,2nd innings,168,9,0,137/5,0,111,18.3,0,0,0,False,,290716,Kedar Jadhav,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,234675,Ravindra Jadeja,0,7.4
+ipl20,201804,1216501,2nd innings,168,8,0,138/5,0,112,18.4,1,0,0,False,,290716,Kedar Jadhav,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,234675,Ravindra Jadeja,1,7.39
+ipl20,201805,1216501,2nd innings,168,7,0,142/5,0,113,18.5,4,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,290716,Kedar Jadhav,4,7.53
+ipl20,201806,1216501,2nd innings,168,6,0,142/5,0,114,18.6,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,230558,Sunil Narine,Kolkata Knight Riders,,,290716,Kedar Jadhav,0,7.47
+ipl20,201901,1216501,2nd innings,168,5,0,142/5,0,115,19.1,0,0,0,False,,290716,Kedar Jadhav,Chennai Super Kings,276298,Andre Russell,Kolkata Knight Riders,,,234675,Ravindra Jadeja,0,7.4
+ipl20,201902,1216501,2nd innings,168,4,0,142/5,0,116,19.2,0,0,0,False,,290716,Kedar Jadhav,Chennai Super Kings,276298,Andre Russell,Kolkata Knight Riders,,,234675,Ravindra Jadeja,0,7.34
+ipl20,201903,1216501,2nd innings,168,3,0,143/5,0,117,19.3,1,0,0,False,,290716,Kedar Jadhav,Chennai Super Kings,276298,Andre Russell,Kolkata Knight Riders,,,234675,Ravindra Jadeja,1,7.33
+ipl20,201904,1216501,2nd innings,168,2,0,149/5,0,118,19.4,6,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,276298,Andre Russell,Kolkata Knight Riders,,,290716,Kedar Jadhav,6,7.57
+ipl20,201905,1216501,2nd innings,168,1,0,153/5,0,119,19.5,4,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,276298,Andre Russell,Kolkata Knight Riders,,,290716,Kedar Jadhav,4,7.71
+ipl20,201906,1216501,2nd innings,168,0,0,157/5,0,120,19.6,4,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,276298,Andre Russell,Kolkata Knight Riders,,,290716,Kedar Jadhav,4,7.85

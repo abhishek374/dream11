@@ -1,42 +1,45 @@
-,matchid,playername,total_runs,total_balls_faced,total_legal_balls_faced,run_6,run_4,fallofwickets,batsmen_innings,batsmen_battingteam,batsmen_bowlingteam,total_wickets,total_balls_bowled,total_legal_balls_bowled,total_runs_given,maiden_overs,bowlers_innings,bowler_battingteam,bowler_bowlingteam,economy_rate,playing_role,total_runs_points,run_6_points,run_4_points,run_bonus_points,total_bat_points,total_wickets_points,economy_rate_points,maiden_overs_points,wicket_bonus_points,total_bowl_points,total_points
-0,1216513,F du Plessis,89.0,55.0,55.0,1.0,11.0,0.0,2nd innings,Chennai Super Kings,Kings XI Punjab,,,,,,,,,,Batsmen,89.0,2.0,11.0,8,110.0,,0,,0,,110.0
-1,1216513,GJ Maxwell,11.0,7.0,7.0,,1.0,0.0,1st innings,Kings XI Punjab,Chennai Super Kings,,,,,,,,,,Batsmen,11.0,,1.0,0,12.0,,0,,0,,12.0
-2,1216513,KL Rahul,63.0,52.0,52.0,1.0,7.0,0.0,1st innings,Kings XI Punjab,Chennai Super Kings,,,,,,,,,,Batsmen,63.0,2.0,7.0,8,80.0,,0,,0,,80.0
-3,1216513,MA Agarwal,29.0,21.0,20.0,,3.0,0.0,1st innings,Kings XI Punjab,Chennai Super Kings,,,,,,,,,,Batsmen,29.0,,3.0,0,32.0,,0,,0,,32.0
-4,1216513,Mandeep Singh,27.0,16.0,16.0,2.0,,0.0,1st innings,Kings XI Punjab,Chennai Super Kings,,,,,,,,,,Batsmen,27.0,4.0,,0,31.0,,0,,0,,31.0
-5,1216513,N Pooran,33.0,17.0,17.0,3.0,1.0,0.0,1st innings,Kings XI Punjab,Chennai Super Kings,,,,,,,,,,Batsmen,33.0,6.0,1.0,0,40.0,,0,,0,,40.0
-6,1216513,SN Khan,15.0,10.0,9.0,,2.0,0.0,1st innings,Kings XI Punjab,Chennai Super Kings,,,,,,,,,,Batsmen,15.0,,2.0,0,17.0,,0,,0,,17.0
-7,1216513,SR Watson,92.0,58.0,53.0,3.0,11.0,0.0,2nd innings,Chennai Super Kings,Kings XI Punjab,,,,,,,,,,Batsmen,92.0,6.0,11.0,8,117.0,,0,,0,,117.0
-8,1216538,A Samad,21.0,10.0,9.0,2.0,1.0,0.0,2nd innings,Sunrisers Hyderabad,Mumbai Indians,,12.0,12.0,27.0,0.0,1st innings,Mumbai Indians,Sunrisers Hyderabad,13.5,AllRounder,21.0,4.0,1.0,0,26.0,,-6,0.0,0,-6.0,20.0
-9,1216538,Abhishek Sharma,14.0,14.0,13.0,,,0.0,2nd innings,Sunrisers Hyderabad,Mumbai Indians,,,,,,,,,,Batsmen,14.0,,,0,14.0,,0,,0,,14.0
-10,1216538,DA Warner,65.0,48.0,47.0,2.0,5.0,0.0,2nd innings,Sunrisers Hyderabad,Mumbai Indians,,,,,,,,,,Batsmen,65.0,4.0,5.0,8,82.0,,0,,0,,82.0
-11,1216538,HH Pandya,28.0,19.0,19.0,2.0,2.0,0.0,1st innings,Mumbai Indians,Sunrisers Hyderabad,,,,,,,,,,Batsmen,28.0,4.0,2.0,0,34.0,,0,,0,,34.0
-12,1216538,Ishan Kishan,32.0,23.0,23.0,2.0,1.0,0.0,1st innings,Mumbai Indians,Sunrisers Hyderabad,,,,,,,,,,Batsmen,32.0,4.0,1.0,0,37.0,,0,,0,,37.0
-13,1216538,JM Bairstow,27.0,15.0,15.0,2.0,2.0,0.0,2nd innings,Sunrisers Hyderabad,Mumbai Indians,,,,,,,,,,Batsmen,27.0,4.0,2.0,0,33.0,,0,,0,,33.0
-14,1216538,KA Pollard,26.0,14.0,13.0,3.0,,0.0,1st innings,Mumbai Indians,Sunrisers Hyderabad,,20.0,18.0,20.0,0.0,2nd innings,Sunrisers Hyderabad,Mumbai Indians,6.666666666666667,AllRounder,26.0,6.0,,0,32.0,,0,0.0,0,0.0,32.0
-15,1216538,KH Pandya,20.0,4.0,4.0,2.0,2.0,0.0,1st innings,Mumbai Indians,Sunrisers Hyderabad,,28.0,24.0,37.0,0.0,2nd innings,Sunrisers Hyderabad,Mumbai Indians,9.25,Bowler,20.0,4.0,2.0,0,26.0,,-2,0.0,0,-2.0,24.0
-16,1216538,KS Williamson,3.0,5.0,5.0,,,0.0,2nd innings,Sunrisers Hyderabad,Mumbai Indians,,12.0,12.0,24.0,0.0,1st innings,Mumbai Indians,Sunrisers Hyderabad,12.0,Bowler,3.0,,,0,3.0,,-6,0.0,0,-6.0,-3.0
-17,1216538,MK Pandey,33.0,22.0,20.0,1.0,4.0,0.0,2nd innings,Sunrisers Hyderabad,Mumbai Indians,,,,,,,,,,Batsmen,33.0,2.0,4.0,0,39.0,,0,,0,,39.0
-18,1216538,P Garg,8.0,7.0,7.0,,,0.0,2nd innings,Sunrisers Hyderabad,Mumbai Indians,,,,,,,,,,Batsmen,8.0,,,0,8.0,,0,,0,,8.0
-19,1216538,Q de Kock,69.0,40.0,39.0,4.0,4.0,0.0,1st innings,Mumbai Indians,Sunrisers Hyderabad,,,,,,,,,,Batsmen,69.0,8.0,4.0,8,89.0,,0,,0,,89.0
-20,1216538,RG Sharma,6.0,5.0,5.0,1.0,,0.0,1st innings,Mumbai Indians,Sunrisers Hyderabad,,,,,,,,,,Batsmen,6.0,2.0,,0,8.0,,0,,0,,8.0
-21,1216538,Rashid Khan,3.0,7.0,7.0,,,0.0,2nd innings,Sunrisers Hyderabad,Mumbai Indians,,25.0,24.0,22.0,0.0,1st innings,Mumbai Indians,Sunrisers Hyderabad,5.5,Bowler,3.0,,,0,3.0,,2,0.0,0,2.0,5.0
-22,1216538,SA Yadav,27.0,18.0,18.0,,6.0,0.0,1st innings,Mumbai Indians,Sunrisers Hyderabad,,,,,,,,,,Batsmen,27.0,,6.0,0,33.0,,0,,0,,33.0
-23,1216538,Sandeep Sharma,0.0,1.0,1.0,,,0.0,2nd innings,Sunrisers Hyderabad,Mumbai Indians,,24.0,24.0,41.0,0.0,1st innings,Mumbai Indians,Sunrisers Hyderabad,10.25,Bowler,0.0,,,-2,-2.0,,-4,0.0,0,-4.0,-6.0
-24,1216513,CJ Jordan,,,,,,,,,,,18.0,18.0,42.0,0.0,2nd innings,Chennai Super Kings,Kings XI Punjab,14.0,Bowler,,,,0,,,-6,0.0,0,-6.0,-6.0
-25,1216513,DJ Bravo,,,,,,,,,,,26.0,24.0,38.0,0.0,1st innings,Kings XI Punjab,Chennai Super Kings,9.5,Bowler,,,,0,,,-2,0.0,0,-2.0,-2.0
-26,1216513,DL Chahar,,,,,,,,,,,18.0,18.0,18.0,0.0,1st innings,Kings XI Punjab,Chennai Super Kings,6.0,Bowler,,,,0,,,2,0.0,0,2.0,2.0
-27,1216513,H Brar,,,,,,,,,,,25.0,24.0,41.0,0.0,2nd innings,Chennai Super Kings,Kings XI Punjab,10.25,Bowler,,,,0,,,-4,0.0,0,-4.0,-4.0
-28,1216513,Mohammed Shami,,,,,,,,,,,24.0,23.0,35.0,0.0,2nd innings,Chennai Super Kings,Kings XI Punjab,9.130434782608695,Bowler,,,,0,,,-2,0.0,0,-2.0,-2.0
-29,1216513,PP Chawla,,,,,,,,,,,12.0,12.0,22.0,0.0,1st innings,Kings XI Punjab,Chennai Super Kings,11.0,Bowler,,,,0,,,-6,0.0,0,-6.0,-6.0
-30,1216513,R Bishnoi,,,,,,,,,,,26.0,24.0,33.0,0.0,2nd innings,Chennai Super Kings,Kings XI Punjab,8.25,Bowler,,,,0,,,0,0.0,0,0.0,0.0
-31,1216513,RA Jadeja,,,,,,,,,,,24.0,24.0,30.0,0.0,1st innings,Kings XI Punjab,Chennai Super Kings,7.5,Bowler,,,,0,,,0,0.0,0,0.0,0.0
-32,1216513,SM Curran,,,,,,,,,,,18.0,18.0,31.0,0.0,1st innings,Kings XI Punjab,Chennai Super Kings,10.333333333333334,Bowler,,,,0,,,-4,0.0,0,-4.0,-4.0
-33,1216513,SN Thakur,,,,,,,,,,,25.0,24.0,39.0,0.0,1st innings,Kings XI Punjab,Chennai Super Kings,9.75,Bowler,,,,0,,,-2,0.0,0,-2.0,-2.0
-34,1216513,Sheldon Cottrell,,,,,,,,,,,20.0,18.0,30.0,0.0,2nd innings,Chennai Super Kings,Kings XI Punjab,10.0,Bowler,,,,0,,,-4,0.0,0,-4.0,-4.0
-35,1216538,JJ Bumrah,,,,,,,,,,,26.0,24.0,44.0,0.0,2nd innings,Sunrisers Hyderabad,Mumbai Indians,11.0,Bowler,,,,0,,,-6,0.0,0,-6.0,-6.0
-36,1216538,James Pattinson,,,,,,,,,,,25.0,24.0,29.0,0.0,2nd innings,Sunrisers Hyderabad,Mumbai Indians,7.25,Bowler,,,,0,,,0,0.0,0,0.0,0.0
-37,1216538,RD Chahar,,,,,,,,,,,6.0,6.0,16.0,0.0,2nd innings,Sunrisers Hyderabad,Mumbai Indians,16.0,Bowler,,,,0,,,-6,0.0,0,-6.0,-6.0
-38,1216538,S Kaul,,,,,,,,,,,26.0,25.0,64.0,0.0,1st innings,Mumbai Indians,Sunrisers Hyderabad,15.36,Bowler,,,,0,,,-6,0.0,0,-6.0,-6.0
-39,1216538,T Natarajan,,,,,,,,,,,24.0,24.0,30.0,0.0,1st innings,Mumbai Indians,Sunrisers Hyderabad,7.5,Bowler,,,,0,,,0,0.0,0,0.0,0.0
-40,1216538,TA Boult,,,,,,,,,,,24.0,24.0,28.0,0.0,2nd innings,Sunrisers Hyderabad,Mumbai Indians,7.0,Bowler,,,,0,,,0,0.0,0,0.0,0.0
+matchid,playername,total_runs,total_balls_faced,total_legal_balls_faced,run_6,run_4,fallofwickets,batsmen_innings,batsmen_battingteam,batsmen_bowlingteam,total_wickets,total_balls_bowled,total_legal_balls_bowled,total_runs_given,maiden_overs,bowlers_innings,bowler_battingteam,bowler_bowlingteam,economy_rate,playing_role,total_runs_points,run_6_points,run_4_points,run_bonus_points,total_bat_points,total_wickets_points,economy_rate_points,maiden_overs_points,wicket_bonus_points,total_bowl_points,total_points
+1216500,AJ Tye,7.0,7.0,6.0,1.0,,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,,27.0,24.0,50.0,0.0,1st innings,Delhi Capitals,Rajasthan Royals,12.5,Bowler,7.0,2.0,,0,9.0,,-6,0.0,0,-6.0,3.0
+1216500,AR Patel,20.0,10.0,9.0,1.0,2.0,0.0,1st innings,Delhi Capitals,Rajasthan Royals,,12.0,12.0,8.0,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,4.0,AllRounder,20.0,2.0,2.0,0,24.0,,6,0.0,0,6.0,30.0
+1216500,HV Patel,16.0,15.0,15.0,,1.0,0.0,1st innings,Delhi Capitals,Rajasthan Royals,,25.0,24.0,29.0,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,7.25,AllRounder,16.0,,1.0,0,17.0,,0,0.0,0,0.0,17.0
+1216500,JC Archer,3.0,4.0,4.0,,,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,,25.0,24.0,24.0,0.0,1st innings,Delhi Capitals,Rajasthan Royals,6.0,Bowler,3.0,,,0,3.0,,2,0.0,0,2.0,5.0
+1216500,JC Buttler,13.0,8.0,8.0,,2.0,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,,,,,,,,,,Batsmen,13.0,,2.0,0,15.0,,0,,0,,15.0
+1216500,K Rabada,2.0,3.0,3.0,,,0.0,1st innings,Delhi Capitals,Rajasthan Royals,,25.0,23.0,35.0,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,9.130434782608695,Bowler,2.0,,,0,2.0,,-2,0.0,0,-2.0,0.0
+1216500,K Tyagi,2.0,3.0,3.0,,,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,,25.0,24.0,37.0,0.0,1st innings,Delhi Capitals,Rajasthan Royals,9.25,Bowler,2.0,,,0,2.0,,-2,0.0,0,-2.0,0.0
+1216500,KL Rahul,40.0,31.0,29.0,2.0,3.0,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,,25.0,24.0,21.0,0.0,1st innings,Delhi Capitals,Rajasthan Royals,5.25,AllRounder,40.0,4.0,3.0,0,47.0,,2,0.0,0,2.0,49.0
+1216500,MK Lomror,1.0,2.0,2.0,,,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,,,,,,,,,,Batsmen,1.0,,,0,1.0,,0,,0,,1.0
+1216500,MP Stoinis,41.0,31.0,30.0,4.0,,0.0,1st innings,Delhi Capitals,Rajasthan Royals,,13.0,12.0,17.0,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,8.5,AllRounder,41.0,8.0,,0,49.0,,0,0.0,0,0.0,49.0
+1216500,PP Shaw,19.0,10.0,10.0,1.0,2.0,0.0,1st innings,Delhi Capitals,Rajasthan Royals,,,,,,,,,,Batsmen,19.0,2.0,2.0,0,23.0,,0,,0,,23.0
+1216500,R Ashwin,0.0,1.0,1.0,,,0.0,1st innings,Delhi Capitals,Rajasthan Royals,,25.0,25.0,22.0,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,5.28,Bowler,0.0,,,-2,-2.0,,2,0.0,0,2.0,0.0
+1216500,RR Pant,6.0,10.0,10.0,,,0.0,1st innings,Delhi Capitals,Rajasthan Royals,,,,,,,,,,Batsmen,6.0,,,0,6.0,,0,,0,,6.0
+1216500,S Dhawan,5.0,4.0,4.0,,1.0,0.0,1st innings,Delhi Capitals,Rajasthan Royals,,,,,,,,,,Batsmen,5.0,,1.0,0,6.0,,0,,0,,6.0
+1216500,S Gopal,3.0,4.0,4.0,,,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,,12.0,12.0,23.0,0.0,1st innings,Delhi Capitals,Rajasthan Royals,11.5,Bowler,3.0,,,0,3.0,,-6,0.0,0,-6.0,-3.0
+1216500,S Kaul,34.0,36.0,36.0,2.0,1.0,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,,,,,,,,,,Batsmen,34.0,4.0,1.0,0,39.0,,0,,0,,39.0
+1216500,SO Hetmyer,47.0,24.0,24.0,5.0,1.0,0.0,1st innings,Delhi Capitals,Rajasthan Royals,,,,,,,,,,Batsmen,47.0,10.0,1.0,0,58.0,,0,,0,,58.0
+1216500,SPD Smith,27.0,20.0,20.0,1.0,2.0,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,,,,,,,,,,Batsmen,27.0,2.0,2.0,0,31.0,,0,,0,,31.0
+1216500,SS Iyer,24.0,19.0,17.0,,3.0,0.0,1st innings,Delhi Capitals,Rajasthan Royals,,,,,,,,,,Batsmen,24.0,,3.0,0,27.0,,0,,0,,27.0
+1216500,SV Samson,6.0,9.0,9.0,,,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,,,,,,,,,,Batsmen,6.0,,,0,6.0,,0,,0,,6.0
+1216500,VR Aaron,1.0,2.0,2.0,,,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,,13.0,12.0,25.0,0.0,1st innings,Delhi Capitals,Rajasthan Royals,12.5,Bowler,1.0,,,0,1.0,,-6,0.0,0,-6.0,-5.0
+1216542,A Samad,8.0,7.0,7.0,,1.0,0.0,1st innings,Sunrisers Hyderabad,Kings XI Punjab,,6.0,6.0,28.0,0.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,28.0,Bowler,8.0,,1.0,0,9.0,,-6,0.0,0,-6.0,3.0
+1216542,Abhishek Sharma,12.0,6.0,6.0,1.0,1.0,0.0,1st innings,Sunrisers Hyderabad,Kings XI Punjab,,6.0,6.0,16.0,0.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,16.0,Bowler,12.0,2.0,1.0,0,15.0,,-6,0.0,0,-6.0,9.0
+1216542,Arshdeep Singh,0.0,3.0,3.0,,,0.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,,27.0,24.0,33.0,0.0,1st innings,Sunrisers Hyderabad,Kings XI Punjab,8.25,Bowler,0.0,,,-2,-2.0,,0,0.0,0,0.0,-2.0
+1216542,DA Warner,59.0,42.0,40.0,1.0,5.0,0.0,1st innings,Sunrisers Hyderabad,Kings XI Punjab,,,,,,,,,,Batsmen,59.0,2.0,5.0,8,74.0,,0,,0,,74.0
+1216542,GJ Maxwell,8.0,13.0,13.0,,,0.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,,12.0,12.0,26.0,0.0,1st innings,Sunrisers Hyderabad,Kings XI Punjab,13.0,AllRounder,8.0,,,0,8.0,,-6,0.0,0,-6.0,2.0
+1216542,JM Bairstow,101.0,57.0,55.0,6.0,7.0,0.0,1st innings,Sunrisers Hyderabad,Kings XI Punjab,,,,,,,,,,Batsmen,101.0,12.0,7.0,24,144.0,,0,,0,,144.0
+1216542,KL Rahul,12.0,16.0,16.0,,,0.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,,,,,,,,,,AllRounder,12.0,,,0,12.0,,0,,0,,12.0
+1216542,KS Williamson,20.0,10.0,10.0,1.0,1.0,0.0,1st innings,Sunrisers Hyderabad,Kings XI Punjab,,,,,,,,,,Batsmen,20.0,2.0,1.0,0,23.0,,0,,0,,23.0
+1216542,MA Agarwal,9.0,6.0,6.0,,1.0,0.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,,,,,,,,,,Batsmen,9.0,,1.0,0,10.0,,0,,0,,10.0
+1216542,MK Pandey,1.0,2.0,2.0,,,0.0,1st innings,Sunrisers Hyderabad,Kings XI Punjab,,,,,,,,,,Batsmen,1.0,,,0,1.0,,0,,0,,1.0
+1216542,Mandeep Singh,7.0,7.0,7.0,,,0.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,,,,,,,,,,Batsmen,7.0,,,0,7.0,,0,,0,,7.0
+1216542,Mohammed Shami,0.0,1.0,1.0,,,8.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,,24.0,24.0,40.0,0.0,1st innings,Sunrisers Hyderabad,Kings XI Punjab,10.0,Bowler,0.0,,,-2,-2.0,,-4,0.0,0,-4.0,-6.0
+1216542,Mujeeb Ur Rahman,1.0,3.0,3.0,,,0.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,,24.0,24.0,39.0,0.0,1st innings,Sunrisers Hyderabad,Kings XI Punjab,9.75,Bowler,1.0,,,0,1.0,,-2,0.0,0,-2.0,-1.0
+1216542,N Pooran,78.0,37.0,37.0,7.0,5.0,0.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,,,,,,,,,,Batsmen,78.0,14.0,5.0,8,105.0,,0,,0,,105.0
+1216542,P Garg,0.0,1.0,1.0,,,5.0,1st innings,Sunrisers Hyderabad,Kings XI Punjab,,,,,,,,,,Batsmen,0.0,,,-2,-2.0,,0,,0,,-2.0
+1216542,Prabhsimran Singh,11.0,8.0,8.0,,2.0,0.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,,,,,,,,,,Batsmen,11.0,,2.0,0,13.0,,0,,0,,13.0
+1216542,R Bishnoi,6.0,7.0,7.0,,1.0,0.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,,18.0,18.0,29.0,0.0,1st innings,Sunrisers Hyderabad,Kings XI Punjab,9.666666666666666,Bowler,6.0,,1.0,0,7.0,,-2,0.0,0,-2.0,5.0
+1216542,Sheldon Cottrell,0.0,2.0,2.0,,,0.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,,20.0,19.0,34.0,0.0,1st innings,Sunrisers Hyderabad,Kings XI Punjab,10.736842105263158,Bowler,0.0,,,-2,-2.0,,-4,0.0,0,-4.0,-6.0
+1216500,A Nortje,,,,,,,,,,,26.0,24.0,26.0,0.0,2nd innings,Rajasthan Royals,Delhi Capitals,6.5,Bowler,,,,0,,,0,0.0,0,0.0,0.0
+1216542,KK Ahmed,,,,,,,,,,,18.0,18.0,24.0,0.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,8.0,Bowler,,,,0,,,0,0.0,0,0.0,0.0
+1216542,Rashid Khan,,,,,,,,,,,24.0,24.0,12.0,1.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,3.0,Bowler,,,,0,,,6,8.0,0,14.0,14.0
+1216542,Sandeep Sharma,,,,,,,,,,,25.0,24.0,27.0,0.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,6.75,Bowler,,,,0,,,0,0.0,0,0.0,0.0
+1216542,T Natarajan,,,,,,,,,,,24.0,23.0,25.0,0.0,2nd innings,Kings XI Punjab,Sunrisers Hyderabad,6.521739130434782,Bowler,,,,0,,,0,0.0,0,0.0,0.0

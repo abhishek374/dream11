@@ -1,0 +1,238 @@
+ipl_season,sequence,eventid,innings,target,remainingballs,homescore,awayscore,fallofwickets,ball,over,scorevalue,validball,extras,dismissal,dismissaltype,batsmanid,batsman,batsmanteam,bowlerid,bowler,bowlerteam,otherathleteinvolvedid,otherathleteinvolved,nonstrikerid,nonstriker,runs,runrate
+ipl20,100001,1216511,1st innings,0,119,4/0,0,0,1,0.1,4,0,0,False,,379143,Quinton de Kock,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,34102,Rohit Sharma,4,24.0
+ipl20,100002,1216511,1st innings,0,119,5/0,0,0,1,0.1,1,1,1,False,,379143,Quinton de Kock,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,34102,Rohit Sharma,1,30.0
+ipl20,100003,1216511,1st innings,0,118,5/0,0,0,2,0.2,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,34102,Rohit Sharma,0,15.0
+ipl20,100004,1216511,1st innings,0,117,6/0,0,0,3,0.3,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,34102,Rohit Sharma,1,12.0
+ipl20,100005,1216511,1st innings,0,116,6/0,0,0,4,0.4,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,379143,Quinton de Kock,0,9.0
+ipl20,100006,1216511,1st innings,0,115,6/0,0,0,5,0.5,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,379143,Quinton de Kock,0,7.2
+ipl20,100007,1216511,1st innings,0,114,10/0,0,0,6,0.6,4,0,0,False,,34102,Rohit Sharma,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,379143,Quinton de Kock,4,10.0
+ipl20,100101,1216511,1st innings,0,113,11/0,0,0,7,1.1,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,34102,Rohit Sharma,1,9.42
+ipl20,100102,1216511,1st innings,0,112,11/0,0,0,8,1.2,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,379143,Quinton de Kock,0,8.25
+ipl20,100103,1216511,1st innings,0,111,12/0,0,0,9,1.3,1,0,0,False,,34102,Rohit Sharma,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,379143,Quinton de Kock,1,8.0
+ipl20,100104,1216511,1st innings,0,110,12/0,0,0,10,1.4,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,34102,Rohit Sharma,0,7.2
+ipl20,100105,1216511,1st innings,0,109,13/0,0,0,11,1.5,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,34102,Rohit Sharma,1,7.09
+ipl20,100106,1216511,1st innings,0,108,14/0,0,0,12,1.6,1,0,0,False,,34102,Rohit Sharma,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,379143,Quinton de Kock,1,7.0
+ipl20,100201,1216511,1st innings,0,107,14/0,0,0,13,2.1,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,379143,Quinton de Kock,0,6.46
+ipl20,100202,1216511,1st innings,0,106,20/0,0,0,14,2.2,6,0,0,False,,34102,Rohit Sharma,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,379143,Quinton de Kock,6,8.57
+ipl20,100203,1216511,1st innings,0,105,24/0,0,0,15,2.3,4,0,0,False,,34102,Rohit Sharma,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,379143,Quinton de Kock,4,9.6
+ipl20,100204,1216511,1st innings,0,104,25/0,0,0,16,2.4,1,0,0,False,,34102,Rohit Sharma,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,379143,Quinton de Kock,1,9.37
+ipl20,100205,1216511,1st innings,0,103,29/0,0,0,17,2.5,4,0,0,False,,379143,Quinton de Kock,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,34102,Rohit Sharma,4,10.23
+ipl20,100206,1216511,1st innings,0,102,29/0,0,0,18,2.6,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,34102,Rohit Sharma,0,9.66
+ipl20,100301,1216511,1st innings,0,101,30/0,0,0,19,3.1,1,0,0,False,,34102,Rohit Sharma,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,379143,Quinton de Kock,1,9.47
+ipl20,100302,1216511,1st innings,0,100,30/0,0,0,20,3.2,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,34102,Rohit Sharma,0,9.0
+ipl20,100303,1216511,1st innings,0,99,34/0,0,0,21,3.3,4,0,0,False,,379143,Quinton de Kock,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,34102,Rohit Sharma,4,9.71
+ipl20,100304,1216511,1st innings,0,98,40/0,0,0,22,3.4,6,0,0,False,,379143,Quinton de Kock,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,34102,Rohit Sharma,6,10.9
+ipl20,100305,1216511,1st innings,0,97,40/0,0,0,23,3.5,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,34102,Rohit Sharma,0,10.43
+ipl20,100306,1216511,1st innings,0,96,41/0,0,0,24,3.6,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,34102,Rohit Sharma,1,10.25
+ipl20,100401,1216511,1st innings,0,95,42/0,0,0,25,4.1,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,34102,Rohit Sharma,1,10.08
+ipl20,100402,1216511,1st innings,0,94,42/0,0,0,26,4.2,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,379143,Quinton de Kock,0,9.69
+ipl20,100403,1216511,1st innings,0,93,48/0,0,0,27,4.3,6,0,0,False,,34102,Rohit Sharma,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,379143,Quinton de Kock,6,10.66
+ipl20,100404,1216511,1st innings,0,92,49/0,0,0,28,4.4,1,0,0,False,,34102,Rohit Sharma,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,379143,Quinton de Kock,1,10.5
+ipl20,100405,1216511,1st innings,0,91,49/1,0,1,29,4.5,0,0,0,True,caught,379143,Quinton de Kock,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,379143,Quinton de Kock,34102,Rohit Sharma,0,10.13
+ipl20,100406,1216511,1st innings,0,90,50/1,0,0,30,4.6,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,34102,Rohit Sharma,1,10.0
+ipl20,100501,1216511,1st innings,0,89,51/1,0,0,31,5.1,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,34102,Rohit Sharma,1,9.87
+ipl20,100502,1216511,1st innings,0,88,51/1,0,0,32,5.2,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,446507,Suryakumar Yadav,0,9.56
+ipl20,100503,1216511,1st innings,0,87,52/1,0,0,33,5.3,1,0,1,False,,34102,Rohit Sharma,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,446507,Suryakumar Yadav,1,9.45
+ipl20,100504,1216511,1st innings,0,86,52/1,0,0,34,5.4,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,34102,Rohit Sharma,0,9.17
+ipl20,100505,1216511,1st innings,0,85,56/1,0,0,35,5.5,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,34102,Rohit Sharma,4,9.6
+ipl20,100506,1216511,1st innings,0,85,57/1,0,0,35,5.5,1,1,1,False,,446507,Suryakumar Yadav,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,34102,Rohit Sharma,1,9.77
+ipl20,100507,1216511,1st innings,0,84,57/1,0,0,36,5.6,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,34102,Rohit Sharma,0,9.5
+ipl20,100601,1216511,1st innings,0,83,59/1,0,0,37,6.1,2,0,0,False,,34102,Rohit Sharma,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,446507,Suryakumar Yadav,2,9.56
+ipl20,100602,1216511,1st innings,0,82,60/1,0,0,38,6.2,1,0,0,False,,34102,Rohit Sharma,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,446507,Suryakumar Yadav,1,9.47
+ipl20,100603,1216511,1st innings,0,81,60/1,0,0,39,6.3,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,34102,Rohit Sharma,0,9.23
+ipl20,100604,1216511,1st innings,0,80,61/1,0,0,40,6.4,1,0,1,False,,446507,Suryakumar Yadav,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,34102,Rohit Sharma,1,9.15
+ipl20,100605,1216511,1st innings,0,80,62/1,0,0,40,6.4,1,1,1,False,,34102,Rohit Sharma,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,446507,Suryakumar Yadav,1,9.3
+ipl20,100606,1216511,1st innings,0,79,63/1,0,0,41,6.5,1,0,0,False,,34102,Rohit Sharma,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,446507,Suryakumar Yadav,1,9.21
+ipl20,100607,1216511,1st innings,0,79,64/1,0,0,41,6.5,1,1,1,False,,446507,Suryakumar Yadav,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,34102,Rohit Sharma,1,9.36
+ipl20,100608,1216511,1st innings,0,78,65/1,0,0,42,6.6,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,34102,Rohit Sharma,1,9.28
+ipl20,100701,1216511,1st innings,0,77,69/1,0,0,43,7.1,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,34102,Rohit Sharma,4,9.62
+ipl20,100702,1216511,1st innings,0,76,69/1,0,0,44,7.2,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,34102,Rohit Sharma,0,9.4
+ipl20,100703,1216511,1st innings,0,75,70/1,0,0,45,7.3,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,34102,Rohit Sharma,1,9.33
+ipl20,100704,1216511,1st innings,0,74,76/1,0,0,46,7.4,6,0,0,False,,34102,Rohit Sharma,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,446507,Suryakumar Yadav,6,9.91
+ipl20,100705,1216511,1st innings,0,73,76/1,0,0,47,7.5,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,446507,Suryakumar Yadav,0,9.7
+ipl20,100706,1216511,1st innings,0,72,76/1,0,0,48,7.6,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,446507,Suryakumar Yadav,0,9.5
+ipl20,100801,1216511,1st innings,0,71,80/1,0,0,49,8.1,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,34102,Rohit Sharma,4,9.79
+ipl20,100802,1216511,1st innings,0,70,84/1,0,0,50,8.2,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,34102,Rohit Sharma,4,10.08
+ipl20,100803,1216511,1st innings,0,69,84/1,0,0,51,8.3,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,34102,Rohit Sharma,0,9.88
+ipl20,100804,1216511,1st innings,0,68,84/1,0,0,52,8.4,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,34102,Rohit Sharma,0,9.69
+ipl20,100805,1216511,1st innings,0,67,84/1,0,0,53,8.5,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,34102,Rohit Sharma,0,9.5
+ipl20,100806,1216511,1st innings,0,66,88/1,0,0,54,8.6,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,34102,Rohit Sharma,4,9.77
+ipl20,100901,1216511,1st innings,0,65,88/2,0,2,55,9.1,0,0,0,True,caught,34102,Rohit Sharma,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,344580,Shreyas Gopal,446507,Suryakumar Yadav,0,9.6
+ipl20,100902,1216511,1st innings,0,64,88/3,0,3,56,9.2,0,0,0,True,caught,720471,Ishan Kishan,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,344580,Shreyas Gopal,446507,Suryakumar Yadav,0,9.42
+ipl20,100903,1216511,1st innings,0,63,88/3,0,0,57,9.3,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,471342,Krunal Pandya,0,9.26
+ipl20,100904,1216511,1st innings,0,62,89/3,0,0,58,9.4,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,471342,Krunal Pandya,1,9.2
+ipl20,100905,1216511,1st innings,0,61,89/3,0,0,59,9.5,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,446507,Suryakumar Yadav,0,9.05
+ipl20,100906,1216511,1st innings,0,60,90/3,0,0,60,9.6,1,0,1,False,,471342,Krunal Pandya,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,446507,Suryakumar Yadav,1,9.0
+ipl20,101001,1216511,1st innings,0,59,90/3,0,0,61,10.1,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,423838,Rahul Tewatia,Rajasthan Royals,,,446507,Suryakumar Yadav,0,8.85
+ipl20,101002,1216511,1st innings,0,58,90/3,0,0,62,10.2,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,423838,Rahul Tewatia,Rajasthan Royals,,,446507,Suryakumar Yadav,0,8.7
+ipl20,101003,1216511,1st innings,0,57,91/3,0,0,63,10.3,1,0,0,False,,471342,Krunal Pandya,Mumbai Indians,423838,Rahul Tewatia,Rajasthan Royals,,,446507,Suryakumar Yadav,1,8.66
+ipl20,101004,1216511,1st innings,0,56,92/3,0,0,64,10.4,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,423838,Rahul Tewatia,Rajasthan Royals,,,471342,Krunal Pandya,1,8.62
+ipl20,101005,1216511,1st innings,0,55,92/3,0,0,65,10.5,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,423838,Rahul Tewatia,Rajasthan Royals,,,446507,Suryakumar Yadav,0,8.49
+ipl20,101006,1216511,1st innings,0,54,92/3,0,0,66,10.6,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,423838,Rahul Tewatia,Rajasthan Royals,,,446507,Suryakumar Yadav,0,8.36
+ipl20,101101,1216511,1st innings,0,53,96/3,0,0,67,11.1,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,471342,Krunal Pandya,4,8.59
+ipl20,101102,1216511,1st innings,0,52,100/3,0,0,68,11.2,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,471342,Krunal Pandya,4,8.82
+ipl20,101103,1216511,1st innings,0,51,102/3,0,0,69,11.3,2,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,471342,Krunal Pandya,2,8.86
+ipl20,101104,1216511,1st innings,0,50,103/3,0,0,70,11.4,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,471342,Krunal Pandya,1,8.82
+ipl20,101105,1216511,1st innings,0,49,103/3,0,0,71,11.5,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,446507,Suryakumar Yadav,0,8.7
+ipl20,101106,1216511,1st innings,0,48,104/3,0,0,72,11.6,1,0,0,False,,471342,Krunal Pandya,Mumbai Indians,344580,Shreyas Gopal,Rajasthan Royals,,,446507,Suryakumar Yadav,1,8.66
+ipl20,101201,1216511,1st innings,0,47,110/3,0,0,73,12.1,6,0,0,False,,471342,Krunal Pandya,Mumbai Indians,423838,Rahul Tewatia,Rajasthan Royals,,,446507,Suryakumar Yadav,6,9.04
+ipl20,101202,1216511,1st innings,0,46,111/3,0,0,74,12.2,1,0,0,False,,471342,Krunal Pandya,Mumbai Indians,423838,Rahul Tewatia,Rajasthan Royals,,,446507,Suryakumar Yadav,1,9.0
+ipl20,101203,1216511,1st innings,0,45,112/3,0,0,75,12.3,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,423838,Rahul Tewatia,Rajasthan Royals,,,471342,Krunal Pandya,1,8.96
+ipl20,101204,1216511,1st innings,0,44,113/3,0,0,76,12.4,1,0,0,False,,471342,Krunal Pandya,Mumbai Indians,423838,Rahul Tewatia,Rajasthan Royals,,,446507,Suryakumar Yadav,1,8.92
+ipl20,101205,1216511,1st innings,0,43,114/3,0,0,77,12.5,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,423838,Rahul Tewatia,Rajasthan Royals,,,471342,Krunal Pandya,1,8.88
+ipl20,101206,1216511,1st innings,0,42,115/3,0,0,78,12.6,1,0,0,False,,471342,Krunal Pandya,Mumbai Indians,423838,Rahul Tewatia,Rajasthan Royals,,,446507,Suryakumar Yadav,1,8.84
+ipl20,101301,1216511,1st innings,0,41,116/3,0,0,79,13.1,1,0,0,False,,471342,Krunal Pandya,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,446507,Suryakumar Yadav,1,8.81
+ipl20,101302,1216511,1st innings,0,40,116/3,0,0,80,13.2,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,471342,Krunal Pandya,0,8.7
+ipl20,101303,1216511,1st innings,0,39,117/3,0,0,81,13.3,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,471342,Krunal Pandya,1,8.66
+ipl20,101304,1216511,1st innings,0,38,117/3,0,0,82,13.4,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,446507,Suryakumar Yadav,0,8.56
+ipl20,101305,1216511,1st innings,0,37,117/3,0,0,83,13.5,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,446507,Suryakumar Yadav,0,8.45
+ipl20,101306,1216511,1st innings,0,36,117/4,0,4,84,13.6,0,0,0,True,caught,471342,Krunal Pandya,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,669855,Jofra Archer,446507,Suryakumar Yadav,0,8.35
+ipl20,101401,1216511,1st innings,0,35,118/4,0,0,85,14.1,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,625371,Hardik Pandya,1,8.32
+ipl20,101402,1216511,1st innings,0,35,119/4,0,0,85,14.1,1,1,1,False,,625371,Hardik Pandya,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,446507,Suryakumar Yadav,1,8.4
+ipl20,101403,1216511,1st innings,0,34,119/4,0,0,86,14.2,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,446507,Suryakumar Yadav,0,8.3
+ipl20,101404,1216511,1st innings,0,33,120/4,0,0,87,14.3,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,446507,Suryakumar Yadav,1,8.27
+ipl20,101405,1216511,1st innings,0,32,122/4,0,0,88,14.4,2,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,625371,Hardik Pandya,2,8.31
+ipl20,101406,1216511,1st innings,0,31,124/4,0,0,89,14.5,2,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,625371,Hardik Pandya,2,8.35
+ipl20,101407,1216511,1st innings,0,30,125/4,0,0,90,14.6,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,1122918,Kartik Tyagi,Rajasthan Royals,,,625371,Hardik Pandya,1,8.33
+ipl20,101501,1216511,1st innings,0,29,129/4,0,0,91,15.1,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,625371,Hardik Pandya,4,8.5
+ipl20,101502,1216511,1st innings,0,28,130/4,0,0,92,15.2,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,625371,Hardik Pandya,1,8.47
+ipl20,101503,1216511,1st innings,0,27,131/4,0,0,93,15.3,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,446507,Suryakumar Yadav,1,8.45
+ipl20,101504,1216511,1st innings,0,26,131/4,0,0,94,15.4,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,625371,Hardik Pandya,0,8.36
+ipl20,101505,1216511,1st innings,0,25,132/4,0,0,95,15.5,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,625371,Hardik Pandya,1,8.33
+ipl20,101506,1216511,1st innings,0,24,133/4,0,0,96,15.6,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,446507,Suryakumar Yadav,1,8.31
+ipl20,101601,1216511,1st innings,0,23,137/4,0,0,97,16.1,4,0,0,False,,625371,Hardik Pandya,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,446507,Suryakumar Yadav,4,8.47
+ipl20,101602,1216511,1st innings,0,22,137/4,0,0,98,16.2,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,446507,Suryakumar Yadav,0,8.38
+ipl20,101603,1216511,1st innings,0,21,138/4,0,0,99,16.3,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,446507,Suryakumar Yadav,1,8.36
+ipl20,101604,1216511,1st innings,0,20,138/4,0,0,100,16.4,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,625371,Hardik Pandya,0,8.28
+ipl20,101605,1216511,1st innings,0,19,138/4,0,0,101,16.5,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,625371,Hardik Pandya,0,8.19
+ipl20,101606,1216511,1st innings,0,18,142/4,0,0,102,16.6,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,625371,Hardik Pandya,4,8.35
+ipl20,101701,1216511,1st innings,0,17,144/4,0,0,103,17.1,2,0,0,False,,625371,Hardik Pandya,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,446507,Suryakumar Yadav,2,8.38
+ipl20,101702,1216511,1st innings,0,16,148/4,0,0,104,17.2,4,0,0,False,,625371,Hardik Pandya,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,446507,Suryakumar Yadav,4,8.53
+ipl20,101703,1216511,1st innings,0,15,150/4,0,0,105,17.3,2,0,0,False,,625371,Hardik Pandya,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,446507,Suryakumar Yadav,2,8.57
+ipl20,101704,1216511,1st innings,0,14,151/4,0,0,106,17.4,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,446507,Suryakumar Yadav,1,8.54
+ipl20,101705,1216511,1st innings,0,13,157/4,0,0,107,17.5,6,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,625371,Hardik Pandya,6,8.8
+ipl20,101706,1216511,1st innings,0,12,161/4,0,0,108,17.6,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,550235,Tom Curran,Rajasthan Royals,,,625371,Hardik Pandya,4,8.94
+ipl20,101801,1216511,1st innings,0,12,166/4,0,0,108,18.0,1,1,5,False,,625371,Hardik Pandya,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,446507,Suryakumar Yadav,5,9.22
+ipl20,101802,1216511,1st innings,0,11,168/4,0,0,109,18.1,2,0,0,False,,625371,Hardik Pandya,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,446507,Suryakumar Yadav,2,9.24
+ipl20,101803,1216511,1st innings,0,10,168/4,0,0,110,18.2,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,446507,Suryakumar Yadav,0,9.16
+ipl20,101804,1216511,1st innings,0,9,169/4,0,0,111,18.3,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,446507,Suryakumar Yadav,1,9.13
+ipl20,101805,1216511,1st innings,0,8,169/4,0,0,112,18.4,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,625371,Hardik Pandya,0,9.05
+ipl20,101806,1216511,1st innings,0,7,175/4,0,0,113,18.5,6,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,625371,Hardik Pandya,6,9.29
+ipl20,101807,1216511,1st innings,0,6,176/4,0,0,114,18.6,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,669855,Jofra Archer,Rajasthan Royals,,,625371,Hardik Pandya,1,9.26
+ipl20,101901,1216511,1st innings,0,5,177/4,0,0,115,19.1,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,625371,Hardik Pandya,1,9.23
+ipl20,101902,1216511,1st innings,0,5,180/4,0,0,115,19.1,3,1,1,False,,625371,Hardik Pandya,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,446507,Suryakumar Yadav,3,9.39
+ipl20,101903,1216511,1st innings,0,4,181/4,0,0,116,19.2,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,446507,Suryakumar Yadav,1,9.36
+ipl20,101904,1216511,1st innings,0,3,185/4,0,0,117,19.3,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,625371,Hardik Pandya,4,9.48
+ipl20,101905,1216511,1st innings,0,2,186/4,0,0,118,19.4,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,625371,Hardik Pandya,1,9.45
+ipl20,101906,1216511,1st innings,0,1,192/4,0,0,119,19.5,6,0,0,False,,625371,Hardik Pandya,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,446507,Suryakumar Yadav,6,9.68
+ipl20,101907,1216511,1st innings,0,0,193/4,0,0,120,19.6,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,591650,Ankit Rajpoot,Rajasthan Royals,,,446507,Suryakumar Yadav,1,9.65
+ipl20,200001,1216511,2nd innings,194,119,0,0/0,0,1,0.1,0,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,308967,Jos Buttler,0,0.0
+ipl20,200002,1216511,2nd innings,194,118,0,0/1,1,2,0.2,0,0,0,True,caught,1151278,Yashasvi Jaiswal,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,277912,Trent Boult,308967,Jos Buttler,0,0.0
+ipl20,200003,1216511,2nd innings,194,117,0,0/1,0,3,0.3,0,0,0,False,,267192,Steven Smith,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,308967,Jos Buttler,0,0.0
+ipl20,200004,1216511,2nd innings,194,116,0,4/1,0,4,0.4,4,0,0,False,,267192,Steven Smith,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,308967,Jos Buttler,4,6.0
+ipl20,200005,1216511,2nd innings,194,115,0,4/1,0,5,0.5,0,0,0,False,,267192,Steven Smith,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,308967,Jos Buttler,0,4.8
+ipl20,200006,1216511,2nd innings,194,114,0,5/1,0,6,0.6,1,0,0,False,,267192,Steven Smith,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,308967,Jos Buttler,1,5.0
+ipl20,200101,1216511,2nd innings,194,113,0,5/1,0,7,1.1,0,0,0,False,,267192,Steven Smith,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,308967,Jos Buttler,0,4.28
+ipl20,200102,1216511,2nd innings,194,112,0,6/1,0,8,1.2,1,0,0,False,,267192,Steven Smith,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,308967,Jos Buttler,1,4.5
+ipl20,200103,1216511,2nd innings,194,111,0,7/1,0,9,1.3,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,267192,Steven Smith,1,4.66
+ipl20,200104,1216511,2nd innings,194,110,0,7/2,2,10,1.4,0,0,0,True,caught,267192,Steven Smith,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,267192,Steven Smith,308967,Jos Buttler,0,4.2
+ipl20,200105,1216511,2nd innings,194,109,0,7/2,0,11,1.5,0,0,0,False,,425943,Sanju Samson,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,308967,Jos Buttler,0,3.81
+ipl20,200106,1216511,2nd innings,194,108,0,7/2,0,12,1.6,0,0,0,False,,425943,Sanju Samson,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,308967,Jos Buttler,0,3.5
+ipl20,200201,1216511,2nd innings,194,107,0,11/2,0,13,2.1,4,0,0,False,,308967,Jos Buttler,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,425943,Sanju Samson,4,5.07
+ipl20,200202,1216511,2nd innings,194,106,0,11/2,0,14,2.2,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,425943,Sanju Samson,0,4.71
+ipl20,200203,1216511,2nd innings,194,105,0,11/2,0,15,2.3,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,425943,Sanju Samson,0,4.4
+ipl20,200204,1216511,2nd innings,194,104,0,12/2,0,16,2.4,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,425943,Sanju Samson,1,4.5
+ipl20,200205,1216511,2nd innings,194,103,0,12/3,3,17,2.5,0,0,0,True,caught,425943,Sanju Samson,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,425943,Sanju Samson,308967,Jos Buttler,0,4.23
+ipl20,200206,1216511,2nd innings,194,102,0,12/3,0,18,2.6,0,0,0,False,,853265,Mahipal Lomror,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,308967,Jos Buttler,0,4.0
+ipl20,200301,1216511,2nd innings,194,101,0,12/3,0,19,3.1,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,853265,Mahipal Lomror,0,3.78
+ipl20,200302,1216511,2nd innings,194,100,0,12/3,0,20,3.2,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,853265,Mahipal Lomror,0,3.6
+ipl20,200303,1216511,2nd innings,194,99,0,12/3,0,21,3.3,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,853265,Mahipal Lomror,0,3.42
+ipl20,200304,1216511,2nd innings,194,98,0,16/3,0,22,3.4,4,0,0,False,,308967,Jos Buttler,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,853265,Mahipal Lomror,4,4.36
+ipl20,200305,1216511,2nd innings,194,97,0,16/3,0,23,3.5,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,853265,Mahipal Lomror,0,4.17
+ipl20,200306,1216511,2nd innings,194,96,0,16/3,0,24,3.6,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,853265,Mahipal Lomror,0,4.0
+ipl20,200401,1216511,2nd innings,194,95,0,16/3,0,25,4.1,0,0,0,False,,853265,Mahipal Lomror,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,308967,Jos Buttler,0,3.84
+ipl20,200402,1216511,2nd innings,194,94,0,16/3,0,26,4.2,0,0,0,False,,853265,Mahipal Lomror,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,308967,Jos Buttler,0,3.69
+ipl20,200403,1216511,2nd innings,194,93,0,17/3,0,27,4.3,1,0,0,False,,853265,Mahipal Lomror,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,308967,Jos Buttler,1,3.77
+ipl20,200404,1216511,2nd innings,194,92,0,21/3,0,28,4.4,4,0,0,False,,308967,Jos Buttler,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,853265,Mahipal Lomror,4,4.5
+ipl20,200405,1216511,2nd innings,194,91,0,22/3,0,29,4.5,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,853265,Mahipal Lomror,1,4.55
+ipl20,200406,1216511,2nd innings,194,90,0,23/3,0,30,4.6,1,0,0,False,,853265,Mahipal Lomror,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,308967,Jos Buttler,1,4.6
+ipl20,200501,1216511,2nd innings,194,89,0,25/3,0,31,5.1,2,0,0,False,,853265,Mahipal Lomror,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,,,308967,Jos Buttler,2,4.83
+ipl20,200502,1216511,2nd innings,194,88,0,29/3,0,32,5.2,4,0,0,False,,853265,Mahipal Lomror,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,,,308967,Jos Buttler,4,5.43
+ipl20,200503,1216511,2nd innings,194,87,0,29/3,0,33,5.3,0,0,0,False,,853265,Mahipal Lomror,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,,,308967,Jos Buttler,0,5.27
+ipl20,200504,1216511,2nd innings,194,86,0,30/3,0,34,5.4,1,0,0,False,,853265,Mahipal Lomror,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,,,308967,Jos Buttler,1,5.29
+ipl20,200505,1216511,2nd innings,194,85,0,30/3,0,35,5.5,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,,,853265,Mahipal Lomror,0,5.14
+ipl20,200506,1216511,2nd innings,194,84,0,31/3,0,36,5.6,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,,,853265,Mahipal Lomror,1,5.16
+ipl20,200601,1216511,2nd innings,194,83,0,33/3,0,37,6.1,2,0,0,False,,308967,Jos Buttler,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,853265,Mahipal Lomror,2,5.35
+ipl20,200602,1216511,2nd innings,194,82,0,33/3,0,38,6.2,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,853265,Mahipal Lomror,0,5.21
+ipl20,200603,1216511,2nd innings,194,81,0,33/3,0,39,6.3,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,853265,Mahipal Lomror,0,5.07
+ipl20,200604,1216511,2nd innings,194,80,0,33/3,0,40,6.4,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,853265,Mahipal Lomror,0,4.95
+ipl20,200605,1216511,2nd innings,194,79,0,34/3,0,41,6.5,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,853265,Mahipal Lomror,1,4.97
+ipl20,200606,1216511,2nd innings,194,78,0,35/3,0,42,6.6,1,0,0,False,,853265,Mahipal Lomror,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,308967,Jos Buttler,1,5.0
+ipl20,200701,1216511,2nd innings,194,77,0,36/3,0,43,7.1,1,0,0,False,,853265,Mahipal Lomror,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,,,308967,Jos Buttler,1,5.02
+ipl20,200702,1216511,2nd innings,194,76,0,38/3,0,44,7.2,2,0,0,False,,308967,Jos Buttler,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,,,853265,Mahipal Lomror,2,5.18
+ipl20,200703,1216511,2nd innings,194,75,0,38/3,0,45,7.3,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,,,853265,Mahipal Lomror,0,5.06
+ipl20,200704,1216511,2nd innings,194,74,0,40/3,0,46,7.4,2,0,0,False,,308967,Jos Buttler,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,,,853265,Mahipal Lomror,2,5.21
+ipl20,200705,1216511,2nd innings,194,73,0,41/3,0,47,7.5,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,,,853265,Mahipal Lomror,1,5.23
+ipl20,200706,1216511,2nd innings,194,72,0,42/3,0,48,7.6,1,0,1,False,,853265,Mahipal Lomror,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,,,308967,Jos Buttler,1,5.25
+ipl20,200801,1216511,2nd innings,194,71,0,42/4,4,49,8.1,0,0,0,True,caught,853265,Mahipal Lomror,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,853265,Mahipal Lomror,308967,Jos Buttler,0,5.14
+ipl20,200802,1216511,2nd innings,194,70,0,48/4,0,50,8.2,6,0,0,False,,308967,Jos Buttler,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,550235,Tom Curran,6,5.76
+ipl20,200803,1216511,2nd innings,194,69,0,49/4,0,51,8.3,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,550235,Tom Curran,1,5.76
+ipl20,200804,1216511,2nd innings,194,68,0,49/4,0,52,8.4,0,0,0,False,,550235,Tom Curran,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,308967,Jos Buttler,0,5.65
+ipl20,200805,1216511,2nd innings,194,67,0,50/4,0,53,8.5,1,0,0,False,,550235,Tom Curran,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,308967,Jos Buttler,1,5.66
+ipl20,200806,1216511,2nd innings,194,66,0,51/4,0,54,8.6,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,550235,Tom Curran,1,5.66
+ipl20,200901,1216511,2nd innings,194,65,0,53/4,0,55,9.1,2,0,0,False,,308967,Jos Buttler,Rajasthan Royals,471342,Krunal Pandya,Mumbai Indians,,,550235,Tom Curran,2,5.78
+ipl20,200902,1216511,2nd innings,194,64,0,55/4,0,56,9.2,2,0,0,False,,308967,Jos Buttler,Rajasthan Royals,471342,Krunal Pandya,Mumbai Indians,,,550235,Tom Curran,2,5.89
+ipl20,200903,1216511,2nd innings,194,63,0,56/4,0,57,9.3,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,471342,Krunal Pandya,Mumbai Indians,,,550235,Tom Curran,1,5.89
+ipl20,200904,1216511,2nd innings,194,62,0,57/4,0,58,9.4,1,0,0,False,,550235,Tom Curran,Rajasthan Royals,471342,Krunal Pandya,Mumbai Indians,,,308967,Jos Buttler,1,5.89
+ipl20,200905,1216511,2nd innings,194,61,0,63/4,0,59,9.5,6,0,0,False,,308967,Jos Buttler,Rajasthan Royals,471342,Krunal Pandya,Mumbai Indians,,,550235,Tom Curran,6,6.4
+ipl20,200906,1216511,2nd innings,194,60,0,63/4,0,60,9.6,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,471342,Krunal Pandya,Mumbai Indians,,,550235,Tom Curran,0,6.3
+ipl20,201001,1216511,2nd innings,194,59,0,63/4,0,61,10.1,0,0,0,False,,550235,Tom Curran,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,308967,Jos Buttler,0,6.19
+ipl20,201002,1216511,2nd innings,194,59,0,64/4,0,61,10.1,1,1,1,False,,550235,Tom Curran,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,308967,Jos Buttler,1,6.29
+ipl20,201003,1216511,2nd innings,194,58,0,65/4,0,62,10.2,1,0,0,False,,550235,Tom Curran,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,308967,Jos Buttler,1,6.29
+ipl20,201004,1216511,2nd innings,194,57,0,66/4,0,63,10.3,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,550235,Tom Curran,1,6.28
+ipl20,201005,1216511,2nd innings,194,56,0,67/4,0,64,10.4,1,0,0,False,,550235,Tom Curran,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,308967,Jos Buttler,1,6.28
+ipl20,201006,1216511,2nd innings,194,55,0,73/4,0,65,10.5,6,0,0,False,,308967,Jos Buttler,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,550235,Tom Curran,6,6.73
+ipl20,201007,1216511,2nd innings,194,54,0,74/4,0,66,10.6,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,1064812,Rahul Chahar,Mumbai Indians,,,550235,Tom Curran,1,6.72
+ipl20,201101,1216511,2nd innings,194,53,0,80/4,0,67,11.1,6,0,0,False,,308967,Jos Buttler,Rajasthan Royals,471342,Krunal Pandya,Mumbai Indians,,,550235,Tom Curran,6,7.16
+ipl20,201102,1216511,2nd innings,194,52,0,81/4,0,68,11.2,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,471342,Krunal Pandya,Mumbai Indians,,,550235,Tom Curran,1,7.14
+ipl20,201103,1216511,2nd innings,194,51,0,82/4,0,69,11.3,1,0,0,False,,550235,Tom Curran,Rajasthan Royals,471342,Krunal Pandya,Mumbai Indians,,,308967,Jos Buttler,1,7.13
+ipl20,201104,1216511,2nd innings,194,50,0,82/4,0,70,11.4,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,471342,Krunal Pandya,Mumbai Indians,,,550235,Tom Curran,0,7.02
+ipl20,201105,1216511,2nd innings,194,49,0,83/4,0,71,11.5,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,471342,Krunal Pandya,Mumbai Indians,,,550235,Tom Curran,1,7.01
+ipl20,201106,1216511,2nd innings,194,48,0,84/4,0,72,11.6,1,0,0,False,,550235,Tom Curran,Rajasthan Royals,471342,Krunal Pandya,Mumbai Indians,,,308967,Jos Buttler,1,7.0
+ipl20,201201,1216511,2nd innings,194,47,0,85/4,0,73,12.1,1,0,0,False,,550235,Tom Curran,Rajasthan Royals,230559,Kieron Pollard,Mumbai Indians,,,308967,Jos Buttler,1,6.98
+ipl20,201202,1216511,2nd innings,194,46,0,91/4,0,74,12.2,6,0,0,False,,308967,Jos Buttler,Rajasthan Royals,230559,Kieron Pollard,Mumbai Indians,,,550235,Tom Curran,6,7.37
+ipl20,201203,1216511,2nd innings,194,45,0,95/4,0,75,12.3,4,0,0,False,,308967,Jos Buttler,Rajasthan Royals,230559,Kieron Pollard,Mumbai Indians,,,550235,Tom Curran,4,7.6
+ipl20,201204,1216511,2nd innings,194,44,0,95/4,0,76,12.4,0,0,0,False,,308967,Jos Buttler,Rajasthan Royals,230559,Kieron Pollard,Mumbai Indians,,,550235,Tom Curran,0,7.5
+ipl20,201205,1216511,2nd innings,194,43,0,96/4,0,77,12.5,1,0,0,False,,308967,Jos Buttler,Rajasthan Royals,230559,Kieron Pollard,Mumbai Indians,,,550235,Tom Curran,1,7.48
+ipl20,201206,1216511,2nd innings,194,42,0,97/4,0,78,12.6,1,0,0,False,,550235,Tom Curran,Rajasthan Royals,230559,Kieron Pollard,Mumbai Indians,,,308967,Jos Buttler,1,7.46
+ipl20,201301,1216511,2nd innings,194,41,0,97/4,0,79,13.1,0,0,0,False,,550235,Tom Curran,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,,,308967,Jos Buttler,0,7.36
+ipl20,201302,1216511,2nd innings,194,40,0,98/4,0,80,13.2,1,0,0,False,,550235,Tom Curran,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,,,308967,Jos Buttler,1,7.35
+ipl20,201303,1216511,2nd innings,194,39,0,98/5,5,81,13.3,0,0,0,True,caught,308967,Jos Buttler,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,308967,Jos Buttler,550235,Tom Curran,0,7.25
+ipl20,201304,1216511,2nd innings,194,38,0,98/5,0,82,13.4,0,0,0,False,,423838,Rahul Tewatia,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,,,550235,Tom Curran,0,7.17
+ipl20,201305,1216511,2nd innings,194,37,0,98/5,0,83,13.5,0,0,0,False,,423838,Rahul Tewatia,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,,,550235,Tom Curran,0,7.08
+ipl20,201306,1216511,2nd innings,194,36,0,102/5,0,84,13.6,4,0,0,False,,423838,Rahul Tewatia,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,,,550235,Tom Curran,4,7.28
+ipl20,201401,1216511,2nd innings,194,35,0,106/5,0,85,14.1,4,0,0,False,,550235,Tom Curran,Rajasthan Royals,230559,Kieron Pollard,Mumbai Indians,,,423838,Rahul Tewatia,4,7.48
+ipl20,201402,1216511,2nd innings,194,34,0,106/5,0,86,14.2,0,0,0,False,,550235,Tom Curran,Rajasthan Royals,230559,Kieron Pollard,Mumbai Indians,,,423838,Rahul Tewatia,0,7.39
+ipl20,201403,1216511,2nd innings,194,33,0,108/5,0,87,14.3,2,0,0,False,,550235,Tom Curran,Rajasthan Royals,230559,Kieron Pollard,Mumbai Indians,,,423838,Rahul Tewatia,2,7.44
+ipl20,201404,1216511,2nd innings,194,32,0,108/6,6,88,14.4,0,0,0,True,caught,550235,Tom Curran,Rajasthan Royals,230559,Kieron Pollard,Mumbai Indians,550235,Tom Curran,423838,Rahul Tewatia,0,7.36
+ipl20,201405,1216511,2nd innings,194,31,0,109/6,0,89,14.5,1,0,0,False,,423838,Rahul Tewatia,Rajasthan Royals,230559,Kieron Pollard,Mumbai Indians,,,669855,Jofra Archer,1,7.34
+ipl20,201406,1216511,2nd innings,194,30,0,113/6,0,90,14.6,4,0,0,False,,669855,Jofra Archer,Rajasthan Royals,230559,Kieron Pollard,Mumbai Indians,,,423838,Rahul Tewatia,4,7.53
+ipl20,201501,1216511,2nd innings,194,29,0,113/6,0,91,15.1,0,0,0,False,,423838,Rahul Tewatia,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,669855,Jofra Archer,0,7.45
+ipl20,201502,1216511,2nd innings,194,28,0,113/7,7,92,15.2,0,0,0,True,bowled,423838,Rahul Tewatia,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,423838,Rahul Tewatia,669855,Jofra Archer,0,7.36
+ipl20,201503,1216511,2nd innings,194,27,0,114/7,0,93,15.3,1,0,0,False,,344580,Shreyas Gopal,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,669855,Jofra Archer,1,7.35
+ipl20,201504,1216511,2nd innings,194,26,0,115/7,0,94,15.4,1,0,0,False,,669855,Jofra Archer,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,344580,Shreyas Gopal,1,7.34
+ipl20,201505,1216511,2nd innings,194,25,0,115/8,8,95,15.5,0,0,0,True,caught,344580,Shreyas Gopal,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,344580,Shreyas Gopal,669855,Jofra Archer,0,7.26
+ipl20,201506,1216511,2nd innings,194,24,0,115/8,0,96,15.6,0,0,0,False,,591650,Ankit Rajpoot,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,669855,Jofra Archer,0,7.18
+ipl20,201601,1216511,2nd innings,194,23,0,115/8,0,97,16.1,0,0,0,False,,669855,Jofra Archer,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,591650,Ankit Rajpoot,0,7.11
+ipl20,201602,1216511,2nd innings,194,22,0,121/8,0,98,16.2,6,0,0,False,,669855,Jofra Archer,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,591650,Ankit Rajpoot,6,7.4
+ipl20,201603,1216511,2nd innings,194,21,0,122/8,0,99,16.3,1,0,0,False,,669855,Jofra Archer,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,591650,Ankit Rajpoot,1,7.39
+ipl20,201604,1216511,2nd innings,194,20,0,122/8,0,100,16.4,0,0,0,False,,591650,Ankit Rajpoot,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,669855,Jofra Archer,0,7.32
+ipl20,201605,1216511,2nd innings,194,19,0,123/8,0,101,16.5,1,0,0,False,,591650,Ankit Rajpoot,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,669855,Jofra Archer,1,7.3
+ipl20,201606,1216511,2nd innings,194,18,0,124/8,0,102,16.6,1,0,0,False,,669855,Jofra Archer,Rajasthan Royals,277912,Trent Boult,Mumbai Indians,,,591650,Ankit Rajpoot,1,7.29
+ipl20,201701,1216511,2nd innings,194,17,0,125/8,0,103,17.1,1,0,0,False,,669855,Jofra Archer,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,591650,Ankit Rajpoot,1,7.28
+ipl20,201702,1216511,2nd innings,194,16,0,126/8,0,104,17.2,1,0,0,False,,591650,Ankit Rajpoot,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,669855,Jofra Archer,1,7.26
+ipl20,201703,1216511,2nd innings,194,15,0,130/8,0,105,17.3,4,0,0,False,,669855,Jofra Archer,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,591650,Ankit Rajpoot,4,7.42
+ipl20,201704,1216511,2nd innings,194,14,0,132/8,0,106,17.4,2,0,0,False,,669855,Jofra Archer,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,591650,Ankit Rajpoot,2,7.47
+ipl20,201705,1216511,2nd innings,194,13,0,136/8,0,107,17.5,4,0,0,False,,669855,Jofra Archer,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,,,591650,Ankit Rajpoot,4,7.62
+ipl20,201706,1216511,2nd innings,194,12,0,136/9,9,108,17.6,0,0,0,True,caught,669855,Jofra Archer,Rajasthan Royals,625383,Jasprit Bumrah,Mumbai Indians,669855,Jofra Archer,591650,Ankit Rajpoot,0,7.55
+ipl20,201801,1216511,2nd innings,194,11,0,136/10,10,109,18.1,0,0,0,True,caught,591650,Ankit Rajpoot,Rajasthan Royals,272465,James Pattinson,Mumbai Indians,272465,James Pattinson,1122918,Kartik Tyagi,0,7.48

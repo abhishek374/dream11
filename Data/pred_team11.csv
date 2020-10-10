@@ -1,18 +1,19 @@
 playername,teamname,playingrole,playercost,model1_points,model1_team,model2_points,model2_team
-AB de Villiers,Royal Challengers Bangalore,Batsmen,10.0,45.0,1.0,87.0,1.0
-RR Pant,Delhi Capitals,Batsmen,9.5,38.0,1.0,73.0,1.0
-AJ Finch,Royal Challengers Bangalore,Batsmen,9.0,37.0,1.0,51.0,1.0
-SS Iyer,Delhi Capitals,Batsmen,9.0,37.0,1.0,70.0,1.0
-PP Shaw,Delhi Capitals,Batsmen,8.5,36.0,1.0,53.0,1.0
-V Kohli,Royal Challengers Bangalore,Batsmen,10.5,35.0,1.0,31.0,
-MM Ali,Royal Challengers Bangalore,AllRounder,8.5,35.0,1.0,53.0,1.0
-MP Stoinis,Delhi Capitals,AllRounder,8.5,34.0,1.0,40.0,1.0
-NA Saini,Royal Challengers Bangalore,Bowler,8.5,29.0,1.0,32.0,1.0
-K Rabada,Delhi Capitals,Bowler,9.0,29.0,1.0,34.0,1.0
-YS Chahal,Royal Challengers Bangalore,Bowler,9.0,28.0,1.0,33.0,1.0
-S Dhawan,Delhi Capitals,Batsmen,10.0,35.0,,46.0,1.0
-Washington Sundar,Royal Challengers Bangalore,AllRounder,8.0,33.0,,28.0,
-S Dube,Royal Challengers Bangalore,AllRounder,8.0,33.0,,25.0,
-AR Patel,Delhi Capitals,AllRounder,8.5,32.0,,35.0,
-R Ashwin,Delhi Capitals,Bowler,10.0,27.0,,30.0,
-A Nortje,Delhi Capitals,Bowler,8.0,25.0,,,
+KL Rahul,Kings XI Punjab,Batsmen,10.5,47.0,1.0,35.0,1.0
+MA Agarwal,Kings XI Punjab,Batsmen,8.5,46.0,1.0,36.0,1.0
+N Pooran,Kings XI Punjab,Batsmen,9.0,41.0,1.0,27.0,1.0
+N Rana,Kolkata Knight Riders,Batsmen,10.0,39.0,1.0,28.0,1.0
+Shubman Gill,Kolkata Knight Riders,Batsmen,10.0,38.0,1.0,29.0,1.0
+EJG Morgan,Kolkata Knight Riders,Batsmen,10.0,35.0,1.0,27.0,
+JDS Neesham,Kings XI Punjab,AllRounder,8.5,34.0,1.0,31.0,1.0
+GJ Maxwell,Kings XI Punjab,AllRounder,9.0,32.0,1.0,22.0,1.0
+Arshdeep Singh,Kings XI Punjab,Bowler,7.5,26.0,1.0,30.0,1.0
+Mohammed Shami,Kings XI Punjab,Bowler,8.5,25.0,1.0,23.0,1.0
+M Ashwin,Kings XI Punjab,Bowler,8.0,24.0,1.0,24.0,1.0
+KD Karthik,Kolkata Knight Riders,Batsmen,10.0,34.0,,28.0,1.0
+PJ Cummins,Kolkata Knight Riders,Batsmen,10.0,32.0,,21.0,
+AD Russell,Kolkata Knight Riders,Batsmen,10.0,32.0,,27.0,
+SP Narine,Kolkata Knight Riders,Batsmen,10.0,29.0,,27.0,
+Kuldeep Yadav,Kolkata Knight Riders,Batsmen,10.0,28.0,,20.0,
+Shivam Mavi,Kolkata Knight Riders,Batsmen,10.0,28.0,,20.0,
+Mandeep Singh,Kings XI Punjab,Batsmen,8.0,28.0,,18.0,
