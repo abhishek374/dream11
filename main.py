@@ -36,8 +36,6 @@ def execute_featureengg(matchdatascorecardpath,matchsummarypath, featenggpath,co
     :return:
     """
     points_df = pd.read_csv(matchdatascorecardpath)
-    print('inside execute function')
-    print(points_df[points_df['matchid'] == 1216546][['playing_team',"opposition_team"]] )
     matchsummary = pd.read_csv(matchsummarypath)
     FeatEng = FeatEngineering(points_df, matchsummary.copy())
     FeatEng.add_venue_info()
@@ -259,7 +257,7 @@ def update_master_data(datapath,pointsconfig):
             matchdata_ipl20_sub = matchdata_ipl20[matchdata_ipl20['matchid'].isin(matchid_list)]
             matchdata_ipl20_sub.to_csv(datapath['matchdatapathipl20'], index=False)
             sorecard_sub = execute_get_scorecard(datapath['matchdatapathipl20'], datapath['matchdatascorecardpathipl20'], pointsconfig)
-            master_scorecard = pd.concat([master_scorecard, sorecard_sub], join='inner',axis=0)
+            master_scorecard = pd.concat([master_scorecard, sorecard_sub], join='inner', axis=0)
             print(master_scorecard.columns)
             master_scorecard.to_csv(datapath['matchdatascorecardpath'], index=False)
             print("matchscorecard updated complete")
@@ -285,13 +283,13 @@ def update_master_data(datapath,pointsconfig):
 
 
 def get_team_details(datapath,index =0):
+
     tz_dubai = pytz.timezone('Asia/Dubai')
-    datetime_dubai = datetime.now(tz_dubai).date()
+    datetime_dubai = datetime.now(tz_dubai)
     matchsummary = pd.read_csv(datapath['matchsummarypathipl20'])
-    matchsummary['date'] = matchsummary['date'].apply(lambda x: pd.to_datetime(x).date())
-    print(datetime_dubai)
-    print(matchsummary['date'])
-    today_match = matchsummary[matchsummary['date'] == datetime_dubai]
+    matchid = matchsummary.iloc[next(x[0] for x in enumerate(pd.to_datetime(matchsummary['date']).tolist()) if x[1] > datetime_dubai), 0]
+
+    today_match = matchsummary[matchsummary['matchid'] == matchid]
     print(today_match)
     team1 = today_match['team1'].iloc[index]
     team2 = today_match['team2'].iloc[index]

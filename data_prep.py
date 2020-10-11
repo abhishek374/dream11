@@ -41,7 +41,7 @@ class ScoreCard:
 
         return: bowler_summary: pandas datarame with summary scorecard of a bowler
         """
-        bowler_wickets = pd.DataFrame(self.matchdata[(self.matchdata['dismissal'] == 't') & (~self.matchdata['dismissedtype'].isin(['run out','retired hurt']))].
+        bowler_wickets = pd.DataFrame(self.matchdata[(((self.matchdata['dismissal'] == 't') | (self.matchdata['dismissal'] == True)) & (~self.matchdata['dismissedtype'].isin(['run out','retired hurt'])))].
                                       groupby(['matchid', 'bowlername'])['dismissal'].count()).\
             rename(columns={"dismissal": "total_wickets"})
         bowler_overs_bow = pd.DataFrame(self.matchdata.groupby(['matchid', 'bowlername'])['over'].count()).\
@@ -162,7 +162,6 @@ class FeatEngineering:
         matchsummary['city'] = np.where(matchsummary['city'].isin(['Bangalore', 'Bengaluru']), 'Bengaluru', matchsummary['city'])
         matchsummary['venue'] = np.where(matchsummary['venue'].isin(['M Chinnaswamy Stadium', 'M.Chinnaswamy Stadium']),'M Chinnaswamy Stadium',matchsummary['venue'])
         matchsummary['venue'] = np.where(matchsummary['venue'].isin(['Punjab Cricket Association IS Bindra Stadium, Mohali', 'Punjab Cricket Association Stadium, Mohali']),'Punjab Cricket Association Stadium', matchsummary['venue'])
-        print(self.ipl_features.columns)
         self.matchsummary = matchsummary
         if "playing_team" not in self.ipl_features.columns:
             self.ipl_features['playing_team'] = np.where(pd.isnull(self.ipl_features['batsmen_innings']), self.ipl_features['bowler_bowlingteam'], self.ipl_features['batsmen_battingteam'])
@@ -213,13 +212,16 @@ class FeatEngineering:
         for col in args:
             print('col:', col)
             outcolname = col + "_" + groupby_id + '_avg' + str(rolling_window)
+            # why are we removing duplicates ?
             rolling_avg_points = ipl_features[[match_id, groupby_id, col]].drop_duplicates()
+            #
             rolling_avg_points = pd.DataFrame(rolling_avg_points.groupby([match_id, groupby_id])[col].sum()).reset_index()
             rolling_avg_points.set_index(match_id, inplace=True)
             rolling_avg_points = pd.DataFrame(rolling_avg_points.groupby([groupby_id])[col].rolling(rolling_window).mean()).reset_index().rename(columns={col: outcolname})
             rolling_avg_points[outcolname] = pd.DataFrame(rolling_avg_points.groupby([groupby_id])[outcolname].shift(1))
             self.ipl_features = pd.merge(self.ipl_features, rolling_avg_points, on=[match_id, groupby_id], how='left')
         return
+
 
     def add_player_leanpatch(self):
         self.ipl_features['lean_patch_3'] = np.where( np.isnan(self.ipl_features['totalpoints_playername_avg_10']),0,

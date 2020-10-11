@@ -87,7 +87,7 @@ if __name__ == "__main__":
 
     modelname = 'catboost'  # Options include 'rf','xgb','catboost','movingaverage', 'ensemble'
     matchdatascorecardpath = r'Data/ipl_scorecard_points.csv'
-    matchdatascorecardpathipl20 = r'Data/ipl_scorecard_points_ipl20.csv'
+    matchdatascorecardpathipl20 = r'ipl20/ipl_scorecard_points_ipl20.csv'
     featenggpath = r'Data/ipl_scorecard_points_featengg.csv'
 
     modelpath = r"Data/" + modelname + "_model.pkl"
@@ -142,7 +142,7 @@ if __name__ == "__main__":
     # Change this to True if the current playing XI is available
     SELECT_FROM_PLAYING_XI = True
     # Change this to true to send email if the file fo next match is present at nextmatchteampath
-    SEND_EMAIL = True
+    SEND_EMAIL = False
     sender_email = "abhishek.anand374@gmail.com"
     # add more emails to this by using "," seperator
     receiver_email = "madhavgoswami93@gmail.com," + "Abhi Saini <sainiabhi7734@gmail.com>," + "rapidnehal@gmail.com," + "sandeepch@zeta.tech"
@@ -183,7 +183,7 @@ if __name__ == "__main__":
 
     # Enter the details of the current match/
     TEAM1, TEAM2, VENUE = get_team_details(datapath, index=0)
-    print(TEAM1, TEAM2, VENUE)
+    print("Team1",TEAM1,"Team2", TEAM2,"Venue", VENUE)
     # TEAM1 = "Mumbai Indians"
     # TEAM2 = "Royal Challengers Bangalore"
     CITY = 'neutral venue'
