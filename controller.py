@@ -142,7 +142,7 @@ if __name__ == "__main__":
     # Change this to True if the current playing XI is available
     SELECT_FROM_PLAYING_XI = True
     # Change this to true to send email if the file fo next match is present at nextmatchteampath
-    SEND_EMAIL = False
+    SEND_EMAIL = True
     sender_email = "abhishek.anand374@gmail.com"
     # add more emails to this by using "," seperator
     receiver_email = "madhavgoswami93@gmail.com," + "Abhi Saini <sainiabhi7734@gmail.com>," + "rapidnehal@gmail.com," + "sandeepch@zeta.tech"

@@ -49,6 +49,10 @@ class SelectPlayingTeam:
         batsmen = dict(zip(player_list, np.where(team_df[self.playingrole] == 'Batsmen', 1, 0)))
         bowler = dict(zip(player_list, np.where(team_df[self.playingrole] == 'Bowler', 1, 0)))
         allrounder = dict(zip(player_list, np.where(team_df[self.playingrole] == 'AllRounder', 1, 0)))
+        team1 = team_df[self.playingteam].unique()[0]
+        team2 = team_df[self.playingteam].unique()[1]
+        team1 = dict(zip(player_list, np.where(team_df[self.playingteam] == team1, 1, 0)))
+        team2 = dict(zip(player_list, np.where(team_df[self.playingteam] == team2, 1, 0)))
 
         prob = LpProblem("Maximize Dream 11 Points", LpMaximize)
 
@@ -66,6 +70,9 @@ class SelectPlayingTeam:
 
         prob += lpSum([allrounder[i] * player_vars[i] for i in player_list]) >= self.constconfig['MINALLROUNDER'], "MinimumAllRounder"
         prob += lpSum([allrounder[i] * player_vars[i] for i in player_list]) <= self.constconfig['MAXALLROUNDER'], "MaximumAllRounder"
+
+        prob += lpSum([team1[i] * player_vars[i] for i in player_list]) <= self.constconfig['MAXTEAMCOUNT'], "MaximumTeamCount1"
+        prob += lpSum([team2[i] * player_vars[i] for i in player_list]) <= self.constconfig['MAXTEAMCOUNT'], "MaximumTeamCount2"
 
         # The problem is solved using PuLP's choice of Solver
         prob.solve()
