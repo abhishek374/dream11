@@ -288,7 +288,7 @@ def get_current_squad():
     squad_title = 'Squads'
 
     counter = 0
-    while squad_title != 'Playing XI' and counter < 1:
+    while squad_title != 'Playing XI' and counter < 3:
         URL= "https://hsapi.espncricinfo.com/v1/pages/match/home?lang=en&leagueId=8048&eventId="+str(eventid)+"&liveTest=false&qaTest=false"
         print(URL)
         response = requests.get(URL, headers=headers)

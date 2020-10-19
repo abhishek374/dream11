@@ -7,6 +7,7 @@ class SelectPlayingTeam:
 
     def __init__(self, team_points, constconfig, colconfig):
         self.team_points = team_points
+        # self.team_points['playing_team'] = np.where(pd.isnull(self.team_points['batsmen_innings']),self.team_points['bowler_bowlingteam'],self.team_points['batsmen_battingteam'])
         self.constconfig = constconfig
         self.playernamecol = colconfig['PLAYERNAME']
         self.pointscol = colconfig['ACTUALPOINTS']
@@ -17,6 +18,7 @@ class SelectPlayingTeam:
         self.actualselection = colconfig['ACTUALSELECTION']
         self.predselectionrank = colconfig['PREDSELECTIONRANK']
         self.actualselectionrank = colconfig['ACTUALSELECTIONRANK']
+        self.playing_team = colconfig['PLAYERTEAM']
 
         return
 
@@ -49,10 +51,11 @@ class SelectPlayingTeam:
         batsmen = dict(zip(player_list, np.where(team_df[self.playingrole] == 'Batsmen', 1, 0)))
         bowler = dict(zip(player_list, np.where(team_df[self.playingrole] == 'Bowler', 1, 0)))
         allrounder = dict(zip(player_list, np.where(team_df[self.playingrole] == 'AllRounder', 1, 0)))
-        team1 = team_df[self.playingteam].unique()[0]
-        team2 = team_df[self.playingteam].unique()[1]
-        team1 = dict(zip(player_list, np.where(team_df[self.playingteam] == team1, 1, 0)))
-        team2 = dict(zip(player_list, np.where(team_df[self.playingteam] == team2, 1, 0)))
+        print("team1_columns",team_df.columns)
+        team1 = team_df[self.playing_team].unique()[0]
+        team2 = team_df[self.playing_team].unique()[1]
+        team1 = dict(zip(player_list, np.where(team_df[self.playing_team] == team1, 1, 0)))
+        team2 = dict(zip(player_list, np.where(team_df[self.playing_team] == team2, 1, 0)))
 
         prob = LpProblem("Maximize Dream 11 Points", LpMaximize)
 

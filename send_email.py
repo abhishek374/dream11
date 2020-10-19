@@ -10,7 +10,7 @@ def send_email_team(team1, team2, filepath,sender_email,receiver_email):
     smtp_server = "smtp.gmail.com"
     port = 587  # For starttls
     password = input("Type your password and press enter: ")
-    #read the attachment as pandas
+    # Read the attachment as pandas
     tabledf = pd.read_csv(filepath)
     tablehtml = tabledf.to_html()
     # Create the plain-text and HTML version of your message
