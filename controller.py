@@ -47,7 +47,8 @@ if __name__ == "__main__":
                    'MINBOWLER': 3,
                    'MAXBOWLER': 6,
                    'MINALLROUNDER': 1,
-                   'MAXALLROUNDER': 4}
+                   'MAXALLROUNDER': 4,
+                   'MAXTEAMCOUNT': 7}
 
     colconfig = {'MATCHID': 'matchid',
                  'BATSMANNAME': 'batsmanname',
@@ -65,6 +66,7 @@ if __name__ == "__main__":
                  'TOTALBALLPOINTS': 'total_bowl_points',
                  'ACTUALPOINTS': 'total_points',
                  'PREDPOINTS': 'pred_points',
+                 'PLAYERTEAM':'playing_team',
                  'PLAYERCOST': 'playercost',
                  'PLAYINGROLE': 'playing_role',
                  'PREDSELECTION': 'pred_selection_true',
