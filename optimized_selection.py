@@ -51,7 +51,6 @@ class SelectPlayingTeam:
         batsmen = dict(zip(player_list, np.where(team_df[self.playingrole] == 'Batsmen', 1, 0)))
         bowler = dict(zip(player_list, np.where(team_df[self.playingrole] == 'Bowler', 1, 0)))
         allrounder = dict(zip(player_list, np.where(team_df[self.playingrole] == 'AllRounder', 1, 0)))
-        print("team1_columns",team_df.columns)
         team1 = team_df[self.playing_team].unique()[0]
         team2 = team_df[self.playing_team].unique()[1]
         team1 = dict(zip(player_list, np.where(team_df[self.playing_team] == team1, 1, 0)))
@@ -60,6 +59,7 @@ class SelectPlayingTeam:
         prob = LpProblem("Maximize Dream 11 Points", LpMaximize)
 
         player_vars = LpVariable.dicts("player", player_list, 0, 1, cat='Integer')
+        prob += lpSum([1 * player_vars[i] for i in player_list]) <= self.constconfig['MAXPLAYERCOUNT'] , "Total players selected"
 
         prob += lpSum([points[i] * player_vars[i] for i in player_list]), "Total points earned by the team"
 

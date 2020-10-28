@@ -48,6 +48,7 @@ if __name__ == "__main__":
                    'MAXBOWLER': 6,
                    'MINALLROUNDER': 1,
                    'MAXALLROUNDER': 4,
+                   'MAXPLAYERCOUNT': 11,
                    'MAXTEAMCOUNT': 7}
 
     colconfig = {'MATCHID': 'matchid',
@@ -147,7 +148,7 @@ if __name__ == "__main__":
     SEND_EMAIL = True
     sender_email = "abhishek.anand374@gmail.com"
     # add more emails to this by using "," seperator
-    receiver_email = "madhavgoswami93@gmail.com," + "Abhi Saini <sainiabhi7734@gmail.com>," + "rapidnehal@gmail.com," + "sandeepch@zeta.tech"
+    receiver_email = "madhavgoswami93@gmail.com," + "sainiabhi7734@gmail.com," + "rapidnehal@gmail.com," + "sandeepch@zeta.tech," + "mandalravi04@gmail.com," + "vikashkumar72741234@gmail.com"
     # config dor send_email
     modelnamelist = ['xgb', 'catboost', 'rf', 'movingaverage']
     #modelnamelist = ['catboost']
