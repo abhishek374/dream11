@@ -64,6 +64,7 @@ parse_teams.py - independent script to get the squad for all ipl teams for the y
 
 
 
+Link to Medium article explaining the approach - https://madhavgoswami.medium.com/dream11-team-predictor-with-python-and-machine-learning-f0dfce1489eb
 
 					
 			  		
