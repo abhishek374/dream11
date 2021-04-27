@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 import pytz
 import time
-
+import numpy as np
 
 def parse_commentary_to_data(data, page, eventid, inning, ipl):
 
@@ -115,27 +115,28 @@ def get_data_for_event(tournamentid, eventid, directory, headers, ipl):
     return matchdata
 
 
-def update_ipl20_master():
-    directory = os.getcwd() +"/ipl20"
+def update_ipl21_master():
+    directory = os.getcwd() +"/ipl21"
     tournamentid = 8048
-    #directory = '~/Documents/GitHub/dream11/ipl20'
+    #directory = '~/Documents/GitHub/dream11/ipl21'
 
-    ipl20_schedule_url = "https://hsapi.espncricinfo.com/v1/pages/series/schedule?lang=en&leagueId=8048&year=2020"
+    ipl21_schedule_url = "https://hsapi.espncricinfo.com/v1/pages/series/schedule?lang=en&leagueId=8048&year=2021"
     headers = {
 	    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36',
 	    "Upgrade-Insecure-Requests": "1", "DNT": "1",
 	    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5",
 	    "Accept-Encoding": "gzip, deflate"
         }
-    response = requests.get(ipl20_schedule_url, headers=headers)
+    response = requests.get(ipl21_schedule_url, headers=headers)
     data = json.loads(response.text)
-    match_summary_ipl20 = pd.DataFrame(columns=['matchid', 'date', 'year', 'city', 'venue','team1', 'team2', 'result', 'tossdecision', 'winner', 'by_what', 'by_how_many', 'mom'])
+    match_summary_ipl21 = pd.read_csv(directory+'/match_summary.csv')
+    # match_summary_ipl21 = pd.DataFrame(columns=['matchid', 'date', 'year', 'city', 'venue','team1', 'team2', 'result', 'tossdecision', 'winner', 'by_what', 'by_how_many', 'mom'])
 
     for match_details in data['content']['matchEvents']:
 	    dict = {}
 	    matchid = match_details['id']
 	    date = match_details['date']
-	    year = 2020
+	    year = 2021
 	    city = match_details['venue']['name']
 	    venue = match_details['venue']['name']
 	    team1 = match_details['competitors'][0]['name']
@@ -164,45 +165,47 @@ def update_ipl20_master():
 
 	    by_how_many = [int(i) for i in match_details['statusText'].split() if i.isdigit()]
 	    dict = {'matchid': matchid, 'date': date, 'year': year, 'city': city, 'venue': venue, 'team1': team1, 'team2': team2, 'result': result,'tossdecision': tossdecision, 'winner': winner, 'by_what': by_what, 'by_how_many': by_how_many, 'mom': mom}
-	    match_summary_ipl20 = match_summary_ipl20.append(dict, ignore_index=True)
+	    match_summary_ipl21 = match_summary_ipl21.append(dict, ignore_index=True)
 
     # if not os.path.exists(directory):
     #     os.makedirs(directory)
     # else:
     #     os.chdir(directory)
 
-    match_summary_ipl20.to_csv(directory+'/match_summary_ipl20.csv', index=False)
+    match_summary_ipl21.to_csv(directory+'/match_summary.csv', index=False)
 
-    match_summary_ipl20 = pd.read_csv(directory+'/match_summary_ipl20.csv')
+    match_summary_ipl21 = pd.read_csv(directory+'/match_summary.csv')
 
     # matchdata_full = pd.DataFrame(columns=['ipl_season', 'sequence', 'eventid', 'innings', 'target', 'remainingballs', 'homescore', 'awayscore', 'fallofwickets', 'ball', 'over', 'scorevalue', 'validball', 'extras',
     #                                                             'dismissal', 'dismissaltype', 'batsmanid', 'batsman', 'batsmanteam', 'bowlerid', 'bowler', 'bowlerteam', 'otherathleteinvolvedid', 'otherathleteinvolved', 'nonstrikerid', 'nonstriker', 'runs', 'runrate'])
 
-    matchdata_full = pd.read_csv(directory+'/matchdata_ipl20.csv')
+    matchdata_full = pd.read_csv(directory+'/matchdata.csv')
     # matchdata_v2 = pd.DataFrame(columns=['date', 'matchid', 'innings', 'target', 'fallofwickets', 'ball', 'over', 'scorevalue',
     #              'validball', 'extras', 'extratype', 'batsmanname', 'batsmanscorevalue', 'bowlername', 'nonstrikername',
     #              'totalruns', 'dismissal', 'dismissedtype', 'dismissedplayer', 'battingteam', 'bowlingteam'])
     matchdata_v2 = pd.read_csv(directory+'/matchdata_v2.csv')
 
-    for eventid in match_summary_ipl20[~match_summary_ipl20['result'].str.contains('Starts') & match_summary_ipl20['result'].str.contains('won')].matchid:
+    for eventid in match_summary_ipl21[~match_summary_ipl21['result'].str.contains('Starts') & match_summary_ipl21['result'].str.contains('won')].matchid:
         print(eventid)
         if eventid not in matchdata_full.eventid.unique().tolist():
-            _match_data_ = get_data_for_event(tournamentid, eventid,directory,headers,'ipl20')
+            _match_data_ = get_data_for_event(tournamentid, eventid,directory,headers,'ipl21')
             matchdata_full = matchdata_full.append(_match_data_, ignore_index=True,  sort=True)
         else:
             print('data already downloaded')
 
 
-    matchdata_full.to_csv(directory+'/matchdata_ipl20.csv', index = False)
-    ipl20_matchdata = pd.read_csv(directory+'/matchdata_ipl20.csv')
+    matchdata_full.to_csv(directory+'/matchdata.csv', index = False)
+    ipl21_matchdata = pd.read_csv(directory+'/matchdata.csv')
 
     names_mapping = pd.read_csv(directory+'/name_mapping_clean.csv')
-    eventids_to_be_backfilled = [x for x in ipl20_matchdata.eventid.unique().tolist() if x not in matchdata_v2.matchid.unique().tolist()]
+    eventids_to_be_backfilled = [x for x in ipl21_matchdata.eventid.unique().tolist()
+                                 if (x not in matchdata_v2.matchid.unique().tolist())]
+
     print("matchdata_v2 needs to be updated for ")
     print(eventids_to_be_backfilled)
 
-    for iter, row in ipl20_matchdata[ipl20_matchdata['eventid'].isin(eventids_to_be_backfilled)].iterrows():
-        date = pd.to_datetime(match_summary_ipl20[match_summary_ipl20.matchid == row['eventid']].date).dt.date.tolist()[0]
+    for iter, row in ipl21_matchdata[ipl21_matchdata['eventid'].isin(eventids_to_be_backfilled)].iterrows():
+        date = pd.to_datetime(match_summary_ipl21[match_summary_ipl21.matchid == row['eventid']].date).dt.date.tolist()[0]
         matchid = row['eventid']
         innings = row['innings']
         target = row['target']
@@ -216,19 +219,19 @@ def update_ipl20_master():
         batsmanscorevalue = row['scorevalue']
 
         if row['batsman'] in names_mapping.values:
-            batsmanname = names_mapping[names_mapping.ipl20_name ==
+            batsmanname = names_mapping[names_mapping.ipl_name ==
                                         row['batsman']]['old_name'].tolist()[0]
         else:
             batsmanname = row['batsman']
 
         if row['bowler'] in names_mapping.values:
-            bowlername = names_mapping[names_mapping.ipl20_name ==
+            bowlername = names_mapping[names_mapping.ipl_name ==
                                 row['bowler']]['old_name'].tolist()[0]
         else:
             bowlername = row['bowler']
 
         if row['nonstriker'] in names_mapping.values:
-            nonstrikername = names_mapping[names_mapping.ipl20_name ==
+            nonstrikername = names_mapping[names_mapping.ipl_name ==
                                     row['nonstriker']]['old_name'].tolist()[0]
         else:
             nonstrikername = row['nonstriker']
@@ -264,7 +267,7 @@ def update_ipl20_master():
 
 def get_current_squad():
 
-    directory = os.getcwd() +"/ipl20"
+    directory = os.getcwd() +"/ipl21"
 
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36',
@@ -274,12 +277,12 @@ def get_current_squad():
         "Accept-Encoding": "gzip, deflate"
     }
 
-    match_summary_ipl20 = pd.read_csv(directory + '/match_summary_ipl20.csv')
+    match_summary_ipl21 = pd.read_csv(directory + '/match_summary.csv')
 
-    tz_dubai = pytz.timezone('Asia/Dubai')
-    datetime_dubai = datetime.now(tz_dubai)
+    tz_india = pytz.timezone('Asia/Calcutta')
+    datetime_india = datetime.now(tz_india)
 
-    eventid = match_summary_ipl20.iloc[next(x[0] for x in enumerate(pd.to_datetime(match_summary_ipl20['date']).tolist()) if x[1] > datetime_dubai), 0]
+    eventid = match_summary_ipl21.iloc[next(x[0] for x in enumerate(pd.to_datetime(match_summary_ipl21['date']).tolist()) if x[1] > datetime_india), 0]
 
     print('Playing XI need to be downloaded for : ')
     print(eventid)

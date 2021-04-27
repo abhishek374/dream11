@@ -90,7 +90,7 @@ if __name__ == "__main__":
 
     modelname = 'catboost'  # Options include 'rf','xgb','catboost','movingaverage', 'ensemble'
     matchdatascorecardpath = r'Data/ipl_scorecard_points.csv'
-    matchdatascorecardpathipl20 = r'ipl20/ipl_scorecard_points_ipl20.csv'
+    matchdatascorecardpathipl21 = r'ipl21/ipl_scorecard_points_ipl21.csv'
     featenggpath = r'Data/ipl_scorecard_points_featengg.csv'
 
     modelpath = r"Data/" + modelname + "_model.pkl"
@@ -101,11 +101,11 @@ if __name__ == "__main__":
     predscorecardpath = r"Data/pred_data_scorecard.csv"
     predsummarypath = r"Data/pred_data_summary.csv"
     nextmatchteampath = r"Data/pred_team11.csv"
-    matchdatapathipl20 = r"ipl20/matchdata_v2.csv"
-    matchdatascorecardpathipl20 = r"ipl20/matchdatascorecardpathipl20.csv"
-    predscorecardpath =r'ipl20/matchscorecard.csv'
+    matchdatapathipl21 = r"ipl21/matchdata_v2.csv"
+    matchdatascorecardpathipl21 = r"ipl21/matchdatascorecardpathipl21.csv"
+    predscorecardpath =r'ipl21/matchscorecard.csv'
 
-    matchsummarypathipl20 = r"ipl20/match_summary_ipl20.csv"
+    matchsummarypathipl21 = r"ipl21/match_summary.csv"
     iplcurrentsquad = r"Data/ipl_squad_points.csv"
     teampoints = r'Data/team_points.csv'
     rewardspath =r'Data/rewards_df.csv'
@@ -115,9 +115,9 @@ if __name__ == "__main__":
     datapath = {'matchdatapath': matchdatapath,
                 'matchsummarypath': matchsummarypath,
                 'matchdatascorecardpath': matchdatascorecardpath,
-                'matchdatascorecardpathipl20': matchdatascorecardpathipl20,
-                "matchdatapathipl20": matchdatapathipl20,
-                "matchsummarypathipl20": matchsummarypathipl20,
+                'matchdatascorecardpathipl21': matchdatascorecardpathipl21,
+                "matchdatapathipl21": matchdatapathipl21,
+                "matchsummarypathipl21": matchsummarypathipl21,
                 'featenggpath': featenggpath,
                 'modelpath': modelpath,
                 'encoderpath': encoderpath,
@@ -145,10 +145,10 @@ if __name__ == "__main__":
     # Change this to True if the current playing XI is available
     SELECT_FROM_PLAYING_XI = True
     # Change this to true to send email if the file fo next match is present at nextmatchteampath
-    SEND_EMAIL = True
-    sender_email = "abhishek.anand374@gmail.com"
+    SEND_EMAIL = False
+    sender_email = "" # update the required email id
     # add more emails to this by using "," seperator
-    receiver_email = "madhavgoswami93@gmail.com," + "sainiabhi7734@gmail.com," + "rapidnehal@gmail.com," + "sandeepch@zeta.tech," + "mandalravi04@gmail.com," + "vikashkumar72741234@gmail.com"
+    receiver_email = ""
     # config dor send_email
     modelnamelist = ['xgb', 'catboost', 'rf', 'movingaverage']
     #modelnamelist = ['catboost']
@@ -185,12 +185,12 @@ if __name__ == "__main__":
         execute_rewards_calcualtion(datapath, constconfig, colconfig, rewardconfig)  # Run the function to estimate rewards if actual playing 11 is available
 
     # Enter the details of the current match/
-    TEAM1, TEAM2, VENUE = get_team_details(datapath, index=0)
-    print("Team1",TEAM1,"Team2", TEAM2,"Venue", VENUE)
-    # TEAM1 = "Mumbai Indians"
-    # TEAM2 = "Royal Challengers Bangalore"
-    CITY = 'neutral venue'
-    # VENUE = 'Dubai International Cricket Stadium'
+    TEAM1, TEAM2, VENUE, CITY = get_team_details(datapath, index=0)
+    print("Team1", TEAM1, "Team2", TEAM2, "Venue", VENUE, CITY)
+    # TEAM1 = "Royal Challengers Bangalore"
+    # TEAM2 = "Delhi Capitals"
+    # CITY = 'Ahmedabad'
+    # VENUE = 'Motera Stadium'
     # Run the below function to predict the best 11 for the upcoming match
 
     if SELECT_PLAYING_SQUAD:

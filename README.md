@@ -19,7 +19,7 @@ data_prep.py - ScoreCard- Used to summarize tha ball by ball data into match lev
 	       Dream11Points - Points calculated as per dream 11 rules: ipl_scorecard_points.csv
 	       FeatEngg - Feature enginnering module used to add additional features like, opposition team, venue, city, rolling average of batting order, bowls bowled, 		player's batting points earned, player's bowling points earned, venue's batting point earned and venue's baowling point earned
 
-download_ipl20.py - Has two methods update_ipl20_master: to updated the masterdata needed for prediction by appending the scorecard for the all the matches played till date 								in ipl20
+download_ipl21.py - Has two methods update_ipl20_master: to updated the masterdata needed for prediction by appending the scorecard for the all the matches played till date 								in ipl20
 				    get_current_squad: gets the playing XI declared for the most recent match to be played, it attempts to get the match by looking through 							   the website 3 times, if the squad is not out then returns null
 
 
