@@ -7,8 +7,9 @@ Aim is to select the team that would get the maximum total points in an IPL matc
 - Clone the repo to your local
 - pip install -r requirements.txt
 - update column - playercost in Data/ipl_squad_points.csv with the latest dream11 points as that changes before every match
+- Change this variable SELECT_FROM_PLAYING_XI (in controller.py) to False if running the code before the playing XI for the match is announced otherwise keep it as True
 - python controller.py
-- Output is saved in pred_team11.csv within Data/ folder. If run after the squad is announced for the match and before the match starts, it will slect the best XI from the current playing squad otherwise will refer to older matches to get the playing XI. The dataset Data/ipl_squad_points.csv has the details for ipl 2020 regarding players role and cost as per dream11. 
+- Output is saved in pred_team11.csv within Data/ folder. If run after the squad is announced for the match and before the match starts, it will slect the best XI from the current playing squad otherwise will refer to older matches to get the playing XI. The dataset Data/ipl_squad_points.csv has the details for ipl 2021 regarding players role and cost as per dream11. 
 You can write at abhishek.anand374@gmail.com if there are some challenges with the code repo or just some ideas you would like to share.
 
 ## Dataset Descriptions
