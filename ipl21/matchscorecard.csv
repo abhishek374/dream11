@@ -17568,47 +17568,67 @@ matchid,playername,total_runs,total_balls_faced,total_legal_balls_faced,run_6,ru
 1254079,Kyle Jamieson,,,,,,,,,,1.0,24.0,24.0,32.0,0.0,2nd innings,Delhi Capitals,Royal Challengers Bangalore,8.0,Bowler,,,,0.0,,25.0,0.0,0.0,0.0,25.0,25.0,,,
 1254079,M Siraj,,,,,,,,,,1.0,24.0,24.0,48.0,0.0,2nd innings,Delhi Capitals,Royal Challengers Bangalore,12.0,Bowler,,,,0.0,,25.0,-6.0,0.0,0.0,19.0,19.0,,,
 1254079,YS Chahal,,,,,,,,,,,12.0,12.0,10.0,0.0,2nd innings,Delhi Capitals,Royal Challengers Bangalore,5.0,Bowler,,,,0.0,,,4.0,0.0,0.0,4.0,4.0,,,
-1254080,Mujeeb ur Rahman,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,9.0
-1254080,K Gowtham,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,8.5
-1254080,AT Rayudu,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,9.0
-1254080,DJ Bravo,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,10.0
-1254080,DL Chahar,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,8.5
-1254080,F du Plessis,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,9.0
-1254080,Imran Tahir,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,9.5
-1254080,MS Dhoni,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,9.5
-1254080,RA Jadeja,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,8.5
-1254080,SK Raina,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,10.0
-1254080,SN Thakur,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,8.5
-1254080,SR Watson,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,9.5
-1254080,M Vijay,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,8.5
-1254080,KM Jadhav,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,8.5
-1254080,MJ Santner,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,8.5
-1254080,SM Curran,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,8.5
-1254080,L Ngidi,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,8.5
-1254080,N Jagadeesan,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,8.5
-1254080,R Gaikwad,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,8.5
-1254080,KV Sharma,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,8.0
-1254080,B Kumar,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,9.0
-1254080,Basil Thampi,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,8.0
-1254080,KK Ahmed,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,8.0
-1254080,KS Williamson,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,9.5
-1254080,MK Pandey,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,9.0
-1254080,Mohammad Nabi,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,9.0
-1254080,Rashid Khan,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,9.5
-1254080,J Holder,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,8.5
-1254080,V Shankar,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,8.5
-1254080,WP Saha,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,8.0
-1254080,JM Bairstow,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,9.5
-1254080,Abhishek Sharma,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,8.0
-1254080,P Garg,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,8.0
-1254080,DA Warner,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,10.5
-1254080,MM Ali,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Chennai Super Kings,Sunrisers Hyderabad,8.0
-1254080,S Kaul,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,8.5
-1254080,Sandeep Sharma,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,8.0
-1254080,A Samad,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,8.0
-1254080,KM Jadhav,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,9.0
-1254080,S Nadeem,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,8.0
-1254080,Jason Roy,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,9.0
-1254080,J Suchith,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,9.0
-1254080,Virat Singh,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,9.0
-1254080,MR Marsh,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Sunrisers Hyderabad,Chennai Super Kings,
+1254080,DA Warner,61.0,57.0,57.0,2.0,3.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,,,,,,,,,,Batsmen,61.0,4.0,3.0,8.0,76.0,,0.0,,0.0,,76.0,,,
+1254080,F du Plessis,56.0,38.0,38.0,1.0,6.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,,,,,,,,,,Batsmen,56.0,2.0,6.0,8.0,72.0,,0.0,,0.0,,72.0,,,
+1254080,JM Bairstow,8.0,6.0,6.0,,1.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,,,,,,,,,,Batsmen,8.0,,1.0,0.0,9.0,,0.0,,0.0,,9.0,,,
+1254080,KM Jadhav,12.0,4.0,4.0,1.0,1.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,,,,,,,,,,Batsmen,12.0,2.0,1.0,0.0,15.0,,0.0,,0.0,,15.0,,,
+1254080,KS Williamson,26.0,10.0,10.0,1.0,4.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,,,,,,,,,,Batsmen,26.0,2.0,4.0,0.0,32.0,,0.0,,0.0,,32.0,,,
+1254080,MK Pandey,64.0,49.0,46.0,1.0,5.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,,,,,,,,,,Batsmen,64.0,2.0,5.0,8.0,79.0,,0.0,,0.0,,79.0,,,
+1254080,MM Ali,16.0,9.0,9.0,,3.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,,12.0,12.0,17.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,8.5,AllRounder,16.0,,3.0,0.0,19.0,,0.0,0.0,0.0,0.0,19.0,,,
+1254080,R Gaikwad,76.0,45.0,45.0,,12.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,,,,,,,,,,Batsmen,76.0,,12.0,8.0,96.0,,0.0,,0.0,,96.0,,,
+1254080,RA Jadeja,8.0,7.0,6.0,,1.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,,19.0,18.0,23.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,7.666666666666667,Bowler,8.0,,1.0,0.0,9.0,,0.0,0.0,0.0,0.0,9.0,,,
+1254080,Suresh Raina,17.0,15.0,15.0,,3.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,,,,,,,,,,Batsmen,17.0,,3.0,0.0,20.0,,0.0,,0.0,,20.0,,,
+1254080,DL Chahar,,,,,,,,,,,19.0,18.0,21.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,7.0,Bowler,,,,0.0,,,0.0,0.0,0.0,0.0,0.0,,,
+1254080,J Suchith,,,,,,,,,,,18.0,18.0,45.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,15.0,Bowler,,,,0.0,,,-6.0,0.0,0.0,-6.0,-6.0,,,
+1254080,KK Ahmed,,,,,,,,,,,25.0,24.0,36.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,9.0,Bowler,,,,0.0,,,-2.0,0.0,0.0,-2.0,-2.0,,,
+1254080,L Ngidi,,,,,,,,,,2.0,26.0,25.0,35.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,8.4,Bowler,,,,0.0,,50.0,0.0,0.0,0.0,50.0,50.0,,,
+1254080,Rashid Khan,,,,,,,,,,3.0,25.0,25.0,36.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,8.64,Bowler,,,,0.0,,75.0,0.0,0.0,0.0,75.0,75.0,,,
+1254080,S Kaul,,,,,,,,,,,24.0,24.0,32.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,8.0,Bowler,,,,0.0,,,0.0,0.0,0.0,0.0,0.0,,,
+1254080,SM Curran,,,,,,,,,,1.0,25.0,24.0,31.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,7.75,Bowler,,,,0.0,,25.0,0.0,0.0,0.0,25.0,25.0,,,
+1254080,SN Thakur,,,,,,,,,,,25.0,24.0,44.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,11.0,Bowler,,,,0.0,,,-6.0,0.0,0.0,-6.0,-6.0,,,
+1254080,Sandeep Sharma,,,,,,,,,,,22.0,21.0,24.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,6.857142857142857,Bowler,,,,0.0,,,0.0,0.0,0.0,0.0,0.0,,,
+1254081,IS Sodhi,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,10.0
+1254081,JD Unadkat,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,8.5
+1254081,K Gowtham,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,10.0
+1254081,MK Lomror,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,10.0
+1254081,O Thomas,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,8.0
+1254081,R Parag,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,8.0
+1254081,S Gopal,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,8.5
+1254081,STR Binny,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,10.0
+1254081,SV Samson,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,9.5
+1254081,VR Aaron,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,8.0
+1254081,RV Uthappa,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,9.0
+1254081,DA Miller,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,8.5
+1254081,M Vohra,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,8.0
+1254081,R Tewatia,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,8.5
+1254081,PP Chawla,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,8.5
+1254081,AS Rajpoot,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,8.0
+1254081,JC Buttler,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,9.5
+1254081,K Tyagi,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,8.0
+1254081,KC Cariappa,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,8.0
+1254081,M Markande,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,8.0
+1254081,CH Morris,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,9.5
+1254081,Yashasvi Jaiswal,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,8.0
+1254081,S Dube,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,8.0
+1254081,RG Sharma,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,10.0
+1254081,Q de Kock,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,10.0
+1254081,SA Yadav,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,9.0
+1254081,SS Tiwary,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,8.0
+1254081,HH Pandya,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,8.5
+1254081,KA Pollard,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,9.0
+1254081,KH Pandya,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,8.0
+1254081,James Pattinson,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,8.5
+1254081,RD Chahar,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,8.5
+1254081,TA Boult,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,9.0
+1254081,JJ Bumrah,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,9.0
+1254081,Ishan Kishan,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,8.5
+1254081,NM Coulter-Nile,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,8.5
+1254081,M Jansen,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,8.5
+1254081,DS Kulkarni,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,9.0
+1254081,CA Lynn,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,9.0
+1254081,A Milne,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,9.0
+1254081,JDS Neesham,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,9.0
+1254081,AP Tare,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,9.0
+1254081,J Yadav,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Mumbai Indians,Rajasthan Royals,9.0
+1254081,M Rahman,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,9.0
+1254081,C Sakariya,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Mumbai Indians,9.0

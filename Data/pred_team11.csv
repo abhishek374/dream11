@@ -1,23 +1,46 @@
 playername,teamname,playingrole,playercost,model1_points,model1_team,model2_points,model2_team
-JM Bairstow,Sunrisers Hyderabad,Batsmen,9.5,46.0,1.0,40.0,1.0
-RA Jadeja,Chennai Super Kings,AllRounder,8.5,41.0,1.0,40.0,1.0
-MM Ali,Chennai Super Kings,AllRounder,8.0,40.0,1.0,34.0,1.0
-SM Curran,Chennai Super Kings,AllRounder,8.5,39.0,1.0,40.0,1.0
-L Ngidi,Chennai Super Kings,Bowler,8.5,36.0,1.0,31.0,1.0
-V Shankar,Sunrisers Hyderabad,AllRounder,8.5,36.0,1.0,29.0,
-F du Plessis,Chennai Super Kings,Batsmen,9.0,35.0,1.0,32.0,1.0
-AT Rayudu,Chennai Super Kings,Batsmen,9.0,35.0,1.0,30.0,
-KS Williamson,Sunrisers Hyderabad,Batsmen,9.5,34.0,1.0,30.0,
-DL Chahar,Chennai Super Kings,Bowler,8.5,31.0,1.0,28.0,
-Rashid Khan,Sunrisers Hyderabad,Bowler,9.5,31.0,1.0,29.0,1.0
-DJ Bravo,Chennai Super Kings,AllRounder,10.0,35.0,,41.0,1.0
-KM Jadhav,Sunrisers Hyderabad,AllRounder,9.0,34.0,,31.0,
-DA Warner,Sunrisers Hyderabad,Batsmen,10.5,34.0,,33.0,1.0
-MS Dhoni,Chennai Super Kings,Batsmen,9.5,31.0,,30.0,
-KM Jadhav,Chennai Super Kings,Batsmen,8.5,31.0,,30.0,
-Imran Tahir,Chennai Super Kings,Bowler,9.5,29.0,,30.0,1.0
-J Suchith,Sunrisers Hyderabad,Bowler,9.0,29.0,,20.0,
-KK Ahmed,Sunrisers Hyderabad,Bowler,8.0,28.0,,26.0,
-Abhishek Sharma,Sunrisers Hyderabad,Batsmen,8.0,28.0,,29.0,1.0
-S Kaul,Sunrisers Hyderabad,Bowler,8.5,28.0,,27.0,
-SN Thakur,Chennai Super Kings,Bowler,8.5,27.0,,25.0,
+CH Morris,Rajasthan Royals,AllRounder,9.5,44.0,1.0,43.0,1.0
+CA Lynn,Mumbai Indians,Batsmen,9.0,41.0,1.0,31.0,
+R Tewatia,Rajasthan Royals,AllRounder,8.5,38.0,1.0,34.0,1.0
+S Dube,Rajasthan Royals,AllRounder,8.0,37.0,1.0,29.0,
+RG Sharma,Mumbai Indians,Batsmen,10.0,36.0,1.0,31.0,
+SV Samson,Rajasthan Royals,Batsmen,9.5,35.0,1.0,35.0,1.0
+R Parag,Rajasthan Royals,AllRounder,8.0,35.0,1.0,24.0,
+SA Yadav,Mumbai Indians,Batsmen,9.0,35.0,1.0,29.0,
+RD Chahar,Mumbai Indians,Bowler,8.5,31.0,1.0,22.0,
+IS Sodhi,Rajasthan Royals,Bowler,10.0,30.0,1.0,24.0,
+K Gowtham,Rajasthan Royals,Bowler,10.0,29.0,1.0,20.0,
+KA Pollard,Mumbai Indians,AllRounder,9.0,35.0,,37.0,1.0
+KH Pandya,Mumbai Indians,AllRounder,8.0,35.0,,40.0,1.0
+MK Lomror,Rajasthan Royals,AllRounder,10.0,34.0,,21.0,
+SS Tiwary,Mumbai Indians,Batsmen,8.0,34.0,,28.0,
+Q de Kock,Mumbai Indians,Batsmen,10.0,34.0,,30.0,
+HH Pandya,Mumbai Indians,AllRounder,8.5,34.0,,30.0,
+Ishan Kishan,Mumbai Indians,Batsmen,8.5,34.0,,30.0,
+DA Miller,Rajasthan Royals,Batsmen,8.5,33.0,,30.0,
+JC Buttler,Rajasthan Royals,Batsmen,9.5,33.0,,30.0,
+RV Uthappa,Rajasthan Royals,Batsmen,9.0,33.0,,32.0,1.0
+TA Boult,Mumbai Indians,Batsmen,9.0,31.0,,32.0,1.0
+JJ Bumrah,Mumbai Indians,Batsmen,9.0,30.0,,32.0,1.0
+M Vohra,Rajasthan Royals,Batsmen,8.0,30.0,,28.0,
+JD Unadkat,Rajasthan Royals,Bowler,8.5,28.0,,30.0,1.0
+K Tyagi,Rajasthan Royals,Bowler,8.0,28.0,,26.0,
+James Pattinson,Mumbai Indians,Batsmen,8.5,28.0,,22.0,
+NM Coulter-Nile,Mumbai Indians,Bowler,8.5,28.0,,,
+M Jansen,Mumbai Indians,Bowler,8.5,28.0,,,
+A Milne,Mumbai Indians,Bowler,9.0,28.0,,,
+AP Tare,Mumbai Indians,Batsmen,9.0,28.0,,20.0,
+PP Chawla,Mumbai Indians,Bowler,8.5,27.0,,33.0,1.0
+KC Cariappa,Rajasthan Royals,Bowler,8.0,27.0,,22.0,
+DS Kulkarni,Mumbai Indians,Bowler,9.0,27.0,,22.0,
+M Rahman,Rajasthan Royals,Bowler,9.0,27.0,,,
+C Sakariya,Rajasthan Royals,Bowler,9.0,27.0,,,
+O Thomas,Rajasthan Royals,Bowler,8.0,27.0,,26.0,1.0
+JDS Neesham,Mumbai Indians,Bowler,9.0,26.0,,25.0,
+STR Binny,Rajasthan Royals,AllRounder,10.0,26.0,,24.0,
+Yashasvi Jaiswal,Rajasthan Royals,Batsmen,8.0,26.0,,27.0,
+J Yadav,Mumbai Indians,Bowler,9.0,26.0,,18.0,
+S Gopal,Rajasthan Royals,Bowler,8.5,26.0,,26.0,
+VR Aaron,Rajasthan Royals,Bowler,8.0,26.0,,23.0,
+AS Rajpoot,Rajasthan Royals,Bowler,8.0,25.0,,21.0,
+M Markande,Rajasthan Royals,Bowler,8.0,24.0,,20.0,

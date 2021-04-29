@@ -17122,7 +17122,7 @@ matchid,playername,total_runs,total_balls_faced,total_legal_balls_faced,run_6,ru
 1254059,AS Raut,7.0,9.0,9.0,,1.0,0.0,1st innings,Chennai Super Kings,Delhi Capitals,,,,,,,,,,Batsmen,7.0,,1.0,0,8.0,,0,,0,,8.0
 1254059,AT Rayudu,28.0,16.0,16.0,1.0,2.0,0.0,1st innings,Chennai Super Kings,Delhi Capitals,,,,,,,,,,Batsmen,28.0,2.0,2.0,0,32.0,,0,,0,,32.0
 1254059,F du Plessis,0.0,3.0,3.0,,,0.0,1st innings,Chennai Super Kings,Delhi Capitals,,,,,,,,,,Batsmen,0.0,,,-2,-2.0,,0,,0,,-2.0
-1254059,MM Ali,36.0,24.0,24.0,2.0,4.0,0.0,1st innings,Chennai Super Kings,Delhi Capitals,,19.0,19.0,33.0,0.0,2nd innings,Delhi Capitals,Chennai Super Kings,10.421052631578947,AllRounder,36.0,4.0,4.0,0,44.0,,-4,0.0,0,-4.0,40.0
+1254059,MM Ali,36.0,24.0,24.0,2.0,4.0,0.0,1st innings,Chennai Super Kings,Delhi Capitals,,19.0,19.0,33.0,0.0,2nd innings,Delhi Capitals,Chennai Super Kings,10.421052631578949,AllRounder,36.0,4.0,4.0,0,44.0,,-4,0.0,0,-4.0,40.0
 1254059,MP Stoinis,15.0,10.0,9.0,,3.0,0.0,2nd innings,Delhi Capitals,Chennai Super Kings,,13.0,12.0,31.0,0.0,1st innings,Chennai Super Kings,Delhi Capitals,15.5,Bowler,15.0,,3.0,0,18.0,,-6,0.0,0,-6.0,12.0
 1254059,MS Dhoni,0.0,2.0,2.0,,,0.0,1st innings,Chennai Super Kings,Delhi Capitals,,,,,,,,,,Batsmen,0.0,,,-2,-2.0,,0,,0,,-2.0
 1254059,PP Shaw,72.0,38.0,38.0,3.0,9.0,0.0,2nd innings,Delhi Capitals,Chennai Super Kings,,,,,,,,,,Batsmen,72.0,6.0,9.0,8,95.0,,0,,0,,95.0
@@ -17451,7 +17451,7 @@ matchid,playername,total_runs,total_balls_faced,total_legal_balls_faced,run_6,ru
 1254059,DJ Bravo,,,,,,,,,,1.0,25.0,24.0,28.0,0.0,2nd innings,Delhi Capitals,Chennai Super Kings,7.0,Bowler,,,,0,,25.0,0,0.0,0,25.0,25.0
 1254059,DL Chahar,,,,,,,,,,,24.0,24.0,36.0,0.0,2nd innings,Delhi Capitals,Chennai Super Kings,9.0,Bowler,,,,0,,,-2,0.0,0,-2.0,-2.0
 1254059,R Ashwin,,,,,,,,,,1.0,24.0,24.0,48.0,0.0,1st innings,Chennai Super Kings,Delhi Capitals,12.0,Bowler,,,,0,,25.0,-6,0.0,0,19.0,19.0
-1254059,SN Thakur,,,,,,,,,,2.0,24.0,22.0,53.0,0.0,2nd innings,Delhi Capitals,Chennai Super Kings,14.454545454545455,Bowler,,,,0,,50.0,-6,0.0,0,44.0,44.0
+1254059,SN Thakur,,,,,,,,,,2.0,24.0,22.0,53.0,0.0,2nd innings,Delhi Capitals,Chennai Super Kings,14.454545454545457,Bowler,,,,0,,50.0,-6,0.0,0,44.0,44.0
 1254059,TK Curran,,,,,,,,,,1.0,25.0,24.0,40.0,0.0,1st innings,Chennai Super Kings,Delhi Capitals,10.0,AllRounder,,,,0,,25.0,-4,0.0,0,21.0,21.0
 1254060,Harbhajan Singh,,,,,,,,,,,6.0,6.0,8.0,0.0,2nd innings,Sunrisers Hyderabad,Kolkata Knight Riders,8.0,Bowler,,,,0,,,0,0.0,0,0.0,0.0
 1254060,M Prasidh Krishna,,,,,,,,,,2.0,28.0,25.0,35.0,0.0,2nd innings,Sunrisers Hyderabad,Kolkata Knight Riders,8.4,Bowler,,,,0,,50.0,0,0.0,0,50.0,50.0
@@ -17568,3 +17568,22 @@ matchid,playername,total_runs,total_balls_faced,total_legal_balls_faced,run_6,ru
 1254079,Kyle Jamieson,,,,,,,,,,1.0,24.0,24.0,32.0,0.0,2nd innings,Delhi Capitals,Royal Challengers Bangalore,8.0,Bowler,,,,0,,25.0,0,0.0,0,25.0,25.0
 1254079,M Siraj,,,,,,,,,,1.0,24.0,24.0,48.0,0.0,2nd innings,Delhi Capitals,Royal Challengers Bangalore,12.0,Bowler,,,,0,,25.0,-6,0.0,0,19.0,19.0
 1254079,YS Chahal,,,,,,,,,,,12.0,12.0,10.0,0.0,2nd innings,Delhi Capitals,Royal Challengers Bangalore,5.0,Bowler,,,,0,,,4,0.0,0,4.0,4.0
+1254080,DA Warner,61.0,57.0,57.0,2.0,3.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,,,,,,,,,,Batsmen,61.0,4.0,3.0,8,76.0,,0,,0,,76.0
+1254080,F du Plessis,56.0,38.0,38.0,1.0,6.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,,,,,,,,,,Batsmen,56.0,2.0,6.0,8,72.0,,0,,0,,72.0
+1254080,JM Bairstow,8.0,6.0,6.0,,1.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,,,,,,,,,,Batsmen,8.0,,1.0,0,9.0,,0,,0,,9.0
+1254080,KM Jadhav,12.0,4.0,4.0,1.0,1.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,,,,,,,,,,Batsmen,12.0,2.0,1.0,0,15.0,,0,,0,,15.0
+1254080,KS Williamson,26.0,10.0,10.0,1.0,4.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,,,,,,,,,,Batsmen,26.0,2.0,4.0,0,32.0,,0,,0,,32.0
+1254080,MK Pandey,64.0,49.0,46.0,1.0,5.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,,,,,,,,,,Batsmen,64.0,2.0,5.0,8,79.0,,0,,0,,79.0
+1254080,MM Ali,16.0,9.0,9.0,,3.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,,12.0,12.0,17.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,8.5,AllRounder,16.0,,3.0,0,19.0,,0,0.0,0,0.0,19.0
+1254080,R Gaikwad,76.0,45.0,45.0,,12.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,,,,,,,,,,Batsmen,76.0,,12.0,8,96.0,,0,,0,,96.0
+1254080,RA Jadeja,8.0,7.0,6.0,,1.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,,19.0,18.0,23.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,7.666666666666667,Bowler,8.0,,1.0,0,9.0,,0,0.0,0,0.0,9.0
+1254080,Suresh Raina,17.0,15.0,15.0,,3.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,,,,,,,,,,Batsmen,17.0,,3.0,0,20.0,,0,,0,,20.0
+1254080,DL Chahar,,,,,,,,,,,19.0,18.0,21.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,7.0,Bowler,,,,0,,,0,0.0,0,0.0,0.0
+1254080,J Suchith,,,,,,,,,,,18.0,18.0,45.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,15.0,Bowler,,,,0,,,-6,0.0,0,-6.0,-6.0
+1254080,KK Ahmed,,,,,,,,,,,25.0,24.0,36.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,9.0,Bowler,,,,0,,,-2,0.0,0,-2.0,-2.0
+1254080,L Ngidi,,,,,,,,,,2.0,26.0,25.0,35.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,8.4,Bowler,,,,0,,50.0,0,0.0,0,50.0,50.0
+1254080,Rashid Khan,,,,,,,,,,3.0,25.0,25.0,36.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,8.64,Bowler,,,,0,,75.0,0,0.0,0,75.0,75.0
+1254080,S Kaul,,,,,,,,,,,24.0,24.0,32.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,8.0,Bowler,,,,0,,,0,0.0,0,0.0,0.0
+1254080,SM Curran,,,,,,,,,,1.0,25.0,24.0,31.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,7.75,Bowler,,,,0,,25.0,0,0.0,0,25.0,25.0
+1254080,SN Thakur,,,,,,,,,,,25.0,24.0,44.0,0.0,1st innings,Sunrisers Hyderabad,Chennai Super Kings,11.0,Bowler,,,,0,,,-6,0.0,0,-6.0,-6.0
+1254080,Sandeep Sharma,,,,,,,,,,,22.0,21.0,24.0,0.0,2nd innings,Chennai Super Kings,Sunrisers Hyderabad,6.857142857142857,Bowler,,,,0,,,0,0.0,0,0.0,0.0
