@@ -193,7 +193,6 @@ def update_ipl21_master():
         else:
             print('data already downloaded')
 
-
     matchdata_full.to_csv(directory+'/matchdata.csv', index = False)
     ipl21_matchdata = pd.read_csv(directory+'/matchdata.csv')
 
