@@ -143,7 +143,7 @@ if __name__ == "__main__":
     # Change the below to true if the squad file is ready at predfeaturepath to run prediction for the team
     SELECT_CURRENT_TEAM = True
     # Change this to True if the current playing XI is available
-    SELECT_FROM_PLAYING_XI = True
+    SELECT_FROM_PLAYING_XI = False
     # Change this to true to send email if the file fo next match is present at nextmatchteampath
     SEND_EMAIL = False
     sender_email = "" # update the required email id
