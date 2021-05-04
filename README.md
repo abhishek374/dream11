@@ -19,7 +19,7 @@ Data/pred_team11.csv - result file with the best XI from the playing for the mat
 ## Code Descriptions
 controller.py -  controller code used to define configs and execute the whole code
 
-main.py - Temp filw with helpfer functions to call other modules, will be merged with other classes within an execute function
+main.py - Temp file with helpfer functions to call other modules, will be merged with other classes within an execute function
 
 data_prep.py - ScoreCard- Used to summarize tha ball by ball data into match level scorecard and also define the playing role for each player
 	       Dream11Points - Points calculated as per dream 11 rules: ipl_scorecard_points.csv
