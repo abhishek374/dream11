@@ -1,0 +1,184 @@
+ipl_season,sequence,eventid,innings,target,remainingballs,homescore,awayscore,fallofwickets,ball,over,scorevalue,validball,extras,dismissal,dismissaltype,batsmanid,batsman,batsmanteam,bowlerid,bowler,bowlerteam,otherathleteinvolvedid,otherathleteinvolved,nonstrikerid,nonstriker,runs,runrate
+ipl20,100001,1254087,1st innings,0,119,1/0,0,0,1,0.1,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,1,6.0
+ipl20,100002,1254087,1st innings,0,118,1/0,0,0,2,0.2,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,253802,Virat Kohli,0,3.0
+ipl20,100003,1254087,1st innings,0,117,1/0,0,0,3,0.3,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,253802,Virat Kohli,0,2.0
+ipl20,100004,1254087,1st innings,0,116,1/0,0,0,4,0.4,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,253802,Virat Kohli,0,1.5
+ipl20,100005,1254087,1st innings,0,115,4/0,0,0,5,0.5,3,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,253802,Virat Kohli,3,4.8
+ipl20,100006,1254087,1st innings,0,114,4/0,0,0,6,0.6,0,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,0,4.0
+ipl20,100101,1254087,1st innings,0,113,4/0,0,0,7,1.1,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,253802,Virat Kohli,0,3.42
+ipl20,100102,1254087,1st innings,0,112,5/0,0,0,8,1.2,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,253802,Virat Kohli,1,3.75
+ipl20,100103,1254087,1st innings,0,112,6/0,0,0,8,1.2,1,1,1,False,,253802,Virat Kohli,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,1,4.5
+ipl20,100104,1254087,1st innings,0,111,10/0,0,0,9,1.3,4,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,4,6.66
+ipl20,100105,1254087,1st innings,0,110,10/1,0,1,10,1.4,0,0,0,True,leg before wicket,253802,Virat Kohli,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,253802,Virat Kohli,1119026,Devdutt Padikkal,0,6.0
+ipl20,100106,1254087,1st innings,0,109,10/1,0,0,11,1.5,0,0,0,False,,529436,Srikar Bharat,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,0,5.45
+ipl20,100107,1254087,1st innings,0,108,12/1,0,0,12,1.6,2,0,0,False,,529436,Srikar Bharat,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,2,6.0
+ipl20,100201,1254087,1st innings,0,107,13/1,0,0,13,2.1,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,529436,Srikar Bharat,1,6.0
+ipl20,100202,1254087,1st innings,0,106,14/1,0,0,14,2.2,1,0,0,False,,529436,Srikar Bharat,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,1,6.0
+ipl20,100203,1254087,1st innings,0,105,18/1,0,0,15,2.3,4,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,529436,Srikar Bharat,4,7.2
+ipl20,100204,1254087,1st innings,0,104,19/1,0,0,16,2.4,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,529436,Srikar Bharat,1,7.12
+ipl20,100205,1254087,1st innings,0,103,19/1,0,0,17,2.5,0,0,0,False,,529436,Srikar Bharat,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,0,6.7
+ipl20,100206,1254087,1st innings,0,102,20/1,0,0,18,2.6,1,0,0,False,,529436,Srikar Bharat,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,1,6.66
+ipl20,100301,1254087,1st innings,0,101,20/1,0,0,19,3.1,0,0,0,False,,529436,Srikar Bharat,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,0,6.31
+ipl20,100302,1254087,1st innings,0,100,20/1,0,0,20,3.2,0,0,0,False,,529436,Srikar Bharat,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,0,6.0
+ipl20,100303,1254087,1st innings,0,99,20/1,0,0,21,3.3,0,0,0,False,,529436,Srikar Bharat,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,0,5.71
+ipl20,100304,1254087,1st innings,0,99,21/1,0,0,21,3.3,1,1,1,False,,529436,Srikar Bharat,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,1,6.0
+ipl20,100305,1254087,1st innings,0,99,23/1,0,0,21,3.3,2,1,1,False,,529436,Srikar Bharat,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,2,6.57
+ipl20,100306,1254087,1st innings,0,98,27/1,0,0,22,3.4,4,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,529436,Srikar Bharat,4,7.36
+ipl20,100307,1254087,1st innings,0,97,27/1,0,0,23,3.5,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,529436,Srikar Bharat,0,7.04
+ipl20,100308,1254087,1st innings,0,96,28/1,0,0,24,3.6,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,529436,Srikar Bharat,1,7.0
+ipl20,100401,1254087,1st innings,0,95,28/1,0,0,25,4.1,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,529436,Srikar Bharat,0,6.72
+ipl20,100402,1254087,1st innings,0,94,29/1,0,0,26,4.2,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,529436,Srikar Bharat,1,6.69
+ipl20,100403,1254087,1st innings,0,93,30/1,0,0,27,4.3,1,0,0,False,,529436,Srikar Bharat,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,1,6.66
+ipl20,100404,1254087,1st innings,0,92,30/1,0,0,28,4.4,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,529436,Srikar Bharat,0,6.42
+ipl20,100405,1254087,1st innings,0,91,31/1,0,0,29,4.5,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,529436,Srikar Bharat,1,6.41
+ipl20,100406,1254087,1st innings,0,90,35/1,0,0,30,4.6,4,0,0,False,,529436,Srikar Bharat,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,4,7.0
+ipl20,100501,1254087,1st innings,0,89,39/1,0,0,31,5.1,4,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,529436,Srikar Bharat,4,7.54
+ipl20,100502,1254087,1st innings,0,88,40/1,0,0,32,5.2,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,529436,Srikar Bharat,1,7.5
+ipl20,100503,1254087,1st innings,0,87,40/1,0,0,33,5.3,0,0,0,False,,529436,Srikar Bharat,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,0,7.27
+ipl20,100504,1254087,1st innings,0,86,41/1,0,0,34,5.4,1,0,0,False,,529436,Srikar Bharat,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,1119026,Devdutt Padikkal,1,7.23
+ipl20,100505,1254087,1st innings,0,85,41/1,0,0,35,5.5,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,529436,Srikar Bharat,0,7.02
+ipl20,100506,1254087,1st innings,0,84,41/2,0,2,36,5.6,0,0,0,True,caught,1119026,Devdutt Padikkal,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,1119026,Devdutt Padikkal,529436,Srikar Bharat,0,6.83
+ipl20,100601,1254087,1st innings,0,83,42/2,0,0,37,6.1,1,0,0,False,,529436,Srikar Bharat,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,,,325026,Glenn Maxwell,1,6.81
+ipl20,100602,1254087,1st innings,0,82,43/2,0,0,38,6.2,1,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,,,529436,Srikar Bharat,1,6.78
+ipl20,100603,1254087,1st innings,0,81,44/2,0,0,39,6.3,1,0,0,False,,529436,Srikar Bharat,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,,,325026,Glenn Maxwell,1,6.76
+ipl20,100604,1254087,1st innings,0,80,44/2,0,0,40,6.4,0,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,,,529436,Srikar Bharat,0,6.6
+ipl20,100605,1254087,1st innings,0,79,45/2,0,0,41,6.5,1,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,,,529436,Srikar Bharat,1,6.58
+ipl20,100606,1254087,1st innings,0,78,47/2,0,0,42,6.6,2,0,0,False,,529436,Srikar Bharat,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,,,325026,Glenn Maxwell,2,6.71
+ipl20,100701,1254087,1st innings,0,77,47/2,0,0,43,7.1,0,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,529436,Srikar Bharat,0,6.55
+ipl20,100702,1254087,1st innings,0,76,49/2,0,0,44,7.2,2,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,529436,Srikar Bharat,2,6.68
+ipl20,100703,1254087,1st innings,0,75,50/2,0,0,45,7.3,1,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,529436,Srikar Bharat,1,6.66
+ipl20,100704,1254087,1st innings,0,74,51/2,0,0,46,7.4,1,0,0,False,,529436,Srikar Bharat,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,325026,Glenn Maxwell,1,6.65
+ipl20,100705,1254087,1st innings,0,73,51/2,0,0,47,7.5,0,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,529436,Srikar Bharat,0,6.51
+ipl20,100706,1254087,1st innings,0,72,51/2,0,0,48,7.6,0,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,529436,Srikar Bharat,0,6.37
+ipl20,100801,1254087,1st innings,0,71,51/3,0,3,49,8.1,0,0,0,True,caught,529436,Srikar Bharat,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,276298,Andre Russell,325026,Glenn Maxwell,0,6.24
+ipl20,100802,1254087,1st innings,0,70,51/3,0,0,50,8.2,0,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,,,44936,AB de Villiers,0,6.12
+ipl20,100803,1254087,1st innings,0,69,52/3,0,0,51,8.3,1,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,,,44936,AB de Villiers,1,6.11
+ipl20,100804,1254087,1st innings,0,68,52/4,0,4,52,8.4,0,0,0,True,bowled,44936,AB de Villiers,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,44936,AB de Villiers,325026,Glenn Maxwell,0,6.0
+ipl20,100805,1254087,1st innings,0,67,52/4,0,0,53,8.5,0,0,0,False,,432783,Sachin Baby,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,,,325026,Glenn Maxwell,0,5.88
+ipl20,100806,1254087,1st innings,0,66,52/4,0,0,54,8.6,0,0,0,False,,432783,Sachin Baby,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,,,325026,Glenn Maxwell,0,5.77
+ipl20,100901,1254087,1st innings,0,65,52/4,0,0,55,9.1,0,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,432783,Sachin Baby,0,5.67
+ipl20,100902,1254087,1st innings,0,64,53/4,0,0,56,9.2,1,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,432783,Sachin Baby,1,5.67
+ipl20,100903,1254087,1st innings,0,63,53/4,0,0,57,9.3,0,0,0,False,,432783,Sachin Baby,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,325026,Glenn Maxwell,0,5.57
+ipl20,100904,1254087,1st innings,0,62,53/4,0,0,58,9.4,0,0,0,False,,432783,Sachin Baby,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,325026,Glenn Maxwell,0,5.48
+ipl20,100905,1254087,1st innings,0,61,53/4,0,0,59,9.5,0,0,0,False,,432783,Sachin Baby,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,325026,Glenn Maxwell,0,5.38
+ipl20,100906,1254087,1st innings,0,60,54/4,0,0,60,9.6,1,0,0,False,,432783,Sachin Baby,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,325026,Glenn Maxwell,1,5.4
+ipl20,101001,1254087,1st innings,0,59,54/4,0,0,61,10.1,0,0,0,False,,432783,Sachin Baby,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,325026,Glenn Maxwell,0,5.31
+ipl20,101002,1254087,1st innings,0,58,55/4,0,0,62,10.2,1,0,0,False,,432783,Sachin Baby,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,325026,Glenn Maxwell,1,5.32
+ipl20,101003,1254087,1st innings,0,57,56/4,0,0,63,10.3,1,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,432783,Sachin Baby,1,5.33
+ipl20,101004,1254087,1st innings,0,56,57/4,0,0,64,10.4,1,0,0,False,,432783,Sachin Baby,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,325026,Glenn Maxwell,1,5.34
+ipl20,101005,1254087,1st innings,0,55,58/4,0,0,65,10.5,1,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,432783,Sachin Baby,1,5.35
+ipl20,101006,1254087,1st innings,0,55,60/4,0,0,65,10.5,2,1,1,False,,432783,Sachin Baby,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,325026,Glenn Maxwell,2,5.53
+ipl20,101007,1254087,1st innings,0,54,60/4,0,0,66,10.6,0,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,432783,Sachin Baby,0,5.45
+ipl20,101101,1254087,1st innings,0,53,61/4,0,0,67,11.1,1,0,0,False,,432783,Sachin Baby,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,325026,Glenn Maxwell,1,5.46
+ipl20,101102,1254087,1st innings,0,52,62/4,0,0,68,11.2,1,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,432783,Sachin Baby,1,5.47
+ipl20,101103,1254087,1st innings,0,51,63/4,0,0,69,11.3,1,0,0,False,,432783,Sachin Baby,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,325026,Glenn Maxwell,1,5.47
+ipl20,101104,1254087,1st innings,0,50,63/5,0,5,70,11.4,0,0,0,True,bowled,325026,Glenn Maxwell,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,325026,Glenn Maxwell,432783,Sachin Baby,0,5.4
+ipl20,101105,1254087,1st innings,0,49,63/6,0,6,71,11.5,0,0,0,True,leg before wicket,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,784379,Wanindu Hasaranga de Silva,432783,Sachin Baby,0,5.32
+ipl20,101106,1254087,1st innings,0,48,63/6,0,0,72,11.6,0,0,0,False,,625960,Kyle Jamieson,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,432783,Sachin Baby,0,5.25
+ipl20,101201,1254087,1st innings,0,47,64/6,0,0,73,12.1,1,0,0,False,,432783,Sachin Baby,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,625960,Kyle Jamieson,1,5.26
+ipl20,101202,1254087,1st innings,0,46,64/6,0,0,74,12.2,0,0,0,False,,625960,Kyle Jamieson,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,432783,Sachin Baby,0,5.18
+ipl20,101203,1254087,1st innings,0,45,64/6,0,0,75,12.3,0,0,0,False,,625960,Kyle Jamieson,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,432783,Sachin Baby,0,5.12
+ipl20,101204,1254087,1st innings,0,44,66/6,0,0,76,12.4,2,0,0,False,,625960,Kyle Jamieson,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,432783,Sachin Baby,2,5.21
+ipl20,101205,1254087,1st innings,0,43,66/6,0,0,77,12.5,0,0,0,False,,625960,Kyle Jamieson,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,432783,Sachin Baby,0,5.14
+ipl20,101206,1254087,1st innings,0,42,66/6,0,0,78,12.6,0,0,0,False,,625960,Kyle Jamieson,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,432783,Sachin Baby,0,5.07
+ipl20,101301,1254087,1st innings,0,41,66/6,0,0,79,13.1,0,0,0,False,,432783,Sachin Baby,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,625960,Kyle Jamieson,0,5.01
+ipl20,101302,1254087,1st innings,0,40,66/6,0,0,80,13.2,0,0,0,False,,432783,Sachin Baby,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,625960,Kyle Jamieson,0,4.95
+ipl20,101303,1254087,1st innings,0,39,66/6,0,0,81,13.3,0,0,0,False,,432783,Sachin Baby,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,625960,Kyle Jamieson,0,4.88
+ipl20,101304,1254087,1st innings,0,38,66/7,0,7,82,13.4,0,0,0,True,caught,432783,Sachin Baby,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,432783,Sachin Baby,625960,Kyle Jamieson,0,4.82
+ipl20,101305,1254087,1st innings,0,37,66/7,0,0,83,13.5,0,0,0,False,,390481,Harshal Patel,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,625960,Kyle Jamieson,0,4.77
+ipl20,101306,1254087,1st innings,0,36,68/7,0,0,84,13.6,2,0,0,False,,390481,Harshal Patel,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,625960,Kyle Jamieson,2,4.85
+ipl20,101401,1254087,1st innings,0,35,68/7,0,0,85,14.1,0,0,0,False,,625960,Kyle Jamieson,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,390481,Harshal Patel,0,4.8
+ipl20,101402,1254087,1st innings,0,34,69/7,0,0,86,14.2,1,0,0,False,,625960,Kyle Jamieson,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,390481,Harshal Patel,1,4.81
+ipl20,101403,1254087,1st innings,0,33,73/7,0,0,87,14.3,4,0,0,False,,390481,Harshal Patel,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,625960,Kyle Jamieson,4,5.03
+ipl20,101404,1254087,1st innings,0,32,74/7,0,0,88,14.4,1,0,0,False,,390481,Harshal Patel,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,625960,Kyle Jamieson,1,5.04
+ipl20,101405,1254087,1st innings,0,31,74/7,0,0,89,14.5,0,0,0,False,,625960,Kyle Jamieson,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,390481,Harshal Patel,0,4.98
+ipl20,101406,1254087,1st innings,0,30,75/7,0,0,90,14.6,1,0,1,False,,625960,Kyle Jamieson,Royal Challengers Bangalore,230558,Sunil Narine,Kolkata Knight Riders,,,390481,Harshal Patel,1,5.0
+ipl20,101501,1254087,1st innings,0,29,75/7,0,0,91,15.1,0,0,0,False,,625960,Kyle Jamieson,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,390481,Harshal Patel,0,4.94
+ipl20,101502,1254087,1st innings,0,28,76/7,0,0,92,15.2,1,0,0,False,,625960,Kyle Jamieson,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,390481,Harshal Patel,1,4.95
+ipl20,101503,1254087,1st innings,0,27,76/8,0,8,93,15.3,0,0,0,True,run out,390481,Harshal Patel,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,390481,Harshal Patel,625960,Kyle Jamieson,0,4.9
+ipl20,101504,1254087,1st innings,0,26,76/8,0,0,94,15.4,0,0,0,False,,390481,Harshal Patel,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,940973,Mohammed Siraj,0,4.85
+ipl20,101505,1254087,1st innings,0,25,77/8,0,0,95,15.5,1,0,0,False,,390481,Harshal Patel,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,940973,Mohammed Siraj,1,4.86
+ipl20,101506,1254087,1st innings,0,24,79/8,0,0,96,15.6,2,0,0,False,,940973,Mohammed Siraj,Royal Challengers Bangalore,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,390481,Harshal Patel,2,4.93
+ipl20,101601,1254087,1st innings,0,23,83/8,0,0,97,16.1,4,0,0,False,,390481,Harshal Patel,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,940973,Mohammed Siraj,4,5.13
+ipl20,101602,1254087,1st innings,0,22,83/8,0,0,98,16.2,0,0,0,False,,390481,Harshal Patel,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,940973,Mohammed Siraj,0,5.08
+ipl20,101603,1254087,1st innings,0,21,83/9,0,9,99,16.3,0,0,0,True,bowled,390481,Harshal Patel,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,390481,Harshal Patel,940973,Mohammed Siraj,0,5.03
+ipl20,101604,1254087,1st innings,0,20,83/9,0,0,100,16.4,0,0,0,False,,430246,Yuzvendra Chahal,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,940973,Mohammed Siraj,0,4.98
+ipl20,101605,1254087,1st innings,0,19,83/9,0,0,101,16.5,0,0,0,False,,430246,Yuzvendra Chahal,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,940973,Mohammed Siraj,0,4.93
+ipl20,101606,1254087,1st innings,0,18,83/9,0,0,102,16.6,0,0,0,False,,430246,Yuzvendra Chahal,Royal Challengers Bangalore,493773,Lockie Ferguson,Kolkata Knight Riders,,,940973,Mohammed Siraj,0,4.88
+ipl20,101701,1254087,1st innings,0,17,83/9,0,0,103,17.1,0,0,0,False,,940973,Mohammed Siraj,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,430246,Yuzvendra Chahal,0,4.83
+ipl20,101702,1254087,1st innings,0,16,83/9,0,0,104,17.2,0,0,0,False,,940973,Mohammed Siraj,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,430246,Yuzvendra Chahal,0,4.78
+ipl20,101703,1254087,1st innings,0,15,83/9,0,0,105,17.3,0,0,0,False,,940973,Mohammed Siraj,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,430246,Yuzvendra Chahal,0,4.74
+ipl20,101704,1254087,1st innings,0,14,84/9,0,0,106,17.4,1,0,0,False,,940973,Mohammed Siraj,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,430246,Yuzvendra Chahal,1,4.75
+ipl20,101705,1254087,1st innings,0,13,85/9,0,0,107,17.5,1,0,0,False,,430246,Yuzvendra Chahal,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,940973,Mohammed Siraj,1,4.76
+ipl20,101706,1254087,1st innings,0,12,89/9,0,0,108,17.6,4,0,0,False,,940973,Mohammed Siraj,Royal Challengers Bangalore,917159,Prasidh Krishna,Kolkata Knight Riders,,,430246,Yuzvendra Chahal,4,4.94
+ipl20,101801,1254087,1st innings,0,11,90/9,0,0,109,18.1,1,0,0,False,,430246,Yuzvendra Chahal,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,,,940973,Mohammed Siraj,1,4.95
+ipl20,101802,1254087,1st innings,0,10,90/9,0,0,110,18.2,0,0,0,False,,940973,Mohammed Siraj,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,,,430246,Yuzvendra Chahal,0,4.9
+ipl20,101803,1254087,1st innings,0,9,90/9,0,0,111,18.3,0,0,0,False,,940973,Mohammed Siraj,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,,,430246,Yuzvendra Chahal,0,4.86
+ipl20,101804,1254087,1st innings,0,8,91/9,0,0,112,18.4,1,0,0,False,,940973,Mohammed Siraj,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,,,430246,Yuzvendra Chahal,1,4.87
+ipl20,101805,1254087,1st innings,0,7,92/9,0,0,113,18.5,1,0,1,False,,430246,Yuzvendra Chahal,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,,,940973,Mohammed Siraj,1,4.88
+ipl20,101806,1254087,1st innings,0,6,92/10,0,10,114,18.6,0,0,0,True,caught,940973,Mohammed Siraj,Royal Challengers Bangalore,276298,Andre Russell,Kolkata Knight Riders,276298,Andre Russell,430246,Yuzvendra Chahal,0,4.84
+ipl20,200001,1254087,2nd innings,93,119,0,0/0,0,1,0.1,0,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,940973,Mohammed Siraj,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,0,0.0
+ipl20,200002,1254087,2nd innings,93,118,0,1/0,0,2,0.2,1,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,940973,Mohammed Siraj,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,1,3.0
+ipl20,200003,1254087,2nd innings,93,117,0,1/0,0,3,0.3,0,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,940973,Mohammed Siraj,Royal Challengers Bangalore,,,1070173,Shubman Gill,0,2.0
+ipl20,200004,1254087,2nd innings,93,117,0,2/0,0,3,0.3,1,1,1,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,940973,Mohammed Siraj,Royal Challengers Bangalore,,,1070173,Shubman Gill,1,4.0
+ipl20,200005,1254087,2nd innings,93,116,0,6/0,0,4,0.4,4,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,940973,Mohammed Siraj,Royal Challengers Bangalore,,,1070173,Shubman Gill,4,9.0
+ipl20,200006,1254087,2nd innings,93,115,0,10/0,0,5,0.5,4,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,940973,Mohammed Siraj,Royal Challengers Bangalore,,,1070173,Shubman Gill,4,12.0
+ipl20,200007,1254087,2nd innings,93,114,0,10/0,0,6,0.6,0,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,940973,Mohammed Siraj,Royal Challengers Bangalore,,,1070173,Shubman Gill,0,10.0
+ipl20,200101,1254087,2nd innings,93,113,0,12/0,0,7,1.1,2,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,625960,Kyle Jamieson,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,2,10.28
+ipl20,200102,1254087,2nd innings,93,112,0,16/0,0,8,1.2,4,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,625960,Kyle Jamieson,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,4,12.0
+ipl20,200103,1254087,2nd innings,93,111,0,16/0,0,9,1.3,0,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,625960,Kyle Jamieson,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,0,10.66
+ipl20,200104,1254087,2nd innings,93,110,0,17/0,0,10,1.4,1,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,625960,Kyle Jamieson,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,1,10.2
+ipl20,200105,1254087,2nd innings,93,109,0,18/0,0,11,1.5,1,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,625960,Kyle Jamieson,Royal Challengers Bangalore,,,1070173,Shubman Gill,1,9.81
+ipl20,200106,1254087,2nd innings,93,109,0,19/0,0,11,1.5,1,1,1,False,,1070173,Shubman Gill,Kolkata Knight Riders,625960,Kyle Jamieson,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,1,10.36
+ipl20,200107,1254087,2nd innings,93,109,0,20/0,0,11,1.5,1,1,1,False,,1070173,Shubman Gill,Kolkata Knight Riders,625960,Kyle Jamieson,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,1,10.9
+ipl20,200108,1254087,2nd innings,93,108,0,20/0,0,12,1.6,0,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,625960,Kyle Jamieson,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,0,10.0
+ipl20,200201,1254087,2nd innings,93,107,0,20/0,0,13,2.1,0,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,940973,Mohammed Siraj,Royal Challengers Bangalore,,,1070173,Shubman Gill,0,9.23
+ipl20,200202,1254087,2nd innings,93,106,0,22/0,0,14,2.2,2,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,940973,Mohammed Siraj,Royal Challengers Bangalore,,,1070173,Shubman Gill,2,9.42
+ipl20,200203,1254087,2nd innings,93,105,0,22/0,0,15,2.3,0,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,940973,Mohammed Siraj,Royal Challengers Bangalore,,,1070173,Shubman Gill,0,8.8
+ipl20,200204,1254087,2nd innings,93,104,0,22/0,0,16,2.4,0,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,940973,Mohammed Siraj,Royal Challengers Bangalore,,,1070173,Shubman Gill,0,8.25
+ipl20,200205,1254087,2nd innings,93,103,0,22/0,0,17,2.5,0,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,940973,Mohammed Siraj,Royal Challengers Bangalore,,,1070173,Shubman Gill,0,7.76
+ipl20,200206,1254087,2nd innings,93,102,0,22/0,0,18,2.6,0,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,940973,Mohammed Siraj,Royal Challengers Bangalore,,,1070173,Shubman Gill,0,7.33
+ipl20,200301,1254087,2nd innings,93,101,0,23/0,0,19,3.1,1,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,1,7.26
+ipl20,200302,1254087,2nd innings,93,100,0,24/0,0,20,3.2,1,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,1070173,Shubman Gill,1,7.2
+ipl20,200303,1254087,2nd innings,93,99,0,25/0,0,21,3.3,1,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,1,7.14
+ipl20,200304,1254087,2nd innings,93,98,0,25/0,0,22,3.4,0,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,1070173,Shubman Gill,0,6.81
+ipl20,200305,1254087,2nd innings,93,97,0,29/0,0,23,3.5,4,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,1070173,Shubman Gill,4,7.56
+ipl20,200306,1254087,2nd innings,93,96,0,29/0,0,24,3.6,0,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,1070173,Shubman Gill,0,7.25
+ipl20,200401,1254087,2nd innings,93,95,0,33/0,0,25,4.1,4,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,625960,Kyle Jamieson,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,4,7.92
+ipl20,200402,1254087,2nd innings,93,94,0,33/0,0,26,4.2,0,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,625960,Kyle Jamieson,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,0,7.61
+ipl20,200403,1254087,2nd innings,93,94,0,34/0,0,26,4.2,1,1,1,False,,1070173,Shubman Gill,Kolkata Knight Riders,625960,Kyle Jamieson,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,1,7.84
+ipl20,200404,1254087,2nd innings,93,93,0,34/0,0,27,4.3,0,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,625960,Kyle Jamieson,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,0,7.55
+ipl20,200405,1254087,2nd innings,93,92,0,38/0,0,28,4.4,4,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,625960,Kyle Jamieson,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,4,8.14
+ipl20,200406,1254087,2nd innings,93,91,0,39/0,0,29,4.5,1,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,625960,Kyle Jamieson,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,1,8.06
+ipl20,200407,1254087,2nd innings,93,90,0,45/0,0,30,4.6,6,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,625960,Kyle Jamieson,Royal Challengers Bangalore,,,1070173,Shubman Gill,6,9.0
+ipl20,200501,1254087,2nd innings,93,89,0,45/0,0,31,5.1,0,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,0,8.7
+ipl20,200502,1254087,2nd innings,93,88,0,49/0,0,32,5.2,4,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,4,9.18
+ipl20,200503,1254087,2nd innings,93,87,0,49/0,0,33,5.3,0,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,0,8.9
+ipl20,200504,1254087,2nd innings,93,86,0,53/0,0,34,5.4,4,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,4,9.35
+ipl20,200505,1254087,2nd innings,93,85,0,55/0,0,35,5.5,2,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,2,9.42
+ipl20,200506,1254087,2nd innings,93,84,0,56/0,0,36,5.6,1,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,1,9.33
+ipl20,200601,1254087,2nd innings,93,83,0,57/0,0,37,6.1,1,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,390481,Harshal Patel,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,1,9.24
+ipl20,200602,1254087,2nd innings,93,82,0,58/0,0,38,6.2,1,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,390481,Harshal Patel,Royal Challengers Bangalore,,,1070173,Shubman Gill,1,9.15
+ipl20,200603,1254087,2nd innings,93,82,0,59/0,0,38,6.2,1,1,1,False,,1070173,Shubman Gill,Kolkata Knight Riders,390481,Harshal Patel,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,1,9.31
+ipl20,200604,1254087,2nd innings,93,81,0,60/0,0,39,6.3,1,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,390481,Harshal Patel,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,1,9.23
+ipl20,200605,1254087,2nd innings,93,80,0,61/0,0,40,6.4,1,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,390481,Harshal Patel,Royal Challengers Bangalore,,,1070173,Shubman Gill,1,9.15
+ipl20,200606,1254087,2nd innings,93,79,0,62/0,0,41,6.5,1,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,390481,Harshal Patel,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,1,9.07
+ipl20,200607,1254087,2nd innings,93,78,0,62/0,0,42,6.6,0,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,390481,Harshal Patel,Royal Challengers Bangalore,,,1070173,Shubman Gill,0,8.85
+ipl20,200701,1254087,2nd innings,93,77,0,62/0,0,43,7.1,0,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,0,8.65
+ipl20,200702,1254087,2nd innings,93,76,0,68/0,0,44,7.2,6,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,6,9.27
+ipl20,200703,1254087,2nd innings,93,75,0,70/0,0,45,7.3,2,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,2,9.33
+ipl20,200704,1254087,2nd innings,93,74,0,70/0,0,46,7.4,0,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,0,9.13
+ipl20,200705,1254087,2nd innings,93,73,0,71/0,0,47,7.5,1,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,1,9.06
+ipl20,200706,1254087,2nd innings,93,72,0,75/0,0,48,7.6,4,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,1070173,Shubman Gill,4,9.37
+ipl20,200801,1254087,2nd innings,93,71,0,76/0,0,49,8.1,1,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,390481,Harshal Patel,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,1,9.3
+ipl20,200802,1254087,2nd innings,93,70,0,76/0,0,50,8.2,0,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,390481,Harshal Patel,Royal Challengers Bangalore,,,1070173,Shubman Gill,0,9.12
+ipl20,200803,1254087,2nd innings,93,69,0,77/0,0,51,8.3,1,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,390481,Harshal Patel,Royal Challengers Bangalore,,,1070173,Shubman Gill,1,9.05
+ipl20,200804,1254087,2nd innings,93,68,0,77/0,0,52,8.4,0,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,390481,Harshal Patel,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,0,8.88
+ipl20,200805,1254087,2nd innings,93,67,0,81/0,0,53,8.5,4,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,390481,Harshal Patel,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,4,9.16
+ipl20,200806,1254087,2nd innings,93,66,0,82/0,0,54,8.6,1,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,390481,Harshal Patel,Royal Challengers Bangalore,,,851403,Venkatesh Iyer,1,9.11
+ipl20,200901,1254087,2nd innings,93,65,0,82/1,1,55,9.1,0,0,0,True,caught,1070173,Shubman Gill,Kolkata Knight Riders,430246,Yuzvendra Chahal,Royal Challengers Bangalore,430246,Yuzvendra Chahal,851403,Venkatesh Iyer,0,8.94
+ipl20,200902,1254087,2nd innings,93,64,0,82/1,0,56,9.2,0,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,276298,Andre Russell,0,8.78
+ipl20,200903,1254087,2nd innings,93,63,0,86/1,0,57,9.3,4,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,276298,Andre Russell,4,9.05
+ipl20,200904,1254087,2nd innings,93,62,0,86/1,0,58,9.4,0,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,276298,Andre Russell,0,8.89
+ipl20,200905,1254087,2nd innings,93,61,0,90/1,0,59,9.5,4,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,276298,Andre Russell,4,9.15
+ipl20,200906,1254087,2nd innings,93,60,0,94/1,0,60,9.6,4,0,0,False,,851403,Venkatesh Iyer,Kolkata Knight Riders,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,276298,Andre Russell,4,9.4

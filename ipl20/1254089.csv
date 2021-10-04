@@ -1,0 +1,237 @@
+ipl_season,sequence,eventid,innings,target,remainingballs,homescore,awayscore,fallofwickets,ball,over,scorevalue,validball,extras,dismissal,dismissaltype,batsmanid,batsman,batsmanteam,bowlerid,bowler,bowlerteam,otherathleteinvolvedid,otherathleteinvolved,nonstrikerid,nonstriker,runs,runrate
+ipl20,100001,1254089,1st innings,0,119,4/0,0,0,1,0.1,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,44828,Faf du Plessis,4,24.0
+ipl20,100002,1254089,1st innings,0,118,4/0,0,0,2,0.2,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,44828,Faf du Plessis,0,12.0
+ipl20,100003,1254089,1st innings,0,117,4/0,0,0,3,0.3,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,44828,Faf du Plessis,0,8.0
+ipl20,100004,1254089,1st innings,0,116,4/0,0,0,4,0.4,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,44828,Faf du Plessis,0,6.0
+ipl20,100005,1254089,1st innings,0,115,6/0,0,0,5,0.5,2,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,44828,Faf du Plessis,2,7.2
+ipl20,100006,1254089,1st innings,0,114,10/0,0,0,6,0.6,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,44828,Faf du Plessis,4,10.0
+ipl20,100101,1254089,1st innings,0,113,10/0,0,0,7,1.1,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,0,8.57
+ipl20,100102,1254089,1st innings,0,112,10/0,0,0,8,1.2,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,0,7.5
+ipl20,100103,1254089,1st innings,0,111,11/0,0,0,9,1.3,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,7.33
+ipl20,100104,1254089,1st innings,0,110,11/0,0,0,10,1.4,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,44828,Faf du Plessis,0,6.6
+ipl20,100105,1254089,1st innings,0,109,11/0,0,0,11,1.5,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,44828,Faf du Plessis,0,6.0
+ipl20,100106,1254089,1st innings,0,108,12/0,0,0,12,1.6,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,44828,Faf du Plessis,1,6.0
+ipl20,100201,1254089,1st innings,0,107,13/0,0,0,13,2.1,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,44828,Faf du Plessis,1,6.0
+ipl20,100202,1254089,1st innings,0,106,15/0,0,0,14,2.2,2,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,2,6.42
+ipl20,100203,1254089,1st innings,0,105,16/0,0,0,15,2.3,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,6.4
+ipl20,100204,1254089,1st innings,0,104,16/0,0,0,16,2.4,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,44828,Faf du Plessis,0,6.0
+ipl20,100205,1254089,1st innings,0,103,20/0,0,0,17,2.5,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,44828,Faf du Plessis,4,7.05
+ipl20,100206,1254089,1st innings,0,102,20/0,0,0,18,2.6,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,44828,Faf du Plessis,0,6.66
+ipl20,100301,1254089,1st innings,0,101,21/0,0,0,19,3.1,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,6.63
+ipl20,100302,1254089,1st innings,0,100,22/0,0,0,20,3.2,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,44828,Faf du Plessis,1,6.6
+ipl20,100303,1254089,1st innings,0,99,23/0,0,0,21,3.3,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,6.57
+ipl20,100304,1254089,1st innings,0,98,24/0,0,0,22,3.4,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,44828,Faf du Plessis,1,6.54
+ipl20,100305,1254089,1st innings,0,97,24/0,0,0,23,3.5,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,0,6.26
+ipl20,100306,1254089,1st innings,0,96,25/0,0,0,24,3.6,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,6.25
+ipl20,100401,1254089,1st innings,0,95,29/0,0,0,25,4.1,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,4,6.96
+ipl20,100402,1254089,1st innings,0,94,33/0,0,0,26,4.2,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,4,7.61
+ipl20,100403,1254089,1st innings,0,93,33/0,0,0,27,4.3,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,0,7.33
+ipl20,100404,1254089,1st innings,0,92,33/0,0,0,28,4.4,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,0,7.07
+ipl20,100405,1254089,1st innings,0,91,34/0,0,0,29,4.5,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,7.03
+ipl20,100406,1254089,1st innings,0,90,34/0,0,0,30,4.6,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,44828,Faf du Plessis,0,6.8
+ipl20,100501,1254089,1st innings,0,89,35/0,0,0,31,5.1,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,6.77
+ipl20,100502,1254089,1st innings,0,88,35/0,0,0,32,5.2,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,44828,Faf du Plessis,0,6.56
+ipl20,100503,1254089,1st innings,0,87,36/0,0,0,33,5.3,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,44828,Faf du Plessis,1,6.54
+ipl20,100504,1254089,1st innings,0,86,42/0,0,0,34,5.4,6,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,6,7.41
+ipl20,100505,1254089,1st innings,0,85,43/0,0,0,35,5.5,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,7.37
+ipl20,100506,1254089,1st innings,0,84,44/0,0,0,36,5.6,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,44828,Faf du Plessis,1,7.33
+ipl20,100601,1254089,1st innings,0,83,44/0,0,0,37,6.1,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,44828,Faf du Plessis,0,7.13
+ipl20,100602,1254089,1st innings,0,82,45/0,0,0,38,6.2,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,44828,Faf du Plessis,1,7.1
+ipl20,100603,1254089,1st innings,0,81,46/0,0,0,39,6.3,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,7.07
+ipl20,100604,1254089,1st innings,0,80,47/0,0,0,40,6.4,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,44828,Faf du Plessis,1,7.05
+ipl20,100605,1254089,1st innings,0,79,47/1,0,1,41,6.5,0,0,0,True,stumped,44828,Faf du Plessis,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,44828,Faf du Plessis,1060380,Ruturaj Gaikwad,0,6.87
+ipl20,100606,1254089,1st innings,0,78,48/1,0,0,42,6.6,1,0,0,False,,33335,Suresh Raina,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,6.85
+ipl20,100701,1254089,1st innings,0,77,49/1,0,0,43,7.1,1,0,0,False,,33335,Suresh Raina,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,6.83
+ipl20,100702,1254089,1st innings,0,76,49/1,0,0,44,7.2,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,33335,Suresh Raina,0,6.68
+ipl20,100703,1254089,1st innings,0,75,50/1,0,0,45,7.3,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,33335,Suresh Raina,1,6.66
+ipl20,100704,1254089,1st innings,0,74,50/1,0,0,46,7.4,0,0,0,False,,33335,Suresh Raina,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,0,6.52
+ipl20,100705,1254089,1st innings,0,73,51/1,0,0,47,7.5,1,0,0,False,,33335,Suresh Raina,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,6.51
+ipl20,100706,1254089,1st innings,0,72,52/1,0,0,48,7.6,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,33335,Suresh Raina,1,6.5
+ipl20,100801,1254089,1st innings,0,71,56/1,0,0,49,8.1,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,33335,Suresh Raina,4,6.85
+ipl20,100802,1254089,1st innings,0,70,57/1,0,0,50,8.2,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,33335,Suresh Raina,1,6.84
+ipl20,100803,1254089,1st innings,0,69,57/2,0,2,51,8.3,0,0,0,True,caught,33335,Suresh Raina,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,33335,Suresh Raina,1060380,Ruturaj Gaikwad,0,6.7
+ipl20,100804,1254089,1st innings,0,68,58/2,0,0,52,8.4,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,8917,Moeen Ali,1,6.69
+ipl20,100805,1254089,1st innings,0,67,59/2,0,0,53,8.5,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,6.67
+ipl20,100806,1254089,1st innings,0,66,59/2,0,0,54,8.6,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,8917,Moeen Ali,0,6.55
+ipl20,100901,1254089,1st innings,0,65,59/2,0,0,55,9.1,0,0,0,False,,8917,Moeen Ali,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,0,6.43
+ipl20,100902,1254089,1st innings,0,64,60/2,0,0,56,9.2,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,6.42
+ipl20,100903,1254089,1st innings,0,63,61/2,0,0,57,9.3,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,8917,Moeen Ali,1,6.42
+ipl20,100904,1254089,1st innings,0,62,61/2,0,0,58,9.4,0,0,0,False,,8917,Moeen Ali,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,0,6.31
+ipl20,100905,1254089,1st innings,0,61,62/2,0,0,59,9.5,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,6.3
+ipl20,100906,1254089,1st innings,0,60,63/2,0,0,60,9.6,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,8917,Moeen Ali,1,6.3
+ipl20,101001,1254089,1st innings,0,59,63/2,0,0,61,10.1,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,8917,Moeen Ali,0,6.19
+ipl20,101002,1254089,1st innings,0,58,67/2,0,0,62,10.2,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,8917,Moeen Ali,4,6.48
+ipl20,101003,1254089,1st innings,0,57,68/2,0,0,63,10.3,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,8917,Moeen Ali,1,6.47
+ipl20,101004,1254089,1st innings,0,56,69/2,0,0,64,10.4,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,6.46
+ipl20,101005,1254089,1st innings,0,55,70/2,0,0,65,10.5,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,8917,Moeen Ali,1,6.46
+ipl20,101006,1254089,1st innings,0,54,71/2,0,0,66,10.6,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,6.45
+ipl20,101101,1254089,1st innings,0,53,72/2,0,0,67,11.1,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,6.44
+ipl20,101102,1254089,1st innings,0,52,74/2,0,0,68,11.2,2,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,8917,Moeen Ali,2,6.52
+ipl20,101103,1254089,1st innings,0,52,75/2,0,0,68,11.2,1,1,1,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,8917,Moeen Ali,1,6.61
+ipl20,101104,1254089,1st innings,0,51,79/2,0,0,69,11.3,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,8917,Moeen Ali,4,6.86
+ipl20,101105,1254089,1st innings,0,50,80/2,0,0,70,11.4,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,8917,Moeen Ali,1,6.85
+ipl20,101106,1254089,1st innings,0,49,81/2,0,0,71,11.5,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,6.84
+ipl20,101107,1254089,1st innings,0,48,83/2,0,0,72,11.6,2,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,8917,Moeen Ali,2,6.91
+ipl20,101201,1254089,1st innings,0,47,87/2,0,0,73,12.1,4,0,0,False,,8917,Moeen Ali,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,4,7.15
+ipl20,101202,1254089,1st innings,0,46,88/2,0,0,74,12.2,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,7.13
+ipl20,101203,1254089,1st innings,0,45,89/2,0,0,75,12.3,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,8917,Moeen Ali,1,7.12
+ipl20,101204,1254089,1st innings,0,44,89/2,0,0,76,12.4,0,0,0,False,,8917,Moeen Ali,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,0,7.02
+ipl20,101205,1254089,1st innings,0,43,91/2,0,0,77,12.5,2,0,0,False,,8917,Moeen Ali,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,2,7.09
+ipl20,101206,1254089,1st innings,0,42,97/2,0,0,78,12.6,6,0,0,False,,8917,Moeen Ali,Chennai Super Kings,1081442,Mayank Markande,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,6,7.46
+ipl20,101301,1254089,1st innings,0,41,98/2,0,0,79,13.1,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,823509,Glenn Phillips,Rajasthan Royals,,,8917,Moeen Ali,1,7.44
+ipl20,101302,1254089,1st innings,0,40,99/2,0,0,80,13.2,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,823509,Glenn Phillips,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,7.42
+ipl20,101303,1254089,1st innings,0,39,99/2,0,0,81,13.3,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,823509,Glenn Phillips,Rajasthan Royals,,,8917,Moeen Ali,0,7.33
+ipl20,101304,1254089,1st innings,0,38,100/2,0,0,82,13.4,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,823509,Glenn Phillips,Rajasthan Royals,,,8917,Moeen Ali,1,7.31
+ipl20,101305,1254089,1st innings,0,37,100/2,0,0,83,13.5,0,0,0,False,,8917,Moeen Ali,Chennai Super Kings,823509,Glenn Phillips,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,0,7.22
+ipl20,101306,1254089,1st innings,0,36,100/2,0,0,84,13.6,0,0,0,False,,8917,Moeen Ali,Chennai Super Kings,823509,Glenn Phillips,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,0,7.14
+ipl20,101401,1254089,1st innings,0,35,106/2,0,0,85,14.1,6,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,8917,Moeen Ali,6,7.48
+ipl20,101402,1254089,1st innings,0,34,112/2,0,0,86,14.2,6,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,8917,Moeen Ali,6,7.81
+ipl20,101403,1254089,1st innings,0,33,113/2,0,0,87,14.3,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,8917,Moeen Ali,1,7.79
+ipl20,101404,1254089,1st innings,0,33,114/3,0,3,87,14.3,1,1,1,True,stumped,8917,Moeen Ali,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,8917,Moeen Ali,1060380,Ruturaj Gaikwad,1,7.86
+ipl20,101405,1254089,1st innings,0,32,114/3,0,0,88,14.4,0,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,0,7.77
+ipl20,101406,1254089,1st innings,0,31,115/3,0,0,89,14.5,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,7.75
+ipl20,101407,1254089,1st innings,0,30,116/3,0,0,90,14.6,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,423838,Rahul Tewatia,Rajasthan Royals,,,33141,Ambati Rayudu,1,7.73
+ipl20,101501,1254089,1st innings,0,29,117/3,0,0,91,15.1,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,33141,Ambati Rayudu,1,7.71
+ipl20,101502,1254089,1st innings,0,28,118/3,0,0,92,15.2,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,7.69
+ipl20,101503,1254089,1st innings,0,27,122/3,0,0,93,15.3,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,33141,Ambati Rayudu,4,7.87
+ipl20,101504,1254089,1st innings,0,26,126/3,0,0,94,15.4,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,33141,Ambati Rayudu,4,8.04
+ipl20,101505,1254089,1st innings,0,25,132/3,0,0,95,15.5,6,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,33141,Ambati Rayudu,6,8.33
+ipl20,101506,1254089,1st innings,0,24,133/3,0,0,96,15.6,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1175458,Akash Singh,Rajasthan Royals,,,33141,Ambati Rayudu,1,8.31
+ipl20,101601,1254089,1st innings,0,23,134/3,0,0,97,16.1,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,33141,Ambati Rayudu,1,8.28
+ipl20,101602,1254089,1st innings,0,22,134/4,0,4,98,16.2,0,0,0,True,caught,33141,Ambati Rayudu,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,1131754,Chetan Sakariya,1060380,Ruturaj Gaikwad,0,8.2
+ipl20,101603,1254089,1st innings,0,21,134/4,0,0,99,16.3,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,0,8.12
+ipl20,101604,1254089,1st innings,0,20,135/4,0,0,100,16.4,1,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,8.1
+ipl20,101605,1254089,1st innings,0,20,136/4,0,0,100,16.4,1,1,1,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,234675,Ravindra Jadeja,1,8.16
+ipl20,101606,1254089,1st innings,0,19,140/4,0,0,101,16.5,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,234675,Ravindra Jadeja,4,8.31
+ipl20,101607,1254089,1st innings,0,18,141/4,0,0,102,16.6,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,234675,Ravindra Jadeja,1,8.29
+ipl20,101701,1254089,1st innings,0,17,147/4,0,0,103,17.1,6,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,234675,Ravindra Jadeja,6,8.56
+ipl20,101702,1254089,1st innings,0,16,148/4,0,0,104,17.2,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,234675,Ravindra Jadeja,1,8.53
+ipl20,101703,1254089,1st innings,0,15,148/4,0,0,105,17.3,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,0,8.45
+ipl20,101704,1254089,1st innings,0,14,150/4,0,0,106,17.4,2,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,2,8.49
+ipl20,101705,1254089,1st innings,0,13,154/4,0,0,107,17.5,4,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,4,8.63
+ipl20,101706,1254089,1st innings,0,12,155/4,0,0,108,17.6,1,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,8.61
+ipl20,101801,1254089,1st innings,0,11,157/4,0,0,109,18.1,2,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,2,8.64
+ipl20,101802,1254089,1st innings,0,11,158/4,0,0,109,18.1,1,1,1,False,,234675,Ravindra Jadeja,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,8.69
+ipl20,101803,1254089,1st innings,0,10,160/4,0,0,110,18.2,2,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,2,8.72
+ipl20,101804,1254089,1st innings,0,9,164/4,0,0,111,18.3,4,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,4,8.86
+ipl20,101805,1254089,1st innings,0,8,164/4,0,0,112,18.4,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,0,8.78
+ipl20,101806,1254089,1st innings,0,7,165/4,0,0,113,18.5,1,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,8.76
+ipl20,101807,1254089,1st innings,0,6,167/4,0,0,114,18.6,2,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1131754,Chetan Sakariya,Rajasthan Royals,,,234675,Ravindra Jadeja,2,8.78
+ipl20,101901,1254089,1st innings,0,5,171/4,0,0,115,19.1,4,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,4,8.92
+ipl20,101902,1254089,1st innings,0,4,177/4,0,0,116,19.2,6,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,6,9.15
+ipl20,101903,1254089,1st innings,0,4,178/4,0,0,116,19.2,1,1,1,False,,234675,Ravindra Jadeja,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,9.2
+ipl20,101904,1254089,1st innings,0,3,182/4,0,0,117,19.3,4,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,4,9.33
+ipl20,101905,1254089,1st innings,0,2,183/4,0,0,118,19.4,1,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,1060380,Ruturaj Gaikwad,1,9.3
+ipl20,101906,1254089,1st innings,0,1,183/4,0,0,119,19.5,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,234675,Ravindra Jadeja,0,9.22
+ipl20,101907,1254089,1st innings,0,0,189/4,0,0,120,19.6,6,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,330902,Mustafizur Rahman,Rajasthan Royals,,,234675,Ravindra Jadeja,6,9.45
+ipl20,200001,1254089,2nd innings,190,119,0,1/0,0,1,0.1,1,0,0,False,,431901,Evin Lewis,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,1151278,Yashasvi Jaiswal,1,6.0
+ipl20,200002,1254089,2nd innings,190,118,0,1/0,0,2,0.2,0,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,431901,Evin Lewis,0,3.0
+ipl20,200003,1254089,2nd innings,190,117,0,5/0,0,3,0.3,4,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,431901,Evin Lewis,4,10.0
+ipl20,200004,1254089,2nd innings,190,116,0,6/0,0,4,0.4,1,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,431901,Evin Lewis,1,9.0
+ipl20,200005,1254089,2nd innings,190,115,0,7/0,0,5,0.5,1,0,0,False,,431901,Evin Lewis,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,1151278,Yashasvi Jaiswal,1,8.4
+ipl20,200006,1254089,2nd innings,190,114,0,8/0,0,6,0.6,1,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,431901,Evin Lewis,1,8.0
+ipl20,200101,1254089,2nd innings,190,113,0,10/0,0,7,1.1,2,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,431901,Evin Lewis,2,8.57
+ipl20,200102,1254089,2nd innings,190,112,0,14/0,0,8,1.2,4,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,431901,Evin Lewis,4,10.5
+ipl20,200103,1254089,2nd innings,190,111,0,14/0,0,9,1.3,0,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,431901,Evin Lewis,0,9.33
+ipl20,200104,1254089,2nd innings,190,110,0,16/0,0,10,1.4,2,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,431901,Evin Lewis,2,9.6
+ipl20,200105,1254089,2nd innings,190,109,0,20/0,0,11,1.5,4,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,431901,Evin Lewis,4,10.9
+ipl20,200106,1254089,2nd innings,190,108,0,24/0,0,12,1.6,4,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,431901,Evin Lewis,4,12.0
+ipl20,200201,1254089,2nd innings,190,107,0,30/0,0,13,2.1,6,0,0,False,,431901,Evin Lewis,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,1151278,Yashasvi Jaiswal,6,13.84
+ipl20,200202,1254089,2nd innings,190,106,0,34/0,0,14,2.2,4,0,0,False,,431901,Evin Lewis,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,1151278,Yashasvi Jaiswal,4,14.57
+ipl20,200203,1254089,2nd innings,190,105,0,35/0,0,15,2.3,1,0,0,False,,431901,Evin Lewis,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,1151278,Yashasvi Jaiswal,1,14.0
+ipl20,200204,1254089,2nd innings,190,104,0,39/0,0,16,2.4,4,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,431901,Evin Lewis,4,14.62
+ipl20,200205,1254089,2nd innings,190,103,0,40/0,0,17,2.5,1,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,431901,Evin Lewis,1,14.11
+ipl20,200206,1254089,2nd innings,190,102,0,41/0,0,18,2.6,1,0,0,False,,431901,Evin Lewis,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,1151278,Yashasvi Jaiswal,1,13.66
+ipl20,200301,1254089,2nd innings,190,101,0,42/0,0,19,3.1,1,0,0,False,,431901,Evin Lewis,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,1151278,Yashasvi Jaiswal,1,13.26
+ipl20,200302,1254089,2nd innings,190,100,0,42/0,0,20,3.2,0,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,431901,Evin Lewis,0,12.6
+ipl20,200303,1254089,2nd innings,190,99,0,43/0,0,21,3.3,1,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,431901,Evin Lewis,1,12.28
+ipl20,200304,1254089,2nd innings,190,98,0,47/0,0,22,3.4,4,0,0,False,,431901,Evin Lewis,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,1151278,Yashasvi Jaiswal,4,12.81
+ipl20,200305,1254089,2nd innings,190,97,0,47/0,0,23,3.5,0,0,0,False,,431901,Evin Lewis,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,1151278,Yashasvi Jaiswal,0,12.26
+ipl20,200306,1254089,2nd innings,190,96,0,53/0,0,24,3.6,6,0,0,False,,431901,Evin Lewis,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,1151278,Yashasvi Jaiswal,6,13.25
+ipl20,200401,1254089,2nd innings,190,95,0,53/0,0,25,4.1,0,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,431901,Evin Lewis,0,12.72
+ipl20,200402,1254089,2nd innings,190,94,0,59/0,0,26,4.2,6,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,431901,Evin Lewis,6,13.61
+ipl20,200403,1254089,2nd innings,190,93,0,65/0,0,27,4.3,6,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,431901,Evin Lewis,6,14.44
+ipl20,200404,1254089,2nd innings,190,92,0,69/0,0,28,4.4,4,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,431901,Evin Lewis,4,14.78
+ipl20,200405,1254089,2nd innings,190,91,0,75/0,0,29,4.5,6,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,431901,Evin Lewis,6,15.51
+ipl20,200406,1254089,2nd innings,190,90,0,75/0,0,30,4.6,0,0,0,False,,1151278,Yashasvi Jaiswal,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,431901,Evin Lewis,0,15.0
+ipl20,200501,1254089,2nd innings,190,89,0,77/0,0,31,5.1,2,0,0,False,,431901,Evin Lewis,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,1151278,Yashasvi Jaiswal,2,14.9
+ipl20,200502,1254089,2nd innings,190,88,0,77/1,1,32,5.2,0,0,0,True,caught,431901,Evin Lewis,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,288284,Josh Hazlewood,1151278,Yashasvi Jaiswal,0,14.43
+ipl20,200503,1254089,2nd innings,190,87,0,77/1,0,33,5.3,0,0,0,False,,425943,Sanju Samson,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,1151278,Yashasvi Jaiswal,0,14.0
+ipl20,200504,1254089,2nd innings,190,86,0,77/1,0,34,5.4,0,0,0,False,,425943,Sanju Samson,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,1151278,Yashasvi Jaiswal,0,13.58
+ipl20,200505,1254089,2nd innings,190,85,0,77/1,0,35,5.5,0,0,0,False,,425943,Sanju Samson,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,1151278,Yashasvi Jaiswal,0,13.2
+ipl20,200506,1254089,2nd innings,190,84,0,81/1,0,36,5.6,4,0,0,False,,425943,Sanju Samson,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,1151278,Yashasvi Jaiswal,4,13.5
+ipl20,200601,1254089,2nd innings,190,83,0,81/2,2,37,6.1,0,0,0,True,caught,1151278,Yashasvi Jaiswal,Rajasthan Royals,1083030,KM Asif,Chennai Super Kings,1151278,Yashasvi Jaiswal,425943,Sanju Samson,0,13.13
+ipl20,200602,1254089,2nd innings,190,82,0,83/2,0,38,6.2,2,0,0,False,,714451,Shivam Dube,Rajasthan Royals,1083030,KM Asif,Chennai Super Kings,,,425943,Sanju Samson,2,13.1
+ipl20,200603,1254089,2nd innings,190,81,0,83/2,0,39,6.3,0,0,0,False,,714451,Shivam Dube,Rajasthan Royals,1083030,KM Asif,Chennai Super Kings,,,425943,Sanju Samson,0,12.76
+ipl20,200604,1254089,2nd innings,190,80,0,84/2,0,40,6.4,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,1083030,KM Asif,Chennai Super Kings,,,425943,Sanju Samson,1,12.6
+ipl20,200605,1254089,2nd innings,190,79,0,88/2,0,41,6.5,4,0,0,False,,425943,Sanju Samson,Rajasthan Royals,1083030,KM Asif,Chennai Super Kings,,,714451,Shivam Dube,4,12.87
+ipl20,200606,1254089,2nd innings,190,78,0,89/2,0,42,6.6,1,0,0,False,,425943,Sanju Samson,Rajasthan Royals,1083030,KM Asif,Chennai Super Kings,,,714451,Shivam Dube,1,12.71
+ipl20,200701,1254089,2nd innings,190,77,0,93/2,0,43,7.1,4,0,0,False,,425943,Sanju Samson,Rajasthan Royals,8917,Moeen Ali,Chennai Super Kings,,,714451,Shivam Dube,4,12.97
+ipl20,200702,1254089,2nd innings,190,76,0,94/2,0,44,7.2,1,0,0,False,,425943,Sanju Samson,Rajasthan Royals,8917,Moeen Ali,Chennai Super Kings,,,714451,Shivam Dube,1,12.81
+ipl20,200703,1254089,2nd innings,190,75,0,94/2,0,45,7.3,0,0,0,False,,714451,Shivam Dube,Rajasthan Royals,8917,Moeen Ali,Chennai Super Kings,,,425943,Sanju Samson,0,12.53
+ipl20,200704,1254089,2nd innings,190,74,0,94/2,0,46,7.4,0,0,0,False,,714451,Shivam Dube,Rajasthan Royals,8917,Moeen Ali,Chennai Super Kings,,,425943,Sanju Samson,0,12.26
+ipl20,200705,1254089,2nd innings,190,73,0,94/2,0,47,7.5,0,0,0,False,,714451,Shivam Dube,Rajasthan Royals,8917,Moeen Ali,Chennai Super Kings,,,425943,Sanju Samson,0,12.0
+ipl20,200706,1254089,2nd innings,190,72,0,95/2,0,48,7.6,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,8917,Moeen Ali,Chennai Super Kings,,,425943,Sanju Samson,1,11.87
+ipl20,200801,1254089,2nd innings,190,71,0,101/2,0,49,8.1,6,0,0,False,,714451,Shivam Dube,Rajasthan Royals,234675,Ravindra Jadeja,Chennai Super Kings,,,425943,Sanju Samson,6,12.36
+ipl20,200802,1254089,2nd innings,190,70,0,102/2,0,50,8.2,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,234675,Ravindra Jadeja,Chennai Super Kings,,,425943,Sanju Samson,1,12.24
+ipl20,200803,1254089,2nd innings,190,69,0,104/2,0,51,8.3,2,0,0,False,,425943,Sanju Samson,Rajasthan Royals,234675,Ravindra Jadeja,Chennai Super Kings,,,714451,Shivam Dube,2,12.23
+ipl20,200804,1254089,2nd innings,190,68,0,104/2,0,52,8.4,0,0,0,False,,425943,Sanju Samson,Rajasthan Royals,234675,Ravindra Jadeja,Chennai Super Kings,,,714451,Shivam Dube,0,12.0
+ipl20,200805,1254089,2nd innings,190,67,0,104/2,0,53,8.5,0,0,0,False,,425943,Sanju Samson,Rajasthan Royals,234675,Ravindra Jadeja,Chennai Super Kings,,,714451,Shivam Dube,0,11.77
+ipl20,200806,1254089,2nd innings,190,66,0,104/2,0,54,8.6,0,0,0,False,,425943,Sanju Samson,Rajasthan Royals,234675,Ravindra Jadeja,Chennai Super Kings,,,714451,Shivam Dube,0,11.55
+ipl20,200901,1254089,2nd innings,190,65,0,104/2,0,55,9.1,0,0,0,False,,714451,Shivam Dube,Rajasthan Royals,8917,Moeen Ali,Chennai Super Kings,,,425943,Sanju Samson,0,11.34
+ipl20,200902,1254089,2nd innings,190,64,0,110/2,0,56,9.2,6,0,0,False,,714451,Shivam Dube,Rajasthan Royals,8917,Moeen Ali,Chennai Super Kings,,,425943,Sanju Samson,6,11.78
+ipl20,200903,1254089,2nd innings,190,63,0,116/2,0,57,9.3,6,0,0,False,,714451,Shivam Dube,Rajasthan Royals,8917,Moeen Ali,Chennai Super Kings,,,425943,Sanju Samson,6,12.21
+ipl20,200904,1254089,2nd innings,190,62,0,117/2,0,58,9.4,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,8917,Moeen Ali,Chennai Super Kings,,,425943,Sanju Samson,1,12.1
+ipl20,200905,1254089,2nd innings,190,61,0,118/2,0,59,9.5,1,0,0,False,,425943,Sanju Samson,Rajasthan Royals,8917,Moeen Ali,Chennai Super Kings,,,714451,Shivam Dube,1,12.0
+ipl20,200906,1254089,2nd innings,190,60,0,119/2,0,60,9.6,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,8917,Moeen Ali,Chennai Super Kings,,,425943,Sanju Samson,1,11.9
+ipl20,201001,1254089,2nd innings,190,59,0,120/2,0,61,10.1,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,1083030,KM Asif,Chennai Super Kings,,,425943,Sanju Samson,1,11.8
+ipl20,201002,1254089,2nd innings,190,58,0,121/2,0,62,10.2,1,0,0,False,,425943,Sanju Samson,Rajasthan Royals,1083030,KM Asif,Chennai Super Kings,,,714451,Shivam Dube,1,11.7
+ipl20,201003,1254089,2nd innings,190,57,0,122/2,0,63,10.3,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,1083030,KM Asif,Chennai Super Kings,,,425943,Sanju Samson,1,11.61
+ipl20,201004,1254089,2nd innings,190,56,0,123/2,0,64,10.4,1,0,0,False,,425943,Sanju Samson,Rajasthan Royals,1083030,KM Asif,Chennai Super Kings,,,714451,Shivam Dube,1,11.53
+ipl20,201005,1254089,2nd innings,190,55,0,124/2,0,65,10.5,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,1083030,KM Asif,Chennai Super Kings,,,425943,Sanju Samson,1,11.44
+ipl20,201006,1254089,2nd innings,190,55,0,126/2,0,65,10.5,2,1,1,False,,425943,Sanju Samson,Rajasthan Royals,1083030,KM Asif,Chennai Super Kings,,,714451,Shivam Dube,2,11.63
+ipl20,201007,1254089,2nd innings,190,54,0,127/2,0,66,10.6,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,1083030,KM Asif,Chennai Super Kings,,,425943,Sanju Samson,1,11.54
+ipl20,201101,1254089,2nd innings,190,53,0,127/2,0,67,11.1,0,0,0,False,,714451,Shivam Dube,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,425943,Sanju Samson,0,11.37
+ipl20,201102,1254089,2nd innings,190,52,0,129/2,0,68,11.2,2,0,0,False,,714451,Shivam Dube,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,425943,Sanju Samson,2,11.38
+ipl20,201103,1254089,2nd innings,190,52,0,130/2,0,68,11.2,1,1,1,False,,714451,Shivam Dube,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,425943,Sanju Samson,1,11.47
+ipl20,201104,1254089,2nd innings,190,51,0,134/2,0,69,11.3,4,0,0,False,,714451,Shivam Dube,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,425943,Sanju Samson,4,11.65
+ipl20,201105,1254089,2nd innings,190,51,0,135/2,0,69,11.3,1,1,1,False,,714451,Shivam Dube,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,425943,Sanju Samson,1,11.73
+ipl20,201106,1254089,2nd innings,190,50,0,141/2,0,70,11.4,6,0,0,False,,714451,Shivam Dube,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,425943,Sanju Samson,6,12.08
+ipl20,201107,1254089,2nd innings,190,49,0,141/2,0,71,11.5,0,0,0,False,,714451,Shivam Dube,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,425943,Sanju Samson,0,11.91
+ipl20,201108,1254089,2nd innings,190,48,0,141/2,0,72,11.6,0,0,0,False,,714451,Shivam Dube,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,425943,Sanju Samson,0,11.75
+ipl20,201201,1254089,2nd innings,190,47,0,142/2,0,73,12.1,1,0,0,False,,425943,Sanju Samson,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,714451,Shivam Dube,1,11.67
+ipl20,201202,1254089,2nd innings,190,46,0,146/2,0,74,12.2,4,0,0,False,,714451,Shivam Dube,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,425943,Sanju Samson,4,11.83
+ipl20,201203,1254089,2nd innings,190,45,0,147/2,0,75,12.3,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,425943,Sanju Samson,1,11.76
+ipl20,201204,1254089,2nd innings,190,44,0,151/2,0,76,12.4,4,0,0,False,,425943,Sanju Samson,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,714451,Shivam Dube,4,11.92
+ipl20,201205,1254089,2nd innings,190,43,0,152/2,0,77,12.5,1,0,0,False,,425943,Sanju Samson,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,714451,Shivam Dube,1,11.84
+ipl20,201206,1254089,2nd innings,190,42,0,153/2,0,78,12.6,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,425943,Sanju Samson,1,11.76
+ipl20,201301,1254089,2nd innings,190,42,0,154/2,0,78,13.0,1,1,1,False,,714451,Shivam Dube,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,425943,Sanju Samson,1,11.84
+ipl20,201302,1254089,2nd innings,190,41,0,155/2,0,79,13.1,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,425943,Sanju Samson,1,11.77
+ipl20,201303,1254089,2nd innings,190,40,0,156/2,0,80,13.2,1,0,0,False,,425943,Sanju Samson,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,714451,Shivam Dube,1,11.7
+ipl20,201304,1254089,2nd innings,190,39,0,157/2,0,81,13.3,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,425943,Sanju Samson,1,11.62
+ipl20,201305,1254089,2nd innings,190,38,0,158/2,0,82,13.4,1,0,0,False,,425943,Sanju Samson,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,714451,Shivam Dube,1,11.56
+ipl20,201306,1254089,2nd innings,190,37,0,158/2,0,83,13.5,0,0,0,False,,714451,Shivam Dube,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,425943,Sanju Samson,0,11.42
+ipl20,201307,1254089,2nd innings,190,37,0,159/2,0,83,13.5,1,1,1,False,,714451,Shivam Dube,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,425943,Sanju Samson,1,11.49
+ipl20,201308,1254089,2nd innings,190,36,0,160/2,0,84,13.6,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,425943,Sanju Samson,1,11.42
+ipl20,201401,1254089,2nd innings,190,35,0,160/2,0,85,14.1,0,0,0,False,,714451,Shivam Dube,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,425943,Sanju Samson,0,11.29
+ipl20,201402,1254089,2nd innings,190,34,0,164/2,0,86,14.2,4,0,0,False,,714451,Shivam Dube,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,425943,Sanju Samson,4,11.44
+ipl20,201403,1254089,2nd innings,190,33,0,164/2,0,87,14.3,0,0,0,False,,714451,Shivam Dube,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,425943,Sanju Samson,0,11.31
+ipl20,201404,1254089,2nd innings,190,32,0,165/2,0,88,14.4,1,0,1,False,,714451,Shivam Dube,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,425943,Sanju Samson,1,11.25
+ipl20,201405,1254089,2nd innings,190,31,0,165/2,0,89,14.5,0,0,0,False,,425943,Sanju Samson,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,714451,Shivam Dube,0,11.12
+ipl20,201406,1254089,2nd innings,190,30,0,165/2,0,90,14.6,0,0,0,False,,425943,Sanju Samson,Rajasthan Royals,288284,Josh Hazlewood,Chennai Super Kings,,,714451,Shivam Dube,0,11.0
+ipl20,201501,1254089,2nd innings,190,29,0,169/2,0,91,15.1,4,0,0,False,,714451,Shivam Dube,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,425943,Sanju Samson,4,11.14
+ipl20,201502,1254089,2nd innings,190,28,0,169/2,0,92,15.2,0,0,0,False,,714451,Shivam Dube,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,425943,Sanju Samson,0,11.02
+ipl20,201503,1254089,2nd innings,190,27,0,170/2,0,93,15.3,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,425943,Sanju Samson,1,10.96
+ipl20,201504,1254089,2nd innings,190,26,0,170/3,3,94,15.4,0,0,0,True,caught,425943,Sanju Samson,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,425943,Sanju Samson,714451,Shivam Dube,0,10.85
+ipl20,201505,1254089,2nd innings,190,25,0,170/3,0,95,15.5,0,0,0,False,,823509,Glenn Phillips,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,714451,Shivam Dube,0,10.73
+ipl20,201506,1254089,2nd innings,190,24,0,170/3,0,96,15.6,0,0,0,False,,823509,Glenn Phillips,Rajasthan Royals,475281,Shardul Thakur,Chennai Super Kings,,,714451,Shivam Dube,0,10.62
+ipl20,201601,1254089,2nd innings,190,23,0,171/3,0,97,16.1,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,823509,Glenn Phillips,1,10.57
+ipl20,201602,1254089,2nd innings,190,23,0,172/3,0,97,16.1,1,1,1,False,,823509,Glenn Phillips,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,714451,Shivam Dube,1,10.63
+ipl20,201603,1254089,2nd innings,190,22,0,176/3,0,98,16.2,4,0,0,False,,823509,Glenn Phillips,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,714451,Shivam Dube,4,10.77
+ipl20,201604,1254089,2nd innings,190,21,0,178/3,0,99,16.3,2,0,0,False,,823509,Glenn Phillips,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,714451,Shivam Dube,2,10.78
+ipl20,201605,1254089,2nd innings,190,20,0,179/3,0,100,16.4,1,0,0,False,,823509,Glenn Phillips,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,714451,Shivam Dube,1,10.74
+ipl20,201606,1254089,2nd innings,190,19,0,180/3,0,101,16.5,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,823509,Glenn Phillips,1,10.69
+ipl20,201607,1254089,2nd innings,190,18,0,186/3,0,102,16.6,6,0,0,False,,823509,Glenn Phillips,Rajasthan Royals,662973,Sam Curran,Chennai Super Kings,,,714451,Shivam Dube,6,10.94
+ipl20,201701,1254089,2nd innings,190,17,0,188/3,0,103,17.1,2,0,0,False,,714451,Shivam Dube,Rajasthan Royals,1083030,KM Asif,Chennai Super Kings,,,823509,Glenn Phillips,2,10.95
+ipl20,201702,1254089,2nd innings,190,16,0,189/3,0,104,17.2,1,0,0,False,,714451,Shivam Dube,Rajasthan Royals,8917,Moeen Ali,Chennai Super Kings,,,823509,Glenn Phillips,1,10.9
+ipl20,201703,1254089,2nd innings,190,15,0,190/3,0,105,17.3,1,0,0,False,,823509,Glenn Phillips,Rajasthan Royals,8917,Moeen Ali,Chennai Super Kings,,,714451,Shivam Dube,1,10.85

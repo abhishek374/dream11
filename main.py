@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import pickle
 from point_prediction import ModelTrain, ModelPredict
-from download_ipl20 import update_ipl21_master, get_current_squad
+from download_ipl20 import update_ipl20_master,get_current_squad
 from datetime import datetime
 import pytz
 
@@ -236,45 +236,45 @@ def formatdata(finaloutdf):
     finaloutdf['model2_points'] = finaloutdf['model2_points'].apply(lambda x: round(x, 0))
     return finaloutdf
 
-def update_master_data(datapath,pointsconfig):
-    matchdata_ipl21 = update_ipl21_master()
+def update_master_data(datapath,pointsconfig,year):
+    matchdata_ipl20 = update_ipl20_master(year)
     matchdata = pd.read_csv(datapath['matchdatapath'])
-    if matchdata_ipl21.shape[0] != 0:
-        matchlistipl21 = matchdata_ipl21['matchid'].unique()
+    if matchdata_ipl20.shape[0] != 0:
+        matchlistipl20 = matchdata_ipl20['matchid'].unique()
         matchlistoverall = matchdata['matchid'].unique()
-        matchid_list = [i for i in matchlistipl21 if i not in matchlistoverall]
+        matchid_list = [i for i in matchlistipl20 if i not in matchlistoverall]
         if matchid_list:
-            matchdata_ipl21_sub = matchdata_ipl21[matchdata_ipl21['matchid'].isin(matchid_list)]
-            matchdata = pd.concat([matchdata, matchdata_ipl21_sub], join='inner', axis=0)
+            matchdata_ipl20_sub = matchdata_ipl20[matchdata_ipl20['matchid'].isin(matchid_list)]
+            matchdata = pd.concat([matchdata, matchdata_ipl20_sub], join='inner', axis=0)
             matchdata.to_csv(datapath['matchdatapath'], index=False)
 
         # update scorecard
         master_scorecard = pd.read_csv(datapath['matchdatascorecardpath'])
-        matchlistipl21 = matchdata_ipl21['matchid'].unique()
+        matchlistipl20 = matchdata_ipl20['matchid'].unique()
         matchlistoverall = master_scorecard['matchid'].unique()
-        matchid_list = [i for i in matchlistipl21 if i not in matchlistoverall]
+        matchid_list = [i for i in matchlistipl20 if i not in matchlistoverall]
         if matchid_list:
-            matchdata_ipl21_sub = matchdata_ipl21[matchdata_ipl21['matchid'].isin(matchid_list)]
-            matchdata_ipl21_sub.to_csv(datapath['matchdatapathipl21'], index=False)
-            sorecard_sub = execute_get_scorecard(datapath['matchdatapathipl21'], datapath['matchdatascorecardpathipl21'], pointsconfig)
+            matchdata_ipl20_sub = matchdata_ipl20[matchdata_ipl20['matchid'].isin(matchid_list)]
+            matchdata_ipl20_sub.to_csv(datapath['matchdatapathipl20'], index=False)
+            sorecard_sub = execute_get_scorecard(datapath['matchdatapathipl20'], datapath['matchdatascorecardpathipl20'], pointsconfig)
             master_scorecard = pd.concat([master_scorecard, sorecard_sub], join='inner', axis=0)
             print(master_scorecard.columns)
             master_scorecard.to_csv(datapath['matchdatascorecardpath'], index=False)
             print("matchscorecard updated complete")
 
-        matchsummary_ipl21 = pd.read_csv(datapath['matchsummarypathipl21'])
-        matchsummary_ipl21 = matchsummary_ipl21[~(matchsummary_ipl21['winner'] == "Match Tied/Cancelled/Not yet ended")]
+        matchsummary_ipl20 = pd.read_csv(datapath['matchsummarypathipl20'])
+        matchsummary_ipl20 = matchsummary_ipl20[~(matchsummary_ipl20['winner'] == "Match Tied/Cancelled/Not yet ended")]
         matchsummary = pd.read_csv(datapath['matchsummarypath'])
-        matchlistipl21 = matchsummary_ipl21['matchid'].unique()
+        matchlistipl20 = matchsummary_ipl20['matchid'].unique()
         matchlistoverall = matchsummary['matchid'].unique()
-        matchid_list = [i for i in matchlistipl21 if i not in matchlistoverall]
+        matchid_list = [i for i in matchlistipl20 if i not in matchlistoverall]
         print(matchid_list)
         if matchid_list:
             print("start of match summary updation")
-            matchsum_ipl21_sub = matchsummary_ipl21[matchsummary_ipl21['matchid'].isin(matchid_list)]
-            print(matchsum_ipl21_sub.columns)
+            matchsum_ipl20_sub = matchsummary_ipl20[matchsummary_ipl20['matchid'].isin(matchid_list)]
+            print(matchsum_ipl20_sub.columns)
             print(matchsummary.columns)
-            matchsummary = pd.concat([matchsummary, matchsum_ipl21_sub], axis=0)
+            matchsummary = pd.concat([matchsummary, matchsum_ipl20_sub],axis=0)
             matchsummary.to_csv(datapath['matchsummarypath'], index=False)
             print("matchsummary updated complete")
 
@@ -284,16 +284,13 @@ def update_master_data(datapath,pointsconfig):
 
 def get_team_details(datapath,index =0):
 
-    tz_india = pytz.timezone('Asia/Calcutta')
-    datetime_india = datetime.now(tz_india)
-    matchsummary = pd.read_csv(datapath['matchsummarypathipl21'])
-    print("1", pd.to_datetime(matchsummary['date']).tolist())
-    matchid = matchsummary.iloc[next(x[0] for x in enumerate(pd.to_datetime(matchsummary['date']).tolist()) if x[1] > datetime_india), 0]
-
+    tz_dubai = pytz.timezone('Asia/Dubai')
+    datetime_dubai = datetime.now(tz_dubai)
+    matchsummary = pd.read_csv(datapath['matchsummarypathipl20'])
+    matchid = matchsummary.iloc[next(x[0] for x in enumerate(pd.to_datetime(matchsummary['date']).tolist()) if x[1] > datetime_dubai), 0]
     today_match = matchsummary[matchsummary['matchid'] == matchid]
+    print(today_match)
     team1 = today_match['team1'].iloc[index]
     team2 = today_match['team2'].iloc[index]
     venue = today_match['venue'].iloc[index].split(",")[index]
-    print("today_match.columns",today_match.columns)
-    city = today_match['city'].iloc[index].split(",")[index]
-    return team1, team2, venue, city
+    return team1, team2, venue

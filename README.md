@@ -3,14 +3,8 @@
 Aim is to select the team that would get the maximum total points in an IPL match under dream 11 constraints. To do so we have followed a 2 stage approach, where we first try to predict points achieved by individual players and then selecting the top 11 out of the total squad as per the cost of each player and other relevant constraints. We are using a mix integer linear optimization method to get the team out of the squad. To get the points of each player we are exploring various methods to leverage the past performance of players to predict their points in the following matches. Below is the description of how the modules are structured and the results thus obtained.
 
 ## How to Run ?
-
-- Clone the repo to your local
-- pip install -r requirements.txt
-- update column - playercost in Data/ipl_squad_points.csv with the latest dream11 points as that changes before every match
-- Change this variable SELECT_FROM_PLAYING_XI (in controller.py) to False if running the code before the playing XI for the match is announced otherwise keep it as True
-- python controller.py
-- Output is saved in pred_team11.csv within Data/ folder. If run after the squad is announced for the match and before the match starts, it will slect the best XI from the current playing squad otherwise will refer to older matches to get the playing XI. The dataset Data/ipl_squad_points.csv has the details for ipl 2021 regarding players role and cost as per dream11. 
-You can write at abhishek.anand374@gmail.com if there are some challenges with the code repo or just some ideas you would like to share.
+Clone the repo to your local and run the controller.py file. It will automatically generate the best 11 based on multiple models into a file pred_team11.csv within Data/ folder. If run after the squad is announced for the match and before the match starts, it will slect the best XI from the current playing squad otherwise will refer to older matches to get the playing XI. The dataset Data/ipl_squad_points.csv has the details for ipl 2020 regarding players role and cost as per dream11. 
+For any clarification please drop a note at abhishek.anand374@gmail.com. Will try to respond as soon as possible.
 
 ## Dataset Descriptions
 Data/pred_team11.csv - result file with the best XI from the playing for the match to be played next
@@ -19,13 +13,13 @@ Data/pred_team11.csv - result file with the best XI from the playing for the mat
 ## Code Descriptions
 controller.py -  controller code used to define configs and execute the whole code
 
-main.py - Temp file with helpfer functions to call other modules, will be merged with other classes within an execute function
+main.py - Temp filw with helpfer functions to call other modules, will be merged with other classes within an execute function
 
 data_prep.py - ScoreCard- Used to summarize tha ball by ball data into match level scorecard and also define the playing role for each player
 	       Dream11Points - Points calculated as per dream 11 rules: ipl_scorecard_points.csv
 	       FeatEngg - Feature enginnering module used to add additional features like, opposition team, venue, city, rolling average of batting order, bowls bowled, 		player's batting points earned, player's bowling points earned, venue's batting point earned and venue's baowling point earned
 
-download_ipl21.py - Has two methods update_ipl20_master: to updated the masterdata needed for prediction by appending the scorecard for the all the matches played till date 								in ipl20
+download_ipl20.py - Has two methods update_ipl20_master: to updated the masterdata needed for prediction by appending the scorecard for the all the matches played till date 								in ipl20
 				    get_current_squad: gets the playing XI declared for the most recent match to be played, it attempts to get the match by looking through 							   the website 3 times, if the squad is not out then returns null
 
 

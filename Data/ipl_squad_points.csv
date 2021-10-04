@@ -1,172 +1,135 @@
-﻿playername,playing_role,playing_team,opposition_team,playercost
-A Mishra,Bowler,Delhi Capitals,,8.5
-AR Patel,AllRounder,Delhi Capitals,,8.5
-Arshdeep Singh,Bowler,Kings XI Punjab,,7.5
-CH Gayle,Batsmen,Kings XI Punjab,,9.5
-Harpreet Brar,Bowler,Kings XI Punjab,,8
-I Sharma,Bowler,Delhi Capitals,,8.5
-KL Rahul,Batsmen,Kings XI Punjab,,11
-KMA Paul,AllRounder,Delhi Capitals,,8
-M Ashwin,Bowler,Kings XI Punjab,,8
-MA Agarwal,Batsmen,Kings XI Punjab,,9.5
-Mandeep Singh,Batsmen,Kings XI Punjab,,8
-Mohammed Shami,Bowler,Kings XI Punjab,,9
-N Pooran,Batsmen,Kings XI Punjab,,9
-PP Shaw,Batsmen,Delhi Capitals,,8.5
-R Ashwin,Bowler,Delhi Capitals,,9
-RR Pant,Batsmen,Delhi Capitals,,9.5
-S Dhawan,Batsmen,Delhi Capitals,,10
-A Rahane,Batsmen,Delhi Capitals,,9
-A Carey,Batsmen,Delhi Capitals,,8.5
-SO Hetmyer,Batsmen,Delhi Capitals,,8.5
-SS Iyer,Batsmen,Delhi Capitals,,9
-K Rabada,Bowler,Delhi Capitals,,9.5
-Mujeeb ur Rahman,Bowler,Sunrisers Hyderabad,,9
-S Lamichhane,Bowler,Delhi Capitals,,8.5
-A Nortje,Bowler,Delhi Capitals,,8
-A Khan,Bowler,Delhi Capitals,,8
-MM Sharma,Bowler,Delhi Capitals,,8
-GJ Maxwell,AllRounder,Royal Challengers Bangalore,,9
-HV Patel,Bowler,Delhi Capitals,,8
-MP Stoinis,AllRounder,Delhi Capitals,,8.5
-JDS Neesham,AllRounder,Kings XI Punjab,,8.5
-K Gowtham,AllRounder,Chennai Super Kings,,8.5
-AT Rayudu,Batsmen,Chennai Super Kings,,9
-DJ Bravo,AllRounder,Chennai Super Kings,,10
-DL Chahar,Bowler,Chennai Super Kings,,8.5
-F du Plessis,Batsmen,Chennai Super Kings,,9
-Harbhajan Singh,Bowler,Kolkata Knight Riders,,10
-IS Sodhi,Bowler,Rajasthan Royals,,10
-Imran Tahir,Bowler,Chennai Super Kings,,9.5
-JD Unadkat,Bowler,Rajasthan Royals,,8.5
-K Gowtham,Bowler,Rajasthan Royals,,10
-MK Lomror,AllRounder,Rajasthan Royals,,10
-MS Dhoni,Batsmen,Chennai Super Kings,,9.5
-O Thomas,Bowler,Rajasthan Royals,,8
-R Parag,AllRounder,Rajasthan Royals,,8.5
-RA Jadeja,AllRounder,Chennai Super Kings,,8.5
-S Gopal,Bowler,Rajasthan Royals,,8.5
-SK Raina,Batsmen,Chennai Super Kings,,10
-SN Thakur,Bowler,Chennai Super Kings,,8.5
-SR Watson,AllRounder,Chennai Super Kings,,9.5
-STR Binny,AllRounder,Rajasthan Royals,,10
-SV Samson,Batsmen,Rajasthan Royals,,9.5
-VR Aaron,Bowler,Rajasthan Royals,,8
-SPD Smith,Batsmen,Delhi Capitals,,9.5
-RV Uthappa,Batsmen,Rajasthan Royals,,9
-M Vijay,Batsmen,Chennai Super Kings,,8.5
-KM Jadhav,Batsmen,Chennai Super Kings,,8.5
-DA Miller,Batsmen,Rajasthan Royals,,9
-M Vohra,Batsmen,Rajasthan Royals,,8
-MJ Santner,AllRounder,Chennai Super Kings,,8.5
-SM Curran,AllRounder,Chennai Super Kings,,8.5
-R Tewatia,AllRounder,Rajasthan Royals,,9
-PP Chawla,Bowler,Mumbai Indians,,8.5
-L Ngidi,Bowler,Chennai Super Kings,,8.5
-TK Curran,Bowler,Delhi Capitals,,8.5
-N Jagadeesan,Batsmen,Chennai Super Kings,,8.5
-R Gaikwad,Batsmen,Chennai Super Kings,,8.5
-KV Sharma,Bowler,Chennai Super Kings,,8
-AS Rajpoot,Bowler,Rajasthan Royals,,8
-JC Buttler,Batsmen,Rajasthan Royals,,9.5
-K Tyagi,Bowler,Rajasthan Royals,,8
-KC Cariappa,Bowler,Rajasthan Royals,,8
-M Markande,Bowler,Rajasthan Royals,,8
-AB de Villiers,Batsmen,Royal Challengers Bangalore,,10
-B Kumar,Bowler,Sunrisers Hyderabad,,8.5
-Basil Thampi,Bowler,Sunrisers Hyderabad,,8
-KK Ahmed,Bowler,Sunrisers Hyderabad,,8
-KS Williamson,Batsmen,Sunrisers Hyderabad,,9
-MK Pandey,Batsmen,Sunrisers Hyderabad,,9
-Mohammad Nabi,AllRounder,Sunrisers Hyderabad,,8.5
-NA Saini,Bowler,Royal Challengers Bangalore,,8
-P Negi,Bowler,Kolkata Knight Riders,,8
-Rashid Khan,Bowler,Sunrisers Hyderabad,,9.5
-UT Yadav,Bowler,Delhi Capitals,,8.5
-V Kohli,Batsmen,Royal Challengers Bangalore,,10.5
-J Holder,AllRounder,Sunrisers Hyderabad,,8.5
-V Shankar,AllRounder,Sunrisers Hyderabad,,8.5
-WP Saha,Batsmen,Sunrisers Hyderabad,,8
-Washington Sundar,AllRounder,Royal Challengers Bangalore,,8.5
-YS Chahal,Bowler,Royal Challengers Bangalore,,9
-JM Bairstow,Batsmen,Sunrisers Hyderabad,,10
-Abhishek Sharma,Batsmen,Sunrisers Hyderabad,,8
-P Garg,Batsmen,Sunrisers Hyderabad,,8
-DA Warner,Batsmen,Sunrisers Hyderabad,,10.5
-CH Morris,AllRounder,Rajasthan Royals,,9.5
-MM Ali,AllRounder,Chennai Super Kings,,8
-Yashasvi Jaiswal,Batsmen,Rajasthan Royals,,8
-S Dube,AllRounder,Rajasthan Royals,,8
-S Kaul,Bowler,Sunrisers Hyderabad,,8.5
-Devdutt Padikkal,Batsmen,Royal Challengers Bangalore,,9
-I Udana,Bowler,Royal Challengers Bangalore,,8
-M Siraj,Bowler,Royal Challengers Bangalore,,8
-Sandeep Sharma,Bowler,Sunrisers Hyderabad,,8.5
-A Samad,AllRounder,Sunrisers Hyderabad,,8
-KM Jadhav,AllRounder,Sunrisers Hyderabad,,8
-S Nadeem,Bowler,Sunrisers Hyderabad,,8
-RG Sharma,Batsmen,Mumbai Indians,,10
-Q de Kock,Batsmen,Mumbai Indians,,10
-SA Yadav,Batsmen,Mumbai Indians,,9
-SS Tiwary,Batsmen,Mumbai Indians,,8
-HH Pandya,AllRounder,Mumbai Indians,,8.5
-KA Pollard,AllRounder,Mumbai Indians,,9
-KH Pandya,AllRounder,Mumbai Indians,,8
-James Pattinson,Batsmen,Mumbai Indians,,8.5
-RD Chahar,Bowler,Mumbai Indians,,8.5
-TA Boult,Batsmen,Mumbai Indians,,9
-JJ Bumrah,Batsmen,Mumbai Indians,,9
-Ishan Kishan,Batsmen,Mumbai Indians,,8.5
-Shubman Gill,Batsmen,Kolkata Knight Riders,,10
-SP Narine,Batsmen,Kolkata Knight Riders,,10
-KD Karthik,Batsmen,Kolkata Knight Riders,,10
-N Rana,Batsmen,Kolkata Knight Riders,,9.5
-EJG Morgan,Batsmen,Kolkata Knight Riders,,10
-AD Russell,Batsmen,Kolkata Knight Riders,,8.5
-NS Naik,Batsmen,Kolkata Knight Riders,,10
-PJ Cummins,Batsmen,Kolkata Knight Riders,,9
-Shivam Mavi,Batsmen,Kolkata Knight Riders,,8
-Kuldeep Yadav,Bowler,Kolkata Knight Riders,,8
-Sandeep Warrier,Bowler,Kolkata Knight Riders,,10
-S Billings,Batsmen,Delhi Capitals,,8
-Chris Woakes,Bowler,Delhi Capitals,,9
-L Yadav,AllRounder,Delhi Capitals,,9
-B Cutting,AllRounder,Kolkata Knight Riders,,9
-L Ferguson,Bowler,Kolkata Knight Riders,,9
-GS Mann,Batsmen,Kolkata Knight Riders,,8
-KK Nair,Batsmen,Kolkata Knight Riders,,8
-M Prasidh Krishna,Bowler,Kolkata Knight Riders,,9
-SA Hasan,AllRounder,Kolkata Knight Riders,,8
-Shivam Mavi,AllRounder,Kolkata Knight Riders,,9
-RA Tripathi,Batsmen,Kolkata Knight Riders,,9
-Varun Chakravarthy,Bowler,Kolkata Knight Riders,,9
-NM Coulter-Nile,Bowler,Mumbai Indians,,8.5
-M Jansen,Bowler,Mumbai Indians,,8.5
-DS Kulkarni,Bowler,Mumbai Indians,,9
-CA Lynn,Batsmen,Mumbai Indians,,9
-A Milne,Bowler,Mumbai Indians,,9
-JDS Neesham,Bowler,Mumbai Indians,,9
-AP Tare,Batsmen,Mumbai Indians,,9
-J Yadav,Bowler,Mumbai Indians,,9
-Fabian Allen,AllRounder,Kings XI Punjab,,8
-M Henriques,AllRounder,Kings XI Punjab,,8
-DJ Hooda,AllRounder,Kings XI Punjab,,9
-CJ Jordan,AllRounder,Kings XI Punjab,,8
-SN Khan,Batsmen,Kings XI Punjab,,9
-D Malan,Batsmen,Kings XI Punjab,,9
-R Meredith,Bowler,Kings XI Punjab,,9
-R Bishnoi,Bowler,Kings XI Punjab,,9
-J Richardson,Bowler,Kings XI Punjab,,9
-Shahrukh Khan,Batsmen,Kings XI Punjab,,9
-J Saxena,AllRounder,Kings XI Punjab,,9
-M Rahman,Bowler,Rajasthan Royals,,8.5
-C Sakariya,Bowler,Rajasthan Royals,,8.5
-D Christian,AllRounder,Royal Challengers Bangalore,,9
-K Jamieson,Bowler,Royal Challengers Bangalore,,9
-Mohammed Azharuddeen,Batsmen,Royal Challengers Bangalore,,9
-Shahbaz Ahmed,AllRounder,Royal Challengers Bangalore,,9
-D Sams,Bowler,Royal Challengers Bangalore,,9
-Jason Roy,Batsmen,Sunrisers Hyderabad,,9
-J Suchith,Bowler,Sunrisers Hyderabad,,9
-Virat Singh,Batsmen,Sunrisers Hyderabad,,9
-MR Marsh,AllRounder,Sunrisers Hyderabad,,
+﻿matchid,playername,total_runs,total_balls_faced,total_legal_balls_faced,run_6,run_4,fallofwickets,batsmen_innings,batsmen_battingteam,batsmen_bowlingteam,total_wickets,total_balls_bowled,total_legal_balls_bowled,total_runs_given,maiden_overs,bowlers_innings,bowler_battingteam,bowler_bowlingteam,economy_rate,playing_role,total_runs_points,run_6_points,run_4_points,run_bonus_points,total_bat_points,total_wickets_points,economy_rate_points,maiden_overs_points,wicket_bonus_points,total_bowl_points,total_points,playing_team,opposition_team,year,city,venue,home_team,away_team,toss_winner,toss_decision,winner,home_game,toss_flag,player_match_count,total_bat_points_venue_avg2,total_bowl_points_venue_avg2,total_points_playername_avg2,fallofwickets_playername_avg2,total_balls_bowled_playername_avg2,total_bat_points_venue_avg3,total_bowl_points_venue_avg3,total_points_playername_avg3,fallofwickets_playername_avg3,total_balls_bowled_playername_avg3,total_bat_points_venue_avg5,total_bowl_points_venue_avg5,total_points_playername_avg5,fallofwickets_playername_avg5,total_balls_bowled_playername_avg5,total_bat_points_venue_avg10,total_bowl_points_venue_avg10,total_points_playername_avg10,fallofwickets_playername_avg10,total_balls_bowled_playername_avg10,playercost
+1181769,A Mishra,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,Delhi Capitals,,Bowler,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,148,301,304.5,33.5,7,24,306.3333333,283.3333333,48.66666667,4.666666667,24,322.8,248.2,41.4,4.4,23,,,26.9,3,21.8,8.5
+1181769,AR Patel,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,Delhi Capitals,,AllRounder,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,83,301,304.5,13,4,24,306.3333333,283.3333333,11,4.333333333,24,322.8,248.2,21.6,4.4,22.8,,,25.2,3.6,21.6,8.5
+1181769,Arshdeep Singh,,,,,,,,,,,,,,,,,Kings XI Punjab,,Bowler,,,,,,,,,,,,Kings XI Punjab,Delhi Capitals,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,0,0,4,301,304.5,9.5,0,19.5,306.3333333,283.3333333,22.33333333,0,21.66666667,322.8,248.2,,,,,,,,,7.5
+1181769,CH Gayle,,,,,,,1st innings,Kings XI Punjab,Kolkata Knight Riders,,,,,,,,,,Batsmen,,,,,,,,,,,,Kings XI Punjab,Delhi Capitals,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,0,0,125,301,304.5,27.5,0,0,306.3333333,283.3333333,20,0,0,322.8,248.2,36.6,0,0,,,49.1,0,0,9.5
+1181769,Harpreet Brar,,,,,,,,,,,,,,,,,Kings XI Punjab,,Bowler,,,,,,,,,,,,Kings XI Punjab,Delhi Capitals,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,0,0,3,301,304.5,10,3,15,306.3333333,283.3333333,,,,322.8,248.2,,,,,,,,,8
+1181769,I Sharma,,,,,,,1st innings,Delhi Capitals,Chennai Super Kings,,,,,,,,Delhi Capitals,,Bowler,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,90,301,304.5,45,4.5,24,306.3333333,283.3333333,55,3,24.66666667,322.8,248.2,42.2,1.8,24.4,,,25.2,0.9,23.6,8.5
+1181769,KL Rahul,,,,,,,1st innings,Kings XI Punjab,Kolkata Knight Riders,,,,,,,,,,Batsmen,,,,,,,,,,,,Kings XI Punjab,Delhi Capitals,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,0,0,59,301,304.5,51.5,0,0,306.3333333,283.3333333,69.66666667,0,0,322.8,248.2,55.4,0,0,,,66.9,0,0,11
+1181769,KMA Paul,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,Delhi Capitals,,AllRounder,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,9,301,304.5,40.5,6.5,25,306.3333333,283.3333333,28.33333333,4.333333333,23.33333333,322.8,248.2,34,3.8,23,,,,,,8
+1181769,M Ashwin,,,,,,,,,,,,,,,,,Kings XI Punjab,,Bowler,,,,,,,,,,,,Kings XI Punjab,Delhi Capitals,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,0,0,23,301,304.5,-6,0,15,306.3333333,283.3333333,4.666666667,2.666666667,18.66666667,322.8,248.2,8.8,3,20.2,,,12.4,2.2,21.1,8
+1181769,MA Agarwal,,,,,,,1st innings,Kings XI Punjab,Kolkata Knight Riders,,,,,,,,,,Batsmen,,,,,,,,,,,,Kings XI Punjab,Delhi Capitals,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,0,0,73,301,304.5,24,1.5,0,306.3333333,283.3333333,26.66666667,1.333333333,0,322.8,248.2,24.8,1.2,0,,,25,1.1,0,9.5
+1181769,Mandeep Singh,,,,,,,1st innings,Kings XI Punjab,Kolkata Knight Riders,,,,,,,,,,Batsmen,,,,,,,,,,,,Kings XI Punjab,Delhi Capitals,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,0,0,84,301,304.5,19.5,3,0,306.3333333,283.3333333,14.33333333,3.333333333,0,322.8,248.2,14.8,3.4,1.2,,,13.9,3.7,0.6,8
+1181769,Mohammed Shami,,,,,,,,,,,,,,,,,Kings XI Punjab,,Bowler,,,,,,,,,,,,Kings XI Punjab,Delhi Capitals,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,0,0,50,301,304.5,40.5,0,18,306.3333333,283.3333333,44,2.666666667,20.33333333,322.8,248.2,35.6,1.6,22,,,34.5,0.8,23.3,9
+1181769,N Pooran,,,,,,,1st innings,Kings XI Punjab,Kolkata Knight Riders,,,,,,,,,,Batsmen,,,,,,,,,,,,Kings XI Punjab,Delhi Capitals,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,0,0,7,301,304.5,55.5,2,0,306.3333333,283.3333333,46,2,0,322.8,248.2,40.2,2.4,0,,,,,,9
+1181769,PP Shaw,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,,,Batsmen,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,26,301,304.5,42,0,0,306.3333333,283.3333333,31,0,0,322.8,248.2,24,0,0,,,22.8,0,0,8.5
+1181769,R Ashwin,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,Delhi Capitals,,Bowler,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,0,0,137,301,304.5,14,2.5,24.5,306.3333333,283.3333333,25.33333333,3.333333333,24.66666667,322.8,248.2,26.6,4,23.6,,,35.7,2.6,24.1,9
+1181769,RR Pant,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,,,Batsmen,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,55,301,304.5,56.5,2.5,0,306.3333333,283.3333333,62,2.333333333,0,322.8,248.2,40,2.2,0,,,39.8,2.3,0,9.5
+1181769,S Dhawan,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,,,Batsmen,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,159,301,304.5,21,0,0,306.3333333,283.3333333,21.66666667,0,0,322.8,248.2,31,0.2,0,,,47.9,0.1,0,10
+1181769,A Rahane,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,,,Batsmen,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,62,301,304.5,12,1.5,0,306.3333333,283.3333333,14.33333333,1.666666667,0,322.8,248.2,32.2,1.4,0,,,30.4,1.4,0,9
+1181769,A Carey,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,,,Batsmen,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,62,301,304.5,12,1.5,0,306.3333333,283.3333333,14.33333333,1.666666667,0,322.8,248.2,32.2,1.4,0,,,30.4,1.4,0,8.5
+1181769,SO Hetmyer,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,,,Batsmen,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,62,301,304.5,12,1.5,0,306.3333333,283.3333333,14.33333333,1.666666667,0,322.8,248.2,32.2,1.4,0,,,30.4,1.4,0,8.5
+1181769,SS Iyer,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,,,Batsmen,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,62,301,304.5,12,1.5,0,306.3333333,283.3333333,14.33333333,1.666666667,0,322.8,248.2,32.2,1.4,0,,,30.4,1.4,0,9
+1181769,K Rabada,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,,,Bowler,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,18,338.5,267.5,51,0,24.5,324,248.3333333,54.66666667,2.666666667,25,354.8,228.2,64.8,3,24.6,382.9,209.9,55.8,3.1,24,9.5
+1181769,Mujeeb ur Rahman,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,,,Bowler,,,,,,,,,,,,Kings XI Punjab,Delhi Capitals,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,16,359,158.5,14,3,23,335.6666667,227.6666667,9.333333333,2,23.66666667,328.8,254,14.4,1.2,22,342.6,253.9,34.3,1.5,23.3,9
+1181769,S Lamichhane,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,,,Bowler,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,8.5
+1181769,A Nortje,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,,,Bowler,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,85,463.5,215.5,12.5,4,20,408.6666667,245.6666667,7.333333333,5.333333333,15.33333333,414.4,255.8,10,4.8,18.2,397.1,258.5,16.8,3.9,19.2,8
+1181769,A Khan,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,,,Bowler,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,85,463.5,215.5,12.5,4,20,408.6666667,245.6666667,7.333333333,5.333333333,15.33333333,414.4,255.8,10,4.8,18.2,397.1,258.5,16.8,3.9,19.2,8
+1181769,MM Sharma,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,,,Bowler,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,85,463.5,215.5,12.5,4,20,408.6666667,245.6666667,7.333333333,5.333333333,15.33333333,414.4,255.8,10,4.8,18.2,397.1,258.5,16.8,3.9,19.2,8
+1181769,GJ Maxwell,,,,,,,1st innings,Kings XI Punjab,,,,,,,,,Kings XI Punjab,,AllRounder,,,,,,,,,,,,Kings XI Punjab,Delhi Capitals,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,0,0,69,394,181.5,7,3,9,421.6666667,149,7.333333333,2,8,429.4,179.6,16.4,2.6,7.2,400.9,214.7,28.5,2.5,8.6,9
+1181769,HV Patel,,,,,,,2nd innings,Delhi Capitals,Sunrisers Hyderabad,,,,,,,,,,Bowler,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,85,463.5,215.5,12.5,4,20,408.6666667,245.6666667,7.333333333,5.333333333,15.33333333,414.4,255.8,10,4.8,18.2,397.1,258.5,16.8,3.9,19.2,8
+1181769,MP Stoinis,,,,,,,2nd innings,Delhi Capitals,,,,,,,,,Delhi Capitals,,AllRounder,,,,,,,,,,,,Delhi Capitals,Kings XI Punjab,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,1,1,29,397.5,172,59.5,4.5,15,382.6666667,200.6666667,45.66666667,4,16.33333333,419,200,36.6,3.6,14.8,429.9,195.8,31.2,2.9,12.1,8.5
+1181769,JDS Neesham,,,,,,,1st innings,Kings XI Punjab,,,,,,,,,Kings XI Punjab,,AllRounder,,,,,,,,,,,,Kings XI Punjab,Delhi Capitals,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,0,0,4,374.5,198,29,5,19.5,413.6666667,177.3333333,17.33333333,3.333333333,17,373.4,200.8,,,,359.2,225.7,,,,8.5
+1181769,K Gowtham,,,,,,,1st innings,Kings XI Punjab,,,,,,,,,Kings XI Punjab,,AllRounder,,,,,,,,,,,,Kings XI Punjab,Delhi Capitals,2020,neutral venue,Dubai International Cricket Stadium,Delhi Capitals,Kings XI Punjab,Delhi Capitals,,,0,0,22,358.5,225.5,-5.5,3,12,333.3333333,248,-2.333333333,2,16,349.8,219.6,0,2.2,14.6,373.5,209.5,13.6,3,15.4,8.5
+1181770,AT Rayudu,,,,,,,2nd innings,Chennai Super Kings,Delhi Capitals,,,,,,,,,,Batsmen,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,139,279,219,12,2,0,294,231.3333333,24.66666667,2.333333333,0,342.8,239.6,16.6,2.8,0,,,17.1,2.4,0,9
+1181770,DJ Bravo,,,,,,,2nd innings,Chennai Super Kings,Delhi Capitals,,,,,,,,Chennai Super Kings,,AllRounder,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,134,279,219,39,4,22.5,294,231.3333333,26,2.666666667,21,342.8,239.6,17,2.6,21.8,,,28.2,3.3,23.6,10
+1181770,DL Chahar,,,,,,,,,,,,,,,,,Chennai Super Kings,,Bowler,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,35,279,219,67.5,0,25,294,231.3333333,53.33333333,0,23.66666667,342.8,239.6,36.2,0,22.6,,,29.9,0.7,23.1,8.5
+1181770,F du Plessis,,,,,,,2nd innings,Chennai Super Kings,Delhi Capitals,,,,,,,,,,Batsmen,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,65,279,219,49,0,0,294,231.3333333,35,0,0,342.8,239.6,55,0,0,,,37.9,0.1,0,9
+1181770,Harbhajan Singh,,,,,,,,,,,,,,,,,Chennai Super Kings,,Bowler,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,161,279,219,25,0,24.5,294,231.3333333,25.66666667,0,24.66666667,342.8,239.6,34.2,0,24.6,,,34,0.8,24.5,10
+1181770,IS Sodhi,,,,,,,1st innings,Rajasthan Royals,Delhi Capitals,,,,,,,,Rajasthan Royals,,Bowler,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,9,279,219,57.5,3.5,22,294,231.3333333,40.33333333,2.333333333,22.66666667,342.8,239.6,34.8,2.8,23.2,,,,,,10
+1181770,Imran Tahir,,,,,,,,,,,,,,,,,Chennai Super Kings,,Bowler,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,56,279,219,37.5,0,21,294,231.3333333,41.66666667,0,22.33333333,342.8,239.6,49,0,22.2,,,45.3,0,23.2,9.5
+1181770,JD Unadkat,,,,,,,1st innings,Rajasthan Royals,Delhi Capitals,,,,,,,,Rajasthan Royals,,Bowler,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,73,279,219,36.5,0,15,294,231.3333333,30,2.333333333,18.33333333,342.8,239.6,21.8,1.4,20.4,,,22.2,0.7,21.7,8.5
+1181770,K Gowtham,,,,,,,1st innings,Rajasthan Royals,Delhi Capitals,,,,,,,,Rajasthan Royals,,Bowler,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,23,279,219,4,6,21,294,231.3333333,0.666666667,4,16,342.8,239.6,3.8,3.4,17,,,15.1,3.6,16.4,10
+1181770,LS Livingstone,,,,,,,2nd innings,Rajasthan Royals,Royal Challengers Bangalore,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,5,279,219,16.5,0,0,294,231.3333333,29,0,0,342.8,239.6,,,,,,,,,10
+1181770,MK Lomror,,,,,,,1st innings,Rajasthan Royals,Delhi Capitals,,,,,,,,,,AllRounder,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,4,279,219,9,3.5,6,294,231.3333333,9.666666667,3.666666667,6,342.8,239.6,,,,,,,,,10
+1181770,MS Dhoni,,,,,,,2nd innings,Chennai Super Kings,Delhi Capitals,,,,,,,,,,Batsmen,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,171,279,219,6.5,3,0,294,231.3333333,19,3.333333333,0,342.8,239.6,24,2.8,0,,,38.7,3.2,0,9.5
+1181770,O Thomas,,,,,,,,,,,,,,,,,Rajasthan Royals,,Bowler,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,5,279,219,24,0,6.5,294,231.3333333,32.66666667,0,12.66666667,342.8,239.6,,,,,,,,,8
+1181770,R Parag,,,,,,,1st innings,Rajasthan Royals,Delhi Capitals,,,,,,,,Rajasthan Royals,,AllRounder,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,8,279,219,43,2,6,294,231.3333333,28.66666667,1.333333333,10,342.8,239.6,36.6,2.4,10.8,,,,,,8
+1181770,RA Jadeja,,,,,,,2nd innings,Chennai Super Kings,Mumbai Indians,,,,,,,,Chennai Super Kings,,AllRounder,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,163,279,219,31,2.5,15,294,231.3333333,22,1.666666667,18,342.8,239.6,40.6,1.6,16.8,,,37.8,2.8,20.5,8.5
+1181770,S Gopal,,,,,,,1st innings,Rajasthan Royals,Delhi Capitals,,,,,,,,Rajasthan Royals,,Bowler,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,31,279,219,66.5,1.5,15,294,231.3333333,61,1,18,342.8,239.6,54,1.6,19.4,,,41,2.8,21.7,8.5
+1181770,SK Raina,,,,,,,2nd innings,Chennai Super Kings,Delhi Capitals,,,,,,,,,,Batsmen,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,190,279,219,10,1,0,294,231.3333333,9,1,0,342.8,239.6,35,1,0,,,31.7,1.1,0,10
+1181770,SN Thakur,,,,,,,2nd innings,Chennai Super Kings,Mumbai Indians,,,,,,,,Chennai Super Kings,,Bowler,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,36,279,219,22,3,15,294,231.3333333,14,2,18.33333333,342.8,239.6,19.2,1.2,20.2,,,22.8,1.3,21,8.5
+1181770,SR Watson,,,,,,,2nd innings,Chennai Super Kings,Delhi Capitals,,,,,,,,,,AllRounder,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,135,279,219,91.5,0,0,294,231.3333333,65,0,0,342.8,239.6,40.6,0,0,,,38.9,0,0,9.5
+1181770,STR Binny,,,,,,,1st innings,Rajasthan Royals,Delhi Capitals,,,,,,,,Rajasthan Royals,,AllRounder,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,87,279,219,0,3,6.5,294,231.3333333,4.666666667,3.333333333,4.333333333,342.8,239.6,15,3.8,7.4,,,14.2,3.5,4.3,10
+1181770,SV Samson,,,,,,,2nd innings,Rajasthan Royals,Royal Challengers Bangalore,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,89,279,219,21,0.5,0,294,231.3333333,36.33333333,0.666666667,0,342.8,239.6,36.6,0.4,0,,,41.3,0.7,0,9.5
+1181770,VR Aaron,,,,,,,1st innings,Rajasthan Royals,Delhi Capitals,,,,,,,,Rajasthan Royals,,Bowler,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,46,279,219,-2.5,4,9.5,294,231.3333333,15,2.666666667,14.66666667,342.8,239.6,20.2,1.6,14.8,,,23.1,2.2,17.9,8
+1181770,SPD Smith,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,72,440,177.5,34.5,1,0,399.3333333,214.6666667,47.66666667,1,0,385.4,192.8,34.4,1.4,0,372.8,210.9,43.9,1.5,0,9.5
+1181770,RV Uthappa,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,170,407.5,261.5,21.5,1.5,0,422.3333333,255,13.66666667,2,0,423.8,252.6,17.8,1.6,0,419.1,254.2,29.9,1.3,0,9
+1181770,M Vijay,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,102,313.5,281.5,30,0,0,352.3333333,237,45.66666667,0,0,330.6,248.4,33,0,1.4,330.1,253.7,47.2,0,0.7,8.5
+1181770,KM Jadhav,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,70,419.5,214,10,3,0,421.3333333,187.3333333,10.33333333,3,0,398.8,191.8,11.4,3,0,398.5,177.6,18.9,2.7,0,8.5
+1181770,DA Miller,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,77,359,158.5,17.5,2,0,335.6666667,227.6666667,29,2,0,328.8,254,19.4,1.8,0,342.6,253.9,30,2.3,0,8.5
+1181770,M Vohra,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,45,303,274,28.5,1,0,348,232,20,0.666666667,0,331.6,240.6,24,0.8,0,349.1,229.9,31.5,0.5,0,8
+1181770,MJ Santner,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,4,337,230.5,34.5,3,25.5,342,226.3333333,21,2,21.33333333,306.6,252,,,,323.3,267,,,,8.5
+1181770,SM Curran,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,9,419.5,214,35,4,25,421.3333333,187.3333333,22.33333333,3.666666667,22.66666667,398.8,191.8,20.2,3.6,23.4,398.5,177.6,,,,8.5
+1181770,R Tewatia,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,19,473.5,199,23,4.5,15.5,494.3333333,192,29.33333333,5,13,441.8,195.6,16,4,11.4,423.8,207.8,25.9,3.3,14.9,8.5
+1181770,JC Archer,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,21,468.5,211.5,13.5,0,24,456.6666667,208.3333333,36.33333333,1.333333333,24.33333333,456.8,173.6,46.6,2,24.4,401.7,207.8,35.1,2.2,23.9,9
+1181770,PP Chawla,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,157,421,215,49,0,24,399.6666667,185.6666667,32.33333333,2,22,396.6,198.4,29.6,2.4,18.8,403.7,177.8,23.5,3,20.7,8.5
+1181770,L Ngidi,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,7,373,315.5,75.5,0,24.5,381.6666667,282.6666667,69,0,23,353.4,292.2,50.6,0,22.6,395.5,255,,,,8.5
+1181770,AJ Tye,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,26,419.5,214,8,3,22,421.3333333,187.3333333,5.333333333,2,23,398.8,191.8,12.8,1.2,23.8,398.5,177.6,40.8,3.3,24.7,8.5
+1181770,BA Stokes,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,5,402,142,22.5,3,7,400,208.6666667,22.66666667,4,8.666666667,381.8,237.2,,,,360.8,248.9,,,,9.5
+1181770,TK Curran,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,5,402,142,22.5,3,7,400,208.6666667,22.66666667,4,8.666666667,381.8,237.2,,,,360.8,248.9,,,,8.5
+1181770,KV Sharma,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Chennai Super Kings,Rajasthan Royals,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,1,62,245.5,368.5,10.5,0,12.5,308.6666667,317.6666667,5,0,10.33333333,359,278.2,17.2,0,11.6,346.7,271.3,30.7,1.8,16.9,8
+1181770,AS Rajpoot,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,23,339.5,206,11.5,0,25,394.3333333,169.3333333,24.33333333,0,25.33333333,432.4,197.6,31.6,1.8,25.4,430.3,190.4,37.9,2.6,22.2,8
+1181770,JC Buttler,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,72,440,177.5,34.5,1,0,399.3333333,214.6666667,47.66666667,1,0,385.4,192.8,34.4,1.4,0,372.8,210.9,43.9,1.5,0,9.5
+1181770,K Tyagi,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,17,331,210,15,3.5,12.5,349,203,18.66666667,4.666666667,12.33333333,356.4,225.8,11.4,4.4,14.8,356.9,209.2,15.3,2.2,17.2,8
+1181770,M Markande,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Rajasthan Royals,Chennai Super Kings,2020,neutral venue,Sharjah Cricket Stadium,Chennai Super Kings,Rajasthan Royals,Chennai Super Kings,,,0,0,17,331,210,15,3.5,12.5,349,203,18.66666667,4.666666667,12.33333333,356.4,225.8,11.4,4.4,14.8,356.9,209.2,15.3,2.2,17.2,8
+1181771,AB de Villiers,,,,,,,1st innings,Royal Challengers Bangalore,Rajasthan Royals,,,,,,,,,,Batsmen,,,,,,,,,,,,Royal Challengers Bangalore,Sunrisers Hyderabad,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,143,301,304.5,6.5,0.5,0,306.3333333,283.3333333,10.66666667,0.666666667,0,322.8,248.2,34.8,0.8,0,,,47,0.9,0,10
+1181771,B Kumar,,,,,,,1st innings,Sunrisers Hyderabad,Royal Challengers Bangalore,,,,,,,,Sunrisers Hyderabad,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,118,301,304.5,54,3.5,25.5,306.3333333,283.3333333,44.33333333,2.333333333,25.33333333,322.8,248.2,28.2,2.8,25.2,,,28.2,2.1,24.9,9
+1181771,Basil Thampi,,,,,,,1st innings,Sunrisers Hyderabad,Delhi Capitals,,,,,,,,Sunrisers Hyderabad,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,20,301,304.5,-1.5,4,24,306.3333333,283.3333333,-1.666666667,2.666666667,24.33333333,322.8,248.2,1.6,1.6,22,,,19.2,1.5,20.9,8
+1181771,KK Ahmed,,,,,,,,,,,,,,,,,Sunrisers Hyderabad,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,11,301,304.5,75,0,23,306.3333333,283.3333333,73.66666667,0,23.33333333,322.8,248.2,64.2,0,24.2,,,49,1,24.1,8
+1181771,KS Williamson,,,,,,,1st innings,Sunrisers Hyderabad,Royal Challengers Bangalore,,,,,,,,,,Batsmen,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,42,301,304.5,62.5,2,0,306.3333333,283.3333333,42.66666667,2,0,322.8,248.2,32,1.8,0,,,25.8,1.4,0,9.5
+1181771,MK Pandey,,,,,,,1st innings,Sunrisers Hyderabad,Royal Challengers Bangalore,,,,,,,,,,Batsmen,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,120,301,304.5,23,1,0,306.3333333,283.3333333,46,1,0,322.8,248.2,51.4,1,0,,,41.1,1.6,0,9
+1181771,Mohammad Nabi,,,,,,,1st innings,Sunrisers Hyderabad,Royal Challengers Bangalore,,,,,,,,Sunrisers Hyderabad,,AllRounder,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,14,301,304.5,11.5,4.5,19,306.3333333,283.3333333,29,4.666666667,20.66666667,322.8,248.2,24,3.6,20.6,,,39.2,3.8,20.5,9
+1181771,NA Saini,,,,,,,1st innings,Royal Challengers Bangalore,Rajasthan Royals,,,,,,,,Royal Challengers Bangalore,,Bowler,,,,,,,,,,,,Royal Challengers Bangalore,Sunrisers Hyderabad,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,14,301,304.5,21.5,3.5,15,306.3333333,283.3333333,20.66666667,2.333333333,18,322.8,248.2,27.8,1.4,20.6,,,26.4,0.7,22.3,8
+1181771,P Negi,,,,,,,1st innings,Royal Challengers Bangalore,Rajasthan Royals,,,,,,,,,,Bowler,,,,,,,,,,,,Royal Challengers Bangalore,Sunrisers Hyderabad,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,47,301,304.5,5.5,5,3,306.3333333,283.3333333,1.666666667,5.333333333,10.66666667,322.8,248.2,15.6,4.6,14,,,29.9,4.9,14.3,8
+1181771,PA Patel,,,,,,,1st innings,Royal Challengers Bangalore,Rajasthan Royals,,,,,,,,,,Batsmen,,,,,,,,,,,,Royal Challengers Bangalore,Sunrisers Hyderabad,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,137,301,304.5,5,2,0,306.3333333,283.3333333,19.66666667,1.333333333,0,322.8,248.2,37.8,0.8,0,,,30.3,0.4,0,8.5
+1181771,Rashid Khan,,,,,,,1st innings,Sunrisers Hyderabad,Royal Challengers Bangalore,,,,,,,,Sunrisers Hyderabad,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,47,301,304.5,42,7,25,306.3333333,283.3333333,28.66666667,4.666666667,24.66666667,322.8,248.2,42,4.8,24.4,,,36.6,3.1,24.3,9.5
+1181771,UT Yadav,,,,,,,2nd innings,Royal Challengers Bangalore,Sunrisers Hyderabad,,,,,,,,Royal Challengers Bangalore,,Bowler,,,,,,,,,,,,Royal Challengers Bangalore,Sunrisers Hyderabad,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,119,301,304.5,1.5,3,15.5,306.3333333,283.3333333,8.666666667,2,18.33333333,322.8,248.2,30.8,2.6,21.4,,,21,2.7,21.9,8.5
+1181771,V Kohli,,,,,,,1st innings,Royal Challengers Bangalore,Rajasthan Royals,,,,,,,,,,Batsmen,,,,,,,,,,,,Royal Challengers Bangalore,Sunrisers Hyderabad,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,171,301,304.5,26,0.5,0,306.3333333,283.3333333,26.66666667,0.333333333,0,322.8,248.2,21.2,0.2,0,,,49.3,0.1,0,10.5
+1181771,J Holder,,,,,,,1st innings,Sunrisers Hyderabad,Royal Challengers Bangalore,,,,,,,,Sunrisers Hyderabad,,AllRounder,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,31,301,304.5,29.5,3,3.5,306.3333333,283.3333333,24,3,2.333333333,322.8,248.2,17.4,3.2,1.4,,,18.7,2.5,3.1,8.5
+1181771,V Shankar,,,,,,,1st innings,Sunrisers Hyderabad,Royal Challengers Bangalore,,,,,,,,Sunrisers Hyderabad,,AllRounder,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,31,301,304.5,29.5,3,3.5,306.3333333,283.3333333,24,3,2.333333333,322.8,248.2,17.4,3.2,1.4,,,18.7,2.5,3.1,8.5
+1181771,WP Saha,,,,,,,1st innings,Sunrisers Hyderabad,Royal Challengers Bangalore,,,,,,,,,,Batsmen,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,94,301,304.5,17,0,0,306.3333333,283.3333333,21.66666667,0,0,322.8,248.2,21.8,1,0,,,17.9,1.7,0,8
+1181771,Washington Sundar,,,,,,,2nd innings,Royal Challengers Bangalore,Sunrisers Hyderabad,,,,,,,,Royal Challengers Bangalore,,AllRounder,,,,,,,,,,,,Royal Challengers Bangalore,Sunrisers Hyderabad,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,21,301,304.5,51,5.5,21,306.3333333,283.3333333,32.66666667,3.666666667,18,322.8,248.2,20.6,4.6,13.2,,,25.7,3.8,17.6,8.5
+1181771,YS Chahal,,,,,,,,,,,,,,,,,Royal Challengers Bangalore,,Bowler,,,,,,,,,,,,Royal Challengers Bangalore,Sunrisers Hyderabad,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,84,301,304.5,33,0,13.5,306.3333333,283.3333333,37.33333333,0,17,322.8,248.2,26.6,0,17.4,,,25.5,0.8,20.8,9
+1181771,JM Bairstow,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,10,298,265.5,92.5,0,0,318,268,78.33333333,0,0,315,264.6,51.8,0,0,311.5,271.1,,,,9.5
+1181771,Abhishek Sharma,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,125,359,158.5,57,0,0,335.6666667,227.6666667,68.33333333,0,0,328.8,254,67.6,0,0,342.6,253.9,69.4,0,0,8
+1181771,P Garg,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,125,359,158.5,57,0,0,335.6666667,227.6666667,68.33333333,0,0,328.8,254,67.6,0,0,342.6,253.9,69.4,0,0,8
+1181771,DA Warner,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,125,359,158.5,57,0,0,335.6666667,227.6666667,68.33333333,0,0,328.8,254,67.6,0,0,342.6,253.9,69.4,0,0,10.5
+1181771,AJ Finch,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Royal Challengers Bangalore,Sunrisers Hyderabad,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,73,356.5,188,42.5,2,0,411,165.6666667,41.66666667,2.333333333,0,412,168.6,27.6,2,0,372.3,167.9,25.1,2.6,0,8.5
+1181771,CH Morris,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Royal Challengers Bangalore,Sunrisers Hyderabad,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,61,368,205,15,2.5,22,326.6666667,241,36.33333333,3,20.66666667,338,242.8,41.8,2.6,22.6,327.1,261.2,37.7,2.9,23.1,9.5
+1181771,MM Ali,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Royal Challengers Bangalore,Sunrisers Hyderabad,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,16,339.5,206,60.5,3,3,394.3333333,169.3333333,81.66666667,2.666666667,10,432.4,197.6,68.2,2.2,15.8,430.3,190.4,41.5,2.2,13.3,8
+1181771,S Dube,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Royal Challengers Bangalore,Sunrisers Hyderabad,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,4,338.5,267.5,8.5,5,0,324,248.3333333,8.333333333,4.666666667,1.666666667,354.8,228.2,,,,382.9,209.9,,,,8
+1181771,A Zampa,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Royal Challengers Bangalore,Sunrisers Hyderabad,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,11,321,312.5,25,0,14.5,364.6666667,236.3333333,25,0,18,381.6,246.6,25,1.4,19.4,376,207.4,45.1,1.5,20,8.5
+1181771,DW Steyn,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Royal Challengers Bangalore,Sunrisers Hyderabad,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,92,428.5,177,23.5,3.5,18.5,433.3333333,218.6666667,23,5.333333333,18.66666667,434.4,217.6,12.8,5,17.4,434.7,197.1,12.7,3.3,20.2,8.5
+1181771,S Kaul,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,45,440,177.5,34.5,5,24.5,399.3333333,214.6666667,39.66666667,3.333333333,24.66666667,385.4,192.8,24.6,2,23.8,372.8,210.9,29.4,1,23.5,8.5
+1181771,Devdutt Padikkal,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Royal Challengers Bangalore,Sunrisers Hyderabad,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,26,409,259,22,0,19,446,216,23.66666667,2.333333333,16.33333333,408.4,186.8,18.4,1.4,18.2,386.2,209.6,24.5,3.2,20.1,9
+1181771,I Udana,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Royal Challengers Bangalore,Sunrisers Hyderabad,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,26,409,259,22,0,19,446,216,23.66666667,2.333333333,16.33333333,408.4,186.8,18.4,1.4,18.2,386.2,209.6,24.5,3.2,20.1,8
+1181771,M Siraj,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Royal Challengers Bangalore,Sunrisers Hyderabad,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,0,0,26,409,259,22,0,19,446,216,23.66666667,2.333333333,16.33333333,408.4,186.8,18.4,1.4,18.2,386.2,209.6,24.5,3.2,20.1,8
+1181771,B Stanlake,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,6,307,253.5,53,4.5,24.5,301.6666667,231.3333333,43.66666667,3,24.66666667,309.4,263.8,35.8,1.8,24.8,360,227.3,,,,8
+1181771,Sandeep Sharma,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,79,359,158.5,21,0,24,335.6666667,227.6666667,14,0,24.66666667,328.8,254,19.4,1.6,24.6,342.6,253.9,25.5,1.7,23.9,8
+1181771,T Natarajan,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,63,305,244.5,19,0,15,270.6666667,286.6666667,10.66666667,0,14,346.8,242.8,4,0,12,346.7,249.3,15.2,1.6,15.3,8
+1181771,A Samad,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,63,305,244.5,19,0,15,270.6666667,286.6666667,10.66666667,0,14,346.8,242.8,4,0,12,346.7,249.3,15.2,1.6,15.3,8
+1181771,S Nadeem,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Sunrisers Hyderabad,Royal Challengers Bangalore,2020,neutral venue,Dubai International Cricket Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,,,1,1,63,305,244.5,19,0,15,270.6666667,286.6666667,10.66666667,0,14,346.8,242.8,4,0,12,346.7,249.3,15.2,1.6,15.3,8
+1181772,RG Sharma,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Chennai Super Kings,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10
+1181772,Q de Kock,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Chennai Super Kings,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10
+1181772,SA Yadav,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Chennai Super Kings,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9
+1181772,SS Tiwary,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Chennai Super Kings,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8
+1181772,HH Pandya,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Mumbai Indians,Chennai Super Kings,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.5
+1181772,KA Pollard,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Mumbai Indians,Chennai Super Kings,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9
+1181772,KH Pandya,,,,,,,,,,,,,,,,,,,AllRounder,,,,,,,,,,,,Mumbai Indians,Chennai Super Kings,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8
+1181772,James Pattinson,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Chennai Super Kings,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.5
+1181772,RD Chahar,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Mumbai Indians,Chennai Super Kings,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.5
+1181772,TA Boult,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Chennai Super Kings,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9
+1181772,JJ Bumrah,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Chennai Super Kings,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9
+1181772,Ishan Kishan,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Mumbai Indians,Chennai Super Kings,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.5
+1181772,Shubman Gill,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Kolkata Knight Riders,Mumbai Indians,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10
+1181772,SP Narine,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Kolkata Knight Riders,Mumbai Indians,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10
+1181772,KD Karthik,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Kolkata Knight Riders,Mumbai Indians,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10
+1181772,N Rana,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Kolkata Knight Riders,Mumbai Indians,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10
+1181772,EJG Morgan,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Kolkata Knight Riders,Mumbai Indians,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10
+1181772,AD Russell,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Kolkata Knight Riders,Mumbai Indians,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10
+1181772,NS Naik,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Kolkata Knight Riders,Mumbai Indians,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10
+1181772,PJ Cummins,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Kolkata Knight Riders,Mumbai Indians,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10
+1181772,Shivam Mavi,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Kolkata Knight Riders,Mumbai Indians,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10
+1181772,Kuldeep Yadav,,,,,,,,,,,,,,,,,,,Batsmen,,,,,,,,,,,,Kolkata Knight Riders,Mumbai Indians,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10
+1181772,Sandeep Warrier,,,,,,,,,,,,,,,,,,,Bowler,,,,,,,,,,,,Kolkata Knight Riders,Mumbai Indians,2020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10

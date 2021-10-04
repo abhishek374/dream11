@@ -1,0 +1,250 @@
+ipl_season,sequence,eventid,innings,target,remainingballs,homescore,awayscore,fallofwickets,ball,over,scorevalue,validball,extras,dismissal,dismissaltype,batsmanid,batsman,batsmanteam,bowlerid,bowler,bowlerteam,otherathleteinvolvedid,otherathleteinvolved,nonstrikerid,nonstriker,runs,runrate
+ipl20,100001,1254104,1st innings,0,119,0/0,0,0,1,0.1,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,44828,Faf du Plessis,0,0.0
+ipl20,100002,1254104,1st innings,0,118,1/0,0,0,2,0.2,1,0,1,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,44828,Faf du Plessis,1,3.0
+ipl20,100003,1254104,1st innings,0,117,1/0,0,0,3,0.3,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,2.0
+ipl20,100004,1254104,1st innings,0,116,1/0,0,0,4,0.4,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,1.5
+ipl20,100005,1254104,1st innings,0,115,1/1,0,1,5,0.5,0,0,0,True,caught,44828,Faf du Plessis,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,44828,Faf du Plessis,1060380,Ruturaj Gaikwad,0,1.2
+ipl20,100006,1254104,1st innings,0,114,1/1,0,0,6,0.6,0,0,0,False,,8917,Moeen Ali,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,1.0
+ipl20,100101,1254104,1st innings,0,113,2/1,0,0,7,1.1,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,8917,Moeen Ali,1,1.71
+ipl20,100102,1254104,1st innings,0,112,2/1,0,0,8,1.2,0,0,0,False,,8917,Moeen Ali,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,1.5
+ipl20,100103,1254104,1st innings,0,111,2/2,0,2,9,1.3,0,0,0,True,caught,8917,Moeen Ali,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,35390,Saurabh Tiwary,1060380,Ruturaj Gaikwad,0,1.33
+ipl20,100104,1254104,1st innings,0,110,2/2,0,0,10,1.4,0,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,1.2
+ipl20,100105,1254104,1st innings,0,109,2/2,0,0,11,1.5,0,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,1.09
+ipl20,100106,1254104,1st innings,0,108,3/2,0,0,12,1.6,1,0,1,True,retired not out (hurt),33141,Ambati Rayudu,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,450860,Adam Milne,1060380,Ruturaj Gaikwad,1,1.5
+ipl20,100201,1254104,1st innings,0,107,3/2,0,0,13,2.1,0,0,0,False,,33335,Suresh Raina,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,1.38
+ipl20,100202,1254104,1st innings,0,106,3/2,0,0,14,2.2,0,0,0,False,,33335,Suresh Raina,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,1.28
+ipl20,100203,1254104,1st innings,0,105,3/2,0,0,15,2.3,0,0,0,False,,33335,Suresh Raina,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,1.2
+ipl20,100204,1254104,1st innings,0,104,7/2,0,0,16,2.4,4,0,0,False,,33335,Suresh Raina,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,1060380,Ruturaj Gaikwad,4,2.62
+ipl20,100205,1254104,1st innings,0,103,7/2,0,0,17,2.5,0,0,0,False,,33335,Suresh Raina,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,2.47
+ipl20,100206,1254104,1st innings,0,102,7/3,0,3,18,2.6,0,0,0,True,caught,33335,Suresh Raina,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,33335,Suresh Raina,1060380,Ruturaj Gaikwad,0,2.33
+ipl20,100301,1254104,1st innings,0,101,7/3,0,0,19,3.1,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,28081,MS Dhoni,0,2.21
+ipl20,100302,1254104,1st innings,0,100,7/3,0,0,20,3.2,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,28081,MS Dhoni,0,2.1
+ipl20,100303,1254104,1st innings,0,99,11/3,0,0,21,3.3,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,28081,MS Dhoni,4,3.14
+ipl20,100304,1254104,1st innings,0,98,11/3,0,0,22,3.4,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,28081,MS Dhoni,0,3.0
+ipl20,100305,1254104,1st innings,0,97,11/3,0,0,23,3.5,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,28081,MS Dhoni,0,2.86
+ipl20,100306,1254104,1st innings,0,96,11/3,0,0,24,3.6,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,28081,MS Dhoni,0,2.75
+ipl20,100401,1254104,1st innings,0,95,12/3,0,0,25,4.1,1,0,0,False,,28081,MS Dhoni,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,2.88
+ipl20,100402,1254104,1st innings,0,94,13/3,0,0,26,4.2,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,28081,MS Dhoni,1,3.0
+ipl20,100403,1254104,1st innings,0,93,14/3,0,0,27,4.3,1,0,0,False,,28081,MS Dhoni,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,3.11
+ipl20,100404,1254104,1st innings,0,92,14/3,0,0,28,4.4,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,28081,MS Dhoni,0,3.0
+ipl20,100405,1254104,1st innings,0,91,18/3,0,0,29,4.5,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,28081,MS Dhoni,4,3.72
+ipl20,100406,1254104,1st innings,0,90,18/3,0,0,30,4.6,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,28081,MS Dhoni,0,3.6
+ipl20,100501,1254104,1st innings,0,89,18/3,0,0,31,5.1,0,0,0,False,,28081,MS Dhoni,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,3.48
+ipl20,100502,1254104,1st innings,0,88,19/3,0,0,32,5.2,1,0,0,False,,28081,MS Dhoni,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,3.56
+ipl20,100503,1254104,1st innings,0,87,23/3,0,0,33,5.3,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,28081,MS Dhoni,4,4.18
+ipl20,100504,1254104,1st innings,0,86,23/3,0,0,34,5.4,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,28081,MS Dhoni,0,4.05
+ipl20,100505,1254104,1st innings,0,85,24/3,0,0,35,5.5,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,28081,MS Dhoni,1,4.11
+ipl20,100506,1254104,1st innings,0,84,24/4,0,4,36,5.6,0,0,0,True,caught,28081,MS Dhoni,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,277912,Trent Boult,1060380,Ruturaj Gaikwad,0,4.0
+ipl20,100601,1254104,1st innings,0,83,25/4,0,0,37,6.1,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,234675,Ravindra Jadeja,1,4.05
+ipl20,100602,1254104,1st innings,0,82,27/4,0,0,38,6.2,2,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,1060380,Ruturaj Gaikwad,2,4.26
+ipl20,100603,1254104,1st innings,0,81,27/4,0,0,39,6.3,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,4.15
+ipl20,100604,1254104,1st innings,0,80,27/4,0,0,40,6.4,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,4.05
+ipl20,100605,1254104,1st innings,0,79,27/4,0,0,41,6.5,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,3.95
+ipl20,100606,1254104,1st innings,0,78,27/4,0,0,42,6.6,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,3.85
+ipl20,100701,1254104,1st innings,0,77,28/4,0,0,43,7.1,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,230559,Kieron Pollard,Mumbai Indians,,,234675,Ravindra Jadeja,1,3.9
+ipl20,100702,1254104,1st innings,0,77,29/4,0,0,43,7.1,1,1,1,False,,234675,Ravindra Jadeja,Chennai Super Kings,230559,Kieron Pollard,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,4.04
+ipl20,100703,1254104,1st innings,0,76,30/4,0,0,44,7.2,1,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,230559,Kieron Pollard,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,4.09
+ipl20,100704,1254104,1st innings,0,75,30/4,0,0,45,7.3,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,230559,Kieron Pollard,Mumbai Indians,,,234675,Ravindra Jadeja,0,4.0
+ipl20,100705,1254104,1st innings,0,74,31/4,0,0,46,7.4,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,230559,Kieron Pollard,Mumbai Indians,,,234675,Ravindra Jadeja,1,4.04
+ipl20,100706,1254104,1st innings,0,73,31/4,0,0,47,7.5,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,230559,Kieron Pollard,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,3.95
+ipl20,100707,1254104,1st innings,0,72,31/4,0,0,48,7.6,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,230559,Kieron Pollard,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,3.87
+ipl20,100801,1254104,1st innings,0,71,31/4,0,0,49,8.1,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,234675,Ravindra Jadeja,0,3.79
+ipl20,100802,1254104,1st innings,0,70,32/4,0,0,50,8.2,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,234675,Ravindra Jadeja,1,3.84
+ipl20,100803,1254104,1st innings,0,69,34/4,0,0,51,8.3,2,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,1060380,Ruturaj Gaikwad,2,4.0
+ipl20,100804,1254104,1st innings,0,68,35/4,0,0,52,8.4,1,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,4.03
+ipl20,100805,1254104,1st innings,0,67,35/4,0,0,53,8.5,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,234675,Ravindra Jadeja,0,3.96
+ipl20,100806,1254104,1st innings,0,66,35/4,0,0,54,8.6,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,234675,Ravindra Jadeja,0,3.88
+ipl20,100901,1254104,1st innings,0,65,36/4,0,0,55,9.1,1,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,471342,Krunal Pandya,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,3.92
+ipl20,100902,1254104,1st innings,0,64,38/4,0,0,56,9.2,2,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,471342,Krunal Pandya,Mumbai Indians,,,234675,Ravindra Jadeja,2,4.07
+ipl20,100903,1254104,1st innings,0,63,39/4,0,0,57,9.3,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,471342,Krunal Pandya,Mumbai Indians,,,234675,Ravindra Jadeja,1,4.1
+ipl20,100904,1254104,1st innings,0,63,43/4,0,0,57,9.3,4,4,4,False,,234675,Ravindra Jadeja,Chennai Super Kings,471342,Krunal Pandya,Mumbai Indians,,,1060380,Ruturaj Gaikwad,4,4.52
+ipl20,100905,1254104,1st innings,0,62,44/4,0,0,58,9.4,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,471342,Krunal Pandya,Mumbai Indians,,,234675,Ravindra Jadeja,1,4.55
+ipl20,100906,1254104,1st innings,0,61,44/4,0,0,59,9.5,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,471342,Krunal Pandya,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,4.47
+ipl20,100907,1254104,1st innings,0,60,44/4,0,0,60,9.6,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,471342,Krunal Pandya,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,4.4
+ipl20,101001,1254104,1st innings,0,59,46/4,0,0,61,10.1,2,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,234675,Ravindra Jadeja,2,4.52
+ipl20,101002,1254104,1st innings,0,58,46/4,0,0,62,10.2,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,234675,Ravindra Jadeja,0,4.45
+ipl20,101003,1254104,1st innings,0,57,47/4,0,0,63,10.3,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,234675,Ravindra Jadeja,1,4.47
+ipl20,101004,1254104,1st innings,0,56,47/4,0,0,64,10.4,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,4.4
+ipl20,101005,1254104,1st innings,0,55,47/4,0,0,65,10.5,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,4.33
+ipl20,101006,1254104,1st innings,0,54,48/4,0,0,66,10.6,1,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,4.36
+ipl20,101101,1254104,1st innings,0,53,49/4,0,0,67,11.1,1,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,471342,Krunal Pandya,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,4.38
+ipl20,101102,1254104,1st innings,0,52,55/4,0,0,68,11.2,6,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,471342,Krunal Pandya,Mumbai Indians,,,234675,Ravindra Jadeja,6,4.85
+ipl20,101103,1254104,1st innings,0,51,56/4,0,0,69,11.3,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,471342,Krunal Pandya,Mumbai Indians,,,234675,Ravindra Jadeja,1,4.86
+ipl20,101104,1254104,1st innings,0,51,57/4,0,0,69,11.3,1,1,1,False,,234675,Ravindra Jadeja,Chennai Super Kings,471342,Krunal Pandya,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,4.95
+ipl20,101105,1254104,1st innings,0,50,61/4,0,0,70,11.4,4,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,471342,Krunal Pandya,Mumbai Indians,,,1060380,Ruturaj Gaikwad,4,5.22
+ipl20,101106,1254104,1st innings,0,49,62/4,0,0,71,11.5,1,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,471342,Krunal Pandya,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,5.23
+ipl20,101107,1254104,1st innings,0,48,66/4,0,0,72,11.6,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,471342,Krunal Pandya,Mumbai Indians,,,234675,Ravindra Jadeja,4,5.5
+ipl20,101201,1254104,1st innings,0,47,66/4,0,0,73,12.1,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,5.42
+ipl20,101202,1254104,1st innings,0,46,67/4,0,0,74,12.2,1,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,5.43
+ipl20,101203,1254104,1st innings,0,45,69/4,0,0,75,12.3,2,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,234675,Ravindra Jadeja,2,5.52
+ipl20,101204,1254104,1st innings,0,44,73/4,0,0,76,12.4,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,234675,Ravindra Jadeja,4,5.76
+ipl20,101205,1254104,1st innings,0,43,73/4,0,0,77,12.5,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,234675,Ravindra Jadeja,0,5.68
+ipl20,101206,1254104,1st innings,0,42,74/4,0,0,78,12.6,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,234675,Ravindra Jadeja,1,5.69
+ipl20,101301,1254104,1st innings,0,41,75/4,0,0,79,13.1,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,234675,Ravindra Jadeja,1,5.69
+ipl20,101302,1254104,1st innings,0,40,75/4,0,0,80,13.2,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,5.62
+ipl20,101303,1254104,1st innings,0,39,77/4,0,0,81,13.3,2,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,1060380,Ruturaj Gaikwad,2,5.7
+ipl20,101304,1254104,1st innings,0,38,79/4,0,0,82,13.4,2,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,1060380,Ruturaj Gaikwad,2,5.78
+ipl20,101305,1254104,1st innings,0,37,79/4,0,0,83,13.5,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,5.71
+ipl20,101306,1254104,1st innings,0,37,80/4,0,0,83,13.5,1,1,1,False,,234675,Ravindra Jadeja,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,5.78
+ipl20,101307,1254104,1st innings,0,36,81/4,0,0,84,13.6,1,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,5.78
+ipl20,101401,1254104,1st innings,0,35,81/4,0,0,85,14.1,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,5.71
+ipl20,101402,1254104,1st innings,0,34,83/4,0,0,86,14.2,2,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,1060380,Ruturaj Gaikwad,2,5.79
+ipl20,101403,1254104,1st innings,0,33,83/4,0,0,87,14.3,0,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,1060380,Ruturaj Gaikwad,0,5.72
+ipl20,101404,1254104,1st innings,0,32,85/4,0,0,88,14.4,2,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,1060380,Ruturaj Gaikwad,2,5.79
+ipl20,101405,1254104,1st innings,0,31,86/4,0,0,89,14.5,1,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,5.79
+ipl20,101406,1254104,1st innings,0,30,87/4,0,0,90,14.6,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,1064812,Rahul Chahar,Mumbai Indians,,,234675,Ravindra Jadeja,1,5.8
+ipl20,101501,1254104,1st innings,0,29,88/4,0,0,91,15.1,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,230559,Kieron Pollard,Mumbai Indians,,,234675,Ravindra Jadeja,1,5.8
+ipl20,101502,1254104,1st innings,0,28,89/4,0,0,92,15.2,1,0,0,False,,234675,Ravindra Jadeja,Chennai Super Kings,230559,Kieron Pollard,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,5.8
+ipl20,101503,1254104,1st innings,0,27,93/4,0,0,93,15.3,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,230559,Kieron Pollard,Mumbai Indians,,,234675,Ravindra Jadeja,4,6.0
+ipl20,101504,1254104,1st innings,0,26,93/4,0,0,94,15.4,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,230559,Kieron Pollard,Mumbai Indians,,,234675,Ravindra Jadeja,0,5.93
+ipl20,101505,1254104,1st innings,0,25,97/4,0,0,95,15.5,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,230559,Kieron Pollard,Mumbai Indians,,,234675,Ravindra Jadeja,4,6.12
+ipl20,101506,1254104,1st innings,0,24,98/4,0,0,96,15.6,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,230559,Kieron Pollard,Mumbai Indians,,,234675,Ravindra Jadeja,1,6.12
+ipl20,101601,1254104,1st innings,0,23,98/4,0,0,97,16.1,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,234675,Ravindra Jadeja,0,6.06
+ipl20,101602,1254104,1st innings,0,22,104/4,0,0,98,16.2,6,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,234675,Ravindra Jadeja,6,6.36
+ipl20,101603,1254104,1st innings,0,21,105/4,0,0,99,16.3,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,234675,Ravindra Jadeja,1,6.36
+ipl20,101604,1254104,1st innings,0,20,105/5,0,5,100,16.4,0,0,0,True,caught,234675,Ravindra Jadeja,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,230559,Kieron Pollard,1060380,Ruturaj Gaikwad,0,6.3
+ipl20,101605,1254104,1st innings,0,19,105/5,0,0,101,16.5,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,51439,Dwayne Bravo,0,6.23
+ipl20,101606,1254104,1st innings,0,18,107/5,0,0,102,16.6,2,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,51439,Dwayne Bravo,2,6.29
+ipl20,101701,1254104,1st innings,0,17,108/5,0,0,103,17.1,1,0,0,False,,51439,Dwayne Bravo,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,6.29
+ipl20,101702,1254104,1st innings,0,16,108/5,0,0,104,17.2,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,51439,Dwayne Bravo,0,6.23
+ipl20,101703,1254104,1st innings,0,15,109/5,0,0,105,17.3,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,51439,Dwayne Bravo,1,6.22
+ipl20,101704,1254104,1st innings,0,14,110/5,0,0,106,17.4,1,0,0,False,,51439,Dwayne Bravo,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,6.22
+ipl20,101705,1254104,1st innings,0,13,111/5,0,0,107,17.5,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,51439,Dwayne Bravo,1,6.22
+ipl20,101706,1254104,1st innings,0,12,117/5,0,0,108,17.6,6,0,0,False,,51439,Dwayne Bravo,Chennai Super Kings,450860,Adam Milne,Mumbai Indians,,,1060380,Ruturaj Gaikwad,6,6.5
+ipl20,101801,1254104,1st innings,0,11,121/5,0,0,109,18.1,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,51439,Dwayne Bravo,4,6.66
+ipl20,101802,1254104,1st innings,0,10,122/5,0,0,110,18.2,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,51439,Dwayne Bravo,1,6.65
+ipl20,101803,1254104,1st innings,0,9,128/5,0,0,111,18.3,6,0,0,False,,51439,Dwayne Bravo,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,1060380,Ruturaj Gaikwad,6,6.91
+ipl20,101804,1254104,1st innings,0,8,134/5,0,0,112,18.4,6,0,0,False,,51439,Dwayne Bravo,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,1060380,Ruturaj Gaikwad,6,7.17
+ipl20,101805,1254104,1st innings,0,7,135/5,0,0,113,18.5,1,0,0,False,,51439,Dwayne Bravo,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,7.16
+ipl20,101806,1254104,1st innings,0,6,141/5,0,0,114,18.6,6,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,277912,Trent Boult,Mumbai Indians,,,51439,Dwayne Bravo,6,7.42
+ipl20,101901,1254104,1st innings,0,6,142/5,0,0,114,19.0,1,1,1,False,,51439,Dwayne Bravo,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,7.47
+ipl20,101902,1254104,1st innings,0,5,144/5,0,0,115,19.1,2,0,0,False,,51439,Dwayne Bravo,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,1060380,Ruturaj Gaikwad,2,7.51
+ipl20,101903,1254104,1st innings,0,4,144/6,0,6,116,19.2,0,0,0,True,caught,51439,Dwayne Bravo,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,51439,Dwayne Bravo,1060380,Ruturaj Gaikwad,0,7.44
+ipl20,101904,1254104,1st innings,0,3,148/6,0,0,117,19.3,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,475281,Shardul Thakur,4,7.58
+ipl20,101905,1254104,1st innings,0,2,149/6,0,0,118,19.4,1,0,1,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,475281,Shardul Thakur,1,7.57
+ipl20,101906,1254104,1st innings,0,1,150/6,0,0,119,19.5,1,0,0,False,,475281,Shardul Thakur,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,1060380,Ruturaj Gaikwad,1,7.56
+ipl20,101907,1254104,1st innings,0,0,156/6,0,0,120,19.6,6,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,625383,Jasprit Bumrah,Mumbai Indians,,,475281,Shardul Thakur,6,7.8
+ipl20,200001,1254104,2nd innings,157,119,0,0/0,0,1,0.1,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,851261,Anmolpreet Singh,0,0.0
+ipl20,200002,1254104,2nd innings,157,118,0,0/0,0,2,0.2,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,851261,Anmolpreet Singh,0,0.0
+ipl20,200003,1254104,2nd innings,157,117,0,0/0,0,3,0.3,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,851261,Anmolpreet Singh,0,0.0
+ipl20,200004,1254104,2nd innings,157,116,0,2/0,0,4,0.4,2,0,0,False,,379143,Quinton de Kock,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,851261,Anmolpreet Singh,2,3.0
+ipl20,200005,1254104,2nd innings,157,115,0,2/0,0,5,0.5,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,851261,Anmolpreet Singh,0,2.4
+ipl20,200006,1254104,2nd innings,157,114,0,2/0,0,6,0.6,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,851261,Anmolpreet Singh,0,2.0
+ipl20,200101,1254104,2nd innings,157,113,0,2/0,0,7,1.1,0,0,0,False,,851261,Anmolpreet Singh,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,379143,Quinton de Kock,0,1.71
+ipl20,200102,1254104,2nd innings,157,112,0,3/0,0,8,1.2,1,0,0,False,,851261,Anmolpreet Singh,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,379143,Quinton de Kock,1,2.25
+ipl20,200103,1254104,2nd innings,157,111,0,7/0,0,9,1.3,4,0,0,False,,379143,Quinton de Kock,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,851261,Anmolpreet Singh,4,4.66
+ipl20,200104,1254104,2nd innings,157,110,0,9/0,0,10,1.4,2,0,0,False,,379143,Quinton de Kock,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,851261,Anmolpreet Singh,2,5.4
+ipl20,200105,1254104,2nd innings,157,109,0,13/0,0,11,1.5,4,0,0,False,,379143,Quinton de Kock,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,851261,Anmolpreet Singh,4,7.09
+ipl20,200106,1254104,2nd innings,157,108,0,14/0,0,12,1.6,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,851261,Anmolpreet Singh,1,7.0
+ipl20,200201,1254104,2nd innings,157,107,0,18/0,0,13,2.1,4,0,0,False,,379143,Quinton de Kock,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,851261,Anmolpreet Singh,4,8.3
+ipl20,200202,1254104,2nd innings,157,106,0,18/1,1,14,2.2,0,0,0,True,leg before wicket,379143,Quinton de Kock,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,379143,Quinton de Kock,851261,Anmolpreet Singh,0,7.71
+ipl20,200203,1254104,2nd innings,157,105,0,19/1,0,15,2.3,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,851261,Anmolpreet Singh,1,7.6
+ipl20,200204,1254104,2nd innings,157,104,0,19/1,0,16,2.4,0,0,0,False,,851261,Anmolpreet Singh,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,446507,Suryakumar Yadav,0,7.12
+ipl20,200205,1254104,2nd innings,157,103,0,20/1,0,17,2.5,1,0,0,False,,851261,Anmolpreet Singh,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,446507,Suryakumar Yadav,1,7.05
+ipl20,200206,1254104,2nd innings,157,102,0,20/1,0,18,2.6,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,851261,Anmolpreet Singh,0,6.66
+ipl20,200301,1254104,2nd innings,157,101,0,20/1,0,19,3.1,0,0,0,False,,851261,Anmolpreet Singh,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,446507,Suryakumar Yadav,0,6.31
+ipl20,200302,1254104,2nd innings,157,100,0,20/1,0,20,3.2,0,0,0,False,,851261,Anmolpreet Singh,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,446507,Suryakumar Yadav,0,6.0
+ipl20,200303,1254104,2nd innings,157,99,0,24/1,0,21,3.3,4,0,0,False,,851261,Anmolpreet Singh,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,446507,Suryakumar Yadav,4,6.85
+ipl20,200304,1254104,2nd innings,157,98,0,24/1,0,22,3.4,0,0,0,False,,851261,Anmolpreet Singh,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,446507,Suryakumar Yadav,0,6.54
+ipl20,200305,1254104,2nd innings,157,97,0,30/1,0,23,3.5,6,0,0,False,,851261,Anmolpreet Singh,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,446507,Suryakumar Yadav,6,7.82
+ipl20,200306,1254104,2nd innings,157,96,0,34/1,0,24,3.6,4,0,0,False,,851261,Anmolpreet Singh,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,446507,Suryakumar Yadav,4,8.5
+ipl20,200401,1254104,2nd innings,157,95,0,34/1,0,25,4.1,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,851261,Anmolpreet Singh,0,8.16
+ipl20,200402,1254104,2nd innings,157,94,0,35/1,0,26,4.2,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,851261,Anmolpreet Singh,1,8.07
+ipl20,200403,1254104,2nd innings,157,93,0,35/1,0,27,4.3,0,0,0,False,,851261,Anmolpreet Singh,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,446507,Suryakumar Yadav,0,7.77
+ipl20,200404,1254104,2nd innings,157,92,0,35/1,0,28,4.4,0,0,0,False,,851261,Anmolpreet Singh,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,446507,Suryakumar Yadav,0,7.5
+ipl20,200405,1254104,2nd innings,157,91,0,35/1,0,29,4.5,0,0,0,False,,851261,Anmolpreet Singh,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,446507,Suryakumar Yadav,0,7.24
+ipl20,200406,1254104,2nd innings,157,90,0,35/2,2,30,4.6,0,0,0,True,bowled,851261,Anmolpreet Singh,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,447261,Deepak Chahar,446507,Suryakumar Yadav,0,7.0
+ipl20,200501,1254104,2nd innings,157,89,0,36/2,0,31,5.1,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,720471,Ishan Kishan,1,6.96
+ipl20,200502,1254104,2nd innings,157,88,0,37/2,0,32,5.2,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,446507,Suryakumar Yadav,1,6.93
+ipl20,200503,1254104,2nd innings,157,87,0,37/2,0,33,5.3,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,720471,Ishan Kishan,0,6.72
+ipl20,200504,1254104,2nd innings,157,86,0,37/3,3,34,5.4,0,0,0,True,caught,446507,Suryakumar Yadav,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,44828,Faf du Plessis,720471,Ishan Kishan,0,6.52
+ipl20,200505,1254104,2nd innings,157,85,0,37/3,0,35,5.5,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,720471,Ishan Kishan,0,6.34
+ipl20,200506,1254104,2nd innings,157,84,0,41/3,0,36,5.6,4,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,720471,Ishan Kishan,4,6.83
+ipl20,200601,1254104,2nd innings,157,83,0,42/3,0,37,6.1,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.81
+ipl20,200602,1254104,2nd innings,157,82,0,42/3,0,38,6.2,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,,,720471,Ishan Kishan,0,6.63
+ipl20,200603,1254104,2nd innings,157,81,0,42/3,0,39,6.3,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,,,720471,Ishan Kishan,0,6.46
+ipl20,200604,1254104,2nd innings,157,80,0,43/3,0,40,6.4,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,,,720471,Ishan Kishan,1,6.45
+ipl20,200605,1254104,2nd innings,157,79,0,44/3,0,41,6.5,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.43
+ipl20,200606,1254104,2nd innings,157,78,0,45/3,0,42,6.6,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,,,720471,Ishan Kishan,1,6.42
+ipl20,200701,1254104,2nd innings,157,77,0,45/3,0,43,7.1,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,720471,Ishan Kishan,0,6.27
+ipl20,200702,1254104,2nd innings,157,76,0,45/3,0,44,7.2,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,720471,Ishan Kishan,0,6.13
+ipl20,200703,1254104,2nd innings,157,75,0,46/3,0,45,7.3,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,720471,Ishan Kishan,1,6.13
+ipl20,200704,1254104,2nd innings,157,74,0,47/3,0,46,7.4,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.13
+ipl20,200705,1254104,2nd innings,157,73,0,48/3,0,47,7.5,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,720471,Ishan Kishan,1,6.12
+ipl20,200706,1254104,2nd innings,157,72,0,48/3,0,48,7.6,0,0,0,False,,720471,Ishan Kishan,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,35390,Saurabh Tiwary,0,6.0
+ipl20,200801,1254104,2nd innings,157,71,0,49/3,0,49,8.1,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,,,720471,Ishan Kishan,1,6.0
+ipl20,200802,1254104,2nd innings,157,70,0,50/3,0,50,8.2,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.0
+ipl20,200803,1254104,2nd innings,157,69,0,51/3,0,51,8.3,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,,,720471,Ishan Kishan,1,6.0
+ipl20,200804,1254104,2nd innings,157,68,0,52/3,0,52,8.4,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.0
+ipl20,200805,1254104,2nd innings,157,67,0,53/3,0,53,8.5,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,,,720471,Ishan Kishan,1,6.0
+ipl20,200806,1254104,2nd innings,157,66,0,54/3,0,54,8.6,1,0,0,False,,720471,Ishan Kishan,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.0
+ipl20,200901,1254104,2nd innings,157,65,0,58/3,0,55,9.1,4,0,0,False,,720471,Ishan Kishan,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,35390,Saurabh Tiwary,4,6.32
+ipl20,200902,1254104,2nd innings,157,64,0,58/4,4,56,9.2,0,0,0,True,caught,720471,Ishan Kishan,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,33335,Suresh Raina,35390,Saurabh Tiwary,0,6.21
+ipl20,200903,1254104,2nd innings,157,63,0,58/4,0,57,9.3,0,0,0,False,,230559,Kieron Pollard,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,35390,Saurabh Tiwary,0,6.1
+ipl20,200904,1254104,2nd innings,157,62,0,58/4,0,58,9.4,0,0,0,False,,230559,Kieron Pollard,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,35390,Saurabh Tiwary,0,6.0
+ipl20,200905,1254104,2nd innings,157,61,0,58/4,0,59,9.5,0,0,0,False,,230559,Kieron Pollard,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,35390,Saurabh Tiwary,0,5.89
+ipl20,200906,1254104,2nd innings,157,60,0,62/4,0,60,9.6,4,0,0,False,,230559,Kieron Pollard,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,35390,Saurabh Tiwary,4,6.2
+ipl20,201001,1254104,2nd innings,157,59,0,66/4,0,61,10.1,4,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,234675,Ravindra Jadeja,Chennai Super Kings,,,230559,Kieron Pollard,4,6.49
+ipl20,201002,1254104,2nd innings,157,58,0,67/4,0,62,10.2,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,234675,Ravindra Jadeja,Chennai Super Kings,,,230559,Kieron Pollard,1,6.48
+ipl20,201003,1254104,2nd innings,157,57,0,68/4,0,63,10.3,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,234675,Ravindra Jadeja,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.47
+ipl20,201004,1254104,2nd innings,157,56,0,69/4,0,64,10.4,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,234675,Ravindra Jadeja,Chennai Super Kings,,,230559,Kieron Pollard,1,6.46
+ipl20,201005,1254104,2nd innings,157,55,0,75/4,0,65,10.5,6,0,0,False,,230559,Kieron Pollard,Mumbai Indians,234675,Ravindra Jadeja,Chennai Super Kings,,,35390,Saurabh Tiwary,6,6.92
+ipl20,201006,1254104,2nd innings,157,54,0,75/4,0,66,10.6,0,0,0,False,,230559,Kieron Pollard,Mumbai Indians,234675,Ravindra Jadeja,Chennai Super Kings,,,35390,Saurabh Tiwary,0,6.81
+ipl20,201101,1254104,2nd innings,157,53,0,75/4,0,67,11.1,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,230559,Kieron Pollard,0,6.71
+ipl20,201102,1254104,2nd innings,157,52,0,79/4,0,68,11.2,4,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,230559,Kieron Pollard,4,6.97
+ipl20,201103,1254104,2nd innings,157,51,0,80/4,0,69,11.3,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,230559,Kieron Pollard,1,6.95
+ipl20,201104,1254104,2nd innings,157,50,0,80/4,0,70,11.4,0,0,0,False,,230559,Kieron Pollard,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,35390,Saurabh Tiwary,0,6.85
+ipl20,201105,1254104,2nd innings,157,49,0,80/4,0,71,11.5,0,0,0,False,,230559,Kieron Pollard,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,35390,Saurabh Tiwary,0,6.76
+ipl20,201106,1254104,2nd innings,157,49,0,81/4,0,71,11.5,1,1,1,False,,230559,Kieron Pollard,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.84
+ipl20,201107,1254104,2nd innings,157,48,0,82/4,0,72,11.6,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.83
+ipl20,201201,1254104,2nd innings,157,47,0,83/4,0,73,12.1,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.82
+ipl20,201202,1254104,2nd innings,157,46,0,84/4,0,74,12.2,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,230559,Kieron Pollard,1,6.81
+ipl20,201203,1254104,2nd innings,157,45,0,85/4,0,75,12.3,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.8
+ipl20,201204,1254104,2nd innings,157,44,0,85/4,0,76,12.4,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,230559,Kieron Pollard,0,6.71
+ipl20,201205,1254104,2nd innings,157,43,0,86/4,0,77,12.5,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,230559,Kieron Pollard,1,6.7
+ipl20,201206,1254104,2nd innings,157,42,0,87/4,0,78,12.6,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.69
+ipl20,201301,1254104,2nd innings,157,41,0,87/5,5,79,13.1,0,0,0,True,leg before wicket,230559,Kieron Pollard,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,230559,Kieron Pollard,35390,Saurabh Tiwary,0,6.6
+ipl20,201302,1254104,2nd innings,157,40,0,88/5,0,80,13.2,1,0,0,False,,471342,Krunal Pandya,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.6
+ipl20,201303,1254104,2nd innings,157,39,0,88/5,0,81,13.3,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,471342,Krunal Pandya,0,6.51
+ipl20,201304,1254104,2nd innings,157,38,0,89/5,0,82,13.4,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,471342,Krunal Pandya,1,6.51
+ipl20,201305,1254104,2nd innings,157,37,0,90/5,0,83,13.5,1,0,0,False,,471342,Krunal Pandya,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.5
+ipl20,201306,1254104,2nd innings,157,36,0,91/5,0,84,13.6,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,471342,Krunal Pandya,1,6.5
+ipl20,201401,1254104,2nd innings,157,35,0,92/5,0,85,14.1,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,,,471342,Krunal Pandya,1,6.49
+ipl20,201402,1254104,2nd innings,157,34,0,94/5,0,86,14.2,2,0,0,False,,471342,Krunal Pandya,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,,,35390,Saurabh Tiwary,2,6.55
+ipl20,201403,1254104,2nd innings,157,33,0,94/5,0,87,14.3,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,,,35390,Saurabh Tiwary,0,6.48
+ipl20,201404,1254104,2nd innings,157,32,0,94/6,6,88,14.4,0,0,0,True,run out,471342,Krunal Pandya,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,8917,Moeen Ali,35390,Saurabh Tiwary,0,6.4
+ipl20,201405,1254104,2nd innings,157,31,0,95/6,0,89,14.5,1,0,0,False,,450860,Adam Milne,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.4
+ipl20,201406,1254104,2nd innings,157,30,0,97/6,0,90,14.6,2,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,8917,Moeen Ali,Chennai Super Kings,,,450860,Adam Milne,2,6.46
+ipl20,201501,1254104,2nd innings,157,29,0,98/6,0,91,15.1,1,0,0,False,,450860,Adam Milne,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.46
+ipl20,201502,1254104,2nd innings,157,28,0,100/6,0,92,15.2,2,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,450860,Adam Milne,2,6.52
+ipl20,201503,1254104,2nd innings,157,27,0,101/6,0,93,15.3,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,450860,Adam Milne,1,6.51
+ipl20,201504,1254104,2nd innings,157,26,0,102/6,0,94,15.4,1,0,0,False,,450860,Adam Milne,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.51
+ipl20,201505,1254104,2nd innings,157,26,0,103/6,0,94,15.4,1,1,1,False,,35390,Saurabh Tiwary,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,450860,Adam Milne,1,6.57
+ipl20,201506,1254104,2nd innings,157,25,0,104/6,0,95,15.5,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,450860,Adam Milne,1,6.56
+ipl20,201507,1254104,2nd innings,157,24,0,104/6,0,96,15.6,0,0,0,False,,450860,Adam Milne,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,35390,Saurabh Tiwary,0,6.5
+ipl20,201601,1254104,2nd innings,157,23,0,105/6,0,97,16.1,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,450860,Adam Milne,1,6.49
+ipl20,201602,1254104,2nd innings,157,22,0,105/6,0,98,16.2,0,0,0,False,,450860,Adam Milne,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,35390,Saurabh Tiwary,0,6.42
+ipl20,201603,1254104,2nd innings,157,21,0,106/6,0,99,16.3,1,0,0,False,,450860,Adam Milne,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.42
+ipl20,201604,1254104,2nd innings,157,20,0,107/6,0,100,16.4,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,450860,Adam Milne,1,6.42
+ipl20,201605,1254104,2nd innings,157,19,0,107/6,0,101,16.5,0,0,0,False,,450860,Adam Milne,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,35390,Saurabh Tiwary,0,6.35
+ipl20,201606,1254104,2nd innings,157,18,0,108/6,0,102,16.6,1,0,0,False,,450860,Adam Milne,Mumbai Indians,288284,Josh Hazlewood,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.35
+ipl20,201701,1254104,2nd innings,157,17,0,109/6,0,103,17.1,1,0,0,False,,450860,Adam Milne,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.34
+ipl20,201702,1254104,2nd innings,157,16,0,113/6,0,104,17.2,4,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,450860,Adam Milne,4,6.51
+ipl20,201703,1254104,2nd innings,157,15,0,115/6,0,105,17.3,2,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,450860,Adam Milne,2,6.57
+ipl20,201704,1254104,2nd innings,157,14,0,116/6,0,106,17.4,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,450860,Adam Milne,1,6.56
+ipl20,201705,1254104,2nd innings,157,13,0,117/6,0,107,17.5,1,0,0,False,,450860,Adam Milne,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.56
+ipl20,201706,1254104,2nd innings,157,12,0,118/6,0,108,17.6,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,447261,Deepak Chahar,Chennai Super Kings,,,450860,Adam Milne,1,6.55
+ipl20,201801,1254104,2nd innings,157,11,0,122/6,0,109,18.1,4,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,450860,Adam Milne,4,6.71
+ipl20,201802,1254104,2nd innings,157,10,0,123/6,0,110,18.2,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,450860,Adam Milne,1,6.7
+ipl20,201803,1254104,2nd innings,157,9,0,125/6,0,111,18.3,2,0,0,False,,450860,Adam Milne,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,35390,Saurabh Tiwary,2,6.75
+ipl20,201804,1254104,2nd innings,157,8,0,131/6,0,112,18.4,6,0,0,False,,450860,Adam Milne,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,35390,Saurabh Tiwary,6,7.01
+ipl20,201805,1254104,2nd innings,157,7,0,131/6,0,113,18.5,0,0,0,False,,450860,Adam Milne,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,35390,Saurabh Tiwary,0,6.95
+ipl20,201806,1254104,2nd innings,157,7,0,132/6,0,113,18.5,1,1,1,False,,450860,Adam Milne,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,35390,Saurabh Tiwary,1,7.0
+ipl20,201807,1254104,2nd innings,157,7,0,133/6,0,113,18.5,1,1,1,False,,450860,Adam Milne,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,35390,Saurabh Tiwary,1,7.06
+ipl20,201808,1254104,2nd innings,157,6,0,133/6,0,114,18.6,0,0,0,False,,450860,Adam Milne,Mumbai Indians,475281,Shardul Thakur,Chennai Super Kings,,,35390,Saurabh Tiwary,0,7.0
+ipl20,201901,1254104,2nd innings,157,5,0,134/6,0,115,19.1,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,450860,Adam Milne,1,6.99
+ipl20,201902,1254104,2nd innings,157,4,0,134/7,7,116,19.2,0,0,0,True,caught,450860,Adam Milne,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,51439,Dwayne Bravo,35390,Saurabh Tiwary,0,6.93
+ipl20,201903,1254104,2nd innings,157,3,0,135/7,0,117,19.3,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,1064812,Rahul Chahar,1,6.92
+ipl20,201904,1254104,2nd innings,157,2,0,135/8,8,118,19.4,0,0,0,True,caught,1064812,Rahul Chahar,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,33335,Suresh Raina,35390,Saurabh Tiwary,0,6.86
+ipl20,201905,1254104,2nd innings,157,1,0,135/8,0,119,19.5,0,0,0,False,,625383,Jasprit Bumrah,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,35390,Saurabh Tiwary,0,6.8
+ipl20,201906,1254104,2nd innings,157,0,0,136/8,0,120,19.6,1,0,0,False,,625383,Jasprit Bumrah,Mumbai Indians,51439,Dwayne Bravo,Chennai Super Kings,,,35390,Saurabh Tiwary,1,6.8
