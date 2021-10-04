@@ -1,0 +1,246 @@
+ipl_season,sequence,eventid,innings,target,remainingballs,homescore,awayscore,fallofwickets,ball,over,scorevalue,validball,extras,dismissal,dismissaltype,batsmanid,batsman,batsmanteam,bowlerid,bowler,bowlerteam,otherathleteinvolvedid,otherathleteinvolved,nonstrikerid,nonstriker,runs,runrate
+ipl20,100001,1254112,1st innings,0,119,4/0,0,0,1,0.1,4,0,0,False,,34102,Rohit Sharma,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,379143,Quinton de Kock,4,24.0
+ipl20,100002,1254112,1st innings,0,118,4/0,0,0,2,0.2,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,379143,Quinton de Kock,0,12.0
+ipl20,100003,1254112,1st innings,0,117,4/0,0,0,3,0.3,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,379143,Quinton de Kock,0,8.0
+ipl20,100004,1254112,1st innings,0,116,6/0,0,0,4,0.4,2,0,0,False,,34102,Rohit Sharma,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,379143,Quinton de Kock,2,9.0
+ipl20,100005,1254112,1st innings,0,115,7/0,0,0,5,0.5,1,0,0,False,,34102,Rohit Sharma,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,379143,Quinton de Kock,1,8.4
+ipl20,100006,1254112,1st innings,0,114,7/0,0,0,6,0.6,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,34102,Rohit Sharma,0,7.0
+ipl20,100101,1254112,1st innings,0,113,7/0,0,0,7,1.1,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,379143,Quinton de Kock,0,6.0
+ipl20,100102,1254112,1st innings,0,112,7/0,0,0,8,1.2,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,379143,Quinton de Kock,0,5.25
+ipl20,100103,1254112,1st innings,0,111,7/0,0,0,9,1.3,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,379143,Quinton de Kock,0,4.66
+ipl20,100104,1254112,1st innings,0,111,8/0,0,0,9,1.3,1,1,1,False,,34102,Rohit Sharma,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,379143,Quinton de Kock,1,5.33
+ipl20,100105,1254112,1st innings,0,110,8/0,0,0,10,1.4,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,379143,Quinton de Kock,0,4.8
+ipl20,100106,1254112,1st innings,0,109,8/1,0,1,11,1.5,0,0,0,True,caught,34102,Rohit Sharma,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,34102,Rohit Sharma,379143,Quinton de Kock,0,4.36
+ipl20,100107,1254112,1st innings,0,108,12/1,0,0,12,1.6,4,0,0,False,,379143,Quinton de Kock,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,446507,Suryakumar Yadav,4,6.0
+ipl20,100201,1254112,1st innings,0,107,13/1,0,0,13,2.1,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,379143,Quinton de Kock,1,6.0
+ipl20,100202,1254112,1st innings,0,106,14/1,0,0,14,2.2,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,446507,Suryakumar Yadav,1,6.0
+ipl20,100203,1254112,1st innings,0,105,14/1,0,0,15,2.3,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,379143,Quinton de Kock,0,5.6
+ipl20,100204,1254112,1st innings,0,104,20/1,0,0,16,2.4,6,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,379143,Quinton de Kock,6,7.5
+ipl20,100205,1254112,1st innings,0,103,21/1,0,0,17,2.5,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,379143,Quinton de Kock,1,7.41
+ipl20,100206,1254112,1st innings,0,102,21/1,0,0,18,2.6,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,446507,Suryakumar Yadav,0,7.0
+ipl20,100301,1254112,1st innings,0,101,21/1,0,0,19,3.1,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,379143,Quinton de Kock,0,6.63
+ipl20,100302,1254112,1st innings,0,100,21/1,0,0,20,3.2,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,379143,Quinton de Kock,0,6.3
+ipl20,100303,1254112,1st innings,0,99,21/1,0,0,21,3.3,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,379143,Quinton de Kock,0,6.0
+ipl20,100304,1254112,1st innings,0,98,22/1,0,0,22,3.4,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,379143,Quinton de Kock,1,6.0
+ipl20,100305,1254112,1st innings,0,97,22/1,0,0,23,3.5,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,446507,Suryakumar Yadav,0,5.73
+ipl20,100306,1254112,1st innings,0,96,23/1,0,0,24,3.6,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,446507,Suryakumar Yadav,1,5.75
+ipl20,100401,1254112,1st innings,0,95,29/1,0,0,25,4.1,6,0,0,False,,379143,Quinton de Kock,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,446507,Suryakumar Yadav,6,6.96
+ipl20,100402,1254112,1st innings,0,94,29/1,0,0,26,4.2,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,446507,Suryakumar Yadav,0,6.69
+ipl20,100403,1254112,1st innings,0,93,31/1,0,0,27,4.3,2,0,0,False,,379143,Quinton de Kock,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,446507,Suryakumar Yadav,2,6.88
+ipl20,100404,1254112,1st innings,0,92,31/1,0,0,28,4.4,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,446507,Suryakumar Yadav,0,6.64
+ipl20,100405,1254112,1st innings,0,91,32/1,0,0,29,4.5,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,446507,Suryakumar Yadav,1,6.62
+ipl20,100406,1254112,1st innings,0,90,32/1,0,0,30,4.6,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,379143,Quinton de Kock,0,6.4
+ipl20,100501,1254112,1st innings,0,89,32/1,0,0,31,5.1,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,446507,Suryakumar Yadav,0,6.19
+ipl20,100502,1254112,1st innings,0,88,33/1,0,0,32,5.2,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,446507,Suryakumar Yadav,1,6.18
+ipl20,100503,1254112,1st innings,0,87,34/1,0,0,33,5.3,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,379143,Quinton de Kock,1,6.18
+ipl20,100504,1254112,1st innings,0,86,34/1,0,0,34,5.4,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,446507,Suryakumar Yadav,0,6.0
+ipl20,100505,1254112,1st innings,0,85,34/1,0,0,35,5.5,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,446507,Suryakumar Yadav,0,5.82
+ipl20,100506,1254112,1st innings,0,84,35/1,0,0,36,5.6,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,446507,Suryakumar Yadav,1,5.83
+ipl20,100601,1254112,1st innings,0,83,37/1,0,0,37,6.1,2,0,0,False,,379143,Quinton de Kock,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,446507,Suryakumar Yadav,2,6.0
+ipl20,100602,1254112,1st innings,0,82,37/2,0,2,38,6.2,0,0,0,True,caught,379143,Quinton de Kock,Mumbai Indians,554691,Axar Patel,Delhi Capitals,379143,Quinton de Kock,446507,Suryakumar Yadav,0,5.84
+ipl20,100603,1254112,1st innings,0,81,38/2,0,0,39,6.3,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,446507,Suryakumar Yadav,1,5.84
+ipl20,100604,1254112,1st innings,0,80,38/2,0,0,40,6.4,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,35390,Saurabh Tiwary,0,5.7
+ipl20,100605,1254112,1st innings,0,79,39/2,0,0,41,6.5,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,35390,Saurabh Tiwary,1,5.7
+ipl20,100606,1254112,1st innings,0,78,40/2,0,0,42,6.6,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,446507,Suryakumar Yadav,1,5.71
+ipl20,100701,1254112,1st innings,0,77,41/2,0,0,43,7.1,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,446507,Suryakumar Yadav,1,5.72
+ipl20,100702,1254112,1st innings,0,76,45/2,0,0,44,7.2,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,35390,Saurabh Tiwary,4,6.13
+ipl20,100703,1254112,1st innings,0,75,46/2,0,0,45,7.3,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,35390,Saurabh Tiwary,1,6.13
+ipl20,100704,1254112,1st innings,0,74,47/2,0,0,46,7.4,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,446507,Suryakumar Yadav,1,6.13
+ipl20,100705,1254112,1st innings,0,73,51/2,0,0,47,7.5,4,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,35390,Saurabh Tiwary,4,6.51
+ipl20,100706,1254112,1st innings,0,72,52/2,0,0,48,7.6,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,35390,Saurabh Tiwary,1,6.5
+ipl20,100801,1254112,1st innings,0,71,52/2,0,0,49,8.1,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,35390,Saurabh Tiwary,0,6.36
+ipl20,100802,1254112,1st innings,0,70,53/2,0,0,50,8.2,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,35390,Saurabh Tiwary,1,6.36
+ipl20,100803,1254112,1st innings,0,69,54/2,0,0,51,8.3,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,446507,Suryakumar Yadav,1,6.35
+ipl20,100804,1254112,1st innings,0,68,55/2,0,0,52,8.4,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,35390,Saurabh Tiwary,1,6.34
+ipl20,100805,1254112,1st innings,0,67,56/2,0,0,53,8.5,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,446507,Suryakumar Yadav,1,6.33
+ipl20,100806,1254112,1st innings,0,66,57/2,0,0,54,8.6,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,35390,Saurabh Tiwary,1,6.33
+ipl20,100901,1254112,1st innings,0,65,58/2,0,0,55,9.1,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,35390,Saurabh Tiwary,1,6.32
+ipl20,100902,1254112,1st innings,0,64,58/2,0,0,56,9.2,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,446507,Suryakumar Yadav,0,6.21
+ipl20,100903,1254112,1st innings,0,63,59/2,0,0,57,9.3,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,446507,Suryakumar Yadav,1,6.21
+ipl20,100904,1254112,1st innings,0,62,59/2,0,0,58,9.4,0,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,35390,Saurabh Tiwary,0,6.1
+ipl20,100905,1254112,1st innings,0,61,65/2,0,0,59,9.5,6,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,35390,Saurabh Tiwary,6,6.61
+ipl20,100906,1254112,1st innings,0,60,66/2,0,0,60,9.6,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,35390,Saurabh Tiwary,1,6.6
+ipl20,101001,1254112,1st innings,0,59,67/2,0,0,61,10.1,1,0,0,False,,446507,Suryakumar Yadav,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,35390,Saurabh Tiwary,1,6.59
+ipl20,101002,1254112,1st innings,0,58,68/2,0,0,62,10.2,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,446507,Suryakumar Yadav,1,6.58
+ipl20,101003,1254112,1st innings,0,57,68/3,0,3,63,10.3,0,0,0,True,caught,446507,Suryakumar Yadav,Mumbai Indians,554691,Axar Patel,Delhi Capitals,446507,Suryakumar Yadav,35390,Saurabh Tiwary,0,6.47
+ipl20,101004,1254112,1st innings,0,56,68/3,0,0,64,10.4,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,230559,Kieron Pollard,0,6.37
+ipl20,101005,1254112,1st innings,0,55,72/3,0,0,65,10.5,4,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,230559,Kieron Pollard,4,6.64
+ipl20,101006,1254112,1st innings,0,54,73/3,0,0,66,10.6,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,230559,Kieron Pollard,1,6.63
+ipl20,101101,1254112,1st innings,0,53,73/3,0,0,67,11.1,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,230559,Kieron Pollard,0,6.53
+ipl20,101102,1254112,1st innings,0,52,73/3,0,0,68,11.2,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,230559,Kieron Pollard,0,6.44
+ipl20,101103,1254112,1st innings,0,51,73/3,0,0,69,11.3,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,230559,Kieron Pollard,0,6.34
+ipl20,101104,1254112,1st innings,0,50,74/3,0,0,70,11.4,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,230559,Kieron Pollard,1,6.34
+ipl20,101105,1254112,1st innings,0,49,74/3,0,0,71,11.5,0,0,0,False,,230559,Kieron Pollard,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,35390,Saurabh Tiwary,0,6.25
+ipl20,101106,1254112,1st innings,0,49,75/3,0,0,71,11.5,1,1,1,False,,230559,Kieron Pollard,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,35390,Saurabh Tiwary,1,6.33
+ipl20,101107,1254112,1st innings,0,48,76/3,0,0,72,11.6,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,35390,Saurabh Tiwary,1,6.33
+ipl20,101201,1254112,1st innings,0,47,77/3,0,0,73,12.1,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,35390,Saurabh Tiwary,1,6.32
+ipl20,101202,1254112,1st innings,0,47,78/3,0,0,73,12.1,1,1,1,False,,35390,Saurabh Tiwary,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,230559,Kieron Pollard,1,6.41
+ipl20,101203,1254112,1st innings,0,46,79/3,0,0,74,12.2,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,230559,Kieron Pollard,1,6.4
+ipl20,101204,1254112,1st innings,0,45,79/3,0,0,75,12.3,0,0,0,False,,230559,Kieron Pollard,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,35390,Saurabh Tiwary,0,6.32
+ipl20,101205,1254112,1st innings,0,44,80/3,0,0,76,12.4,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,35390,Saurabh Tiwary,1,6.31
+ipl20,101206,1254112,1st innings,0,43,80/4,0,4,77,12.5,0,0,0,True,caught,35390,Saurabh Tiwary,Mumbai Indians,554691,Axar Patel,Delhi Capitals,35390,Saurabh Tiwary,230559,Kieron Pollard,0,6.23
+ipl20,101207,1254112,1st innings,0,42,80/4,0,0,78,12.6,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,554691,Axar Patel,Delhi Capitals,,,230559,Kieron Pollard,0,6.15
+ipl20,101301,1254112,1st innings,0,42,81/4,0,0,78,13.0,1,1,1,False,,230559,Kieron Pollard,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,625371,Hardik Pandya,1,6.23
+ipl20,101302,1254112,1st innings,0,41,82/4,0,0,79,13.1,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,625371,Hardik Pandya,1,6.22
+ipl20,101303,1254112,1st innings,0,40,83/4,0,0,80,13.2,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,230559,Kieron Pollard,1,6.22
+ipl20,101304,1254112,1st innings,0,39,84/4,0,0,81,13.3,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,625371,Hardik Pandya,1,6.22
+ipl20,101305,1254112,1st innings,0,38,85/4,0,0,82,13.4,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,230559,Kieron Pollard,1,6.21
+ipl20,101306,1254112,1st innings,0,38,86/4,0,0,82,13.4,1,1,1,False,,230559,Kieron Pollard,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,625371,Hardik Pandya,1,6.29
+ipl20,101307,1254112,1st innings,0,37,87/4,0,0,83,13.5,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,625371,Hardik Pandya,1,6.28
+ipl20,101308,1254112,1st innings,0,36,87/4,0,0,84,13.6,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,230559,Kieron Pollard,0,6.21
+ipl20,101401,1254112,1st innings,0,35,87/5,0,5,85,14.1,0,0,0,True,bowled,230559,Kieron Pollard,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,230559,Kieron Pollard,625371,Hardik Pandya,0,6.14
+ipl20,101402,1254112,1st innings,0,34,87/5,0,0,86,14.2,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,625371,Hardik Pandya,0,6.06
+ipl20,101403,1254112,1st innings,0,33,87/5,0,0,87,14.3,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,625371,Hardik Pandya,0,6.0
+ipl20,101404,1254112,1st innings,0,32,87/5,0,0,88,14.4,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,625371,Hardik Pandya,0,5.93
+ipl20,101405,1254112,1st innings,0,31,87/5,0,0,89,14.5,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,625371,Hardik Pandya,0,5.86
+ipl20,101406,1254112,1st innings,0,30,87/5,0,0,90,14.6,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,625371,Hardik Pandya,0,5.8
+ipl20,101501,1254112,1st innings,0,29,87/5,0,0,91,15.1,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,471342,Krunal Pandya,0,5.73
+ipl20,101502,1254112,1st innings,0,28,87/5,0,0,92,15.2,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,471342,Krunal Pandya,0,5.67
+ipl20,101503,1254112,1st innings,0,27,87/5,0,0,93,15.3,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,471342,Krunal Pandya,0,5.61
+ipl20,101504,1254112,1st innings,0,26,88/5,0,0,94,15.4,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,471342,Krunal Pandya,1,5.61
+ipl20,101505,1254112,1st innings,0,25,88/5,0,0,95,15.5,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,625371,Hardik Pandya,0,5.55
+ipl20,101506,1254112,1st innings,0,24,88/5,0,0,96,15.6,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,625371,Hardik Pandya,0,5.5
+ipl20,101601,1254112,1st innings,0,24,90/5,0,0,96,16.0,2,1,1,False,,625371,Hardik Pandya,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,471342,Krunal Pandya,2,5.62
+ipl20,101602,1254112,1st innings,0,23,91/5,0,0,97,16.1,1,0,0,False,,471342,Krunal Pandya,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,625371,Hardik Pandya,1,5.62
+ipl20,101603,1254112,1st innings,0,22,93/5,0,0,98,16.2,2,0,0,False,,625371,Hardik Pandya,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,471342,Krunal Pandya,2,5.69
+ipl20,101604,1254112,1st innings,0,21,94/5,0,0,99,16.3,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,471342,Krunal Pandya,1,5.69
+ipl20,101605,1254112,1st innings,0,20,98/5,0,0,100,16.4,4,0,0,False,,471342,Krunal Pandya,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,625371,Hardik Pandya,4,5.88
+ipl20,101606,1254112,1st innings,0,19,99/5,0,0,101,16.5,1,0,0,False,,471342,Krunal Pandya,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,625371,Hardik Pandya,1,5.88
+ipl20,101607,1254112,1st innings,0,18,100/5,0,0,102,16.6,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,550215,Kagiso Rabada,Delhi Capitals,,,471342,Krunal Pandya,1,5.88
+ipl20,101701,1254112,1st innings,0,17,104/5,0,0,103,17.1,4,0,0,False,,625371,Hardik Pandya,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,471342,Krunal Pandya,4,6.05
+ipl20,101702,1254112,1st innings,0,16,104/5,0,0,104,17.2,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,471342,Krunal Pandya,0,6.0
+ipl20,101703,1254112,1st innings,0,15,108/5,0,0,105,17.3,4,0,0,False,,625371,Hardik Pandya,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,471342,Krunal Pandya,4,6.17
+ipl20,101704,1254112,1st innings,0,14,108/5,0,0,106,17.4,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,471342,Krunal Pandya,0,6.11
+ipl20,101705,1254112,1st innings,0,13,109/5,0,0,107,17.5,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,471342,Krunal Pandya,1,6.11
+ipl20,101706,1254112,1st innings,0,12,109/5,0,0,108,17.6,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,481979,Anrich Nortje,Delhi Capitals,,,625371,Hardik Pandya,0,6.05
+ipl20,101801,1254112,1st innings,0,11,109/6,0,6,109,18.1,0,0,0,True,bowled,625371,Hardik Pandya,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,625371,Hardik Pandya,471342,Krunal Pandya,0,6.0
+ipl20,101802,1254112,1st innings,0,10,110/6,0,0,110,18.2,1,0,0,False,,261354,Nathan Coulter-Nile,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,471342,Krunal Pandya,1,6.0
+ipl20,101803,1254112,1st innings,0,9,111/6,0,0,111,18.3,1,0,0,False,,471342,Krunal Pandya,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,261354,Nathan Coulter-Nile,1,6.0
+ipl20,101804,1254112,1st innings,0,8,111/7,0,7,112,18.4,0,0,0,True,bowled,261354,Nathan Coulter-Nile,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,261354,Nathan Coulter-Nile,471342,Krunal Pandya,0,5.94
+ipl20,101805,1254112,1st innings,0,7,115/7,0,0,113,18.5,4,0,0,False,,447587,Jayant Yadav,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,471342,Krunal Pandya,4,6.1
+ipl20,101806,1254112,1st innings,0,6,116/7,0,0,114,18.6,1,0,0,False,,447587,Jayant Yadav,Mumbai Indians,694211,Avesh Khan,Delhi Capitals,,,471342,Krunal Pandya,1,6.1
+ipl20,101901,1254112,1st innings,0,5,122/7,0,0,115,19.1,6,0,0,False,,447587,Jayant Yadav,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,471342,Krunal Pandya,6,6.36
+ipl20,101902,1254112,1st innings,0,4,122/8,0,8,116,19.2,0,0,0,True,caught,447587,Jayant Yadav,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,26421,Ravichandran Ashwin,471342,Krunal Pandya,0,6.31
+ipl20,101903,1254112,1st innings,0,3,123/8,0,0,117,19.3,1,0,0,False,,625383,Jasprit Bumrah,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,471342,Krunal Pandya,1,6.3
+ipl20,101904,1254112,1st innings,0,2,123/8,0,0,118,19.4,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,625383,Jasprit Bumrah,0,6.25
+ipl20,101905,1254112,1st innings,0,1,123/8,0,0,119,19.5,0,0,0,False,,471342,Krunal Pandya,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,625383,Jasprit Bumrah,0,6.2
+ipl20,101906,1254112,1st innings,0,0,129/8,0,0,120,19.6,6,0,0,False,,471342,Krunal Pandya,Mumbai Indians,26421,Ravichandran Ashwin,Delhi Capitals,,,625383,Jasprit Bumrah,6,6.45
+ipl20,200001,1254112,2nd innings,130,119,0,0/0,0,1,0.1,0,0,0,False,,1070168,Prithvi Shaw,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,28235,Shikhar Dhawan,0,0.0
+ipl20,200002,1254112,2nd innings,130,118,0,1/0,0,2,0.2,1,0,0,False,,1070168,Prithvi Shaw,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,28235,Shikhar Dhawan,1,3.0
+ipl20,200003,1254112,2nd innings,130,117,0,1/0,0,3,0.3,0,0,0,False,,28235,Shikhar Dhawan,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,1070168,Prithvi Shaw,0,2.0
+ipl20,200004,1254112,2nd innings,130,116,0,2/0,0,4,0.4,1,0,0,False,,28235,Shikhar Dhawan,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,1070168,Prithvi Shaw,1,3.0
+ipl20,200005,1254112,2nd innings,130,115,0,2/0,0,5,0.5,0,0,0,False,,1070168,Prithvi Shaw,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,28235,Shikhar Dhawan,0,2.4
+ipl20,200006,1254112,2nd innings,130,114,0,6/0,0,6,0.6,4,0,0,False,,1070168,Prithvi Shaw,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,28235,Shikhar Dhawan,4,6.0
+ipl20,200101,1254112,2nd innings,130,113,0,7/0,0,7,1.1,1,0,0,False,,28235,Shikhar Dhawan,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,1070168,Prithvi Shaw,1,6.0
+ipl20,200102,1254112,2nd innings,130,112,0,8/0,0,8,1.2,1,0,0,False,,1070168,Prithvi Shaw,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,28235,Shikhar Dhawan,1,6.0
+ipl20,200103,1254112,2nd innings,130,111,0,14/0,0,9,1.3,6,0,0,False,,28235,Shikhar Dhawan,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,1070168,Prithvi Shaw,6,9.33
+ipl20,200104,1254112,2nd innings,130,110,0,14/0,0,10,1.4,0,0,0,False,,28235,Shikhar Dhawan,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,1070168,Prithvi Shaw,0,8.4
+ipl20,200105,1254112,2nd innings,130,109,0,14/0,0,11,1.5,0,0,0,False,,28235,Shikhar Dhawan,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,1070168,Prithvi Shaw,0,7.63
+ipl20,200106,1254112,2nd innings,130,108,0,14/1,1,12,1.6,0,0,0,True,run out,28235,Shikhar Dhawan,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,28235,Shikhar Dhawan,1070168,Prithvi Shaw,0,7.0
+ipl20,200201,1254112,2nd innings,130,107,0,14/1,0,13,2.1,0,0,0,False,,267192,Steven Smith,Delhi Capitals,471342,Krunal Pandya,Mumbai Indians,,,1070168,Prithvi Shaw,0,6.46
+ipl20,200202,1254112,2nd innings,130,106,0,15/1,0,14,2.2,1,0,0,False,,267192,Steven Smith,Delhi Capitals,471342,Krunal Pandya,Mumbai Indians,,,1070168,Prithvi Shaw,1,6.42
+ipl20,200203,1254112,2nd innings,130,105,0,15/1,0,15,2.3,0,0,0,False,,1070168,Prithvi Shaw,Delhi Capitals,471342,Krunal Pandya,Mumbai Indians,,,267192,Steven Smith,0,6.0
+ipl20,200204,1254112,2nd innings,130,104,0,15/2,2,16,2.4,0,0,0,True,leg before wicket,1070168,Prithvi Shaw,Delhi Capitals,471342,Krunal Pandya,Mumbai Indians,471342,Krunal Pandya,267192,Steven Smith,0,5.62
+ipl20,200205,1254112,2nd innings,130,103,0,15/2,0,17,2.5,0,0,0,False,,931581,Rishabh Pant,Delhi Capitals,471342,Krunal Pandya,Mumbai Indians,,,267192,Steven Smith,0,5.29
+ipl20,200206,1254112,2nd innings,130,102,0,21/2,0,18,2.6,6,0,0,False,,931581,Rishabh Pant,Delhi Capitals,471342,Krunal Pandya,Mumbai Indians,,,267192,Steven Smith,6,7.0
+ipl20,200301,1254112,2nd innings,130,101,0,21/2,0,19,3.1,0,0,0,False,,267192,Steven Smith,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,931581,Rishabh Pant,0,6.63
+ipl20,200302,1254112,2nd innings,130,100,0,22/2,0,20,3.2,1,0,0,False,,267192,Steven Smith,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,931581,Rishabh Pant,1,6.6
+ipl20,200303,1254112,2nd innings,130,99,0,23/2,0,21,3.3,1,0,0,False,,931581,Rishabh Pant,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,267192,Steven Smith,1,6.57
+ipl20,200304,1254112,2nd innings,130,98,0,29/2,0,22,3.4,6,0,0,False,,267192,Steven Smith,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,931581,Rishabh Pant,6,7.9
+ipl20,200305,1254112,2nd innings,130,97,0,29/2,0,23,3.5,0,0,0,False,,267192,Steven Smith,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,931581,Rishabh Pant,0,7.56
+ipl20,200306,1254112,2nd innings,130,96,0,30/2,0,24,3.6,1,0,0,False,,267192,Steven Smith,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,931581,Rishabh Pant,1,7.5
+ipl20,200401,1254112,2nd innings,130,95,0,30/3,3,25,4.1,0,0,0,True,bowled,267192,Steven Smith,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,261354,Nathan Coulter-Nile,931581,Rishabh Pant,0,7.2
+ipl20,200402,1254112,2nd innings,130,94,0,31/3,0,26,4.2,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,931581,Rishabh Pant,1,7.15
+ipl20,200403,1254112,2nd innings,130,93,0,31/3,0,27,4.3,0,0,0,False,,931581,Rishabh Pant,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,642519,Shreyas Iyer,0,6.88
+ipl20,200404,1254112,2nd innings,130,92,0,35/3,0,28,4.4,4,0,0,False,,931581,Rishabh Pant,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,642519,Shreyas Iyer,4,7.5
+ipl20,200405,1254112,2nd innings,130,91,0,35/3,0,29,4.5,0,0,0,False,,931581,Rishabh Pant,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,642519,Shreyas Iyer,0,7.24
+ipl20,200406,1254112,2nd innings,130,90,0,35/3,0,30,4.6,0,0,0,False,,931581,Rishabh Pant,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,642519,Shreyas Iyer,0,7.0
+ipl20,200501,1254112,2nd innings,130,89,0,36/3,0,31,5.1,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,931581,Rishabh Pant,1,6.96
+ipl20,200502,1254112,2nd innings,130,88,0,36/3,0,32,5.2,0,0,0,False,,931581,Rishabh Pant,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,642519,Shreyas Iyer,0,6.75
+ipl20,200503,1254112,2nd innings,130,87,0,38/3,0,33,5.3,2,0,0,False,,931581,Rishabh Pant,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,642519,Shreyas Iyer,2,6.9
+ipl20,200504,1254112,2nd innings,130,86,0,42/3,0,34,5.4,4,0,0,False,,931581,Rishabh Pant,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,642519,Shreyas Iyer,4,7.41
+ipl20,200505,1254112,2nd innings,130,85,0,42/3,0,35,5.5,0,0,0,False,,931581,Rishabh Pant,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,642519,Shreyas Iyer,0,7.2
+ipl20,200506,1254112,2nd innings,130,84,0,46/3,0,36,5.6,4,0,0,False,,931581,Rishabh Pant,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,642519,Shreyas Iyer,4,7.66
+ipl20,200601,1254112,2nd innings,130,83,0,48/3,0,37,6.1,2,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,931581,Rishabh Pant,2,7.78
+ipl20,200602,1254112,2nd innings,130,82,0,49/3,0,38,6.2,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,931581,Rishabh Pant,1,7.73
+ipl20,200603,1254112,2nd innings,130,81,0,49/3,0,39,6.3,0,0,0,False,,931581,Rishabh Pant,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,642519,Shreyas Iyer,0,7.53
+ipl20,200604,1254112,2nd innings,130,80,0,51/3,0,40,6.4,2,0,0,False,,931581,Rishabh Pant,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,642519,Shreyas Iyer,2,7.65
+ipl20,200605,1254112,2nd innings,130,79,0,51/3,0,41,6.5,0,0,0,False,,931581,Rishabh Pant,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,642519,Shreyas Iyer,0,7.46
+ipl20,200606,1254112,2nd innings,130,78,0,51/3,0,42,6.6,0,0,0,False,,931581,Rishabh Pant,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,642519,Shreyas Iyer,0,7.28
+ipl20,200701,1254112,2nd innings,130,77,0,52/3,0,43,7.1,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,931581,Rishabh Pant,1,7.25
+ipl20,200702,1254112,2nd innings,130,76,0,52/3,0,44,7.2,0,0,0,False,,931581,Rishabh Pant,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,642519,Shreyas Iyer,0,7.09
+ipl20,200703,1254112,2nd innings,130,75,0,52/3,0,45,7.3,0,0,0,False,,931581,Rishabh Pant,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,642519,Shreyas Iyer,0,6.93
+ipl20,200704,1254112,2nd innings,130,74,0,53/3,0,46,7.4,1,0,0,False,,931581,Rishabh Pant,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,642519,Shreyas Iyer,1,6.91
+ipl20,200705,1254112,2nd innings,130,73,0,54/3,0,47,7.5,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,931581,Rishabh Pant,1,6.89
+ipl20,200706,1254112,2nd innings,130,72,0,55/3,0,48,7.6,1,0,1,False,,931581,Rishabh Pant,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,642519,Shreyas Iyer,1,6.87
+ipl20,200801,1254112,2nd innings,130,71,0,57/3,0,49,8.1,2,0,0,False,,931581,Rishabh Pant,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,642519,Shreyas Iyer,2,6.97
+ipl20,200802,1254112,2nd innings,130,70,0,57/4,4,50,8.2,0,0,0,True,caught,931581,Rishabh Pant,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,447587,Jayant Yadav,642519,Shreyas Iyer,0,6.84
+ipl20,200803,1254112,2nd innings,130,69,0,58/4,0,51,8.3,1,0,0,False,,554691,Axar Patel,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,642519,Shreyas Iyer,1,6.82
+ipl20,200804,1254112,2nd innings,130,69,0,59/4,0,51,8.3,1,1,1,False,,642519,Shreyas Iyer,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,554691,Axar Patel,1,6.94
+ipl20,200805,1254112,2nd innings,130,68,0,59/4,0,52,8.4,0,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,554691,Axar Patel,0,6.8
+ipl20,200806,1254112,2nd innings,130,67,0,59/4,0,53,8.5,0,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,554691,Axar Patel,0,6.67
+ipl20,200807,1254112,2nd innings,130,66,0,60/4,0,54,8.6,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,554691,Axar Patel,1,6.66
+ipl20,200901,1254112,2nd innings,130,65,0,61/4,0,55,9.1,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,471342,Krunal Pandya,Mumbai Indians,,,554691,Axar Patel,1,6.65
+ipl20,200902,1254112,2nd innings,130,64,0,62/4,0,56,9.2,1,0,0,False,,554691,Axar Patel,Delhi Capitals,471342,Krunal Pandya,Mumbai Indians,,,642519,Shreyas Iyer,1,6.64
+ipl20,200903,1254112,2nd innings,130,63,0,62/4,0,57,9.3,0,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,471342,Krunal Pandya,Mumbai Indians,,,554691,Axar Patel,0,6.52
+ipl20,200904,1254112,2nd innings,130,62,0,63/4,0,58,9.4,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,471342,Krunal Pandya,Mumbai Indians,,,554691,Axar Patel,1,6.51
+ipl20,200905,1254112,2nd innings,130,61,0,64/4,0,59,9.5,1,0,0,False,,554691,Axar Patel,Delhi Capitals,471342,Krunal Pandya,Mumbai Indians,,,642519,Shreyas Iyer,1,6.5
+ipl20,200906,1254112,2nd innings,130,60,0,65/4,0,60,9.6,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,471342,Krunal Pandya,Mumbai Indians,,,554691,Axar Patel,1,6.5
+ipl20,201001,1254112,2nd innings,130,59,0,66/4,0,61,10.1,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,230559,Kieron Pollard,Mumbai Indians,,,554691,Axar Patel,1,6.49
+ipl20,201002,1254112,2nd innings,130,59,0,67/4,0,61,10.1,1,1,1,False,,554691,Axar Patel,Delhi Capitals,230559,Kieron Pollard,Mumbai Indians,,,642519,Shreyas Iyer,1,6.59
+ipl20,201003,1254112,2nd innings,130,58,0,67/4,0,62,10.2,0,0,0,False,,554691,Axar Patel,Delhi Capitals,230559,Kieron Pollard,Mumbai Indians,,,642519,Shreyas Iyer,0,6.48
+ipl20,201004,1254112,2nd innings,130,57,0,68/4,0,63,10.3,1,0,0,False,,554691,Axar Patel,Delhi Capitals,230559,Kieron Pollard,Mumbai Indians,,,642519,Shreyas Iyer,1,6.47
+ipl20,201005,1254112,2nd innings,130,57,0,69/4,0,63,10.3,1,1,1,False,,642519,Shreyas Iyer,Delhi Capitals,230559,Kieron Pollard,Mumbai Indians,,,554691,Axar Patel,1,6.57
+ipl20,201006,1254112,2nd innings,130,56,0,70/4,0,64,10.4,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,230559,Kieron Pollard,Mumbai Indians,,,554691,Axar Patel,1,6.56
+ipl20,201007,1254112,2nd innings,130,55,0,70/4,0,65,10.5,0,0,0,False,,554691,Axar Patel,Delhi Capitals,230559,Kieron Pollard,Mumbai Indians,,,642519,Shreyas Iyer,0,6.46
+ipl20,201008,1254112,2nd innings,130,54,0,74/4,0,66,10.6,4,0,0,False,,554691,Axar Patel,Delhi Capitals,230559,Kieron Pollard,Mumbai Indians,,,642519,Shreyas Iyer,4,6.72
+ipl20,201101,1254112,2nd innings,130,53,0,75/4,0,67,11.1,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,554691,Axar Patel,1,6.71
+ipl20,201102,1254112,2nd innings,130,52,0,76/4,0,68,11.2,1,0,0,False,,554691,Axar Patel,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,642519,Shreyas Iyer,1,6.7
+ipl20,201103,1254112,2nd innings,130,51,0,77/4,0,69,11.3,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,554691,Axar Patel,1,6.69
+ipl20,201104,1254112,2nd innings,130,50,0,77/5,5,70,11.4,0,0,0,True,leg before wicket,554691,Axar Patel,Delhi Capitals,277912,Trent Boult,Mumbai Indians,277912,Trent Boult,642519,Shreyas Iyer,0,6.6
+ipl20,201105,1254112,2nd innings,130,49,0,79/5,0,71,11.5,2,0,0,False,,670025,Shimron Hetmyer,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,642519,Shreyas Iyer,2,6.67
+ipl20,201106,1254112,2nd innings,130,48,0,80/5,0,72,11.6,1,0,0,False,,670025,Shimron Hetmyer,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,642519,Shreyas Iyer,1,6.66
+ipl20,201201,1254112,2nd innings,130,47,0,84/5,0,73,12.1,4,0,0,False,,670025,Shimron Hetmyer,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,642519,Shreyas Iyer,4,6.9
+ipl20,201202,1254112,2nd innings,130,46,0,85/5,0,74,12.2,1,0,0,False,,670025,Shimron Hetmyer,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,642519,Shreyas Iyer,1,6.89
+ipl20,201203,1254112,2nd innings,130,45,0,86/5,0,75,12.3,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,670025,Shimron Hetmyer,1,6.88
+ipl20,201204,1254112,2nd innings,130,44,0,88/5,0,76,12.4,2,0,0,False,,670025,Shimron Hetmyer,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,642519,Shreyas Iyer,2,6.94
+ipl20,201205,1254112,2nd innings,130,43,0,92/5,0,77,12.5,4,0,0,False,,670025,Shimron Hetmyer,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,642519,Shreyas Iyer,4,7.16
+ipl20,201206,1254112,2nd innings,130,42,0,93/5,0,78,12.6,1,0,0,False,,670025,Shimron Hetmyer,Delhi Capitals,447587,Jayant Yadav,Mumbai Indians,,,642519,Shreyas Iyer,1,7.15
+ipl20,201301,1254112,2nd innings,130,41,0,93/6,6,79,13.1,0,0,0,True,caught,670025,Shimron Hetmyer,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,34102,Rohit Sharma,642519,Shreyas Iyer,0,7.06
+ipl20,201302,1254112,2nd innings,130,40,0,93/6,0,80,13.2,0,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,642519,Shreyas Iyer,0,6.97
+ipl20,201303,1254112,2nd innings,130,39,0,93/6,0,81,13.3,0,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,642519,Shreyas Iyer,0,6.88
+ipl20,201304,1254112,2nd innings,130,38,0,93/6,0,82,13.4,0,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,642519,Shreyas Iyer,0,6.8
+ipl20,201305,1254112,2nd innings,130,37,0,93/6,0,83,13.5,0,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,642519,Shreyas Iyer,0,6.72
+ipl20,201306,1254112,2nd innings,130,36,0,94/6,0,84,13.6,1,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,642519,Shreyas Iyer,1,6.71
+ipl20,201401,1254112,2nd innings,130,35,0,94/6,0,85,14.1,0,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,642519,Shreyas Iyer,0,6.63
+ipl20,201402,1254112,2nd innings,130,34,0,96/6,0,86,14.2,2,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,642519,Shreyas Iyer,2,6.69
+ipl20,201403,1254112,2nd innings,130,33,0,97/6,0,87,14.3,1,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,642519,Shreyas Iyer,1,6.68
+ipl20,201404,1254112,2nd innings,130,32,0,98/6,0,88,14.4,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,26421,Ravichandran Ashwin,1,6.68
+ipl20,201405,1254112,2nd innings,130,31,0,99/6,0,89,14.5,1,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,642519,Shreyas Iyer,1,6.67
+ipl20,201406,1254112,2nd innings,130,30,0,100/6,0,90,14.6,1,0,1,False,,642519,Shreyas Iyer,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,26421,Ravichandran Ashwin,1,6.66
+ipl20,201501,1254112,2nd innings,130,29,0,100/6,0,91,15.1,0,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,26421,Ravichandran Ashwin,0,6.59
+ipl20,201502,1254112,2nd innings,130,29,0,101/6,0,91,15.1,1,1,1,False,,642519,Shreyas Iyer,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,26421,Ravichandran Ashwin,1,6.65
+ipl20,201503,1254112,2nd innings,130,28,0,101/6,0,92,15.2,0,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,26421,Ravichandran Ashwin,0,6.58
+ipl20,201504,1254112,2nd innings,130,27,0,102/6,0,93,15.3,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,26421,Ravichandran Ashwin,1,6.58
+ipl20,201505,1254112,2nd innings,130,26,0,103/6,0,94,15.4,1,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,642519,Shreyas Iyer,1,6.57
+ipl20,201506,1254112,2nd innings,130,25,0,104/6,0,95,15.5,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,26421,Ravichandran Ashwin,1,6.56
+ipl20,201507,1254112,2nd innings,130,24,0,105/6,0,96,15.6,1,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,642519,Shreyas Iyer,1,6.56
+ipl20,201601,1254112,2nd innings,130,23,0,106/6,0,97,16.1,1,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,642519,Shreyas Iyer,1,6.55
+ipl20,201602,1254112,2nd innings,130,22,0,106/6,0,98,16.2,0,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,26421,Ravichandran Ashwin,0,6.48
+ipl20,201603,1254112,2nd innings,130,21,0,110/6,0,99,16.3,4,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,26421,Ravichandran Ashwin,4,6.66
+ipl20,201604,1254112,2nd innings,130,20,0,111/6,0,100,16.4,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,26421,Ravichandran Ashwin,1,6.66
+ipl20,201605,1254112,2nd innings,130,19,0,111/6,0,101,16.5,0,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,642519,Shreyas Iyer,0,6.59
+ipl20,201606,1254112,2nd innings,130,18,0,111/6,0,102,16.6,0,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,261354,Nathan Coulter-Nile,Mumbai Indians,,,642519,Shreyas Iyer,0,6.52
+ipl20,201701,1254112,2nd innings,130,17,0,111/6,0,103,17.1,0,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,26421,Ravichandran Ashwin,0,6.46
+ipl20,201702,1254112,2nd innings,130,16,0,112/6,0,104,17.2,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,26421,Ravichandran Ashwin,1,6.46
+ipl20,201703,1254112,2nd innings,130,15,0,113/6,0,105,17.3,1,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,642519,Shreyas Iyer,1,6.45
+ipl20,201704,1254112,2nd innings,130,14,0,114/6,0,106,17.4,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,26421,Ravichandran Ashwin,1,6.45
+ipl20,201705,1254112,2nd innings,130,13,0,115/6,0,107,17.5,1,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,642519,Shreyas Iyer,1,6.44
+ipl20,201706,1254112,2nd innings,130,12,0,119/6,0,108,17.6,4,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,625383,Jasprit Bumrah,Mumbai Indians,,,26421,Ravichandran Ashwin,4,6.61
+ipl20,201801,1254112,2nd innings,130,11,0,119/6,0,109,18.1,0,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,642519,Shreyas Iyer,0,6.55
+ipl20,201802,1254112,2nd innings,130,10,0,121/6,0,110,18.2,2,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,642519,Shreyas Iyer,2,6.6
+ipl20,201803,1254112,2nd innings,130,9,0,122/6,0,111,18.3,1,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,642519,Shreyas Iyer,1,6.59
+ipl20,201804,1254112,2nd innings,130,8,0,124/6,0,112,18.4,2,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,26421,Ravichandran Ashwin,2,6.64
+ipl20,201805,1254112,2nd innings,130,7,0,125/6,0,113,18.5,1,0,0,False,,642519,Shreyas Iyer,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,26421,Ravichandran Ashwin,1,6.63
+ipl20,201806,1254112,2nd innings,130,6,0,126/6,0,114,18.6,1,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,277912,Trent Boult,Mumbai Indians,,,642519,Shreyas Iyer,1,6.63
+ipl20,201901,1254112,2nd innings,130,5,0,132/6,0,115,19.1,6,0,0,False,,26421,Ravichandran Ashwin,Delhi Capitals,471342,Krunal Pandya,Mumbai Indians,,,642519,Shreyas Iyer,6,6.88

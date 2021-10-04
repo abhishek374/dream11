@@ -1,0 +1,249 @@
+ipl_season,sequence,eventid,innings,target,remainingballs,homescore,awayscore,fallofwickets,ball,over,scorevalue,validball,extras,dismissal,dismissaltype,batsmanid,batsman,batsmanteam,bowlerid,bowler,bowlerteam,otherathleteinvolvedid,otherathleteinvolved,nonstrikerid,nonstriker,runs,runrate
+ipl20,100001,1254060,1st innings,0,119,4/0,0,0,1,0.1,4,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,1070173,Shubman Gill,4,24.0
+ipl20,100002,1254060,1st innings,0,118,4/0,0,0,2,0.2,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,1070173,Shubman Gill,0,12.0
+ipl20,100003,1254060,1st innings,0,117,4/0,0,0,3,0.3,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,1070173,Shubman Gill,0,8.0
+ipl20,100004,1254060,1st innings,0,116,4/0,0,0,4,0.4,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,1070173,Shubman Gill,0,6.0
+ipl20,100005,1254060,1st innings,0,115,4/0,0,0,5,0.5,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,1070173,Shubman Gill,0,4.8
+ipl20,100006,1254060,1st innings,0,114,4/0,0,0,6,0.6,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,1070173,Shubman Gill,0,4.0
+ipl20,100101,1254060,1st innings,0,113,4/0,0,0,7,1.1,0,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,604527,Nitish Rana,0,3.42
+ipl20,100102,1254060,1st innings,0,112,5/0,0,0,8,1.2,1,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,604527,Nitish Rana,1,3.75
+ipl20,100103,1254060,1st innings,0,111,9/0,0,0,9,1.3,4,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,1070173,Shubman Gill,4,6.0
+ipl20,100104,1254060,1st innings,0,110,9/0,0,0,10,1.4,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,1070173,Shubman Gill,0,5.4
+ipl20,100105,1254060,1st innings,0,109,13/0,0,0,11,1.5,4,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,1070173,Shubman Gill,4,7.09
+ipl20,100106,1254060,1st innings,0,108,13/0,0,0,12,1.6,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,1070173,Shubman Gill,0,6.5
+ipl20,100201,1254060,1st innings,0,107,17/0,0,0,13,2.1,4,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,604527,Nitish Rana,4,7.84
+ipl20,100202,1254060,1st innings,0,106,18/0,0,0,14,2.2,1,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,604527,Nitish Rana,1,7.71
+ipl20,100203,1254060,1st innings,0,105,18/0,0,0,15,2.3,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,1070173,Shubman Gill,0,7.2
+ipl20,100204,1254060,1st innings,0,104,18/0,0,0,16,2.4,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,1070173,Shubman Gill,0,6.75
+ipl20,100205,1254060,1st innings,0,103,19/0,0,0,17,2.5,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,1070173,Shubman Gill,1,6.7
+ipl20,100206,1254060,1st innings,0,102,19/0,0,0,18,2.6,0,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,604527,Nitish Rana,0,6.33
+ipl20,100301,1254060,1st innings,0,101,23/0,0,0,19,3.1,4,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,1070173,Shubman Gill,4,7.26
+ipl20,100302,1254060,1st innings,0,100,27/0,0,0,20,3.2,4,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,1070173,Shubman Gill,4,8.1
+ipl20,100303,1254060,1st innings,0,99,31/0,0,0,21,3.3,4,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,1070173,Shubman Gill,4,8.85
+ipl20,100304,1254060,1st innings,0,98,32/0,0,0,22,3.4,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,1070173,Shubman Gill,1,8.72
+ipl20,100305,1254060,1st innings,0,97,32/0,0,0,23,3.5,0,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,604527,Nitish Rana,0,8.34
+ipl20,100306,1254060,1st innings,0,96,33/0,0,0,24,3.6,1,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,604527,Nitish Rana,1,8.25
+ipl20,100401,1254060,1st innings,0,95,39/0,0,0,25,4.1,6,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,604527,Nitish Rana,6,9.36
+ipl20,100402,1254060,1st innings,0,94,40/0,0,0,26,4.2,1,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,604527,Nitish Rana,1,9.23
+ipl20,100403,1254060,1st innings,0,93,40/0,0,0,27,4.3,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,1070173,Shubman Gill,0,8.88
+ipl20,100404,1254060,1st innings,0,92,40/0,0,0,28,4.4,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,1070173,Shubman Gill,0,8.57
+ipl20,100405,1254060,1st innings,0,91,44/0,0,0,29,4.5,4,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,1070173,Shubman Gill,4,9.1
+ipl20,100406,1254060,1st innings,0,90,45/0,0,0,30,4.6,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,1070173,Shubman Gill,1,9.0
+ipl20,100501,1254060,1st innings,0,89,45/0,0,0,31,5.1,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,1070173,Shubman Gill,0,8.7
+ipl20,100502,1254060,1st innings,0,88,49/0,0,0,32,5.2,4,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,1070173,Shubman Gill,4,9.18
+ipl20,100503,1254060,1st innings,0,87,49/0,0,0,33,5.3,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,1070173,Shubman Gill,0,8.9
+ipl20,100504,1254060,1st innings,0,86,50/0,0,0,34,5.4,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,1070173,Shubman Gill,1,8.82
+ipl20,100505,1254060,1st innings,0,85,50/0,0,0,35,5.5,0,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,604527,Nitish Rana,0,8.57
+ipl20,100506,1254060,1st innings,0,84,50/0,0,0,36,5.6,0,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,604527,Nitish Rana,0,8.33
+ipl20,100601,1254060,1st innings,0,83,51/0,0,0,37,6.1,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,1070173,Shubman Gill,1,8.27
+ipl20,100602,1254060,1st innings,0,82,52/0,0,0,38,6.2,1,0,0,False,,1070173,Shubman Gill,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,604527,Nitish Rana,1,8.21
+ipl20,100603,1254060,1st innings,0,81,52/0,0,0,39,6.3,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,1070173,Shubman Gill,0,8.0
+ipl20,100604,1254060,1st innings,0,80,52/0,0,0,40,6.4,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,1070173,Shubman Gill,0,7.8
+ipl20,100605,1254060,1st innings,0,79,53/0,0,0,41,6.5,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,1070173,Shubman Gill,1,7.75
+ipl20,100606,1254060,1st innings,0,78,53/1,0,1,42,6.6,0,0,0,True,bowled,1070173,Shubman Gill,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,793463,Rashid Khan,604527,Nitish Rana,0,7.57
+ipl20,100701,1254060,1st innings,0,77,54/1,0,0,43,7.1,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,446763,Rahul Tripathi,1,7.53
+ipl20,100702,1254060,1st innings,0,76,55/1,0,0,44,7.2,1,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,604527,Nitish Rana,1,7.5
+ipl20,100703,1254060,1st innings,0,75,56/1,0,0,45,7.3,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,446763,Rahul Tripathi,1,7.46
+ipl20,100704,1254060,1st innings,0,74,62/1,0,0,46,7.4,6,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,604527,Nitish Rana,6,8.08
+ipl20,100705,1254060,1st innings,0,73,64/1,0,0,47,7.5,2,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,604527,Nitish Rana,2,8.17
+ipl20,100706,1254060,1st innings,0,72,64/1,0,0,48,7.6,0,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,604527,Nitish Rana,0,8.0
+ipl20,100801,1254060,1st innings,0,71,64/1,0,0,49,8.1,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,446763,Rahul Tripathi,0,7.83
+ipl20,100802,1254060,1st innings,0,70,65/1,0,0,50,8.2,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,446763,Rahul Tripathi,1,7.8
+ipl20,100803,1254060,1st innings,0,69,65/1,0,0,51,8.3,0,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,604527,Nitish Rana,0,7.64
+ipl20,100804,1254060,1st innings,0,68,66/1,0,0,52,8.4,1,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,604527,Nitish Rana,1,7.61
+ipl20,100805,1254060,1st innings,0,67,67/1,0,0,53,8.5,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,446763,Rahul Tripathi,1,7.58
+ipl20,100806,1254060,1st innings,0,66,69/1,0,0,54,8.6,2,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,604527,Nitish Rana,2,7.66
+ipl20,100901,1254060,1st innings,0,65,70/1,0,0,55,9.1,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,477021,Vijay Shankar,Sunrisers Hyderabad,,,446763,Rahul Tripathi,1,7.63
+ipl20,100902,1254060,1st innings,0,64,74/1,0,0,56,9.2,4,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,477021,Vijay Shankar,Sunrisers Hyderabad,,,604527,Nitish Rana,4,7.92
+ipl20,100903,1254060,1st innings,0,63,75/1,0,0,57,9.3,1,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,477021,Vijay Shankar,Sunrisers Hyderabad,,,604527,Nitish Rana,1,7.89
+ipl20,100904,1254060,1st innings,0,62,76/1,0,0,58,9.4,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,477021,Vijay Shankar,Sunrisers Hyderabad,,,446763,Rahul Tripathi,1,7.86
+ipl20,100905,1254060,1st innings,0,61,77/1,0,0,59,9.5,1,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,477021,Vijay Shankar,Sunrisers Hyderabad,,,604527,Nitish Rana,1,7.83
+ipl20,100906,1254060,1st innings,0,60,83/1,0,0,60,9.6,6,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,477021,Vijay Shankar,Sunrisers Hyderabad,,,446763,Rahul Tripathi,6,8.3
+ipl20,101001,1254060,1st innings,0,59,84/1,0,0,61,10.1,1,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,604527,Nitish Rana,1,8.26
+ipl20,101002,1254060,1st innings,0,58,85/1,0,0,62,10.2,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,446763,Rahul Tripathi,1,8.22
+ipl20,101003,1254060,1st innings,0,57,85/1,0,0,63,10.3,0,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,604527,Nitish Rana,0,8.09
+ipl20,101004,1254060,1st innings,0,56,86/1,0,0,64,10.4,1,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,604527,Nitish Rana,1,8.06
+ipl20,101005,1254060,1st innings,0,55,86/1,0,0,65,10.5,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,446763,Rahul Tripathi,0,7.93
+ipl20,101006,1254060,1st innings,0,54,92/1,0,0,66,10.6,6,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,446763,Rahul Tripathi,6,8.36
+ipl20,101101,1254060,1st innings,0,53,96/1,0,0,67,11.1,4,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,604527,Nitish Rana,4,8.59
+ipl20,101102,1254060,1st innings,0,52,97/1,0,0,68,11.2,1,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,604527,Nitish Rana,1,8.55
+ipl20,101103,1254060,1st innings,0,51,103/1,0,0,69,11.3,6,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,446763,Rahul Tripathi,6,8.95
+ipl20,101104,1254060,1st innings,0,50,104/1,0,0,70,11.4,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,446763,Rahul Tripathi,1,8.91
+ipl20,101105,1254060,1st innings,0,49,104/1,0,0,71,11.5,0,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,604527,Nitish Rana,0,8.78
+ipl20,101106,1254060,1st innings,0,48,105/1,0,0,72,11.6,1,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,604527,Nitish Rana,1,8.75
+ipl20,101201,1254060,1st innings,0,47,106/1,0,0,73,12.1,1,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,604527,Nitish Rana,1,8.71
+ipl20,101202,1254060,1st innings,0,46,107/1,0,0,74,12.2,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,446763,Rahul Tripathi,1,8.67
+ipl20,101203,1254060,1st innings,0,45,109/1,0,0,75,12.3,2,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,604527,Nitish Rana,2,8.72
+ipl20,101204,1254060,1st innings,0,44,113/1,0,0,76,12.4,4,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,604527,Nitish Rana,4,8.92
+ipl20,101205,1254060,1st innings,0,43,114/1,0,0,77,12.5,1,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,604527,Nitish Rana,1,8.88
+ipl20,101206,1254060,1st innings,0,42,114/1,0,0,78,12.6,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,446763,Rahul Tripathi,0,8.76
+ipl20,101301,1254060,1st innings,0,41,116/1,0,0,79,13.1,2,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,604527,Nitish Rana,2,8.81
+ipl20,101302,1254060,1st innings,0,40,117/1,0,0,80,13.2,1,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,604527,Nitish Rana,1,8.77
+ipl20,101303,1254060,1st innings,0,39,123/1,0,0,81,13.3,6,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,446763,Rahul Tripathi,6,9.11
+ipl20,101304,1254060,1st innings,0,38,123/1,0,0,82,13.4,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,446763,Rahul Tripathi,0,9.0
+ipl20,101305,1254060,1st innings,0,37,124/1,0,0,83,13.5,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,446763,Rahul Tripathi,1,8.96
+ipl20,101306,1254060,1st innings,0,36,126/1,0,0,84,13.6,2,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,438362,Sandeep Sharma,Sunrisers Hyderabad,,,604527,Nitish Rana,2,9.0
+ipl20,101401,1254060,1st innings,0,35,130/1,0,0,85,14.1,4,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,446763,Rahul Tripathi,4,9.17
+ipl20,101402,1254060,1st innings,0,34,131/1,0,0,86,14.2,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,446763,Rahul Tripathi,1,9.13
+ipl20,101403,1254060,1st innings,0,33,137/1,0,0,87,14.3,6,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,604527,Nitish Rana,6,9.44
+ipl20,101404,1254060,1st innings,0,32,141/1,0,0,88,14.4,4,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,604527,Nitish Rana,4,9.61
+ipl20,101405,1254060,1st innings,0,31,141/1,0,0,89,14.5,0,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,604527,Nitish Rana,0,9.5
+ipl20,101406,1254060,1st innings,0,30,145/1,0,0,90,14.6,4,0,0,False,,446763,Rahul Tripathi,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,604527,Nitish Rana,4,9.66
+ipl20,101501,1254060,1st innings,0,29,146/1,0,0,91,15.1,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,446763,Rahul Tripathi,1,9.62
+ipl20,101502,1254060,1st innings,0,28,146/2,0,2,92,15.2,0,0,0,True,caught,446763,Rahul Tripathi,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,279810,Wriddhiman Saha,604527,Nitish Rana,0,9.52
+ipl20,101503,1254060,1st innings,0,27,147/2,0,0,93,15.3,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,276298,Andre Russell,1,9.48
+ipl20,101504,1254060,1st innings,0,26,151/2,0,0,94,15.4,4,0,0,False,,276298,Andre Russell,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,604527,Nitish Rana,4,9.63
+ipl20,101505,1254060,1st innings,0,25,151/2,0,0,95,15.5,0,0,0,False,,276298,Andre Russell,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,604527,Nitish Rana,0,9.53
+ipl20,101506,1254060,1st innings,0,24,152/2,0,0,96,15.6,1,0,0,False,,276298,Andre Russell,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,604527,Nitish Rana,1,9.5
+ipl20,101601,1254060,1st innings,0,24,157/2,0,0,96,16.0,5,5,5,False,,276298,Andre Russell,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,604527,Nitish Rana,5,9.81
+ipl20,101602,1254060,1st innings,0,23,157/2,0,0,97,16.1,0,0,0,False,,276298,Andre Russell,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,604527,Nitish Rana,0,9.71
+ipl20,101603,1254060,1st innings,0,22,157/3,0,3,98,16.2,0,0,0,True,caught,276298,Andre Russell,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,276298,Andre Russell,604527,Nitish Rana,0,9.61
+ipl20,101604,1254060,1st innings,0,21,157/3,0,0,99,16.3,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,24598,Eoin Morgan,0,9.51
+ipl20,101605,1254060,1st innings,0,20,157/3,0,0,100,16.4,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,24598,Eoin Morgan,0,9.42
+ipl20,101606,1254060,1st innings,0,19,158/3,0,0,101,16.5,1,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,24598,Eoin Morgan,1,9.38
+ipl20,101607,1254060,1st innings,0,18,159/3,0,0,102,16.6,1,0,0,False,,24598,Eoin Morgan,Kolkata Knight Riders,793463,Rashid Khan,Sunrisers Hyderabad,,,604527,Nitish Rana,1,9.35
+ipl20,101701,1254060,1st innings,0,17,160/3,0,0,103,17.1,1,0,0,False,,24598,Eoin Morgan,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,604527,Nitish Rana,1,9.32
+ipl20,101702,1254060,1st innings,0,16,160/3,0,0,104,17.2,0,0,0,False,,604527,Nitish Rana,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,24598,Eoin Morgan,0,9.23
+ipl20,101703,1254060,1st innings,0,15,160/4,0,4,105,17.3,0,0,0,True,caught,604527,Nitish Rana,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,25913,Mohammad Nabi,24598,Eoin Morgan,0,9.14
+ipl20,101704,1254060,1st innings,0,14,160/5,0,5,106,17.4,0,0,0,True,caught,24598,Eoin Morgan,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,1175485,Abdul Samad,30045,Dinesh Karthik,0,9.05
+ipl20,101705,1254060,1st innings,0,13,161/5,0,0,107,17.5,1,0,0,False,,30045,Dinesh Karthik,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,56143,Shakib Al Hasan,1,9.02
+ipl20,101706,1254060,1st innings,0,12,162/5,0,0,108,17.6,1,0,0,False,,56143,Shakib Al Hasan,Kolkata Knight Riders,25913,Mohammad Nabi,Sunrisers Hyderabad,,,30045,Dinesh Karthik,1,9.0
+ipl20,101801,1254060,1st innings,0,12,163/5,0,0,108,18.0,1,1,1,False,,56143,Shakib Al Hasan,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,30045,Dinesh Karthik,1,9.05
+ipl20,101802,1254060,1st innings,0,11,164/5,0,0,109,18.1,1,0,0,False,,56143,Shakib Al Hasan,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,30045,Dinesh Karthik,1,9.02
+ipl20,101803,1254060,1st innings,0,10,165/5,0,0,110,18.2,1,0,0,False,,30045,Dinesh Karthik,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,56143,Shakib Al Hasan,1,9.0
+ipl20,101804,1254060,1st innings,0,9,165/5,0,0,111,18.3,0,0,0,False,,56143,Shakib Al Hasan,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,30045,Dinesh Karthik,0,8.91
+ipl20,101805,1254060,1st innings,0,8,166/5,0,0,112,18.4,1,0,0,False,,56143,Shakib Al Hasan,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,30045,Dinesh Karthik,1,8.89
+ipl20,101806,1254060,1st innings,0,7,170/5,0,0,113,18.5,4,0,0,False,,30045,Dinesh Karthik,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,56143,Shakib Al Hasan,4,9.02
+ipl20,101807,1254060,1st innings,0,6,171/5,0,0,114,18.6,1,0,0,False,,30045,Dinesh Karthik,Kolkata Knight Riders,802575,T Natarajan,Sunrisers Hyderabad,,,56143,Shakib Al Hasan,1,9.0
+ipl20,101901,1254060,1st innings,0,5,177/5,0,0,115,19.1,6,0,0,False,,30045,Dinesh Karthik,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,56143,Shakib Al Hasan,6,9.23
+ipl20,101902,1254060,1st innings,0,4,181/5,0,0,116,19.2,4,0,0,False,,30045,Dinesh Karthik,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,56143,Shakib Al Hasan,4,9.36
+ipl20,101903,1254060,1st innings,0,3,183/5,0,0,117,19.3,2,0,0,False,,30045,Dinesh Karthik,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,56143,Shakib Al Hasan,2,9.38
+ipl20,101904,1254060,1st innings,0,3,184/5,0,0,117,19.3,1,1,1,False,,30045,Dinesh Karthik,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,56143,Shakib Al Hasan,1,9.43
+ipl20,101905,1254060,1st innings,0,2,186/5,0,0,118,19.4,2,0,0,False,,30045,Dinesh Karthik,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,56143,Shakib Al Hasan,2,9.45
+ipl20,101906,1254060,1st innings,0,1,187/5,0,0,119,19.5,1,0,0,False,,30045,Dinesh Karthik,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,,,56143,Shakib Al Hasan,1,9.42
+ipl20,101907,1254060,1st innings,0,0,187/6,0,6,120,19.6,0,0,0,True,caught,56143,Shakib Al Hasan,Kolkata Knight Riders,326016,Bhuvneshwar Kumar,Sunrisers Hyderabad,1175485,Abdul Samad,30045,Dinesh Karthik,0,9.35
+ipl20,200001,1254060,2nd innings,188,119,0,0/0,0,1,0.1,0,0,0,False,,279810,Wriddhiman Saha,Sunrisers Hyderabad,29264,Harbhajan Singh,Kolkata Knight Riders,,,219889,David Warner,0,0.0
+ipl20,200002,1254060,2nd innings,188,118,0,0/0,0,2,0.2,0,0,0,False,,279810,Wriddhiman Saha,Sunrisers Hyderabad,29264,Harbhajan Singh,Kolkata Knight Riders,,,219889,David Warner,0,0.0
+ipl20,200003,1254060,2nd innings,188,117,0,1/0,0,3,0.3,1,0,0,False,,279810,Wriddhiman Saha,Sunrisers Hyderabad,29264,Harbhajan Singh,Kolkata Knight Riders,,,219889,David Warner,1,2.0
+ipl20,200004,1254060,2nd innings,188,116,0,2/0,0,4,0.4,1,0,0,False,,219889,David Warner,Sunrisers Hyderabad,29264,Harbhajan Singh,Kolkata Knight Riders,,,279810,Wriddhiman Saha,1,3.0
+ipl20,200005,1254060,2nd innings,188,115,0,2/0,0,5,0.5,0,0,0,False,,279810,Wriddhiman Saha,Sunrisers Hyderabad,29264,Harbhajan Singh,Kolkata Knight Riders,,,219889,David Warner,0,2.4
+ipl20,200006,1254060,2nd innings,188,114,0,8/0,0,6,0.6,6,0,0,False,,279810,Wriddhiman Saha,Sunrisers Hyderabad,29264,Harbhajan Singh,Kolkata Knight Riders,,,219889,David Warner,6,8.0
+ipl20,200101,1254060,2nd innings,188,113,0,10/0,0,7,1.1,2,0,0,False,,219889,David Warner,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,279810,Wriddhiman Saha,2,8.57
+ipl20,200102,1254060,2nd innings,188,112,0,10/0,0,8,1.2,0,0,0,False,,219889,David Warner,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,279810,Wriddhiman Saha,0,7.5
+ipl20,200103,1254060,2nd innings,188,111,0,10/1,1,9,1.3,0,0,0,True,caught,219889,David Warner,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,219889,David Warner,279810,Wriddhiman Saha,0,6.66
+ipl20,200104,1254060,2nd innings,188,110,0,10/1,0,10,1.4,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,279810,Wriddhiman Saha,0,6.0
+ipl20,200105,1254060,2nd innings,188,109,0,10/1,0,11,1.5,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,279810,Wriddhiman Saha,0,5.45
+ipl20,200106,1254060,2nd innings,188,108,0,10/1,0,12,1.6,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,279810,Wriddhiman Saha,0,5.0
+ipl20,200201,1254060,2nd innings,188,107,0,10/2,2,13,2.1,0,0,0,True,bowled,279810,Wriddhiman Saha,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,56143,Shakib Al Hasan,290630,Manish Pandey,0,4.61
+ipl20,200202,1254060,2nd innings,188,106,0,10/2,0,14,2.2,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,290630,Manish Pandey,0,4.28
+ipl20,200203,1254060,2nd innings,188,105,0,10/2,0,15,2.3,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,290630,Manish Pandey,0,4.0
+ipl20,200204,1254060,2nd innings,188,104,0,10/2,0,16,2.4,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,290630,Manish Pandey,0,3.75
+ipl20,200205,1254060,2nd innings,188,103,0,10/2,0,17,2.5,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,290630,Manish Pandey,0,3.52
+ipl20,200206,1254060,2nd innings,188,102,0,11/2,0,18,2.6,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,290630,Manish Pandey,1,3.66
+ipl20,200301,1254060,2nd innings,188,101,0,13/2,0,19,3.1,2,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,290630,Manish Pandey,2,4.1
+ipl20,200302,1254060,2nd innings,188,100,0,14/2,0,20,3.2,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,290630,Manish Pandey,1,4.2
+ipl20,200303,1254060,2nd innings,188,99,0,19/2,0,21,3.3,5,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,297433,Jonny Bairstow,5,5.42
+ipl20,200304,1254060,2nd innings,188,98,0,20/2,0,22,3.4,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,290630,Manish Pandey,1,5.45
+ipl20,200305,1254060,2nd innings,188,97,0,20/2,0,23,3.5,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,297433,Jonny Bairstow,0,5.21
+ipl20,200306,1254060,2nd innings,188,96,0,20/2,0,24,3.6,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,297433,Jonny Bairstow,0,5.0
+ipl20,200401,1254060,2nd innings,188,95,0,20/2,0,25,4.1,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,290630,Manish Pandey,0,4.8
+ipl20,200402,1254060,2nd innings,188,94,0,26/2,0,26,4.2,6,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,290630,Manish Pandey,6,6.0
+ipl20,200403,1254060,2nd innings,188,93,0,27/2,0,27,4.3,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,290630,Manish Pandey,1,6.0
+ipl20,200404,1254060,2nd innings,188,92,0,27/2,0,28,4.4,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,297433,Jonny Bairstow,0,5.78
+ipl20,200405,1254060,2nd innings,188,91,0,31/2,0,29,4.5,4,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,297433,Jonny Bairstow,4,6.41
+ipl20,200406,1254060,2nd innings,188,90,0,32/2,0,30,4.6,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,297433,Jonny Bairstow,1,6.4
+ipl20,200501,1254060,2nd innings,188,89,0,33/2,0,31,5.1,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,297433,Jonny Bairstow,1,6.38
+ipl20,200502,1254060,2nd innings,188,88,0,33/2,0,32,5.2,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,290630,Manish Pandey,0,6.18
+ipl20,200503,1254060,2nd innings,188,87,0,34/2,0,33,5.3,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,290630,Manish Pandey,1,6.18
+ipl20,200504,1254060,2nd innings,188,86,0,34/2,0,34,5.4,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,297433,Jonny Bairstow,0,6.0
+ipl20,200505,1254060,2nd innings,188,85,0,34/2,0,35,5.5,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,297433,Jonny Bairstow,0,5.82
+ipl20,200506,1254060,2nd innings,188,84,0,35/2,0,36,5.6,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,297433,Jonny Bairstow,1,5.83
+ipl20,200601,1254060,2nd innings,188,83,0,36/2,0,37,6.1,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,297433,Jonny Bairstow,1,5.83
+ipl20,200602,1254060,2nd innings,188,82,0,37/2,0,38,6.2,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,290630,Manish Pandey,1,5.84
+ipl20,200603,1254060,2nd innings,188,81,0,43/2,0,39,6.3,6,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,297433,Jonny Bairstow,6,6.61
+ipl20,200604,1254060,2nd innings,188,80,0,44/2,0,40,6.4,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,297433,Jonny Bairstow,1,6.6
+ipl20,200605,1254060,2nd innings,188,79,0,45/2,0,41,6.5,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,290630,Manish Pandey,1,6.58
+ipl20,200606,1254060,2nd innings,188,78,0,45/2,0,42,6.6,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,297433,Jonny Bairstow,0,6.42
+ipl20,200701,1254060,2nd innings,188,77,0,49/2,0,43,7.1,4,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,290630,Manish Pandey,4,6.83
+ipl20,200702,1254060,2nd innings,188,76,0,49/2,0,44,7.2,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,290630,Manish Pandey,0,6.68
+ipl20,200703,1254060,2nd innings,188,75,0,55/2,0,45,7.3,6,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,290630,Manish Pandey,6,7.33
+ipl20,200704,1254060,2nd innings,188,74,0,55/2,0,46,7.4,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,290630,Manish Pandey,0,7.17
+ipl20,200705,1254060,2nd innings,188,73,0,59/2,0,47,7.5,4,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,290630,Manish Pandey,4,7.53
+ipl20,200706,1254060,2nd innings,188,72,0,60/2,0,48,7.6,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,290630,Manish Pandey,1,7.5
+ipl20,200801,1254060,2nd innings,188,71,0,64/2,0,49,8.1,4,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,290630,Manish Pandey,4,7.83
+ipl20,200802,1254060,2nd innings,188,70,0,65/2,0,50,8.2,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,290630,Manish Pandey,1,7.8
+ipl20,200803,1254060,2nd innings,188,69,0,67/2,0,51,8.3,2,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,297433,Jonny Bairstow,2,7.88
+ipl20,200804,1254060,2nd innings,188,68,0,68/2,0,52,8.4,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,297433,Jonny Bairstow,1,7.84
+ipl20,200805,1254060,2nd innings,188,67,0,69/2,0,53,8.5,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,290630,Manish Pandey,1,7.81
+ipl20,200806,1254060,2nd innings,188,66,0,69/2,0,54,8.6,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,297433,Jonny Bairstow,0,7.66
+ipl20,200901,1254060,2nd innings,188,65,0,69/2,0,55,9.1,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,290630,Manish Pandey,0,7.52
+ipl20,200902,1254060,2nd innings,188,64,0,70/2,0,56,9.2,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,290630,Manish Pandey,1,7.5
+ipl20,200903,1254060,2nd innings,188,63,0,72/2,0,57,9.3,2,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,297433,Jonny Bairstow,2,7.57
+ipl20,200904,1254060,2nd innings,188,62,0,73/2,0,58,9.4,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,297433,Jonny Bairstow,1,7.55
+ipl20,200905,1254060,2nd innings,188,61,0,77/2,0,59,9.5,4,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,290630,Manish Pandey,4,7.83
+ipl20,200906,1254060,2nd innings,188,60,0,77/2,0,60,9.6,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,290630,Manish Pandey,0,7.7
+ipl20,201001,1254060,2nd innings,188,60,0,78/2,0,60,10.0,1,1,1,False,,290630,Manish Pandey,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,297433,Jonny Bairstow,1,7.8
+ipl20,201002,1254060,2nd innings,188,59,0,82/2,0,61,10.1,4,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,297433,Jonny Bairstow,4,8.06
+ipl20,201003,1254060,2nd innings,188,58,0,82/2,0,62,10.2,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,297433,Jonny Bairstow,0,7.93
+ipl20,201004,1254060,2nd innings,188,57,0,83/2,0,63,10.3,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,297433,Jonny Bairstow,1,7.9
+ipl20,201005,1254060,2nd innings,188,57,0,84/2,0,63,10.3,1,1,1,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,290630,Manish Pandey,1,8.0
+ipl20,201006,1254060,2nd innings,188,56,0,88/2,0,64,10.4,4,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,290630,Manish Pandey,4,8.25
+ipl20,201007,1254060,2nd innings,188,55,0,88/2,0,65,10.5,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,290630,Manish Pandey,0,8.12
+ipl20,201008,1254060,2nd innings,188,54,0,89/2,0,66,10.6,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,290630,Manish Pandey,1,8.09
+ipl20,201101,1254060,2nd innings,188,53,0,95/2,0,67,11.1,6,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,290630,Manish Pandey,6,8.5
+ipl20,201102,1254060,2nd innings,188,52,0,95/2,0,68,11.2,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,290630,Manish Pandey,0,8.38
+ipl20,201103,1254060,2nd innings,188,51,0,96/2,0,69,11.3,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,290630,Manish Pandey,1,8.34
+ipl20,201104,1254060,2nd innings,188,50,0,97/2,0,70,11.4,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,297433,Jonny Bairstow,1,8.31
+ipl20,201105,1254060,2nd innings,188,49,0,98/2,0,71,11.5,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,290630,Manish Pandey,1,8.28
+ipl20,201106,1254060,2nd innings,188,48,0,100/2,0,72,11.6,2,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,297433,Jonny Bairstow,2,8.33
+ipl20,201201,1254060,2nd innings,188,47,0,101/2,0,73,12.1,1,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,290630,Manish Pandey,1,8.3
+ipl20,201202,1254060,2nd innings,188,46,0,102/2,0,74,12.2,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,297433,Jonny Bairstow,1,8.27
+ipl20,201203,1254060,2nd innings,188,45,0,102/2,0,75,12.3,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,290630,Manish Pandey,0,8.16
+ipl20,201204,1254060,2nd innings,188,44,0,102/2,0,76,12.4,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,290630,Manish Pandey,0,8.05
+ipl20,201205,1254060,2nd innings,188,43,0,102/2,0,77,12.5,0,0,0,False,,297433,Jonny Bairstow,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,290630,Manish Pandey,0,7.94
+ipl20,201206,1254060,2nd innings,188,42,0,102/3,3,78,12.6,0,0,0,True,caught,297433,Jonny Bairstow,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,297433,Jonny Bairstow,290630,Manish Pandey,0,7.84
+ipl20,201301,1254060,2nd innings,188,41,0,103/3,0,79,13.1,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,25913,Mohammad Nabi,1,7.82
+ipl20,201302,1254060,2nd innings,188,40,0,104/3,0,80,13.2,1,0,0,False,,25913,Mohammad Nabi,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,290630,Manish Pandey,1,7.8
+ipl20,201303,1254060,2nd innings,188,39,0,105/3,0,81,13.3,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,25913,Mohammad Nabi,1,7.77
+ipl20,201304,1254060,2nd innings,188,38,0,106/3,0,82,13.4,1,0,0,False,,25913,Mohammad Nabi,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,290630,Manish Pandey,1,7.75
+ipl20,201305,1254060,2nd innings,188,37,0,112/3,0,83,13.5,6,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,25913,Mohammad Nabi,6,8.09
+ipl20,201306,1254060,2nd innings,188,36,0,113/3,0,84,13.6,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,56143,Shakib Al Hasan,Kolkata Knight Riders,,,25913,Mohammad Nabi,1,8.07
+ipl20,201401,1254060,2nd innings,188,35,0,114/3,0,85,14.1,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,25913,Mohammad Nabi,1,8.04
+ipl20,201402,1254060,2nd innings,188,34,0,116/3,0,86,14.2,2,0,0,False,,25913,Mohammad Nabi,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,290630,Manish Pandey,2,8.09
+ipl20,201403,1254060,2nd innings,188,33,0,116/3,0,87,14.3,0,0,0,False,,25913,Mohammad Nabi,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,290630,Manish Pandey,0,8.0
+ipl20,201404,1254060,2nd innings,188,32,0,117/3,0,88,14.4,1,0,1,False,,25913,Mohammad Nabi,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,290630,Manish Pandey,1,7.97
+ipl20,201405,1254060,2nd innings,188,31,0,118/3,0,89,14.5,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,25913,Mohammad Nabi,1,7.95
+ipl20,201406,1254060,2nd innings,188,30,0,119/3,0,90,14.6,1,0,0,False,,25913,Mohammad Nabi,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,290630,Manish Pandey,1,7.93
+ipl20,201501,1254060,2nd innings,188,29,0,120/3,0,91,15.1,1,0,0,False,,25913,Mohammad Nabi,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,290630,Manish Pandey,1,7.91
+ipl20,201502,1254060,2nd innings,188,28,0,121/3,0,92,15.2,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,25913,Mohammad Nabi,1,7.89
+ipl20,201503,1254060,2nd innings,188,27,0,125/3,0,93,15.3,4,0,0,False,,25913,Mohammad Nabi,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,290630,Manish Pandey,4,8.06
+ipl20,201504,1254060,2nd innings,188,27,0,126/3,0,93,15.3,1,1,1,False,,25913,Mohammad Nabi,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,290630,Manish Pandey,1,8.12
+ipl20,201505,1254060,2nd innings,188,26,0,126/3,0,94,15.4,0,0,0,False,,25913,Mohammad Nabi,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,290630,Manish Pandey,0,8.04
+ipl20,201506,1254060,2nd innings,188,25,0,130/3,0,95,15.5,4,0,0,False,,25913,Mohammad Nabi,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,290630,Manish Pandey,4,8.21
+ipl20,201507,1254060,2nd innings,188,25,0,131/3,0,95,15.5,1,1,1,False,,25913,Mohammad Nabi,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,,,290630,Manish Pandey,1,8.27
+ipl20,201508,1254060,2nd innings,188,24,0,131/4,4,96,15.6,0,0,0,True,caught,25913,Mohammad Nabi,Sunrisers Hyderabad,917159,Prasidh Krishna,Kolkata Knight Riders,25913,Mohammad Nabi,290630,Manish Pandey,0,8.18
+ipl20,201601,1254060,2nd innings,188,23,0,133/4,0,97,16.1,2,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,477021,Vijay Shankar,2,8.22
+ipl20,201602,1254060,2nd innings,188,22,0,134/4,0,98,16.2,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,477021,Vijay Shankar,1,8.2
+ipl20,201603,1254060,2nd innings,188,21,0,135/4,0,99,16.3,1,0,1,False,,477021,Vijay Shankar,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,290630,Manish Pandey,1,8.18
+ipl20,201604,1254060,2nd innings,188,20,0,136/4,0,100,16.4,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,477021,Vijay Shankar,1,8.16
+ipl20,201605,1254060,2nd innings,188,19,0,138/4,0,101,16.5,2,0,0,False,,477021,Vijay Shankar,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,290630,Manish Pandey,2,8.19
+ipl20,201606,1254060,2nd innings,188,18,0,144/4,0,102,16.6,6,0,0,False,,477021,Vijay Shankar,Sunrisers Hyderabad,1108375,Varun Chakravarthy,Kolkata Knight Riders,,,290630,Manish Pandey,6,8.47
+ipl20,201701,1254060,2nd innings,188,17,0,145/4,0,103,17.1,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,477021,Vijay Shankar,1,8.44
+ipl20,201702,1254060,2nd innings,188,16,0,146/4,0,104,17.2,1,0,0,False,,477021,Vijay Shankar,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,290630,Manish Pandey,1,8.42
+ipl20,201703,1254060,2nd innings,188,16,0,147/4,0,104,17.2,1,1,1,False,,290630,Manish Pandey,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,477021,Vijay Shankar,1,8.48
+ipl20,201704,1254060,2nd innings,188,15,0,148/4,0,105,17.3,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,477021,Vijay Shankar,1,8.45
+ipl20,201705,1254060,2nd innings,188,14,0,150/4,0,106,17.4,2,0,0,False,,477021,Vijay Shankar,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,290630,Manish Pandey,2,8.49
+ipl20,201706,1254060,2nd innings,188,13,0,150/4,0,107,17.5,0,0,0,False,,477021,Vijay Shankar,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,290630,Manish Pandey,0,8.41
+ipl20,201707,1254060,2nd innings,188,12,0,150/5,5,108,17.6,0,0,0,True,caught,477021,Vijay Shankar,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,24598,Eoin Morgan,290630,Manish Pandey,0,8.33
+ipl20,201801,1254060,2nd innings,188,11,0,151/5,0,109,18.1,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,1175485,Abdul Samad,1,8.31
+ipl20,201802,1254060,2nd innings,188,10,0,157/5,0,110,18.2,6,0,0,False,,1175485,Abdul Samad,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,290630,Manish Pandey,6,8.56
+ipl20,201803,1254060,2nd innings,188,9,0,159/5,0,111,18.3,2,0,0,False,,1175485,Abdul Samad,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,290630,Manish Pandey,2,8.59
+ipl20,201804,1254060,2nd innings,188,8,0,165/5,0,112,18.4,6,0,0,False,,1175485,Abdul Samad,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,290630,Manish Pandey,6,8.83
+ipl20,201805,1254060,2nd innings,188,7,0,166/5,0,113,18.5,1,0,0,False,,1175485,Abdul Samad,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,290630,Manish Pandey,1,8.81
+ipl20,201806,1254060,2nd innings,188,6,0,166/5,0,114,18.6,0,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,489889,Pat Cummins,Kolkata Knight Riders,,,1175485,Abdul Samad,0,8.73
+ipl20,201901,1254060,2nd innings,188,5,0,168/5,0,115,19.1,2,0,0,False,,1175485,Abdul Samad,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,290630,Manish Pandey,2,8.76
+ipl20,201902,1254060,2nd innings,188,4,0,168/5,0,116,19.2,0,0,0,False,,1175485,Abdul Samad,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,290630,Manish Pandey,0,8.68
+ipl20,201903,1254060,2nd innings,188,3,0,169/5,0,117,19.3,1,0,0,False,,1175485,Abdul Samad,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,290630,Manish Pandey,1,8.66
+ipl20,201904,1254060,2nd innings,188,2,0,170/5,0,118,19.4,1,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,1175485,Abdul Samad,1,8.64
+ipl20,201905,1254060,2nd innings,188,1,0,171/5,0,119,19.5,1,0,0,False,,1175485,Abdul Samad,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,290630,Manish Pandey,1,8.62
+ipl20,201906,1254060,2nd innings,188,0,0,177/5,0,120,19.6,6,0,0,False,,290630,Manish Pandey,Sunrisers Hyderabad,276298,Andre Russell,Kolkata Knight Riders,,,1175485,Abdul Samad,6,8.85

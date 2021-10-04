@@ -1,0 +1,236 @@
+ipl_season,sequence,eventid,innings,target,remainingballs,homescore,awayscore,fallofwickets,ball,over,scorevalue,validball,extras,dismissal,dismissaltype,batsmanid,batsman,batsmanteam,bowlerid,bowler,bowlerteam,otherathleteinvolvedid,otherathleteinvolved,nonstrikerid,nonstriker,runs,runrate
+ipl20,100001,1254113,1st innings,0,119,4/0,0,0,1,0.1,4,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,1119026,Devdutt Padikkal,4,24.0
+ipl20,100002,1254113,1st innings,0,118,8/0,0,0,2,0.2,4,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,1119026,Devdutt Padikkal,4,24.0
+ipl20,100003,1254113,1st innings,0,117,9/0,0,0,3,0.3,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,18.0
+ipl20,100004,1254113,1st innings,0,116,9/0,0,0,4,0.4,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,253802,Virat Kohli,0,13.5
+ipl20,100005,1254113,1st innings,0,115,9/0,0,0,5,0.5,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,253802,Virat Kohli,0,10.8
+ipl20,100006,1254113,1st innings,0,114,13/0,0,0,6,0.6,4,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,253802,Virat Kohli,4,13.0
+ipl20,100101,1254113,1st innings,0,113,13/0,0,0,7,1.1,0,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,1119026,Devdutt Padikkal,0,11.14
+ipl20,100102,1254113,1st innings,0,112,14/0,0,0,8,1.2,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,10.5
+ipl20,100103,1254113,1st innings,0,111,15/0,0,0,9,1.3,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,253802,Virat Kohli,1,10.0
+ipl20,100104,1254113,1st innings,0,110,17/0,0,0,10,1.4,2,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,1119026,Devdutt Padikkal,2,10.2
+ipl20,100105,1254113,1st innings,0,109,17/0,0,0,11,1.5,0,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,1119026,Devdutt Padikkal,0,9.27
+ipl20,100106,1254113,1st innings,0,108,18/0,0,0,12,1.6,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,9.0
+ipl20,100201,1254113,1st innings,0,107,19/0,0,0,13,2.1,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,8.76
+ipl20,100202,1254113,1st innings,0,106,19/0,0,0,14,2.2,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,253802,Virat Kohli,0,8.14
+ipl20,100203,1254113,1st innings,0,105,23/0,0,0,15,2.3,4,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,253802,Virat Kohli,4,9.2
+ipl20,100204,1254113,1st innings,0,104,24/0,0,0,16,2.4,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,253802,Virat Kohli,1,9.0
+ipl20,100205,1254113,1st innings,0,103,28/0,0,0,17,2.5,4,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,1119026,Devdutt Padikkal,4,9.88
+ipl20,100206,1254113,1st innings,0,102,28/0,0,0,18,2.6,0,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,1119026,Devdutt Padikkal,0,9.33
+ipl20,100301,1254113,1st innings,0,101,28/0,0,0,19,3.1,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,253802,Virat Kohli,0,8.84
+ipl20,100302,1254113,1st innings,0,100,34/0,0,0,20,3.2,6,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,253802,Virat Kohli,6,10.2
+ipl20,100303,1254113,1st innings,0,99,34/0,0,0,21,3.3,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,253802,Virat Kohli,0,9.71
+ipl20,100304,1254113,1st innings,0,98,35/0,0,0,22,3.4,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,253802,Virat Kohli,1,9.54
+ipl20,100305,1254113,1st innings,0,97,35/0,0,0,23,3.5,0,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,1119026,Devdutt Padikkal,0,9.13
+ipl20,100306,1254113,1st innings,0,96,36/0,0,0,24,3.6,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,9.0
+ipl20,100401,1254113,1st innings,0,95,36/0,0,0,25,4.1,0,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,1119026,Devdutt Padikkal,0,8.64
+ipl20,100402,1254113,1st innings,0,94,37/0,0,0,26,4.2,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,8.53
+ipl20,100403,1254113,1st innings,0,93,38/0,0,0,27,4.3,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,253802,Virat Kohli,1,8.44
+ipl20,100404,1254113,1st innings,0,92,44/0,0,0,28,4.4,6,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,1119026,Devdutt Padikkal,6,9.42
+ipl20,100405,1254113,1st innings,0,91,45/0,0,0,29,4.5,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,9.31
+ipl20,100406,1254113,1st innings,0,90,46/0,0,0,30,4.6,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,253802,Virat Kohli,1,9.2
+ipl20,100501,1254113,1st innings,0,89,47/0,0,0,31,5.1,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,253802,Virat Kohli,1,9.09
+ipl20,100502,1254113,1st innings,0,88,47/0,0,0,32,5.2,0,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,1119026,Devdutt Padikkal,0,8.81
+ipl20,100503,1254113,1st innings,0,87,51/0,0,0,33,5.3,4,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,1119026,Devdutt Padikkal,4,9.27
+ipl20,100504,1254113,1st innings,0,86,52/0,0,0,34,5.4,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,9.17
+ipl20,100505,1254113,1st innings,0,86,53/0,0,0,34,5.4,1,1,1,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,253802,Virat Kohli,1,9.35
+ipl20,100506,1254113,1st innings,0,85,54/0,0,0,35,5.5,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,253802,Virat Kohli,1,9.25
+ipl20,100507,1254113,1st innings,0,84,55/0,0,0,36,5.6,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,9.16
+ipl20,100601,1254113,1st innings,0,83,56/0,0,0,37,6.1,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,9.08
+ipl20,100602,1254113,1st innings,0,82,60/0,0,0,38,6.2,4,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,253802,Virat Kohli,4,9.47
+ipl20,100603,1254113,1st innings,0,81,60/0,0,0,39,6.3,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,253802,Virat Kohli,0,9.23
+ipl20,100604,1254113,1st innings,0,80,60/0,0,0,40,6.4,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,253802,Virat Kohli,0,9.0
+ipl20,100605,1254113,1st innings,0,79,61/0,0,0,41,6.5,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,253802,Virat Kohli,1,8.92
+ipl20,100606,1254113,1st innings,0,78,61/0,0,0,42,6.6,0,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,1119026,Devdutt Padikkal,0,8.71
+ipl20,100701,1254113,1st innings,0,77,61/0,0,0,43,7.1,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,253802,Virat Kohli,0,8.51
+ipl20,100702,1254113,1st innings,0,76,62/0,0,0,44,7.2,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,253802,Virat Kohli,1,8.45
+ipl20,100703,1254113,1st innings,0,75,66/0,0,0,45,7.3,4,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,1119026,Devdutt Padikkal,4,8.8
+ipl20,100704,1254113,1st innings,0,75,67/0,0,0,45,7.3,1,1,1,False,,253802,Virat Kohli,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,8.93
+ipl20,100705,1254113,1st innings,0,74,68/0,0,0,46,7.4,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,8.86
+ipl20,100706,1254113,1st innings,0,73,69/0,0,0,47,7.5,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,253802,Virat Kohli,1,8.8
+ipl20,100707,1254113,1st innings,0,72,70/0,0,0,48,7.6,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,8.75
+ipl20,100801,1254113,1st innings,0,71,71/0,0,0,49,8.1,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,8.69
+ipl20,100802,1254113,1st innings,0,70,72/0,0,0,50,8.2,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,253802,Virat Kohli,1,8.64
+ipl20,100803,1254113,1st innings,0,69,73/0,0,0,51,8.3,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,8.58
+ipl20,100804,1254113,1st innings,0,68,79/0,0,0,52,8.4,6,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,253802,Virat Kohli,6,9.11
+ipl20,100805,1254113,1st innings,0,67,81/0,0,0,53,8.5,2,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,253802,Virat Kohli,2,9.16
+ipl20,100806,1254113,1st innings,0,66,82/0,0,0,54,8.6,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,253802,Virat Kohli,1,9.11
+ipl20,100901,1254113,1st innings,0,65,83/0,0,0,55,9.1,1,0,1,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,253802,Virat Kohli,1,9.05
+ipl20,100902,1254113,1st innings,0,64,84/0,0,0,56,9.2,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,9.0
+ipl20,100903,1254113,1st innings,0,63,88/0,0,0,57,9.3,4,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,253802,Virat Kohli,4,9.26
+ipl20,100904,1254113,1st innings,0,62,89/0,0,0,58,9.4,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,253802,Virat Kohli,1,9.2
+ipl20,100905,1254113,1st innings,0,61,90/0,0,0,59,9.5,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,9.15
+ipl20,100906,1254113,1st innings,0,60,90/0,0,0,60,9.6,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,253802,Virat Kohli,0,9.0
+ipl20,101001,1254113,1st innings,0,59,90/0,0,0,61,10.1,0,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,1119026,Devdutt Padikkal,0,8.85
+ipl20,101002,1254113,1st innings,0,58,91/0,0,0,62,10.2,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,8.8
+ipl20,101003,1254113,1st innings,0,57,93/0,0,0,63,10.3,2,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,253802,Virat Kohli,2,8.85
+ipl20,101004,1254113,1st innings,0,56,93/0,0,0,64,10.4,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,253802,Virat Kohli,0,8.71
+ipl20,101005,1254113,1st innings,0,55,95/0,0,0,65,10.5,2,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,253802,Virat Kohli,2,8.76
+ipl20,101006,1254113,1st innings,0,54,96/0,0,0,66,10.6,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,253802,Virat Kohli,1,8.72
+ipl20,101101,1254113,1st innings,0,53,100/0,0,0,67,11.1,4,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,253802,Virat Kohli,4,8.95
+ipl20,101102,1254113,1st innings,0,52,101/0,0,0,68,11.2,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,253802,Virat Kohli,1,8.91
+ipl20,101103,1254113,1st innings,0,51,101/0,0,0,69,11.3,0,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,1119026,Devdutt Padikkal,0,8.78
+ipl20,101104,1254113,1st innings,0,50,102/0,0,0,70,11.4,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,8.74
+ipl20,101105,1254113,1st innings,0,49,103/0,0,0,71,11.5,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,253802,Virat Kohli,1,8.7
+ipl20,101106,1254113,1st innings,0,48,104/0,0,0,72,11.6,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,8.66
+ipl20,101201,1254113,1st innings,0,47,108/0,0,0,73,12.1,4,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,1119026,Devdutt Padikkal,4,8.87
+ipl20,101202,1254113,1st innings,0,46,108/0,0,0,74,12.2,0,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,1119026,Devdutt Padikkal,0,8.75
+ipl20,101203,1254113,1st innings,0,45,109/0,0,0,75,12.3,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,8.72
+ipl20,101204,1254113,1st innings,0,44,109/0,0,0,76,12.4,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,253802,Virat Kohli,0,8.6
+ipl20,101205,1254113,1st innings,0,43,110/0,0,0,77,12.5,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,253802,Virat Kohli,1,8.57
+ipl20,101206,1254113,1st innings,0,42,111/0,0,0,78,12.6,1,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,234675,Ravindra Jadeja,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,8.53
+ipl20,101301,1254113,1st innings,0,41,111/0,0,0,79,13.1,0,0,0,False,,253802,Virat Kohli,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,1119026,Devdutt Padikkal,0,8.43
+ipl20,101302,1254113,1st innings,0,40,111/1,0,1,80,13.2,0,0,0,True,caught,253802,Virat Kohli,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,51439,Dwayne Bravo,1119026,Devdutt Padikkal,0,8.32
+ipl20,101303,1254113,1st innings,0,39,112/1,0,0,81,13.3,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,8.29
+ipl20,101304,1254113,1st innings,0,38,112/1,0,0,82,13.4,0,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,44936,AB de Villiers,0,8.19
+ipl20,101305,1254113,1st innings,0,37,113/1,0,0,83,13.5,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,44936,AB de Villiers,1,8.16
+ipl20,101306,1254113,1st innings,0,36,114/1,0,0,84,13.6,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,8.14
+ipl20,101401,1254113,1st innings,0,35,114/1,0,0,85,14.1,0,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,1119026,Devdutt Padikkal,0,8.04
+ipl20,101402,1254113,1st innings,0,34,114/1,0,0,86,14.2,0,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,1119026,Devdutt Padikkal,0,7.95
+ipl20,101403,1254113,1st innings,0,33,115/1,0,0,87,14.3,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,7.93
+ipl20,101404,1254113,1st innings,0,32,116/1,0,0,88,14.4,1,0,1,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,44936,AB de Villiers,1,7.9
+ipl20,101405,1254113,1st innings,0,31,117/1,0,0,89,14.5,1,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,7.88
+ipl20,101406,1254113,1st innings,0,30,118/1,0,0,90,14.6,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,44936,AB de Villiers,1,7.86
+ipl20,101501,1254113,1st innings,0,29,120/1,0,0,91,15.1,2,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,44936,AB de Villiers,2,7.91
+ipl20,101502,1254113,1st innings,0,28,121/1,0,0,92,15.2,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,44936,AB de Villiers,1,7.89
+ipl20,101503,1254113,1st innings,0,27,122/1,0,0,93,15.3,1,0,1,False,,44936,AB de Villiers,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,1119026,Devdutt Padikkal,1,7.87
+ipl20,101504,1254113,1st innings,0,26,128/1,0,0,94,15.4,6,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,44936,AB de Villiers,6,8.17
+ipl20,101505,1254113,1st innings,0,25,129/1,0,0,95,15.5,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,44936,AB de Villiers,1,8.14
+ipl20,101506,1254113,1st innings,0,24,131/1,0,0,96,15.6,2,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,288284,Josh Hazlewood,Chennai Super Kings,,,1119026,Devdutt Padikkal,2,8.18
+ipl20,101601,1254113,1st innings,0,23,133/1,0,0,97,16.1,2,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,44936,AB de Villiers,2,8.22
+ipl20,101602,1254113,1st innings,0,22,134/1,0,0,98,16.2,1,0,0,False,,1119026,Devdutt Padikkal,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,44936,AB de Villiers,1,8.2
+ipl20,101603,1254113,1st innings,0,21,140/1,0,0,99,16.3,6,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,1119026,Devdutt Padikkal,6,8.48
+ipl20,101604,1254113,1st innings,0,20,140/1,0,0,100,16.4,0,0,0,False,,44936,AB de Villiers,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,,,1119026,Devdutt Padikkal,0,8.4
+ipl20,101605,1254113,1st innings,0,19,140/2,0,2,101,16.5,0,0,0,True,caught,44936,AB de Villiers,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,33335,Suresh Raina,1119026,Devdutt Padikkal,0,8.31
+ipl20,101606,1254113,1st innings,0,18,140/3,0,3,102,16.6,0,0,0,True,caught,1119026,Devdutt Padikkal,Royal Challengers Bangalore,475281,Shardul Thakur,Chennai Super Kings,1119026,Devdutt Padikkal,325026,Glenn Maxwell,0,8.23
+ipl20,101701,1254113,1st innings,0,17,140/3,0,0,103,17.1,0,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,892749,Tim David,0,8.15
+ipl20,101702,1254113,1st innings,0,16,141/3,0,0,104,17.2,1,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,892749,Tim David,1,8.13
+ipl20,101703,1254113,1st innings,0,15,142/3,0,0,105,17.3,1,0,0,False,,892749,Tim David,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,325026,Glenn Maxwell,1,8.11
+ipl20,101704,1254113,1st innings,0,14,144/3,0,0,106,17.4,2,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,892749,Tim David,2,8.15
+ipl20,101705,1254113,1st innings,0,13,144/3,0,0,107,17.5,0,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,892749,Tim David,0,8.07
+ipl20,101706,1254113,1st innings,0,12,150/3,0,0,108,17.6,6,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,892749,Tim David,6,8.33
+ipl20,101801,1254113,1st innings,0,11,150/3,0,0,109,18.1,0,0,0,False,,892749,Tim David,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,325026,Glenn Maxwell,0,8.25
+ipl20,101802,1254113,1st innings,0,10,150/4,0,4,110,18.2,0,0,0,True,caught,892749,Tim David,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,33335,Suresh Raina,325026,Glenn Maxwell,0,8.18
+ipl20,101803,1254113,1st innings,0,9,151/4,0,0,111,18.3,1,0,0,False,,390481,Harshal Patel,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,325026,Glenn Maxwell,1,8.16
+ipl20,101804,1254113,1st innings,0,8,152/4,0,0,112,18.4,1,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,390481,Harshal Patel,1,8.14
+ipl20,101805,1254113,1st innings,0,7,153/4,0,0,113,18.5,1,0,0,False,,390481,Harshal Patel,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,325026,Glenn Maxwell,1,8.12
+ipl20,101806,1254113,1st innings,0,6,154/4,0,0,114,18.6,1,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,447261,Deepak Chahar,Chennai Super Kings,,,390481,Harshal Patel,1,8.1
+ipl20,101901,1254113,1st innings,0,5,154/4,0,0,115,19.1,0,0,0,False,,325026,Glenn Maxwell,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,390481,Harshal Patel,0,8.03
+ipl20,101902,1254113,1st innings,0,4,154/5,0,5,116,19.2,0,0,0,True,caught,325026,Glenn Maxwell,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,51439,Dwayne Bravo,390481,Harshal Patel,0,7.96
+ipl20,101903,1254113,1st innings,0,3,154/5,0,0,117,19.3,0,0,0,False,,390481,Harshal Patel,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,784379,Wanindu Hasaranga de Silva,0,7.89
+ipl20,101904,1254113,1st innings,0,2,155/5,0,0,118,19.4,1,0,0,False,,390481,Harshal Patel,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,784379,Wanindu Hasaranga de Silva,1,7.88
+ipl20,101905,1254113,1st innings,0,1,156/5,0,0,119,19.5,1,0,0,False,,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,,,390481,Harshal Patel,1,7.86
+ipl20,101906,1254113,1st innings,0,0,156/6,0,6,120,19.6,0,0,0,True,caught,390481,Harshal Patel,Royal Challengers Bangalore,51439,Dwayne Bravo,Chennai Super Kings,33335,Suresh Raina,784379,Wanindu Hasaranga de Silva,0,7.8
+ipl20,200001,1254113,2nd innings,157,119,0,1/0,0,1,0.1,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,44828,Faf du Plessis,1,6.0
+ipl20,200002,1254113,2nd innings,157,118,0,1/0,0,2,0.2,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,0,3.0
+ipl20,200003,1254113,2nd innings,157,117,0,2/0,0,3,0.3,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,1,4.0
+ipl20,200004,1254113,2nd innings,157,116,0,6/0,0,4,0.4,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,44828,Faf du Plessis,4,9.0
+ipl20,200005,1254113,2nd innings,157,115,0,7/0,0,5,0.5,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,44828,Faf du Plessis,1,8.4
+ipl20,200006,1254113,2nd innings,157,114,0,8/0,0,6,0.6,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,1,8.0
+ipl20,200101,1254113,2nd innings,157,113,0,8/0,0,7,1.1,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,700167,Navdeep Saini,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,0,6.85
+ipl20,200102,1254113,2nd innings,157,112,0,14/0,0,8,1.2,6,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,700167,Navdeep Saini,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,6,10.5
+ipl20,200103,1254113,2nd innings,157,111,0,15/0,0,9,1.3,1,0,1,False,,44828,Faf du Plessis,Chennai Super Kings,700167,Navdeep Saini,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,1,10.0
+ipl20,200104,1254113,2nd innings,157,110,0,16/0,0,10,1.4,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,700167,Navdeep Saini,Royal Challengers Bangalore,,,44828,Faf du Plessis,1,9.6
+ipl20,200105,1254113,2nd innings,157,109,0,18/0,0,11,1.5,2,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,700167,Navdeep Saini,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,2,9.81
+ipl20,200106,1254113,2nd innings,157,108,0,18/0,0,12,1.6,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,700167,Navdeep Saini,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,0,9.0
+ipl20,200201,1254113,2nd innings,157,107,0,19/0,0,13,2.1,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,44828,Faf du Plessis,1,8.76
+ipl20,200202,1254113,2nd innings,157,106,0,19/0,0,14,2.2,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,0,8.14
+ipl20,200203,1254113,2nd innings,157,105,0,19/0,0,15,2.3,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,0,7.6
+ipl20,200204,1254113,2nd innings,157,104,0,20/0,0,16,2.4,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,1,7.5
+ipl20,200205,1254113,2nd innings,157,103,0,22/0,0,17,2.5,2,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,44828,Faf du Plessis,2,7.76
+ipl20,200206,1254113,2nd innings,157,102,0,23/0,0,18,2.6,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,44828,Faf du Plessis,1,7.66
+ipl20,200301,1254113,2nd innings,157,101,0,27/0,0,19,3.1,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,44828,Faf du Plessis,4,8.52
+ipl20,200302,1254113,2nd innings,157,100,0,28/0,0,20,3.2,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,44828,Faf du Plessis,1,8.4
+ipl20,200303,1254113,2nd innings,157,99,0,28/0,0,21,3.3,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,0,8.0
+ipl20,200304,1254113,2nd innings,157,98,0,29/0,0,22,3.4,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,1,7.9
+ipl20,200305,1254113,2nd innings,157,97,0,29/0,0,23,3.5,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,44828,Faf du Plessis,0,7.56
+ipl20,200306,1254113,2nd innings,157,96,0,35/0,0,24,3.6,6,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,44828,Faf du Plessis,6,8.75
+ipl20,200401,1254113,2nd innings,157,95,0,36/0,0,25,4.1,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,1,8.64
+ipl20,200402,1254113,2nd innings,157,95,0,37/0,0,25,4.1,1,1,1,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,44828,Faf du Plessis,1,8.88
+ipl20,200403,1254113,2nd innings,157,94,0,41/0,0,26,4.2,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,44828,Faf du Plessis,4,9.46
+ipl20,200404,1254113,2nd innings,157,93,0,42/0,0,27,4.3,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,44828,Faf du Plessis,1,9.33
+ipl20,200405,1254113,2nd innings,157,92,0,42/0,0,28,4.4,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,0,9.0
+ipl20,200406,1254113,2nd innings,157,91,0,42/0,0,29,4.5,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,0,8.68
+ipl20,200407,1254113,2nd innings,157,90,0,43/0,0,30,4.6,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,1,8.6
+ipl20,200501,1254113,2nd innings,157,89,0,49/0,0,31,5.1,6,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,700167,Navdeep Saini,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,6,9.48
+ipl20,200502,1254113,2nd innings,157,88,0,49/0,0,32,5.2,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,700167,Navdeep Saini,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,0,9.18
+ipl20,200503,1254113,2nd innings,157,87,0,53/0,0,33,5.3,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,700167,Navdeep Saini,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,4,9.63
+ipl20,200504,1254113,2nd innings,157,86,0,54/0,0,34,5.4,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,700167,Navdeep Saini,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,1,9.52
+ipl20,200505,1254113,2nd innings,157,85,0,55/0,0,35,5.5,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,700167,Navdeep Saini,Royal Challengers Bangalore,,,44828,Faf du Plessis,1,9.42
+ipl20,200506,1254113,2nd innings,157,84,0,59/0,0,36,5.6,4,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,700167,Navdeep Saini,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,4,9.83
+ipl20,200601,1254113,2nd innings,157,83,0,60/0,0,37,6.1,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,44828,Faf du Plessis,1,9.72
+ipl20,200602,1254113,2nd innings,157,82,0,61/0,0,38,6.2,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,1,9.63
+ipl20,200603,1254113,2nd innings,157,81,0,61/0,0,39,6.3,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,44828,Faf du Plessis,0,9.38
+ipl20,200604,1254113,2nd innings,157,80,0,61/0,0,40,6.4,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,44828,Faf du Plessis,0,9.15
+ipl20,200605,1254113,2nd innings,157,79,0,61/0,0,41,6.5,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,44828,Faf du Plessis,0,8.92
+ipl20,200606,1254113,2nd innings,157,78,0,62/0,0,42,6.6,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,44828,Faf du Plessis,1,8.85
+ipl20,200701,1254113,2nd innings,157,77,0,64/0,0,43,7.1,2,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,44828,Faf du Plessis,2,8.93
+ipl20,200702,1254113,2nd innings,157,76,0,64/0,0,44,7.2,0,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,44828,Faf du Plessis,0,8.72
+ipl20,200703,1254113,2nd innings,157,75,0,65/0,0,45,7.3,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,44828,Faf du Plessis,1,8.66
+ipl20,200704,1254113,2nd innings,157,74,0,65/0,0,46,7.4,0,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,0,8.47
+ipl20,200705,1254113,2nd innings,157,73,0,66/0,0,47,7.5,1,0,0,False,,44828,Faf du Plessis,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,1060380,Ruturaj Gaikwad,1,8.42
+ipl20,200706,1254113,2nd innings,157,72,0,67/0,0,48,7.6,1,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,44828,Faf du Plessis,1,8.37
+ipl20,200801,1254113,2nd innings,157,71,0,71/0,0,49,8.1,4,0,0,False,,1060380,Ruturaj Gaikwad,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,44828,Faf du Plessis,4,8.69
+ipl20,200802,1254113,2nd innings,157,70,0,71/1,1,50,8.2,0,0,0,True,caught,1060380,Ruturaj Gaikwad,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,253802,Virat Kohli,44828,Faf du Plessis,0,8.52
+ipl20,200803,1254113,2nd innings,157,69,0,71/1,0,51,8.3,0,0,0,False,,8917,Moeen Ali,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,44828,Faf du Plessis,0,8.35
+ipl20,200804,1254113,2nd innings,157,68,0,71/1,0,52,8.4,0,0,0,False,,8917,Moeen Ali,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,44828,Faf du Plessis,0,8.19
+ipl20,200805,1254113,2nd innings,157,67,0,71/1,0,53,8.5,0,0,0,False,,8917,Moeen Ali,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,44828,Faf du Plessis,0,8.03
+ipl20,200806,1254113,2nd innings,157,66,0,71/1,0,54,8.6,0,0,0,False,,8917,Moeen Ali,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,44828,Faf du Plessis,0,7.88
+ipl20,200901,1254113,2nd innings,157,65,0,71/2,2,55,9.1,0,0,0,True,caught,44828,Faf du Plessis,Chennai Super Kings,325026,Glenn Maxwell,Royal Challengers Bangalore,44828,Faf du Plessis,8917,Moeen Ali,0,7.74
+ipl20,200902,1254113,2nd innings,157,64,0,75/2,0,56,9.2,4,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,325026,Glenn Maxwell,Royal Challengers Bangalore,,,8917,Moeen Ali,4,8.03
+ipl20,200903,1254113,2nd innings,157,63,0,76/2,0,57,9.3,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,325026,Glenn Maxwell,Royal Challengers Bangalore,,,8917,Moeen Ali,1,8.0
+ipl20,200904,1254113,2nd innings,157,62,0,77/2,0,58,9.4,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,325026,Glenn Maxwell,Royal Challengers Bangalore,,,33141,Ambati Rayudu,1,7.96
+ipl20,200905,1254113,2nd innings,157,61,0,77/2,0,59,9.5,0,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,325026,Glenn Maxwell,Royal Challengers Bangalore,,,8917,Moeen Ali,0,7.83
+ipl20,200906,1254113,2nd innings,157,60,0,78/2,0,60,9.6,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,325026,Glenn Maxwell,Royal Challengers Bangalore,,,8917,Moeen Ali,1,7.8
+ipl20,201001,1254113,2nd innings,157,59,0,79/2,0,61,10.1,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,8917,Moeen Ali,1,7.77
+ipl20,201002,1254113,2nd innings,157,58,0,80/2,0,62,10.2,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,33141,Ambati Rayudu,1,7.74
+ipl20,201003,1254113,2nd innings,157,57,0,81/2,0,63,10.3,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,8917,Moeen Ali,1,7.71
+ipl20,201004,1254113,2nd innings,157,57,0,82/2,0,63,10.3,1,1,1,False,,8917,Moeen Ali,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,33141,Ambati Rayudu,1,7.8
+ipl20,201005,1254113,2nd innings,157,56,0,88/2,0,64,10.4,6,0,0,False,,8917,Moeen Ali,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,33141,Ambati Rayudu,6,8.25
+ipl20,201006,1254113,2nd innings,157,55,0,89/2,0,65,10.5,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,33141,Ambati Rayudu,1,8.21
+ipl20,201007,1254113,2nd innings,157,54,0,90/2,0,66,10.6,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,8917,Moeen Ali,1,8.18
+ipl20,201101,1254113,2nd innings,157,53,0,91/2,0,67,11.1,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,325026,Glenn Maxwell,Royal Challengers Bangalore,,,8917,Moeen Ali,1,8.14
+ipl20,201102,1254113,2nd innings,157,52,0,91/2,0,68,11.2,0,0,0,False,,8917,Moeen Ali,Chennai Super Kings,325026,Glenn Maxwell,Royal Challengers Bangalore,,,33141,Ambati Rayudu,0,8.02
+ipl20,201103,1254113,2nd innings,157,51,0,92/2,0,69,11.3,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,325026,Glenn Maxwell,Royal Challengers Bangalore,,,33141,Ambati Rayudu,1,8.0
+ipl20,201104,1254113,2nd innings,157,50,0,93/2,0,70,11.4,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,325026,Glenn Maxwell,Royal Challengers Bangalore,,,8917,Moeen Ali,1,7.97
+ipl20,201105,1254113,2nd innings,157,49,0,94/2,0,71,11.5,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,325026,Glenn Maxwell,Royal Challengers Bangalore,,,33141,Ambati Rayudu,1,7.94
+ipl20,201106,1254113,2nd innings,157,48,0,100/2,0,72,11.6,6,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,325026,Glenn Maxwell,Royal Challengers Bangalore,,,8917,Moeen Ali,6,8.33
+ipl20,201201,1254113,2nd innings,157,47,0,106/2,0,73,12.1,6,0,0,False,,8917,Moeen Ali,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,33141,Ambati Rayudu,6,8.71
+ipl20,201202,1254113,2nd innings,157,46,0,108/2,0,74,12.2,2,0,0,False,,8917,Moeen Ali,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,33141,Ambati Rayudu,2,8.75
+ipl20,201203,1254113,2nd innings,157,45,0,109/2,0,75,12.3,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,33141,Ambati Rayudu,1,8.72
+ipl20,201204,1254113,2nd innings,157,44,0,110/2,0,76,12.4,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,8917,Moeen Ali,1,8.68
+ipl20,201205,1254113,2nd innings,157,43,0,111/2,0,77,12.5,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,33141,Ambati Rayudu,1,8.64
+ipl20,201206,1254113,2nd innings,157,42,0,112/2,0,78,12.6,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,8917,Moeen Ali,1,8.61
+ipl20,201301,1254113,2nd innings,157,42,0,114/2,0,78,13.0,2,1,1,False,,33141,Ambati Rayudu,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,8917,Moeen Ali,2,8.76
+ipl20,201302,1254113,2nd innings,157,41,0,115/2,0,79,13.1,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,33141,Ambati Rayudu,1,8.73
+ipl20,201303,1254113,2nd innings,157,40,0,116/2,0,80,13.2,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,8917,Moeen Ali,1,8.7
+ipl20,201304,1254113,2nd innings,157,39,0,117/2,0,81,13.3,1,0,0,False,,8917,Moeen Ali,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,33141,Ambati Rayudu,1,8.66
+ipl20,201305,1254113,2nd innings,157,38,0,117/2,0,82,13.4,0,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,8917,Moeen Ali,0,8.56
+ipl20,201306,1254113,2nd innings,157,37,0,118/2,0,83,13.5,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,8917,Moeen Ali,1,8.53
+ipl20,201307,1254113,2nd innings,157,36,0,118/3,3,84,13.6,0,0,0,True,caught,8917,Moeen Ali,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,8917,Moeen Ali,33141,Ambati Rayudu,0,8.42
+ipl20,201401,1254113,2nd innings,157,35,0,119/3,0,85,14.1,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,33335,Suresh Raina,1,8.4
+ipl20,201402,1254113,2nd innings,157,34,0,119/3,0,86,14.2,0,0,0,False,,33335,Suresh Raina,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,33141,Ambati Rayudu,0,8.3
+ipl20,201403,1254113,2nd innings,157,33,0,120/3,0,87,14.3,1,0,0,False,,33335,Suresh Raina,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,33141,Ambati Rayudu,1,8.27
+ipl20,201404,1254113,2nd innings,157,32,0,121/3,0,88,14.4,1,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,33335,Suresh Raina,1,8.25
+ipl20,201405,1254113,2nd innings,157,31,0,125/3,0,89,14.5,4,0,0,False,,33335,Suresh Raina,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,33141,Ambati Rayudu,4,8.42
+ipl20,201406,1254113,2nd innings,157,30,0,125/3,0,90,14.6,0,0,0,False,,33335,Suresh Raina,Chennai Super Kings,430246,Yuzvendra Chahal,Royal Challengers Bangalore,,,33141,Ambati Rayudu,0,8.33
+ipl20,201501,1254113,2nd innings,157,29,0,129/3,0,91,15.1,4,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,33335,Suresh Raina,4,8.5
+ipl20,201502,1254113,2nd innings,157,28,0,133/3,0,92,15.2,4,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,33335,Suresh Raina,4,8.67
+ipl20,201503,1254113,2nd innings,157,27,0,133/3,0,93,15.3,0,0,0,False,,33141,Ambati Rayudu,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,33335,Suresh Raina,0,8.58
+ipl20,201504,1254113,2nd innings,157,26,0,133/4,4,94,15.4,0,0,0,True,caught,33141,Ambati Rayudu,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,44936,AB de Villiers,33335,Suresh Raina,0,8.48
+ipl20,201505,1254113,2nd innings,157,25,0,133/4,0,95,15.5,0,0,0,False,,28081,MS Dhoni,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,33335,Suresh Raina,0,8.4
+ipl20,201506,1254113,2nd innings,157,24,0,134/4,0,96,15.6,1,0,0,False,,28081,MS Dhoni,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,33335,Suresh Raina,1,8.37
+ipl20,201601,1254113,2nd innings,157,23,0,134/4,0,97,16.1,0,0,0,False,,28081,MS Dhoni,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,33335,Suresh Raina,0,8.28
+ipl20,201602,1254113,2nd innings,157,22,0,135/4,0,98,16.2,1,0,0,False,,28081,MS Dhoni,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,33335,Suresh Raina,1,8.26
+ipl20,201603,1254113,2nd innings,157,21,0,135/4,0,99,16.3,0,0,0,False,,33335,Suresh Raina,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,28081,MS Dhoni,0,8.18
+ipl20,201604,1254113,2nd innings,157,20,0,135/4,0,100,16.4,0,0,0,False,,33335,Suresh Raina,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,28081,MS Dhoni,0,8.1
+ipl20,201605,1254113,2nd innings,157,19,0,139/4,0,101,16.5,4,0,0,False,,33335,Suresh Raina,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,28081,MS Dhoni,4,8.25
+ipl20,201606,1254113,2nd innings,157,18,0,145/4,0,102,16.6,6,0,0,False,,33335,Suresh Raina,Chennai Super Kings,784379,Wanindu Hasaranga de Silva,Royal Challengers Bangalore,,,28081,MS Dhoni,6,8.52
+ipl20,201701,1254113,2nd innings,157,17,0,146/4,0,103,17.1,1,0,0,False,,28081,MS Dhoni,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,33335,Suresh Raina,1,8.5
+ipl20,201702,1254113,2nd innings,157,16,0,147/4,0,104,17.2,1,0,0,False,,33335,Suresh Raina,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,28081,MS Dhoni,1,8.48
+ipl20,201703,1254113,2nd innings,157,15,0,151/4,0,105,17.3,4,0,0,False,,28081,MS Dhoni,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,33335,Suresh Raina,4,8.62
+ipl20,201704,1254113,2nd innings,157,14,0,151/4,0,106,17.4,0,0,0,False,,28081,MS Dhoni,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,33335,Suresh Raina,0,8.54
+ipl20,201705,1254113,2nd innings,157,13,0,151/4,0,107,17.5,0,0,0,False,,28081,MS Dhoni,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,33335,Suresh Raina,0,8.46
+ipl20,201706,1254113,2nd innings,157,12,0,155/4,0,108,17.6,4,0,0,False,,28081,MS Dhoni,Chennai Super Kings,940973,Mohammed Siraj,Royal Challengers Bangalore,,,33335,Suresh Raina,4,8.61
+ipl20,201801,1254113,2nd innings,157,12,0,156/4,0,108,18.0,1,1,1,False,,33335,Suresh Raina,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,28081,MS Dhoni,1,8.66
+ipl20,201802,1254113,2nd innings,157,11,0,157/4,0,109,18.1,1,0,0,False,,33335,Suresh Raina,Chennai Super Kings,390481,Harshal Patel,Royal Challengers Bangalore,,,28081,MS Dhoni,1,8.64

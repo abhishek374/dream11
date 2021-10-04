@@ -1,0 +1,240 @@
+ipl_season,sequence,eventid,innings,target,remainingballs,homescore,awayscore,fallofwickets,ball,over,scorevalue,validball,extras,dismissal,dismissaltype,batsmanid,batsman,batsmanteam,bowlerid,bowler,bowlerteam,otherathleteinvolvedid,otherathleteinvolved,nonstrikerid,nonstriker,runs,runrate
+ipl20,100001,1254099,1st innings,0,119,1/0,0,0,1,0.1,1,0,0,False,,422108,KL Rahul,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,398506,Mandeep Singh,1,6.0
+ipl20,100002,1254099,1st innings,0,118,2/0,0,0,2,0.2,1,0,0,False,,398506,Mandeep Singh,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,422108,KL Rahul,1,6.0
+ipl20,100003,1254099,1st innings,0,117,2/0,0,0,3,0.3,0,0,0,False,,422108,KL Rahul,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,398506,Mandeep Singh,0,4.0
+ipl20,100004,1254099,1st innings,0,116,2/0,0,0,4,0.4,0,0,0,False,,422108,KL Rahul,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,398506,Mandeep Singh,0,3.0
+ipl20,100005,1254099,1st innings,0,115,3/0,0,0,5,0.5,1,0,0,False,,422108,KL Rahul,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,398506,Mandeep Singh,1,3.6
+ipl20,100006,1254099,1st innings,0,114,4/0,0,0,6,0.6,1,0,0,False,,398506,Mandeep Singh,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,422108,KL Rahul,1,4.0
+ipl20,100101,1254099,1st innings,0,113,5/0,0,0,7,1.1,1,0,0,False,,398506,Mandeep Singh,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,422108,KL Rahul,1,4.28
+ipl20,100102,1254099,1st innings,0,113,6/0,0,0,7,1.1,1,1,1,False,,422108,KL Rahul,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,398506,Mandeep Singh,1,5.14
+ipl20,100103,1254099,1st innings,0,112,7/0,0,0,8,1.2,1,0,0,False,,422108,KL Rahul,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,398506,Mandeep Singh,1,5.25
+ipl20,100104,1254099,1st innings,0,111,8/0,0,0,9,1.3,1,0,0,False,,398506,Mandeep Singh,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,422108,KL Rahul,1,5.33
+ipl20,100105,1254099,1st innings,0,110,8/0,0,0,10,1.4,0,0,0,False,,422108,KL Rahul,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,398506,Mandeep Singh,0,4.8
+ipl20,100106,1254099,1st innings,0,109,12/0,0,0,11,1.5,4,0,0,False,,422108,KL Rahul,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,398506,Mandeep Singh,4,6.54
+ipl20,100107,1254099,1st innings,0,108,12/0,0,0,12,1.6,0,0,0,False,,422108,KL Rahul,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,398506,Mandeep Singh,0,6.0
+ipl20,100201,1254099,1st innings,0,107,13/0,0,0,13,2.1,1,0,0,False,,398506,Mandeep Singh,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,422108,KL Rahul,1,6.0
+ipl20,100202,1254099,1st innings,0,106,14/0,0,0,14,2.2,1,0,0,False,,422108,KL Rahul,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,398506,Mandeep Singh,1,6.0
+ipl20,100203,1254099,1st innings,0,106,15/0,0,0,14,2.2,1,1,1,False,,398506,Mandeep Singh,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,422108,KL Rahul,1,6.42
+ipl20,100204,1254099,1st innings,0,105,15/0,0,0,15,2.3,0,0,0,False,,398506,Mandeep Singh,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,422108,KL Rahul,0,6.0
+ipl20,100205,1254099,1st innings,0,104,16/0,0,0,16,2.4,1,0,0,False,,398506,Mandeep Singh,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,422108,KL Rahul,1,6.0
+ipl20,100206,1254099,1st innings,0,103,17/0,0,0,17,2.5,1,0,0,False,,422108,KL Rahul,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,398506,Mandeep Singh,1,6.0
+ipl20,100207,1254099,1st innings,0,102,21/0,0,0,18,2.6,4,0,0,False,,398506,Mandeep Singh,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,422108,KL Rahul,4,7.0
+ipl20,100301,1254099,1st innings,0,101,21/0,0,0,19,3.1,0,0,0,False,,422108,KL Rahul,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,398506,Mandeep Singh,0,6.63
+ipl20,100302,1254099,1st innings,0,100,25/0,0,0,20,3.2,4,0,0,False,,422108,KL Rahul,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,398506,Mandeep Singh,4,7.5
+ipl20,100303,1254099,1st innings,0,99,25/0,0,0,21,3.3,0,0,0,False,,422108,KL Rahul,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,398506,Mandeep Singh,0,7.14
+ipl20,100304,1254099,1st innings,0,98,27/0,0,0,22,3.4,2,0,0,False,,422108,KL Rahul,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,398506,Mandeep Singh,2,7.36
+ipl20,100305,1254099,1st innings,0,97,28/0,0,0,23,3.5,1,0,0,False,,422108,KL Rahul,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,398506,Mandeep Singh,1,7.3
+ipl20,100306,1254099,1st innings,0,96,32/0,0,0,24,3.6,4,0,0,False,,398506,Mandeep Singh,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,422108,KL Rahul,4,8.0
+ipl20,100401,1254099,1st innings,0,95,32/0,0,0,25,4.1,0,0,0,False,,422108,KL Rahul,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,398506,Mandeep Singh,0,7.68
+ipl20,100402,1254099,1st innings,0,94,33/0,0,0,26,4.2,1,0,0,False,,422108,KL Rahul,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,398506,Mandeep Singh,1,7.61
+ipl20,100403,1254099,1st innings,0,93,33/0,0,0,27,4.3,0,0,0,False,,398506,Mandeep Singh,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,422108,KL Rahul,0,7.33
+ipl20,100404,1254099,1st innings,0,92,33/0,0,0,28,4.4,0,0,0,False,,398506,Mandeep Singh,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,422108,KL Rahul,0,7.07
+ipl20,100405,1254099,1st innings,0,91,34/0,0,0,29,4.5,1,0,0,False,,398506,Mandeep Singh,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,422108,KL Rahul,1,7.03
+ipl20,100406,1254099,1st innings,0,90,35/0,0,0,30,4.6,1,0,0,False,,422108,KL Rahul,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,398506,Mandeep Singh,1,7.0
+ipl20,100501,1254099,1st innings,0,89,36/0,0,0,31,5.1,1,0,0,False,,422108,KL Rahul,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,398506,Mandeep Singh,1,6.96
+ipl20,100502,1254099,1st innings,0,88,36/1,0,1,32,5.2,0,0,0,True,leg before wicket,398506,Mandeep Singh,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,398506,Mandeep Singh,422108,KL Rahul,0,6.75
+ipl20,100503,1254099,1st innings,0,87,36/1,0,0,33,5.3,0,0,0,False,,51880,Chris Gayle,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,422108,KL Rahul,0,6.54
+ipl20,100504,1254099,1st innings,0,86,37/1,0,0,34,5.4,1,0,0,False,,51880,Chris Gayle,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,422108,KL Rahul,1,6.52
+ipl20,100505,1254099,1st innings,0,85,38/1,0,0,35,5.5,1,0,0,False,,422108,KL Rahul,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,51880,Chris Gayle,1,6.51
+ipl20,100506,1254099,1st innings,0,84,38/1,0,0,36,5.6,0,0,0,False,,51880,Chris Gayle,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,422108,KL Rahul,0,6.33
+ipl20,100601,1254099,1st innings,0,83,39/1,0,0,37,6.1,1,0,0,False,,422108,KL Rahul,Punjab Kings,230559,Kieron Pollard,Mumbai Indians,,,51880,Chris Gayle,1,6.32
+ipl20,100602,1254099,1st innings,0,82,39/2,0,2,38,6.2,0,0,0,True,caught,51880,Chris Gayle,Punjab Kings,230559,Kieron Pollard,Mumbai Indians,230559,Kieron Pollard,422108,KL Rahul,0,6.15
+ipl20,100603,1254099,1st innings,0,82,40/2,0,0,38,6.2,1,1,1,False,,600498,Aiden Markram,Punjab Kings,230559,Kieron Pollard,Mumbai Indians,,,422108,KL Rahul,1,6.31
+ipl20,100604,1254099,1st innings,0,81,41/2,0,0,39,6.3,1,0,0,False,,600498,Aiden Markram,Punjab Kings,230559,Kieron Pollard,Mumbai Indians,,,422108,KL Rahul,1,6.3
+ipl20,100605,1254099,1st innings,0,80,41/3,0,3,40,6.4,0,0,0,True,caught,422108,KL Rahul,Punjab Kings,230559,Kieron Pollard,Mumbai Indians,230559,Kieron Pollard,600498,Aiden Markram,0,6.15
+ipl20,100606,1254099,1st innings,0,79,42/3,0,0,41,6.5,1,0,0,False,,604302,Nicholas Pooran,Punjab Kings,230559,Kieron Pollard,Mumbai Indians,,,600498,Aiden Markram,1,6.14
+ipl20,100607,1254099,1st innings,0,78,46/3,0,0,42,6.6,4,0,0,False,,600498,Aiden Markram,Punjab Kings,230559,Kieron Pollard,Mumbai Indians,,,604302,Nicholas Pooran,4,6.57
+ipl20,100701,1254099,1st innings,0,77,47/3,0,0,43,7.1,1,0,0,False,,604302,Nicholas Pooran,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,600498,Aiden Markram,1,6.55
+ipl20,100702,1254099,1st innings,0,76,48/3,0,0,44,7.2,1,0,0,False,,600498,Aiden Markram,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,604302,Nicholas Pooran,1,6.54
+ipl20,100703,1254099,1st innings,0,75,48/4,0,4,45,7.3,0,0,0,True,leg before wicket,604302,Nicholas Pooran,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,604302,Nicholas Pooran,600498,Aiden Markram,0,6.4
+ipl20,100704,1254099,1st innings,0,74,48/4,0,0,46,7.4,0,0,0,False,,497121,Deepak Hooda,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,600498,Aiden Markram,0,6.26
+ipl20,100705,1254099,1st innings,0,73,49/4,0,0,47,7.5,1,0,0,False,,497121,Deepak Hooda,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,600498,Aiden Markram,1,6.25
+ipl20,100706,1254099,1st innings,0,72,50/4,0,0,48,7.6,1,0,0,False,,600498,Aiden Markram,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,497121,Deepak Hooda,1,6.25
+ipl20,100801,1254099,1st innings,0,71,50/4,0,0,49,8.1,0,0,0,False,,600498,Aiden Markram,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,497121,Deepak Hooda,0,6.12
+ipl20,100802,1254099,1st innings,0,70,54/4,0,0,50,8.2,4,0,0,False,,600498,Aiden Markram,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,497121,Deepak Hooda,4,6.48
+ipl20,100803,1254099,1st innings,0,69,54/4,0,0,51,8.3,0,0,0,False,,600498,Aiden Markram,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,497121,Deepak Hooda,0,6.35
+ipl20,100804,1254099,1st innings,0,68,54/4,0,0,52,8.4,0,0,0,False,,600498,Aiden Markram,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,497121,Deepak Hooda,0,6.23
+ipl20,100805,1254099,1st innings,0,67,55/4,0,0,53,8.5,1,0,0,False,,600498,Aiden Markram,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,497121,Deepak Hooda,1,6.22
+ipl20,100806,1254099,1st innings,0,66,57/4,0,0,54,8.6,2,0,0,False,,497121,Deepak Hooda,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,600498,Aiden Markram,2,6.33
+ipl20,100901,1254099,1st innings,0,65,61/4,0,0,55,9.1,4,0,0,False,,600498,Aiden Markram,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,497121,Deepak Hooda,4,6.65
+ipl20,100902,1254099,1st innings,0,64,61/4,0,0,56,9.2,0,0,0,False,,600498,Aiden Markram,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,497121,Deepak Hooda,0,6.53
+ipl20,100903,1254099,1st innings,0,63,62/4,0,0,57,9.3,1,0,0,False,,600498,Aiden Markram,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,497121,Deepak Hooda,1,6.52
+ipl20,100904,1254099,1st innings,0,62,62/4,0,0,58,9.4,0,0,0,False,,497121,Deepak Hooda,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,600498,Aiden Markram,0,6.41
+ipl20,100905,1254099,1st innings,0,61,62/4,0,0,59,9.5,0,0,0,False,,497121,Deepak Hooda,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,600498,Aiden Markram,0,6.3
+ipl20,100906,1254099,1st innings,0,60,62/4,0,0,60,9.6,0,0,0,False,,497121,Deepak Hooda,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,600498,Aiden Markram,0,6.2
+ipl20,101001,1254099,1st innings,0,59,62/4,0,0,61,10.1,0,0,0,False,,600498,Aiden Markram,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,497121,Deepak Hooda,0,6.09
+ipl20,101002,1254099,1st innings,0,58,63/4,0,0,62,10.2,1,0,0,False,,600498,Aiden Markram,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,497121,Deepak Hooda,1,6.09
+ipl20,101003,1254099,1st innings,0,57,63/4,0,0,63,10.3,0,0,0,False,,497121,Deepak Hooda,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,600498,Aiden Markram,0,6.0
+ipl20,101004,1254099,1st innings,0,56,69/4,0,0,64,10.4,6,0,0,False,,497121,Deepak Hooda,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,600498,Aiden Markram,6,6.46
+ipl20,101005,1254099,1st innings,0,55,69/4,0,0,65,10.5,0,0,0,False,,497121,Deepak Hooda,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,600498,Aiden Markram,0,6.36
+ipl20,101006,1254099,1st innings,0,54,69/4,0,0,66,10.6,0,0,0,False,,497121,Deepak Hooda,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,600498,Aiden Markram,0,6.27
+ipl20,101101,1254099,1st innings,0,53,70/4,0,0,67,11.1,1,0,0,False,,600498,Aiden Markram,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,497121,Deepak Hooda,1,6.26
+ipl20,101102,1254099,1st innings,0,52,71/4,0,0,68,11.2,1,0,0,False,,497121,Deepak Hooda,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,600498,Aiden Markram,1,6.26
+ipl20,101103,1254099,1st innings,0,51,72/4,0,0,69,11.3,1,0,0,False,,600498,Aiden Markram,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,497121,Deepak Hooda,1,6.26
+ipl20,101104,1254099,1st innings,0,50,73/4,0,0,70,11.4,1,0,0,False,,497121,Deepak Hooda,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,600498,Aiden Markram,1,6.25
+ipl20,101105,1254099,1st innings,0,49,74/4,0,0,71,11.5,1,0,0,False,,600498,Aiden Markram,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,497121,Deepak Hooda,1,6.25
+ipl20,101106,1254099,1st innings,0,48,75/4,0,0,72,11.6,1,0,0,False,,497121,Deepak Hooda,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,600498,Aiden Markram,1,6.25
+ipl20,101201,1254099,1st innings,0,47,77/4,0,0,73,12.1,2,0,0,False,,497121,Deepak Hooda,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,600498,Aiden Markram,2,6.32
+ipl20,101202,1254099,1st innings,0,46,79/4,0,0,74,12.2,2,0,0,False,,497121,Deepak Hooda,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,600498,Aiden Markram,2,6.4
+ipl20,101203,1254099,1st innings,0,45,80/4,0,0,75,12.3,1,0,0,False,,497121,Deepak Hooda,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,600498,Aiden Markram,1,6.4
+ipl20,101204,1254099,1st innings,0,44,81/4,0,0,76,12.4,1,0,0,False,,600498,Aiden Markram,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,497121,Deepak Hooda,1,6.39
+ipl20,101205,1254099,1st innings,0,43,82/4,0,0,77,12.5,1,0,0,False,,497121,Deepak Hooda,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,600498,Aiden Markram,1,6.38
+ipl20,101206,1254099,1st innings,0,42,83/4,0,0,78,12.6,1,0,0,False,,600498,Aiden Markram,Punjab Kings,471342,Krunal Pandya,Mumbai Indians,,,497121,Deepak Hooda,1,6.38
+ipl20,101301,1254099,1st innings,0,41,85/4,0,0,79,13.1,2,0,0,False,,600498,Aiden Markram,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,497121,Deepak Hooda,2,6.45
+ipl20,101302,1254099,1st innings,0,40,86/4,0,0,80,13.2,1,0,0,False,,600498,Aiden Markram,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,497121,Deepak Hooda,1,6.45
+ipl20,101303,1254099,1st innings,0,39,87/4,0,0,81,13.3,1,0,0,False,,497121,Deepak Hooda,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,600498,Aiden Markram,1,6.44
+ipl20,101304,1254099,1st innings,0,38,89/4,0,0,82,13.4,2,0,0,False,,600498,Aiden Markram,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,497121,Deepak Hooda,2,6.51
+ipl20,101305,1254099,1st innings,0,37,89/4,0,0,83,13.5,0,0,0,False,,600498,Aiden Markram,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,497121,Deepak Hooda,0,6.43
+ipl20,101306,1254099,1st innings,0,36,90/4,0,0,84,13.6,1,0,0,False,,600498,Aiden Markram,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,497121,Deepak Hooda,1,6.42
+ipl20,101401,1254099,1st innings,0,35,94/4,0,0,85,14.1,4,0,0,False,,600498,Aiden Markram,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,497121,Deepak Hooda,4,6.63
+ipl20,101402,1254099,1st innings,0,34,98/4,0,0,86,14.2,4,0,0,False,,600498,Aiden Markram,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,497121,Deepak Hooda,4,6.83
+ipl20,101403,1254099,1st innings,0,33,99/4,0,0,87,14.3,1,0,0,False,,600498,Aiden Markram,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,497121,Deepak Hooda,1,6.82
+ipl20,101404,1254099,1st innings,0,32,101/4,0,0,88,14.4,2,0,0,False,,497121,Deepak Hooda,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,600498,Aiden Markram,2,6.88
+ipl20,101405,1254099,1st innings,0,31,105/4,0,0,89,14.5,4,0,0,False,,497121,Deepak Hooda,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,600498,Aiden Markram,4,7.07
+ipl20,101406,1254099,1st innings,0,30,105/4,0,0,90,14.6,0,0,0,False,,497121,Deepak Hooda,Punjab Kings,277912,Trent Boult,Mumbai Indians,,,600498,Aiden Markram,0,7.0
+ipl20,101501,1254099,1st innings,0,29,109/4,0,0,91,15.1,4,0,0,False,,600498,Aiden Markram,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,497121,Deepak Hooda,4,7.18
+ipl20,101502,1254099,1st innings,0,28,109/5,0,5,92,15.2,0,0,0,True,bowled,600498,Aiden Markram,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,600498,Aiden Markram,497121,Deepak Hooda,0,7.1
+ipl20,101503,1254099,1st innings,0,27,110/5,0,0,93,15.3,1,0,0,False,,1168641,Harpreet Brar,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,497121,Deepak Hooda,1,7.09
+ipl20,101504,1254099,1st innings,0,26,111/5,0,0,94,15.4,1,0,0,False,,497121,Deepak Hooda,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,1168641,Harpreet Brar,1,7.08
+ipl20,101505,1254099,1st innings,0,25,111/5,0,0,95,15.5,0,0,0,False,,1168641,Harpreet Brar,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,497121,Deepak Hooda,0,7.01
+ipl20,101506,1254099,1st innings,0,24,112/5,0,0,96,15.6,1,0,0,False,,1168641,Harpreet Brar,Punjab Kings,1064812,Rahul Chahar,Mumbai Indians,,,497121,Deepak Hooda,1,7.0
+ipl20,101601,1254099,1st innings,0,23,113/5,0,0,97,16.1,1,0,0,False,,1168641,Harpreet Brar,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,497121,Deepak Hooda,1,6.98
+ipl20,101602,1254099,1st innings,0,22,114/5,0,0,98,16.2,1,0,1,False,,497121,Deepak Hooda,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,1168641,Harpreet Brar,1,6.97
+ipl20,101603,1254099,1st innings,0,21,114/5,0,0,99,16.3,0,0,0,False,,1168641,Harpreet Brar,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,497121,Deepak Hooda,0,6.9
+ipl20,101604,1254099,1st innings,0,20,116/5,0,0,100,16.4,2,0,0,False,,1168641,Harpreet Brar,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,497121,Deepak Hooda,2,6.96
+ipl20,101605,1254099,1st innings,0,19,118/5,0,0,101,16.5,2,0,0,False,,1168641,Harpreet Brar,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,497121,Deepak Hooda,2,7.0
+ipl20,101606,1254099,1st innings,0,18,118/5,0,0,102,16.6,0,0,0,False,,1168641,Harpreet Brar,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,497121,Deepak Hooda,0,6.94
+ipl20,101701,1254099,1st innings,0,17,119/5,0,0,103,17.1,1,0,0,False,,497121,Deepak Hooda,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,1168641,Harpreet Brar,1,6.93
+ipl20,101702,1254099,1st innings,0,16,119/5,0,0,104,17.2,0,0,0,False,,1168641,Harpreet Brar,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,497121,Deepak Hooda,0,6.86
+ipl20,101703,1254099,1st innings,0,15,120/5,0,0,105,17.3,1,0,1,False,,1168641,Harpreet Brar,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,497121,Deepak Hooda,1,6.85
+ipl20,101704,1254099,1st innings,0,14,121/5,0,0,106,17.4,1,0,0,False,,497121,Deepak Hooda,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,1168641,Harpreet Brar,1,6.84
+ipl20,101705,1254099,1st innings,0,13,121/5,0,0,107,17.5,0,0,0,False,,1168641,Harpreet Brar,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,497121,Deepak Hooda,0,6.78
+ipl20,101706,1254099,1st innings,0,12,122/5,0,0,108,17.6,1,0,0,False,,1168641,Harpreet Brar,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,497121,Deepak Hooda,1,6.77
+ipl20,101801,1254099,1st innings,0,11,122/5,0,0,109,18.1,0,0,0,False,,1168641,Harpreet Brar,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,497121,Deepak Hooda,0,6.71
+ipl20,101802,1254099,1st innings,0,10,122/5,0,0,110,18.2,0,0,0,False,,1168641,Harpreet Brar,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,497121,Deepak Hooda,0,6.65
+ipl20,101803,1254099,1st innings,0,9,123/5,0,0,111,18.3,1,0,1,False,,1168641,Harpreet Brar,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,497121,Deepak Hooda,1,6.64
+ipl20,101804,1254099,1st innings,0,8,123/6,0,6,112,18.4,0,0,0,True,caught,497121,Deepak Hooda,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,230559,Kieron Pollard,1168641,Harpreet Brar,0,6.58
+ipl20,101805,1254099,1st innings,0,7,125/6,0,0,113,18.5,2,0,0,False,,1168641,Harpreet Brar,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,826915,Nathan Ellis,2,6.63
+ipl20,101806,1254099,1st innings,0,6,127/6,0,0,114,18.6,2,0,0,False,,1168641,Harpreet Brar,Punjab Kings,625383,Jasprit Bumrah,Mumbai Indians,,,826915,Nathan Ellis,2,6.68
+ipl20,101901,1254099,1st innings,0,5,128/6,0,0,115,19.1,1,0,0,False,,826915,Nathan Ellis,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,1168641,Harpreet Brar,1,6.67
+ipl20,101902,1254099,1st innings,0,4,129/6,0,0,116,19.2,1,0,0,False,,1168641,Harpreet Brar,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,826915,Nathan Ellis,1,6.67
+ipl20,101903,1254099,1st innings,0,3,130/6,0,0,117,19.3,1,0,0,False,,826915,Nathan Ellis,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,1168641,Harpreet Brar,1,6.66
+ipl20,101904,1254099,1st innings,0,2,131/6,0,0,118,19.4,1,0,0,False,,1168641,Harpreet Brar,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,826915,Nathan Ellis,1,6.66
+ipl20,101905,1254099,1st innings,0,1,133/6,0,0,119,19.5,2,0,0,False,,826915,Nathan Ellis,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,1168641,Harpreet Brar,2,6.7
+ipl20,101906,1254099,1st innings,0,0,135/6,0,0,120,19.6,2,0,0,False,,826915,Nathan Ellis,Punjab Kings,261354,Nathan Coulter-Nile,Mumbai Indians,,,1168641,Harpreet Brar,2,6.75
+ipl20,200001,1254099,2nd innings,136,119,0,1/0,0,1,0.1,1,0,0,False,,34102,Rohit Sharma,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,379143,Quinton de Kock,1,6.0
+ipl20,200002,1254099,2nd innings,136,118,0,1/0,0,2,0.2,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,34102,Rohit Sharma,0,3.0
+ipl20,200003,1254099,2nd innings,136,117,0,3/0,0,3,0.3,2,0,0,False,,379143,Quinton de Kock,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,34102,Rohit Sharma,2,6.0
+ipl20,200004,1254099,2nd innings,136,117,0,4/0,0,3,0.3,1,1,1,False,,379143,Quinton de Kock,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,34102,Rohit Sharma,1,8.0
+ipl20,200005,1254099,2nd innings,136,116,0,5/0,0,4,0.4,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,34102,Rohit Sharma,1,7.5
+ipl20,200006,1254099,2nd innings,136,115,0,5/0,0,5,0.5,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,379143,Quinton de Kock,0,6.0
+ipl20,200007,1254099,2nd innings,136,114,0,6/0,0,6,0.6,1,0,0,False,,34102,Rohit Sharma,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,379143,Quinton de Kock,1,6.0
+ipl20,200101,1254099,2nd innings,136,113,0,6/0,0,7,1.1,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,379143,Quinton de Kock,0,5.14
+ipl20,200102,1254099,2nd innings,136,112,0,6/0,0,8,1.2,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,379143,Quinton de Kock,0,4.5
+ipl20,200103,1254099,2nd innings,136,111,0,10/0,0,9,1.3,4,0,0,False,,34102,Rohit Sharma,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,379143,Quinton de Kock,4,6.66
+ipl20,200104,1254099,2nd innings,136,110,0,10/0,0,10,1.4,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,379143,Quinton de Kock,0,6.0
+ipl20,200105,1254099,2nd innings,136,109,0,10/0,0,11,1.5,0,0,0,False,,34102,Rohit Sharma,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,379143,Quinton de Kock,0,5.45
+ipl20,200106,1254099,2nd innings,136,108,0,12/0,0,12,1.6,2,0,0,False,,34102,Rohit Sharma,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,379143,Quinton de Kock,2,6.0
+ipl20,200201,1254099,2nd innings,136,107,0,12/0,0,13,2.1,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,34102,Rohit Sharma,0,5.53
+ipl20,200202,1254099,2nd innings,136,106,0,14/0,0,14,2.2,2,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,34102,Rohit Sharma,2,6.0
+ipl20,200203,1254099,2nd innings,136,105,0,14/0,0,15,2.3,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,34102,Rohit Sharma,0,5.6
+ipl20,200204,1254099,2nd innings,136,104,0,14/0,0,16,2.4,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,34102,Rohit Sharma,0,5.25
+ipl20,200205,1254099,2nd innings,136,103,0,14/0,0,17,2.5,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,34102,Rohit Sharma,0,4.94
+ipl20,200206,1254099,2nd innings,136,102,0,15/0,0,18,2.6,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,34102,Rohit Sharma,1,5.0
+ipl20,200301,1254099,2nd innings,136,101,0,15/0,0,19,3.1,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,34102,Rohit Sharma,0,4.73
+ipl20,200302,1254099,2nd innings,136,100,0,16/0,0,20,3.2,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,34102,Rohit Sharma,1,4.8
+ipl20,200303,1254099,2nd innings,136,99,0,16/1,1,21,3.3,0,0,0,True,caught,34102,Rohit Sharma,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,1175441,Ravi Bishnoi,379143,Quinton de Kock,0,4.57
+ipl20,200304,1254099,2nd innings,136,98,0,16/2,2,22,3.4,0,0,0,True,bowled,446507,Suryakumar Yadav,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,1175441,Ravi Bishnoi,379143,Quinton de Kock,0,4.36
+ipl20,200305,1254099,2nd innings,136,97,0,17/2,0,23,3.5,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,379143,Quinton de Kock,1,4.43
+ipl20,200306,1254099,2nd innings,136,96,0,18/2,0,24,3.6,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,35390,Saurabh Tiwary,1,4.5
+ipl20,200401,1254099,2nd innings,136,95,0,19/2,0,25,4.1,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,35390,Saurabh Tiwary,1,4.56
+ipl20,200402,1254099,2nd innings,136,94,0,19/2,0,26,4.2,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,379143,Quinton de Kock,0,4.38
+ipl20,200403,1254099,2nd innings,136,93,0,20/2,0,27,4.3,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,379143,Quinton de Kock,1,4.44
+ipl20,200404,1254099,2nd innings,136,92,0,20/2,0,28,4.4,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,35390,Saurabh Tiwary,0,4.28
+ipl20,200405,1254099,2nd innings,136,91,0,21/2,0,29,4.5,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,35390,Saurabh Tiwary,1,4.34
+ipl20,200406,1254099,2nd innings,136,90,0,25/2,0,30,4.6,4,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,379143,Quinton de Kock,4,5.0
+ipl20,200501,1254099,2nd innings,136,89,0,25/2,0,31,5.1,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,,,35390,Saurabh Tiwary,0,4.83
+ipl20,200502,1254099,2nd innings,136,88,0,26/2,0,32,5.2,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,,,35390,Saurabh Tiwary,1,4.87
+ipl20,200503,1254099,2nd innings,136,87,0,26/2,0,33,5.3,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,,,379143,Quinton de Kock,0,4.72
+ipl20,200504,1254099,2nd innings,136,86,0,26/2,0,34,5.4,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,,,379143,Quinton de Kock,0,4.58
+ipl20,200505,1254099,2nd innings,136,85,0,30/2,0,35,5.5,4,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,,,379143,Quinton de Kock,4,5.14
+ipl20,200506,1254099,2nd innings,136,84,0,30/2,0,36,5.6,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,,,379143,Quinton de Kock,0,5.0
+ipl20,200601,1254099,2nd innings,136,83,0,31/2,0,37,6.1,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,35390,Saurabh Tiwary,1,5.02
+ipl20,200602,1254099,2nd innings,136,82,0,32/2,0,38,6.2,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,379143,Quinton de Kock,1,5.05
+ipl20,200603,1254099,2nd innings,136,81,0,33/2,0,39,6.3,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,35390,Saurabh Tiwary,1,5.07
+ipl20,200604,1254099,2nd innings,136,80,0,33/2,0,40,6.4,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,379143,Quinton de Kock,0,4.95
+ipl20,200605,1254099,2nd innings,136,79,0,34/2,0,41,6.5,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,379143,Quinton de Kock,1,4.97
+ipl20,200606,1254099,2nd innings,136,78,0,35/2,0,42,6.6,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,600498,Aiden Markram,Punjab Kings,,,35390,Saurabh Tiwary,1,5.0
+ipl20,200701,1254099,2nd innings,136,77,0,37/2,0,43,7.1,2,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,35390,Saurabh Tiwary,2,5.16
+ipl20,200702,1254099,2nd innings,136,76,0,37/2,0,44,7.2,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,35390,Saurabh Tiwary,0,5.04
+ipl20,200703,1254099,2nd innings,136,75,0,38/2,0,45,7.3,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,35390,Saurabh Tiwary,1,5.06
+ipl20,200704,1254099,2nd innings,136,74,0,39/2,0,46,7.4,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,379143,Quinton de Kock,1,5.08
+ipl20,200705,1254099,2nd innings,136,73,0,39/2,0,47,7.5,0,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,35390,Saurabh Tiwary,0,4.97
+ipl20,200706,1254099,2nd innings,136,72,0,43/2,0,48,7.6,4,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,35390,Saurabh Tiwary,4,5.37
+ipl20,200801,1254099,2nd innings,136,71,0,44/2,0,49,8.1,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1168641,Harpreet Brar,Punjab Kings,,,379143,Quinton de Kock,1,5.38
+ipl20,200802,1254099,2nd innings,136,70,0,45/2,0,50,8.2,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,1168641,Harpreet Brar,Punjab Kings,,,35390,Saurabh Tiwary,1,5.4
+ipl20,200803,1254099,2nd innings,136,69,0,51/2,0,51,8.3,6,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1168641,Harpreet Brar,Punjab Kings,,,379143,Quinton de Kock,6,6.0
+ipl20,200804,1254099,2nd innings,136,68,0,53/2,0,52,8.4,2,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1168641,Harpreet Brar,Punjab Kings,,,379143,Quinton de Kock,2,6.11
+ipl20,200805,1254099,2nd innings,136,67,0,53/2,0,53,8.5,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1168641,Harpreet Brar,Punjab Kings,,,379143,Quinton de Kock,0,6.0
+ipl20,200806,1254099,2nd innings,136,66,0,54/2,0,54,8.6,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1168641,Harpreet Brar,Punjab Kings,,,379143,Quinton de Kock,1,6.0
+ipl20,200901,1254099,2nd innings,136,65,0,55/2,0,55,9.1,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,379143,Quinton de Kock,1,6.0
+ipl20,200902,1254099,2nd innings,136,64,0,56/2,0,56,9.2,1,0,0,False,,379143,Quinton de Kock,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,35390,Saurabh Tiwary,1,6.0
+ipl20,200903,1254099,2nd innings,136,63,0,57/2,0,57,9.3,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,379143,Quinton de Kock,1,6.0
+ipl20,200904,1254099,2nd innings,136,62,0,61/2,0,58,9.4,4,0,0,False,,379143,Quinton de Kock,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,35390,Saurabh Tiwary,4,6.31
+ipl20,200905,1254099,2nd innings,136,61,0,61/3,3,59,9.5,0,0,0,True,bowled,379143,Quinton de Kock,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,379143,Quinton de Kock,35390,Saurabh Tiwary,0,6.2
+ipl20,200906,1254099,2nd innings,136,60,0,62/3,0,60,9.6,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,35390,Saurabh Tiwary,1,6.2
+ipl20,201001,1254099,2nd innings,136,59,0,66/3,0,61,10.1,4,0,0,False,,625371,Hardik Pandya,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,35390,Saurabh Tiwary,4,6.49
+ipl20,201002,1254099,2nd innings,136,58,0,66/3,0,62,10.2,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,35390,Saurabh Tiwary,0,6.38
+ipl20,201003,1254099,2nd innings,136,57,0,66/3,0,63,10.3,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,35390,Saurabh Tiwary,0,6.28
+ipl20,201004,1254099,2nd innings,136,56,0,66/3,0,64,10.4,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,35390,Saurabh Tiwary,0,6.18
+ipl20,201005,1254099,2nd innings,136,55,0,67/3,0,65,10.5,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,35390,Saurabh Tiwary,1,6.18
+ipl20,201006,1254099,2nd innings,136,54,0,68/3,0,66,10.6,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,625371,Hardik Pandya,1,6.18
+ipl20,201101,1254099,2nd innings,136,53,0,68/3,0,67,11.1,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,625371,Hardik Pandya,0,6.08
+ipl20,201102,1254099,2nd innings,136,52,0,70/3,0,68,11.2,2,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,625371,Hardik Pandya,2,6.17
+ipl20,201103,1254099,2nd innings,136,51,0,70/3,0,69,11.3,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,625371,Hardik Pandya,0,6.08
+ipl20,201104,1254099,2nd innings,136,50,0,70/3,0,70,11.4,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,625371,Hardik Pandya,0,6.0
+ipl20,201105,1254099,2nd innings,136,49,0,74/3,0,71,11.5,4,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,625371,Hardik Pandya,4,6.25
+ipl20,201106,1254099,2nd innings,136,48,0,75/3,0,72,11.6,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,625371,Hardik Pandya,1,6.25
+ipl20,201201,1254099,2nd innings,136,47,0,75/3,0,73,12.1,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,,,625371,Hardik Pandya,0,6.16
+ipl20,201202,1254099,2nd innings,136,46,0,76/3,0,74,12.2,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,,,625371,Hardik Pandya,1,6.16
+ipl20,201203,1254099,2nd innings,136,45,0,76/3,0,75,12.3,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,,,35390,Saurabh Tiwary,0,6.08
+ipl20,201204,1254099,2nd innings,136,44,0,76/3,0,76,12.4,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,,,35390,Saurabh Tiwary,0,6.0
+ipl20,201205,1254099,2nd innings,136,43,0,77/3,0,77,12.5,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,,,35390,Saurabh Tiwary,1,6.0
+ipl20,201206,1254099,2nd innings,136,42,0,78/3,0,78,12.6,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,,,625371,Hardik Pandya,1,6.0
+ipl20,201301,1254099,2nd innings,136,41,0,79/3,0,79,13.1,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,625371,Hardik Pandya,1,6.0
+ipl20,201302,1254099,2nd innings,136,40,0,80/3,0,80,13.2,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,35390,Saurabh Tiwary,1,6.0
+ipl20,201303,1254099,2nd innings,136,39,0,81/3,0,81,13.3,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,625371,Hardik Pandya,1,6.0
+ipl20,201304,1254099,2nd innings,136,38,0,82/3,0,82,13.4,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,35390,Saurabh Tiwary,1,6.0
+ipl20,201305,1254099,2nd innings,136,37,0,83/3,0,83,13.5,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,625371,Hardik Pandya,1,6.0
+ipl20,201306,1254099,2nd innings,136,36,0,84/3,0,84,13.6,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,35390,Saurabh Tiwary,1,6.0
+ipl20,201401,1254099,2nd innings,136,35,0,85/3,0,85,14.1,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,35390,Saurabh Tiwary,1,6.0
+ipl20,201402,1254099,2nd innings,136,34,0,85/3,0,86,14.2,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,625371,Hardik Pandya,0,5.93
+ipl20,201403,1254099,2nd innings,136,33,0,85/3,0,87,14.3,0,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,625371,Hardik Pandya,0,5.86
+ipl20,201404,1254099,2nd innings,136,32,0,91/3,0,88,14.4,6,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,625371,Hardik Pandya,6,6.2
+ipl20,201405,1254099,2nd innings,136,31,0,92/3,0,89,14.5,1,0,0,False,,35390,Saurabh Tiwary,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,625371,Hardik Pandya,1,6.2
+ipl20,201406,1254099,2nd innings,136,30,0,92/3,0,90,14.6,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,1175441,Ravi Bishnoi,Punjab Kings,,,35390,Saurabh Tiwary,0,6.13
+ipl20,201501,1254099,2nd innings,136,29,0,92/4,4,91,15.1,0,0,0,True,caught,35390,Saurabh Tiwary,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,35390,Saurabh Tiwary,625371,Hardik Pandya,0,6.06
+ipl20,201502,1254099,2nd innings,136,28,0,94/4,0,92,15.2,2,0,0,False,,230559,Kieron Pollard,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,,,625371,Hardik Pandya,2,6.13
+ipl20,201503,1254099,2nd innings,136,27,0,94/4,0,93,15.3,0,0,0,False,,230559,Kieron Pollard,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,,,625371,Hardik Pandya,0,6.06
+ipl20,201504,1254099,2nd innings,136,26,0,95/4,0,94,15.4,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,,,625371,Hardik Pandya,1,6.06
+ipl20,201505,1254099,2nd innings,136,25,0,95/4,0,95,15.5,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,,,230559,Kieron Pollard,0,6.0
+ipl20,201506,1254099,2nd innings,136,24,0,96/4,0,96,15.6,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,826915,Nathan Ellis,Punjab Kings,,,230559,Kieron Pollard,1,6.0
+ipl20,201601,1254099,2nd innings,136,23,0,96/4,0,97,16.1,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,230559,Kieron Pollard,0,5.93
+ipl20,201602,1254099,2nd innings,136,22,0,100/4,0,98,16.2,4,0,0,False,,625371,Hardik Pandya,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,230559,Kieron Pollard,4,6.12
+ipl20,201603,1254099,2nd innings,136,21,0,106/4,0,99,16.3,6,0,0,False,,625371,Hardik Pandya,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,230559,Kieron Pollard,6,6.42
+ipl20,201604,1254099,2nd innings,136,20,0,106/4,0,100,16.4,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,230559,Kieron Pollard,0,6.36
+ipl20,201605,1254099,2nd innings,136,19,0,106/4,0,101,16.5,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,230559,Kieron Pollard,0,6.29
+ipl20,201606,1254099,2nd innings,136,18,0,107/4,0,102,16.6,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,230559,Kieron Pollard,1,6.29
+ipl20,201701,1254099,2nd innings,136,17,0,107/4,0,103,17.1,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,230559,Kieron Pollard,0,6.23
+ipl20,201702,1254099,2nd innings,136,16,0,107/4,0,104,17.2,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,230559,Kieron Pollard,0,6.17
+ipl20,201703,1254099,2nd innings,136,15,0,108/4,0,105,17.3,1,0,0,False,,625371,Hardik Pandya,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,230559,Kieron Pollard,1,6.17
+ipl20,201704,1254099,2nd innings,136,15,0,109/4,0,105,17.3,1,1,1,False,,230559,Kieron Pollard,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,625371,Hardik Pandya,1,6.22
+ipl20,201705,1254099,2nd innings,136,14,0,113/4,0,106,17.4,4,0,0,False,,230559,Kieron Pollard,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,625371,Hardik Pandya,4,6.39
+ipl20,201706,1254099,2nd innings,136,13,0,119/4,0,107,17.5,6,0,0,False,,230559,Kieron Pollard,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,625371,Hardik Pandya,6,6.67
+ipl20,201707,1254099,2nd innings,136,12,0,120/4,0,108,17.6,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,1125976,Arshdeep Singh,Punjab Kings,,,625371,Hardik Pandya,1,6.66
+ipl20,201801,1254099,2nd innings,136,11,0,121/4,0,109,18.1,1,0,0,False,,230559,Kieron Pollard,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,625371,Hardik Pandya,1,6.66
+ipl20,201802,1254099,2nd innings,136,10,0,121/4,0,110,18.2,0,0,0,False,,625371,Hardik Pandya,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,230559,Kieron Pollard,0,6.6
+ipl20,201803,1254099,2nd innings,136,9,0,125/4,0,111,18.3,4,0,0,False,,625371,Hardik Pandya,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,230559,Kieron Pollard,4,6.75
+ipl20,201804,1254099,2nd innings,136,8,0,127/4,0,112,18.4,2,0,0,False,,625371,Hardik Pandya,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,230559,Kieron Pollard,2,6.8
+ipl20,201805,1254099,2nd innings,136,7,0,131/4,0,113,18.5,4,0,0,False,,625371,Hardik Pandya,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,230559,Kieron Pollard,4,6.95
+ipl20,201806,1254099,2nd innings,136,6,0,137/4,0,114,18.6,6,0,0,False,,625371,Hardik Pandya,Mumbai Indians,481896,Mohammed Shami,Punjab Kings,,,230559,Kieron Pollard,6,7.21
