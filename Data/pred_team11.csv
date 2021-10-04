@@ -1,20 +1,18 @@
 playername,teamname,playingrole,playercost,model1_points,model1_team,model2_points,model2_team
-JM Bairstow,Sunrisers Hyderabad,Batsmen,10.0,45.0,1.0,37.0,1.0
-CH Morris,Rajasthan Royals,AllRounder,9.5,42.0,1.0,43.0,1.0
-SV Samson,Rajasthan Royals,Batsmen,9.5,37.0,1.0,32.0,1.0
-R Parag,Rajasthan Royals,AllRounder,8.5,36.0,1.0,24.0,
-R Tewatia,Rajasthan Royals,AllRounder,9.0,36.0,1.0,31.0,1.0
-V Shankar,Sunrisers Hyderabad,AllRounder,8.5,36.0,1.0,31.0,1.0
-JC Buttler,Rajasthan Royals,Batsmen,9.5,35.0,1.0,28.0,
-MK Pandey,Sunrisers Hyderabad,Batsmen,9.0,34.0,1.0,33.0,1.0
-Rashid Khan,Sunrisers Hyderabad,Bowler,9.5,31.0,1.0,30.0,1.0
-K Tyagi,Rajasthan Royals,Bowler,8.0,30.0,1.0,24.0,1.0
-C Sakariya,Rajasthan Royals,Bowler,8.5,28.0,1.0,,
-A Samad,Sunrisers Hyderabad,AllRounder,8.0,35.0,,22.0,
-KM Jadhav,Sunrisers Hyderabad,AllRounder,8.0,34.0,,30.0,1.0
-KS Williamson,Sunrisers Hyderabad,Batsmen,9.0,34.0,,33.0,1.0
-DA Miller,Rajasthan Royals,Batsmen,9.0,34.0,,29.0,
-M Rahman,Rajasthan Royals,Bowler,8.5,28.0,,,
-KK Ahmed,Sunrisers Hyderabad,Bowler,8.0,28.0,,26.0,1.0
-Yashasvi Jaiswal,Rajasthan Royals,Batsmen,8.0,28.0,,26.0,
-Sandeep Sharma,Sunrisers Hyderabad,Bowler,8.5,26.0,,22.0,
+DJ Bravo,Chennai Super Kings,AllRounder,10.0,38.0,1.0,43.0,1.0
+AR Patel,Delhi Capitals,AllRounder,8.5,38.0,1.0,40.0,1.0
+SS Iyer,Delhi Capitals,Batsmen,9.0,37.0,1.0,35.0,1.0
+F du Plessis,Chennai Super Kings,Batsmen,9.0,37.0,1.0,35.0,1.0
+RA Jadeja,Chennai Super Kings,AllRounder,8.5,36.0,1.0,41.0,1.0
+S Dhawan,Delhi Capitals,Batsmen,10.0,35.0,1.0,36.0,1.0
+AT Rayudu,Chennai Super Kings,Batsmen,9.0,34.0,1.0,28.0,
+RR Pant,Delhi Capitals,Batsmen,9.5,33.0,1.0,27.0,
+SN Thakur,Chennai Super Kings,Bowler,8.5,31.0,1.0,31.0,1.0
+K Rabada,Delhi Capitals,Bowler,9.5,30.0,1.0,29.0,
+DL Chahar,Chennai Super Kings,Bowler,8.5,29.0,1.0,28.0,
+PP Shaw,Delhi Capitals,Batsmen,8.5,33.0,,30.0,1.0
+MP Stoinis,Delhi Capitals,AllRounder,8.5,32.0,,19.0,
+MS Dhoni,Chennai Super Kings,Batsmen,9.5,31.0,,36.0,1.0
+SO Hetmyer,Delhi Capitals,Batsmen,8.5,29.0,,30.0,
+A Nortje,Delhi Capitals,Bowler,8.0,27.0,,30.0,1.0
+R Ashwin,Delhi Capitals,Bowler,9.0,27.0,,30.0,1.0
