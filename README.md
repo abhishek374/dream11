@@ -1,3 +1,4 @@
+[![Not Maintained](https://img.shields.io/badge/Maintenance%20Level-Not%20Maintained-yellow.svg)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
 # Dream11
 ## Repo OverView
 Aim is to select the team that would get the maximum total points in an IPL match under dream 11 constraints. To do so we have followed a 2 stage approach, where we first try to predict points achieved by individual players and then selecting the top 11 out of the total squad as per the cost of each player and other relevant constraints. We are using a mix integer linear optimization method to get the team out of the squad. To get the points of each player we are exploring various methods to leverage the past performance of players to predict their points in the following matches. Below is the description of how the modules are structured and the results thus obtained.
